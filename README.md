@@ -126,6 +126,14 @@ http://localhost:8000/quiz.html?quiz=my-quiz&preview=1
 
 ## Локальная проверка и запуск
 
+Статические страницы индивидуальных превью создаются командой:
+
+```bat
+python scripts/generate_share_pages.py
+```
+
+Генератор берёт `slug`, название (`title`), описание (`short_description`) и обложку (`cover`) непосредственно из `data/quizzes/*.json` и создаёт страницы только для опубликованных викторин. Запускайте его после добавления викторины или изменения этих полей, затем коммитьте обновлённый каталог `v/`. Обычная сборка `python tools/build_site.py` также создаёт эти страницы в `_site/v/`.
+
 Только проверить контент:
 
 ```bat
@@ -145,6 +153,7 @@ python -m http.server 8000 -d _site
 
 ```bat
 python -m unittest tests.test_build_site
+python -m unittest tests.test_share_pages
 node tests/catalog.test.js
 node tests/quiz.test.js
 ```

@@ -144,11 +144,12 @@
   function formatQuestionCount(count) { return `${count} ${catalogCore.questionWord(count)}`; }
   function shareText(quiz, correct, total, quizUrl) { const percent = resultPercent(correct, total); const title = String(quiz.title).replace(/\s+/g, ' ').trim(); return `Мой результат — ${correct} из ${total} (${percent}%) в викторине «${title}». А какой у вас? Проверьте: ${quizUrl}`; }
   function directQuizUrl(currentUrl, slug) { const url = new URL(currentUrl); url.search = ''; url.hash = ''; url.pathname = url.pathname.replace(/[^/]*$/, 'quiz.html'); url.searchParams.set('quiz', slug); return url.href; }
+  function shareQuizUrl(slug) { return `https://tssrkt.github.io/quiz/v/${encodeURIComponent(slug)}/`; }
   function prefersReducedMotion(matchMedia) { return Boolean(matchMedia?.('(prefers-reduced-motion: reduce)').matches); }
   function autoAdvanceDelay(correct) { return correct ? 800 : null; }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, shareText, directQuizUrl, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
+  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, shareText, directQuizUrl, shareQuizUrl, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -243,7 +244,7 @@ function init(core) {
   function renderResult() {
     setWideLayout(false);
     state = { ...state, completed: true, current_index: quiz.questions.length, saved_at: new Date().toISOString() }; saveState();
-    const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const message = core.resultMessage(percent); const url = core.directQuizUrl(location.href, quiz.slug); const sharePayload = core.shareText(quiz, state.correct_count, total, url);
+    const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const message = core.resultMessage(percent); const url = core.shareQuizUrl(quiz.slug); const sharePayload = core.shareText(quiz, state.correct_count, total, url);
     const recommendation = core.resultRecommendation(percent);
     const explanation = message ? `${message} ${recommendation}` : recommendation;
     const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(explanation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;

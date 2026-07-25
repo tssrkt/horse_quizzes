@@ -119,7 +119,7 @@ class BuildSiteTests(unittest.TestCase):
 
     def test_generates_stable_ids_and_content_version(self):
         _, quizzes = self.load()
-        horse = quizzes[0]
+        horse = next(quiz for quiz in quizzes if quiz["slug"] == "horse-colors")
         self.assertEqual(horse["questions"][0]["id"], "question-01")
         self.assertEqual(horse["questions"][4]["id"], "question-05")
         self.assertEqual([answer["id"] for answer in horse["questions"][0]["answers"]], ["answer-01", "answer-02", "answer-03", "answer-04"])
@@ -129,7 +129,8 @@ class BuildSiteTests(unittest.TestCase):
         changed["questions"][3]["question"] += " Изменено"
         self.write_quiz(changed)
         _, changed_quizzes = self.load()
-        self.assertNotEqual(horse["content_version"], changed_quizzes[0]["content_version"])
+        changed_horse = next(quiz for quiz in changed_quizzes if quiz["slug"] == "horse-colors")
+        self.assertNotEqual(horse["content_version"], changed_horse["content_version"])
 
         image_changed = self.horse()
         replacement = self.base / "replacement.webp"
@@ -143,15 +144,17 @@ class BuildSiteTests(unittest.TestCase):
         changed["questions"][-1]["question"] = "Новый тестовый вопрос?"
         self.write_quiz(changed)
         _, changed_quizzes = self.load()
-        self.assertEqual(len(changed_quizzes[0]["questions"]), len(horse["questions"]) + 1)
-        self.assertNotEqual(horse["content_version"], changed_quizzes[0]["content_version"])
+        changed_horse = next(quiz for quiz in changed_quizzes if quiz["slug"] == "horse-colors")
+        self.assertEqual(len(changed_horse["questions"]), len(horse["questions"]) + 1)
+        self.assertNotEqual(horse["content_version"], changed_horse["content_version"])
 
         changed = self.horse()
         changed["questions"][0]["answers"][0]["text"] += "!"
         changed["questions"][0]["explanation"] += " Изменено"
         self.write_quiz(changed)
         _, changed_quizzes = self.load()
-        self.assertNotEqual(horse["content_version"], changed_quizzes[0]["content_version"])
+        changed_horse = next(quiz for quiz in changed_quizzes if quiz["slug"] == "horse-colors")
+        self.assertNotEqual(horse["content_version"], changed_horse["content_version"])
 
     def test_build_does_not_modify_source_and_writes_normalized_quiz(self):
         source = ROOT / "data" / "quizzes" / "horse-colors.json"
@@ -164,7 +167,8 @@ class BuildSiteTests(unittest.TestCase):
         self.assertEqual(len(built["questions"]), len(source_quiz["questions"]))
         self.assertEqual(catalog["quizzes"][0]["question_count"], len(source_quiz["questions"]))
         self.assertEqual(catalog["quizzes"][0]["difficulty"], "low")
-        self.assertEqual(catalog["quizzes"][0]["content_version"], built["content_version"])
+        catalog_horse = next(quiz for quiz in catalog["quizzes"] if quiz["slug"] == "horse-colors")
+        self.assertEqual(catalog_horse["content_version"], built["content_version"])
         self.assertEqual(
             [question["id"] for question in built["questions"]],
             [question["id"] for question in source_quiz["questions"]],
@@ -241,7 +245,8 @@ class BuildSiteTests(unittest.TestCase):
 
     def test_question_images_are_isolated_by_quiz_slug(self):
         _, quizzes = self.load()
-        self.assertTrue(all(question["image"].startswith("img/quiz/horse-colors/") for question in quizzes[0]["questions"]))
+        horse = next(quiz for quiz in quizzes if quiz["slug"] == "horse-colors")
+        self.assertTrue(all(question["image"].startswith("img/quiz/horse-colors/") for question in horse["questions"]))
 
         other = self.horse()
         other["slug"] = "other-quiz"

@@ -136,6 +136,7 @@ assert.equal(perfectShare.includes('\n'), false, 'текст публикаци�
 assert.equal(/\s{2,}/.test(perfectShare), false, 'в тексте публикации нет двойных пробелов');
 assert.equal(core.shareText({ title: 'Редкие  масти' }, 4, 5, rareColorsUrl).includes('«Редкие масти»'), true, 'пробелы в названии нормализуются');
 assert.equal(core.directQuizUrl('https://example.test/quiz/quiz.html?quiz=x&preview=1', 'horse-colors'), 'https://example.test/quiz/quiz.html?quiz=horse-colors');
+assert.equal(core.shareQuizUrl('horse-colors'), 'https://tssrkt.github.io/quiz/v/horse-colors/');
 assert.equal(core.shareMethod(false), 'copy', '18: fallback без Web Share');
 assert.equal(core.shareMethod(true), 'share');
 assert.equal(core.prefersReducedMotion(() => ({ matches: true })), true);

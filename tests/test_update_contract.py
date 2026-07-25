@@ -38,14 +38,22 @@ class UpdateContractTests(unittest.TestCase):
         self.assertIn('label: "{fields.title}"', next_quiz)
 
     def test_tag_files_keep_technical_names_and_russian_labels(self):
-        expected = {
+        required = {
             "horses.json": ("Масти", "horses"),
             "images.json": ("Картинки", "images"),
             "genetics.json": ("Генетика", "genetics"),
         }
         tag_root = ROOT / "data" / "tags"
-        self.assertEqual({path.name for path in tag_root.glob("*.json")}, set(expected))
-        for filename, (name, slug) in expected.items():
+        tag_paths = sorted(tag_root.glob("*.json"))
+        self.assertTrue(tag_paths)
+        for path in tag_paths:
+            tag = json.loads(path.read_text(encoding="utf-8"))
+            self.assertEqual(path.stem, tag["slug"])
+            self.assertIsInstance(tag["name"], str)
+            self.assertTrue(tag["name"].strip())
+            self.assertEqual(tag["published"], True)
+        self.assertTrue(set(required).issubset(path.name for path in tag_paths))
+        for filename, (name, slug) in required.items():
             tag = json.loads((tag_root / filename).read_text(encoding="utf-8"))
             self.assertEqual(tag, {"name": name, "slug": slug, "published": True})
 
@@ -105,7 +113,7 @@ class UpdateContractTests(unittest.TestCase):
         self.assertIn('class="next-quiz__label">Следующая викторина', javascript)
         self.assertIn('quiz.html?quiz=${encodeURIComponent(nextQuiz.slug)}', javascript)
         self.assertIn("nextQuiz ?", javascript)
-        self.assertIn(".next-quiz__link:hover span", stylesheet)
+        self.assertIn(".next-quiz__link:hover{", stylesheet)
 
     def test_catalog_cards_have_bounded_horizontal_and_square_mobile_layouts(self):
         css = (ROOT / "css" / "style.css").read_text(encoding="utf-8")

@@ -14,6 +14,9 @@ import sys
 from pathlib import Path
 from urllib.parse import urlparse
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+from generate_share_pages import SharePageError, generate as generate_share_pages
+
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
@@ -332,6 +335,10 @@ def build(output: Path = OUTPUT) -> dict:
     with (output / "data" / "catalog.json").open("w", encoding="utf-8", newline="\n") as stream:
         json.dump(catalog, stream, ensure_ascii=False, indent=2)
         stream.write("\n")
+    try:
+        generate_share_pages(ROOT, output / "v")
+    except SharePageError as error:
+        raise ContentError(str(error)) from error
     return catalog
 
 
