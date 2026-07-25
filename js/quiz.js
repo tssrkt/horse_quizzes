@@ -17,6 +17,7 @@
   function canOpenQuiz(data, previewMode) { return data?.published === true || (data?.published === false && previewMode === true); }
   function validateQuiz(data) {
     if (!data || !SLUG_PATTERN.test(data.slug || '') || !/^[0-9a-f]{64}$/.test(data.content_version || '') || typeof data.title !== 'string' || typeof data.intro !== 'string' || typeof data.published !== 'boolean' || !Array.isArray(data.questions) || !data.questions.length) return false;
+    if (data.questionImagesAlt != null && typeof data.questionImagesAlt !== 'string') return false;
     if (data.next_quiz != null && data.next_quiz !== '' && !SLUG_PATTERN.test(data.next_quiz)) return false;
     const questionIds = new Set();
     return data.questions.every((question) => {
@@ -143,6 +144,8 @@
     return '';
   }
   function formatQuestionCount(count) { return `${count} ${catalogCore.questionWord(count)}`; }
+  function coverAlt(quiz) { return `Обложка викторины «${String(quiz.title).trim()}»`; }
+  function questionImageAlt(quiz) { return String(quiz.questionImagesAlt || '').trim() || 'Фотография лошади к вопросу'; }
   function shareText(quiz, correct, total, quizUrl) { const percent = resultPercent(correct, total); const title = String(quiz.title).replace(/\s+/g, ' ').trim(); return `Мой результат — ${correct} из ${total} (${percent}%) в викторине «${title}». А какой у вас? Проверьте: ${quizUrl}`; }
   function directQuizUrl(currentUrl, slug) { const url = new URL(currentUrl); url.search = ''; url.hash = ''; url.pathname = url.pathname.replace(/[^/]*$/, 'quiz.html'); url.searchParams.set('quiz', slug); return url.href; }
   function shareQuizUrl(slug) { return `https://tssrkt.github.io/quiz/v/${encodeURIComponent(slug)}/`; }
@@ -157,7 +160,7 @@
   function autoAdvanceDelay(correct) { return correct ? 800 : null; }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
+  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -188,12 +191,12 @@ function init(core) {
     document.body.appendChild(layer); window.setTimeout(() => layer.remove(), 1100);
   }
   function preloadNextImage() { const next = quiz.questions[state.current_index + 1]; if (next?.image) { const image = new Image(); image.src = pageUrl(core.versionedUrl(next.image, quiz.content_version)); } }
-  function coverTemplate() { return quiz.cover ? `<img class="quiz-intro-cover" src="${escapeHtml(pageUrl(quiz.cover))}" alt="Обложка викторины «${escapeHtml(quiz.title)}»">` : ''; }
+  function coverTemplate() { return quiz.cover ? `<img class="quiz-intro-cover" src="${escapeHtml(pageUrl(quiz.cover))}" alt="${escapeHtml(core.coverAlt(quiz))}">` : ''; }
   function imageTemplate(question) {
     if (!question.image) return '';
     const source = question.image_source_url ? `<a href="${escapeHtml(question.image_source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(question.image_source || 'Источник изображения')}</a>` : escapeHtml(question.image_source || '');
     const credit = [question.image_author ? `Автор: ${escapeHtml(question.image_author)}` : '', source].filter(Boolean).join(' · ');
-    return `<figure class="question-image"><img src="${escapeHtml(pageUrl(core.versionedUrl(question.image, quiz.content_version)))}" alt="${escapeHtml(question.image_alt || '')}">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
+    return `<figure class="question-image"><img src="${escapeHtml(pageUrl(core.versionedUrl(question.image, quiz.content_version)))}" alt="${escapeHtml(core.questionImageAlt(quiz))}">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
   }
   function restart() { transitionScheduled = false; answerLocked = false; clearState(); quiz = core.createAttemptQuiz(sourceQuiz, true); state = core.freshState(quiz); saveState(); renderQuestion(); }
   function renderIntro() {

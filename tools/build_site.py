@@ -137,6 +137,8 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
             slugs[slug] = path
         for field in ("title", "short_description", "intro"):
             require_string(data, field, label, errors)
+        if "questionImagesAlt" in data and not isinstance(data["questionImagesAlt"], str):
+            errors.append(f"{label}.questionImagesAlt: требуется строка")
         if not isinstance(data.get("published"), bool):
             errors.append(f"{label}.published: требуется true или false")
         difficulty = data.get("difficulty")
@@ -199,8 +201,6 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
                 image_parts = Path(image).parts
                 if len(image_parts) > 3 and image_parts[:2] == ("img", "quiz") and image_parts[2] != slug:
                     errors.append(f"{qlabel}.image: папка изображения должна совпадать со slug «{slug}»")
-            if "image_alt" in question and not isinstance(question["image_alt"], str):
-                errors.append(f"{qlabel}.image_alt: для изображения требуется строка")
             validate_external_url(question.get("image_source_url", ""), f"{qlabel}.image_source_url", errors)
             answers = question.get("answers")
             if not isinstance(answers, list) or not 2 <= len(answers) <= 6:
@@ -260,6 +260,7 @@ def normalize_quiz(source: dict) -> dict:
     quiz = copy.deepcopy(source)
     slug = quiz["slug"]
     for q_index, question in enumerate(quiz["questions"], 1):
+        question.pop("image_alt", None)
         for answer in question["answers"]:
             answer.pop("correct", None)
         image = question.get("image", "")

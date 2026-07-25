@@ -7,6 +7,7 @@
   "short_description": "Короткое описание для карточки каталога.",
   "intro": "Вступительный текст перед началом прохождения.",
   "cover": "img/covers/example.webp",
+  "questionImagesAlt": "Фотография лошади к вопросу викторины",
   "tags": [
     "animals"
   ],
@@ -15,7 +16,6 @@
     {
       "question": "Какой вариант правильный на изображении?",
       "image": "img/quiz/quiz-example/01.webp",
-      "image_alt": "Описание содержимого изображения",
       "answers": [
         {
           "text": "Первый вариант",
@@ -44,7 +44,6 @@
     {
       "question": "Вопрос без изображения?",
       "image": "",
-      "image_alt": "",
       "answers": [
         {
           "text": "Первый вариант",

@@ -211,17 +211,24 @@ class BuildSiteTests(unittest.TestCase):
     def test_missing_image(self):
         self.assert_quiz_error(lambda quiz: quiz["questions"][0].update(image="img/quiz/missing.webp"), "файл не найден")
 
-    def test_image_without_image_alt_is_valid(self):
+    def test_legacy_image_alt_is_removed_from_published_quiz(self):
         quiz = self.horse()
-        quiz["questions"][0].pop("image_alt", None)
+        quiz["questions"][0]["image_alt"] = "Старый индивидуальный alt"
         self.write_quiz(quiz)
         _, quizzes = self.load()
-        self.assertNotIn("image_alt", quizzes[0]["questions"][0])
+        horse = next(item for item in quizzes if item["slug"] == "horse-colors")
+        self.assertNotIn("image_alt", horse["questions"][0])
 
-    def test_image_alt_is_rejected_only_when_present_and_not_a_string(self):
+    def test_question_images_alt_is_optional_and_must_be_a_string(self):
+        quiz = self.horse()
+        quiz["questionImagesAlt"] = "Фотография лошади для определения масти"
+        self.write_quiz(quiz)
+        _, quizzes = self.load()
+        horse = next(item for item in quizzes if item["slug"] == "horse-colors")
+        self.assertEqual(horse["questionImagesAlt"], quiz["questionImagesAlt"])
         self.assert_quiz_error(
-            lambda quiz: quiz["questions"][0].update(image_alt=None),
-            "image_alt:",
+            lambda source: source.update(questionImagesAlt=None),
+            "questionImagesAlt:",
         )
 
     def test_build_publishes_every_question_and_image(self):

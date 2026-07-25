@@ -125,6 +125,11 @@ content:
         options:
           media: covers
           categories: [image]
+      - name: questionImagesAlt
+        label: Общий alt для изображений вопросов
+        type: string
+        required: false
+        description: Используется для всех изображений вопросов этой викторины. Не указывайте правильный ответ.
       - name: tags
         label: Теги
         type: reference
@@ -171,11 +176,6 @@ content:
             options:
               media: quiz_images
               categories: [image]
-          - name: image_alt
-            label: Альтернативный текст
-            type: string
-            required: false
-            description: Обязателен для содержательного изображения; оставьте пустым для декоративного.
           - name: answers
             label: Варианты ответа
             type: object

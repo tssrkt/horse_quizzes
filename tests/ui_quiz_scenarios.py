@@ -37,7 +37,10 @@ def start_clean(page):
     page.goto(QUIZ_URL)
     page.evaluate("localStorage.clear()")
     page.reload()
+    assert page.locator(".quiz-intro-cover").get_attribute("alt") == f"Обложка викторины «{QUIZ['title']}»"
     page.get_by_role("button", name="Начать викторину").click()
+    assert page.locator(".question-image img").get_attribute("alt") == "Фотография лошади к вопросу"
+    assert page.evaluate("Array.from(document.images).every(image => image.hasAttribute('alt'))")
 
 
 def all_correct(page):
@@ -201,6 +204,7 @@ def catalog_card_checks(page):
     assert abs(cover_box["height"] - card_box["height"]) <= 2
     assert page.evaluate("element => getComputedStyle(element).objectFit", image.element_handle()) == "cover"
     assert page.evaluate("element => getComputedStyle(element).objectPosition", image.element_handle()) == "100% 50%"
+    assert image.get_attribute("alt") == f"Обложка викторины «{QUIZ['title']}»"
     page.set_viewport_size({"width": 701, "height": 900})
     assert page.evaluate("element => getComputedStyle(element).gridTemplateColumns.split(' ').length", card.element_handle()) == 2
     page.set_viewport_size({"width": 700, "height": 900})
@@ -238,7 +242,7 @@ def main():
         stderr=subprocess.DEVNULL,
     )
     try:
-        draft = {**QUIZ, "slug": "ui-draft", "title": "Тестовый черновик", "published": False}
+        draft = {**QUIZ, "slug": "ui-draft", "title": "Тестовый черновик", "published": False, "questionImagesAlt": "Фотография лошади для проверки общего alt"}
         DRAFT_PATH.write_text(json.dumps(draft, ensure_ascii=False), encoding="utf-8")
         BROKEN_PATH.write_text('{"slug": "ui-broken",', encoding="utf-8")
         time.sleep(1)
@@ -263,6 +267,9 @@ def main():
             page.goto(f"{BASE_URL}/quiz.html?quiz=ui-draft&preview=1")
             page.get_by_text("Предварительный просмотр. Викторина не опубликована.").wait_for()
             page.get_by_role("button", name="Начать викторину").wait_for()
+            assert page.locator(".quiz-intro-cover").get_attribute("alt") == "Обложка викторины «Тестовый черновик»"
+            page.get_by_role("button", name="Начать викторину").click()
+            assert page.locator(".question-image img").get_attribute("alt") == draft["questionImagesAlt"]
             catalog_card_checks(page)
             share_page_url = f"{BASE_URL}/v/anatomy/"
             page.goto(f"{BASE_URL}/quizzes.html")

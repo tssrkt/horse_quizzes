@@ -147,6 +147,11 @@ assert.equal(core.siteRootUrl('https://tssrkt.github.io/quiz/v/anatomy/'), 'http
 assert.equal(core.siteRootUrl('http://localhost:8000/v/anatomy/'), 'http://localhost:8000/');
 assert.equal(core.siteUrl('data/catalog.json', 'https://tssrkt.github.io/quiz/v/anatomy/'), 'https://tssrkt.github.io/quiz/data/catalog.json');
 assert.equal(core.quizPath('anatomy', 'https://tssrkt.github.io/quiz/quiz.html?quiz=anatomy'), '/quiz/v/anatomy/');
+assert.equal(core.coverAlt({ title: 'Породы лошадей' }), 'Обложка викторины «Породы лошадей»');
+assert.equal(core.questionImageAlt({ questionImagesAlt: ' Фотография лошади для определения породы ' }), 'Фотография лошади для определения породы');
+assert.equal(core.questionImageAlt({}), 'Фотография лошади к вопросу');
+assert.equal(core.questionImageAlt({ questionImagesAlt: '' }), 'Фотография лошади к вопросу');
+assert.equal(core.questionImageAlt({ questionImagesAlt: 'Общий alt', questions: [{ image_alt: 'Старый alt' }] }), 'Общий alt');
 assert.equal(core.shareMethod(false), 'copy', '18: fallback без Web Share');
 assert.equal(core.shareMethod(true), 'share');
 assert.equal(core.prefersReducedMotion(() => ({ matches: true })), true);
