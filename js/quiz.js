@@ -145,11 +145,25 @@
   function shareText(quiz, correct, total, quizUrl) { const percent = resultPercent(correct, total); const title = String(quiz.title).replace(/\s+/g, ' ').trim(); return `Мой результат — ${correct} из ${total} (${percent}%) в викторине «${title}». А какой у вас? Проверьте: ${quizUrl}`; }
   function directQuizUrl(currentUrl, slug) { const url = new URL(currentUrl); url.search = ''; url.hash = ''; url.pathname = url.pathname.replace(/[^/]*$/, 'quiz.html'); url.searchParams.set('quiz', slug); return url.href; }
   function shareQuizUrl(slug) { return `https://tssrkt.github.io/quiz/v/${encodeURIComponent(slug)}/`; }
+  function slugFromUrl(currentUrl) {
+    const url = new URL(currentUrl);
+    const querySlug = url.searchParams.get('quiz');
+    if (querySlug !== null) return SLUG_PATTERN.test(querySlug) ? querySlug : '';
+    const match = url.pathname.match(/\/v\/([a-z0-9]+(?:-[a-z0-9]+)*)\/(?:index\.html)?$/);
+    return match ? match[1] : '';
+  }
+  function siteRootUrl(currentUrl) {
+    const url = new URL(currentUrl); url.search = ''; url.hash = '';
+    const sharePath = url.pathname.match(/^(.*\/)v\/[a-z0-9]+(?:-[a-z0-9]+)*\/(?:index\.html)?$/);
+    url.pathname = sharePath ? sharePath[1] : url.pathname.replace(/[^/]*$/, '');
+    return url.href;
+  }
+  function siteUrl(path, currentUrl) { return new URL(path, siteRootUrl(currentUrl)).href; }
   function prefersReducedMotion(matchMedia) { return Boolean(matchMedia?.('(prefers-reduced-motion: reduce)').matches); }
   function autoAdvanceDelay(correct) { return correct ? 800 : null; }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, shareText, directQuizUrl, shareQuizUrl, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
+  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl, siteUrl, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -159,7 +173,7 @@ function init(core) {
   const previewBanner = document.getElementById('preview-banner');
   if (!app) return;
   const params = new URLSearchParams(location.search);
-  const slug = params.get('quiz') || '';
+  const slug = core.slugFromUrl(location.href);
   const preview = params.get('preview') === '1';
   const reduceMotion = core.prefersReducedMotion(window.matchMedia.bind(window));
   let sourceQuiz, quiz, state, nextQuiz = null, answerLocked = false, transitionScheduled = false;
@@ -168,7 +182,8 @@ function init(core) {
   const saveState = () => { try { localStorage.setItem(storageKey(), JSON.stringify(state)); } catch (error) { console.warn('[Quiz] Не удалось сохранить прогресс.', error); } };
   const clearState = () => { try { localStorage.removeItem(storageKey()); } catch (error) { console.warn('[Quiz] Не удалось очистить прогресс.', error); } };
   const setWideLayout = (wide) => main?.classList.toggle('quiz-layout-wide', wide);
-  const errorScreen = (message) => { setWideLayout(false); app.setAttribute('aria-busy', 'false'); app.innerHTML = `<div class="error-state" role="alert"><strong>${escapeHtml(message)}</strong><p><a class="button" href="quizzes.html">К списку викторин</a></p></div>`; };
+  const pageUrl = (path) => core.siteUrl(path, location.href);
+  const errorScreen = (message) => { setWideLayout(false); app.setAttribute('aria-busy', 'false'); app.innerHTML = `<div class="error-state" role="alert"><strong>${escapeHtml(message)}</strong><p><a class="button" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></p></div>`; };
 
   function confetti(count = 22) {
     if (reduceMotion) return;
@@ -178,13 +193,13 @@ function init(core) {
     }
     document.body.appendChild(layer); window.setTimeout(() => layer.remove(), 1100);
   }
-  function preloadNextImage() { const next = quiz.questions[state.current_index + 1]; if (next?.image) { const image = new Image(); image.src = core.versionedUrl(next.image, quiz.content_version); } }
-  function coverTemplate() { return quiz.cover ? `<img class="quiz-intro-cover" src="${escapeHtml(quiz.cover)}" alt="Обложка викторины «${escapeHtml(quiz.title)}»">` : ''; }
+  function preloadNextImage() { const next = quiz.questions[state.current_index + 1]; if (next?.image) { const image = new Image(); image.src = pageUrl(core.versionedUrl(next.image, quiz.content_version)); } }
+  function coverTemplate() { return quiz.cover ? `<img class="quiz-intro-cover" src="${escapeHtml(pageUrl(quiz.cover))}" alt="Обложка викторины «${escapeHtml(quiz.title)}»">` : ''; }
   function imageTemplate(question) {
     if (!question.image) return '';
     const source = question.image_source_url ? `<a href="${escapeHtml(question.image_source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(question.image_source || 'Источник изображения')}</a>` : escapeHtml(question.image_source || '');
     const credit = [question.image_author ? `Автор: ${escapeHtml(question.image_author)}` : '', source].filter(Boolean).join(' · ');
-    return `<figure class="question-image"><img src="${escapeHtml(core.versionedUrl(question.image, quiz.content_version))}" alt="${escapeHtml(question.image_alt || '')}">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
+    return `<figure class="question-image"><img src="${escapeHtml(pageUrl(core.versionedUrl(question.image, quiz.content_version)))}" alt="${escapeHtml(question.image_alt || '')}">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
   }
   function restart() { transitionScheduled = false; answerLocked = false; clearState(); quiz = core.createAttemptQuiz(sourceQuiz, true); state = core.freshState(quiz); saveState(); renderQuestion(); }
   function renderIntro() {
@@ -248,8 +263,8 @@ function init(core) {
     const recommendation = core.resultRecommendation(percent);
     const explanation = message ? `${message} ${recommendation}` : recommendation;
     const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(explanation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;
-    const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="quiz.html?quiz=${encodeURIComponent(nextQuiz.slug)}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
-    app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button><a class="button button-secondary" href="quizzes.html">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${nextQuizBlock}</section>`;
+    const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="${escapeHtml(pageUrl(`quiz.html?quiz=${encodeURIComponent(nextQuiz.slug)}`))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
+    app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button><a class="button button-secondary" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${nextQuizBlock}</section>`;
     const status = app.querySelector('.share-status');
     app.querySelector('[data-share]').addEventListener('click', async () => { if (navigator.share) { try { await navigator.share({ title: quiz.title, text: sharePayload }); return; } catch (error) { if (error.name === 'AbortError') return; } } await copyResult(sharePayload, status); });
     app.querySelector('[data-copy]').addEventListener('click', () => copyResult(sharePayload, status));
@@ -261,12 +276,12 @@ function init(core) {
     if (!slug) { errorScreen('Не указана викторина для открытия.'); return; }
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) { errorScreen('Викторина не найдена.'); return; }
     try {
-      const catalogResponse = await fetch(core.versionedUrl('data/catalog.json'), { cache: 'no-store' });
+      const catalogResponse = await fetch(pageUrl(core.versionedUrl('data/catalog.json')), { cache: 'no-store' });
       if (!catalogResponse.ok) throw new Error(`Catalog HTTP ${catalogResponse.status}`);
       const catalog = await catalogResponse.json();
       const catalogQuiz = Array.isArray(catalog?.quizzes) ? catalog.quizzes.find((item) => item?.slug === slug) : null;
       const contentVersion = catalogQuiz?.content_version || String(Date.now());
-      const response = await fetch(core.versionedUrl(`data/quizzes/${encodeURIComponent(slug)}.json`, contentVersion), { cache: 'no-store' });
+      const response = await fetch(pageUrl(core.versionedUrl(`data/quizzes/${encodeURIComponent(slug)}.json`, contentVersion)), { cache: 'no-store' });
       if (response.status === 404) { errorScreen('Викторина не найдена.'); return; }
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       sourceQuiz = await response.json();

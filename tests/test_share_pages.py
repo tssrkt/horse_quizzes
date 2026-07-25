@@ -1,5 +1,4 @@
 import html
-import json
 import tempfile
 import unittest
 from html.parser import HTMLParser
@@ -41,15 +40,18 @@ class SharePageTests(unittest.TestCase):
             source = (ROOT / "v" / slug / "index.html").read_text(encoding="utf-8")
             parser = MetadataParser()
             parser.feed(source)
-            direct = f"https://tssrkt.github.io/quiz/quiz.html?quiz={slug}"
+            share_url = f"https://tssrkt.github.io/quiz/v/{slug}/"
             self.assertEqual(parser.meta["og:title"], quiz["title"].strip())
             self.assertEqual(parser.meta["og:description"], quiz["short_description"].strip())
             self.assertTrue(parser.meta["og:image"].startswith("https://"))
-            self.assertEqual(parser.meta["og:url"], f"https://tssrkt.github.io/quiz/v/{slug}/")
-            self.assertEqual(parser.canonical, direct)
-            self.assertEqual(parser.meta["refresh"], f"0; url={direct}")
-            self.assertIn(f"window.location.replace({json.dumps(direct, ensure_ascii=False)})", source)
-            self.assertIn(direct, parser.links)
+            self.assertEqual(parser.meta["og:url"], share_url)
+            self.assertEqual(parser.canonical, share_url)
+            self.assertNotIn("refresh", parser.meta)
+            self.assertNotIn("location.replace", source)
+            self.assertIn('id="quiz-app"', source)
+            self.assertIn('src="../../js/quiz.js"', source)
+            self.assertIn('href="../../css/style.css"', source)
+            self.assertNotRegex(source, r'(?:href|src)="(?:css|js|img)/')
 
     def test_render_escapes_metadata_and_visible_text(self):
         quiz = {
@@ -82,7 +84,7 @@ class SharePageTests(unittest.TestCase):
         quiz_js = (ROOT / "js" / "quiz.js").read_text(encoding="utf-8")
         catalog_js = (ROOT / "js" / "quizzes.js").read_text(encoding="utf-8")
         self.assertIn("core.shareQuizUrl(quiz.slug)", quiz_js)
-        self.assertIn("quiz.html?quiz=${encodeURIComponent(nextQuiz.slug)}", quiz_js)
+        self.assertIn("pageUrl(`quiz.html?quiz=${encodeURIComponent(nextQuiz.slug)}`)", quiz_js)
         self.assertIn("quiz.html?quiz=${encodeURIComponent(quiz.slug)}", catalog_js)
 
 

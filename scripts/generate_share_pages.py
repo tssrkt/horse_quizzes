@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate static Open Graph redirect pages for published quizzes."""
+"""Generate full quiz pages with individual social metadata."""
 
 from __future__ import annotations
 
@@ -52,23 +52,16 @@ def load_published_quizzes(root: Path) -> list[dict]:
     return quizzes
 
 
-def render_page(quiz: dict) -> str:
+def render_page(quiz: dict, template: str | None = None) -> str:
     slug = quote(quiz["slug"], safe="-")
     title = html.escape(quiz["title"].strip(), quote=True)
     description = html.escape(quiz["short_description"].strip(), quote=True)
     share_url = f"{PUBLIC_ROOT}/v/{slug}/"
-    quiz_url = f"{PUBLIC_ROOT}/quiz.html?quiz={slug}"
     cover_url_path = quiz["cover"].replace("\\", "/")
     image_url = f"{PUBLIC_ROOT}/{quote(cover_url_path, safe='/-.')}"
     image_alt = html.escape(f"Обложка викторины «{quiz['title'].strip()}»", quote=True)
-    script_url = json.dumps(quiz_url, ensure_ascii=False).replace("<", "\\u003c")
-    return f'''<!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    metadata = f'''<meta name="description" content="{description}">
   <title>{title} — Викторины о лошадках</title>
-  <meta name="description" content="{description}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Викторины о лошадках">
   <meta property="og:locale" content="ru_RU">
@@ -81,15 +74,23 @@ def render_page(quiz: dict) -> str:
   <meta name="twitter:title" content="{title}">
   <meta name="twitter:description" content="{description}">
   <meta name="twitter:image" content="{image_url}">
-  <link rel="canonical" href="{quiz_url}">
-  <meta http-equiv="refresh" content="0; url={quiz_url}">
-  <script>window.location.replace({script_url});</script>
-</head>
-<body>
-  <p>Переход к викторине: <a href="{quiz_url}">{title}</a>.</p>
-</body>
-</html>
-'''
+  <link rel="canonical" href="{share_url}">'''
+    template = template if template is not None else (ROOT / "quiz.html").read_text(encoding="utf-8")
+    page, replacements = re.subn(
+        r'<meta name="description" content="[^"]*"><title>[^<]*</title>',
+        metadata,
+        template,
+        count=1,
+    )
+    if replacements != 1:
+        raise SharePageError("quiz.html: не найден стандартный блок description/title")
+    page = re.sub(
+        r'(?P<attribute>href|src)="(?P<path>(?!https?://|#|/)[^"]+)"',
+        lambda match: f'{match.group("attribute")}="../../{match.group("path")}"',
+        page,
+    )
+    page = page.replace('href="/quiz/', 'href="../../').replace('src="/quiz/', 'src="../../')
+    return page
 
 
 def generate(root: Path = ROOT, output: Path | None = None) -> int:
@@ -98,10 +99,11 @@ def generate(root: Path = ROOT, output: Path | None = None) -> int:
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True)
+    template = (root / "quiz.html").read_text(encoding="utf-8")
     for quiz in quizzes:
         directory = output / quiz["slug"]
         directory.mkdir()
-        (directory / "index.html").write_text(render_page(quiz), encoding="utf-8", newline="\n")
+        (directory / "index.html").write_text(render_page(quiz, template), encoding="utf-8", newline="\n")
     return len(quizzes)
 
 

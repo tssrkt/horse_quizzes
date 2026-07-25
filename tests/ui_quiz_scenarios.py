@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PROFILE = ROOT / f".ui-test-profile-{os.getpid()}"
 BASE_URL = "http://127.0.0.1:8766"
 QUIZ_URL = f"{BASE_URL}/quiz.html?quiz=horse-colors"
+SHARE_QUIZ_URL = "https://tssrkt.github.io/quiz/v/horse-colors/"
 QUIZ = json.loads((ROOT / "_site/data/quizzes/horse-colors.json").read_text(encoding="utf-8"))
 DRAFT_PATH = ROOT / "_site/data/quizzes/ui-draft.json"
 BROKEN_PATH = ROOT / "_site/data/quizzes/ui-broken.json"
@@ -57,7 +58,7 @@ def all_correct(page):
     page.get_by_role("button", name="Поделиться результатом").click()
     page.wait_for_function("window.__sharePayload")
     payload = page.evaluate("window.__sharePayload")
-    assert payload["text"] == f"Мой результат — {len(QUIZ['questions'])} из {len(QUIZ['questions'])} (100%) в викторине «{QUIZ['title']}». А какой у вас? Проверьте: {QUIZ_URL}"
+    assert payload["text"] == f"Мой результат — {len(QUIZ['questions'])} из {len(QUIZ['questions'])} (100%) в викторине «{QUIZ['title']}». А какой у вас? Проверьте: {SHARE_QUIZ_URL}"
     assert "url" not in payload
     assert "\n" not in payload["text"]
     assert page.get_by_role("button", name="Telegram").count() == 0
@@ -84,33 +85,26 @@ def all_wrong(page):
     assert page.get_by_role("button", name="Пройти еще раз", exact=True).is_visible()
     assert "Что ж, некоторые вопросы оказались непростыми — и это отличный повод узнать больше! Если желаете разобраться в теме глубже, откройте сборник статей о лошадках, а затем попробуйте пройти викторину еще раз. Наверняка после этого результат вас приятно удивит." in recommendation.inner_text()
     assert "Попробуйте пройти викторину ещё раз." not in page.locator(".result-card").inner_text()
-    articles = recommendation.get_by_role("link", name="📖📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ")
+    articles = recommendation.locator(".result-recommendation__articles")
     assert articles.get_attribute("href") == "https://author.today/work/439719"
     assert articles.get_attribute("target") == "_blank"
     assert "noopener" in articles.get_attribute("rel")
-    assert articles.inner_text().count("📖") == 2
+    assert articles.inner_text().count("📖") == 1
     page.set_viewport_size({"width": 1440, "height": 900})
-    content = articles.locator(".result-recommendation__articles-content")
-    outer_before = articles.bounding_box()
-    content_before = content.bounding_box()
     actions_before = page.locator(".share-actions").bounding_box()
     articles.hover()
     page.wait_for_timeout(200)
-    hover_style = content.evaluate("element => ({ transform: getComputedStyle(element).transform, filter: getComputedStyle(element).filter })")
+    hover_style = articles.evaluate("element => ({ transform: getComputedStyle(element).transform, filter: getComputedStyle(element).filter })")
     assert hover_style["transform"] != "none"
     assert hover_style["filter"] != "none"
-    assert articles.evaluate("element => getComputedStyle(element).transform") == "none"
-    assert articles.bounding_box() == outer_before
     assert page.locator(".share-actions").bounding_box() == actions_before
-    assert content.bounding_box()["y"] < content_before["y"]
-    assert abs(content.bounding_box()["y"] - content_before["y"] + 2) < 0.2
     hover_style = articles.evaluate("element => ({ decoration: getComputedStyle(element).textDecorationLine, background: getComputedStyle(element).backgroundColor })")
     assert hover_style["decoration"] == "none"
     articles.focus()
     page.keyboard.press("Tab")
     page.keyboard.press("Shift+Tab")
     assert articles.evaluate("element => element.matches(':focus-visible')")
-    assert content.evaluate("element => getComputedStyle(element).transform") != "none"
+    assert articles.evaluate("element => getComputedStyle(element).transform") != "none"
     for width in (1440, 375):
         page.set_viewport_size({"width": width, "height": 900})
         assert not page.evaluate("document.documentElement.scrollWidth > document.documentElement.clientWidth")
@@ -155,7 +149,8 @@ def mixed_with_reload(context, page):
         else:
             page.locator("[data-next]").click()
             wait_next(page, index)
-    assert page.locator(".result-summary").inner_text() == f"Ваш результат: 2 из {len(QUIZ['questions'])} (40%)"
+    expected_percent = round(2 / len(QUIZ["questions"]) * 100)
+    assert page.locator(".result-summary").inner_text() == f"Ваш результат: 2 из {len(QUIZ['questions'])} ({expected_percent}%)"
     return page
 
 
@@ -179,6 +174,9 @@ def catalog_card_checks(page):
     page.set_viewport_size({"width": 1440, "height": 900})
     page.goto(f"{BASE_URL}/quizzes.html")
     card = page.locator('.quiz-card:has(.quiz-card-link[href="quiz.html?quiz=horse-colors"])')
+    page.locator(".quiz-card").first.wait_for()
+    if card.count() == 0:
+        page.get_by_role("button", name="Страница 2", exact=True).click()
     card.wait_for()
     criterion = page.locator("#sort-criterion")
     direction = page.locator("[data-sort-direction]")
@@ -232,7 +230,7 @@ def catalog_card_checks(page):
 
 def main():
     if PROFILE.exists():
-        shutil.rmtree(PROFILE)
+        shutil.rmtree(PROFILE, ignore_errors=True)
     server = subprocess.Popen(
         ["python", "-m", "http.server", "8766", "-d", "_site", "--bind", "127.0.0.1"],
         cwd=ROOT,
@@ -266,6 +264,13 @@ def main():
             page.get_by_text("Предварительный просмотр. Викторина не опубликована.").wait_for()
             page.get_by_role("button", name="Начать викторину").wait_for()
             catalog_card_checks(page)
+            share_page_url = f"{BASE_URL}/v/anatomy/"
+            page.goto(share_page_url)
+            page.get_by_role("heading", name="Анатомия лошади").wait_for()
+            assert page.url == share_page_url
+            assert page.title() == "Анатомия лошади — Викторины о лошадках"
+            assert page.locator('link[rel="canonical"]').get_attribute("href") == "https://tssrkt.github.io/quiz/v/anatomy/"
+            assert page.locator('meta[property="og:image"]').get_attribute("content") == "https://tssrkt.github.io/quiz/img/covers/anatomy.webp"
             all_correct(page)
             all_wrong(page)
             page = mixed_with_reload(context, page)
@@ -277,7 +282,7 @@ def main():
         server.terminate()
         server.wait(timeout=5)
         if PROFILE.exists():
-            shutil.rmtree(PROFILE)
+            shutil.rmtree(PROFILE, ignore_errors=True)
         DRAFT_PATH.unlink(missing_ok=True)
         BROKEN_PATH.unlink(missing_ok=True)
 

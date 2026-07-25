@@ -137,6 +137,15 @@ assert.equal(/\s{2,}/.test(perfectShare), false, 'в тексте публика
 assert.equal(core.shareText({ title: 'Редкие  масти' }, 4, 5, rareColorsUrl).includes('«Редкие масти»'), true, 'пробелы в названии нормализуются');
 assert.equal(core.directQuizUrl('https://example.test/quiz/quiz.html?quiz=x&preview=1', 'horse-colors'), 'https://example.test/quiz/quiz.html?quiz=horse-colors');
 assert.equal(core.shareQuizUrl('horse-colors'), 'https://tssrkt.github.io/quiz/v/horse-colors/');
+assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/quiz.html?quiz=anatomy'), 'anatomy', 'старый URL определяет slug из query');
+assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/anatomy/'), 'anatomy', 'новый URL определяет slug из пути');
+assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/anatomy/index.html'), 'anatomy', 'index.html нового URL поддерживается');
+assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/quizzes/anatomy/'), '', 'соседний путь не считается страницей викторины');
+assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/ANATOMY/'), '', 'некорректный slug пути отклоняется');
+assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/anatomy/?quiz=bad!'), '', 'явный некорректный query не заменяется значением пути');
+assert.equal(core.siteRootUrl('https://tssrkt.github.io/quiz/v/anatomy/'), 'https://tssrkt.github.io/quiz/');
+assert.equal(core.siteRootUrl('http://localhost:8000/v/anatomy/'), 'http://localhost:8000/');
+assert.equal(core.siteUrl('data/catalog.json', 'https://tssrkt.github.io/quiz/v/anatomy/'), 'https://tssrkt.github.io/quiz/data/catalog.json');
 assert.equal(core.shareMethod(false), 'copy', '18: fallback без Web Share');
 assert.equal(core.shareMethod(true), 'share');
 assert.equal(core.prefersReducedMotion(() => ({ matches: true })), true);
