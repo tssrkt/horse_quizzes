@@ -146,6 +146,7 @@ assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/anatomy/?quiz=bad
 assert.equal(core.siteRootUrl('https://tssrkt.github.io/quiz/v/anatomy/'), 'https://tssrkt.github.io/quiz/');
 assert.equal(core.siteRootUrl('http://localhost:8000/v/anatomy/'), 'http://localhost:8000/');
 assert.equal(core.siteUrl('data/catalog.json', 'https://tssrkt.github.io/quiz/v/anatomy/'), 'https://tssrkt.github.io/quiz/data/catalog.json');
+assert.equal(core.quizPath('anatomy', 'https://tssrkt.github.io/quiz/quiz.html?quiz=anatomy'), '/quiz/v/anatomy/');
 assert.equal(core.shareMethod(false), 'copy', '18: fallback без Web Share');
 assert.equal(core.shareMethod(true), 'share');
 assert.equal(core.prefersReducedMotion(() => ({ matches: true })), true);

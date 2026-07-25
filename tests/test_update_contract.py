@@ -111,7 +111,7 @@ class UpdateContractTests(unittest.TestCase):
         stylesheet = (ROOT / "css" / "style.css").read_text(encoding="utf-8")
         self.assertIn('class="next-quiz"', javascript)
         self.assertIn('class="next-quiz__label">Следующая викторина', javascript)
-        self.assertIn('pageUrl(`quiz.html?quiz=${encodeURIComponent(nextQuiz.slug)}`)', javascript)
+        self.assertIn("core.quizPath(nextQuiz.slug, location.href)", javascript)
         self.assertIn("nextQuiz ?", javascript)
         self.assertIn(".next-quiz__link:hover{", stylesheet)
 

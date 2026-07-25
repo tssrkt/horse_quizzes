@@ -1,13 +1,14 @@
 (function (root, factory) {
   'use strict';
-  const api = factory();
+  const urlCore = typeof module === 'object' && module.exports ? require('./urls.js') : root.QuizUrlCore;
+  const api = factory(urlCore);
   if (typeof module === 'object' && module.exports) module.exports = api;
   else {
     root.QuizCatalogCore = api;
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', api.init);
     else api.init();
   }
-})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+})(typeof globalThis !== 'undefined' ? globalThis : this, function (urlCore) {
   'use strict';
 
   const PAGE_SIZE = 10;
@@ -236,7 +237,8 @@
         ? `<img src="${escapeHtml(quiz.cover)}" alt="Обложка викторины «${escapeHtml(quiz.title)}»" loading="lazy">`
         : '<div class="cover-placeholder" aria-hidden="true"><span>?</span><small>Quiz</small></div>';
       const cardTags = visibleCardTags(quiz).map((slug) => `<button class="tag" type="button" data-card-tag="${escapeHtml(slug)}">${escapeHtml(tags.get(slug).name)}</button>`).join('');
-      return `<article class="quiz-card"><a class="quiz-card-link" href="quiz.html?quiz=${encodeURIComponent(quiz.slug)}" aria-label="Открыть викторину «${escapeHtml(quiz.title)}»"></a><div class="quiz-cover">${cover}</div><div class="quiz-card-body"><div><h3>${escapeHtml(title)}</h3><p class="quiz-card-description">${escapeHtml(quiz.short_description)}</p></div><div class="quiz-card-meta"><span class="quiz-card-difficulty">Сложность: ${DIFFICULTY_LABELS[quiz.difficulty]}</span><div class="quiz-tags" aria-label="Теги викторины">${cardTags}</div></div></div></article>`;
+      const quizHref = urlCore.quizPath(quiz.slug, location.href);
+      return `<article class="quiz-card"><a class="quiz-card-link" href="${escapeHtml(quizHref)}" aria-label="Открыть викторину «${escapeHtml(quiz.title)}»"></a><div class="quiz-cover">${cover}</div><div class="quiz-card-body"><div><h3>${escapeHtml(title)}</h3><p class="quiz-card-description">${escapeHtml(quiz.short_description)}</p></div><div class="quiz-card-meta"><span class="quiz-card-difficulty">Сложность: ${DIFFICULTY_LABELS[quiz.difficulty]}</span><div class="quiz-tags" aria-label="Теги викторины">${cardTags}</div></div></div></article>`;
     }
 
     function renderPagination(totalPages) {
@@ -314,5 +316,5 @@
     })();
   }
 
-  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, init };
+  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, quizPath: urlCore.quizPath, init };
 });

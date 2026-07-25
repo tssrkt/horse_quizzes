@@ -1,14 +1,15 @@
 (function (root, factory) {
   'use strict';
   const catalogCore = typeof module === 'object' && module.exports ? require('./quizzes.js') : root.QuizCatalogCore;
-  const core = factory(catalogCore);
+  const urlCore = typeof module === 'object' && module.exports ? require('./urls.js') : root.QuizUrlCore;
+  const core = factory(catalogCore, urlCore);
   if (typeof module === 'object' && module.exports) module.exports = core;
   else {
     root.QuizEngineCore = core;
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => init(core));
     else init(core);
   }
-})(typeof globalThis !== 'undefined' ? globalThis : this, function (catalogCore) {
+})(typeof globalThis !== 'undefined' ? globalThis : this, function (catalogCore, urlCore) {
   'use strict';
   const STATE_VERSION = 3;
   const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -152,18 +153,11 @@
     const match = url.pathname.match(/\/v\/([a-z0-9]+(?:-[a-z0-9]+)*)\/(?:index\.html)?$/);
     return match ? match[1] : '';
   }
-  function siteRootUrl(currentUrl) {
-    const url = new URL(currentUrl); url.search = ''; url.hash = '';
-    const sharePath = url.pathname.match(/^(.*\/)v\/[a-z0-9]+(?:-[a-z0-9]+)*\/(?:index\.html)?$/);
-    url.pathname = sharePath ? sharePath[1] : url.pathname.replace(/[^/]*$/, '');
-    return url.href;
-  }
-  function siteUrl(path, currentUrl) { return new URL(path, siteRootUrl(currentUrl)).href; }
   function prefersReducedMotion(matchMedia) { return Boolean(matchMedia?.('(prefers-reduced-motion: reduce)').matches); }
   function autoAdvanceDelay(correct) { return correct ? 800 : null; }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl, siteUrl, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
+  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -263,7 +257,7 @@ function init(core) {
     const recommendation = core.resultRecommendation(percent);
     const explanation = message ? `${message} ${recommendation}` : recommendation;
     const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(explanation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;
-    const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="${escapeHtml(pageUrl(`quiz.html?quiz=${encodeURIComponent(nextQuiz.slug)}`))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
+    const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="${escapeHtml(core.quizPath(nextQuiz.slug, location.href))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
     app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button><a class="button button-secondary" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${nextQuizBlock}</section>`;
     const status = app.querySelector('.share-status');
     app.querySelector('[data-share]').addEventListener('click', async () => { if (navigator.share) { try { await navigator.share({ title: quiz.title, text: sharePayload }); return; } catch (error) { if (error.name === 'AbortError') return; } } await copyResult(sharePayload, status); });

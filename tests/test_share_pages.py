@@ -50,6 +50,7 @@ class SharePageTests(unittest.TestCase):
             self.assertNotIn("location.replace", source)
             self.assertIn('id="quiz-app"', source)
             self.assertIn('src="../../js/quiz.js"', source)
+            self.assertIn('src="../../js/urls.js"', source)
             self.assertIn('href="../../css/style.css"', source)
             self.assertNotRegex(source, r'(?:href|src)="(?:css|js|img)/')
 
@@ -84,8 +85,22 @@ class SharePageTests(unittest.TestCase):
         quiz_js = (ROOT / "js" / "quiz.js").read_text(encoding="utf-8")
         catalog_js = (ROOT / "js" / "quizzes.js").read_text(encoding="utf-8")
         self.assertIn("core.shareQuizUrl(quiz.slug)", quiz_js)
-        self.assertIn("pageUrl(`quiz.html?quiz=${encodeURIComponent(nextQuiz.slug)}`)", quiz_js)
-        self.assertIn("quiz.html?quiz=${encodeURIComponent(quiz.slug)}", catalog_js)
+        self.assertIn("core.quizPath(nextQuiz.slug, location.href)", quiz_js)
+        self.assertIn("urlCore.quizPath(quiz.slug, location.href)", catalog_js)
+        self.assertNotIn("quiz.html?quiz=${encodeURIComponent(quiz.slug)}", catalog_js)
+
+    def test_catalog_intro_uses_full_share_urls(self):
+        source = (ROOT / "quizzes.html").read_text(encoding="utf-8")
+        expected = {
+            "Породы лошадей": "https://tssrkt.github.io/quiz/v/horse-breeds/",
+            "Масти лошадей": "https://tssrkt.github.io/quiz/v/horse-colors/",
+            "Лошадиная терминология": "https://tssrkt.github.io/quiz/v/horse-words/",
+            "Генетику лошади": "https://tssrkt.github.io/quiz/v/horse-genetics/",
+        }
+        for label, url in expected.items():
+            self.assertIn(f'href="{url}"', source)
+            self.assertIn(label, source)
+        self.assertNotIn("quiz.html?quiz=", source)
 
 
 if __name__ == "__main__":

@@ -173,7 +173,7 @@ def adaptive_checks(page):
 def catalog_card_checks(page):
     page.set_viewport_size({"width": 1440, "height": 900})
     page.goto(f"{BASE_URL}/quizzes.html")
-    card = page.locator('.quiz-card:has(.quiz-card-link[href="quiz.html?quiz=horse-colors"])')
+    card = page.locator('.quiz-card:has(.quiz-card-link[href="/v/horse-colors/"])')
     page.locator(".quiz-card").first.wait_for()
     if card.count() == 0:
         page.get_by_role("button", name="Страница 2", exact=True).click()
@@ -265,7 +265,12 @@ def main():
             page.get_by_role("button", name="Начать викторину").wait_for()
             catalog_card_checks(page)
             share_page_url = f"{BASE_URL}/v/anatomy/"
-            page.goto(share_page_url)
+            page.goto(f"{BASE_URL}/quizzes.html")
+            anatomy_card = page.locator('.quiz-card:has(.quiz-card-link[href="/v/anatomy/"])')
+            anatomy_card.wait_for()
+            assert anatomy_card.locator(".quiz-card-link").count() == 1
+            assert anatomy_card.locator("h3 a, .quiz-cover a").count() == 0
+            anatomy_card.locator(".quiz-card-link").click()
             page.get_by_role("heading", name="Анатомия лошади").wait_for()
             assert page.url == share_page_url
             assert page.title() == "Анатомия лошади — Викторины о лошадках"
