@@ -17,7 +17,7 @@
   <script src="/quiz/js/common.js" defer></script>
 </head>
 
-<body>
+<body class="error-page">
   <a class="skip-link" href="#main">К основному содержимому</a>
 
   <header class="site-header">
@@ -46,22 +46,18 @@
     </div>
   </header>
 
-  <main id="main" class="page-main content-narrow">
-    <section class="home-intro content-narrow">
+  <main id="main" class="error-main">
+    <section class="error-intro content-narrow" aria-labelledby="error-title">
       <p class="eyebrow">Ошибка 404</p>
-      <h2 id="error-title">Страница не найдена</h2>
-
-      <p>
+      <h1 class="page-title" id="error-title">Страница не найдена</h1>
+      <p class="lead">
         Вот так оказия! Такой страницы не существует, вероятно, в адресе ошибка.
-      </p>
-      <p>
         Вернитесь на главную или в каталог викторин.
       </p>
-
-      <p>
-        <a class="button button-secondary" href="/quiz/index.html">На главную</a> &nbsp;
+      <div class="error-actions">
+        <a class="button" href="/quiz/index.html">На главную</a>
         <a class="button button-secondary" href="/quiz/quizzes.html">К списку викторин</a>
-      </p>
+      </div>
     </section>
   </main>
 
