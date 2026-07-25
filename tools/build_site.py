@@ -319,6 +319,7 @@ def build(output: Path = OUTPUT) -> dict:
         output / "img" / "icons",
         ignore=shutil.ignore_patterns(".gitkeep"),
     )
+    shutil.copy2(ROOT / "img" / "site-preview.webp", output / "img" / "site-preview.webp")
     shutil.copytree(ROOT / "data" / "tags", output / "data" / "tags")
     quiz_output = output / "data" / "quizzes"
     quiz_output.mkdir(parents=True)
