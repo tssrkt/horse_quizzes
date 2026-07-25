@@ -21,7 +21,8 @@ QUESTION_ID_RE = re.compile(r"^question-\d{2,}$")
 PUBLICATION_DATETIME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})$")
 ANSWER_ID_RE = re.compile(r"^answer-\d{2,}$")
 DIFFICULTIES = {"low", "medium", "high"}
-HTML_FILES = ("index.html", "quizzes.html", "quiz.html", "contacts.html")
+HTML_FILES = ("index.html", "quizzes.html", "quiz.html", "contacts.html", "404.html")
+ROOT_FILES = ("favicon.ico",)
 COPY_DIRS = ("css", "js")
 
 
@@ -305,9 +306,16 @@ def build(output: Path = OUTPUT) -> dict:
     output.mkdir(parents=True)
     for filename in HTML_FILES:
         shutil.copy2(ROOT / filename, output / filename)
+    for filename in ROOT_FILES:
+        shutil.copy2(ROOT / filename, output / filename)
     for dirname in COPY_DIRS:
         shutil.copytree(ROOT / dirname, output / dirname, ignore=shutil.ignore_patterns(".gitkeep"))
     shutil.copytree(ROOT / "img" / "covers", output / "img" / "covers", ignore=shutil.ignore_patterns(".gitkeep"))
+    shutil.copytree(
+        ROOT / "img" / "icons",
+        output / "img" / "icons",
+        ignore=shutil.ignore_patterns(".gitkeep"),
+    )
     shutil.copytree(ROOT / "data" / "tags", output / "data" / "tags")
     quiz_output = output / "data" / "quizzes"
     quiz_output.mkdir(parents=True)
