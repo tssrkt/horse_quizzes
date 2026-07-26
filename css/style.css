@@ -83,3 +83,23 @@ main{flex:1 0 auto;min-height:0}
 @media(max-width:520px){
   .result-card h1{font-size:2.1rem}
 }
+
+/* Основные кнопки: цвет и состояния как у кнопок результата */
+.home-page .home-intro > .button,
+.quiz-intro-actions [data-start]{
+  background:var(--surface);
+  color:var(--primary-dark);
+  transition:background-color .15s ease,color .15s ease;
+}
+.home-page .home-intro > .button:hover,
+.quiz-intro-actions [data-start]:hover,
+.home-page .home-intro > .button:active,
+.quiz-intro-actions [data-start]:active{
+  background:var(--lavender);
+  color:var(--primary-dark);
+}
+.home-page .home-intro > .button:focus-visible,
+.quiz-intro-actions [data-start]:focus-visible{
+  background:var(--surface);
+  color:var(--primary-dark);
+}
