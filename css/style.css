@@ -87,19 +87,22 @@ main{flex:1 0 auto;min-height:0}
 /* Основные кнопки: цвет и состояния как у кнопок результата */
 .home-page .home-intro > .button,
 .quiz-intro-actions [data-start]{
+  border:1px solid var(--primary);
   background:var(--surface);
   color:var(--primary-dark);
-  transition:background-color .15s ease,color .15s ease;
+  transition:background-color .15s ease,border-color .15s ease,color .15s ease;
 }
 .home-page .home-intro > .button:hover,
 .quiz-intro-actions [data-start]:hover,
 .home-page .home-intro > .button:active,
 .quiz-intro-actions [data-start]:active{
+  border-color:var(--primary-dark);
   background:var(--lavender);
   color:var(--primary-dark);
 }
 .home-page .home-intro > .button:focus-visible,
 .quiz-intro-actions [data-start]:focus-visible{
+  border-color:var(--primary-dark);
   background:var(--surface);
   color:var(--primary-dark);
 }
