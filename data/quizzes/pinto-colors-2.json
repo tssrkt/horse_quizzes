@@ -62,7 +62,7 @@
     },
     {
       "question": "Какой это тип пегости?",
-      "image": "img/quiz/03.webp",
+      "image": "img/quiz/pinto-colors-2/03.webp",
       "answers": [
         {
           "text": "Сабино"
@@ -85,7 +85,7 @@
     },
     {
       "question": "Какой это тип пегости?",
-      "image": "img/quiz/04.webp",
+      "image": "img/quiz/pinto-colors-2/04.webp",
       "answers": [
         {
           "text": "Сабино"
@@ -109,7 +109,7 @@
     },
     {
       "question": "Какой это тип пегости?",
-      "image": "img/quiz/05.webp",
+      "image": "img/quiz/pinto-colors-2/05.webp",
       "answers": [
         {
           "text": "Сабино"
