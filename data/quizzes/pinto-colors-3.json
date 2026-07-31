@@ -6,7 +6,7 @@
   "difficulty": "high",
   "short_description": "Эта викторина завершает серию, посвященную пегим лошадкам. Она поможет закрепить знания, научиться увереннее различать типы пегости и проверить себя на самых сложных примерах.",
   "intro": "Эта викторина завершает серию, посвященную пегим лошадкам. Она поможет закрепить знания, научиться увереннее различать типы пегости и проверить себя на самых сложных примерах.",
-  "cover": "img/covers/portrait05.webp",
+  "cover": "img/covers/pinto-colors-3.webp",
   "questionImagesAlt": "Фотография лошади для определения масти",
   "tags": [
     "horses",
@@ -15,7 +15,7 @@
   "questions": [
     {
       "question": "Какой это тип пегости?",
-      "image": "img/quiz/01.webp",
+      "image": "img/quiz/pinto-colors-3/01.webp",
       "answers": [
         {
           "text": "Сабино"
@@ -42,7 +42,7 @@
     },
     {
       "question": "Какой это тип пегости?",
-      "image": "img/quiz/02.webp",
+      "image": "img/quiz/pinto-colors-3/02.webp",
       "answers": [
         {
           "text": "Сабино"
@@ -69,7 +69,7 @@
     },
     {
       "question": "Какой это тип пегости?",
-      "image": "img/quiz/03.webp",
+      "image": "img/quiz/pinto-colors-3/03.webp",
       "answers": [
         {
           "text": "Сабино"
@@ -96,7 +96,7 @@
     },
     {
       "question": "Какой это тип пегости?",
-      "image": "img/quiz/04.webp",
+      "image": "img/quiz/pinto-colors-3/04.webp",
       "answers": [
         {
           "text": "Сабино"
@@ -123,7 +123,7 @@
     },
     {
       "question": "Какой это тип пегости?",
-      "image": "img/quiz/05.webp",
+      "image": "img/quiz/pinto-colors-3/05.webp",
       "answers": [
         {
           "text": "Сабино"
