@@ -375,7 +375,7 @@
     },
     {
       "question": "Что это за седло?",
-      "image": "img/quiz/16.webp",
+      "image": "img/quiz/horse-amunition/16.webp",
       "answers": [
         {
           "text": "Конкурное"
@@ -396,7 +396,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/17.webp",
+      "image": "img/quiz/horse-amunition/17.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -420,7 +420,7 @@
     },
     {
       "question": "какой это тип капсюля?",
-      "image": "img/quiz/18.webp",
+      "image": "img/quiz/horse-amunition/18.webp",
       "answers": [
         {
           "text": "Английский"
@@ -441,7 +441,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/19.webp",
+      "image": "img/quiz/horse-amunition/19.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -465,7 +465,7 @@
     },
     {
       "question": "Что это за удила?",
-      "image": "img/quiz/20.webp",
+      "image": "img/quiz/horse-amunition/20.webp",
       "answers": [
         {
           "text": "Трензель"
