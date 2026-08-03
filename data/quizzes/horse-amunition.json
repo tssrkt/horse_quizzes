@@ -6,7 +6,7 @@
   "difficulty": "low",
   "short_description": "В этой простой викторине вам предстоит по фотографиям узнавать различные элементы конского снаряжения и экипировки всадника. Отличный способ закрепить знания в игровой форме.",
   "intro": "В этой простой викторине вам предстоит по фотографиям узнавать различные элементы конского снаряжения и экипировки всадника. Отличный способ закрепить знания в игровой форме.",
-  "cover": "img/covers/portrait01ammunition.webp",
+  "cover": "img/covers/horse-amunition.webp",
   "questionImagesAlt": "Фотография лошади для определения амуниции",
   "tags": [
     "amunition",
@@ -15,7 +15,7 @@
   "questions": [
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/1.webp",
+      "image": "img/quiz/horse-amunition/01.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -36,7 +36,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/2.webp",
+      "image": "img/quiz/horse-amunition/02.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -57,7 +57,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/3.webp",
+      "image": "img/quiz/horse-amunition/03.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -78,7 +78,7 @@
     },
     {
       "question": "Как называется эта розовая ткань под седлом?",
-      "image": "img/quiz/4.webp",
+      "image": "img/quiz/horse-amunition/04.webp",
       "answers": [
         {
           "text": "Потник"
@@ -105,7 +105,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/5.webp",
+      "image": "img/quiz/horse-amunition/05.webp",
       "answers": [
         {
           "text": "Оголовье и трензель"
