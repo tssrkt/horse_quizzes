@@ -651,7 +651,7 @@
     },
     {
       "question": "Что это за удила?",
-      "image": "img/quiz/26.webp",
+      "image": "img/quiz/horse-amunition/26.webp",
       "answers": [
         {
           "text": "Трензель"
@@ -672,7 +672,7 @@
     },
     {
       "question": "Что это за удила?",
-      "image": "img/quiz/27.webp",
+      "image": "img/quiz/horse-amunition/27.webp",
       "answers": [
         {
           "text": "Трензель"
@@ -693,7 +693,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/28.webp",
+      "image": "img/quiz/horse-amunition/28.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -720,7 +720,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/29.webp",
+      "image": "img/quiz/horse-amunition/29.webp",
       "answers": [
         {
           "text": "Одноушная вестерн-уздечка"
@@ -741,7 +741,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/30.webp",
+      "image": "img/quiz/horse-amunition/30.webp",
       "answers": [
         {
           "text": "Недоуздок"
