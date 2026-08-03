@@ -768,7 +768,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/31.webp",
+      "image": "img/quiz/horse-amunition/31.webp",
       "answers": [
         {
           "text": "Анатомическое оголовье с трензелем"
@@ -789,7 +789,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/32.webp",
+      "image": "img/quiz/horse-amunition/32.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -816,7 +816,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/33.webp",
+      "image": "img/quiz/horse-amunition/33.webp",
       "answers": [
         {
           "text": "Калифорнийская хакамора"
@@ -840,7 +840,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/34.webp",
+      "image": "img/quiz/horse-amunition/34.webp",
       "answers": [
         {
           "text": "Оголовье с трензелем"
@@ -861,7 +861,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/35.webp",
+      "image": "img/quiz/horse-amunition/35.webp",
       "answers": [
         {
           "text": "Недоуздок"
