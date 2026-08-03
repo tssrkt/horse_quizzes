@@ -240,7 +240,7 @@
     },
     {
       "question": "Как называется ремень, охватывающий храп лошади?",
-      "image": "img/quiz/11.webp",
+      "image": "img/quiz/horse-amunition/11.webp",
       "answers": [
         {
           "text": "Нахрапник"
@@ -261,7 +261,7 @@
     },
     {
       "question": "Как называется ремень, который крепится к седлу и охватывает грудь лошади, предотвращая сползание седла назад?",
-      "image": "img/quiz/12.webp",
+      "image": "img/quiz/horse-amunition/12.webp",
       "answers": [
         {
           "text": "Подпруга"
@@ -282,7 +282,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/13.webp",
+      "image": "img/quiz/horse-amunition/13.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -303,7 +303,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/14.webp",
+      "image": "img/quiz/horse-amunition/14.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -324,7 +324,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/15.webp",
+      "image": "img/quiz/horse-amunition/15.webp",
       "answers": [
         {
           "text": "Оголовье и трензель"
