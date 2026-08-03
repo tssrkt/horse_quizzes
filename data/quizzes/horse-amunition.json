@@ -126,7 +126,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/6.webp",
+      "image": "img/quiz/horse-amunition/06.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -147,7 +147,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/7.webp",
+      "image": "img/quiz/horse-amunition/07.webp",
       "answers": [
         {
           "text": "Уздечка Кука"
@@ -174,7 +174,7 @@
     },
     {
       "question": "Как называется ремень, который не позволяет коню открывать рот?",
-      "image": "img/quiz/8.webp",
+      "image": "img/quiz/horse-amunition/08.webp",
       "answers": [
         {
           "text": "Капсуль"
@@ -198,7 +198,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/9.webp",
+      "image": "img/quiz/horse-amunition/09.webp",
       "answers": [
         {
           "text": "Недоуздок"
@@ -219,7 +219,7 @@
     },
     {
       "question": "Что это за амуниция?",
-      "image": "img/quiz/10.webp",
+      "image": "img/quiz/horse-amunition/10.webp",
       "answers": [
         {
           "text": "Одноушная вестерн-уздечка"
