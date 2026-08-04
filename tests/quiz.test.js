@@ -202,20 +202,8 @@ assert.match(core.resultRecommendation(74), /^Неплохой результа�
 assert.match(core.resultRecommendation(75), /^Хороший результат!/);
 assert.match(core.resultRecommendation(99), /^Хороший результат!/);
 assert.equal(core.resultRecommendation(100), 'Вы правильно ответили на все вопросы и прекрасно разбираетесь в данной теме. Вас не так-то просто запутать! А в сборнике статей о лошадках наверняка найдется еще много интересного.');
-assert.equal(core.resultMessage(90), 'Отличный результат!');
-assert.equal(core.resultMessage(89), '');
-assert.equal(core.resultMessage(74), '');
-assert.equal(core.resultMessage(49), '', '13: удаленные вступительные фразы отсутствуют');
-[
-  [100, 'Отличный результат!'],
-  [95, 'Отличный результат!'],
-  [80, ''],
-  [60, ''],
-  [40, ''],
-].forEach(([percent, introduction]) => {
-  assert.equal(core.resultMessage(percent), introduction);
-  assert.equal(typeof core.resultRecommendation(percent), 'string');
-});
+for (const percent of [0, 49, 50, 74, 75, 90, 99, 100]) assert.equal(typeof core.resultRecommendation(percent), 'string');
+assert.doesNotMatch(core.resultRecommendation(90), /^Отличный результат! Хороший результат!/);
 
 const saved = JSON.stringify(moved.state);
 const restored = core.restoreState(saved, quiz);

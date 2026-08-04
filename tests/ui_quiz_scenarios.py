@@ -54,8 +54,8 @@ def all_correct(page):
     recommendation = page.locator(".result-recommendation")
     assert recommendation.get_by_role("heading").count() == 0
     explanation = recommendation.locator(":scope > p")
-    assert explanation.inner_text().startswith("Отличный результат! Вы правильно ответили")
-    assert "Отличный результат!\n" not in explanation.inner_text()
+    assert explanation.inner_text().startswith("Вы правильно ответили на все вопросы")
+    assert "Отличный результат!" not in explanation.inner_text()
     assert recommendation.locator(".result-recommendation__articles-content").inner_text().count("📖") == 1
     page.evaluate("Object.defineProperty(navigator, 'share', {value: async payload => { window.__sharePayload = payload }, configurable: true})")
     page.get_by_role("button", name="Поделиться результатом").click()

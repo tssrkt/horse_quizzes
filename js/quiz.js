@@ -226,10 +226,6 @@
     if (percent < 100) return 'Хороший результат! Вы разбираетесь в теме и уже совсем близки к безупречности. В сборнике статей о лошадках можно найти еще больше интересных фактов, которые помогут заполнить оставшиеся пробелы и, возможно, в следующий раз ответить правильно на все вопросы.';
     return 'Вы правильно ответили на все вопросы и прекрасно разбираетесь в данной теме. Вас не так-то просто запутать! А в сборнике статей о лошадках наверняка найдется еще много интересного.';
   }
-  function resultMessage(percent) {
-    if (percent >= 90) return 'Отличный результат!';
-    return '';
-  }
   function formatQuestionCount(count, type = 'quiz') { return type === 'vocabulary' ? `${count} слов` : `${count} ${catalogCore.questionWord(count)}`; }
   function coverAlt(quiz) { return `Обложка викторины «${String(quiz.title).trim()}»`; }
   function questionImageAlt(quiz) { return String(quiz.questionImagesAlt || '').trim() || 'Фотография лошади к вопросу'; }
@@ -252,7 +248,7 @@
   }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, typingEnterAction, shouldConfetti, shareMethod };
+  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, typingEnterAction, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -399,10 +395,9 @@ function init(core) {
   function renderResult() {
     setWideLayout(false);
     state = { ...state, completed: true, current_index: quiz.questions.length, saved_at: new Date().toISOString() }; saveState();
-    const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const message = core.resultMessage(percent); const url = core.shareQuizUrl(quiz.slug); const sharePayload = core.shareText(quiz, state.correct_count, total, url);
+    const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const url = core.shareQuizUrl(quiz.slug); const sharePayload = core.shareText(quiz, state.correct_count, total, url);
     const recommendation = core.resultRecommendation(percent);
-    const explanation = message ? `${message} ${recommendation}` : recommendation;
-    const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(explanation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;
+    const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(recommendation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;
     const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="${escapeHtml(core.quizPath(nextQuiz.slug, location.href))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
     app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button><a class="button button-secondary" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${nextQuizBlock}</section>`;
     const status = app.querySelector('.share-status');
