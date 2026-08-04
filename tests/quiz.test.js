@@ -85,6 +85,39 @@ assert.equal(allModes.questions.length, 27);
 assert.deepEqual([...new Set(allModes.questions.map((question) => question.mode))], ['en-ru', 'ru-en', 'typing']);
 const sixWords = { ...vocabulary, vocabulary: vocabulary.vocabulary.slice(0, 6) };
 assert.equal(core.createAttemptQuiz(sixWords, true, () => 0, ['en-ru']).questions.every((question) => question.answers.length === 6), true);
+function groupedVocabulary(size) {
+  return {
+    ...vocabulary,
+    vocabulary: [
+      ...Array.from({ length: size }, (_, index) => ({ english: `group word ${index}`, russian: `группа ${index}`, category: 'target' })),
+      { english: 'foreign one', russian: 'чужой один', category: 'other' },
+      { english: 'foreign two', russian: 'чужой два', category: 'other' }
+    ]
+  };
+}
+for (const size of [2, 4, 6, 30]) {
+  const grouped = groupedVocabulary(size);
+  for (const mode of ['en-ru', 'ru-en']) {
+    const attempt = core.createAttemptQuiz(grouped, true, () => 0.75, [mode]);
+    const question = attempt.questions.find((item) => item.correct_answer_id === 'word-01');
+    assert.equal(question.answers.length, Math.min(size, 6), `${mode}: категория из ${size} слов ограничена шестью вариантами`);
+    assert.equal(question.answers.filter((answer) => answer.id === question.correct_answer_id).length, 1, `${mode}: правильный вариант присутствует ровно один раз`);
+    assert.equal(new Set(question.answers.map((answer) => answer.text)).size, question.answers.length, `${mode}: тексты вариантов не повторяются`);
+    assert.equal(question.answers.every((answer) => answer.id !== `word-${String(size + 1).padStart(2, '0')}` && answer.id !== `word-${String(size + 2).padStart(2, '0')}`), true, `${mode}: варианты другой категории исключены`);
+  }
+}
+const thirtyWords = groupedVocabulary(30);
+assert.equal(core.createAttemptQuiz(thirtyWords, false, () => 0, ['en-ru']).questions.every((question) => question.answers.length <= 6), true, 'лимит действует независимо от флага перемешивания');
+const firstWrongSet = new Set(core.createAttemptQuiz(thirtyWords, true, () => 0, ['en-ru']).questions.find((item) => item.correct_answer_id === 'word-01').answers.filter((answer) => answer.id !== 'word-01').map((answer) => answer.id));
+const secondWrongSet = new Set(core.createAttemptQuiz(thirtyWords, true, () => 0.999, ['en-ru']).questions.find((item) => item.correct_answer_id === 'word-01').answers.filter((answer) => answer.id !== 'word-01').map((answer) => answer.id));
+assert.notDeepEqual(firstWrongSet, secondWrongSet, 'при новом прохождении набор неправильных вариантов может измениться');
+const brokenVocabularyOrder = core.freshState(core.createAttemptQuiz(thirtyWords, true, () => 0.25, ['en-ru']));
+brokenVocabularyOrder.answer_ids[brokenVocabularyOrder.question_ids[0]] = ['missing-answer'];
+assert.equal(core.restoreAttemptOrder(thirtyWords, brokenVocabularyOrder).questions.every((question) => question.answers.length <= 6), true, 'повреждённое сохранение не возвращает полный список категории');
+const duplicateTranslations = groupedVocabulary(7);
+duplicateTranslations.vocabulary[1].russian = duplicateTranslations.vocabulary[2].russian;
+const uniqueAnswers = core.createAttemptQuiz(duplicateTranslations, true, () => 0.5, ['en-ru']).questions.find((item) => item.correct_answer_id === 'word-01').answers;
+assert.equal(new Set(uniqueAnswers.map((answer) => answer.text)).size, uniqueAnswers.length, 'одинаковые переводы не дублируются');
 assert.equal(core.formatQuestionCount(9, 'vocabulary'), '9 слов');
 const originalSnapshot = JSON.stringify(quiz);
 const firstAttempt = core.createAttemptQuiz(quiz);

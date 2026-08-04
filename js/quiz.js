@@ -79,6 +79,19 @@
     }
     return shuffled;
   }
+  function prepareVocabularyAnswers(question, shuffle, random) {
+    const correct = question.answers.find((answer) => answer.id === question.correct_answer_id);
+    if (!correct) return [];
+    const seenTexts = new Set([correct.text]);
+    const incorrect = question.answers.filter((answer) => {
+      if (answer.id === question.correct_answer_id || seenTexts.has(answer.text)) return false;
+      seenTexts.add(answer.text);
+      return true;
+    });
+    const selectedIncorrect = incorrect.length > 5 ? fisherYates(incorrect, random).slice(0, 5) : incorrect;
+    const answers = [correct, ...selectedIncorrect];
+    return shuffle ? fisherYates(answers, random) : answers;
+  }
   function updateModeSelection(selectedModes, mode, checked) {
     const selected = VOCABULARY_MODES.filter((item) => selectedModes.includes(item));
     if (!VOCABULARY_MODES.includes(mode)) return selected;
@@ -100,7 +113,7 @@
     const normalized = normalizeTypedAnswer(input);
     return Boolean(normalized) && acceptedEnglishAnswers(english).includes(normalized);
   }
-  function createAttemptQuiz(sourceQuiz, shuffle = false, random = Math.random, selectedModes = VOCABULARY_MODES) {
+  function createAttemptQuiz(sourceQuiz, shuffle = false, random = Math.random, selectedModes = VOCABULARY_MODES, prepareVocabulary = true) {
     const attempt = cloneValue(sourceQuiz);
     if (attempt.type === 'vocabulary') {
       attempt.selected_modes = VOCABULARY_MODES.filter((mode) => selectedModes.includes(mode));
@@ -113,12 +126,8 @@
     attempt.questions = attempt.questions.map((question) => ({
       ...question,
       answers: (() => {
-        let answers = question.answers;
-        if (attempt.type === 'vocabulary' && !question.typing && shuffle && answers.length > 6) {
-          const correct = answers.find((answer) => answer.id === question.correct_answer_id);
-          answers = [correct, ...fisherYates(answers.filter((answer) => answer.id !== question.correct_answer_id && answer.text !== correct.text), random).slice(0, 5)];
-        }
-        return shuffle ? fisherYates(answers, random) : answers;
+        if (attempt.type === 'vocabulary' && !question.typing && prepareVocabulary) return prepareVocabularyAnswers(question, shuffle, random);
+        return shuffle ? fisherYates(question.answers, random) : question.answers;
       })()
     }));
     if (shuffle && attempt.type !== 'vocabulary') attempt.questions = fisherYates(attempt.questions, random);
@@ -126,18 +135,20 @@
   }
   function restoreAttemptOrder(sourceQuiz, saved) {
     const modes = sourceQuiz.type === 'vocabulary' && Array.isArray(saved?.selected_modes) ? saved.selected_modes : VOCABULARY_MODES;
-    const attempt = createAttemptQuiz(sourceQuiz, sourceQuiz.type === 'vocabulary' && (!saved || !Array.isArray(saved.question_ids)), Math.random, modes);
-    if (!saved || !Array.isArray(saved.question_ids) || !saved.answer_ids) return attempt;
+    const restoringVocabulary = sourceQuiz.type === 'vocabulary' && saved && Array.isArray(saved.question_ids);
+    const attempt = createAttemptQuiz(sourceQuiz, sourceQuiz.type === 'vocabulary' && !restoringVocabulary, Math.random, modes, !restoringVocabulary);
+    const fallback = restoringVocabulary ? createAttemptQuiz(sourceQuiz, true, Math.random, modes) : attempt;
+    if (!saved || !Array.isArray(saved.question_ids) || !saved.answer_ids) return fallback;
     const questions = new Map(attempt.questions.map((question) => [question.id, question]));
-    if (saved.question_ids.length !== questions.size) return attempt;
+    if (saved.question_ids.length !== questions.size) return fallback;
     const ordered = saved.question_ids.map((id) => questions.get(id));
-    if (ordered.some((question) => !question)) return attempt;
+    if (ordered.some((question) => !question)) return fallback;
     for (const question of ordered) {
       const ids = saved.answer_ids[question.id];
       const answers = new Map(question.answers.map((answer) => [answer.id, answer]));
-      if (!Array.isArray(ids) || (sourceQuiz.type !== 'vocabulary' && ids.length !== answers.size)) return attempt;
+      if (!Array.isArray(ids) || (sourceQuiz.type !== 'vocabulary' && ids.length !== answers.size)) return fallback;
       const orderedAnswers = ids.map((id) => answers.get(id));
-      if (orderedAnswers.some((answer) => !answer)) return attempt;
+      if (orderedAnswers.some((answer) => !answer)) return fallback;
       question.answers = orderedAnswers;
     }
     attempt.questions = ordered;
