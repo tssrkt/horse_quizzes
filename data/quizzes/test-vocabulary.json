@@ -1,0 +1,13 @@
+{
+  "type": "vocabulary",
+  "title": "Тестовый словарь",
+  "slug": "test-vocabulary",
+  "published": true,
+  "publication_date": "2026-08-04T12:00:00+03:00",
+  "difficulty": "low",
+  "short_description": "Небольшая словарная викторина для проверки формата EN → RU.",
+  "intro": "Выберите правильный русский перевод каждого английского слова.",
+  "cover": "",
+  "tags": ["words"],
+  "table": "../vocabulary/test-english.csv"
+}

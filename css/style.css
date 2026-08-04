@@ -106,3 +106,4 @@ main{flex:1 0 auto;min-height:0}
   background:var(--surface);
   color:var(--primary-dark);
 }
+.vocabulary-question h1,.vocabulary-question .answer-list{text-align:center}.vocabulary-question .answer-option{text-align:center;justify-content:center}

@@ -5,14 +5,17 @@ from __future__ import annotations
 
 import argparse
 import copy
+import csv
 import datetime as dt
 import hashlib
 import json
 import re
 import shutil
 import sys
+import zipfile
 from pathlib import Path
 from urllib.parse import urlparse
+from xml.etree import ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from generate_share_pages import SharePageError, generate as generate_share_pages
@@ -27,10 +30,91 @@ DIFFICULTIES = {"low", "medium", "high"}
 HTML_FILES = ("index.html", "quizzes.html", "quiz.html", "contacts.html", "404.html")
 ROOT_FILES = ("favicon.ico",)
 COPY_DIRS = ("css", "js")
+VOCABULARY_TYPE = "vocabulary"
 
 
 class ContentError(Exception):
     pass
+
+
+def _xlsx_rows(path: Path) -> list[list[str]]:
+    """Read the first worksheet of an xlsx file without a third-party dependency."""
+    try:
+        with zipfile.ZipFile(path) as archive:
+            shared = []
+            if "xl/sharedStrings.xml" in archive.namelist():
+                root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+                shared = ["".join(node.text or "" for node in item.iter() if node.tag.endswith("}t")) for item in root]
+            workbook = ET.fromstring(archive.read("xl/workbook.xml"))
+            relations = ET.fromstring(archive.read("xl/_rels/workbook.xml.rels"))
+            rel_targets = {node.attrib["Id"]: node.attrib["Target"] for node in relations}
+            sheet = next(node for node in workbook.iter() if node.tag.endswith("}sheet"))
+            rel_id = next(value for key, value in sheet.attrib.items() if key.endswith("}id"))
+            target = rel_targets[rel_id].lstrip("/")
+            sheet_name = target if target.startswith("xl/") else f"xl/{target}"
+            root = ET.fromstring(archive.read(sheet_name))
+    except (OSError, zipfile.BadZipFile, KeyError, StopIteration, ET.ParseError, IndexError) as error:
+        raise ContentError(f"{path.relative_to(ROOT)}: файл Excel не читается: {error}") from None
+    rows = []
+    for row in (node for node in root.iter() if node.tag.endswith("}row")):
+        values: dict[int, str] = {}
+        for cell in (node for node in row if node.tag.endswith("}c")):
+            reference = cell.attrib.get("r", "A1")
+            letters = re.match(r"[A-Z]+", reference).group(0)
+            column = 0
+            for letter in letters:
+                column = column * 26 + ord(letter) - 64
+            value_node = next((node for node in cell.iter() if node.tag.endswith("}v")), None)
+            inline = "".join(node.text or "" for node in cell.iter() if node.tag.endswith("}t"))
+            raw = value_node.text if value_node is not None and value_node.text is not None else inline
+            if cell.attrib.get("t") == "s" and raw:
+                raw = shared[int(raw)]
+            values[column - 1] = raw or ""
+        rows.append([values.get(index, "") for index in range(max(values, default=-1) + 1)])
+    return rows
+
+
+def import_vocabulary_table(path: Path) -> list[dict]:
+    try:
+        if path.suffix.lower() == ".xlsx":
+            rows = _xlsx_rows(path)
+        elif path.suffix.lower() == ".csv":
+            with path.open("r", encoding="utf-8-sig", newline="") as stream:
+                rows = list(csv.reader(stream))
+        else:
+            raise ContentError(f"{path.relative_to(ROOT)}: поддерживаются таблицы .xlsx и .csv")
+    except ContentError:
+        raise
+    except (OSError, UnicodeError, csv.Error) as error:
+        raise ContentError(f"{path.relative_to(ROOT)}: файл таблицы не читается: {error}") from None
+    if not rows:
+        raise ContentError(f"{path.relative_to(ROOT)}: после обработки не осталось валидных слов")
+    headers = {str(value).strip(): index for index, value in enumerate(rows[0])}
+    missing = [name for name in ("English", "Russian") if name not in headers]
+    if missing:
+        raise ContentError(f"{path.relative_to(ROOT)}: отсутствуют обязательные столбцы: {', '.join(missing)}")
+    words, errors = [], []
+    for row_number, row in enumerate(rows[1:], 2):
+        get = lambda name: str(row[headers[name]] if headers[name] < len(row) else "").strip()
+        english, russian = get("English"), get("Russian")
+        category = get("Category") if "Category" in headers else ""
+        if not english and not russian and not category:
+            continue
+        if not english or not russian:
+            errors.append(f"{path.relative_to(ROOT)}: строка {row_number}: English и Russian обязательны")
+            continue
+        words.append({"english": english, "russian": russian, "category": category})
+    if not words and not errors:
+        errors.append(f"{path.relative_to(ROOT)}: после обработки не осталось валидных слов")
+    groups: dict[str, int] = {}
+    for word in words:
+        groups[word["category"]] = groups.get(word["category"], 0) + 1
+    for category, count in groups.items():
+        if count < 2:
+            errors.append(f"{path.relative_to(ROOT)}: категория «{category or '(пустая)'}» содержит меньше двух строк")
+    if errors:
+        raise ContentError("\n".join(errors))
+    return words
 
 
 def read_json(path: Path) -> dict:
@@ -174,6 +258,39 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
             else:
                 validate_slug(next_quiz, f"{label}.next_quiz", errors)
         validate_local_image(data.get("cover", ""), "img/covers/", f"{label}.cover", errors)
+        quiz_type = data.get("type", "quiz")
+        if quiz_type not in {"quiz", VOCABULARY_TYPE}:
+            errors.append(f"{label}.type: требуется quiz или vocabulary")
+        if quiz_type == VOCABULARY_TYPE:
+            table = require_string(data, "table", label, errors)
+            words = []
+            if table:
+                table_path = (path.parent / table).resolve()
+                try:
+                    table_path.relative_to(ROOT.resolve())
+                except ValueError:
+                    errors.append(f"{label}.table: путь выходит за пределы проекта")
+                else:
+                    try:
+                        words = import_vocabulary_table(table_path)
+                    except ContentError as error:
+                        errors.append(str(error))
+            data["vocabulary"] = words
+            # Reuse the mature question validator on transient questions. They are
+            # removed again by normalize_quiz and never enter source or output.
+            groups = {}
+            for word in words:
+                groups.setdefault(word["category"], []).append(word)
+            data["questions"] = []
+            for index, word in enumerate(words, 1):
+                choices = groups[word["category"]][:6]
+                if word not in choices:
+                    choices[-1] = word
+                data["questions"].append({
+                    "id": f"question-{index:02d}", "question": word["english"], "explanation": word["russian"],
+                    "answers": [{"id": f"answer-{answer_index:02d}", "text": choice["russian"]} for answer_index, choice in enumerate(choices, 1)],
+                    "correct_answer_id": f"answer-{choices.index(word) + 1:02d}",
+                })
         questions = data.get("questions")
         if not isinstance(questions, list) or not questions:
             errors.append(f"{label}.questions: требуется непустой массив")
@@ -259,6 +376,12 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
 def normalize_quiz(source: dict) -> dict:
     quiz = copy.deepcopy(source)
     slug = quiz["slug"]
+    if quiz.get("type") == VOCABULARY_TYPE:
+        quiz.pop("questions", None)
+        quiz.pop("table", None)
+        version_data = json.dumps(quiz, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+        quiz["content_version"] = hashlib.sha256(version_data).hexdigest()
+        return quiz
     for q_index, question in enumerate(quiz["questions"], 1):
         question.pop("image_alt", None)
         for answer in question["answers"]:
@@ -293,7 +416,8 @@ def make_catalog(tags: list[dict], quizzes: list[dict]) -> dict:
             "difficulty": quiz["difficulty"],
             "cover": quiz.get("cover", ""),
             "tags": quiz["tags"],
-            "question_count": len(quiz["questions"]),
+            "question_count": len(quiz.get("questions", quiz.get("vocabulary", []))),
+            **({"type": VOCABULARY_TYPE} if quiz.get("type") == VOCABULARY_TYPE else {}),
             "content_version": quiz["content_version"],
         }
         for quiz in quizzes if quiz["published"]
@@ -325,7 +449,7 @@ def build(output: Path = OUTPUT) -> dict:
     quiz_output = output / "data" / "quizzes"
     quiz_output.mkdir(parents=True)
     for quiz in quizzes:
-        for question in quiz["questions"]:
+        for question in quiz.get("questions", []):
             source_image = question.pop("_source_image", "")
             if source_image:
                 destination = output / question["image"]

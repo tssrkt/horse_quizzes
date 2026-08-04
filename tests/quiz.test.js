@@ -18,6 +18,25 @@ function answerAndAdvance(state, quiz, answerId) {
 }
 
 const quiz = makeQuiz(true);
+const vocabulary = {
+  slug: 'demo-words', title: 'Words', intro: 'Intro', published: true, type: 'vocabulary', content_version: 'b'.repeat(64),
+  vocabulary: [
+    ...Array.from({ length: 7 }, (_, index) => ({ english: index === 0 ? 'gray (grey)' : `word ${index}`, russian: `перевод ${index}`, category: 'large' })),
+    { english: 'horse', russian: 'лошадь', category: '' }, { english: 'mare', russian: 'кобыла', category: '' }
+  ]
+};
+assert.equal(core.validateQuiz(vocabulary), true);
+const vocabularyAttempt = core.createAttemptQuiz(vocabulary, true, () => 0);
+assert.equal(vocabularyAttempt.questions.length, 9);
+assert.equal(new Set(vocabularyAttempt.questions.map((question) => question.id)).size, 9);
+const gray = vocabularyAttempt.questions.find((question) => question.question === 'gray (grey)');
+assert.equal(gray.answers.length, 6);
+assert.equal(gray.answers.filter((answer) => answer.id === gray.correct_answer_id).length, 1);
+assert.equal(gray.answers.filter((answer) => answer.id !== gray.correct_answer_id).length, 5);
+assert.equal(gray.answers.every((answer) => answer.text.startsWith('перевод')), true);
+const horse = vocabularyAttempt.questions.find((question) => question.question === 'horse');
+assert.deepEqual(new Set(horse.answers.map((answer) => answer.text)), new Set(['лошадь', 'кобыла']));
+assert.equal(core.formatQuestionCount(9, 'vocabulary'), '9 слов');
 const originalSnapshot = JSON.stringify(quiz);
 const firstAttempt = core.createAttemptQuiz(quiz);
 assert.deepEqual(firstAttempt.questions.map((question) => question.id), ['question-01', 'question-02'], 'первое прохождение сохраняет порядок вопросов');

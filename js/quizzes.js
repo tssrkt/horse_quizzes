@@ -167,6 +167,7 @@
     const mod100 = count % 100;
     return mod10 === 1 && mod100 !== 11 ? 'вопрос' : mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14) ? 'вопроса' : 'вопросов';
   }
+  function volumeLabel(quiz) { return quiz.type === 'vocabulary' ? `${quiz.question_count} слов` : `${quiz.question_count} ${questionWord(quiz.question_count)}`; }
 
   async function fetchJson(path) {
     const url = new URL(path, location.href);
@@ -232,7 +233,7 @@
 
     function cardTemplate(quiz) {
       const count = quiz.question_count;
-      const title = `${quiz.title} (${count} ${questionWord(count)})`;
+      const title = `${quiz.title} (${volumeLabel(quiz)})`;
       const cover = quiz.cover
         ? `<img src="${escapeHtml(quiz.cover)}" alt="Обложка викторины «${escapeHtml(quiz.title)}»" loading="lazy">`
         : '<div class="cover-placeholder" aria-hidden="true"><span>?</span><small>Quiz</small></div>';
@@ -316,5 +317,5 @@
     })();
   }
 
-  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, quizPath: urlCore.quizPath, init };
+  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, volumeLabel, quizPath: urlCore.quizPath, init };
 });

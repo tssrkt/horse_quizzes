@@ -16,9 +16,11 @@
 
   function canOpenQuiz(data, previewMode) { return data?.published === true || (data?.published === false && previewMode === true); }
   function validateQuiz(data) {
-    if (!data || !SLUG_PATTERN.test(data.slug || '') || !/^[0-9a-f]{64}$/.test(data.content_version || '') || typeof data.title !== 'string' || typeof data.intro !== 'string' || typeof data.published !== 'boolean' || !Array.isArray(data.questions) || !data.questions.length) return false;
+    if (!data || !SLUG_PATTERN.test(data.slug || '') || !/^[0-9a-f]{64}$/.test(data.content_version || '') || typeof data.title !== 'string' || typeof data.intro !== 'string' || typeof data.published !== 'boolean') return false;
     if (data.questionImagesAlt != null && typeof data.questionImagesAlt !== 'string') return false;
     if (data.next_quiz != null && data.next_quiz !== '' && !SLUG_PATTERN.test(data.next_quiz)) return false;
+    if (data.type === 'vocabulary') return Array.isArray(data.vocabulary) && data.vocabulary.length > 0 && data.vocabulary.every((word) => word && typeof word.english === 'string' && word.english && typeof word.russian === 'string' && word.russian && typeof word.category === 'string');
+    if (!Array.isArray(data.questions) || !data.questions.length) return false;
     const questionIds = new Set();
     return data.questions.every((question) => {
       if (!question || !SLUG_PATTERN.test(question.id || '') || questionIds.has(question.id) || typeof question.question !== 'string' || typeof question.explanation !== 'string' || !Array.isArray(question.answers) || question.answers.length < 2 || question.answers.length > 6) return false;
@@ -52,6 +54,20 @@
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, cloneValue(item)]));
     return value;
   }
+  function vocabularyQuestions(sourceQuiz) {
+    const groups = new Map();
+    sourceQuiz.vocabulary.forEach((word, index) => {
+      const entry = { ...word, index };
+      if (!groups.has(word.category)) groups.set(word.category, []);
+      groups.get(word.category).push(entry);
+    });
+    return sourceQuiz.vocabulary.map((word, index) => ({
+      id: `question-${String(index + 1).padStart(2, '0')}`, question: word.english,
+      explanation: word.russian, vocabulary: true,
+      correct_answer_id: `word-${String(index + 1).padStart(2, '0')}`,
+      answers: groups.get(word.category).map((choice) => ({ id: `word-${String(choice.index + 1).padStart(2, '0')}`, text: choice.russian }))
+    }));
+  }
   function fisherYates(items, random = Math.random) {
     const shuffled = items.slice();
     for (let index = shuffled.length - 1; index > 0; index -= 1) {
@@ -62,15 +78,23 @@
   }
   function createAttemptQuiz(sourceQuiz, shuffle = false, random = Math.random) {
     const attempt = cloneValue(sourceQuiz);
+    if (attempt.type === 'vocabulary') attempt.questions = vocabularyQuestions(attempt);
     attempt.questions = attempt.questions.map((question) => ({
       ...question,
-      answers: shuffle ? fisherYates(question.answers, random) : question.answers
+      answers: (() => {
+        let answers = question.answers;
+        if (attempt.type === 'vocabulary' && shuffle && answers.length > 6) {
+          const correct = answers.find((answer) => answer.id === question.correct_answer_id);
+          answers = [correct, ...fisherYates(answers.filter((answer) => answer.id !== question.correct_answer_id && answer.text !== correct.text), random).slice(0, 5)];
+        }
+        return shuffle ? fisherYates(answers, random) : answers;
+      })()
     }));
-    if (shuffle) attempt.questions = fisherYates(attempt.questions, random);
+    if (shuffle || attempt.type === 'vocabulary') attempt.questions = fisherYates(attempt.questions, random);
     return attempt;
   }
   function restoreAttemptOrder(sourceQuiz, saved) {
-    const attempt = createAttemptQuiz(sourceQuiz);
+    const attempt = createAttemptQuiz(sourceQuiz, sourceQuiz.type === 'vocabulary' && (!saved || !Array.isArray(saved.question_ids)));
     if (!saved || !Array.isArray(saved.question_ids) || !saved.answer_ids) return attempt;
     const questions = new Map(attempt.questions.map((question) => [question.id, question]));
     if (saved.question_ids.length !== questions.size) return attempt;
@@ -79,7 +103,7 @@
     for (const question of ordered) {
       const ids = saved.answer_ids[question.id];
       const answers = new Map(question.answers.map((answer) => [answer.id, answer]));
-      if (!Array.isArray(ids) || ids.length !== answers.size) return attempt;
+      if (!Array.isArray(ids) || (sourceQuiz.type !== 'vocabulary' && ids.length !== answers.size)) return attempt;
       const orderedAnswers = ids.map((id) => answers.get(id));
       if (orderedAnswers.some((answer) => !answer)) return attempt;
       question.answers = orderedAnswers;
@@ -143,7 +167,7 @@
     if (percent >= 90) return 'Отличный результат!';
     return '';
   }
-  function formatQuestionCount(count) { return `${count} ${catalogCore.questionWord(count)}`; }
+  function formatQuestionCount(count, type = 'quiz') { return type === 'vocabulary' ? `${count} слов` : `${count} ${catalogCore.questionWord(count)}`; }
   function coverAlt(quiz) { return `Обложка викторины «${String(quiz.title).trim()}»`; }
   function questionImageAlt(quiz) { return String(quiz.questionImagesAlt || '').trim() || 'Фотография лошади к вопросу'; }
   function shareText(quiz, correct, total, quizUrl) { const percent = resultPercent(correct, total); const title = String(quiz.title).replace(/\s+/g, ' ').trim(); return `Мой результат — ${correct} из ${total} (${percent}%) в викторине «${title}». А какой у вас? Проверьте: ${quizUrl}`; }
@@ -160,7 +184,7 @@
   function autoAdvanceDelay(correct) { return correct ? 800 : null; }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
+  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -202,7 +226,7 @@ function init(core) {
   function renderIntro() {
     setWideLayout(false);
     const hasProgress = Object.keys(state.answers).length > 0 && !state.completed;
-    app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(core.formatQuestionCount(quiz.questions.length))}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p><div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? 'Продолжить' : 'Начать викторину'}</button>${hasProgress ? '<button class="button button-secondary" type="button" data-restart>Начать заново</button>' : ''}</div></section>`;
+    app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(core.formatQuestionCount(quiz.questions.length, quiz.type))}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p><div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? 'Продолжить' : 'Начать викторину'}</button>${hasProgress ? '<button class="button button-secondary" type="button" data-restart>Начать заново</button>' : ''}</div></section>`;
     app.querySelector('[data-start]').addEventListener('click', renderQuestion);
     app.querySelector('[data-restart]')?.addEventListener('click', restart);
   }
@@ -228,7 +252,7 @@ function init(core) {
     }).join('');
     const correct = record?.correct === true;
     const feedback = record ? `<div class="answer-feedback${correct ? ' is-success' : ' is-error'}" role="status" aria-live="polite"><strong>${correct ? 'Верно!' : 'Неверно'}</strong>${correct ? '' : `<p>${escapeHtml(question.explanation)}</p><button class="button" type="button" data-next>${state.current_index + 1 === quiz.questions.length ? 'Показать результат' : 'Следующий вопрос'}</button>`}</div>` : '<div class="answer-feedback-placeholder" aria-live="polite"></div>';
-    const questionContent = `<div class="question-content"><p class="quiz-name">${escapeHtml(quiz.title)}</p><div class="quiz-progress"><span id="question-position">Вопрос ${state.current_index + 1} из ${quiz.questions.length}</span><progress aria-labelledby="question-position" value="${state.current_index + 1}" max="${quiz.questions.length}">${state.current_index + 1}/${quiz.questions.length}</progress></div><h1>${escapeHtml(question.question)}</h1><div class="answer-list" aria-label="Варианты ответа">${answers}</div>${feedback}</div>`;
+    const questionContent = `<div class="question-content${quiz.type === 'vocabulary' ? ' vocabulary-question' : ''}"><p class="quiz-name">${escapeHtml(quiz.title)}</p><div class="quiz-progress"><span id="question-position">${quiz.type === 'vocabulary' ? 'Слово' : 'Вопрос'} ${state.current_index + 1} из ${quiz.questions.length}</span><progress aria-labelledby="question-position" value="${state.current_index + 1}" max="${quiz.questions.length}">${state.current_index + 1}/${quiz.questions.length}</progress></div><h1>${escapeHtml(quiz.type === 'vocabulary' ? question.question.toUpperCase() : question.question)}</h1><div class="answer-list" aria-label="Варианты ответа">${answers}</div>${feedback}</div>`;
     app.innerHTML = withImage
       ? `<section class="question-card question-card--with-image"><div class="question-layout">${imageTemplate(question)}${questionContent}</div></section>`
       : `<section class="question-card">${questionContent}</section>`;
