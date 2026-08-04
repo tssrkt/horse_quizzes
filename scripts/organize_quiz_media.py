@@ -186,32 +186,10 @@ def organize_quizzes(
 
         cover_source = normalize_repo_path(quiz.get("cover"))
         if cover_source is not None:
-            suffix = cover_source.suffix.lower()
-            cover_target = PurePosixPath("img/covers") / f"{slug}{suffix}"
-            cover_target_abs = repo_path(root, cover_target)
-
-            remove_same_stem_variants(
-                cover_target_abs.parent,
-                slug,
-                cover_target_abs,
-                dry_run,
-            )
-
-            if write_bytes_if_changed(
-                cover_target_abs,
-                source_bytes[cover_source],
-                dry_run,
-            ):
-                print(
-                    ("БУДЕТ ЗАПИСАНА ОБЛОЖКА: " if dry_run else "ЗАПИСАНА ОБЛОЖКА: ")
-                    + cover_target.as_posix()
-                )
-
-            if quiz.get("cover") != cover_target.as_posix():
-                quiz["cover"] = cover_target.as_posix()
-                changed = True
-
-            final_references.add(cover_target)
+            # Pages CMS already stores the uploaded cover in img/covers and writes
+            # that exact repository path to JSON. Preserve it byte-for-byte: using
+            # the quiz slug here would desynchronise the field from the upload.
+            final_references.add(cover_source)
 
         questions = quiz.get("questions")
         if quiz.get("type") == "vocabulary" and questions is None:

@@ -57,9 +57,9 @@ class OrganizeQuizCoverTests(unittest.TestCase):
                     edited["cover"] = source
                     self.write_quiz(source)
                 final = self.organize()
-                self.assertEqual(self.read_quiz()["cover"], "img/covers/test-quiz.webp")
-                self.assertTrue((self.root / "img" / "covers" / "test-quiz.webp").is_file())
-                self.assertIn(PurePosixPath("img/covers/test-quiz.webp"), final)
+                self.assertEqual(self.read_quiz()["cover"], source)
+                self.assertTrue((self.root / source).is_file())
+                self.assertIn(PurePosixPath(source), final)
 
     def test_replace_existing_cover(self):
         old = self.add_source_cover("test-quiz.webp", b"old")
@@ -67,9 +67,29 @@ class OrganizeQuizCoverTests(unittest.TestCase):
         replacement = self.add_source_cover("replacement.png", b"replacement")
         self.write_quiz(replacement)
         self.organize()
-        self.assertEqual(self.read_quiz()["cover"], "img/covers/test-quiz.png")
-        self.assertEqual((self.root / "img" / "covers" / "test-quiz.png").read_bytes(), b"replacement")
+        self.assertEqual(self.read_quiz()["cover"], replacement)
+        self.assertEqual((self.root / replacement).read_bytes(), b"replacement")
         self.assertFalse((self.root / "img" / "covers" / "test-quiz.webp").exists())
+
+    def test_cover_filename_is_preserved_exactly_for_cms_uploads(self):
+        for filename in ("english01.webp", "English_02.webp", "English-cover_03.final.webp"):
+            with self.subTest(filename=filename):
+                source = self.add_source_cover(filename, filename.encode())
+                self.write_quiz(source)
+                self.organize()
+                self.assertEqual(self.read_quiz()["cover"], f"img/covers/{filename}")
+                self.assertEqual((self.root / "img" / "covers" / filename).read_bytes(), filename.encode())
+
+    def test_vocabulary_quiz_preserves_uploaded_cover_filename(self):
+        directory = self.root / "data" / "vocabulary-quizzes"
+        directory.mkdir(parents=True)
+        source = self.add_source_cover("English_02.webp")
+        path = directory / "english.json"
+        path.write_text(json.dumps({"slug": "english", "type": "vocabulary", "cover": source}, ensure_ascii=False), encoding="utf-8")
+        self.organize()
+        saved = json.loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(saved["cover"], "img/covers/English_02.webp")
+        self.assertTrue((self.root / "img" / "covers" / "English_02.webp").is_file())
 
     def test_remove_cover_clears_reference_and_file(self):
         self.add_source_cover("test-quiz.webp")
@@ -94,6 +114,15 @@ class OrganizeQuizCoverTests(unittest.TestCase):
 
 
 class CurrentCoverContractTests(unittest.TestCase):
+    def test_every_cover_reference_matches_an_existing_file_exactly(self):
+        root = Path(__file__).resolve().parents[1]
+        for directory in (root / "data" / "quizzes", root / "data" / "vocabulary-quizzes"):
+            for path in directory.glob("*.json"):
+                quiz = json.loads(path.read_text(encoding="utf-8"))
+                cover = quiz.get("cover")
+                if cover:
+                    self.assertTrue((root / cover).is_file(), f"{path}: отсутствует {cover}")
+
     def test_horse_genetics_2_cover_exists_and_reaches_catalog(self):
         root = Path(__file__).resolve().parents[1]
         quiz = json.loads((root / "data" / "quizzes" / "horse-genetics-2.json").read_text(encoding="utf-8"))
