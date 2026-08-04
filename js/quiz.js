@@ -167,7 +167,11 @@
     return attempt;
   }
   function restoreAttemptOrder(sourceQuiz, saved) {
-    const modes = sourceQuiz.type === 'vocabulary' && Array.isArray(saved?.selected_modes) ? saved.selected_modes : VOCABULARY_MODES;
+    const modes = sourceQuiz.type === 'vocabulary' && Array.isArray(saved?.selected_modes)
+      ? saved.selected_modes
+      : sourceQuiz.type === 'vocabulary' && Array.isArray(sourceQuiz.selected_modes)
+        ? sourceQuiz.selected_modes
+        : VOCABULARY_MODES;
     const restoringVocabulary = sourceQuiz.type === 'vocabulary' && saved && Array.isArray(saved.question_ids);
     const attempt = createAttemptQuiz(sourceQuiz, sourceQuiz.type === 'vocabulary' && !restoringVocabulary, Math.random, modes, !restoringVocabulary);
     const fallback = restoringVocabulary ? createAttemptQuiz(sourceQuiz, true, Math.random, modes) : attempt;
@@ -311,7 +315,7 @@ function init(core) {
     const credit = [question.image_author ? `Автор: ${escapeHtml(question.image_author)}` : '', source].filter(Boolean).join(' · ');
     return `<figure class="question-image"><img src="${escapeHtml(pageUrl(core.versionedUrl(question.image, quiz.content_version)))}" alt="${escapeHtml(core.questionImageAlt(quiz))}">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
   }
-  function selectedSourceQuiz() { return core.selectVocabularyPart(sourceQuiz, selectedPartId); }
+  function selectedSourceQuiz() { return { ...core.selectVocabularyPart(sourceQuiz, selectedPartId), selected_modes: selectedModes.slice() }; }
   function prepareVocabularyAttempt() {
     const selectedSource = selectedSourceQuiz();
     let raw = null; try { raw = localStorage.getItem(storageKey()); } catch {}

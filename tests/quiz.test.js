@@ -55,6 +55,16 @@ assert.deepEqual(core.updateModeSelection(['en-ru', 'ru-en'], 'en-ru', false), [
 const restoredVocabulary = core.restoreAttemptOrder(vocabulary, vocabularyState);
 assert.deepEqual(restoredVocabulary.questions.map((question) => question.id), vocabularyAttempt.questions.map((question) => question.id));
 assert.deepEqual(restoredVocabulary.questions.map((question) => question.answers.map((answer) => answer.id)), vocabularyAttempt.questions.map((question) => question.answers.map((answer) => answer.id)));
+const selectedModeWithoutProgress = core.restoreAttemptOrder({ ...vocabulary, selected_modes: ['en-ru'] }, null);
+assert.equal(selectedModeWithoutProgress.questions.length, vocabulary.vocabulary.length, 'новая попытка использует только выбранный режим');
+assert.equal(selectedModeWithoutProgress.questions.every((question) => question.mode === 'en-ru'), true);
+const twentyFourWords = { ...vocabulary, vocabulary: Array.from({ length: 24 }, (_, index) => ({ english: `word ${index}`, russian: `перевод ${index}`, category: 'part' })) };
+for (const mode of core.VOCABULARY_MODES) {
+  const attempt = core.restoreAttemptOrder({ ...twentyFourWords, selected_modes: [mode] }, null);
+  assert.equal(attempt.questions.length, 24, `${mode}: попытка выбранной части содержит 24 вопроса`);
+  const restored = core.restoreAttemptOrder({ ...twentyFourWords, selected_modes: [mode] }, core.freshState(attempt));
+  assert.equal(restored.questions.length, 24, `${mode}: восстановленная попытка сохраняет 24 вопроса`);
+}
 let combinedState = core.freshState(vocabularyAttempt);
 for (let index = 0; index < vocabularyAttempt.questions.length; index += 1) {
   const question = vocabularyAttempt.questions[index];
