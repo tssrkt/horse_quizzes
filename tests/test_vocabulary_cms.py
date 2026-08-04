@@ -29,6 +29,25 @@ class VocabularyCmsContractTests(unittest.TestCase):
         self.assertIn("input: data/vocabulary", media)
         self.assertIn("output: ../vocabulary", media)
         self.assertIn("categories: [spreadsheet]", media)
+        self.assertIn("rename: false", media)
+        self.assertIn("rename: false", table)
+        self.assertNotIn("categories: [spreadsheet]", table)
+
+    def test_upload_fields_preserve_complex_names_in_storage_and_content(self):
+        covers_media = self.schema.split("  - name: covers\n", 1)[1].split("  - name: quiz_images\n", 1)[0]
+        quiz_media = self.schema.split("  - name: quiz_images\n", 1)[1].split("  - name: vocabulary_files\n", 1)[0]
+        self.assertIn("input: img/covers", covers_media)
+        self.assertIn("output: img/covers", covers_media)
+        self.assertIn("rename: false", covers_media)
+        self.assertIn("input: img/quiz", quiz_media)
+        self.assertIn("output: img/quiz", quiz_media)
+        self.assertIn("rename: false", quiz_media)
+
+        regular_cover = self.regular.split("      - name: cover\n", 1)[1].split("      - name: questionImagesAlt\n", 1)[0]
+        question_image = self.regular.split("          - name: image\n", 1)[1].split("          - name: answers\n", 1)[0]
+        vocabulary_cover = self.vocabulary.split("      - name: cover\n", 1)[1].split("      - name: tags\n", 1)[0]
+        for field in (regular_cover, question_image, vocabulary_cover):
+            self.assertIn("rename: false", field)
 
     def test_has_common_fields_but_no_question_editor(self):
         for name in ("title", "slug", "published", "publication_date", "difficulty", "short_description", "intro", "cover", "tags", "next_quiz"):

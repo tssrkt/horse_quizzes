@@ -9,21 +9,21 @@ media:
     output: img/covers
     categories: [image]
     extensions: [jpg, jpeg, png, webp, avif, svg]
-    rename: safe
+    rename: false
   - name: quiz_images
     label: Изображения вопросов
     input: img/quiz
     output: img/quiz
     categories: [image]
     extensions: [jpg, jpeg, png, webp, avif, svg]
-    rename: safe
+    rename: false
   - name: vocabulary_files
     label: Словари Excel
     input: data/vocabulary
     output: ../vocabulary
     categories: [spreadsheet]
     extensions: [xlsx]
-    rename: safe
+    rename: false
 
 content:
   - name: tags
@@ -132,6 +132,7 @@ content:
         options:
           media: covers
           categories: [image]
+          rename: false
       - name: questionImagesAlt
         label: Общий alt для изображений вопросов
         type: string
@@ -183,6 +184,7 @@ content:
             options:
               media: quiz_images
               categories: [image]
+              rename: false
           - name: answers
             label: Варианты ответа
             type: object
@@ -308,6 +310,7 @@ content:
         options:
           media: covers
           categories: [image]
+          rename: false
       - name: tags
         label: Теги
         type: reference
@@ -337,5 +340,4 @@ content:
         options:
           media: vocabulary_files
           extensions: [xlsx]
-          categories: [spreadsheet]
-          rename: safe
+          rename: false

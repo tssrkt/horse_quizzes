@@ -52,13 +52,13 @@ jobs:
 
             python scripts/organize_quiz_media.py
 
-            if git diff --quiet -- data/quizzes img/covers img/quiz; then
+            if git diff --quiet -- data/quizzes data/vocabulary-quizzes data/vocabulary img/covers img/quiz; then
               echo "Quiz media is already organized."
               gh workflow run pages.yml --ref main
               exit 0
             fi
 
-            git add -A data/quizzes img/covers img/quiz
+            git add -A data/quizzes data/vocabulary-quizzes data/vocabulary img/covers img/quiz
             git commit -m "Organize quiz media"
 
             if git push origin HEAD:main; then
