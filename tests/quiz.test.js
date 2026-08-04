@@ -107,6 +107,8 @@ for (const size of [2, 4, 6, 30]) {
   }
 }
 const thirtyWords = groupedVocabulary(30);
+const directlyGenerated = core.vocabularyQuestions(thirtyWords, 'en-ru', () => 0.5, true);
+assert.equal(directlyGenerated.every((question) => question.answers.length <= 6), true, 'сам генератор словарных вопросов не создаёт больше шести вариантов');
 assert.equal(core.createAttemptQuiz(thirtyWords, false, () => 0, ['en-ru']).questions.every((question) => question.answers.length <= 6), true, 'лимит действует независимо от флага перемешивания');
 const firstWrongSet = new Set(core.createAttemptQuiz(thirtyWords, true, () => 0, ['en-ru']).questions.find((item) => item.correct_answer_id === 'word-01').answers.filter((answer) => answer.id !== 'word-01').map((answer) => answer.id));
 const secondWrongSet = new Set(core.createAttemptQuiz(thirtyWords, true, () => 0.999, ['en-ru']).questions.find((item) => item.correct_answer_id === 'word-01').answers.filter((answer) => answer.id !== 'word-01').map((answer) => answer.id));
@@ -114,6 +116,9 @@ assert.notDeepEqual(firstWrongSet, secondWrongSet, 'при новом прохо
 const brokenVocabularyOrder = core.freshState(core.createAttemptQuiz(thirtyWords, true, () => 0.25, ['en-ru']));
 brokenVocabularyOrder.answer_ids[brokenVocabularyOrder.question_ids[0]] = ['missing-answer'];
 assert.equal(core.restoreAttemptOrder(thirtyWords, brokenVocabularyOrder).questions.every((question) => question.answers.length <= 6), true, 'повреждённое сохранение не возвращает полный список категории');
+const legacyVocabularyOrder = core.freshState(core.createAttemptQuiz(thirtyWords, true, () => 0.25, ['en-ru']));
+legacyVocabularyOrder.answer_ids[legacyVocabularyOrder.question_ids[0]] = Array.from({ length: 30 }, (_, index) => `word-${String(index + 1).padStart(2, '0')}`);
+assert.equal(core.restoreAttemptOrder(thirtyWords, legacyVocabularyOrder).questions.every((question) => question.answers.length <= 6), true, 'старое сохранение со всей категорией заменяется набором не больше шести вариантов');
 const duplicateTranslations = groupedVocabulary(7);
 duplicateTranslations.vocabulary[1].russian = duplicateTranslations.vocabulary[2].russian;
 const uniqueAnswers = core.createAttemptQuiz(duplicateTranslations, true, () => 0.5, ['en-ru']).questions.find((item) => item.correct_answer_id === 'word-01').answers;

@@ -55,7 +55,25 @@
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, cloneValue(item)]));
     return value;
   }
-  function vocabularyQuestions(sourceQuiz, mode = 'en-ru') {
+  function vocabularyAnswerOptions(group, correctIndex, reverse, random, shuffle, limit = true) {
+    const correctWord = group.find((choice) => choice.index === correctIndex);
+    if (!correctWord) return [];
+    const textFor = (choice) => reverse ? choice.english : choice.russian;
+    const correct = { id: `word-${String(correctWord.index + 1).padStart(2, '0')}`, text: textFor(correctWord) };
+    const seenTexts = new Set([correct.text]);
+    const incorrect = group.reduce((answers, choice) => {
+      const text = textFor(choice);
+      if (choice.index !== correctIndex && !seenTexts.has(text)) {
+        seenTexts.add(text);
+        answers.push({ id: `word-${String(choice.index + 1).padStart(2, '0')}`, text });
+      }
+      return answers;
+    }, []);
+    const selectedIncorrect = limit && incorrect.length > 5 ? fisherYates(incorrect, random).slice(0, 5) : incorrect;
+    const answers = [correct, ...selectedIncorrect];
+    return shuffle ? fisherYates(answers, random) : answers;
+  }
+  function vocabularyQuestions(sourceQuiz, mode = 'en-ru', random = Math.random, shuffleAnswers = false, limitAnswers = true) {
     const groups = new Map();
     sourceQuiz.vocabulary.forEach((word, index) => {
       const entry = { ...word, index };
@@ -64,12 +82,17 @@
     });
     const reverse = mode === 'ru-en';
     const typing = mode === 'typing';
-    return sourceQuiz.vocabulary.map((word, index) => ({
-      id: `${mode}-question-${String(index + 1).padStart(2, '0')}`, question: reverse || typing ? word.russian : word.english,
-      explanation: reverse || typing ? word.english : word.russian, vocabulary: true, typing, mode,
-      correct_answer_id: `word-${String(index + 1).padStart(2, '0')}`,
-      answers: typing ? [{ id: `word-${String(index + 1).padStart(2, '0')}`, text: word.english }] : groups.get(word.category).map((choice) => ({ id: `word-${String(choice.index + 1).padStart(2, '0')}`, text: reverse ? choice.english : choice.russian }))
-    }));
+    return sourceQuiz.vocabulary.map((word, index) => {
+      const correctAnswerId = `word-${String(index + 1).padStart(2, '0')}`;
+      return {
+        id: `${mode}-question-${String(index + 1).padStart(2, '0')}`, question: reverse || typing ? word.russian : word.english,
+        explanation: reverse || typing ? word.english : word.russian, vocabulary: true, typing, mode,
+        correct_answer_id: correctAnswerId,
+        answers: typing
+          ? [{ id: correctAnswerId, text: word.english }]
+          : vocabularyAnswerOptions(groups.get(word.category), index, reverse, random, shuffleAnswers, limitAnswers)
+      };
+    });
   }
   function fisherYates(items, random = Math.random) {
     const shuffled = items.slice();
@@ -78,19 +101,6 @@
       [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
     }
     return shuffled;
-  }
-  function prepareVocabularyAnswers(question, shuffle, random) {
-    const correct = question.answers.find((answer) => answer.id === question.correct_answer_id);
-    if (!correct) return [];
-    const seenTexts = new Set([correct.text]);
-    const incorrect = question.answers.filter((answer) => {
-      if (answer.id === question.correct_answer_id || seenTexts.has(answer.text)) return false;
-      seenTexts.add(answer.text);
-      return true;
-    });
-    const selectedIncorrect = incorrect.length > 5 ? fisherYates(incorrect, random).slice(0, 5) : incorrect;
-    const answers = [correct, ...selectedIncorrect];
-    return shuffle ? fisherYates(answers, random) : answers;
   }
   function updateModeSelection(selectedModes, mode, checked) {
     const selected = VOCABULARY_MODES.filter((item) => selectedModes.includes(item));
@@ -119,14 +129,14 @@
       attempt.selected_modes = VOCABULARY_MODES.filter((mode) => selectedModes.includes(mode));
       if (!attempt.selected_modes.length) attempt.selected_modes = ['en-ru'];
       attempt.questions = attempt.selected_modes.flatMap((mode) => {
-        const block = vocabularyQuestions(attempt, mode);
+        const block = vocabularyQuestions(attempt, mode, random, shuffle, prepareVocabulary);
         return shuffle ? fisherYates(block, random) : block;
       });
     }
     attempt.questions = attempt.questions.map((question) => ({
       ...question,
       answers: (() => {
-        if (attempt.type === 'vocabulary' && !question.typing && prepareVocabulary) return prepareVocabularyAnswers(question, shuffle, random);
+        if (attempt.type === 'vocabulary') return question.answers;
         return shuffle ? fisherYates(question.answers, random) : question.answers;
       })()
     }));
@@ -147,6 +157,7 @@
       const ids = saved.answer_ids[question.id];
       const answers = new Map(question.answers.map((answer) => [answer.id, answer]));
       if (!Array.isArray(ids) || (sourceQuiz.type !== 'vocabulary' && ids.length !== answers.size)) return fallback;
+      if (sourceQuiz.type === 'vocabulary' && !question.typing && (ids.length > 6 || ids.filter((id) => id === question.correct_answer_id).length !== 1 || new Set(ids).size !== ids.length)) return fallback;
       const orderedAnswers = ids.map((id) => answers.get(id));
       if (orderedAnswers.some((answer) => !answer)) return fallback;
       question.answers = orderedAnswers;
