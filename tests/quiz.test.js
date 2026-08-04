@@ -178,6 +178,11 @@ const repeated = core.answerQuestion(correct.state, quiz, 'a-02');
 assert.equal(repeated.accepted, false); assert.equal(repeated.state.correct_count, 1, '6: повторный выбор заблокирован');
 assert.equal(core.autoAdvanceDelay(true), 800, '7: правильный ответ переходит через 800 мс');
 assert.equal(core.autoAdvanceDelay(false), null, '8: неправильный ответ не переходит автоматически');
+assert.equal(core.typingEnterAction({ typing: true }, null, false), 'submit', 'первый Enter отправляет typing-форму');
+assert.equal(core.typingEnterAction({ typing: true }, { correct: false }, false), 'advance', 'Enter после ошибки переходит дальше');
+assert.equal(core.typingEnterAction({ typing: true }, { correct: false }, true), null, 'повторный Enter во время перехода игнорируется');
+assert.equal(core.typingEnterAction({ typing: true }, { correct: true }, true), null, 'Enter не вмешивается в автоматический переход после правильного ответа');
+assert.equal(core.typingEnterAction({ typing: false }, { correct: false }, false), null, 'Enter не меняет вопросы с вариантами ответа');
 assert.equal(quiz.questions[0].explanation, 'Пояснение 1', '9: пояснение доступно для неправильного ответа');
 
 state = core.freshState(quiz);
