@@ -226,7 +226,7 @@
     if (percent < 100) return 'Хороший результат! Вы разбираетесь в теме и уже совсем близки к безупречности. В сборнике статей о лошадках можно найти еще больше интересных фактов, которые помогут заполнить оставшиеся пробелы и, возможно, в следующий раз ответить правильно на все вопросы.';
     return 'Вы правильно ответили на все вопросы и прекрасно разбираетесь в данной теме. Вас не так-то просто запутать! А в сборнике статей о лошадках наверняка найдется еще много интересного.';
   }
-  function formatQuestionCount(count, type = 'quiz') { return type === 'vocabulary' ? `${count} слов` : `${count} ${catalogCore.questionWord(count)}`; }
+  function formatQuestionCount(count, type = 'quiz') { return type === 'vocabulary' ? `${count} ${catalogCore.vocabularyWord(count)}` : `${count} ${catalogCore.questionWord(count)}`; }
   function coverAlt(quiz) { return `Обложка викторины «${String(quiz.title).trim()}»`; }
   function questionImageAlt(quiz) { return String(quiz.questionImagesAlt || '').trim() || 'Фотография лошади к вопросу'; }
   function shareText(quiz, correct, total, quizUrl) { const percent = resultPercent(correct, total); const title = String(quiz.title).replace(/\s+/g, ' ').trim(); return `Мой результат — ${correct} из ${total} (${percent}%) в викторине «${title}». А какой у вас? Проверьте: ${quizUrl}`; }

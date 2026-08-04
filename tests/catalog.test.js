@@ -14,6 +14,8 @@ const {
   paginationItems,
   getStateFromUrl,
   buildUrl,
+  vocabularyWord,
+  volumeLabel,
   quizPath
 } = require('../js/quizzes.js');
 
@@ -35,6 +37,15 @@ function pagesFor(count) {
 }
 
 assert.equal(PAGE_SIZE, 10);
+const vocabularyForms = new Map([
+  [0, 'слов'], [1, 'слово'], [2, 'слова'], [4, 'слова'], [5, 'слов'], [11, 'слов'], [12, 'слов'], [14, 'слов'],
+  [21, 'слово'], [22, 'слова'], [24, 'слова'], [25, 'слов'], [82, 'слова'], [87, 'слов'],
+  [111, 'слов'], [112, 'слов'], [121, 'слово'], [122, 'слова']
+]);
+for (const [count, form] of vocabularyForms) {
+  assert.equal(vocabularyWord(count), form, `${count} ${form}`);
+  assert.equal(volumeLabel({ type: 'vocabulary', question_count: count }), `${count} ${form}`);
+}
 assert.deepEqual(DIFFICULTY_LABELS, { low: 'низкая', medium: 'средняя', high: 'высокая' });
 assert.equal(pagesFor(0), 1);
 assert.equal(pagesFor(1), 1);

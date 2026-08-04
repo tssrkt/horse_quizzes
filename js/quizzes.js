@@ -167,7 +167,12 @@
     const mod100 = count % 100;
     return mod10 === 1 && mod100 !== 11 ? 'вопрос' : mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14) ? 'вопроса' : 'вопросов';
   }
-  function volumeLabel(quiz) { return quiz.type === 'vocabulary' ? `${quiz.question_count} слов` : `${quiz.question_count} ${questionWord(quiz.question_count)}`; }
+  function vocabularyWord(count) {
+    const mod10 = count % 10;
+    const mod100 = count % 100;
+    return mod10 === 1 && mod100 !== 11 ? 'слово' : mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14) ? 'слова' : 'слов';
+  }
+  function volumeLabel(quiz) { return quiz.type === 'vocabulary' ? `${quiz.question_count} ${vocabularyWord(quiz.question_count)}` : `${quiz.question_count} ${questionWord(quiz.question_count)}`; }
 
   async function fetchJson(path) {
     const url = new URL(path, location.href);
@@ -317,5 +322,5 @@
     })();
   }
 
-  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, volumeLabel, quizPath: urlCore.quizPath, init };
+  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, vocabularyWord, volumeLabel, quizPath: urlCore.quizPath, init };
 });

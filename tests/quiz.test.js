@@ -124,6 +124,9 @@ duplicateTranslations.vocabulary[1].russian = duplicateTranslations.vocabulary[2
 const uniqueAnswers = core.createAttemptQuiz(duplicateTranslations, true, () => 0.5, ['en-ru']).questions.find((item) => item.correct_answer_id === 'word-01').answers;
 assert.equal(new Set(uniqueAnswers.map((answer) => answer.text)).size, uniqueAnswers.length, 'одинаковые переводы не дублируются');
 assert.equal(core.formatQuestionCount(9, 'vocabulary'), '9 слов');
+for (const [count, form] of [[0, 'слов'], [1, 'слово'], [2, 'слова'], [4, 'слова'], [5, 'слов'], [11, 'слов'], [12, 'слов'], [14, 'слов'], [21, 'слово'], [22, 'слова'], [24, 'слова'], [25, 'слов'], [82, 'слова'], [87, 'слов'], [111, 'слов'], [112, 'слов'], [121, 'слово'], [122, 'слова']]) {
+  assert.equal(core.formatQuestionCount(count, 'vocabulary'), `${count} ${form}`);
+}
 const originalSnapshot = JSON.stringify(quiz);
 const firstAttempt = core.createAttemptQuiz(quiz);
 assert.deepEqual(firstAttempt.questions.map((question) => question.id), ['question-01', 'question-02'], 'первое прохождение сохраняет порядок вопросов');
