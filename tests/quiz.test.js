@@ -1,5 +1,7 @@
 'use strict';
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const core = require('../js/quiz.js');
 
 function makeQuiz(published = true) {
@@ -18,13 +20,12 @@ function answerAndAdvance(state, quiz, answerId) {
 }
 
 const quiz = makeQuiz(true);
-const vocabulary = {
-  slug: 'demo-words', title: 'Words', intro: 'Intro', published: true, type: 'vocabulary', content_version: 'b'.repeat(64),
-  vocabulary: [
-    ...Array.from({ length: 7 }, (_, index) => ({ english: index === 0 ? 'gray (grey)' : `word ${index}`, russian: `перевод ${index}`, category: 'large' })),
-    { english: 'horse', russian: 'лошадь', category: '' }, { english: 'mare', russian: 'кобыла', category: '' }
-  ]
-};
+const vocabularyFixture = require('./fixtures/vocabulary/test-vocabulary.json');
+const fixtureRows = fs.readFileSync(path.join(__dirname, 'fixtures/vocabulary/test-english.csv'), 'utf8').trim().split(/\r?\n/).slice(1);
+const fixtureWords = fixtureRows.map((row) => { const [english, russian, category = ''] = row.split(','); return { english: english.trim(), russian: russian.trim(), category: category.trim() }; });
+const vocabulary = { ...vocabularyFixture, published: true, content_version: 'b'.repeat(64), vocabulary: [
+  ...fixtureWords.slice(0, 2), ...Array.from({ length: 5 }, (_, index) => ({ english: `word ${index}`, russian: `перевод ${index}`, category: 'colors' })), ...fixtureWords.slice(2)
+] };
 assert.equal(core.validateQuiz(vocabulary), true);
 const vocabularyAttempt = core.createAttemptQuiz(vocabulary, true, () => 0);
 assert.equal(vocabularyAttempt.questions.length, 9);
@@ -33,7 +34,7 @@ const gray = vocabularyAttempt.questions.find((question) => question.question ==
 assert.equal(gray.answers.length, 6);
 assert.equal(gray.answers.filter((answer) => answer.id === gray.correct_answer_id).length, 1);
 assert.equal(gray.answers.filter((answer) => answer.id !== gray.correct_answer_id).length, 5);
-assert.equal(gray.answers.every((answer) => answer.text.startsWith('перевод')), true);
+assert.equal(gray.answers.every((answer) => !['лошадь', 'кобыла'].includes(answer.text)), true);
 const horse = vocabularyAttempt.questions.find((question) => question.question === 'horse');
 assert.deepEqual(new Set(horse.answers.map((answer) => answer.text)), new Set(['лошадь', 'кобыла']));
 assert.equal(core.formatQuestionCount(9, 'vocabulary'), '9 слов');

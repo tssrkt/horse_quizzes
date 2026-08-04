@@ -6,7 +6,15 @@ from pathlib import Path
 from tools.build_site import ContentError, import_vocabulary_table
 
 
+FIXTURE = Path(__file__).parent / "fixtures" / "vocabulary" / "test-english.csv"
+
+
 class VocabularyImportTests(unittest.TestCase):
+    def test_imports_test_fixture(self):
+        words = import_vocabulary_table(FIXTURE)
+        self.assertEqual(len(words), 4)
+        self.assertEqual(words[0]["english"], "gray (grey)")
+
     def write(self, rows):
         directory = tempfile.TemporaryDirectory(dir=Path.cwd())
         path = Path(directory.name) / "words.csv"
