@@ -62,14 +62,15 @@ def repo_path(root: Path, relative: PurePosixPath) -> Path:
 
 
 def load_quizzes(root: Path) -> list[tuple[Path, dict[str, Any]]]:
-    quiz_root = root / "data" / "quizzes"
-    if not quiz_root.is_dir():
-        raise FileNotFoundError(f"Не найдена папка: {quiz_root}")
+    quiz_roots = (root / "data" / "quizzes", root / "data" / "vocabulary-quizzes")
+    if not quiz_roots[0].is_dir():
+        raise FileNotFoundError(f"Не найдена папка: {quiz_roots[0]}")
 
     loaded: list[tuple[Path, dict[str, Any]]] = []
     errors: list[str] = []
 
-    for json_path in sorted(quiz_root.rglob("*.json")):
+    paths = [path for quiz_root in quiz_roots if quiz_root.is_dir() for path in quiz_root.rglob("*.json")]
+    for json_path in sorted(paths):
         try:
             value = json.loads(json_path.read_text(encoding="utf-8"))
             if not isinstance(value, dict):

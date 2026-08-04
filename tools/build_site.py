@@ -208,7 +208,8 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
     errors: list[str] = []
     quizzes: list[dict] = []
     slugs: dict[str, Path] = {}
-    for path in sorted((data_root / "quizzes").glob("*.json")):
+    quiz_paths = list((data_root / "quizzes").glob("*.json")) + list((data_root / "vocabulary-quizzes").glob("*.json"))
+    for path in sorted(quiz_paths):
         data = read_json(path)
         label = str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path)
         slug = require_string(data, "slug", label, errors)

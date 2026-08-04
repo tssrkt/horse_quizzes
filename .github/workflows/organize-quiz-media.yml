@@ -7,6 +7,8 @@ on:
     paths:
       - "data/quizzes/*.json"
       - "data/quizzes/**/*.json"
+      - "data/vocabulary-quizzes/*.json"
+      - "data/vocabulary/*.xlsx"
   workflow_dispatch:
 
 permissions:

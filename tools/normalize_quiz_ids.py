@@ -94,7 +94,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Добавить отсутствующие служебные ID в исходные JSON викторин")
     parser.add_argument("paths", nargs="*", type=Path, help="JSON-файлы; по умолчанию data/quizzes/*.json")
     args = parser.parse_args()
-    paths = args.paths or sorted((ROOT / "data" / "quizzes").glob("*.json"))
+    paths = args.paths or sorted([
+        *(ROOT / "data" / "quizzes").glob("*.json"),
+        *(ROOT / "data" / "vocabulary-quizzes").glob("*.json"),
+    ])
     changed: list[Path] = []
     try:
         for path in paths:

@@ -17,6 +17,13 @@ media:
     categories: [image]
     extensions: [jpg, jpeg, png, webp, avif, svg]
     rename: safe
+  - name: vocabulary_files
+    label: Словари Excel
+    input: data/vocabulary
+    output: ../vocabulary
+    categories: [spreadsheet]
+    extensions: [xlsx]
+    rename: safe
 
 content:
   - name: tags
@@ -223,3 +230,112 @@ content:
             pattern:
               regex: "^$|^https?://.+$"
               message: Укажите полный адрес с http:// или https:// либо оставьте поле пустым.
+
+  - name: vocabulary_quizzes
+    label: Словарные викторины
+    type: collection
+    path: data/vocabulary-quizzes
+    format: json
+    filename:
+      template: "{fields.slug}.json"
+      field: false
+    view:
+      primary: title
+      fields: [title, slug, published, publication_date]
+      sort: [publication_date, title]
+      search: [title, slug, short_description]
+      default:
+        sort: publication_date
+        order: desc
+    fields:
+      - name: type
+        type: string
+        hidden: true
+        required: true
+        default: vocabulary
+      - name: title
+        label: Название
+        type: string
+        required: true
+      - name: slug
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          message: Используйте латинские строчные буквы, цифры и дефисы.
+      - name: published
+        label: Опубликована
+        type: boolean
+        required: true
+        default: false
+      - name: publication_date
+        label: Дата и время публикации
+        type: date
+        required: true
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm:ssxxx
+          step: 60
+      - name: difficulty
+        label: Уровень сложности
+        type: select
+        required: true
+        default: low
+        options:
+          values:
+            - name: low
+              label: Низкая
+            - name: medium
+              label: Средняя
+            - name: high
+              label: Высокая
+      - name: short_description
+        label: Краткое описание
+        type: text
+        required: true
+        options:
+          maxlength: 250
+      - name: intro
+        label: Вступительный текст
+        type: text
+        required: true
+      - name: cover
+        label: Квадратная обложка
+        type: image
+        required: false
+        description: Рекомендуемое соотношение сторон — 1:1.
+        options:
+          media: covers
+          categories: [image]
+      - name: tags
+        label: Теги
+        type: reference
+        required: true
+        options:
+          collection: tags
+          multiple: true
+          min: 1
+          search: "name,slug"
+          value: "{fields.slug}"
+          label: "{fields.name}"
+      - name: next_quiz
+        label: Следующая викторина
+        type: reference
+        required: false
+        options:
+          collection: quizzes
+          multiple: false
+          search: "title,slug"
+          value: "{fields.slug}"
+          label: "{fields.title}"
+      - name: table
+        label: Словарь Excel
+        type: file
+        required: true
+        description: Таблица Excel со столбцами English, Russian и Category. Содержимое проверяется при сборке сайта.
+        options:
+          media: vocabulary_files
+          extensions: [xlsx]
+          categories: [spreadsheet]
+          rename: safe

@@ -58,6 +58,25 @@ class BuildSiteTests(unittest.TestCase):
         published = {item["slug"]: item for item in build_site.make_catalog(tags, quizzes)["quizzes"]}
         self.assertEqual(published["history-draft"]["question_count"], len(draft["questions"]))
 
+    def test_discovers_vocabulary_cms_collection_without_questions(self):
+        table = self.data / "vocabulary" / "cms-words.csv"
+        table.parent.mkdir(exist_ok=True)
+        table.write_text("English,Russian,Category\nhorse,лошадь,\nmare,кобыла,\n", encoding="utf-8")
+        source = {
+            "type": "vocabulary", "title": "CMS словарь", "slug": "cms-words", "published": False,
+            "publication_date": "2026-08-04", "difficulty": "low", "short_description": "Описание",
+            "intro": "Вступление", "cover": "", "tags": ["words"], "table": "../vocabulary/cms-words.csv"
+        }
+        directory = self.data / "vocabulary-quizzes"
+        directory.mkdir(exist_ok=True)
+        (directory / "cms-words.json").write_text(json.dumps(source, ensure_ascii=False), encoding="utf-8")
+        tags, quizzes = self.load()
+        loaded = next(quiz for quiz in quizzes if quiz["slug"] == "cms-words")
+        self.assertEqual(loaded["type"], "vocabulary")
+        self.assertEqual(len(loaded["vocabulary"]), 2)
+        self.assertNotIn("questions", loaded)
+        self.assertNotIn("cms-words", {quiz["slug"] for quiz in build_site.make_catalog(tags, quizzes)["quizzes"]})
+
     def test_no_correct_answer(self):
         self.assert_quiz_error(lambda quiz: quiz["questions"][0].pop("correct_answer_id"), "требуется correct_answer_id")
 

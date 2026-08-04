@@ -1,0 +1,42 @@
+import unittest
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class VocabularyCmsContractTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.schema = (ROOT / ".pages.yml").read_text(encoding="utf-8")
+        cls.regular = cls.schema.split("  - name: quizzes\n", 1)[1].split("  - name: vocabulary_quizzes\n", 1)[0]
+        cls.vocabulary = cls.schema.split("  - name: vocabulary_quizzes\n", 1)[1]
+
+    def test_has_independent_vocabulary_collection(self):
+        self.assertIn("label: Викторины", self.regular)
+        self.assertIn("label: Словарные викторины", self.vocabulary)
+        self.assertIn("path: data/vocabulary-quizzes", self.vocabulary)
+        self.assertIn('template: "{fields.slug}.json"', self.vocabulary)
+
+    def test_stores_vocabulary_type_and_excel_reference(self):
+        self.assertRegex(self.vocabulary, r"name: type\s+type: string\s+hidden: true\s+required: true\s+default: vocabulary")
+        table = self.vocabulary.split("      - name: table\n", 1)[1]
+        self.assertIn("type: file", table)
+        self.assertIn("required: true", table)
+        self.assertIn("media: vocabulary_files", table)
+        self.assertIn("extensions: [xlsx]", table)
+        media = self.schema.split("  - name: vocabulary_files\n", 1)[1].split("\ncontent:", 1)[0]
+        self.assertIn("input: data/vocabulary", media)
+        self.assertIn("output: ../vocabulary", media)
+        self.assertIn("categories: [spreadsheet]", media)
+
+    def test_has_common_fields_but_no_question_editor(self):
+        for name in ("title", "slug", "published", "publication_date", "difficulty", "short_description", "intro", "cover", "tags", "next_quiz"):
+            self.assertIn(f"- name: {name}", self.vocabulary)
+        for forbidden in ("name: questions", "name: answers", "name: questionImagesAlt", "name: image_source"):
+            self.assertNotIn(forbidden, self.vocabulary)
+        self.assertIn("name: questions", self.regular)
+
+
+if __name__ == "__main__":
+    unittest.main()

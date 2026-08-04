@@ -25,7 +25,8 @@ class SharePageError(Exception):
 def load_published_quizzes(root: Path) -> list[dict]:
     quizzes = []
     errors = []
-    for path in sorted((root / "data" / "quizzes").glob("*.json")):
+    paths = list((root / "data" / "quizzes").glob("*.json")) + list((root / "data" / "vocabulary-quizzes").glob("*.json"))
+    for path in sorted(paths):
         try:
             quiz = json.loads(path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError) as error:

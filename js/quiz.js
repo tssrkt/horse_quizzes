@@ -12,6 +12,7 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function (catalogCore, urlCore) {
   'use strict';
   const STATE_VERSION = 3;
+  const VOCABULARY_MODES = Object.freeze(['en-ru', 'ru-en', 'typing']);
   const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
   function canOpenQuiz(data, previewMode) { return data?.published === true || (data?.published === false && previewMode === true); }
@@ -54,18 +55,20 @@
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, cloneValue(item)]));
     return value;
   }
-  function vocabularyQuestions(sourceQuiz) {
+  function vocabularyQuestions(sourceQuiz, mode = 'en-ru') {
     const groups = new Map();
     sourceQuiz.vocabulary.forEach((word, index) => {
       const entry = { ...word, index };
       if (!groups.has(word.category)) groups.set(word.category, []);
       groups.get(word.category).push(entry);
     });
+    const reverse = mode === 'ru-en';
+    const typing = mode === 'typing';
     return sourceQuiz.vocabulary.map((word, index) => ({
-      id: `question-${String(index + 1).padStart(2, '0')}`, question: word.english,
-      explanation: word.russian, vocabulary: true,
+      id: `${mode}-question-${String(index + 1).padStart(2, '0')}`, question: reverse || typing ? word.russian : word.english,
+      explanation: reverse || typing ? word.english : word.russian, vocabulary: true, typing, mode,
       correct_answer_id: `word-${String(index + 1).padStart(2, '0')}`,
-      answers: groups.get(word.category).map((choice) => ({ id: `word-${String(choice.index + 1).padStart(2, '0')}`, text: choice.russian }))
+      answers: typing ? [{ id: `word-${String(index + 1).padStart(2, '0')}`, text: word.english }] : groups.get(word.category).map((choice) => ({ id: `word-${String(choice.index + 1).padStart(2, '0')}`, text: reverse ? choice.english : choice.russian }))
     }));
   }
   function fisherYates(items, random = Math.random) {
@@ -76,25 +79,54 @@
     }
     return shuffled;
   }
-  function createAttemptQuiz(sourceQuiz, shuffle = false, random = Math.random) {
+  function updateModeSelection(selectedModes, mode, checked) {
+    const selected = VOCABULARY_MODES.filter((item) => selectedModes.includes(item));
+    if (!VOCABULARY_MODES.includes(mode)) return selected;
+    if (checked) return VOCABULARY_MODES.filter((item) => item === mode || selected.includes(item));
+    return selected.length === 1 && selected[0] === mode ? selected : selected.filter((item) => item !== mode);
+  }
+  function normalizeTypedAnswer(value) { return String(value).trim().replace(/\s+/g, ' ').toLocaleLowerCase(); }
+  function acceptedEnglishAnswers(value) {
+    const original = String(value).trim();
+    const accepted = new Set([normalizeTypedAnswer(original)]);
+    const match = original.match(/^(.*?)\s*\(([^()]*)\)\s*$/);
+    if (match) {
+      accepted.add(normalizeTypedAnswer(match[1]));
+      match[2].split(',').forEach((synonym) => accepted.add(normalizeTypedAnswer(synonym)));
+    }
+    return [...accepted].filter(Boolean);
+  }
+  function isTypedAnswerCorrect(input, english) {
+    const normalized = normalizeTypedAnswer(input);
+    return Boolean(normalized) && acceptedEnglishAnswers(english).includes(normalized);
+  }
+  function createAttemptQuiz(sourceQuiz, shuffle = false, random = Math.random, selectedModes = VOCABULARY_MODES) {
     const attempt = cloneValue(sourceQuiz);
-    if (attempt.type === 'vocabulary') attempt.questions = vocabularyQuestions(attempt);
+    if (attempt.type === 'vocabulary') {
+      attempt.selected_modes = VOCABULARY_MODES.filter((mode) => selectedModes.includes(mode));
+      if (!attempt.selected_modes.length) attempt.selected_modes = ['en-ru'];
+      attempt.questions = attempt.selected_modes.flatMap((mode) => {
+        const block = vocabularyQuestions(attempt, mode);
+        return shuffle ? fisherYates(block, random) : block;
+      });
+    }
     attempt.questions = attempt.questions.map((question) => ({
       ...question,
       answers: (() => {
         let answers = question.answers;
-        if (attempt.type === 'vocabulary' && shuffle && answers.length > 6) {
+        if (attempt.type === 'vocabulary' && !question.typing && shuffle && answers.length > 6) {
           const correct = answers.find((answer) => answer.id === question.correct_answer_id);
           answers = [correct, ...fisherYates(answers.filter((answer) => answer.id !== question.correct_answer_id && answer.text !== correct.text), random).slice(0, 5)];
         }
         return shuffle ? fisherYates(answers, random) : answers;
       })()
     }));
-    if (shuffle || attempt.type === 'vocabulary') attempt.questions = fisherYates(attempt.questions, random);
+    if (shuffle && attempt.type !== 'vocabulary') attempt.questions = fisherYates(attempt.questions, random);
     return attempt;
   }
   function restoreAttemptOrder(sourceQuiz, saved) {
-    const attempt = createAttemptQuiz(sourceQuiz, sourceQuiz.type === 'vocabulary' && (!saved || !Array.isArray(saved.question_ids)));
+    const modes = sourceQuiz.type === 'vocabulary' && Array.isArray(saved?.selected_modes) ? saved.selected_modes : VOCABULARY_MODES;
+    const attempt = createAttemptQuiz(sourceQuiz, sourceQuiz.type === 'vocabulary' && (!saved || !Array.isArray(saved.question_ids)), Math.random, modes);
     if (!saved || !Array.isArray(saved.question_ids) || !saved.answer_ids) return attempt;
     const questions = new Map(attempt.questions.map((question) => [question.id, question]));
     if (saved.question_ids.length !== questions.size) return attempt;
@@ -112,7 +144,7 @@
     return attempt;
   }
   function freshState(quiz, now = new Date().toISOString()) {
-    return { version: STATE_VERSION, signature: structureSignature(quiz), question_ids: quiz.questions.map((question) => question.id), answer_ids: Object.fromEntries(quiz.questions.map((question) => [question.id, question.answers.map((answer) => answer.id)])), current_index: 0, answers: {}, correct_count: 0, saved_at: now, completed: false };
+    return { version: STATE_VERSION, signature: structureSignature(quiz), selected_modes: quiz.type === 'vocabulary' ? quiz.selected_modes.slice() : undefined, current_mode: quiz.questions[0]?.mode || null, question_ids: quiz.questions.map((question) => question.id), answer_ids: Object.fromEntries(quiz.questions.map((question) => [question.id, question.answers.map((answer) => answer.id)])), current_index: 0, answers: {}, correct_count: 0, saved_at: now, completed: false };
   }
   function restoreState(raw, quiz, now) {
     const fresh = freshState(quiz, now);
@@ -125,9 +157,9 @@
     for (const [questionId, record] of Object.entries(saved.answers)) {
       const question = quiz.questions.find((item) => item.id === questionId);
       const answer = question?.answers.find((item) => item.id === record?.answer_id);
-      const correct = answer?.id === question?.correct_answer_id;
-      if (!question || !answer || typeof record.correct !== 'boolean' || record.correct !== correct) return fresh;
-      verified[questionId] = { answer_id: answer.id, correct };
+      const correct = question?.typing ? isTypedAnswerCorrect(record?.input, question.explanation) : answer?.id === question?.correct_answer_id;
+      if (!question || !answer || (question.typing && typeof record.input !== 'string') || typeof record.correct !== 'boolean' || record.correct !== correct) return fresh;
+      verified[questionId] = question.typing ? { answer_id: answer.id, input: record.input, correct } : { answer_id: answer.id, correct };
       if (correct) correctCount += 1;
     }
     if (correctCount !== saved.correct_count) return fresh;
@@ -149,12 +181,21 @@
     const next = { ...state, answers: { ...state.answers, [question.id]: { answer_id: answer.id, correct } }, correct_count: state.correct_count + (correct ? 1 : 0), saved_at: now };
     return { state: next, accepted: true, correct };
   }
+  function answerTypingQuestion(state, quiz, input, now = new Date().toISOString()) {
+    if (state.completed) return { state, accepted: false, correct: false };
+    const question = quiz.questions[state.current_index];
+    if (!question?.typing || state.answers[question.id] || !normalizeTypedAnswer(input)) return { state, accepted: false, correct: false };
+    const answer = question.answers.find((item) => item.id === question.correct_answer_id);
+    const correct = isTypedAnswerCorrect(input, question.explanation);
+    const next = { ...state, answers: { ...state.answers, [question.id]: { answer_id: answer.id, input: String(input), correct } }, correct_count: state.correct_count + (correct ? 1 : 0), saved_at: now };
+    return { state: next, accepted: true, correct };
+  }
   function advance(state, quiz, now = new Date().toISOString()) {
     if (state.completed) return { state, advanced: false };
     const question = quiz.questions[state.current_index];
     if (!question || !state.answers[question.id]) return { state, advanced: false };
     const nextIndex = state.current_index + 1;
-    return { state: { ...state, current_index: Math.min(nextIndex, quiz.questions.length), completed: nextIndex >= quiz.questions.length, saved_at: now }, advanced: true };
+    return { state: { ...state, current_index: Math.min(nextIndex, quiz.questions.length), current_mode: quiz.questions[nextIndex]?.mode || state.current_mode, completed: nextIndex >= quiz.questions.length, saved_at: now }, advanced: true };
   }
   function resultPercent(correct, total) { return total > 0 ? Math.round(correct / total * 100) : 0; }
   function resultRecommendation(percent) {
@@ -184,7 +225,7 @@
   function autoAdvanceDelay(correct) { return correct ? 800 : null; }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, canOpenQuiz, validateQuiz, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
+  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, resultMessage, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -197,7 +238,7 @@ function init(core) {
   const slug = core.slugFromUrl(location.href);
   const preview = params.get('preview') === '1';
   const reduceMotion = core.prefersReducedMotion(window.matchMedia.bind(window));
-  let sourceQuiz, quiz, state, nextQuiz = null, answerLocked = false, transitionScheduled = false;
+  let sourceQuiz, quiz, state, nextQuiz = null, answerLocked = false, transitionScheduled = false, selectedModes = ['en-ru', 'ru-en', 'typing'];
   const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));
   const storageKey = () => `quiz-progress:${quiz.slug}`;
   const saveState = () => { try { localStorage.setItem(storageKey(), JSON.stringify(state)); } catch (error) { console.warn('[Quiz] Не удалось сохранить прогресс.', error); } };
@@ -222,13 +263,37 @@ function init(core) {
     const credit = [question.image_author ? `Автор: ${escapeHtml(question.image_author)}` : '', source].filter(Boolean).join(' · ');
     return `<figure class="question-image"><img src="${escapeHtml(pageUrl(core.versionedUrl(question.image, quiz.content_version)))}" alt="${escapeHtml(core.questionImageAlt(quiz))}">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
   }
-  function restart() { transitionScheduled = false; answerLocked = false; clearState(); quiz = core.createAttemptQuiz(sourceQuiz, true); state = core.freshState(quiz); saveState(); renderQuestion(); }
+  function restart() { transitionScheduled = false; answerLocked = false; clearState(); quiz = core.createAttemptQuiz(sourceQuiz, true, Math.random, selectedModes); state = core.freshState(quiz); saveState(); renderQuestion(); }
+  function modeControls() {
+    if (quiz.type !== 'vocabulary') return '';
+    const options = [
+      ['en-ru', 'EN → RU', 'Вам показывают английские слова, вы выбираете русский перевод'],
+      ['ru-en', 'RU → EN', 'Вам показывают русские слова, вы выбираете английский перевод'],
+      ['typing', 'Typing', 'Вам показывают русские слова, вы вводите английский перевод с клавиатуры']
+    ];
+    return `<div class="vocabulary-modes">${options.map(([value, text, hint]) => `<label class="vocabulary-mode" title="${hint}" data-tooltip="${hint}" tabindex="0"><input type="checkbox" value="${value}" aria-describedby="mode-hint-${value}" ${selectedModes.includes(value) ? 'checked' : ''}><span>${text}</span><span class="visually-hidden" id="mode-hint-${value}">${hint}</span></label>`).join('')}</div>`;
+  }
+  function updateModeAvailability() {
+    const available = [...app.querySelectorAll('.vocabulary-modes input:not(:disabled)')];
+    const checked = available.filter((input) => input.checked);
+    available.forEach((input) => { input.disabled = checked.length === 1 && input.checked; });
+  }
+  function selectModesFromIntro() {
+    selectedModes = [...app.querySelectorAll('.vocabulary-modes input:checked')].map((input) => input.value);
+    clearState();
+    quiz = core.createAttemptQuiz(sourceQuiz, true, Math.random, selectedModes);
+    state = core.freshState(quiz); saveState();
+    renderIntro();
+  }
   function renderIntro() {
     setWideLayout(false);
     const hasProgress = Object.keys(state.answers).length > 0 && !state.completed;
-    app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(core.formatQuestionCount(quiz.questions.length, quiz.type))}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p><div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? 'Продолжить' : 'Начать викторину'}</button>${hasProgress ? '<button class="button button-secondary" type="button" data-restart>Начать заново</button>' : ''}</div></section>`;
+    const volume = quiz.type === 'vocabulary' ? sourceQuiz.vocabulary.length : quiz.questions.length;
+    app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(core.formatQuestionCount(volume, quiz.type))}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p>${modeControls()}<div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? 'Продолжить' : 'Начать викторину'}</button>${hasProgress ? '<button class="button button-secondary" type="button" data-restart>Начать заново</button>' : ''}</div></section>`;
     app.querySelector('[data-start]').addEventListener('click', renderQuestion);
     app.querySelector('[data-restart]')?.addEventListener('click', restart);
+    app.querySelectorAll('.vocabulary-modes input').forEach((input) => input.addEventListener('change', selectModesFromIntro));
+    updateModeAvailability();
   }
   function advanceOnce() {
     if (!transitionScheduled) return;
@@ -237,10 +302,22 @@ function init(core) {
     state = result.state; saveState(); answerLocked = false;
     if (state.completed) renderResult(); else renderQuestion();
   }
+  function renderTypingQuestion(question, record, celebrateCorrect) {
+    setWideLayout(false);
+    const correct = record?.correct === true;
+    const feedback = record ? `<div class="answer-feedback${correct ? ' is-success' : ' is-error'}" role="status" aria-live="polite"><strong>${correct ? 'Верно!' : 'Неверно'}</strong>${correct ? '' : `<p>Правильный ответ: ${escapeHtml(question.explanation)}</p><button class="button" type="button" data-next>${state.current_index + 1 === quiz.questions.length ? 'Показать результат' : 'Следующий вопрос'}</button>`}</div>` : '<div class="answer-feedback-placeholder" aria-live="polite"></div>';
+    app.innerHTML = `<section class="question-card"><div class="question-content vocabulary-question typing-question"><p class="quiz-name">${escapeHtml(quiz.title)}</p><div class="quiz-progress"><span id="question-position">Слово ${state.current_index + 1} из ${quiz.questions.length}</span><progress aria-labelledby="question-position" value="${state.current_index + 1}" max="${quiz.questions.length}">${state.current_index + 1}/${quiz.questions.length}</progress></div><h1>${escapeHtml(question.question.toUpperCase())}</h1><form class="typing-answer" data-typing-form><label class="visually-hidden" for="typing-input">Введите английский перевод</label><input id="typing-input" type="text" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" value="${escapeHtml(record?.input || '')}" ${record ? 'disabled' : ''} class="${record ? (correct ? 'is-correct' : 'is-wrong') : ''}" aria-describedby="typing-help"><span class="visually-hidden" id="typing-help">Введите английский перевод и нажмите Enter или кнопку проверки</span><button class="button" type="submit" ${record ? 'disabled' : ''}>Проверить ответ</button></form>${feedback}</div></section>`;
+    const form = app.querySelector('[data-typing-form]');
+    form.addEventListener('submit', (event) => { event.preventDefault(); if (!record) selectTypedAnswer(form.querySelector('input').value); });
+    app.querySelector('[data-next]')?.addEventListener('click', () => { if (transitionScheduled) return; transitionScheduled = true; advanceOnce(); });
+    if (!record) form.querySelector('input').focus();
+    if (correct) { if (celebrateCorrect) confetti(); transitionScheduled = true; window.setTimeout(advanceOnce, core.autoAdvanceDelay(true)); }
+  }
   function renderQuestion(celebrateCorrect = false) {
     if (state.completed || state.current_index >= quiz.questions.length) { renderResult(); return; }
     transitionScheduled = false; answerLocked = Boolean(state.answers[quiz.questions[state.current_index].id]);
     const question = quiz.questions[state.current_index]; const record = state.answers[question.id];
+    if (question.typing) { renderTypingQuestion(question, record, celebrateCorrect); return; }
     const withImage = Boolean(question.image);
     setWideLayout(withImage);
     const answers = question.answers.map((answer) => {
@@ -267,6 +344,12 @@ function init(core) {
     const result = core.answerQuestion(state, quiz, answerId);
     if (!result.accepted) return;
     state = result.state; saveState(); renderQuestion(result.correct);
+  }
+  function selectTypedAnswer(input) {
+    if (answerLocked || transitionScheduled) return;
+    const result = core.answerTypingQuestion(state, quiz, input);
+    if (!result.accepted) return;
+    answerLocked = true; state = result.state; saveState(); renderQuestion(result.correct);
   }
   async function copyResult(text, status) {
     try {
@@ -314,6 +397,7 @@ function init(core) {
       if (!quiz.published) previewBanner.hidden = false;
       let raw = null; try { raw = localStorage.getItem(storageKey()); } catch {}
       let savedOrder = null; try { savedOrder = raw ? JSON.parse(raw) : null; } catch {}
+      if (sourceQuiz.type === 'vocabulary' && Array.isArray(savedOrder?.selected_modes)) selectedModes = core.VOCABULARY_MODES.filter((mode) => savedOrder.selected_modes.includes(mode));
       quiz = core.restoreAttemptOrder(sourceQuiz, savedOrder);
       state = core.restoreState(raw, quiz); saveState(); app.setAttribute('aria-busy', 'false');
       if (state.completed) renderResult(); else renderIntro();
