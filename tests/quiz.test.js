@@ -138,6 +138,9 @@ const multipartVocabulary = {
 assert.equal(core.validateQuiz(multipartVocabulary), true);
 assert.deepEqual(core.vocabularyParts(multipartVocabulary).map((part) => [part.id, part.title, part.word_count]), [['head', 'Часть 1', 2], ['tack', 'Амуниция', 2]]);
 const selectedHead = core.selectVocabularyPart(multipartVocabulary, 'head');
+assert.equal(core.totalVocabularyWordCount(multipartVocabulary), 4, 'общий счётчик суммирует слова всех частей');
+assert.equal(core.totalVocabularyWordCount(vocabulary), vocabulary.vocabulary.length, 'старый формат с одной частью сохраняет количество слов');
+assert.equal(core.totalVocabularyWordCount({ parts: [29, 39, 43].map((count, index) => ({ id: `part-${index + 1}`, vocabulary: Array.from({ length: count }, () => ({})) })) }), 111, '29 + 39 + 43 слова дают общий объём 111 слов');
 const selectedTack = core.selectVocabularyPart(multipartVocabulary, 'tack');
 assert.deepEqual(selectedHead.vocabulary.map((word) => word.english), ['head', 'neck']);
 assert.deepEqual(selectedTack.vocabulary.map((word) => word.english), ['saddle', 'bridle']);

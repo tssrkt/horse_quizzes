@@ -34,6 +34,9 @@ class VocabularyModesContractTests(unittest.TestCase):
         self.assertIn("if (parts.length < 2) return '';", javascript)
         self.assertIn("quiz-selection:${sourceQuiz.slug}", javascript)
         self.assertIn("quiz-progress:${sourceQuiz.slug}:${selectedPartId}:${selectedModes.join('+')}", javascript)
+        self.assertIn("core.totalVocabularyWordCount(sourceQuiz)", javascript)
+        self.assertIn("${escapeHtml(part.title)} (${escapeHtml(core.formatQuestionCount(part.word_count, 'vocabulary'))})", javascript)
+        self.assertNotIn("${escapeHtml(part.title)} — ${escapeHtml(core.formatQuestionCount", javascript)
         self.assertIn(".vocabulary-parts{display:flex;justify-content:center;flex-wrap:wrap", css)
         self.assertIn(".vocabulary-part i{", css)
 

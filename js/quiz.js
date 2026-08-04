@@ -75,6 +75,9 @@
     const selected = parts.find((part) => part.id === partId) || parts[0];
     return { ...sourceQuiz, parts, vocabulary: selected.vocabulary, selected_part_id: selected.id, selected_part_title: selected.title };
   }
+  function totalVocabularyWordCount(sourceQuiz) {
+    return vocabularyParts(sourceQuiz).reduce((total, part) => total + part.word_count, 0);
+  }
   function vocabularyAnswerOptions(group, correctIndex, reverse, random, shuffle, limit = true) {
     const correctWord = group.find((choice) => choice.index === correctIndex);
     if (!correctWord) return [];
@@ -268,7 +271,7 @@
   }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, vocabularyParts, selectVocabularyPart, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, typingEnterAction, shouldConfetti, shareMethod };
+  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, vocabularyParts, totalVocabularyWordCount, selectVocabularyPart, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, typingEnterAction, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -322,7 +325,7 @@ function init(core) {
     if (quiz.type !== 'vocabulary') return '';
     const parts = core.vocabularyParts(sourceQuiz);
     if (parts.length < 2) return '';
-    return `<div class="vocabulary-parts" role="radiogroup" aria-label="Часть словаря">${parts.map((part) => `<label class="vocabulary-part"><input type="radio" name="vocabulary-part" value="${escapeHtml(part.id)}" ${part.id === selectedPartId ? 'checked' : ''}><span><i aria-hidden="true"></i>${escapeHtml(part.title)} — ${escapeHtml(core.formatQuestionCount(part.word_count, 'vocabulary'))}</span></label>`).join('')}</div>`;
+    return `<div class="vocabulary-parts" role="radiogroup" aria-label="Часть словаря">${parts.map((part) => `<label class="vocabulary-part"><input type="radio" name="vocabulary-part" value="${escapeHtml(part.id)}" ${part.id === selectedPartId ? 'checked' : ''}><span><i aria-hidden="true"></i>${escapeHtml(part.title)} (${escapeHtml(core.formatQuestionCount(part.word_count, 'vocabulary'))})</span></label>`).join('')}</div>`;
   }
   function modeControls() {
     if (quiz.type !== 'vocabulary') return '';
@@ -353,7 +356,7 @@ function init(core) {
   function renderIntro() {
     setWideLayout(false);
     const hasProgress = Object.keys(state.answers).length > 0 && !state.completed;
-    const volume = quiz.type === 'vocabulary' ? quiz.vocabulary.length : quiz.questions.length;
+    const volume = quiz.type === 'vocabulary' ? core.totalVocabularyWordCount(sourceQuiz) : quiz.questions.length;
     app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(core.formatQuestionCount(volume, quiz.type))}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p>${partControls()}${modeControls()}<div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? 'Продолжить' : 'Начать викторину'}</button>${hasProgress ? '<button class="button button-secondary" type="button" data-restart>Начать заново</button>' : ''}</div></section>`;
     app.querySelector('[data-start]').addEventListener('click', renderQuestion);
     app.querySelector('[data-restart]')?.addEventListener('click', restart);
