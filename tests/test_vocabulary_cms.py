@@ -18,13 +18,19 @@ class VocabularyCmsContractTests(unittest.TestCase):
         self.assertIn("path: data/vocabulary-quizzes", self.vocabulary)
         self.assertIn('template: "{fields.slug}.json"', self.vocabulary)
 
-    def test_stores_vocabulary_type_and_excel_reference(self):
+    def test_stores_vocabulary_type_and_repeatable_parts(self):
         self.assertRegex(self.vocabulary, r"name: type\s+type: string\s+hidden: true\s+required: true\s+default: vocabulary")
-        table = self.vocabulary.split("      - name: table\n", 1)[1]
+        parts = self.vocabulary.split("      - name: parts\n", 1)[1]
+        self.assertIn("type: object", parts)
+        self.assertIn("min: 1", parts)
+        self.assertRegex(parts, r"name: id\s+type: uuid\s+required: true")
+        self.assertIn("editable: false", parts)
+        self.assertIn("name: title", parts)
+        table = parts.split("          - name: table\n", 1)[1]
         self.assertIn("type: file", table)
         self.assertIn("required: true", table)
         self.assertIn("media: vocabulary_files", table)
-        self.assertIn("extensions: [xlsx]", table)
+        self.assertIn("extensions: [xlsx, csv]", table)
         media = self.schema.split("  - name: vocabulary_files\n", 1)[1].split("\ncontent:", 1)[0]
         self.assertIn("input: data/vocabulary", media)
         self.assertIn("output: ../vocabulary", media)

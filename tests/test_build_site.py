@@ -73,9 +73,51 @@ class BuildSiteTests(unittest.TestCase):
         tags, quizzes = self.load()
         loaded = next(quiz for quiz in quizzes if quiz["slug"] == "cms-words")
         self.assertEqual(loaded["type"], "vocabulary")
-        self.assertEqual(len(loaded["vocabulary"]), 2)
+        self.assertEqual(len(loaded["parts"]), 1)
+        self.assertEqual(loaded["parts"][0]["title"], "Часть 1")
+        self.assertEqual(loaded["parts"][0]["word_count"], 2)
+        self.assertEqual(len(loaded["parts"][0]["vocabulary"]), 2)
+        self.assertEqual(loaded["word_count"], 2)
+        self.assertNotIn("vocabulary", loaded)
         self.assertNotIn("questions", loaded)
         self.assertNotIn("cms-words", {quiz["slug"] for quiz in build_site.make_catalog(tags, quizzes)["quizzes"]})
+
+    def test_builds_independent_vocabulary_parts_and_total_count(self):
+        vocabulary_dir = self.data / "vocabulary"
+        vocabulary_dir.mkdir(exist_ok=True)
+        (vocabulary_dir / "one.csv").write_text("English,Russian,Category\nhead,голова,body\nneck,шея,body\n", encoding="utf-8")
+        (vocabulary_dir / "two.csv").write_text("English,Russian,Category\nsaddle,седло,body\nbridle,уздечка,body\n", encoding="utf-8")
+        source = {
+            "type": "vocabulary", "title": "Части", "slug": "parts-test", "published": True,
+            "publication_date": "2026-08-04", "difficulty": "low", "short_description": "Описание",
+            "intro": "Вступление", "cover": "", "tags": ["words"],
+            "parts": [{"title": "", "table": "../vocabulary/one.csv"}, {"title": "Амуниция", "table": "../vocabulary/two.csv"}],
+        }
+        directory = self.data / "vocabulary-quizzes"
+        directory.mkdir(exist_ok=True)
+        (directory / "parts-test.json").write_text(json.dumps(source, ensure_ascii=False), encoding="utf-8")
+        tags, quizzes = self.load()
+        loaded = next(quiz for quiz in quizzes if quiz["slug"] == "parts-test")
+        self.assertEqual([part["title"] for part in loaded["parts"]], ["Часть 1", "Амуниция"])
+        self.assertEqual([part["word_count"] for part in loaded["parts"]], [2, 2])
+        self.assertEqual(loaded["word_count"], 4)
+        self.assertEqual({word["english"] for word in loaded["parts"][0]["vocabulary"]}, {"head", "neck"})
+        self.assertEqual({word["english"] for word in loaded["parts"][1]["vocabulary"]}, {"saddle", "bridle"})
+        catalog = build_site.make_catalog(tags, quizzes)
+        self.assertEqual(next(item for item in catalog["quizzes"] if item["slug"] == "parts-test")["question_count"], 4)
+
+    def test_vocabulary_part_error_identifies_part_and_table(self):
+        source = {
+            "type": "vocabulary", "title": "Части", "slug": "broken-parts", "published": False,
+            "publication_date": "2026-08-04", "difficulty": "low", "short_description": "Описание",
+            "intro": "Вступление", "cover": "", "tags": ["words"],
+            "parts": [{"title": "Проблемная", "table": "../vocabulary/missing.xlsx"}],
+        }
+        directory = self.data / "vocabulary-quizzes"
+        directory.mkdir(exist_ok=True)
+        (directory / "broken-parts.json").write_text(json.dumps(source, ensure_ascii=False), encoding="utf-8")
+        with self.assertRaisesRegex(build_site.ContentError, r"parts\[1\].*Проблемная.*missing.xlsx"):
+            self.load()
 
     def test_no_correct_answer(self):
         self.assert_quiz_error(lambda quiz: quiz["questions"][0].pop("correct_answer_id"), "требуется correct_answer_id")

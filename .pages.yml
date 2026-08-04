@@ -22,7 +22,7 @@ media:
     input: data/vocabulary
     output: ../vocabulary
     categories: [spreadsheet]
-    extensions: [xlsx]
+    extensions: [xlsx, csv]
     rename: false
 
 content:
@@ -332,12 +332,31 @@ content:
           search: "title,slug"
           value: "{fields.slug}"
           label: "{fields.title}"
-      - name: table
-        label: Словарь Excel
-        type: file
+      - name: parts
+        label: Части словаря
+        type: object
         required: true
-        description: Таблица Excel со столбцами English, Russian и Category. Содержимое проверяется при сборке сайта.
-        options:
-          media: vocabulary_files
-          extensions: [xlsx]
-          rename: false
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{index}. {title}"
+        fields:
+          - name: id
+            type: uuid
+            required: true
+            options:
+              editable: false
+          - name: title
+            label: Название части
+            type: string
+            required: false
+          - name: table
+            label: Таблица словаря
+            type: file
+            required: true
+            description: Таблица .xlsx или .csv со столбцами English, Russian и Category. Содержимое проверяется при сборке сайта.
+            options:
+              media: vocabulary_files
+              extensions: [xlsx, csv]
+              rename: false

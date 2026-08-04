@@ -263,35 +263,64 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
         if quiz_type not in {"quiz", VOCABULARY_TYPE}:
             errors.append(f"{label}.type: требуется quiz или vocabulary")
         if quiz_type == VOCABULARY_TYPE:
-            table = require_string(data, "table", label, errors)
-            words = []
-            if table:
-                table_path = (path.parent / table).resolve()
+            source_parts = data.get("parts")
+            if source_parts is None:
+                source_parts = [{"title": "", "table": data.get("table")}]
+            elif not isinstance(source_parts, list) or not source_parts:
+                errors.append(f"{label}.parts: требуется хотя бы одна часть словаря")
+                source_parts = []
+            built_parts = []
+            for part_index, part in enumerate(source_parts, 1):
+                part_label = f"{label}.parts[{part_index}]"
+                if not isinstance(part, dict):
+                    errors.append(f"{part_label}: требуется объект")
+                    continue
+                title = part.get("title", "")
+                if not isinstance(title, str):
+                    errors.append(f"{part_label}.title: требуется строка")
+                    title = ""
+                title = title.strip() or f"Часть {part_index}"
+                table = require_string(part, "table", part_label, errors)
+                words = []
+                table_path = (path.parent / table).resolve() if table else None
+                if not table_path:
+                    continue
                 try:
                     table_path.relative_to(ROOT.resolve())
                 except ValueError:
-                    errors.append(f"{label}.table: путь выходит за пределы проекта")
+                    errors.append(f"{part_label} «{title}», таблица {table}: путь выходит за пределы проекта")
                 else:
                     try:
                         words = import_vocabulary_table(table_path)
                     except ContentError as error:
-                        errors.append(str(error))
-            data["vocabulary"] = words
+                        errors.append(f"{part_label} «{title}», таблица {table}: {error}")
+                part_id = part.get("id")
+                if not isinstance(part_id, str) or not SLUG_RE.fullmatch(part_id):
+                    part_id = "part-" + hashlib.sha256(table.encode("utf-8")).hexdigest()[:12]
+                built_parts.append({"id": part_id, "title": title, "word_count": len(words), "vocabulary": words})
+            if len({part["id"] for part in built_parts}) != len(built_parts):
+                errors.append(f"{label}.parts: идентификаторы частей должны быть уникальными")
+            data["parts"] = built_parts
+            data["vocabulary"] = [word for part in built_parts for word in part["vocabulary"]]
+            data["word_count"] = len(data["vocabulary"])
             # Reuse the mature question validator on transient questions. They are
             # removed again by normalize_quiz and never enter source or output.
-            groups = {}
-            for word in words:
-                groups.setdefault(word["category"], []).append(word)
             data["questions"] = []
-            for index, word in enumerate(words, 1):
-                choices = groups[word["category"]][:6]
-                if word not in choices:
-                    choices[-1] = word
-                data["questions"].append({
-                    "id": f"question-{index:02d}", "question": word["english"], "explanation": word["russian"],
-                    "answers": [{"id": f"answer-{answer_index:02d}", "text": choice["russian"]} for answer_index, choice in enumerate(choices, 1)],
-                    "correct_answer_id": f"answer-{choices.index(word) + 1:02d}",
-                })
+            question_index = 0
+            for built_part in built_parts:
+                groups = {}
+                for word in built_part["vocabulary"]:
+                    groups.setdefault(word["category"], []).append(word)
+                for word in built_part["vocabulary"]:
+                    question_index += 1
+                    choices = groups[word["category"]][:6]
+                    if word not in choices:
+                        choices[-1] = word
+                    data["questions"].append({
+                        "id": f"question-{question_index:02d}", "question": word["english"], "explanation": word["russian"],
+                        "answers": [{"id": f"answer-{answer_index:02d}", "text": choice["russian"]} for answer_index, choice in enumerate(choices, 1)],
+                        "correct_answer_id": f"answer-{choices.index(word) + 1:02d}",
+                    })
         questions = data.get("questions")
         if not isinstance(questions, list) or not questions:
             errors.append(f"{label}.questions: требуется непустой массив")
@@ -380,6 +409,8 @@ def normalize_quiz(source: dict) -> dict:
     if quiz.get("type") == VOCABULARY_TYPE:
         quiz.pop("questions", None)
         quiz.pop("table", None)
+        if quiz.get("parts"):
+            quiz.pop("vocabulary", None)
         version_data = json.dumps(quiz, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
         quiz["content_version"] = hashlib.sha256(version_data).hexdigest()
         return quiz
@@ -417,7 +448,7 @@ def make_catalog(tags: list[dict], quizzes: list[dict]) -> dict:
             "difficulty": quiz["difficulty"],
             "cover": quiz.get("cover", ""),
             "tags": quiz["tags"],
-            "question_count": len(quiz.get("questions", quiz.get("vocabulary", []))),
+            "question_count": quiz.get("word_count", len(quiz.get("questions", quiz.get("vocabulary", [])))),
             **({"type": VOCABULARY_TYPE} if quiz.get("type") == VOCABULARY_TYPE else {}),
             "content_version": quiz["content_version"],
         }

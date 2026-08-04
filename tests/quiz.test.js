@@ -127,6 +127,28 @@ assert.equal(core.formatQuestionCount(9, 'vocabulary'), '9 слов');
 for (const [count, form] of [[0, 'слов'], [1, 'слово'], [2, 'слова'], [4, 'слова'], [5, 'слов'], [11, 'слов'], [12, 'слов'], [14, 'слов'], [21, 'слово'], [22, 'слова'], [24, 'слова'], [25, 'слов'], [82, 'слова'], [87, 'слов'], [111, 'слов'], [112, 'слов'], [121, 'слово'], [122, 'слова']]) {
   assert.equal(core.formatQuestionCount(count, 'vocabulary'), `${count} ${form}`);
 }
+const multipartVocabulary = {
+  ...vocabulary,
+  word_count: 4,
+  parts: [
+    { id: 'head', title: '', word_count: 2, vocabulary: [{ english: 'head', russian: 'голова', category: 'same' }, { english: 'neck', russian: 'шея', category: 'same' }] },
+    { id: 'tack', title: 'Амуниция', word_count: 2, vocabulary: [{ english: 'saddle', russian: 'седло', category: 'same' }, { english: 'bridle', russian: 'уздечка', category: 'same' }] }
+  ]
+};
+assert.equal(core.validateQuiz(multipartVocabulary), true);
+assert.deepEqual(core.vocabularyParts(multipartVocabulary).map((part) => [part.id, part.title, part.word_count]), [['head', 'Часть 1', 2], ['tack', 'Амуниция', 2]]);
+const selectedHead = core.selectVocabularyPart(multipartVocabulary, 'head');
+const selectedTack = core.selectVocabularyPart(multipartVocabulary, 'tack');
+assert.deepEqual(selectedHead.vocabulary.map((word) => word.english), ['head', 'neck']);
+assert.deepEqual(selectedTack.vocabulary.map((word) => word.english), ['saddle', 'bridle']);
+assert.equal(core.selectVocabularyPart(multipartVocabulary, 'missing').selected_part_id, 'head', 'удалённая часть безопасно сбрасывается на первую');
+const headAttempt = core.createAttemptQuiz(selectedHead, true, () => 0, ['en-ru']);
+const tackAttempt = core.createAttemptQuiz(selectedTack, true, () => 0, ['en-ru']);
+assert.equal(headAttempt.questions.every((question) => question.answers.every((answer) => !['седло', 'уздечка'].includes(answer.text))), true);
+assert.equal(tackAttempt.questions.every((question) => question.answers.every((answer) => !['голова', 'шея'].includes(answer.text))), true);
+assert.equal(core.freshState(headAttempt).selected_part_id, 'head');
+assert.equal(core.freshState(tackAttempt).selected_part_id, 'tack');
+assert.notEqual(core.structureSignature(headAttempt), core.structureSignature(tackAttempt), 'прогресс разных частей несовместим');
 const originalSnapshot = JSON.stringify(quiz);
 const firstAttempt = core.createAttemptQuiz(quiz);
 assert.deepEqual(firstAttempt.questions.map((question) => question.id), ['question-01', 'question-02'], 'первое прохождение сохраняет порядок вопросов');

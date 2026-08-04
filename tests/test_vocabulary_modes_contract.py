@@ -26,6 +26,17 @@ class VocabularyModesContractTests(unittest.TestCase):
         self.assertIn(".typing-answer input:focus-visible", css)
         self.assertIn("@media(max-width:520px){.typing-answer", css)
 
+    def test_part_selector_is_radio_wrapped_and_vocabulary_only(self):
+        javascript = (ROOT / "js" / "quiz.js").read_text(encoding="utf-8")
+        css = (ROOT / "css" / "style.css").read_text(encoding="utf-8")
+        self.assertIn('role="radiogroup"', javascript)
+        self.assertIn('type="radio"', javascript)
+        self.assertIn("if (parts.length < 2) return '';", javascript)
+        self.assertIn("quiz-selection:${sourceQuiz.slug}", javascript)
+        self.assertIn("quiz-progress:${sourceQuiz.slug}:${selectedPartId}:${selectedModes.join('+')}", javascript)
+        self.assertIn(".vocabulary-parts{display:flex;justify-content:center;flex-wrap:wrap", css)
+        self.assertIn(".vocabulary-part i{", css)
+
 
 if __name__ == "__main__":
     unittest.main()

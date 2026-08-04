@@ -158,7 +158,7 @@ class UpdateContractTests(unittest.TestCase):
         schema = (ROOT / ".pages.yml").read_text(encoding="utf-8")
         self.assertNotIn("Уникальный идентификатор", schema)
         self.assertNotIn("{id}", schema)
-        self.assertEqual(len(re.findall(r"(?m)^\s+- name: id\s*$", schema)), 2)
+        self.assertEqual(len(re.findall(r"(?m)^\s+- name: id\s*$", schema)), 3)
         hidden_id = r"- name: id\s+type: string\s+hidden: true\s+required: false"
         self.assertEqual(len(re.findall(hidden_id, schema)), 2)
         self.assertRegex(schema, r"settings:\s+content:\s+merge: true")

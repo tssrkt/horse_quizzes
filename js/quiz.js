@@ -20,7 +20,10 @@
     if (!data || !SLUG_PATTERN.test(data.slug || '') || !/^[0-9a-f]{64}$/.test(data.content_version || '') || typeof data.title !== 'string' || typeof data.intro !== 'string' || typeof data.published !== 'boolean') return false;
     if (data.questionImagesAlt != null && typeof data.questionImagesAlt !== 'string') return false;
     if (data.next_quiz != null && data.next_quiz !== '' && !SLUG_PATTERN.test(data.next_quiz)) return false;
-    if (data.type === 'vocabulary') return Array.isArray(data.vocabulary) && data.vocabulary.length > 0 && data.vocabulary.every((word) => word && typeof word.english === 'string' && word.english && typeof word.russian === 'string' && word.russian && typeof word.category === 'string');
+    if (data.type === 'vocabulary') {
+      const parts = vocabularyParts(data);
+      return parts.length > 0 && parts.every((part) => SLUG_PATTERN.test(part.id) && typeof part.title === 'string' && part.vocabulary.length > 0 && part.vocabulary.every(validVocabularyWord));
+    }
     if (!Array.isArray(data.questions) || !data.questions.length) return false;
     const questionIds = new Set();
     return data.questions.every((question) => {
@@ -54,6 +57,23 @@
     if (Array.isArray(value)) return value.map(cloneValue);
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, cloneValue(item)]));
     return value;
+  }
+  function validVocabularyWord(word) { return Boolean(word && typeof word.english === 'string' && word.english && typeof word.russian === 'string' && word.russian && typeof word.category === 'string'); }
+  function vocabularyParts(sourceQuiz) {
+    if (Array.isArray(sourceQuiz?.parts) && sourceQuiz.parts.length) return sourceQuiz.parts.map((part, index) => ({
+      id: typeof part.id === 'string' && SLUG_PATTERN.test(part.id) ? part.id : `part-${index + 1}`,
+      title: typeof part.title === 'string' && part.title.trim() ? part.title.trim() : `Часть ${index + 1}`,
+      word_count: Array.isArray(part.vocabulary) ? part.vocabulary.length : 0,
+      vocabulary: Array.isArray(part.vocabulary) ? part.vocabulary : []
+    }));
+    const words = Array.isArray(sourceQuiz?.vocabulary) ? sourceQuiz.vocabulary : [];
+    return [{ id: 'part-1', title: 'Часть 1', word_count: words.length, vocabulary: words }];
+  }
+  function selectVocabularyPart(sourceQuiz, partId) {
+    if (sourceQuiz?.type !== 'vocabulary') return sourceQuiz;
+    const parts = vocabularyParts(sourceQuiz);
+    const selected = parts.find((part) => part.id === partId) || parts[0];
+    return { ...sourceQuiz, parts, vocabulary: selected.vocabulary, selected_part_id: selected.id, selected_part_title: selected.title };
   }
   function vocabularyAnswerOptions(group, correctIndex, reverse, random, shuffle, limit = true) {
     const correctWord = group.find((choice) => choice.index === correctIndex);
@@ -166,7 +186,7 @@
     return attempt;
   }
   function freshState(quiz, now = new Date().toISOString()) {
-    return { version: STATE_VERSION, signature: structureSignature(quiz), selected_modes: quiz.type === 'vocabulary' ? quiz.selected_modes.slice() : undefined, current_mode: quiz.questions[0]?.mode || null, question_ids: quiz.questions.map((question) => question.id), answer_ids: Object.fromEntries(quiz.questions.map((question) => [question.id, question.answers.map((answer) => answer.id)])), current_index: 0, answers: {}, correct_count: 0, saved_at: now, completed: false };
+    return { version: STATE_VERSION, signature: structureSignature(quiz), selected_part_id: quiz.type === 'vocabulary' ? quiz.selected_part_id : undefined, selected_modes: quiz.type === 'vocabulary' ? quiz.selected_modes.slice() : undefined, current_mode: quiz.questions[0]?.mode || null, question_ids: quiz.questions.map((question) => question.id), answer_ids: Object.fromEntries(quiz.questions.map((question) => [question.id, question.answers.map((answer) => answer.id)])), current_index: 0, answers: {}, correct_count: 0, saved_at: now, completed: false };
   }
   function restoreState(raw, quiz, now) {
     const fresh = freshState(quiz, now);
@@ -248,7 +268,7 @@
   }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, typingEnterAction, shouldConfetti, shareMethod };
+  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, vocabularyParts, selectVocabularyPart, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, typingEnterAction, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -261,11 +281,13 @@ function init(core) {
   const slug = core.slugFromUrl(location.href);
   const preview = params.get('preview') === '1';
   const reduceMotion = core.prefersReducedMotion(window.matchMedia.bind(window));
-  let sourceQuiz, quiz, state, nextQuiz = null, answerLocked = false, transitionScheduled = false, selectedModes = ['en-ru', 'ru-en', 'typing'];
+  let sourceQuiz, quiz, state, nextQuiz = null, answerLocked = false, transitionScheduled = false, selectedModes = ['en-ru', 'ru-en', 'typing'], selectedPartId = null;
   const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));
-  const storageKey = () => `quiz-progress:${quiz.slug}`;
+  const selectionKey = () => `quiz-selection:${sourceQuiz.slug}`;
+  const storageKey = () => sourceQuiz?.type === 'vocabulary' ? `quiz-progress:${sourceQuiz.slug}:${selectedPartId}:${selectedModes.join('+')}` : `quiz-progress:${quiz.slug}`;
   const saveState = () => { try { localStorage.setItem(storageKey(), JSON.stringify(state)); } catch (error) { console.warn('[Quiz] Не удалось сохранить прогресс.', error); } };
   const clearState = () => { try { localStorage.removeItem(storageKey()); } catch (error) { console.warn('[Quiz] Не удалось очистить прогресс.', error); } };
+  const saveVocabularySelection = () => { if (sourceQuiz?.type === 'vocabulary') try { localStorage.setItem(selectionKey(), JSON.stringify({ part_id: selectedPartId, modes: selectedModes })); } catch {} };
   const setWideLayout = (wide) => main?.classList.toggle('quiz-layout-wide', wide);
   const pageUrl = (path) => core.siteUrl(path, location.href);
   const errorScreen = (message) => { setWideLayout(false); app.setAttribute('aria-busy', 'false'); app.innerHTML = `<div class="error-state" role="alert"><strong>${escapeHtml(message)}</strong><p><a class="button" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></p></div>`; };
@@ -286,7 +308,22 @@ function init(core) {
     const credit = [question.image_author ? `Автор: ${escapeHtml(question.image_author)}` : '', source].filter(Boolean).join(' · ');
     return `<figure class="question-image"><img src="${escapeHtml(pageUrl(core.versionedUrl(question.image, quiz.content_version)))}" alt="${escapeHtml(core.questionImageAlt(quiz))}">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
   }
-  function restart() { transitionScheduled = false; answerLocked = false; clearState(); quiz = core.createAttemptQuiz(sourceQuiz, true, Math.random, selectedModes); state = core.freshState(quiz); saveState(); renderQuestion(); }
+  function selectedSourceQuiz() { return core.selectVocabularyPart(sourceQuiz, selectedPartId); }
+  function prepareVocabularyAttempt() {
+    const selectedSource = selectedSourceQuiz();
+    let raw = null; try { raw = localStorage.getItem(storageKey()); } catch {}
+    let saved = null; try { saved = raw ? JSON.parse(raw) : null; } catch {}
+    quiz = core.restoreAttemptOrder(selectedSource, saved);
+    state = core.restoreState(raw, quiz);
+    saveState();
+  }
+  function restart() { transitionScheduled = false; answerLocked = false; clearState(); quiz = core.createAttemptQuiz(sourceQuiz.type === 'vocabulary' ? selectedSourceQuiz() : sourceQuiz, true, Math.random, selectedModes); state = core.freshState(quiz); saveState(); renderQuestion(); }
+  function partControls() {
+    if (quiz.type !== 'vocabulary') return '';
+    const parts = core.vocabularyParts(sourceQuiz);
+    if (parts.length < 2) return '';
+    return `<div class="vocabulary-parts" role="radiogroup" aria-label="Часть словаря">${parts.map((part) => `<label class="vocabulary-part"><input type="radio" name="vocabulary-part" value="${escapeHtml(part.id)}" ${part.id === selectedPartId ? 'checked' : ''}><span><i aria-hidden="true"></i>${escapeHtml(part.title)} — ${escapeHtml(core.formatQuestionCount(part.word_count, 'vocabulary'))}</span></label>`).join('')}</div>`;
+  }
   function modeControls() {
     if (quiz.type !== 'vocabulary') return '';
     const options = [
@@ -303,19 +340,25 @@ function init(core) {
   }
   function selectModesFromIntro() {
     selectedModes = [...app.querySelectorAll('.vocabulary-modes input:checked')].map((input) => input.value);
-    clearState();
-    quiz = core.createAttemptQuiz(sourceQuiz, true, Math.random, selectedModes);
-    state = core.freshState(quiz); saveState();
+    saveVocabularySelection();
+    prepareVocabularyAttempt();
+    renderIntro();
+  }
+  function selectPartFromIntro(event) {
+    selectedPartId = event.target.value;
+    saveVocabularySelection();
+    prepareVocabularyAttempt();
     renderIntro();
   }
   function renderIntro() {
     setWideLayout(false);
     const hasProgress = Object.keys(state.answers).length > 0 && !state.completed;
-    const volume = quiz.type === 'vocabulary' ? sourceQuiz.vocabulary.length : quiz.questions.length;
-    app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(core.formatQuestionCount(volume, quiz.type))}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p>${modeControls()}<div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? 'Продолжить' : 'Начать викторину'}</button>${hasProgress ? '<button class="button button-secondary" type="button" data-restart>Начать заново</button>' : ''}</div></section>`;
+    const volume = quiz.type === 'vocabulary' ? quiz.vocabulary.length : quiz.questions.length;
+    app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(core.formatQuestionCount(volume, quiz.type))}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p>${partControls()}${modeControls()}<div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? 'Продолжить' : 'Начать викторину'}</button>${hasProgress ? '<button class="button button-secondary" type="button" data-restart>Начать заново</button>' : ''}</div></section>`;
     app.querySelector('[data-start]').addEventListener('click', renderQuestion);
     app.querySelector('[data-restart]')?.addEventListener('click', restart);
     app.querySelectorAll('.vocabulary-modes input').forEach((input) => input.addEventListener('change', selectModesFromIntro));
+    app.querySelectorAll('.vocabulary-parts input').forEach((input) => input.addEventListener('change', selectPartFromIntro));
     updateModeAvailability();
   }
   function advanceOnce() {
@@ -399,11 +442,12 @@ function init(core) {
     const recommendation = core.resultRecommendation(percent);
     const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(recommendation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;
     const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="${escapeHtml(core.quizPath(nextQuiz.slug, location.href))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
-    app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button><a class="button button-secondary" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${nextQuizBlock}</section>`;
+    app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button>${quiz.type === 'vocabulary' ? '<button class="button button-secondary" type="button" data-choose-part>Выбрать часть</button>' : ''}<a class="button button-secondary" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${nextQuizBlock}</section>`;
     const status = app.querySelector('.share-status');
     app.querySelector('[data-share]').addEventListener('click', async () => { if (navigator.share) { try { await navigator.share({ title: quiz.title, text: sharePayload }); return; } catch (error) { if (error.name === 'AbortError') return; } } await copyResult(sharePayload, status); });
     app.querySelector('[data-copy]').addEventListener('click', () => copyResult(sharePayload, status));
     app.querySelector('[data-restart]').addEventListener('click', restart);
+    app.querySelector('[data-choose-part]')?.addEventListener('click', () => { clearState(); quiz = core.createAttemptQuiz(selectedSourceQuiz(), true, Math.random, selectedModes); state = core.freshState(quiz); saveState(); renderIntro(); });
     if (percent >= 90) confetti(34);
   }
   async function load() {
@@ -426,11 +470,20 @@ function init(core) {
       if (!core.validateQuiz(quiz) || quiz.slug !== slug) { console.error('[Quiz] Повреждённый JSON или несовместимые данные викторины.'); errorScreen('Эту викторину сейчас невозможно открыть.'); return; }
       if (!core.canOpenQuiz(quiz, preview)) { errorScreen('Эта викторина пока не опубликована.'); return; }
       if (!quiz.published) previewBanner.hidden = false;
-      let raw = null; try { raw = localStorage.getItem(storageKey()); } catch {}
-      let savedOrder = null; try { savedOrder = raw ? JSON.parse(raw) : null; } catch {}
-      if (sourceQuiz.type === 'vocabulary' && Array.isArray(savedOrder?.selected_modes)) selectedModes = core.VOCABULARY_MODES.filter((mode) => savedOrder.selected_modes.includes(mode));
-      quiz = core.restoreAttemptOrder(sourceQuiz, savedOrder);
-      state = core.restoreState(raw, quiz); saveState(); app.setAttribute('aria-busy', 'false');
+      if (sourceQuiz.type === 'vocabulary') {
+        const parts = core.vocabularyParts(sourceQuiz);
+        let selection = null; try { selection = JSON.parse(localStorage.getItem(selectionKey()) || 'null'); } catch {}
+        selectedPartId = parts.some((part) => part.id === selection?.part_id) ? selection.part_id : parts[0].id;
+        if (Array.isArray(selection?.modes)) selectedModes = core.VOCABULARY_MODES.filter((mode) => selection.modes.includes(mode));
+        if (!selectedModes.length) selectedModes = ['en-ru'];
+        saveVocabularySelection();
+        prepareVocabularyAttempt();
+      } else {
+        let raw = null; try { raw = localStorage.getItem(storageKey()); } catch {}
+        quiz = core.restoreAttemptOrder(sourceQuiz, raw ? JSON.parse(raw) : null);
+        state = core.restoreState(raw, quiz); saveState();
+      }
+      app.setAttribute('aria-busy', 'false');
       if (state.completed) renderResult(); else renderIntro();
     } catch (error) { console.error('[Quiz] Ошибка загрузки викторины.', error); errorScreen('Не удалось загрузить викторину. Попробуйте позже.'); }
   }
