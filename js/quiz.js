@@ -264,14 +264,14 @@
   }
   function prefersReducedMotion(matchMedia) { return Boolean(matchMedia?.('(prefers-reduced-motion: reduce)').matches); }
   function autoAdvanceDelay(correct) { return correct ? 800 : null; }
-  function typingEnterAction(question, record, transitionScheduled) {
-    if (!question?.typing) return null;
-    if (!record) return 'submit';
-    return record.correct === false && !transitionScheduled ? 'advance' : null;
+  function vocabularyEnterAction(quizType, question, record, transitionScheduled) {
+    if (quizType !== 'vocabulary') return null;
+    if (question?.typing && !record) return 'submit';
+    return record?.correct === false && !transitionScheduled ? 'advance' : null;
   }
   function shouldConfetti(correct, reducedMotion) { return Boolean(correct && !reducedMotion); }
   function shareMethod(webShareAvailable) { return webShareAvailable ? 'share' : 'copy'; }
-  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, vocabularyParts, totalVocabularyWordCount, selectVocabularyPart, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, typingEnterAction, shouldConfetti, shareMethod };
+  return { STATE_VERSION, VOCABULARY_MODES, canOpenQuiz, validateQuiz, vocabularyParts, totalVocabularyWordCount, selectVocabularyPart, structureSignature, vocabularyQuestions, versionedUrl, cloneValue, fisherYates, updateModeSelection, normalizeTypedAnswer, acceptedEnglishAnswers, isTypedAnswerCorrect, createAttemptQuiz, restoreAttemptOrder, freshState, restoreState, answerQuestion, answerTypingQuestion, advance, resultPercent, resultRecommendation, formatQuestionCount, coverAlt, questionImageAlt, shareText, directQuizUrl, shareQuizUrl, slugFromUrl, siteRootUrl: urlCore.siteRootUrl, siteUrl: urlCore.siteUrl, quizPath: urlCore.quizPath, prefersReducedMotion, autoAdvanceDelay, vocabularyEnterAction, shouldConfetti, shareMethod };
 });
 
 function init(core) {
@@ -424,7 +424,7 @@ function init(core) {
     if (event.key !== 'Enter' || !quiz || !state || state.completed) return;
     const question = quiz.questions[state.current_index];
     const record = question ? state.answers[question.id] : null;
-    if (core.typingEnterAction(question, record, transitionScheduled) !== 'advance') return;
+    if (core.vocabularyEnterAction(quiz.type, question, record, transitionScheduled) !== 'advance') return;
     event.preventDefault();
     transitionScheduled = true;
     advanceOnce();
