@@ -57,6 +57,8 @@ def _assign_ids(items: list, key: str, pattern: re.Pattern[str], prefix: str, la
 
 
 def normalize_quiz_ids(quiz: dict, label: str = "quiz") -> bool:
+    if quiz.get("type") == "vocabulary":
+        return False
     questions = quiz.get("questions")
     if not isinstance(questions, list):
         raise IdNormalizationError(f"{label}.questions: требуется массив")

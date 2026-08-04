@@ -78,6 +78,20 @@ class OrganizeQuizCoverTests(unittest.TestCase):
         self.assertNotIn("cover", self.read_quiz())
         self.assertFalse((self.root / "img" / "covers" / "test-quiz.webp").exists())
 
+    def test_vocabulary_without_questions_is_left_unchanged(self):
+        path = self.root / "data" / "quizzes" / "test-vocabulary.json"
+        vocabulary = {"slug": "test-vocabulary", "type": "vocabulary", "table": "../vocabulary/words.xlsx"}
+        path.write_text(json.dumps(vocabulary, ensure_ascii=False), encoding="utf-8")
+        before = path.read_bytes()
+        self.organize()
+        self.assertEqual(path.read_bytes(), before)
+
+    def test_regular_quiz_without_questions_remains_invalid(self):
+        path = self.root / "data" / "quizzes" / "broken.json"
+        path.write_text(json.dumps({"slug": "broken"}), encoding="utf-8")
+        with self.assertRaisesRegex(TypeError, "questions"):
+            self.organize()
+
 
 class CurrentCoverContractTests(unittest.TestCase):
     def test_horse_genetics_2_cover_exists_and_reaches_catalog(self):

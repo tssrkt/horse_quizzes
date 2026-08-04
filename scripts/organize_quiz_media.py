@@ -213,6 +213,8 @@ def organize_quizzes(
             final_references.add(cover_target)
 
         questions = quiz.get("questions")
+        if quiz.get("type") == "vocabulary" and questions is None:
+            questions = []
         if not isinstance(questions, list):
             raise TypeError(
                 f"{json_path.relative_to(root).as_posix()}: questions должен быть массивом"

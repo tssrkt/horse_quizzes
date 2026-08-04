@@ -25,6 +25,23 @@ def question(question_id, answers=None, text="Вопрос"):
 
 
 class NormalizeQuizIdsTests(unittest.TestCase):
+    def test_vocabulary_without_questions_is_accepted_unchanged(self):
+        quiz = {"type": "vocabulary", "table": "../vocabulary/words.xlsx"}
+        original = copy.deepcopy(quiz)
+        self.assertFalse(normalize_quiz_ids(quiz, "vocabulary.json"))
+        self.assertEqual(quiz, original)
+
+        with tempfile.TemporaryDirectory(prefix=".id-test-", dir=ROOT) as directory:
+            path = Path(directory) / "vocabulary.json"
+            path.write_text(json.dumps(quiz, ensure_ascii=False), encoding="utf-8")
+            before = path.read_bytes()
+            self.assertFalse(normalize_file(path))
+            self.assertEqual(path.read_bytes(), before)
+
+    def test_regular_quiz_without_questions_remains_invalid(self):
+        with self.assertRaisesRegex(IdNormalizationError, "questions"):
+            normalize_quiz_ids({"type": "quiz"}, "regular.json")
+
     def test_assigns_after_maximum_without_reusing_gaps(self):
         quiz = {"questions": [question("question-01"), question("question-02"), question("question-05"), question(None)]}
         self.assertTrue(normalize_quiz_ids(quiz))
