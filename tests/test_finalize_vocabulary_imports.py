@@ -1,4 +1,6 @@
 import json
+import subprocess
+import sys
 import tempfile
 import unittest
 import zipfile
@@ -59,6 +61,24 @@ class FinalizeVocabularyImportsTests(unittest.TestCase):
             finalize(self.root)
         self.assertTrue(path.exists())
         self.assertEqual(json_path.read_bytes(), before)
+
+    def test_script_runs_directly_from_repository_root(self):
+        script = Path(__file__).resolve().parents[1] / "scripts" / "finalize_vocabulary_imports.py"
+        result = subprocess.run(
+            [sys.executable, str(script), "--root", str(self.root)],
+            cwd=script.parents[1], capture_output=True, text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr or result.stdout)
+        self.assertNotIn("ModuleNotFoundError", result.stderr)
+
+    def test_script_runs_by_absolute_path_from_another_directory(self):
+        script = (Path(__file__).resolve().parents[1] / "scripts" / "finalize_vocabulary_imports.py").resolve()
+        result = subprocess.run(
+            [sys.executable, str(script), "--root", str(self.root)],
+            cwd=self.root, capture_output=True, text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr or result.stdout)
+        self.assertNotIn("ModuleNotFoundError", result.stderr)
 
 
 if __name__ == "__main__":
