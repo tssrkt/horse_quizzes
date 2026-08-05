@@ -8,6 +8,7 @@ const {
   validDateValue,
   sortQuizzes,
   arrangeQuizzes,
+  sectionQuizzes,
   sortTooltip,
   countTags,
   orderTagsByCount,
@@ -82,16 +83,21 @@ const tagQuizzes = [
 ];
 assert.deepEqual(
   orderTagsByCount(tagQuizzes, tagDefinitions).map(({ slug, count }) => [slug, count]),
-  [['horses', 3], ['biology', 2], ['history', 1], ['zero', 0]]
+  [['horses', 3], ['biology', 2], ['history', 1]]
 );
 assert.deepEqual(
   orderTagsByCount(tagQuizzes.slice(1), tagDefinitions).map(({ slug, count }) => [slug, count]),
-  [['horses', 2], ['history', 1], ['biology', 1], ['zero', 0]]
+  [['horses', 2], ['history', 1], ['biology', 1]]
 );
 assert.deepEqual(
   orderTagsByCount([...tagQuizzes, quiz(4, { tags: ['history'] })], tagDefinitions).map(({ slug, count }) => [slug, count]),
-  [['horses', 3], ['history', 2], ['biology', 2], ['zero', 0]]
+  [['horses', 3], ['history', 2], ['biology', 2]]
 );
+
+const sectioned = [quiz(1), quiz(2), quiz(3, { type: 'vocabulary' }), quiz(4, { type: 'vocabulary' })];
+assert.deepEqual(sectionQuizzes(sectioned, 'quizzes').map((item) => item.slug), ['quiz-1', 'quiz-2']);
+assert.deepEqual(sectionQuizzes(sectioned, 'english').map((item) => item.slug), ['quiz-3', 'quiz-4']);
+assert.deepEqual(orderTagsByCount(sectionQuizzes(sectioned, 'english'), [{ slug: 'biology', name: 'Биология' }, { slug: 'missing', name: 'Нет' }]).map(({ slug, count }) => [slug, count]), [['biology', 1]]);
 
 const dated = [
   quiz(1, { title: 'Бета', publication_date: '2026-02-01' }),
@@ -144,10 +150,10 @@ assert.deepEqual(paginationItems(6, 12), [1, 'ellipsis', 5, 6, 7, 'ellipsis', 12
 assert.deepEqual(paginationItems(12, 12), [1, 'ellipsis', 11, 12]);
 
 const visible = new Set(['horses', 'biology']);
-assert.deepEqual(getStateFromUrl('?tag=horses&sort=difficulty&direction=up&page=2', visible, 3), { tag: 'horses', sort: 'difficulty', direction: 'up', page: 2 });
-assert.deepEqual(getStateFromUrl('?tag=hidden&sort=popular&direction=sideways&page=999', visible, 3), { tag: 'all', sort: 'date', direction: 'down', page: 3 });
-assert.deepEqual(getStateFromUrl('?page=-4', visible, 3), { tag: 'all', sort: 'date', direction: 'down', page: 1 });
-const url = buildUrl('https://example.test/quiz/quizzes.html?source=email&tag=horses', { tag: 'all', sort: 'title', direction: 'up', page: 1 });
+assert.deepEqual(getStateFromUrl('?tag=horses&sort=difficulty&direction=up&page=2', visible, 3), { section: 'quizzes', tag: 'horses', sort: 'difficulty', direction: 'up', page: 2 });
+assert.deepEqual(getStateFromUrl('?section=english&tag=hidden&sort=popular&direction=sideways&page=999', visible, 3), { section: 'english', tag: 'all', sort: 'date', direction: 'down', page: 3 });
+assert.deepEqual(getStateFromUrl('?section=unknown&page=-4', visible, 3), { section: 'quizzes', tag: 'all', sort: 'date', direction: 'down', page: 1 });
+const url = buildUrl('https://example.test/quiz/quizzes.html?source=email&tag=horses', { section: 'quizzes', tag: 'all', sort: 'title', direction: 'up', page: 1 });
 assert.equal(url, '/quiz/quizzes.html?source=email&sort=title&direction=up&page=1');
 
 const paged = Array.from({ length: 30 }, (_, index) => quiz(index, { title: `Название ${String(29 - index).padStart(2, '0')}`, tags: index < 27 ? ['horses'] : ['biology'] }));
@@ -156,9 +162,9 @@ assert.equal(filteredSorted.length, 27);
 assert.equal(Math.ceil(filteredSorted.length / PAGE_SIZE), 3);
 assert.deepEqual(filteredSorted.slice(0, PAGE_SIZE), sortQuizzes(filteredSorted, 'title', 'down').slice(0, PAGE_SIZE));
 assert.deepEqual(filteredSorted.slice(PAGE_SIZE, PAGE_SIZE * 2), sortQuizzes(filteredSorted, 'title', 'down').slice(PAGE_SIZE, PAGE_SIZE * 2));
-const filteredPageUrl = buildUrl('https://example.test/quizzes.html', { tag: 'horses', sort: 'title', direction: 'down', page: 2 });
-assert.equal(filteredPageUrl, '/quizzes.html?tag=horses&sort=title&direction=down&page=2');
-assert.deepEqual(getStateFromUrl('?tag=horses&sort=title&direction=down&page=2', visible, 3), { tag: 'horses', sort: 'title', direction: 'down', page: 2 });
+const filteredPageUrl = buildUrl('https://example.test/quizzes.html', { section: 'english', tag: 'horses', sort: 'title', direction: 'down', page: 2 });
+assert.equal(filteredPageUrl, '/quizzes.html?section=english&tag=horses&sort=title&direction=down&page=2');
+assert.deepEqual(getStateFromUrl('?section=english&tag=horses&sort=title&direction=down&page=2', visible, 3), { section: 'english', tag: 'horses', sort: 'title', direction: 'down', page: 2 });
 assert.equal(quizPath('anatomy', 'https://tssrkt.github.io/quiz/quizzes.html'), '/quiz/v/anatomy/');
 assert.equal(quizPath('anatomy', 'http://localhost:8000/quizzes.html'), '/v/anatomy/');
 assert.equal(quizPath('horse-colors', 'https://tssrkt.github.io/quiz/quizzes.html?tag=horses&page=2'), '/quiz/v/horse-colors/');

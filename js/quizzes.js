@@ -14,6 +14,7 @@
   const PAGE_SIZE = 10;
   const SORTS = new Set(['date', 'difficulty', 'title']);
   const DIRECTIONS = new Set(['down', 'up']);
+  const SECTIONS = new Set(['quizzes', 'english']);
   const DIFFICULTY_ORDER = Object.freeze({ low: 1, medium: 2, high: 3 });
   const DIFFICULTY_LABELS = Object.freeze({ low: 'низкая', medium: 'средняя', high: 'высокая' });
   const ruCollator = new Intl.Collator('ru', { sensitivity: 'base', numeric: true });
@@ -99,6 +100,10 @@
     return sortQuizzes(filtered, sort, direction);
   }
 
+  function sectionQuizzes(quizzes, section = 'quizzes') {
+    return quizzes.filter((quiz) => section === 'english' ? quiz.type === 'vocabulary' : quiz.type !== 'vocabulary');
+  }
+
   function sortTooltip(sort, direction) {
     const labels = {
       date: { down: 'Сначала новые', up: 'Сначала старые' },
@@ -120,6 +125,7 @@
     const counts = countTags(quizzes, visibleTags);
     return visibleTags
       .map((tag) => ({ ...tag, count: counts.get(tag.slug) }))
+      .filter((tag) => tag.count > 0)
       .sort((a, b) => b.count - a.count || ruCollator.compare(a.name, b.name));
   }
 
@@ -137,6 +143,8 @@
 
   function getStateFromUrl(search, visibleTagSlugs, totalPages = Infinity) {
     const params = new URLSearchParams(search);
+    const requestedSection = params.get('section');
+    const section = SECTIONS.has(requestedSection) ? requestedSection : 'quizzes';
     const requestedTag = params.get('tag');
     const tag = requestedTag && visibleTagSlugs.has(requestedTag) ? requestedTag : 'all';
     const requestedSort = params.get('sort');
@@ -145,11 +153,13 @@
     const direction = DIRECTIONS.has(requestedDirection) ? requestedDirection : 'down';
     const requestedPage = Number.parseInt(params.get('page') || '1', 10);
     const page = Math.min(Math.max(Number.isFinite(requestedPage) && requestedPage > 0 ? requestedPage : 1, 1), Math.max(totalPages, 1));
-    return { tag, sort, direction, page };
+    return { section, tag, sort, direction, page };
   }
 
   function buildUrl(url, state) {
     const next = new URL(url);
+    if (state.section === 'english') next.searchParams.set('section', 'english');
+    else next.searchParams.delete('section');
     if (state.tag === 'all') next.searchParams.delete('tag');
     else next.searchParams.set('tag', state.tag);
     next.searchParams.set('sort', state.sort);
@@ -191,12 +201,22 @@
     const pagination = document.getElementById('pagination');
     const status = document.getElementById('catalog-status');
     const catalogStart = document.getElementById('catalog-start');
-    if (!list || !tagList || !sortControl || !sortCriterion || !sortDirection || !pagination) return;
+    const sectionTabs = [...document.querySelectorAll('[data-section]')];
+    const catalogTools = document.getElementById('catalog-tools');
+    if (!list || !tagList || !sortControl || !sortCriterion || !sortDirection || !pagination || !sectionTabs.length) return;
 
     let quizzes = [];
     let tags = new Map();
     let visibleTags = [];
-    let state = { tag: 'all', sort: 'date', direction: 'down', page: 1 };
+    let state = { section: 'quizzes', tag: 'all', sort: 'date', direction: 'down', page: 1 };
+
+    function currentQuizzes(currentState = state) {
+      return sectionQuizzes(quizzes, currentState.section);
+    }
+
+    function currentTags(currentState = state) {
+      return orderTagsByCount(currentQuizzes(currentState), visibleTags);
+    }
 
     function scrollToCatalog() {
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -204,11 +224,12 @@
     }
 
     function totalPagesFor(currentState) {
-      return Math.max(1, Math.ceil(arrangeQuizzes(quizzes, currentState.tag, currentState.sort, currentState.direction).length / PAGE_SIZE));
+      return Math.max(1, Math.ceil(arrangeQuizzes(currentQuizzes(currentState), currentState.tag, currentState.sort, currentState.direction).length / PAGE_SIZE));
     }
 
     function readAndNormalizeUrl() {
-      const slugs = new Set(visibleTags.map((tag) => tag.slug));
+      const requestedSection = getStateFromUrl(location.search, new Set()).section;
+      const slugs = new Set(currentTags({ ...state, section: requestedSection }).map((tag) => tag.slug));
       let next = getStateFromUrl(location.search, slugs);
       next = getStateFromUrl(location.search, slugs, totalPagesFor(next));
       state = next;
@@ -220,8 +241,19 @@
     }
 
     function renderTags() {
-      const items = [{ slug: 'all', name: 'Все', count: quizzes.length }, ...orderTagsByCount(quizzes, visibleTags)];
+      const scopedQuizzes = currentQuizzes();
+      const items = [{ slug: 'all', name: 'Все', count: scopedQuizzes.length }, ...currentTags()];
       tagList.innerHTML = items.map((tag) => `<button class="catalog-tag${state.tag === tag.slug ? ' is-active' : ''}" type="button" data-tag="${escapeHtml(tag.slug)}" aria-pressed="${state.tag === tag.slug}"><span>${escapeHtml(tag.name)}</span><small>${tag.count}</small></button>`).join('');
+    }
+
+    function renderSections() {
+      sectionTabs.forEach((tab) => {
+        const selected = tab.dataset.section === state.section;
+        tab.setAttribute('aria-selected', String(selected));
+        tab.tabIndex = selected ? 0 : -1;
+      });
+      const activeTab = sectionTabs.find((tab) => tab.dataset.section === state.section);
+      if (activeTab) catalogTools?.setAttribute('aria-labelledby', activeTab.id);
     }
 
     function renderSort() {
@@ -257,18 +289,37 @@
     }
 
     function render() {
-      const ordered = arrangeQuizzes(quizzes, state.tag, state.sort, state.direction);
+      const scopedQuizzes = currentQuizzes();
+      const ordered = arrangeQuizzes(scopedQuizzes, state.tag, state.sort, state.direction);
       const totalPages = Math.max(1, Math.ceil(ordered.length / PAGE_SIZE));
       state.page = Math.min(Math.max(state.page, 1), totalPages);
       const start = (state.page - 1) * PAGE_SIZE;
       const pageItems = ordered.slice(start, start + PAGE_SIZE);
       renderTags();
+      renderSections();
       renderSort();
-      if (!quizzes.length) list.innerHTML = '<div class="empty-state"><p>Опубликованных викторин пока нет.</p></div>';
+      if (!scopedQuizzes.length) list.innerHTML = '<div class="empty-state"><p>Опубликованных викторин пока нет.</p></div>';
       else list.innerHTML = pageItems.map(cardTemplate).join('');
       renderPagination(totalPages);
       list.setAttribute('aria-busy', 'false');
     }
+
+    function selectSection(section, shouldFocus = false) {
+      if (!SECTIONS.has(section)) return;
+      const changed = section !== state.section || state.tag !== 'all' || state.page !== 1;
+      state = { ...state, section, tag: 'all', page: 1 };
+      if (changed) { writeUrl(); render(); }
+      if (shouldFocus) sectionTabs.find((tab) => tab.dataset.section === section)?.focus();
+    }
+
+    sectionTabs.forEach((tab) => tab.addEventListener('click', () => selectSection(tab.dataset.section)));
+    catalogStart.addEventListener('keydown', (event) => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+      event.preventDefault();
+      const activeIndex = sectionTabs.findIndex((tab) => tab.dataset.section === state.section);
+      const nextIndex = event.key === 'Home' ? 0 : event.key === 'End' ? sectionTabs.length - 1 : (activeIndex + (event.key === 'ArrowRight' ? 1 : -1) + sectionTabs.length) % sectionTabs.length;
+      selectSection(sectionTabs[nextIndex].dataset.section, true);
+    });
 
     function selectTag(slug, shouldScroll, resetActivePage = false) {
       if (slug === state.tag && !resetActivePage) return;
@@ -322,5 +373,5 @@
     })();
   }
 
-  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, vocabularyWord, volumeLabel, quizPath: urlCore.quizPath, init };
+  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sectionQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, vocabularyWord, volumeLabel, quizPath: urlCore.quizPath, init };
 });

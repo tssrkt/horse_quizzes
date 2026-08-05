@@ -38,6 +38,7 @@ main{min-height:calc(100vh - 157px)}.hero{padding-block:92px 72px;text-align:cen
 
 /* Адаптивные инструменты каталога и контакты */
 .catalog-tools{align-items:center;justify-content:flex-start;gap:8px}
+.catalog-tabs{display:flex;align-items:flex-end;gap:5px;margin:0 0 -1px 14px;position:relative;z-index:2;scroll-margin-top:20px}.catalog-tab{min-height:43px;padding:9px 18px;border:1px solid rgba(91,69,123,.22);border-bottom:0;border-radius:12px 12px 0 0;background:rgba(227,218,241,.55);color:var(--primary-dark);font:inherit;font-weight:800;line-height:1.2;cursor:pointer;opacity:.68;transform:translateY(3px);transition:background-color .15s ease,opacity .15s ease,transform .15s ease}.catalog-tab:hover{opacity:.86}.catalog-tab[aria-selected="true"]{background:var(--lavender);opacity:1;transform:none}.catalog-tab:focus-visible{outline:3px solid #9a74c5;outline-offset:2px}.catalog-tab-label-short{display:none}.catalog-tools#catalog-tools{border-radius:var(--radius);position:relative;z-index:1}
 .catalog-tools>.tag-list{display:contents}.catalog-tools>.sort-tool{max-width:100%}.sort-control{margin-top:4px}.sort-control select{min-width:145px;min-height:28px;padding:2px 30px 2px 8px}.sort-control select:focus,.sort-control select:focus-visible{outline:none;box-shadow:none}.sort-control:focus-within{border-color:var(--line);box-shadow:none}.pagination button.is-active:disabled{opacity:1;cursor:default;pointer-events:none}
 @media(max-width:768px){
   .tag-tool,.tag-scroll-shell,.tag-viewport{width:100%;max-width:100%}
@@ -47,6 +48,7 @@ main{min-height:calc(100vh - 157px)}.hero{padding-block:92px 72px;text-align:cen
   .social-links li{min-width:0}
   .social-links a{min-width:0;padding-inline:12px;white-space:nowrap}
 }
+@media(max-width:520px){.catalog-tabs{width:calc(100% - 16px);margin-left:8px;gap:3px;white-space:nowrap}.catalog-tab{min-width:0;padding-inline:11px;font-size:.88rem}.catalog-tab:first-child{flex:0 1 auto}.catalog-tab:last-child{flex:1 1 auto}.catalog-tab-label-wide{display:none}.catalog-tab-label-short{display:inline}}
 
 /* Общий каркас с подвалом у нижней границы коротких страниц */
 body{display:flex;min-height:100vh;flex-direction:column}

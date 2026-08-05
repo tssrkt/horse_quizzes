@@ -43,7 +43,11 @@
       <h1 class="page-title">Выберите викторину</h1>
       <p class="catalog-intro">Если не знаете, с чего начать, то рекомендуем самую простую викторину: <a href="https://tssrkt.github.io/quiz/v/horse-breeds/" target="_blank" rel="noopener noreferrer">«Породы лошадей»</a>. Если мастевое разнообразие интересует больше, то откройте <a href="https://tssrkt.github.io/quiz/v/horse-colors/" target="_blank" rel="noopener noreferrer">«Масти лошадей»</a>. Если желаете проверить общие знания о конях, выберите <a href="https://tssrkt.github.io/quiz/v/horse-words/" target="_blank" rel="noopener noreferrer">«Лошадиная терминология»</a>, а чтобы разобраться в наследовании признаков, пройдите <a href="https://tssrkt.github.io/quiz/v/horse-genetics/" target="_blank" rel="noopener noreferrer">«Генетику лошади»</a>. В конце каждой из них будет ссылка на следующую викторину той же серии, ну или не будет, это уже как повезет. Также обратите внимание, что если на обложке изображена только мордочка, значит, внутри есть фотографии, а если — конь целиком, значит, фоток нет. Желаем приятного прохождения викторин!</p>
     </header>
-    <section class="catalog-tools" id="catalog-start" aria-label="Инструменты каталога">
+    <div class="catalog-tabs" id="catalog-start" role="tablist" aria-label="Раздел каталога">
+      <button class="catalog-tab" id="catalog-tab-quizzes" type="button" role="tab" data-section="quizzes" aria-selected="true" aria-controls="catalog-tools">Викторины</button>
+      <button class="catalog-tab" id="catalog-tab-english" type="button" role="tab" data-section="english" aria-selected="false" aria-controls="catalog-tools" tabindex="-1" aria-label="Английский для конников"><span class="catalog-tab-label-wide">Английский для конников</span><span class="catalog-tab-label-short" aria-hidden="true">Английский</span></button>
+    </div>
+    <section class="catalog-tools" id="catalog-tools" role="tabpanel" aria-labelledby="catalog-tab-quizzes">
       <div class="tag-list" id="tag-list" aria-live="polite"><span class="tag is-muted">Загрузка…</span></div>
       <div class="sort-tool"><div class="sort-control" id="sort-control"><select id="sort-criterion" aria-label="Критерий сортировки"><option value="date">По дате</option><option value="difficulty">По сложности</option><option value="title">По алфавиту</option></select><button class="sort-direction" type="button" data-sort-direction title="Сначала новые" aria-label="Сначала новые">↓</button></div></div>
     </section>
