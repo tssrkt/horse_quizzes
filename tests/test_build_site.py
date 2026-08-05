@@ -255,6 +255,36 @@ class BuildSiteTests(unittest.TestCase):
         with self.assertRaisesRegex(build_site.ContentError, "next_quiz: неизвестная викторина"):
             self.load()
 
+        quiz["next_quiz"] = ""
+        self.write_quiz(quiz)
+        self.load()
+
+    def test_next_quiz_reference_accepts_same_type_and_rejects_cross_type(self):
+        vocabulary_path = self.data / "vocabulary-quizzes" / "english.json"
+        vocabulary = json.loads(vocabulary_path.read_text(encoding="utf-8"))
+        vocabulary["next_quiz"] = "english-2"
+        vocabulary_path.write_text(json.dumps(vocabulary, ensure_ascii=False, indent=2), encoding="utf-8")
+        self.load()
+
+        regular = self.horse()
+        regular["next_quiz"] = "english"
+        self.write_quiz(regular)
+        with self.assertRaisesRegex(
+            build_site.ContentError,
+            r"quizzes.horse-colors\.json\.next_quiz: значение «english».*«vocabulary».*«quiz»",
+        ):
+            self.load()
+
+        regular["next_quiz"] = "horse-genetics"
+        self.write_quiz(regular)
+        vocabulary["next_quiz"] = "horse-colors"
+        vocabulary_path.write_text(json.dumps(vocabulary, ensure_ascii=False, indent=2), encoding="utf-8")
+        with self.assertRaisesRegex(
+            build_site.ContentError,
+            r"vocabulary-quizzes.english\.json\.next_quiz: значение «horse-colors».*«quiz».*«vocabulary»",
+        ):
+            self.load()
+
     def test_published_quiz_cannot_link_to_draft(self):
         target = json.loads((self.data / "quizzes" / "horse-genetics.json").read_text(encoding="utf-8"))
         target["published"] = False

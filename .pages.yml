@@ -327,7 +327,7 @@ content:
         type: reference
         required: false
         options:
-          collection: quizzes
+          collection: vocabulary_quizzes
           multiple: false
           search: "title,slug"
           value: "{fields.slug}"

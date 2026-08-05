@@ -208,6 +208,7 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
     errors: list[str] = []
     quizzes: list[dict] = []
     slugs: dict[str, Path] = {}
+    quiz_sources: dict[str, tuple[str, str]] = {}
     quiz_paths = list((data_root / "quizzes").glob("*.json")) + list((data_root / "vocabulary-quizzes").glob("*.json"))
     for path in sorted(quiz_paths):
         data = read_json(path)
@@ -262,6 +263,9 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
         quiz_type = data.get("type", "quiz")
         if quiz_type not in {"quiz", VOCABULARY_TYPE}:
             errors.append(f"{label}.type: требуется quiz или vocabulary")
+        actual_type = VOCABULARY_TYPE if path.parent.name == "vocabulary-quizzes" else "quiz"
+        if slug:
+            quiz_sources[slug] = (label, actual_type)
         if quiz_type == VOCABULARY_TYPE:
             source_parts = data.get("parts")
             if source_parts is None:
@@ -394,10 +398,18 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
         if not next_slug or not isinstance(next_slug, str):
             continue
         target = quiz_by_slug.get(next_slug)
+        current_slug = quiz.get("slug")
+        current_label, expected_type = quiz_sources.get(current_slug, (str(current_slug), "quiz"))
         if target is None:
-            errors.append(f"{quiz.get('slug', 'викторина')}.next_quiz: неизвестная викторина «{next_slug}»")
+            errors.append(f"{current_label}.next_quiz: неизвестная викторина «{next_slug}»")
+        elif (target_source := quiz_sources.get(next_slug)) and target_source[1] != expected_type:
+            actual_type = target_source[1]
+            errors.append(
+                f"{current_label}.next_quiz: значение «{next_slug}»; фактический тип найденной викторины "
+                f"«{actual_type}», ожидаемый тип «{expected_type}»"
+            )
         elif quiz.get("published") and not target.get("published"):
-            errors.append(f"{quiz['slug']}.next_quiz: опубликованная викторина не может ссылаться на неопубликованную «{next_slug}»")
+            errors.append(f"{current_label}.next_quiz: опубликованная викторина не может ссылаться на неопубликованную «{next_slug}»")
     if errors:
         raise ContentError("\n".join(errors))
     return [normalize_quiz(quiz) for quiz in quizzes]

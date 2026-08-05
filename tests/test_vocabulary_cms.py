@@ -68,6 +68,21 @@ class VocabularyCmsContractTests(unittest.TestCase):
             self.assertNotIn(forbidden, self.vocabulary)
         self.assertIn("name: questions", self.regular)
 
+    def test_related_quiz_references_use_separate_collections(self):
+        regular_reference = self.regular.split("      - name: next_quiz\n", 1)[1].split("      - name: questions\n", 1)[0]
+        vocabulary_reference = self.vocabulary.split("      - name: next_quiz\n", 1)[1].split("      - name: parts\n", 1)[0]
+
+        self.assertIn("path: data/quizzes", self.regular)
+        self.assertIn("path: data/vocabulary-quizzes", self.vocabulary)
+        self.assertIn("collection: quizzes", regular_reference)
+        self.assertNotIn("collection: vocabulary_quizzes", regular_reference)
+        self.assertIn("collection: vocabulary_quizzes", vocabulary_reference)
+        self.assertNotIn("collection: quizzes\n", vocabulary_reference)
+        for reference in (regular_reference, vocabulary_reference):
+            self.assertIn("required: false", reference)
+            self.assertIn('value: "{fields.slug}"', reference)
+            self.assertIn('label: "{fields.title}"', reference)
+
 
 if __name__ == "__main__":
     unittest.main()
