@@ -1,0 +1,42 @@
+{
+  "type": "vocabulary",
+  "title": "Английский конника 3",
+  "slug": "english-3",
+  "published": true,
+  "publication_date": "2026-08-05T08:55:00+00:00",
+  "difficulty": "medium",
+  "short_description": "Викторина по английским терминам, связанным с содержанием лошадей. Она включает лексику о конюшне, кормлении, чистке, ковке, а также инвентаре и предметах повседневного ухода.",
+  "intro": "Викторина по английским терминам, связанным с содержанием лошадей. Она включает лексику о конюшне, кормлении, чистке, ковке, а также инвентаре и предметах повседневного ухода.",
+  "cover": "img/covers/English_03.webp",
+  "tags": [
+    "english",
+    "treating"
+  ],
+  "parts": [
+    {
+      "id": "5cb13e43-60b1-46ee-9d17-56359435be4a",
+      "title": "Конюшня",
+      "table": "../vocabulary/Care_01.xlsx"
+    },
+    {
+      "id": "ea1c42f1-641d-4e54-b851-aec9e3f2809a",
+      "title": "Уход",
+      "table": "../vocabulary/Care_02.xlsx"
+    },
+    {
+      "id": "ad234b9c-e810-4713-b669-c122d29b4728",
+      "title": "Корм",
+      "table": "../vocabulary/Care_03.xlsx"
+    },
+    {
+      "id": "f00c73f5-6a5c-429b-896f-abdddb31e39a",
+      "title": "Корм 2",
+      "table": "../vocabulary/Care_04.xlsx"
+    },
+    {
+      "id": "f19757a4-ab25-4650-8eb8-bfa1c30d47b7",
+      "title": "Ковка",
+      "table": "../vocabulary/Care_05.xlsx"
+    }
+  ]
+}
