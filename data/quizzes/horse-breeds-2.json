@@ -725,7 +725,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/26.webp",
+      "image": "img/quiz/horse-breeds-2/26.webp",
       "answers": [
         {
           "text": "Аппалуза"
@@ -752,7 +752,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/27.webp",
+      "image": "img/quiz/horse-breeds-2/27.webp",
       "answers": [
         {
           "text": "Шайр"
@@ -779,7 +779,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/28.webp",
+      "image": "img/quiz/horse-breeds-2/28.webp",
       "answers": [
         {
           "text": "Английская чистокровная"
@@ -806,7 +806,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/29.webp",
+      "image": "img/quiz/horse-breeds-2/29.webp",
       "answers": [
         {
           "text": "Английская чистокровная"
@@ -833,7 +833,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/30.webp",
+      "image": "img/quiz/horse-breeds-2/30.webp",
       "answers": [
         {
           "text": "Шайр"
