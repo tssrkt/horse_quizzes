@@ -117,6 +117,36 @@ def import_vocabulary_table(path: Path) -> list[dict]:
     return words
 
 
+def validate_embedded_vocabulary(words: object, label: str) -> list[dict]:
+    if not isinstance(words, list) or not words:
+        raise ContentError(f"{label}: встроенный словарь должен быть непустым массивом")
+    normalized = []
+    errors = []
+    for index, word in enumerate(words, 1):
+        if not isinstance(word, dict):
+            errors.append(f"{label}[{index}]: требуется объект")
+            continue
+        english = word.get("english")
+        russian = word.get("russian")
+        category = word.get("category", "")
+        if not isinstance(english, str) or not english.strip() or not isinstance(russian, str) or not russian.strip():
+            errors.append(f"{label}[{index}]: English и Russian обязательны")
+            continue
+        if not isinstance(category, str):
+            errors.append(f"{label}[{index}].category: требуется строка")
+            continue
+        normalized.append({"english": english.strip(), "russian": russian.strip(), "category": category.strip()})
+    groups: dict[str, int] = {}
+    for word in normalized:
+        groups[word["category"]] = groups.get(word["category"], 0) + 1
+    for category, count in groups.items():
+        if count < 2:
+            errors.append(f"{label}: категория «{category or '(пустая)'}» содержит меньше двух строк")
+    if errors:
+        raise ContentError("\n".join(errors))
+    return normalized
+
+
 def read_json(path: Path) -> dict:
     try:
         with path.open("r", encoding="utf-8") as stream:
@@ -287,23 +317,36 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
                     errors.append(f"{part_label}.title: требуется строка")
                     title = ""
                 title = title.strip() or f"Часть {part_index}"
-                table = require_string(part, "table", part_label, errors)
+                table = part.get("table", "")
+                if not isinstance(table, str):
+                    errors.append(f"{part_label}.table: требуется строка")
+                    table = ""
                 words = []
                 table_path = (path.parent / table).resolve() if table else None
-                if not table_path:
-                    continue
-                try:
-                    table_path.relative_to(ROOT.resolve())
-                except ValueError:
-                    errors.append(f"{part_label} «{title}», таблица {table}: путь выходит за пределы проекта")
-                else:
+                embedded = part.get("vocabulary")
+                if table_path and table_path.exists():
                     try:
-                        words = import_vocabulary_table(table_path)
+                        table_path.relative_to(ROOT.resolve())
+                    except ValueError:
+                        errors.append(f"{part_label} «{title}», таблица {table}: путь выходит за пределы проекта")
+                    else:
+                        try:
+                            words = import_vocabulary_table(table_path)
+                        except ContentError as error:
+                            errors.append(f"{part_label} «{title}», таблица {table}: {error}")
+                elif embedded is not None:
+                    try:
+                        words = validate_embedded_vocabulary(embedded, f"{part_label}.vocabulary")
                     except ContentError as error:
-                        errors.append(f"{part_label} «{title}», таблица {table}: {error}")
+                        errors.append(str(error))
+                elif table_path:
+                    errors.append(f"{part_label} «{title}», таблица {table}: файл не найден и встроенные данные отсутствуют")
+                else:
+                    errors.append(f"{part_label} «{title}»: требуется таблица или встроенный словарь")
                 part_id = part.get("id")
                 if not isinstance(part_id, str) or not SLUG_RE.fullmatch(part_id):
-                    part_id = "part-" + hashlib.sha256(table.encode("utf-8")).hexdigest()[:12]
+                    identity = table or json.dumps(words, ensure_ascii=False, sort_keys=True)
+                    part_id = "part-" + hashlib.sha256(identity.encode("utf-8")).hexdigest()[:12]
                 built_parts.append({"id": part_id, "title": title, "word_count": len(words), "vocabulary": words})
             if len({part["id"] for part in built_parts}) != len(built_parts):
                 errors.append(f"{label}.parts: идентификаторы частей должны быть уникальными")

@@ -254,6 +254,23 @@ class BuildSiteTests(unittest.TestCase):
         self.write_quiz(quiz)
         self.load()
 
+    def test_vocabulary_part_builds_from_embedded_rows_after_table_cleanup(self):
+        source = {
+            "type": "vocabulary", "title": "Встроенный словарь", "slug": "embedded-test", "published": False,
+            "publication_date": "2026-08-05", "difficulty": "low", "short_description": "Описание",
+            "intro": "Вступление", "cover": "", "tags": ["words"],
+            "parts": [{"id": "part-embedded", "title": "Часть", "table": "../vocabulary/removed.csv", "vocabulary": [
+                {"english": "horse", "russian": "лошадь", "category": ""},
+                {"english": "mare", "russian": "кобыла", "category": ""},
+            ]}],
+        }
+        directory = self.data / "vocabulary-quizzes"
+        (directory / "embedded-test.json").write_text(json.dumps(source, ensure_ascii=False), encoding="utf-8")
+        _, quizzes = self.load()
+        loaded = next(quiz for quiz in quizzes if quiz["slug"] == "embedded-test")
+        self.assertEqual(loaded["word_count"], 2)
+        self.assertEqual([word["english"] for word in loaded["parts"][0]["vocabulary"]], ["horse", "mare"])
+
     def test_regular_chain_computes_next_quiz(self):
         _, loaded = self.load()
         chain = {quiz["slug"]: quiz for quiz in loaded}
@@ -352,7 +369,9 @@ class BuildSiteTests(unittest.TestCase):
         self.assertEqual(chain["english-3"]["previous_quiz"], "english-2")
         self.assertEqual(chain["english-3"]["next_quiz"], "english-4")
         self.assertEqual(chain["english-5"]["previous_quiz"], "english-4")
-        self.assertNotIn("next_quiz", chain["english-5"])
+        self.assertEqual(chain["english-5"]["next_quiz"], "english-6")
+        self.assertEqual(chain["english-6"]["previous_quiz"], "english-5")
+        self.assertNotIn("next_quiz", chain["english-6"])
 
     def test_vocabulary_legacy_next_quiz_is_rejected(self):
         vocabulary_path = self.data / "vocabulary-quizzes" / "english.json"

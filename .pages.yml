@@ -360,3 +360,15 @@ content:
               media: vocabulary_files
               extensions: [xlsx, csv]
               rename: false
+          - name: vocabulary
+            type: object
+            hidden: true
+            required: false
+            list: true
+            fields:
+              - name: english
+                type: string
+              - name: russian
+                type: string
+              - name: category
+                type: string

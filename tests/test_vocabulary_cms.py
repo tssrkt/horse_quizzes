@@ -38,6 +38,12 @@ class VocabularyCmsContractTests(unittest.TestCase):
         self.assertIn("rename: false", media)
         self.assertIn("rename: false", table)
         self.assertNotIn("categories: [spreadsheet]", table)
+        imported = table.split("          - name: vocabulary\n", 1)[1]
+        self.assertIn("hidden: true", imported)
+        self.assertIn("list: true", imported)
+        self.assertIn("- name: english", imported)
+        self.assertIn("- name: russian", imported)
+        self.assertIn("- name: category", imported)
 
     def test_upload_fields_preserve_complex_names_in_storage_and_content(self):
         covers_media = self.schema.split("  - name: covers\n", 1)[1].split("  - name: quiz_images\n", 1)[0]
