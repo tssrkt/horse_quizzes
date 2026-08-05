@@ -10,6 +10,7 @@ on:
       - "data/vocabulary-quizzes/*.json"
       - "data/vocabulary/*.xlsx"
       - "data/vocabulary/*.csv"
+      - "img/covers/*"
   workflow_dispatch:
 
 permissions:

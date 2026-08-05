@@ -1,6 +1,7 @@
 import json
 import tempfile
 import unittest
+import subprocess
 from pathlib import Path, PurePosixPath
 
 from scripts import organize_quiz_media
@@ -69,7 +70,7 @@ class OrganizeQuizCoverTests(unittest.TestCase):
         self.organize()
         self.assertEqual(self.read_quiz()["cover"], replacement)
         self.assertEqual((self.root / replacement).read_bytes(), b"replacement")
-        self.assertFalse((self.root / "img" / "covers" / "test-quiz.webp").exists())
+        self.assertTrue((self.root / "img" / "covers" / "test-quiz.webp").exists())
 
     def test_cover_filename_is_preserved_exactly_for_cms_uploads(self):
         for filename in ("english01.webp", "English_02.webp", "English-cover_03.final.webp"):
@@ -91,12 +92,36 @@ class OrganizeQuizCoverTests(unittest.TestCase):
         self.assertEqual(saved["cover"], "img/covers/English_02.webp")
         self.assertTrue((self.root / "img" / "covers" / "English_02.webp").is_file())
 
-    def test_remove_cover_clears_reference_and_file(self):
+    def test_remove_cover_clears_reference_but_keeps_cms_media_file(self):
         self.add_source_cover("test-quiz.webp")
         self.write_quiz(...)
         self.organize()
         self.assertNotIn("cover", self.read_quiz())
-        self.assertFalse((self.root / "img" / "covers" / "test-quiz.webp").exists())
+        self.assertTrue((self.root / "img" / "covers" / "test-quiz.webp").exists())
+
+    def test_recreate_vocabulary_quiz_restores_deleted_same_name_cover(self):
+        vocabulary = self.root / "data" / "vocabulary-quizzes"
+        vocabulary.mkdir(parents=True)
+        cover = self.add_source_cover("English_03.webp", b"original cover")
+        quiz = vocabulary / "english-3.json"
+        quiz.write_text(json.dumps({"slug": "english-3", "type": "vocabulary", "cover": cover}), encoding="utf-8")
+
+        subprocess.run(["git", "init", "-q"], cwd=self.root, check=True)
+        subprocess.run(["git", "config", "user.name", "Test"], cwd=self.root, check=True)
+        subprocess.run(["git", "config", "user.email", "test@example.invalid"], cwd=self.root, check=True)
+        subprocess.run(["git", "add", "."], cwd=self.root, check=True)
+        subprocess.run(["git", "commit", "-qm", "create quiz"], cwd=self.root, check=True)
+
+        quiz.unlink()
+        (self.root / cover).unlink()
+        subprocess.run(["git", "add", "-A"], cwd=self.root, check=True)
+        subprocess.run(["git", "commit", "-qm", "delete quiz"], cwd=self.root, check=True)
+
+        quiz.write_text(json.dumps({"slug": "english-3", "type": "vocabulary", "cover": cover}), encoding="utf-8")
+        self.organize()
+
+        self.assertEqual((self.root / cover).read_bytes(), b"original cover")
+        self.assertEqual(json.loads(quiz.read_text(encoding="utf-8"))["cover"], cover)
 
     def test_vocabulary_without_questions_is_left_unchanged(self):
         path = self.root / "data" / "quizzes" / "test-vocabulary.json"

@@ -5,6 +5,7 @@ import argparse
 import json
 import re
 import shutil
+import subprocess
 import sys
 from collections import Counter
 from pathlib import Path, PurePosixPath
@@ -123,6 +124,8 @@ def read_source_bytes(
     for relative in references:
         absolute = repo_path(root, relative)
         if not absolute.is_file():
+            recover_deleted_media(root, relative)
+        if not absolute.is_file():
             missing.append(relative.as_posix())
             continue
         payloads[relative] = absolute.read_bytes()
@@ -134,6 +137,36 @@ def read_source_bytes(
         )
 
     return payloads
+
+
+def recover_deleted_media(root: Path, relative: PurePosixPath) -> bool:
+    """Restore an exactly matching CMS media path from repository history."""
+    repository_path = relative.as_posix()
+    try:
+        history = subprocess.run(
+            ["git", "log", "--all", "--format=%H", "--", repository_path],
+            cwd=root,
+            check=True,
+            capture_output=True,
+            text=True,
+        ).stdout.splitlines()
+        for commit in history:
+            blob = subprocess.run(
+                ["git", "show", f"{commit}:{repository_path}"],
+                cwd=root,
+                check=False,
+                capture_output=True,
+            )
+            if blob.returncode != 0:
+                continue
+            destination = repo_path(root, relative)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(blob.stdout)
+            print(f"ВОССТАНОВЛЕН УДАЛЁННЫЙ МЕДИАФАЙЛ: {repository_path}")
+            return True
+    except (OSError, subprocess.CalledProcessError):
+        pass
+    return False
 
 
 def remove_same_stem_variants(
@@ -283,6 +316,12 @@ def cleanup_unreferenced(
 ) -> None:
     for candidate in collect_managed_images(root):
         relative = PurePosixPath(candidate.relative_to(root).as_posix())
+        # Pages CMS saves an uploaded cover and its JSON reference in separate
+        # commits.  Keeping cover uploads prevents another workflow run from
+        # deleting the file in that non-atomic window and keeps the media
+        # library consistent when a deleted quiz is recreated with that name.
+        if relative == PurePosixPath("img/covers") or PurePosixPath("img/covers") in relative.parents:
+            continue
         if relative in final_references:
             continue
 
