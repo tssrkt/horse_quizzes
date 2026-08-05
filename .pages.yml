@@ -149,8 +149,8 @@ content:
           search: "name,slug"
           value: "{fields.slug}"
           label: "{fields.name}"
-      - name: next_quiz
-        label: Следующая викторина
+      - name: previous_quiz
+        label: Предыдущая викторина
         type: reference
         required: false
         options:

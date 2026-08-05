@@ -260,14 +260,14 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
         actual_type = VOCABULARY_TYPE if path.parent.name == "vocabulary-quizzes" else "quiz"
         if slug:
             quiz_sources[slug] = (label, actual_type)
-        relation_field = "previous_quiz" if actual_type == VOCABULARY_TYPE else "next_quiz"
+        relation_field = "previous_quiz"
         relation_slug = data.get(relation_field)
         if relation_slug not in (None, ""):
             if not isinstance(relation_slug, str):
                 errors.append(f"{label}.{relation_field}: требуется slug викторины")
             else:
                 validate_slug(relation_slug, f"{label}.{relation_field}", errors)
-        if actual_type == VOCABULARY_TYPE and "next_quiz" in data:
+        if "next_quiz" in data:
             errors.append(f"{label}.next_quiz: устаревшее ручное поле; используйте previous_quiz")
         if quiz_type == VOCABULARY_TYPE:
             source_parts = data.get("parts")
@@ -396,61 +396,41 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
                 errors.append(f"{qlabel}: correct_answer_id противоречит старому correct: true")
         quizzes.append(data)
     quiz_by_slug = {quiz.get("slug"): quiz for quiz in quizzes}
-    vocabulary_next: dict[str, str] = {}
+    computed_next: dict[str, str] = {}
     for quiz in quizzes:
         current_slug = quiz.get("slug")
         current_label, current_type = quiz_sources.get(current_slug, (str(current_slug), "quiz"))
-        if current_type == VOCABULARY_TYPE:
-            previous_slug = quiz.get("previous_quiz")
-            if not previous_slug or not isinstance(previous_slug, str):
-                continue
-            target = quiz_by_slug.get(previous_slug)
-            target_source = quiz_sources.get(previous_slug)
-            if previous_slug == current_slug:
-                errors.append(f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: самоссылка запрещена")
-            elif target is None:
-                errors.append(f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: викторина не найдена")
-            elif target_source and target_source[1] != VOCABULARY_TYPE:
-                errors.append(
-                    f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: цель имеет тип "
-                    f"«{target_source[1]}», ожидался тип «{VOCABULARY_TYPE}»"
-                )
-            elif previous_slug in vocabulary_next:
-                errors.append(
-                    f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: ветвление запрещено; "
-                    f"следующей уже является «{vocabulary_next[previous_slug]}»"
-                )
-            else:
-                vocabulary_next[previous_slug] = current_slug
-                if quiz.get("published") and not target.get("published"):
-                    errors.append(
-                        f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: "
-                        "опубликованная викторина не может ссылаться на неопубликованную"
-                    )
+        previous_slug = quiz.get("previous_quiz")
+        if not previous_slug or not isinstance(previous_slug, str):
             continue
-
-        next_slug = quiz.get("next_quiz")
-        if not next_slug or not isinstance(next_slug, str):
-            continue
-        target = quiz_by_slug.get(next_slug)
-        current_label, expected_type = quiz_sources.get(current_slug, (str(current_slug), "quiz"))
-        if target is None:
-            errors.append(f"{current_label}.next_quiz: неизвестная викторина «{next_slug}»")
-        elif (target_source := quiz_sources.get(next_slug)) and target_source[1] != expected_type:
-            actual_type = target_source[1]
+        target = quiz_by_slug.get(previous_slug)
+        target_source = quiz_sources.get(previous_slug)
+        if previous_slug == current_slug:
+            errors.append(f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: самоссылка запрещена")
+        elif target is None:
+            errors.append(f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: викторина не найдена")
+        elif target_source and target_source[1] != current_type:
             errors.append(
-                f"{current_label}.next_quiz: значение «{next_slug}»; фактический тип найденной викторины "
-                f"«{actual_type}», ожидаемый тип «{expected_type}»"
+                f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: цель имеет тип "
+                f"«{target_source[1]}», ожидался тип «{current_type}»"
             )
-        elif quiz.get("published") and not target.get("published"):
-            errors.append(f"{current_label}.next_quiz: опубликованная викторина не может ссылаться на неопубликованную «{next_slug}»")
+        elif previous_slug in computed_next:
+            errors.append(
+                f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: ветвление запрещено; "
+                f"следующей уже является «{computed_next[previous_slug]}»"
+            )
+        else:
+            computed_next[previous_slug] = current_slug
+            if quiz.get("published") and not target.get("published"):
+                errors.append(
+                    f"{current_label}.previous_quiz: проблемный slug «{previous_slug}»: "
+                    "опубликованная викторина не может ссылаться на неопубликованную"
+                )
 
     for start_slug, (_, start_type) in quiz_sources.items():
-        if start_type != VOCABULARY_TYPE:
-            continue
         seen: set[str] = set()
         slug = start_slug
-        while slug in quiz_by_slug and quiz_sources.get(slug, ("", ""))[1] == VOCABULARY_TYPE:
+        while slug in quiz_by_slug and quiz_sources.get(slug, ("", ""))[1] == start_type:
             if slug in seen:
                 label = quiz_sources[start_slug][0]
                 errors.append(f"{label}.previous_quiz: проблемный slug «{slug}»: обнаружен цикл")
@@ -461,7 +441,7 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
                 break
             slug = previous
 
-    for previous_slug, next_slug in vocabulary_next.items():
+    for previous_slug, next_slug in computed_next.items():
         quiz_by_slug[previous_slug]["next_quiz"] = next_slug
     if errors:
         raise ContentError("\n".join(errors))

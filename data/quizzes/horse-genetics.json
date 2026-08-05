@@ -1017,6 +1017,5 @@
       "correct_answer_id": "answer-03",
       "explanation": "Раз у каждого вороного родителя был рыжий родитель, значит оба вороные являются гетерозиготами по локусу Extension: Ee + Ee -> EE, Ee, Ee, ee — вороные 75%, рыжие 25%"
     }
-  ],
-  "next_quiz": "horse-genetics-2"
+  ]
 }

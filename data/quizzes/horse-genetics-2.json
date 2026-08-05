@@ -1061,5 +1061,5 @@
     }
   ],
   "cover": "img/covers/horse-genetics-2.webp",
-  "next_quiz": "horse-genetics-3"
+  "previous_quiz": "horse-genetics"
 }

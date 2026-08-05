@@ -69,13 +69,15 @@ class VocabularyCmsContractTests(unittest.TestCase):
         self.assertIn("name: questions", self.regular)
 
     def test_related_quiz_references_use_separate_collections(self):
-        regular_reference = self.regular.split("      - name: next_quiz\n", 1)[1].split("      - name: questions\n", 1)[0]
+        regular_reference = self.regular.split("      - name: previous_quiz\n", 1)[1].split("      - name: questions\n", 1)[0]
         vocabulary_reference = self.vocabulary.split("      - name: previous_quiz\n", 1)[1].split("      - name: parts\n", 1)[0]
 
         self.assertIn("path: data/quizzes", self.regular)
         self.assertIn("path: data/vocabulary-quizzes", self.vocabulary)
         self.assertIn("collection: quizzes", regular_reference)
         self.assertNotIn("collection: vocabulary_quizzes", regular_reference)
+        self.assertIn("label: Предыдущая викторина", regular_reference)
+        self.assertNotIn("- name: next_quiz", self.regular)
         self.assertIn("collection: vocabulary_quizzes", vocabulary_reference)
         self.assertNotIn("collection: quizzes\n", vocabulary_reference)
         self.assertIn("label: Предыдущая викторина", vocabulary_reference)

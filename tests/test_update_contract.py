@@ -28,14 +28,14 @@ class UpdateContractTests(unittest.TestCase):
         self.assertIn('label: "{fields.name}"', reference)
         self.assertNotIn('label: "{name}"', reference)
 
-        next_quiz = quiz_collection.split("      - name: next_quiz\n", 1)[1].split("      - name: questions\n", 1)[0]
-        self.assertIn("label: Следующая викторина", next_quiz)
-        self.assertIn("type: reference", next_quiz)
-        self.assertIn("required: false", next_quiz)
-        self.assertIn("collection: quizzes", next_quiz)
-        self.assertIn("multiple: false", next_quiz)
-        self.assertIn('value: "{fields.slug}"', next_quiz)
-        self.assertIn('label: "{fields.title}"', next_quiz)
+        previous_quiz = quiz_collection.split("      - name: previous_quiz\n", 1)[1].split("      - name: questions\n", 1)[0]
+        self.assertIn("label: Предыдущая викторина", previous_quiz)
+        self.assertIn("type: reference", previous_quiz)
+        self.assertIn("required: false", previous_quiz)
+        self.assertIn("collection: quizzes", previous_quiz)
+        self.assertIn("multiple: false", previous_quiz)
+        self.assertIn('value: "{fields.slug}"', previous_quiz)
+        self.assertIn('label: "{fields.title}"', previous_quiz)
 
     def test_tag_files_keep_technical_names_and_russian_labels(self):
         required = {

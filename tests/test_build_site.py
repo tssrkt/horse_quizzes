@@ -243,21 +243,59 @@ class BuildSiteTests(unittest.TestCase):
     def test_unknown_tag(self):
         self.assert_quiz_error(lambda quiz: quiz.update(tags=["missing-tag"]), "неизвестный тег")
 
-    def test_next_quiz_reference_is_optional_and_validated(self):
+    def test_previous_quiz_reference_is_optional_and_validated(self):
         quiz = self.horse()
-        quiz["next_quiz"] = "horse-genetics"
+        quiz["previous_quiz"] = "missing-quiz"
         self.write_quiz(quiz)
-        _, quizzes = self.load()
-        self.assertEqual(next(item for item in quizzes if item["slug"] == "horse-colors")["next_quiz"], "horse-genetics")
-
-        quiz["next_quiz"] = "missing-quiz"
-        self.write_quiz(quiz)
-        with self.assertRaisesRegex(build_site.ContentError, "next_quiz: неизвестная викторина"):
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «missing-quiz»: викторина не найдена"):
             self.load()
 
-        quiz["next_quiz"] = ""
+        quiz["previous_quiz"] = ""
         self.write_quiz(quiz)
         self.load()
+
+    def test_regular_chain_computes_next_quiz(self):
+        _, loaded = self.load()
+        chain = {quiz["slug"]: quiz for quiz in loaded}
+        self.assertNotIn("previous_quiz", chain["horse-colors"])
+        self.assertEqual(chain["horse-colors"]["next_quiz"], "rare-horse-colors")
+        self.assertEqual(chain["rare-horse-colors"]["previous_quiz"], "horse-colors")
+        self.assertEqual(chain["rare-horse-colors"]["next_quiz"], "very-rare-colors")
+        self.assertEqual(chain["pinto-colors-3"]["previous_quiz"], "pinto-colors-2")
+        self.assertNotIn("next_quiz", chain["pinto-colors-3"])
+
+    def test_regular_previous_quiz_rejects_cross_type_self_cycle_and_branch(self):
+        quiz = self.horse()
+        quiz["previous_quiz"] = "english"
+        self.write_quiz(quiz)
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «english».*«vocabulary».*«quiz»"):
+            self.load()
+
+        quiz["previous_quiz"] = "horse-colors"
+        self.write_quiz(quiz)
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «horse-colors»: самоссылка"):
+            self.load()
+
+        quiz["previous_quiz"] = "rare-horse-colors"
+        self.write_quiz(quiz)
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «horse-colors»: обнаружен цикл"):
+            self.load()
+
+        quiz.pop("previous_quiz")
+        self.write_quiz(quiz)
+        branch_path = self.data / "quizzes" / "horse-genetics-3.json"
+        branch = json.loads(branch_path.read_text(encoding="utf-8"))
+        branch["previous_quiz"] = "horse-genetics"
+        branch_path.write_text(json.dumps(branch, ensure_ascii=False), encoding="utf-8")
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «horse-genetics»: ветвление запрещено"):
+            self.load()
+
+    def test_regular_legacy_next_quiz_is_rejected(self):
+        quiz = self.horse()
+        quiz["next_quiz"] = "rare-horse-colors"
+        self.write_quiz(quiz)
+        with self.assertRaisesRegex(build_site.ContentError, r"next_quiz: устаревшее ручное поле; используйте previous_quiz"):
+            self.load()
 
     def test_vocabulary_previous_quiz_accepts_same_type_and_rejects_cross_type(self):
         vocabulary_path = self.data / "vocabulary-quizzes" / "english.json"
@@ -331,9 +369,6 @@ class BuildSiteTests(unittest.TestCase):
         target = json.loads((self.data / "quizzes" / "horse-genetics.json").read_text(encoding="utf-8"))
         target["published"] = False
         self.write_quiz(target, "horse-genetics.json")
-        quiz = self.horse()
-        quiz["next_quiz"] = "horse-genetics"
-        self.write_quiz(quiz)
         with self.assertRaisesRegex(build_site.ContentError, "не может ссылаться на неопубликованную"):
             self.load()
 
