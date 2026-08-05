@@ -40,6 +40,7 @@ jobs:
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
+          PREVIOUS_REF: ${{ github.event.before }}
         run: |
           set -euo pipefail
 
@@ -52,7 +53,7 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
 
-            python scripts/organize_quiz_media.py
+            python scripts/organize_quiz_media.py --previous-ref "${PREVIOUS_REF}"
 
             if git diff --quiet -- data/quizzes data/vocabulary-quizzes data/vocabulary img/covers img/quiz; then
               echo "Quiz media is already organized."

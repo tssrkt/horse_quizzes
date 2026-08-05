@@ -32,12 +32,14 @@ class OrganizeQuizCoverTests(unittest.TestCase):
         path.write_text(json.dumps(quiz, ensure_ascii=False), encoding="utf-8")
         return path
 
-    def organize(self):
+    def organize(self, previous_references=()):
         quizzes = organize_quiz_media.load_quizzes(self.root)
         references = organize_quiz_media.collect_original_reference_counts(quizzes)
         payloads = organize_quiz_media.read_source_bytes(self.root, references)
         final = organize_quiz_media.organize_quizzes(self.root, quizzes, payloads, False)
-        organize_quiz_media.cleanup_unreferenced(self.root, final, False)
+        candidates = set(previous_references) - set(references)
+        candidates.update(set(references) - final)
+        organize_quiz_media.cleanup_unreferenced(self.root, final, False, candidates)
         return final
 
     def add_source_cover(self, name="uploaded.webp", content=b"new cover"):
@@ -67,10 +69,10 @@ class OrganizeQuizCoverTests(unittest.TestCase):
         self.write_quiz(old)
         replacement = self.add_source_cover("replacement.png", b"replacement")
         self.write_quiz(replacement)
-        self.organize()
+        self.organize([PurePosixPath(old)])
         self.assertEqual(self.read_quiz()["cover"], replacement)
         self.assertEqual((self.root / replacement).read_bytes(), b"replacement")
-        self.assertTrue((self.root / "img" / "covers" / "test-quiz.webp").exists())
+        self.assertFalse((self.root / "img" / "covers" / "test-quiz.webp").exists())
 
     def test_cover_filename_is_preserved_exactly_for_cms_uploads(self):
         for filename in ("english01.webp", "English_02.webp", "English-cover_03.final.webp"):
@@ -92,12 +94,77 @@ class OrganizeQuizCoverTests(unittest.TestCase):
         self.assertEqual(saved["cover"], "img/covers/English_02.webp")
         self.assertTrue((self.root / "img" / "covers" / "English_02.webp").is_file())
 
-    def test_remove_cover_clears_reference_but_keeps_cms_media_file(self):
-        self.add_source_cover("test-quiz.webp")
+    def test_remove_unique_cover_deletes_cms_media_file(self):
+        old = self.add_source_cover("test-quiz.webp")
         self.write_quiz(...)
-        self.organize()
+        self.organize([PurePosixPath(old)])
         self.assertNotIn("cover", self.read_quiz())
-        self.assertTrue((self.root / "img" / "covers" / "test-quiz.webp").exists())
+        self.assertFalse((self.root / "img" / "covers" / "test-quiz.webp").exists())
+
+    def test_shared_cover_is_not_deleted(self):
+        shared = self.add_source_cover("shared.webp")
+        self.write_quiz(...)
+        other = self.root / "data" / "quizzes" / "other.json"
+        other.write_text(json.dumps({"slug": "other", "title": "Other", "cover": shared, "questions": []}), encoding="utf-8")
+        self.organize([PurePosixPath(shared)])
+        self.assertTrue((self.root / shared).is_file())
+
+    def test_remove_question_image_deletes_only_managed_file(self):
+        question_image = self.root / "img" / "quiz" / "test-quiz" / "01.webp"
+        question_image.parent.mkdir(parents=True)
+        question_image.write_bytes(b"question")
+        self.write_quiz(...)
+        self.organize([PurePosixPath("img/quiz/test-quiz/01.webp")])
+        self.assertFalse(question_image.exists())
+
+        system_image = self.root / "img" / "logo.webp"
+        system_image.write_bytes(b"system")
+        organize_quiz_media.cleanup_unreferenced(
+            self.root,
+            set(),
+            False,
+            {PurePosixPath("img/logo.webp")},
+        )
+        self.assertTrue(system_image.exists())
+
+    def test_deleted_quiz_removes_unique_images_but_keeps_shared_images(self):
+        unique = self.add_source_cover("unique.webp")
+        shared = self.add_source_cover("shared-delete.webp")
+        deleted = self.write_quiz(unique)
+        other = self.root / "data" / "quizzes" / "other.json"
+        other.write_text(json.dumps({"slug": "other", "title": "Other", "cover": shared, "questions": []}), encoding="utf-8")
+        deleted.unlink()
+        self.organize([PurePosixPath(unique), PurePosixPath(shared)])
+        self.assertFalse((self.root / unique).exists())
+        self.assertTrue((self.root / shared).exists())
+
+    def test_collects_managed_paths_from_other_nested_cms_fields(self):
+        references = organize_quiz_media.collect_image_references({
+            "custom": [{"thumbnail": "img/covers/nested.webp"}],
+            "system": "img/logo.webp",
+        })
+        self.assertEqual(references, {PurePosixPath("img/covers/nested.webp"): 1})
+
+        custom = self.root / "data" / "custom.json"
+        custom.write_text(json.dumps({"hero": "img/covers/from-other-data.webp"}), encoding="utf-8")
+        all_data = organize_quiz_media.collect_current_data_references(self.root)
+        self.assertEqual(all_data[PurePosixPath("img/covers/from-other-data.webp")], 1)
+
+    def test_reads_pre_save_references_from_git_commit(self):
+        cover = self.add_source_cover("before-save.webp")
+        self.write_quiz(cover)
+        subprocess.run(["git", "init", "-q"], cwd=self.root, check=True)
+        subprocess.run(["git", "config", "user.name", "Test"], cwd=self.root, check=True)
+        subprocess.run(["git", "config", "user.email", "test@example.invalid"], cwd=self.root, check=True)
+        subprocess.run(["git", "add", "."], cwd=self.root, check=True)
+        subprocess.run(["git", "commit", "-qm", "before CMS save"], cwd=self.root, check=True)
+
+        self.write_quiz(...)
+        previous = organize_quiz_media.collect_references_from_git(self.root, "HEAD")
+        current = organize_quiz_media.collect_original_reference_counts(organize_quiz_media.load_quizzes(self.root))
+
+        self.assertEqual(previous[PurePosixPath(cover)], 1)
+        self.assertNotIn(PurePosixPath(cover), current)
 
     def test_recreate_vocabulary_quiz_restores_deleted_same_name_cover(self):
         vocabulary = self.root / "data" / "vocabulary-quizzes"

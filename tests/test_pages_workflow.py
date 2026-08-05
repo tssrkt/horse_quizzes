@@ -66,6 +66,8 @@ class PagesWorkflowTests(unittest.TestCase):
         workflow = MEDIA_WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("python scripts/organize_quiz_media.py", workflow)
         self.assertIn("fetch-depth: 0", workflow)
+        self.assertIn('PREVIOUS_REF: ${{ github.event.before }}', workflow)
+        self.assertIn('python scripts/organize_quiz_media.py --previous-ref "${PREVIOUS_REF}"', workflow)
 
     def test_media_follow_up_commit_covers_all_cms_upload_directories(self):
         workflow = MEDIA_WORKFLOW.read_text(encoding="utf-8")

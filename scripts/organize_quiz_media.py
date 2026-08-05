@@ -92,25 +92,76 @@ def load_quizzes(root: Path) -> list[tuple[Path, dict[str, Any]]]:
     return loaded
 
 
+def collect_image_references(value: Any) -> Counter[PurePosixPath]:
+    counts: Counter[PurePosixPath] = Counter()
+    if isinstance(value, dict):
+        for child in value.values():
+            counts.update(collect_image_references(child))
+    elif isinstance(value, list):
+        for child in value:
+            counts.update(collect_image_references(child))
+    elif isinstance(value, str):
+        candidate = value.strip().replace("\\", "/").lstrip("/")
+        if not any(candidate == root.as_posix() or candidate.startswith(root.as_posix() + "/") for root in MANAGED_ROOTS):
+            return counts
+        image = normalize_repo_path(value)
+        if image is not None:
+            counts[image] += 1
+    return counts
+
+
 def collect_original_reference_counts(
     quizzes: list[tuple[Path, dict[str, Any]]],
 ) -> Counter[PurePosixPath]:
     counts: Counter[PurePosixPath] = Counter()
-
     for _, quiz in quizzes:
-        cover = normalize_repo_path(quiz.get("cover"))
-        if cover is not None:
-            counts[cover] += 1
+        counts.update(collect_image_references(quiz))
+    return counts
 
-        questions = quiz.get("questions")
-        if isinstance(questions, list):
-            for question in questions:
-                if not isinstance(question, dict):
-                    continue
-                image = normalize_repo_path(question.get("image"))
-                if image is not None:
-                    counts[image] += 1
 
+def collect_current_data_references(root: Path) -> Counter[PurePosixPath]:
+    counts: Counter[PurePosixPath] = Counter()
+    errors: list[str] = []
+    for path in sorted((root / "data").rglob("*.json")):
+        try:
+            counts.update(collect_image_references(json.loads(path.read_text(encoding="utf-8"))))
+        except (OSError, json.JSONDecodeError, TypeError) as error:
+            errors.append(f"{path.relative_to(root).as_posix()}: {error}")
+    if errors:
+        raise RuntimeError("Не удалось проверить текущие ссылки на изображения:\n" + "\n".join(errors))
+    return counts
+
+
+def collect_references_from_git(root: Path, ref: str) -> Counter[PurePosixPath]:
+    """Read all managed image references from quiz JSON files at a Git ref."""
+    if not ref or set(ref) == {"0"}:
+        return Counter()
+    listing = subprocess.run(
+        ["git", "ls-tree", "-r", "--name-only", ref, "--", "data"],
+        cwd=root,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.splitlines()
+    counts: Counter[PurePosixPath] = Counter()
+    errors: list[str] = []
+    for repository_path in listing:
+        if not repository_path.endswith(".json"):
+            continue
+        result = subprocess.run(
+            ["git", "show", f"{ref}:{repository_path}"],
+            cwd=root,
+            check=True,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+        )
+        try:
+            counts.update(collect_image_references(json.loads(result.stdout)))
+        except (json.JSONDecodeError, TypeError) as error:
+            errors.append(f"{repository_path}: {error}")
+    if errors:
+        raise RuntimeError("Не удалось проверить прежние ссылки на изображения:\n" + "\n".join(errors))
     return counts
 
 
@@ -313,16 +364,16 @@ def cleanup_unreferenced(
     root: Path,
     final_references: set[PurePosixPath],
     dry_run: bool,
+    candidates: set[PurePosixPath] | None = None,
 ) -> None:
-    for candidate in collect_managed_images(root):
-        relative = PurePosixPath(candidate.relative_to(root).as_posix())
-        # Pages CMS saves an uploaded cover and its JSON reference in separate
-        # commits.  Keeping cover uploads prevents another workflow run from
-        # deleting the file in that non-atomic window and keeps the media
-        # library consistent when a deleted quiz is recreated with that name.
-        if relative == PurePosixPath("img/covers") or PurePosixPath("img/covers") in relative.parents:
+    candidates = candidates or set()
+    for relative in sorted(candidates):
+        if not any(relative == managed_root or managed_root in relative.parents for managed_root in MANAGED_ROOTS):
             continue
         if relative in final_references:
+            continue
+        candidate = repo_path(root, relative)
+        if not candidate.is_file() or candidate.is_symlink() or candidate.suffix.lower() not in IMAGE_EXTENSIONS:
             continue
 
         print(
@@ -366,6 +417,11 @@ def main() -> int:
         help="Показать изменения без записи и удаления.",
     )
     parser.add_argument(
+        "--previous-ref",
+        default="",
+        help="Git ref до CMS-сохранения; используются только исчезнувшие с него ссылки.",
+    )
+    parser.add_argument(
         "repo",
         nargs="?",
         default=".",
@@ -379,6 +435,7 @@ def main() -> int:
 
     quizzes = load_quizzes(root)
     original_references = collect_original_reference_counts(quizzes)
+    previous_references = collect_references_from_git(root, args.previous_ref)
     source_bytes = read_source_bytes(root, original_references)
 
     final_references = organize_quizzes(
@@ -387,7 +444,11 @@ def main() -> int:
         source_bytes,
         args.dry_run,
     )
-    cleanup_unreferenced(root, final_references, args.dry_run)
+    current_references = collect_current_data_references(root)
+    cleanup_candidates = set(previous_references) - set(current_references)
+    cleanup_candidates.update(set(original_references) - final_references)
+    protected_references = final_references | set(current_references)
+    cleanup_unreferenced(root, protected_references, args.dry_run, cleanup_candidates)
 
     print()
     print(f"Обработано викторин: {len(quizzes)}")
