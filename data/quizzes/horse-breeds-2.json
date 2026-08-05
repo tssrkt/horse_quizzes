@@ -860,7 +860,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/31.webp",
+      "image": "img/quiz/horse-breeds-2/31.webp",
       "answers": [
         {
           "text": "Английская чистокровная"
@@ -887,7 +887,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/32.webp",
+      "image": "img/quiz/horse-breeds-2/32.webp",
       "answers": [
         {
           "text": "Шайр"
@@ -914,7 +914,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/33.webp",
+      "image": "img/quiz/horse-breeds-2/33.webp",
       "answers": [
         {
           "text": "Английская чистокровная"
@@ -941,7 +941,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/34.webp",
+      "image": "img/quiz/horse-breeds-2/34.webp",
       "answers": [
         {
           "text": "Шайр"
@@ -968,7 +968,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/35.webp",
+      "image": "img/quiz/horse-breeds-2/35.webp",
       "answers": [
         {
           "text": "Шайр"
@@ -995,7 +995,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/36.webp",
+      "image": "img/quiz/horse-breeds-2/36.webp",
       "answers": [
         {
           "text": "Шайр"
@@ -1022,7 +1022,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/37.webp",
+      "image": "img/quiz/horse-breeds-2/37.webp",
       "answers": [
         {
           "text": "Шайр"
@@ -1049,7 +1049,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/38.webp",
+      "image": "img/quiz/horse-breeds-2/38.webp",
       "answers": [
         {
           "text": "Польский коник"
@@ -1076,7 +1076,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/39.webp",
+      "image": "img/quiz/horse-breeds-2/39.webp",
       "answers": [
         {
           "text": "Шайр"
@@ -1103,7 +1103,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/40.webp",
+      "image": "img/quiz/horse-breeds-2/40.webp",
       "answers": [
         {
           "text": "Шайр"
