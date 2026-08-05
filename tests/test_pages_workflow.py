@@ -69,6 +69,8 @@ class PagesWorkflowTests(unittest.TestCase):
     def test_media_follow_up_commit_covers_all_cms_upload_directories(self):
         workflow = MEDIA_WORKFLOW.read_text(encoding="utf-8")
         scope = "data/quizzes data/vocabulary-quizzes data/vocabulary img/covers img/quiz"
+        self.assertIn('- "data/vocabulary/*.xlsx"', workflow)
+        self.assertIn('- "data/vocabulary/*.csv"', workflow)
         self.assertIn(f"git diff --quiet -- {scope}", workflow)
         self.assertIn(f"git add -A {scope}", workflow)
         self.assertNotIn("python tools/normalize_quiz_ids.py", workflow)

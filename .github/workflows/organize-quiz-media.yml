@@ -9,6 +9,7 @@ on:
       - "data/quizzes/**/*.json"
       - "data/vocabulary-quizzes/*.json"
       - "data/vocabulary/*.xlsx"
+      - "data/vocabulary/*.csv"
   workflow_dispatch:
 
 permissions:

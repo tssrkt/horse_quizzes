@@ -55,6 +55,12 @@ class VocabularyCmsContractTests(unittest.TestCase):
         for field in (regular_cover, question_image, vocabulary_cover):
             self.assertIn("rename: false", field)
 
+        # A vocabulary cover must use the exact same upload field contract as a
+        # regular quiz cover.  In particular, `type: image` plus the named
+        # `covers` media source makes Pages CMS upload the file to `input` and
+        # write the source's `output` path to JSON.
+        self.assertEqual(regular_cover, vocabulary_cover)
+
     def test_has_common_fields_but_no_question_editor(self):
         for name in ("title", "slug", "published", "publication_date", "difficulty", "short_description", "intro", "cover", "tags", "next_quiz"):
             self.assertIn(f"- name: {name}", self.vocabulary)
