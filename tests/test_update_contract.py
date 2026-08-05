@@ -113,8 +113,8 @@ class UpdateContractTests(unittest.TestCase):
         self.assertIn('class="next-quiz__label">Следующая викторина', javascript)
         self.assertIn("core.quizPath(nextQuiz.slug, location.href)", javascript)
         self.assertIn("nextQuiz ?", javascript)
-        self.assertIn(".next-quiz{margin-top:15px;text-align:center}", stylesheet)
-        self.assertNotIn(".next-quiz{margin-top:30px", stylesheet)
+        self.assertIn(".next-quiz{margin-top:8px;text-align:center}", stylesheet)
+        self.assertNotIn(".next-quiz{margin-top:15px", stylesheet)
         self.assertIn(".next-quiz__link:hover{", stylesheet)
 
     def test_vocabulary_result_renders_only_computed_next_link(self):
