@@ -17,6 +17,12 @@ class CatalogIntroContractTests(unittest.TestCase):
         self.assertIn("catalogIntro.innerHTML = catalogIntroHtml(state.section", javascript)
         self.assertIn("renderSections();", javascript)
 
+    def test_link_and_strong_inherit_catalog_intro_typography(self):
+        css = (ROOT / "css/style.css").read_text(encoding="utf-8")
+        self.assertIn(".catalog-intro a,.catalog-intro strong{font-family:inherit;font-size:inherit;line-height:inherit;letter-spacing:inherit}", css)
+        self.assertIn(".catalog-intro strong{color:inherit;font-weight:700}", css)
+        self.assertIn(".catalog-intro a{display:inline;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none", css)
+
 
 if __name__ == "__main__":
     unittest.main()
