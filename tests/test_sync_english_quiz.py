@@ -60,8 +60,8 @@ class EnglishPackageTests(unittest.TestCase):
     def create_and_import(self):
         target, package, mode, texts, automatic = self.prepare()
         self.translate_package(package)
-        import_package(package, self.root)
-        return target, package, mode, texts, automatic
+        _, archived, _ = import_package(package, self.root)
+        return target, archived, mode, texts, automatic
 
     def test_initial_prepare_creates_draft_and_full_text_only_package(self):
         target, package_path, mode, texts, _ = self.prepare()
@@ -83,13 +83,16 @@ class EnglishPackageTests(unittest.TestCase):
     def test_valid_import_applies_text_and_marks_current(self):
         target, package, *_ = self.prepare()
         translated = self.translate_package(package)
-        target_path, imported = import_package(package, self.root)
+        target_path, archived, imported = import_package(package, self.root)
         quiz = json.loads(target_path.read_text(encoding="utf-8"))
         self.assertIn("title", imported)
         self.assertEqual(quiz["title"], translated["fields"]["title"])
         self.assertEqual(quiz["translation_status"], "current")
         self.assertNotIn("_pending_translation", quiz)
-        self.assertEqual(json.loads(package.read_text(encoding="utf-8"))["status"], "imported")
+        self.assertFalse(package.exists())
+        self.assertEqual(archived.parent, self.package_dir / "imported")
+        self.assertIn("breeds-en.", archived.name)
+        self.assertEqual(json.loads(archived.read_text(encoding="utf-8"))["status"], "imported")
 
     def test_incremental_package_contains_only_changed_text_and_preserves_manual_edits(self):
         target, _, *_ = self.create_and_import()
@@ -148,11 +151,11 @@ class EnglishPackageTests(unittest.TestCase):
         self.assertEqual(updated["questions"][1]["answers"][0]["text"], expected_text)
 
     def test_unchanged_prepare_does_not_replace_package(self):
-        _, package, *_ = self.create_and_import()
-        before = package.read_bytes()
+        _, archived, *_ = self.create_and_import()
+        before = archived.read_bytes()
         _, _, mode, texts, automatic = prepare(self.source_dir / "breeds.json", self.english_dir, self.package_dir)
         self.assertEqual((mode, texts, automatic), ("unchanged", [], []))
-        self.assertEqual(package.read_bytes(), before)
+        self.assertEqual(archived.read_bytes(), before)
 
     def test_source_change_marks_translation_outdated(self):
         target, _, *_ = self.create_and_import()
@@ -168,9 +171,12 @@ class EnglishPackageTests(unittest.TestCase):
         mutate(payload)
         package.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
         before = target.read_bytes()
+        package_before = package.read_bytes()
         with self.assertRaisesRegex((SyncError, json.JSONDecodeError), message):
             import_package(package, self.root)
         self.assertEqual(target.read_bytes(), before)
+        self.assertEqual(package.read_bytes(), package_before)
+        self.assertFalse((self.package_dir / "imported").exists())
 
     def test_changed_id_and_structure_are_rejected_without_partial_write(self):
         self.assert_rejected_without_target_change(lambda p: p["questions"][0].update(id="wrong"), "Question IDs")
@@ -196,13 +202,17 @@ class EnglishPackageTests(unittest.TestCase):
         self.assertEqual(target.read_bytes(), before)
 
     def test_damaged_json_and_repeat_import_are_rejected(self):
-        _, package, *_ = self.create_and_import()
-        with self.assertRaisesRegex(SyncError, "already been imported|does not expect"):
-            import_package(package, self.root)
+        _, archived, *_ = self.create_and_import()
+        with self.assertRaisesRegex(SyncError, "Archived translation packages cannot be imported again"):
+            import_package(archived, self.root)
+        replay = self.package_dir / "replay.json"
+        replay.write_bytes(archived.read_bytes())
+        with self.assertRaisesRegex(SyncError, "already been imported"):
+            import_package(replay, self.root)
+        package = self.package_dir / "broken.json"
         package.write_text("{broken", encoding="utf-8")
         with self.assertRaises(json.JSONDecodeError):
             import_package(package, self.root)
-
 
 if __name__ == "__main__":
     unittest.main()

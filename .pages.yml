@@ -437,6 +437,8 @@ content:
     label: Пакеты английских переводов
     type: collection
     path: data/translation-packages
+    subfolders: false
+    exclude: ["imported/**"]
     format: json
     operations:
       create: false

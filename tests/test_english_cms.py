@@ -31,6 +31,8 @@ class EnglishCmsTests(unittest.TestCase):
     def test_translation_packages_have_separate_import_action(self):
         packages = self.config.split("  - name: translation_packages\n", 1)[1]
         self.assertIn("path: data/translation-packages", packages)
+        self.assertIn("subfolders: false", packages)
+        self.assertIn('exclude: ["imported/**"]', packages)
         self.assertIn("create: false", packages)
         self.assertIn("label: Импортировать перевод", packages)
         self.assertIn("workflow: import-english-translation.yml", packages)
@@ -45,6 +47,9 @@ class EnglishCmsTests(unittest.TestCase):
         self.assertIn('--summary "$GITHUB_STEP_SUMMARY"', self.import_workflow)
         self.assertIn("python tools/build_site.py --check", self.prepare_workflow)
         self.assertIn("python tools/build_site.py --check", self.import_workflow)
+        self.assertIn("Previous package path", self.import_script)
+        self.assertIn("Archived package path", self.import_script)
+        self.assertIn("Partial changes", self.import_script)
 
     def test_translation_instructions_protect_structure_and_terminology(self):
         for phrase in ("equestrian", "veterinary", "genetic", "Do not change JSON keys", "IDs", "structure", "order", "tags"):

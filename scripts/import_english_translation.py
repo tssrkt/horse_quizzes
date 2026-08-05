@@ -85,9 +85,23 @@ def _serialized(data: dict) -> bytes:
     return (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
 
 
-def import_package(package_path: Path, root: Path = ROOT) -> tuple[Path, list[str]]:
+def import_package(package_path: Path, root: Path = ROOT) -> tuple[Path, Path, list[str]]:
+    root = root.resolve()
+    package_path = package_path.resolve()
+    active_dir = (root / "data/translation-packages").resolve()
+    archive_dir = active_dir / "imported"
+    if package_path.parent != active_dir:
+        if archive_dir in package_path.parents:
+            raise SyncError("Archived translation packages cannot be imported again")
+        raise SyncError("Translation package must be in the active data/translation-packages directory")
     original_package = package_path.read_bytes()
     package = json.loads(original_package.decode("utf-8"))
+    if package.get("status") == "imported":
+        raise SyncError("This translation package has already been imported")
+    revision_token = str(package.get("source_revision", ""))[:12] or "unknown"
+    archive_path = archive_dir / f"{package_path.stem}.{revision_token}{package_path.suffix}"
+    if archive_path.exists():
+        raise SyncError(f"Archived package already exists: {archive_path.relative_to(root).as_posix()}")
     source_path = root / "data/quizzes" / f"{package.get('source_quiz')}.json"
     target_path = root / "data/english-quizzes" / f"{package.get('target_quiz')}.json"
     if not source_path.is_file():
@@ -124,26 +138,31 @@ def import_package(package_path: Path, root: Path = ROOT) -> tuple[Path, list[st
     updated_package["status"] = "imported"
 
     target_temp = target_path.with_suffix(".json.tmp")
-    package_temp = package_path.with_suffix(".json.tmp")
+    archive_temp = archive_path.with_suffix(".json.tmp")
     try:
+        archive_dir.mkdir(parents=True, exist_ok=True)
         target_temp.write_bytes(_serialized(updated_target))
-        package_temp.write_bytes(_serialized(updated_package))
+        archive_temp.write_bytes(_serialized(updated_package))
         target_temp.replace(target_path)
-        package_temp.replace(package_path)
+        archive_temp.replace(archive_path)
+        package_path.unlink()
     except Exception:
         target_path.write_bytes(original_target)
-        package_path.write_bytes(original_package)
+        if not package_path.exists():
+            package_path.write_bytes(original_package)
+        archive_path.unlink(missing_ok=True)
         raise
     finally:
         target_temp.unlink(missing_ok=True)
-        package_temp.unlink(missing_ok=True)
-    return target_path, imported
+        archive_temp.unlink(missing_ok=True)
+    return target_path, archive_path, imported
 
 
-def summary(target: Path, imported: list[str]) -> str:
+def summary(target: Path, old_package: Path, archived_package: Path, imported: list[str]) -> str:
     return "\n".join([
         "## Import English translation", "", "- Revision validation: **passed**",
-        f"- English quiz: `{target.as_posix()}`", "", "### Imported fields",
+        f"- English quiz: `{target.as_posix()}`", f"- Previous package path: `{old_package.as_posix()}`",
+        f"- Archived package path: `{archived_package.as_posix()}`", "- Package status: **imported**", "", "### Imported fields",
         *([f"- {item}" for item in imported] or ["- None"]), "",
         "### Automatically synchronized elements", "- None during import (non-text changes were applied during package preparation)",
     ]) + "\n"
@@ -167,14 +186,24 @@ def main() -> int:
             package_path = args.package if args.package.is_absolute() else root / args.package
         else:
             raise SyncError("--package or --payload is required")
-        target, imported = import_package(package_path.resolve(), root)
-        text = summary(target.relative_to(root), imported)
+        package_path = package_path.resolve()
+        target, archived, imported = import_package(package_path, root)
+        text = summary(target.relative_to(root), package_path.relative_to(root), archived.relative_to(root), imported)
         if args.summary:
             args.summary.write_text(text, encoding="utf-8")
         print(text)
         return 0
     except (SyncError, OSError, json.JSONDecodeError) as error:
-        text = f"## Import English translation\n\n- Result: **rejected**\n- Error: {error}\n"
+        shown_path = str(locals().get("package_path", "unknown"))
+        try:
+            shown_path = Path(shown_path).resolve().relative_to(root).as_posix()
+        except (OSError, ValueError):
+            pass
+        text = (
+            "## Import English translation\n\n- Result: **rejected**\n"
+            f"- Package: `{shown_path}`\n- Stage: **validation or atomic import**\n- Error: {error}\n"
+            "- Partial changes: **none; English quiz and active package were preserved**\n"
+        )
         if args.summary:
             args.summary.write_text(text, encoding="utf-8")
         print(text, file=sys.stderr)

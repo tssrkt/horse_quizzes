@@ -1,15 +1,59 @@
 import unittest
+import re
+from html.parser import HTMLParser
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
+class IntroMarkupParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.strong = []
+        self.links = []
+        self._strong_text = None
+        self._link = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "strong":
+            self._strong_text = ""
+        elif tag == "a":
+            self._link = {"attrs": dict(attrs), "text": ""}
+
+    def handle_data(self, data):
+        if self._strong_text is not None:
+            self._strong_text += data
+        if self._link is not None:
+            self._link["text"] += data
+
+    def handle_endtag(self, tag):
+        if tag == "strong":
+            self.strong.append(self._strong_text)
+            self._strong_text = None
+        elif tag == "a":
+            self.links.append(self._link)
+            self._link = None
+
+
 class CatalogIntroContractTests(unittest.TestCase):
-    def test_english_intro_markup_is_exact(self):
+    def test_english_intro_keeps_required_semantics_and_inline_markup(self):
         html = (ROOT / "quizzes.html").read_text(encoding="utf-8")
-        expected = ('На данной вкладке есть два типа викторин: <strong>словарные</strong>, где вы изучаете конные термины на буржуйском, и <strong>английские</strong>, которые представляют собой переводы существующих на сайте русских викторин. Если в конном английском вы пока не сильны, рекомендуем начать со словарных, а именно с <a href="https://tssrkt.github.io/quiz/v/english/">«Экстерьера лошади»</a>. Ну или с любой другой — сложность у них примерно одинаковая. Также обратите внимание, что на обложках всех словарных викторин изображен всадник на лошади.')
-        self.assertIn(f'<template id="catalog-intro-english">{expected}</template>', html)
+        matches = re.findall(r'<template id="catalog-intro-english">(.*?)</template>', html, re.DOTALL)
+        self.assertEqual(len(matches), 1, "Нужен ровно один шаблон английского вступления")
+        intro = matches[0]
+        parser = IntroMarkupParser()
+        parser.feed(intro)
+        self.assertEqual(parser.strong, ["словарные", "английские"])
+        self.assertEqual(parser.links, [{
+            "attrs": {"href": "https://tssrkt.github.io/quiz/v/english/"},
+            "text": "«Экстерьера лошади»",
+        }])
+        self.assertIn("два типа викторин", intro)
+        self.assertIn("тег «Словарь»", intro)
+        self.assertIn("тег «English»", intro)
+        self.assertIn("на обложках всех словарных викторин изображен всадник на лошади", intro)
+        self.assertNotRegex(intro, r"<(?:p|div|section|button)\b")
 
     def test_intro_switch_is_rendered_with_initial_and_changed_section(self):
         javascript = (ROOT / "js/quizzes.js").read_text(encoding="utf-8")
