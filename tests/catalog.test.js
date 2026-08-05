@@ -9,6 +9,7 @@ const {
   sortQuizzes,
   arrangeQuizzes,
   sectionQuizzes,
+  catalogIntroHtml,
   sortTooltip,
   countTags,
   orderTagsByCount,
@@ -97,6 +98,8 @@ assert.deepEqual(
 const sectioned = [quiz(1), quiz(2), quiz(3, { type: 'vocabulary' }), quiz(4, { type: 'vocabulary' }), quiz(5, { type: 'english' })];
 assert.deepEqual(sectionQuizzes(sectioned, 'quizzes').map((item) => item.slug), ['quiz-1', 'quiz-2']);
 assert.deepEqual(sectionQuizzes(sectioned, 'english').map((item) => item.slug), ['quiz-3', 'quiz-4', 'quiz-5']);
+assert.equal(catalogIntroHtml('quizzes', '<b>Русский</b>', '<b>English</b>'), '<b>Русский</b>');
+assert.equal(catalogIntroHtml('english', '<b>Русский</b>', '<b>English</b>'), '<b>English</b>');
 assert.deepEqual(orderTagsByCount(sectionQuizzes(sectioned, 'english'), [{ slug: 'biology', name: 'Биология' }, { slug: 'missing', name: 'Нет' }]).map(({ slug, count }) => [slug, count]), [['biology', 1]]);
 
 const dated = [

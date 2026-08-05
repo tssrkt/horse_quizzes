@@ -104,6 +104,10 @@
     return quizzes.filter((quiz) => section === 'english' ? ['vocabulary', 'english'].includes(quiz.type) : !['vocabulary', 'english'].includes(quiz.type));
   }
 
+  function catalogIntroHtml(section, ordinaryHtml, englishHtml) {
+    return section === 'english' ? englishHtml : ordinaryHtml;
+  }
+
   function sortTooltip(sort, direction) {
     const labels = {
       date: { down: 'Сначала новые', up: 'Сначала старые' },
@@ -203,12 +207,16 @@
     const catalogStart = document.getElementById('catalog-start');
     const sectionTabs = [...document.querySelectorAll('[data-section]')];
     const catalogTools = document.getElementById('catalog-tools');
-    if (!list || !tagList || !sortControl || !sortCriterion || !sortDirection || !pagination || !sectionTabs.length) return;
+    const catalogIntro = document.getElementById('catalog-intro');
+    const englishIntroTemplate = document.getElementById('catalog-intro-english');
+    if (!list || !tagList || !sortControl || !sortCriterion || !sortDirection || !pagination || !sectionTabs.length || !catalogIntro || !englishIntroTemplate) return;
 
     let quizzes = [];
     let tags = new Map();
     let visibleTags = [];
-    let state = { section: 'quizzes', tag: 'all', sort: 'date', direction: 'down', page: 1 };
+    const ordinaryIntroHtml = catalogIntro.innerHTML;
+    const englishIntroHtml = englishIntroTemplate.innerHTML;
+    let state = { section: getStateFromUrl(location.search, new Set()).section, tag: 'all', sort: 'date', direction: 'down', page: 1 };
 
     function currentQuizzes(currentState = state) {
       return sectionQuizzes(quizzes, currentState.section);
@@ -254,6 +262,7 @@
       });
       const activeTab = sectionTabs.find((tab) => tab.dataset.section === state.section);
       if (activeTab) catalogTools?.setAttribute('aria-labelledby', activeTab.id);
+      catalogIntro.innerHTML = catalogIntroHtml(state.section, ordinaryIntroHtml, englishIntroHtml);
     }
 
     function renderSort() {
@@ -355,6 +364,7 @@
       state = { ...state, page }; writeUrl(); render(); scrollToCatalog();
     });
     window.addEventListener('popstate', () => { readAndNormalizeUrl(); render(); });
+    renderSections();
 
     (async function load() {
       try {
@@ -373,5 +383,5 @@
     })();
   }
 
-  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sectionQuizzes, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, vocabularyWord, volumeLabel, quizPath: urlCore.quizPath, init };
+  return { PAGE_SIZE, DIFFICULTY_LABELS, DIFFICULTY_ORDER, validateQuiz, validDateValue, sortQuizzes, arrangeQuizzes, sectionQuizzes, catalogIntroHtml, sortTooltip, countTags, orderTagsByCount, paginationItems, getStateFromUrl, buildUrl, questionWord, vocabularyWord, volumeLabel, quizPath: urlCore.quizPath, init };
 });
