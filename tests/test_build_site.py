@@ -259,29 +259,71 @@ class BuildSiteTests(unittest.TestCase):
         self.write_quiz(quiz)
         self.load()
 
-    def test_next_quiz_reference_accepts_same_type_and_rejects_cross_type(self):
+    def test_vocabulary_previous_quiz_accepts_same_type_and_rejects_cross_type(self):
+        vocabulary_path = self.data / "vocabulary-quizzes" / "english.json"
+        vocabulary = json.loads(vocabulary_path.read_text(encoding="utf-8"))
+        _, loaded = self.load()
+        self.assertEqual(next(quiz for quiz in loaded if quiz["slug"] == "english-2")["previous_quiz"], "english")
+
+        vocabulary["previous_quiz"] = "horse-colors"
+        vocabulary_path.write_text(json.dumps(vocabulary, ensure_ascii=False, indent=2), encoding="utf-8")
+        with self.assertRaisesRegex(
+            build_site.ContentError,
+            r"vocabulary-quizzes.english\.json\.previous_quiz: проблемный slug «horse-colors».*«quiz».*«vocabulary»",
+        ):
+            self.load()
+
+    def test_vocabulary_previous_quiz_rejects_self_missing_cycle_and_branch(self):
+        directory = self.data / "vocabulary-quizzes"
+        paths = {slug: directory / f"{slug}.json" for slug in ("english", "english-2", "english-3")}
+        quizzes = {slug: json.loads(path.read_text(encoding="utf-8")) for slug, path in paths.items()}
+
+        quizzes["english"]["previous_quiz"] = "english"
+        paths["english"].write_text(json.dumps(quizzes["english"], ensure_ascii=False), encoding="utf-8")
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «english»: самоссылка"):
+            self.load()
+
+        quizzes["english"]["previous_quiz"] = "missing-vocabulary"
+        paths["english"].write_text(json.dumps(quizzes["english"], ensure_ascii=False), encoding="utf-8")
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «missing-vocabulary»: викторина не найдена"):
+            self.load()
+
+        quizzes["english"]["previous_quiz"] = "english-3"
+        quizzes["english-2"]["previous_quiz"] = "english"
+        quizzes["english-3"]["previous_quiz"] = "english-2"
+        for slug, path in paths.items():
+            path.write_text(json.dumps(quizzes[slug], ensure_ascii=False), encoding="utf-8")
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «english»: обнаружен цикл"):
+            self.load()
+
+        quizzes["english"].pop("previous_quiz")
+        quizzes["english-2"]["previous_quiz"] = "english"
+        quizzes["english-3"]["previous_quiz"] = "english"
+        for slug, path in paths.items():
+            path.write_text(json.dumps(quizzes[slug], ensure_ascii=False), encoding="utf-8")
+        with self.assertRaisesRegex(build_site.ContentError, r"previous_quiz: проблемный slug «english»: ветвление запрещено"):
+            self.load()
+
+    def test_vocabulary_chain_computes_next_quiz_and_preserves_endpoints(self):
+        _, loaded = self.load()
+        chain = {quiz["slug"]: quiz for quiz in loaded}
+        self.assertNotIn("previous_quiz", chain["english"])
+        self.assertEqual(chain["english"]["next_quiz"], "english-2")
+        self.assertEqual(chain["english-2"]["previous_quiz"], "english")
+        self.assertEqual(chain["english-2"]["next_quiz"], "english-3")
+        self.assertEqual(chain["english-3"]["previous_quiz"], "english-2")
+        self.assertEqual(chain["english-3"]["next_quiz"], "english-4")
+        self.assertEqual(chain["english-5"]["previous_quiz"], "english-4")
+        self.assertNotIn("next_quiz", chain["english-5"])
+
+    def test_vocabulary_legacy_next_quiz_is_rejected(self):
         vocabulary_path = self.data / "vocabulary-quizzes" / "english.json"
         vocabulary = json.loads(vocabulary_path.read_text(encoding="utf-8"))
         vocabulary["next_quiz"] = "english-2"
         vocabulary_path.write_text(json.dumps(vocabulary, ensure_ascii=False, indent=2), encoding="utf-8")
-        self.load()
-
-        regular = self.horse()
-        regular["next_quiz"] = "english"
-        self.write_quiz(regular)
         with self.assertRaisesRegex(
             build_site.ContentError,
-            r"quizzes.horse-colors\.json\.next_quiz: значение «english».*«vocabulary».*«quiz»",
-        ):
-            self.load()
-
-        regular["next_quiz"] = "horse-genetics"
-        self.write_quiz(regular)
-        vocabulary["next_quiz"] = "horse-colors"
-        vocabulary_path.write_text(json.dumps(vocabulary, ensure_ascii=False, indent=2), encoding="utf-8")
-        with self.assertRaisesRegex(
-            build_site.ContentError,
-            r"vocabulary-quizzes.english\.json\.next_quiz: значение «horse-colors».*«quiz».*«vocabulary»",
+            r"vocabulary-quizzes.english\.json\.next_quiz: устаревшее ручное поле; используйте previous_quiz",
         ):
             self.load()
 

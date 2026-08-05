@@ -208,6 +208,8 @@ assert.equal(core.canOpenQuiz(makeQuiz(false), false), false, '3: чернови
 assert.equal(core.validateQuiz({}), false, 'повреждённые данные отклоняются');
 assert.equal(core.validateQuiz({ ...quiz, next_quiz: 'next-quiz' }), true, 'slug следующей викторины валиден');
 assert.equal(core.validateQuiz({ ...quiz, next_quiz: 'Некорректный slug' }), false, 'некорректная связь следующей викторины отклоняется');
+assert.equal(core.validateQuiz({ ...quiz, previous_quiz: 'previous-quiz' }), true, 'slug предыдущей викторины валиден');
+assert.equal(core.validateQuiz({ ...quiz, previous_quiz: 'Некорректный slug' }), false, 'некорректная связь предыдущей викторины отклоняется');
 
 let state = core.freshState(quiz, '2026-01-01T00:00:00.000Z');
 const correct = core.answerQuestion(state, quiz, 'a-01');

@@ -62,7 +62,7 @@ class VocabularyCmsContractTests(unittest.TestCase):
         self.assertEqual(regular_cover, vocabulary_cover)
 
     def test_has_common_fields_but_no_question_editor(self):
-        for name in ("title", "slug", "published", "publication_date", "difficulty", "short_description", "intro", "cover", "tags", "next_quiz"):
+        for name in ("title", "slug", "published", "publication_date", "difficulty", "short_description", "intro", "cover", "tags", "previous_quiz"):
             self.assertIn(f"- name: {name}", self.vocabulary)
         for forbidden in ("name: questions", "name: answers", "name: questionImagesAlt", "name: image_source"):
             self.assertNotIn(forbidden, self.vocabulary)
@@ -70,7 +70,7 @@ class VocabularyCmsContractTests(unittest.TestCase):
 
     def test_related_quiz_references_use_separate_collections(self):
         regular_reference = self.regular.split("      - name: next_quiz\n", 1)[1].split("      - name: questions\n", 1)[0]
-        vocabulary_reference = self.vocabulary.split("      - name: next_quiz\n", 1)[1].split("      - name: parts\n", 1)[0]
+        vocabulary_reference = self.vocabulary.split("      - name: previous_quiz\n", 1)[1].split("      - name: parts\n", 1)[0]
 
         self.assertIn("path: data/quizzes", self.regular)
         self.assertIn("path: data/vocabulary-quizzes", self.vocabulary)
@@ -78,6 +78,8 @@ class VocabularyCmsContractTests(unittest.TestCase):
         self.assertNotIn("collection: vocabulary_quizzes", regular_reference)
         self.assertIn("collection: vocabulary_quizzes", vocabulary_reference)
         self.assertNotIn("collection: quizzes\n", vocabulary_reference)
+        self.assertIn("label: Предыдущая викторина", vocabulary_reference)
+        self.assertNotIn("- name: next_quiz", self.vocabulary)
         for reference in (regular_reference, vocabulary_reference):
             self.assertIn("required: false", reference)
             self.assertIn('value: "{fields.slug}"', reference)

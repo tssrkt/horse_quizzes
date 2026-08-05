@@ -20,6 +20,7 @@
     if (!data || !SLUG_PATTERN.test(data.slug || '') || !/^[0-9a-f]{64}$/.test(data.content_version || '') || typeof data.title !== 'string' || typeof data.intro !== 'string' || typeof data.published !== 'boolean') return false;
     if (data.questionImagesAlt != null && typeof data.questionImagesAlt !== 'string') return false;
     if (data.next_quiz != null && data.next_quiz !== '' && !SLUG_PATTERN.test(data.next_quiz)) return false;
+    if (data.previous_quiz != null && data.previous_quiz !== '' && !SLUG_PATTERN.test(data.previous_quiz)) return false;
     if (data.type === 'vocabulary') {
       const parts = vocabularyParts(data);
       return parts.length > 0 && parts.every((part) => SLUG_PATTERN.test(part.id) && typeof part.title === 'string' && part.vocabulary.length > 0 && part.vocabulary.every(validVocabularyWord));
@@ -288,7 +289,7 @@ function init(core) {
   const slug = core.slugFromUrl(location.href);
   const preview = params.get('preview') === '1';
   const reduceMotion = core.prefersReducedMotion(window.matchMedia.bind(window));
-  let sourceQuiz, quiz, state, nextQuiz = null, answerLocked = false, transitionScheduled = false, selectedModes = ['en-ru', 'ru-en', 'typing'], selectedPartId = null;
+  let sourceQuiz, quiz, state, nextQuiz = null, previousQuiz = null, answerLocked = false, transitionScheduled = false, selectedModes = ['en-ru', 'ru-en', 'typing'], selectedPartId = null;
   const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));
   const selectionKey = () => `quiz-selection:${sourceQuiz.slug}`;
   const storageKey = () => sourceQuiz?.type === 'vocabulary' ? `quiz-progress:${sourceQuiz.slug}:${selectedPartId}:${selectedModes.join('+')}` : `quiz-progress:${quiz.slug}`;
@@ -448,8 +449,9 @@ function init(core) {
     const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const url = core.shareQuizUrl(quiz.slug); const sharePayload = core.shareText(quiz, state.correct_count, total, url);
     const recommendation = core.resultRecommendation(percent);
     const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(recommendation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;
+    const previousQuizBlock = quiz.type === 'vocabulary' && previousQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Предыдущая викторина</p><a class="next-quiz__link" href="${escapeHtml(core.quizPath(previousQuiz.slug, location.href))}"><span>${escapeHtml(previousQuiz.title)}</span></a></div>` : '';
     const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="${escapeHtml(core.quizPath(nextQuiz.slug, location.href))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
-    app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button>${quiz.type === 'vocabulary' ? '<button class="button button-secondary" type="button" data-choose-part>Выбрать часть</button>' : ''}<a class="button button-secondary" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${nextQuizBlock}</section>`;
+    app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button>${quiz.type === 'vocabulary' ? '<button class="button button-secondary" type="button" data-choose-part>Выбрать часть</button>' : ''}<a class="button button-secondary" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${previousQuizBlock}${nextQuizBlock}</section>`;
     const status = app.querySelector('.share-status');
     app.querySelector('[data-share]').addEventListener('click', async () => { if (navigator.share) { try { await navigator.share({ title: quiz.title, text: sharePayload }); return; } catch (error) { if (error.name === 'AbortError') return; } } await copyResult(sharePayload, status); });
     app.querySelector('[data-copy]').addEventListener('click', () => copyResult(sharePayload, status));
@@ -473,6 +475,7 @@ function init(core) {
       sourceQuiz = await response.json();
       quiz = sourceQuiz;
       nextQuiz = quiz.next_quiz && Array.isArray(catalog?.quizzes) ? catalog.quizzes.find((item) => item?.slug === quiz.next_quiz) || null : null;
+      previousQuiz = quiz.type === 'vocabulary' && quiz.previous_quiz && Array.isArray(catalog?.quizzes) ? catalog.quizzes.find((item) => item?.slug === quiz.previous_quiz) || null : null;
       if (catalogQuiz && quiz.content_version !== catalogQuiz.content_version) throw new Error('Версия викторины не совпадает с каталогом');
       if (!core.validateQuiz(quiz) || quiz.slug !== slug) { console.error('[Quiz] Повреждённый JSON или несовместимые данные викторины.'); errorScreen('Эту викторину сейчас невозможно открыть.'); return; }
       if (!core.canOpenQuiz(quiz, preview)) { errorScreen('Эта викторина пока не опубликована.'); return; }
