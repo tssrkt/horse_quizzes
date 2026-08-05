@@ -185,7 +185,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/6.webp",
+      "image": "img/quiz/horse-breeds-2/06.webp",
       "answers": [
         {
           "text": "Английская чистокровная"
@@ -212,7 +212,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/7.webp",
+      "image": "img/quiz/horse-breeds-2/07.webp",
       "answers": [
         {
           "text": "Тинкер"
@@ -239,7 +239,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/8.webp",
+      "image": "img/quiz/horse-breeds-2/08.webp",
       "answers": [
         {
           "text": "Английская чистокровная"
@@ -266,7 +266,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/9.webp",
+      "image": "img/quiz/horse-breeds-2/09.webp",
       "answers": [
         {
           "text": "Английская чистокровная"
@@ -293,7 +293,7 @@
     },
     {
       "question": "Что это за порода?",
-      "image": "img/quiz/10.webp",
+      "image": "img/quiz/horse-breeds-2/10.webp",
       "answers": [
         {
           "text": "Тинкер"
