@@ -233,6 +233,206 @@ content:
               regex: "^$|^https?://.+$"
               message: Укажите полный адрес с http:// или https:// либо оставьте поле пустым.
 
+    actions:
+      - name: sync-english-version
+        label: Создать/обновить английскую версию
+        scope: entry
+        workflow: translate-english-quiz.yml
+        ref: current
+        cancelable: false
+        confirm:
+          title: Создать или обновить английскую версию?
+          message: Workflow сам определит режим и обновит только изменённые элементы.
+          button: Запустить перевод
+
+  - name: english_quizzes
+    label: Английские викторины
+    type: collection
+    path: data/english-quizzes
+    format: json
+    operations:
+      create: false
+      rename: false
+    filename:
+      template: "{fields.slug}.json"
+      field: false
+    view:
+      primary: title
+      fields: [title, slug, published, translation_status]
+      sort: [title]
+      search: [title, slug, source_quiz]
+    fields:
+      - name: type
+        type: string
+        hidden: true
+        required: true
+        default: english
+      - name: source_quiz
+        label: Русский оригинал
+        type: reference
+        required: true
+        options:
+          collection: quizzes
+          multiple: false
+          search: "title,slug"
+          value: "{fields.slug}"
+          label: "{fields.title}"
+      - name: english_quiz
+        label: Английская версия
+        type: reference
+        required: false
+        options:
+          collection: english_quizzes
+          multiple: false
+          search: "title,slug"
+          value: "{fields.slug}"
+          label: "{fields.title}"
+      - name: source_content_hash
+        type: string
+        hidden: true
+        required: true
+      - name: translation_status
+        label: Статус перевода
+        type: string
+        required: true
+        description: Если указано outdated, русский оригинал изменён после создания перевода. Запустите действие обновления.
+      - name: title
+        label: Название
+        type: string
+        required: true
+      - name: slug
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          message: Используйте латинские строчные буквы, цифры и дефисы.
+      - name: published
+        label: Опубликована
+        type: boolean
+        required: true
+        default: false
+      - name: publication_date
+        label: Дата и время публикации
+        type: date
+        required: true
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm:ssxxx
+          step: 60
+      - name: difficulty
+        label: Уровень сложности
+        type: select
+        required: true
+        options:
+          values:
+            - name: low
+              label: Low
+            - name: medium
+              label: Medium
+            - name: high
+              label: High
+      - name: short_description
+        label: Краткое описание
+        type: text
+        required: true
+        options:
+          maxlength: 250
+      - name: intro
+        label: Вступительный текст
+        type: text
+        required: true
+      - name: cover
+        label: Обложка
+        type: image
+        required: false
+        options:
+          media: covers
+          categories: [image]
+          rename: false
+      - name: questionImagesAlt
+        label: Общий alt изображений вопросов
+        type: string
+        required: false
+      - name: tags
+        label: Теги
+        type: reference
+        required: true
+        options:
+          collection: tags
+          multiple: true
+          min: 1
+          search: "name,slug"
+          value: "{fields.slug}"
+          label: "{fields.name}"
+      - name: questions
+        label: Questions
+        type: object
+        required: true
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{index}. {question}"
+        fields:
+          - name: id
+            type: string
+            hidden: true
+            required: true
+          - name: question
+            label: Question
+            type: text
+            required: true
+          - name: image
+            label: Image
+            type: image
+            required: false
+            options:
+              media: quiz_images
+              categories: [image]
+              rename: false
+          - name: answers
+            label: Answers
+            type: object
+            required: true
+            list:
+              min: 2
+              max: 6
+              collapsible:
+                collapsed: true
+                summary: "Answer {index}: {text}"
+            fields:
+              - name: id
+                type: string
+                hidden: true
+                required: true
+              - name: text
+                label: false
+                type: string
+                required: true
+          - name: correct_answer_id
+            label: Correct answer
+            type: select
+            required: true
+            options:
+              multiple: false
+              values: [answer-01, answer-02, answer-03, answer-04, answer-05, answer-06]
+          - name: explanation
+            label: Explanation
+            type: text
+            required: true
+          - name: image_source
+            label: Image source
+            type: string
+            required: false
+          - name: image_author
+            label: Image author
+            type: string
+            required: false
+          - name: image_source_url
+            label: Image source URL
+            type: string
+            required: false
   - name: vocabulary_quizzes
     label: Словарные викторины
     type: collection

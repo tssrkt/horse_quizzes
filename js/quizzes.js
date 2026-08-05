@@ -101,7 +101,7 @@
   }
 
   function sectionQuizzes(quizzes, section = 'quizzes') {
-    return quizzes.filter((quiz) => section === 'english' ? quiz.type === 'vocabulary' : quiz.type !== 'vocabulary');
+    return quizzes.filter((quiz) => section === 'english' ? ['vocabulary', 'english'].includes(quiz.type) : !['vocabulary', 'english'].includes(quiz.type));
   }
 
   function sortTooltip(sort, direction) {

@@ -1,0 +1,57 @@
+name: Create or update English quiz
+
+on:
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: Pages CMS action payload
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: english-quiz-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Create or incrementally update translation
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL || 'gpt-5.6-terra' }}
+          PAGES_CMS_PAYLOAD: ${{ inputs.payload }}
+        run: python scripts/sync_english_quiz.py --payload "$PAGES_CMS_PAYLOAD" --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate generated content
+        run: |
+          if ! python tools/build_site.py --check; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "### Errors" >> "$GITHUB_STEP_SUMMARY"
+            echo "- Generated content did not pass tools/build_site.py --check; no commit was created." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+      - name: Commit English version
+        run: |
+          if git diff --quiet -- data/quizzes data/english-quizzes; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/quizzes data/english-quizzes
+          git commit -m "Create or update English quiz translation"
+          git push origin HEAD:${GITHUB_REF_NAME}

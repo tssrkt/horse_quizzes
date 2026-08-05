@@ -12,7 +12,7 @@ class ImageAltContractTests(unittest.TestCase):
         quiz_fields = schema.split("  - name: quizzes\n", 1)[1]
         questions = quiz_fields.split("      - name: questions\n", 1)[1]
         before_questions = quiz_fields.split("      - name: questions\n", 1)[0]
-        self.assertEqual(schema.count("- name: questionImagesAlt"), 1)
+        self.assertEqual(schema.count("- name: questionImagesAlt"), 2)
         self.assertIn("label: Общий alt для изображений вопросов", before_questions)
         self.assertIn("required: false", before_questions.split("- name: questionImagesAlt", 1)[1].split("- name: tags", 1)[0])
         self.assertIn("Используется для всех изображений вопросов этой викторины. Не указывайте правильный ответ.", before_questions)

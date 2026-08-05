@@ -8,6 +8,7 @@ on:
       - "data/quizzes/*.json"
       - "data/quizzes/**/*.json"
       - "data/vocabulary-quizzes/*.json"
+      - "data/english-quizzes/*.json"
       - "data/tags/*.json"
       - "data/vocabulary/*.xlsx"
       - "data/vocabulary/*.csv"
@@ -57,15 +58,16 @@ jobs:
             python scripts/organize_quiz_media.py --previous-ref "${PREVIOUS_REF}"
             python scripts/cleanup_deleted_tags.py --previous-ref "${PREVIOUS_REF}"
             python scripts/finalize_vocabulary_imports.py
+            python scripts/mark_stale_english_quizzes.py
             python tools/build_site.py --check
 
-            if git diff --quiet -- data/quizzes data/vocabulary-quizzes data/tags data/vocabulary img/covers img/quiz; then
+            if git diff --quiet -- data/quizzes data/vocabulary-quizzes data/english-quizzes data/tags data/vocabulary img/covers img/quiz; then
               echo "Quiz media is already organized."
               gh workflow run pages.yml --ref main
               exit 0
             fi
 
-            git add -A data/quizzes data/vocabulary-quizzes data/tags data/vocabulary img/covers img/quiz
+            git add -A data/quizzes data/vocabulary-quizzes data/english-quizzes data/tags data/vocabulary img/covers img/quiz
             git commit -m "Organize quiz media"
 
             if git push origin HEAD:main; then

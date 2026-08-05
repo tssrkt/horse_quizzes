@@ -94,9 +94,9 @@ assert.deepEqual(
   [['horses', 3], ['history', 2], ['biology', 2]]
 );
 
-const sectioned = [quiz(1), quiz(2), quiz(3, { type: 'vocabulary' }), quiz(4, { type: 'vocabulary' })];
+const sectioned = [quiz(1), quiz(2), quiz(3, { type: 'vocabulary' }), quiz(4, { type: 'vocabulary' }), quiz(5, { type: 'english' })];
 assert.deepEqual(sectionQuizzes(sectioned, 'quizzes').map((item) => item.slug), ['quiz-1', 'quiz-2']);
-assert.deepEqual(sectionQuizzes(sectioned, 'english').map((item) => item.slug), ['quiz-3', 'quiz-4']);
+assert.deepEqual(sectionQuizzes(sectioned, 'english').map((item) => item.slug), ['quiz-3', 'quiz-4', 'quiz-5']);
 assert.deepEqual(orderTagsByCount(sectionQuizzes(sectioned, 'english'), [{ slug: 'biology', name: 'Биология' }, { slug: 'missing', name: 'Нет' }]).map(({ slug, count }) => [slug, count]), [['biology', 1]]);
 
 const dated = [

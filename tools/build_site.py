@@ -31,6 +31,7 @@ HTML_FILES = ("index.html", "quizzes.html", "quiz.html", "contacts.html", "404.h
 ROOT_FILES = ("favicon.ico",)
 COPY_DIRS = ("css", "js")
 VOCABULARY_TYPE = "vocabulary"
+ENGLISH_TYPE = "english"
 
 
 class ContentError(Exception):
@@ -239,7 +240,9 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
     quizzes: list[dict] = []
     slugs: dict[str, Path] = {}
     quiz_sources: dict[str, tuple[str, str]] = {}
-    quiz_paths = list((data_root / "quizzes").glob("*.json")) + list((data_root / "vocabulary-quizzes").glob("*.json"))
+    quiz_paths = (list((data_root / "quizzes").glob("*.json")) +
+                  list((data_root / "vocabulary-quizzes").glob("*.json")) +
+                  list((data_root / "english-quizzes").glob("*.json")))
     for path in sorted(quiz_paths):
         data = read_json(path)
         label = str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path)
@@ -285,9 +288,11 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
                     errors.append(f"{label}.tags: неизвестный тег «{tag}»")
         validate_local_image(data.get("cover", ""), "img/covers/", f"{label}.cover", errors)
         quiz_type = data.get("type", "quiz")
-        if quiz_type not in {"quiz", VOCABULARY_TYPE}:
-            errors.append(f"{label}.type: требуется quiz или vocabulary")
-        actual_type = VOCABULARY_TYPE if path.parent.name == "vocabulary-quizzes" else "quiz"
+        if quiz_type not in {"quiz", VOCABULARY_TYPE, ENGLISH_TYPE}:
+            errors.append(f"{label}.type: требуется quiz, vocabulary или english")
+        actual_type = {"vocabulary-quizzes": VOCABULARY_TYPE, "english-quizzes": ENGLISH_TYPE}.get(path.parent.name, "quiz")
+        if quiz_type != actual_type:
+            errors.append(f"{label}.type: тип «{quiz_type}» не соответствует коллекции «{actual_type}»")
         if slug:
             quiz_sources[slug] = (label, actual_type)
         relation_field = "previous_quiz"
@@ -396,8 +401,9 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
             validate_local_image(image, "img/quiz/", f"{qlabel}.image", errors)
             if isinstance(image, str) and image:
                 image_parts = Path(image).parts
-                if len(image_parts) > 3 and image_parts[:2] == ("img", "quiz") and image_parts[2] != slug:
-                    errors.append(f"{qlabel}.image: папка изображения должна совпадать со slug «{slug}»")
+                expected_image_slug = data.get("source_quiz") if quiz_type == ENGLISH_TYPE else slug
+                if len(image_parts) > 3 and image_parts[:2] == ("img", "quiz") and image_parts[2] != expected_image_slug:
+                    errors.append(f"{qlabel}.image: папка изображения должна совпадать со slug «{expected_image_slug}»")
             validate_external_url(question.get("image_source_url", ""), f"{qlabel}.image_source_url", errors)
             answers = question.get("answers")
             if not isinstance(answers, list) or not 2 <= len(answers) <= 6:
@@ -439,6 +445,43 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
                 errors.append(f"{qlabel}: correct_answer_id противоречит старому correct: true")
         quizzes.append(data)
     quiz_by_slug = {quiz.get("slug"): quiz for quiz in quizzes}
+    english_sources: dict[str, str] = {}
+    for quiz in quizzes:
+        if quiz.get("type") != ENGLISH_TYPE:
+            continue
+        label = quiz_sources.get(quiz.get("slug"), (quiz.get("slug"), ENGLISH_TYPE))[0]
+        source_slug = quiz.get("source_quiz")
+        if quiz.get("translation_status") not in {"current", "outdated"}:
+            errors.append(f"{label}.translation_status: требуется current или outdated")
+        source_hash = quiz.get("source_content_hash")
+        if not isinstance(source_hash, str) or not re.fullmatch(r"[0-9a-f]{64}", source_hash):
+            errors.append(f"{label}.source_content_hash: требуется SHA-256")
+        if not isinstance(quiz.get("_translation_source"), dict):
+            errors.append(f"{label}._translation_source: требуется снимок русского оригинала")
+        if not isinstance(source_slug, str) or not source_slug:
+            errors.append(f"{label}.source_quiz: требуется slug русской викторины")
+        elif source_slug not in quiz_by_slug:
+            errors.append(f"{label}.source_quiz: русская викторина «{source_slug}» не найдена")
+        elif quiz_sources.get(source_slug, (None, None))[1] != "quiz":
+            errors.append(f"{label}.source_quiz: «{source_slug}» должна быть обычной русской викториной")
+        elif source_slug in english_sources:
+            errors.append(f"{label}.source_quiz: для «{source_slug}» уже существует английская версия «{english_sources[source_slug]}»")
+        else:
+            english_sources[source_slug] = quiz.get("slug")
+        if not quiz.get("tags") or quiz["tags"][0] != "english":
+            errors.append(f"{label}.tags: тег «english» должен быть первым")
+        elif source_slug in quiz_by_slug and quiz_by_slug[source_slug].get("english_quiz") != quiz.get("slug"):
+            errors.append(f"{label}.source_quiz: русская викторина «{source_slug}» должна ссылаться обратно через english_quiz")
+    for quiz in quizzes:
+        if quiz.get("type", "quiz") != "quiz" or not quiz.get("english_quiz"):
+            continue
+        label = quiz_sources.get(quiz.get("slug"), (quiz.get("slug"), "quiz"))[0]
+        english_slug_value = quiz.get("english_quiz")
+        target = quiz_by_slug.get(english_slug_value)
+        if not isinstance(english_slug_value, str) or target is None:
+            errors.append(f"{label}.english_quiz: английская викторина «{english_slug_value}» не найдена")
+        elif target.get("type") != ENGLISH_TYPE or target.get("source_quiz") != quiz.get("slug"):
+            errors.append(f"{label}.english_quiz: «{english_slug_value}» не является английской версией этой викторины")
     computed_next: dict[str, str] = {}
     for quiz in quizzes:
         current_slug = quiz.get("slug")
@@ -494,6 +537,8 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
 def normalize_quiz(source: dict) -> dict:
     quiz = copy.deepcopy(source)
     slug = quiz["slug"]
+    quiz.pop("_translation_source", None)
+    quiz.pop("translation_status", None)
     if quiz.get("type") == VOCABULARY_TYPE:
         quiz.pop("questions", None)
         quiz.pop("table", None)
@@ -537,7 +582,7 @@ def make_catalog(tags: list[dict], quizzes: list[dict]) -> dict:
             "cover": quiz.get("cover", ""),
             "tags": quiz["tags"],
             "question_count": quiz.get("word_count", len(quiz.get("questions", quiz.get("vocabulary", [])))),
-            **({"type": VOCABULARY_TYPE} if quiz.get("type") == VOCABULARY_TYPE else {}),
+            **({"type": quiz["type"]} if quiz.get("type") in {VOCABULARY_TYPE, ENGLISH_TYPE} else {}),
             "content_version": quiz["content_version"],
         }
         for quiz in quizzes if quiz["published"]

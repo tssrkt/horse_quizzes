@@ -63,7 +63,7 @@ def repo_path(root: Path, relative: PurePosixPath) -> Path:
 
 
 def load_quizzes(root: Path) -> list[tuple[Path, dict[str, Any]]]:
-    quiz_roots = (root / "data" / "quizzes", root / "data" / "vocabulary-quizzes")
+    quiz_roots = (root / "data" / "quizzes", root / "data" / "vocabulary-quizzes", root / "data" / "english-quizzes")
     if not quiz_roots[0].is_dir():
         raise FileNotFoundError(f"Не найдена папка: {quiz_roots[0]}")
 
@@ -282,6 +282,17 @@ def organize_quizzes(
             raise TypeError(
                 f"{json_path.relative_to(root).as_posix()}: questions должен быть массивом"
             )
+
+        if quiz.get("type") == "english":
+            for index, question in enumerate(questions, start=1):
+                if not isinstance(question, dict):
+                    raise TypeError(f"{json_path.relative_to(root).as_posix()}: вопрос {index} должен быть объектом")
+                image_source = normalize_repo_path(question.get("image"))
+                if image_source is not None:
+                    if image_source not in source_bytes:
+                        raise FileNotFoundError(f"{json_path.relative_to(root).as_posix()}: отсутствует изображение {image_source}")
+                    final_references.add(image_source)
+            continue
 
         quiz_image_dir = root / "img" / "quiz" / slug
 

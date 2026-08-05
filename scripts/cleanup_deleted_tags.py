@@ -11,7 +11,7 @@ import tempfile
 from pathlib import Path
 
 
-QUIZ_DIRECTORIES = ("data/quizzes", "data/vocabulary-quizzes")
+QUIZ_DIRECTORIES = ("data/quizzes", "data/vocabulary-quizzes", "data/english-quizzes")
 
 
 def deleted_tag_slugs(root: Path, previous_ref: str) -> set[str]:
