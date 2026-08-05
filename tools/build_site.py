@@ -454,8 +454,14 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
         if quiz.get("translation_status") not in {"current", "outdated"}:
             errors.append(f"{label}.translation_status: требуется current или outdated")
         source_hash = quiz.get("source_content_hash")
-        if not isinstance(source_hash, str) or not re.fullmatch(r"[0-9a-f]{64}", source_hash):
-            errors.append(f"{label}.source_content_hash: требуется SHA-256")
+        pending_translation = quiz.get("_pending_translation")
+        if pending_translation is not None:
+            if not isinstance(pending_translation, dict) or not re.fullmatch(r"[0-9a-f]{64}", str(pending_translation.get("source_revision", ""))):
+                errors.append(f"{label}._pending_translation: требуется корректная ревизия ожидающего пакета")
+            if quiz.get("translation_status") != "outdated":
+                errors.append(f"{label}.translation_status: ожидающий перевод должен иметь статус outdated")
+        elif not isinstance(source_hash, str) or not re.fullmatch(r"[0-9a-f]{64}", source_hash):
+            errors.append(f"{label}.source_content_hash: требуется SHA-256 после импорта")
         if not isinstance(quiz.get("_translation_source"), dict):
             errors.append(f"{label}._translation_source: требуется снимок русского оригинала")
         if not isinstance(source_slug, str) or not source_slug:
@@ -539,6 +545,7 @@ def normalize_quiz(source: dict) -> dict:
     slug = quiz["slug"]
     quiz.pop("_translation_source", None)
     quiz.pop("translation_status", None)
+    quiz.pop("_pending_translation", None)
     if quiz.get("type") == VOCABULARY_TYPE:
         quiz.pop("questions", None)
         quiz.pop("table", None)

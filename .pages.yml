@@ -235,15 +235,15 @@ content:
 
     actions:
       - name: sync-english-version
-        label: Создать/обновить английскую версию
+        label: Подготовить английскую версию
         scope: entry
         workflow: translate-english-quiz.yml
         ref: current
         cancelable: false
         confirm:
-          title: Создать или обновить английскую версию?
-          message: Workflow сам определит режим и обновит только изменённые элементы.
-          button: Запустить перевод
+          title: Подготовить английскую версию?
+          message: Workflow создаст или обновит структуру и сформирует JSON-пакет для перевода в ChatGPT.
+          button: Подготовить пакет
 
   - name: english_quizzes
     label: Английские викторины
@@ -295,7 +295,7 @@ content:
         label: Статус перевода
         type: string
         required: true
-        description: Если указано outdated, русский оригинал изменён после создания перевода. Запустите действие обновления.
+        description: Если указано outdated, русский оригинал изменен после создания перевода. Подготовьте обновление перевода.
       - name: title
         label: Название
         type: string
@@ -433,6 +433,35 @@ content:
             label: Image source URL
             type: string
             required: false
+  - name: translation_packages
+    label: Пакеты английских переводов
+    type: collection
+    path: data/translation-packages
+    format: json
+    operations:
+      create: false
+      rename: false
+      delete: false
+    filename:
+      template: "{fields.target_quiz}.json"
+      field: false
+    view:
+      primary: target_quiz
+      fields: [target_quiz, source_quiz, status, mode]
+      sort: [target_quiz]
+      search: [target_quiz, source_quiz, status]
+    actions:
+      - name: import-english-translation
+        label: Импортировать перевод
+        scope: entry
+        workflow: import-english-translation.yml
+        ref: current
+        cancelable: false
+        confirm:
+          title: Импортировать переведенный пакет?
+          message: Workflow проверит ревизию, структуру и все ID до изменения английской викторины.
+          button: Импортировать
+
   - name: vocabulary_quizzes
     label: Словарные викторины
     type: collection

@@ -1,4 +1,4 @@
-name: Prepare English translation package
+name: Import English translation package
 
 on:
   workflow_dispatch:
@@ -12,44 +12,37 @@ permissions:
   contents: write
 
 concurrency:
-  group: english-quiz-${{ github.ref }}
+  group: english-translation-import-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  translate:
+  import:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-
-      - name: Prepare English structure and translation package
+      - name: Validate and import translated package
         env:
           PAGES_CMS_PAYLOAD: ${{ inputs.payload }}
-        run: python scripts/sync_english_quiz.py --payload "$PAGES_CMS_PAYLOAD" --summary "$GITHUB_STEP_SUMMARY"
-
+        run: python scripts/import_english_translation.py --payload "$PAGES_CMS_PAYLOAD" --summary "$GITHUB_STEP_SUMMARY"
       - name: Validate generated content
         run: |
           if ! python tools/build_site.py --check; then
             echo "" >> "$GITHUB_STEP_SUMMARY"
             echo "### Errors" >> "$GITHUB_STEP_SUMMARY"
-            echo "- Generated content did not pass tools/build_site.py --check; no commit was created." >> "$GITHUB_STEP_SUMMARY"
+            echo "- Imported content did not pass tools/build_site.py --check; no commit was created." >> "$GITHUB_STEP_SUMMARY"
             exit 1
           fi
-
-      - name: Commit English version
+      - name: Commit imported translation
         run: |
-          if git diff --quiet -- data/quizzes data/english-quizzes data/translation-packages; then
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/quizzes data/english-quizzes data/translation-packages
-          git commit -m "Prepare English translation package"
+          git add data/english-quizzes data/translation-packages
+          git commit -m "Import English quiz translation"
           git push origin HEAD:${GITHUB_REF_NAME}

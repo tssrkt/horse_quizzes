@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create or incrementally synchronize an English quiz from a Russian source."""
+"""Prepare English quiz structure and a translation package without calling an AI API."""
 
 from __future__ import annotations
 
@@ -7,21 +7,20 @@ import argparse
 import copy
 import hashlib
 import json
-import os
 import sys
-import urllib.error
-import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-TRANSLATABLE_QUIZ_FIELDS = ("title", "short_description", "intro", "questionImagesAlt")
-SYNCHRONIZED_QUIZ_FIELDS = ("difficulty", "cover", "publication_date")
-TRANSLATABLE_QUESTION_FIELDS = ("question", "explanation")
+FORMAT_VERSION = 1
+QUIZ_TEXT_FIELDS = ("title", "short_description", "intro", "questionImagesAlt")
+QUIZ_SERVICE_FIELDS = ("difficulty", "cover", "publication_date")
+QUESTION_TEXT_FIELDS = ("question", "explanation")
 QUESTION_SERVICE_FIELDS = ("image", "image_source", "image_author", "image_source_url")
-PROMPT = """Translate the supplied Russian horse-quiz text into natural English.
-Use established English equestrian terminology and, where relevant, correct veterinary and genetic terminology.
-Preserve meaning exactly. Do not change correct answers, identifiers, data structure, item order, images, or service fields.
-Return one translation for every key and no additional keys."""
+TRANSLATION_INSTRUCTIONS = (
+    "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. "
+    "Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. "
+    "Preserve the meaning and correctness of every question and return valid JSON."
+)
 
 
 class SyncError(RuntimeError):
@@ -30,8 +29,8 @@ class SyncError(RuntimeError):
 
 def source_snapshot(source: dict) -> dict:
     return {
-        **{field: source.get(field, "") for field in TRANSLATABLE_QUIZ_FIELDS},
-        **{field: source.get(field, "") for field in SYNCHRONIZED_QUIZ_FIELDS},
+        **{field: source.get(field, "") for field in QUIZ_TEXT_FIELDS},
+        **{field: source.get(field, "") for field in QUIZ_SERVICE_FIELDS},
         "tags": copy.deepcopy(source.get("tags", [])),
         "questions": copy.deepcopy(source.get("questions", [])),
     }
@@ -46,193 +45,167 @@ def english_slug(source_slug: str) -> str:
     return f"{source_slug}-en"
 
 
-def openai_translate(items: dict[str, str], api_key: str, model: str) -> dict[str, str]:
-    if not items:
-        return {}
-    schema = {
-        "type": "object",
-        "properties": {
-            "translations": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {"key": {"type": "string"}, "text": {"type": "string"}},
-                    "required": ["key", "text"],
-                    "additionalProperties": False,
-                },
-            }
-        },
-        "required": ["translations"],
-        "additionalProperties": False,
-    }
-    body = {
-        "model": model,
-        "reasoning": {"effort": "low"},
-        "store": False,
-        "instructions": PROMPT,
-        "input": json.dumps([{"key": key, "text": text} for key, text in items.items()], ensure_ascii=False),
-        "text": {"format": {"type": "json_schema", "name": "quiz_translation", "strict": True, "schema": schema}},
-    }
-    request = urllib.request.Request(
-        "https://api.openai.com/v1/responses",
-        data=json.dumps(body).encode("utf-8"),
-        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(request, timeout=180) as response:
-            result = json.load(response)
-    except urllib.error.HTTPError as error:
-        detail = error.read().decode("utf-8", errors="replace")[:500]
-        raise SyncError(f"OpenAI API returned HTTP {error.code}: {detail}") from None
-    except (OSError, json.JSONDecodeError) as error:
-        raise SyncError(f"OpenAI API request failed: {error}") from None
-    text = next((part.get("text") for output in result.get("output", []) for part in output.get("content", []) if part.get("type") == "output_text"), None)
-    if not isinstance(text, str):
-        raise SyncError("OpenAI API response does not contain output_text")
-    try:
-        rows = json.loads(text)["translations"]
-        translated = {row["key"]: row["text"].strip() for row in rows}
-    except (KeyError, TypeError, json.JSONDecodeError) as error:
-        raise SyncError(f"Invalid structured translation response: {error}") from None
-    missing = set(items) - set(translated)
-    extra = set(translated) - set(items)
-    if missing or extra or any(not value for value in translated.values()):
-        raise SyncError(f"Translation keys mismatch; missing={sorted(missing)}, extra={sorted(extra)}")
-    return translated
+def translation_content(source: dict, old_snapshot: dict) -> tuple[dict, list[dict]]:
+    fields = {}
+    for field in QUIZ_TEXT_FIELDS:
+        if old_snapshot.get(field) != source.get(field, ""):
+            fields[field] = source.get(field, "")
+    old_questions = {item.get("id"): item for item in old_snapshot.get("questions", []) if isinstance(item, dict)}
+    questions = []
+    for question in source["questions"]:
+        qid = question["id"]
+        old_question = old_questions.get(qid, {})
+        changed_fields = {field: question[field] for field in QUESTION_TEXT_FIELDS if old_question.get(field) != question.get(field)}
+        old_answers = {item.get("id"): item for item in old_question.get("answers", []) if isinstance(item, dict)}
+        changed_answers = [
+            {"id": answer["id"], "text": answer["text"]}
+            for answer in question["answers"]
+            if old_answers.get(answer["id"], {}).get("text") != answer.get("text")
+        ]
+        if changed_fields or changed_answers:
+            entry = {"id": qid, "fields": changed_fields, "answers": changed_answers}
+            questions.append(entry)
+    return fields, questions
 
 
-def plan_sync(source: dict, existing: dict | None) -> tuple[dict, dict[str, str], list[str], str]:
-    old_snapshot = existing.get("_translation_source", {}) if existing else {}
+def synchronize_structure(source: dict, existing: dict | None) -> tuple[dict, list[str]]:
     target = copy.deepcopy(existing) if existing else {}
-    texts: dict[str, str] = {}
-    changes: list[str] = []
-    mode = "updated" if existing else "created"
-
-    synchronized_fields = {field: source.get(field, "") for field in SYNCHRONIZED_QUIZ_FIELDS}
-    if existing:
-        for field, value in synchronized_fields.items():
-            if target.get(field) != value:
-                changes.append(f"quiz service field: {field}")
-    target.update({
-        "type": "english", "slug": target.get("slug") or english_slug(source["slug"]),
-        "source_quiz": source["slug"], **synchronized_fields,
-        "tags": ["english", *[tag for tag in source.get("tags", []) if tag != "english"]],
-    })
+    automatic: list[str] = []
+    target_slug = target.get("slug") or english_slug(source["slug"])
+    for field in QUIZ_SERVICE_FIELDS:
+        if existing and target.get(field) != source.get(field, ""):
+            automatic.append(f"quiz service field: {field}")
+        target[field] = copy.deepcopy(source.get(field, ""))
+    new_tags = ["english", *[tag for tag in source.get("tags", []) if tag != "english"]]
+    if existing and target.get("tags") != new_tags:
+        automatic.append("quiz tags")
+    target.update({"type": "english", "slug": target_slug, "source_quiz": source["slug"], "tags": new_tags})
     if not existing:
         target["published"] = False
-        target["translation_status"] = "current"
-    elif old_snapshot.get("tags") != source.get("tags", []):
-        changes.append("quiz tags")
+        for field in QUIZ_TEXT_FIELDS:
+            if source.get(field, ""):
+                target[field] = source[field]
 
-    for field in TRANSLATABLE_QUIZ_FIELDS:
-        value = source.get(field, "")
-        if not existing or old_snapshot.get(field) != value:
-            if value:
-                texts[f"quiz.{field}"] = value
-            else:
-                target.pop(field, None)
-            changes.append(f"quiz field: {field}")
-
-    old_questions = {item.get("id"): item for item in old_snapshot.get("questions", []) if isinstance(item, dict)}
-    english_questions = {item.get("id"): item for item in target.get("questions", []) if isinstance(item, dict)}
-    source_ids = {item.get("id") for item in source["questions"]}
-    for removed_id in english_questions.keys() - source_ids:
-        changes.append(f"removed question: {removed_id}")
+    existing_questions = {item.get("id"): item for item in target.get("questions", []) if isinstance(item, dict)}
+    source_ids = {item["id"] for item in source["questions"]}
+    for removed in existing_questions.keys() - source_ids:
+        automatic.append(f"removed question: {removed}")
     rebuilt = []
     for position, question in enumerate(source["questions"], 1):
         qid = question["id"]
-        old_question = old_questions.get(qid, {})
-        english_question = copy.deepcopy(english_questions.get(qid, {"id": qid}))
-        if qid not in english_questions:
-            changes.append(f"added question #{position}: {qid}")
-        for field in TRANSLATABLE_QUESTION_FIELDS:
-            if qid not in english_questions or old_question.get(field) != question.get(field):
-                texts[f"question.{qid}.{field}"] = question[field]
-                changes.append(f"question #{position} {field}: {qid}")
+        current = copy.deepcopy(existing_questions.get(qid, {"id": qid}))
+        added = qid not in existing_questions
+        if added:
+            automatic.append(f"added question #{position}: {qid}")
+            for field in QUESTION_TEXT_FIELDS:
+                current[field] = question[field]
         for field in QUESTION_SERVICE_FIELDS:
+            current_value = current.get(field) if field in current else None
+            source_value = question.get(field) if field in question else None
+            if current_value != source_value and not added:
+                automatic.append(f"question #{position} {field}: {qid}")
             if field in question:
-                if old_question.get(field) != question.get(field):
-                    changes.append(f"question #{position} {field}: {qid}")
-                english_question[field] = copy.deepcopy(question[field])
+                current[field] = copy.deepcopy(question[field])
             else:
-                english_question.pop(field, None)
-        old_answers = {item.get("id"): item for item in old_question.get("answers", []) if isinstance(item, dict)}
-        english_answers = {item.get("id"): item for item in english_question.get("answers", []) if isinstance(item, dict)}
-        answer_ids = {item.get("id") for item in question["answers"]}
-        for removed_id in english_answers.keys() - answer_ids:
-            changes.append(f"removed answer {removed_id} from {qid}")
-        rebuilt_answers = []
+                current.pop(field, None)
+        existing_answers = {item.get("id"): item for item in current.get("answers", []) if isinstance(item, dict)}
+        answer_ids = {item["id"] for item in question["answers"]}
+        for removed in existing_answers.keys() - answer_ids:
+            automatic.append(f"removed answer {removed} from {qid}")
+        answers = []
         for answer in question["answers"]:
             aid = answer["id"]
-            english_answer = copy.deepcopy(english_answers.get(aid, {"id": aid}))
-            if aid not in english_answers or old_answers.get(aid, {}).get("text") != answer.get("text"):
-                texts[f"answer.{qid}.{aid}.text"] = answer["text"]
-                changes.append(f"answer {aid} in {qid}")
-            rebuilt_answers.append(english_answer)
-        english_question["answers"] = rebuilt_answers
-        if english_question.get("correct_answer_id") != question["correct_answer_id"]:
-            changes.append(f"question #{position} correct answer: {qid}")
-        english_question["correct_answer_id"] = question["correct_answer_id"]
-        rebuilt.append(english_question)
-    if existing and [q.get("id") for q in target.get("questions", [])] != [q["id"] for q in source["questions"]]:
-        changes.append("question order")
+            current_answer = copy.deepcopy(existing_answers.get(aid, {"id": aid, "text": answer["text"]}))
+            if aid not in existing_answers:
+                automatic.append(f"added answer {aid} to {qid}")
+            answers.append(current_answer)
+        if [item.get("id") for item in current.get("answers", [])] != [item["id"] for item in question["answers"]] and not added:
+            automatic.append(f"answer order: {qid}")
+        current["answers"] = answers
+        if current.get("correct_answer_id") != question["correct_answer_id"] and not added:
+            automatic.append(f"correct answer: {qid}")
+        current["correct_answer_id"] = question["correct_answer_id"]
+        rebuilt.append(current)
+    if existing and [item.get("id") for item in target.get("questions", [])] != [item["id"] for item in source["questions"]]:
+        automatic.append("question order")
     target["questions"] = rebuilt
-    target["_translation_source"] = source_snapshot(source)
-    target["source_content_hash"] = snapshot_hash(target["_translation_source"])
-    target["translation_status"] = "current"
-    return target, texts, list(dict.fromkeys(changes)), mode
+    return target, list(dict.fromkeys(automatic))
 
 
-def apply_translations(target: dict, translations: dict[str, str]) -> None:
-    questions = {q["id"]: q for q in target["questions"]}
-    for key, value in translations.items():
-        parts = key.split(".")
-        if parts[0] == "quiz":
-            target[parts[1]] = value
-        elif parts[0] == "question":
-            questions[parts[1]][parts[2]] = value
-        elif parts[0] == "answer":
-            answer = next(item for item in questions[parts[1]]["answers"] if item["id"] == parts[2])
-            answer["text"] = value
+def make_package(source: dict, target: dict, old_snapshot: dict, mode: str) -> dict:
+    fields, questions = translation_content(source, old_snapshot)
+    revision = snapshot_hash(source_snapshot(source))
+    return {
+        "format_version": FORMAT_VERSION,
+        "translation_instructions": TRANSLATION_INSTRUCTIONS,
+        "status": "pending",
+        "source_quiz": source["slug"],
+        "target_quiz": target["slug"],
+        "source_revision": revision,
+        "mode": mode,
+        "fields": fields,
+        "questions": questions,
+    }
 
 
-def sync(source_path: Path, output_dir: Path, translator) -> tuple[Path, str, list[str]]:
+def _write_json(path: Path, data: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    temporary.replace(path)
+
+
+def prepare(source_path: Path, english_dir: Path, package_dir: Path) -> tuple[Path, Path, str, list[str], list[str]]:
     source = json.loads(source_path.read_text(encoding="utf-8"))
     if source.get("type", "quiz") != "quiz" or source_path.parent.name != "quizzes":
-        raise SyncError("Only a regular Russian quiz can be translated")
-    output_dir.mkdir(parents=True, exist_ok=True)
+        raise SyncError("Only a regular Russian quiz can be prepared")
     matches = []
-    for path in output_dir.glob("*.json"):
+    for path in english_dir.glob("*.json"):
         data = json.loads(path.read_text(encoding="utf-8"))
         if data.get("source_quiz") == source["slug"]:
             matches.append((path, data))
     if len(matches) > 1:
         raise SyncError(f"Duplicate English versions for {source['slug']}")
-    output_path, existing = matches[0] if matches else (output_dir / f"{english_slug(source['slug'])}.json", None)
-    target, texts, changes, mode = plan_sync(source, existing)
-    link_changed = source.get("english_quiz") != target["slug"]
-    if link_changed:
-        changes.append("Russian source link: english_quiz")
-    if existing and not changes:
-        return output_path, "unchanged", []
-    apply_translations(target, translator(texts))
-    source["english_quiz"] = target["slug"]
-    temporary = output_path.with_suffix(".json.tmp")
-    source_temporary = source_path.with_suffix(".json.tmp")
-    temporary.write_text(json.dumps(target, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    source_temporary.write_text(json.dumps(source, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    temporary.replace(output_path)
-    source_temporary.replace(source_path)
-    return output_path, mode, changes
+    target_path, existing = matches[0] if matches else (english_dir / f"{english_slug(source['slug'])}.json", None)
+    old_snapshot = existing.get("_translation_source", {}) if existing else {}
+    current_snapshot = source_snapshot(source)
+    changed = not existing or snapshot_hash(old_snapshot) != snapshot_hash(current_snapshot)
+    target, automatic = synchronize_structure(source, existing)
+    source_link_changed = source.get("english_quiz") != target["slug"]
+    if source_link_changed:
+        source["english_quiz"] = target["slug"]
+        automatic.append("Russian source link: english_quiz")
+    mode = "created" if not existing else "updated" if changed or automatic else "unchanged"
+    package_path = package_dir / f"{source['slug']}-en.json"
+    package = make_package(source, target, old_snapshot, mode)
+    text_items = list(package["fields"])
+    text_items += [f"{q['id']}.{field}" for q in package["questions"] for field in q["fields"]]
+    text_items += [f"{q['id']}.{a['id']}.text" for q in package["questions"] for a in q["answers"]]
+    if mode == "unchanged":
+        return target_path, package_path, mode, [], []
+    if text_items:
+        target["translation_status"] = "outdated"
+        target["_pending_translation"] = {"source_revision": package["source_revision"], "package": package_path.name}
+        target.setdefault("_translation_source", {})
+        _write_json(package_path, package)
+    else:
+        target["translation_status"] = "current"
+        target["_translation_source"] = current_snapshot
+        target["source_content_hash"] = package["source_revision"]
+        target.pop("_pending_translation", None)
+        if package_path.exists():
+            package_path.unlink()
+    _write_json(target_path, target)
+    if source_link_changed:
+        _write_json(source_path, source)
+    return target_path, package_path, mode, text_items, automatic
 
 
-def summary(path: Path, mode: str, changes: list[str], warnings: list[str] | None = None) -> str:
-    action = {"created": "Created a new English draft", "updated": "Updated the existing English version", "unchanged": "English version is already current"}[mode]
-    lines = [f"## English quiz translation", "", f"- Result: **{action}**", f"- JSON: `{path.as_posix()}`", "", "### Changes"]
-    lines.extend([f"- {item}" for item in changes] or ["- No changes detected"])
-    if warnings:
-        lines.extend(["", "### Warnings", *[f"- {item}" for item in warnings]])
+def summary(target: Path, package: Path, mode: str, texts: list[str], automatic: list[str]) -> str:
+    lines = ["## English translation package", "", f"- Mode: **{mode}**", f"- English quiz: `{target.as_posix()}`"]
+    lines.append(f"- Package: `{package.as_posix()}`" if texts else "- Package: not required")
+    lines.extend(["", "### Texts requiring translation", *([f"- {item}" for item in texts] or ["- None"])])
+    lines.extend(["", "### Automatically synchronized", *([f"- {item}" for item in automatic] or ["- None"])])
     return "\n".join(lines) + "\n"
 
 
@@ -246,8 +219,7 @@ def main() -> int:
     root = args.root.resolve()
     try:
         if args.payload:
-            payload = json.loads(args.payload)
-            relative = payload.get("context", {}).get("path")
+            relative = json.loads(args.payload).get("context", {}).get("path")
             if not relative:
                 raise SyncError("Pages CMS payload does not contain context.path")
             source_path = root / relative
@@ -255,18 +227,14 @@ def main() -> int:
             source_path = args.source if args.source.is_absolute() else root / args.source
         else:
             raise SyncError("--source or --payload is required")
-        api_key = os.environ.get("OPENAI_API_KEY")
-        if not api_key:
-            raise SyncError("OPENAI_API_KEY is not configured")
-        model = os.environ.get("OPENAI_TRANSLATION_MODEL", "gpt-5.6-terra")
-        path, mode, changes = sync(source_path.resolve(), root / "data/english-quizzes", lambda items: openai_translate(items, api_key, model))
-        text = summary(path.relative_to(root), mode, changes)
+        target, package, mode, texts, automatic = prepare(source_path.resolve(), root / "data/english-quizzes", root / "data/translation-packages")
+        text = summary(target.relative_to(root), package.relative_to(root), mode, texts, automatic)
         if args.summary:
             args.summary.write_text(text, encoding="utf-8")
         print(text)
         return 0
     except (SyncError, OSError, json.JSONDecodeError) as error:
-        text = f"## English quiz translation\n\n- Result: **failed**\n- Error: {error}\n"
+        text = f"## English translation package\n\n- Mode: **failed**\n- Error: {error}\n"
         if args.summary:
             args.summary.write_text(text, encoding="utf-8")
         print(text, file=sys.stderr)
