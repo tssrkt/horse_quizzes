@@ -277,8 +277,8 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
                     "с секундами и часовым поясом"
                 )
         tags = data.get("tags")
-        if not isinstance(tags, list) or not tags or any(not isinstance(tag, str) or not tag for tag in tags):
-            errors.append(f"{label}.tags: требуется непустой массив slug тегов")
+        if not isinstance(tags, list) or any(not isinstance(tag, str) or not tag for tag in tags):
+            errors.append(f"{label}.tags: требуется массив slug тегов")
         else:
             for tag in tags:
                 if tag not in known_tags:

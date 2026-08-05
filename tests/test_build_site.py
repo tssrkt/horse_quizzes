@@ -243,6 +243,13 @@ class BuildSiteTests(unittest.TestCase):
     def test_unknown_tag(self):
         self.assert_quiz_error(lambda quiz: quiz.update(tags=["missing-tag"]), "неизвестный тег")
 
+    def test_empty_tag_list_is_allowed(self):
+        quiz = self.horse()
+        quiz["tags"] = []
+        self.write_quiz(quiz)
+        _, quizzes = self.load()
+        self.assertEqual(next(item for item in quizzes if item["slug"] == quiz["slug"])["tags"], [])
+
     def test_previous_quiz_reference_is_optional_and_validated(self):
         quiz = self.horse()
         quiz["previous_quiz"] = "missing-quiz"

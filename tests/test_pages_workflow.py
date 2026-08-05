@@ -73,12 +73,19 @@ class PagesWorkflowTests(unittest.TestCase):
 
     def test_media_follow_up_commit_covers_all_cms_upload_directories(self):
         workflow = MEDIA_WORKFLOW.read_text(encoding="utf-8")
-        scope = "data/quizzes data/vocabulary-quizzes data/vocabulary img/covers img/quiz"
+        scope = "data/quizzes data/vocabulary-quizzes data/tags data/vocabulary img/covers img/quiz"
+        self.assertIn('- "data/tags/*.json"', workflow)
         self.assertIn('- "data/vocabulary/*.xlsx"', workflow)
         self.assertIn('- "data/vocabulary/*.csv"', workflow)
         self.assertIn('- "img/covers/*"', workflow)
         self.assertIn(f"git diff --quiet -- {scope}", workflow)
         self.assertIn(f"git add -A {scope}", workflow)
+        self.assertIn('python scripts/cleanup_deleted_tags.py --previous-ref "${PREVIOUS_REF}"', workflow)
+        cleanup = workflow.index("python scripts/cleanup_deleted_tags.py")
+        validation = workflow.index("python tools/build_site.py --check")
+        commit = workflow.index('git commit -m "Organize quiz media"')
+        self.assertLess(cleanup, validation)
+        self.assertLess(validation, commit)
         self.assertNotIn("python tools/normalize_quiz_ids.py", workflow)
         self.assertIn("python tools/normalize_quiz_ids.py", self.workflow)
 
