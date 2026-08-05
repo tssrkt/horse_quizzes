@@ -115,12 +115,12 @@ class UpdateContractTests(unittest.TestCase):
         self.assertIn("nextQuiz ?", javascript)
         self.assertIn(".next-quiz__link:hover{", stylesheet)
 
-    def test_vocabulary_result_renders_previous_and_computed_next_links(self):
+    def test_vocabulary_result_renders_only_computed_next_link(self):
         javascript = (ROOT / "js" / "quiz.js").read_text(encoding="utf-8")
-        self.assertIn('class="next-quiz__label">Предыдущая викторина', javascript)
-        self.assertIn("core.quizPath(previousQuiz.slug, location.href)", javascript)
-        self.assertIn("quiz.type === 'vocabulary' && previousQuiz", javascript)
-        self.assertIn("${previousQuizBlock}${nextQuizBlock}", javascript)
+        result_renderer = javascript.split("  function renderResult() {", 1)[1].split("  async function load() {", 1)[0]
+        self.assertNotIn("Предыдущая викторина", result_renderer)
+        self.assertNotIn("previousQuiz", result_renderer)
+        self.assertIn("${nextQuizBlock}", result_renderer)
 
     def test_catalog_cards_have_bounded_horizontal_and_square_mobile_layouts(self):
         css = (ROOT / "css" / "style.css").read_text(encoding="utf-8")
