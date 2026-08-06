@@ -1,0 +1,33 @@
+{
+  "type": "vocabulary",
+  "title": "Лошадиные масти",
+  "slug": "english-7",
+  "published": true,
+  "publication_date": "2026-08-06T16:22:00+00:00",
+  "difficulty": "medium",
+  "short_description": "Эта викторина поможет выучить названия мастей, мастевых явлений и отметин лошадей. Проверяйте знания в обоих направлениях — с английского на русский и наоборот, а также через ввод с клавиатуры.",
+  "intro": "Эта викторина поможет выучить названия мастей, мастевых явлений и отметин лошадей. Проверяйте знания в обоих направлениях — с английского на русский и наоборот, а также через ввод с клавиатуры.",
+  "cover": "img/covers/English_07.webp",
+  "tags": [
+    "dictionary",
+    "horses"
+  ],
+  "previous_quiz": "english-6",
+  "parts": [
+    {
+      "id": "2c9c0539-4321-4df1-9889-a07977c0dea5",
+      "title": "Масти",
+      "table": "../vocabulary/Colors_01.xlsx"
+    },
+    {
+      "id": "c2b8ed43-e2b7-4b5d-aedc-a75d425aede4",
+      "title": "Мастевые явления",
+      "table": "../vocabulary/Colors_02.xlsx"
+    },
+    {
+      "id": "832dc9d3-c245-4d3b-a1b4-092bedc8c64f",
+      "title": "Отметины",
+      "table": "../vocabulary/Colors_03.xlsx"
+    }
+  ]
+}
