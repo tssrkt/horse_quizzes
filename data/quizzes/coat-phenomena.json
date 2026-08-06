@@ -15,7 +15,7 @@
   "questions": [
     {
       "question": "Что это за мастевое явление?",
-      "image": "img/quiz/1.webp",
+      "image": "img/quiz/coat-phenomena/01.webp",
       "answers": [
         {
           "text": "Кэтч Э Бёрд",
@@ -49,7 +49,7 @@
     },
     {
       "question": "Что это за мастевое явление?",
-      "image": "img/quiz/2.webp",
+      "image": "img/quiz/coat-phenomena/02.webp",
       "answers": [
         {
           "text": "Павлиньи пятна",
@@ -83,7 +83,7 @@
     },
     {
       "question": "Что это за мастевое явление?",
-      "image": "img/quiz/3.webp",
+      "image": "img/quiz/coat-phenomena/03.webp",
       "answers": [
         {
           "text": "Тетрарковы отметины",
@@ -117,7 +117,7 @@
     },
     {
       "question": "Что это за мастевое явление?",
-      "image": "img/quiz/4.webp",
+      "image": "img/quiz/coat-phenomena/04.webp",
       "answers": [
         {
           "text": "Отметины Бёрдкэтчера",
@@ -151,7 +151,7 @@
     },
     {
       "question": "Что это за мастевое явление?",
-      "image": "img/quiz/5.webp",
+      "image": "img/quiz/coat-phenomena/05.webp",
       "answers": [
         {
           "text": "Отметины Бёрдкэтчера",
