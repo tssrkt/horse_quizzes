@@ -4,6 +4,17 @@ on:
   push:
     branches:
       - main
+    # CMS-managed content is published only after Organize quiz media has
+    # finished and explicitly dispatches this workflow. In particular, raw
+    # question uploads in img/quiz/* must not create Pages deployments.
+    paths-ignore:
+      - "data/quizzes/**"
+      - "data/vocabulary-quizzes/**"
+      - "data/english-quizzes/**"
+      - "data/tags/**"
+      - "data/vocabulary/**"
+      - "img/covers/**"
+      - "img/quiz/**"
   workflow_dispatch:
 
 permissions:
@@ -11,7 +22,9 @@ permissions:
 
 concurrency:
   group: pages-publish
-  cancel-in-progress: true
+  # A running force-push to gh-pages must not be interrupted. Queued stale
+  # runs are harmless: the freshness guard below skips obsolete main SHAs.
+  cancel-in-progress: false
 
 jobs:
   build-and-publish:

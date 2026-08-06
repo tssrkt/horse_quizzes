@@ -13,6 +13,9 @@ on:
       - "data/vocabulary/*.xlsx"
       - "data/vocabulary/*.csv"
       - "img/covers/*"
+      # Published quiz images live below a slug directory. Raw Pages CMS
+      # uploads live directly in img/quiz and deliberately do not match.
+      - "img/quiz/**/*"
   workflow_dispatch:
 
 permissions:
@@ -48,6 +51,27 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Pages CMS uploads a newly selected file before it saves the JSON.
+          # A push containing only new files at the CMS media roots is therefore
+          # intermediate. Existing-file replacements have status M and continue,
+          # so replacing an already published cover still results in a deploy.
+          if [[ "${GITHUB_EVENT_NAME}" == "push" && -n "${PREVIOUS_REF}" && ! "${PREVIOUS_REF}" =~ ^0+$ ]]; then
+            mapfile -t cms_changes < <(git diff --name-status "${PREVIOUS_REF}" "${GITHUB_SHA}")
+            intermediate_upload=true
+            for change in "${cms_changes[@]}"; do
+              status="${change%%$'\t'*}"
+              path="${change#*$'\t'}"
+              if [[ "${status}" != "A" || ! "${path}" =~ ^img/(covers|quiz)/[^/]+$ ]]; then
+                intermediate_upload=false
+                break
+              fi
+            done
+            if [[ "${#cms_changes[@]}" -gt 0 && "${intermediate_upload}" == "true" ]]; then
+              echo "Only intermediate Pages CMS image uploads changed; skipping finalization and Pages dispatch."
+              exit 0
+            fi
+          fi
 
           for attempt in 1 2 3; do
             echo "Attempt ${attempt}"
