@@ -32,6 +32,51 @@ class OrganizeQuizCoverTests(unittest.TestCase):
         path.write_text(json.dumps(quiz, ensure_ascii=False), encoding="utf-8")
         return path
 
+    def test_assigns_all_missing_ids_and_preserves_positional_correct_answers(self):
+        questions = [
+            {
+                "question": "Первый вопрос",
+                "answers": [{"text": "A"}, {"text": "B"}],
+                "correct_answer_id": "answer-01",
+            },
+            {
+                "question": "Второй вопрос",
+                "answers": [{"text": "C"}, {"text": "D"}, {"text": "E"}],
+                "correct_answer_id": "answer-02",
+            },
+            {
+                "question": "Третий вопрос",
+                "answers": [{"text": "F"}, {"text": "G"}, {"text": "H"}],
+                "correct_answer_id": "answer-03",
+            },
+        ]
+        path = self.root / "data" / "quizzes" / "cms-quiz.json"
+        path.write_text(
+            json.dumps({"slug": "cms-quiz", "title": "CMS", "questions": questions}, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
+        self.organize()
+        normalized = json.loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(
+            [question["id"] for question in normalized["questions"]],
+            ["question-01", "question-02", "question-03"],
+        )
+        self.assertEqual(
+            [[answer["id"] for answer in question["answers"]] for question in normalized["questions"]],
+            [
+                ["answer-01", "answer-02"],
+                ["answer-01", "answer-02", "answer-03"],
+                ["answer-01", "answer-02", "answer-03"],
+            ],
+        )
+        for question in normalized["questions"]:
+            self.assertIn(question["correct_answer_id"], {answer["id"] for answer in question["answers"]})
+
+        first_run = path.read_bytes()
+        self.organize()
+        self.assertEqual(path.read_bytes(), first_run)
+
     def organize(self, previous_references=()):
         quizzes = organize_quiz_media.load_quizzes(self.root)
         references = organize_quiz_media.collect_original_reference_counts(quizzes)

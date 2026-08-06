@@ -11,6 +11,12 @@ from collections import Counter
 from pathlib import Path, PurePosixPath
 from typing import Any
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from tools.normalize_quiz_ids import IdNormalizationError, normalize_quiz_ids
+
 
 IMAGE_EXTENSIONS = {
     ".avif",
@@ -266,7 +272,13 @@ def organize_quizzes(
 
     for json_path, quiz in quizzes:
         slug = safe_slug(str(quiz.get("slug") or json_path.stem))
-        changed = False
+        try:
+            changed = normalize_quiz_ids(
+                quiz,
+                json_path.relative_to(root).as_posix(),
+            )
+        except IdNormalizationError as error:
+            raise TypeError(str(error)) from None
 
         cover_source = normalize_repo_path(quiz.get("cover"))
         if cover_source is not None:
