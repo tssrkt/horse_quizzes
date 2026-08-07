@@ -727,10 +727,12 @@
           "text": "Иноходь"
         },
         {
-          "text": "Шлапак"
+          "text": "Шлапак",
+          "id": "answer-05"
         },
         {
-          "text": "Тропота"
+          "text": "Тропота",
+          "id": "answer-06"
         }
       ],
       "correct_answer_id": "answer-03",
