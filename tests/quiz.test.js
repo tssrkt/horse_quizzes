@@ -269,8 +269,8 @@ for (const mutate of [
 assert.equal(core.versionedUrl('data/quizzes/horse-colors.json', 'abc123'), 'data/quizzes/horse-colors.json?v=abc123');
 assert.equal(core.versionedUrl('img/quiz/horse-colors/01.webp', 'abc123'), 'img/quiz/horse-colors/01.webp?v=abc123');
 
-const horseColorsUrl = 'https://tssrkt.github.io/quiz/quiz.html?quiz=horse-colors';
-const rareColorsUrl = 'https://tssrkt.github.io/quiz/quiz.html?quiz=rare-horse-colors';
+const horseColorsUrl = 'https://example.test/project/quiz.html?quiz=horse-colors';
+const rareColorsUrl = 'https://example.test/project/quiz.html?quiz=rare-horse-colors';
 assert.equal(core.shareText({ title: 'Масти лошадей' }, 34, 40, horseColorsUrl), `Мой результат — 34 из 40 (85%) в викторине «Масти лошадей». А какой у вас? Проверьте: ${horseColorsUrl}`, '17: неполный результат публикации');
 const perfectShare = core.shareText({ title: 'Редкие масти' }, 5, 5, rareColorsUrl);
 assert.equal(perfectShare, `Мой результат — 5 из 5 (100%) в викторине «Редкие масти». А какой у вас? Проверьте: ${rareColorsUrl}`, '100%, название и ссылка текущей викторины');
@@ -278,17 +278,17 @@ assert.equal(perfectShare.includes('\n'), false, 'текст публикаци�
 assert.equal(/\s{2,}/.test(perfectShare), false, 'в тексте публикации нет двойных пробелов');
 assert.equal(core.shareText({ title: 'Редкие  масти' }, 4, 5, rareColorsUrl).includes('«Редкие масти»'), true, 'пробелы в названии нормализуются');
 assert.equal(core.directQuizUrl('https://example.test/quiz/quiz.html?quiz=x&preview=1', 'horse-colors'), 'https://example.test/quiz/quiz.html?quiz=horse-colors');
-assert.equal(core.shareQuizUrl('horse-colors'), 'https://tssrkt.github.io/quiz/v/horse-colors/');
-assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/quiz.html?quiz=anatomy'), 'anatomy', 'старый URL определяет slug из query');
-assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/anatomy/'), 'anatomy', 'новый URL определяет slug из пути');
-assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/anatomy/index.html'), 'anatomy', 'index.html нового URL поддерживается');
-assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/quizzes/anatomy/'), '', 'соседний путь не считается страницей викторины');
-assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/ANATOMY/'), '', 'некорректный slug пути отклоняется');
-assert.equal(core.slugFromUrl('https://tssrkt.github.io/quiz/v/anatomy/?quiz=bad!'), '', 'явный некорректный query не заменяется значением пути');
-assert.equal(core.siteRootUrl('https://tssrkt.github.io/quiz/v/anatomy/'), 'https://tssrkt.github.io/quiz/');
+assert.equal(core.shareQuizUrl('horse-colors', horseColorsUrl), 'https://example.test/project/v/horse-colors/');
+assert.equal(core.slugFromUrl('https://example.test/project/quiz.html?quiz=anatomy'), 'anatomy', 'старый URL определяет slug из query');
+assert.equal(core.slugFromUrl('https://example.test/project/v/anatomy/'), 'anatomy', 'новый URL определяет slug из пути');
+assert.equal(core.slugFromUrl('https://example.test/project/v/anatomy/index.html'), 'anatomy', 'index.html нового URL поддерживается');
+assert.equal(core.slugFromUrl('https://example.test/project/quizzes/anatomy/'), '', 'соседний путь не считается страницей викторины');
+assert.equal(core.slugFromUrl('https://example.test/project/v/ANATOMY/'), '', 'некорректный slug пути отклоняется');
+assert.equal(core.slugFromUrl('https://example.test/project/v/anatomy/?quiz=bad!'), '', 'явный некорректный query не заменяется значением пути');
+assert.equal(core.siteRootUrl('https://example.test/project/v/anatomy/'), 'https://example.test/project/');
 assert.equal(core.siteRootUrl('http://localhost:8000/v/anatomy/'), 'http://localhost:8000/');
-assert.equal(core.siteUrl('data/catalog.json', 'https://tssrkt.github.io/quiz/v/anatomy/'), 'https://tssrkt.github.io/quiz/data/catalog.json');
-assert.equal(core.quizPath('anatomy', 'https://tssrkt.github.io/quiz/quiz.html?quiz=anatomy'), '/quiz/v/anatomy/');
+assert.equal(core.siteUrl('data/catalog.json', 'https://example.test/project/v/anatomy/'), 'https://example.test/project/data/catalog.json');
+assert.equal(core.quizPath('anatomy', 'https://example.test/project/quiz.html?quiz=anatomy'), '/project/v/anatomy/');
 assert.equal(core.coverAlt({ title: 'Породы лошадей' }), 'Обложка викторины «Породы лошадей»');
 assert.equal(core.questionImageAlt({ questionImagesAlt: ' Фотография лошади для определения породы ' }), 'Фотография лошади для определения породы');
 assert.equal(core.questionImageAlt({}), 'Фотография лошади к вопросу');

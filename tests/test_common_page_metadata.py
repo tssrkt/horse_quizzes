@@ -4,10 +4,12 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 from tools import build_site
+from scripts.site_config import load_site_config
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IMAGE_URL = "https://tssrkt.github.io/quiz/img/site-preview.webp"
+PUBLIC_URL = load_site_config(ROOT)["public_url"]
+IMAGE_URL = f"{PUBLIC_URL}img/site-preview.webp"
 GENERAL_DESCRIPTION = "Познавательные викторины о породах, мастях, генетике, анатомии, уходе за лошадьми и конной терминологии."
 
 
@@ -43,22 +45,22 @@ PAGES = {
     "index.html": (
         "Викторины о лошадках",
         GENERAL_DESCRIPTION,
-        "https://tssrkt.github.io/quiz/",
+        PUBLIC_URL,
     ),
     "quizzes.html": (
         "Викторины о лошадках",
         GENERAL_DESCRIPTION,
-        "https://tssrkt.github.io/quiz/quizzes.html",
+        f"{PUBLIC_URL}quizzes.html",
     ),
     "contacts.html": (
         "Викторины о лошадках",
         "Связаться с автором проекта «Викторины о лошадках» и поддержать развитие сайта.",
-        "https://tssrkt.github.io/quiz/contacts.html",
+        f"{PUBLIC_URL}contacts.html",
     ),
     "404.html": (
         "Страница 404",
         "Страница не найдена.",
-        "https://tssrkt.github.io/quiz/404.html",
+        f"{PUBLIC_URL}404.html",
     ),
 }
 
@@ -92,12 +94,14 @@ class CommonPageMetadataTests(unittest.TestCase):
                 source = (ROOT / filename).read_text(encoding="utf-8")
                 self.assertNotIn("Русскоязычные викторины на самые разные темы.", source)
                 self.assertNotIn("Русскоязыные викторины на самые разные темы.", source)
-                self.assert_metadata(self.parse(ROOT / filename), *expected)
+                parser = HeadParser()
+                parser.feed(source.replace("{{SITE_URL}}", PUBLIC_URL).replace("{{SITE_PATH}}", load_site_config(ROOT)["base_path"]))
+                self.assert_metadata(parser, *expected)
 
     def test_quiz_share_pages_keep_individual_metadata(self):
         anatomy = self.parse(ROOT / "v" / "anatomy" / "index.html")
         self.assertEqual(anatomy.meta["og:title"], "Анатомия лошади")
-        self.assertEqual(anatomy.meta["og:image"], "https://tssrkt.github.io/quiz/img/covers/anatomy.webp")
+        self.assertEqual(anatomy.meta["og:image"], f"{PUBLIC_URL}img/covers/anatomy.webp")
         self.assertNotEqual(anatomy.meta["og:image"], IMAGE_URL)
 
     def test_build_preserves_html_and_copies_preview_bytes(self):

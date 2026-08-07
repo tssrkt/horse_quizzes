@@ -259,7 +259,7 @@
   function questionImageAlt(quiz) { return String(quiz.questionImagesAlt || '').trim() || 'Фотография лошади к вопросу'; }
   function shareText(quiz, correct, total, quizUrl) { const percent = resultPercent(correct, total); const title = String(quiz.title).replace(/\s+/g, ' ').trim(); return `Мой результат — ${correct} из ${total} (${percent}%) в викторине «${title}». А какой у вас? Проверьте: ${quizUrl}`; }
   function directQuizUrl(currentUrl, slug) { const url = new URL(currentUrl); url.search = ''; url.hash = ''; url.pathname = url.pathname.replace(/[^/]*$/, 'quiz.html'); url.searchParams.set('quiz', slug); return url.href; }
-  function shareQuizUrl(slug) { return `https://tssrkt.github.io/quiz/v/${encodeURIComponent(slug)}/`; }
+  function shareQuizUrl(slug, currentUrl, publicUrl) { return new URL(`v/${encodeURIComponent(slug)}/`, publicUrl || urlCore.siteRootUrl(currentUrl)).href; }
   function slugFromUrl(currentUrl) {
     const url = new URL(currentUrl);
     const querySlug = url.searchParams.get('quiz');
@@ -446,7 +446,7 @@ function init(core) {
   function renderResult() {
     setWideLayout(false);
     state = { ...state, completed: true, current_index: quiz.questions.length, saved_at: new Date().toISOString() }; saveState();
-    const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const url = core.shareQuizUrl(quiz.slug); const sharePayload = core.shareText(quiz, state.correct_count, total, url);
+    const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const url = core.shareQuizUrl(quiz.slug, location.href, window.SiteConfig?.publicUrl); const sharePayload = core.shareText(quiz, state.correct_count, total, url);
     const recommendation = core.resultRecommendation(percent);
     const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(recommendation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;
     const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="${escapeHtml(core.quizPath(nextQuiz.slug, location.href))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';

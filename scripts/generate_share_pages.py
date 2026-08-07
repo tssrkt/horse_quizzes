@@ -12,8 +12,9 @@ import sys
 from pathlib import Path
 from urllib.parse import quote
 
+from site_config import load_site_config
+
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_ROOT = "https://tssrkt.github.io/quiz"
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 REQUIRED_FIELDS = ("slug", "title", "short_description", "cover")
 
@@ -55,13 +56,14 @@ def load_published_quizzes(root: Path) -> list[dict]:
     return quizzes
 
 
-def render_page(quiz: dict, template: str | None = None) -> str:
+def render_page(quiz: dict, template: str | None = None, public_url: str | None = None) -> str:
+    public_url = public_url or load_site_config(ROOT)["public_url"]
     slug = quote(quiz["slug"], safe="-")
     title = html.escape(quiz["title"].strip(), quote=True)
     description = html.escape(quiz["short_description"].strip(), quote=True)
-    share_url = f"{PUBLIC_ROOT}/v/{slug}/"
+    share_url = f"{public_url}v/{slug}/"
     cover_url_path = quiz["cover"].replace("\\", "/")
-    image_url = f"{PUBLIC_ROOT}/{quote(cover_url_path, safe='/-.')}"
+    image_url = f"{public_url}{quote(cover_url_path, safe='/-.')}"
     image_alt = html.escape(f"Обложка викторины «{quiz['title'].strip()}»", quote=True)
     metadata = f'''<meta name="description" content="{description}">
   <title>{title} — Викторины о лошадках</title>
@@ -92,13 +94,14 @@ def render_page(quiz: dict, template: str | None = None) -> str:
         lambda match: f'{match.group("attribute")}="../../{match.group("path")}"',
         page,
     )
-    page = page.replace('href="/quiz/', 'href="../../').replace('src="/quiz/', 'src="../../')
+    page = page.replace('{{SITE_PATH}}', '../../')
     return page
 
 
 def generate(root: Path = ROOT, output: Path | None = None) -> int:
     output = output or root / "v"
     quizzes = load_published_quizzes(root)
+    public_url = load_site_config(root)["public_url"]
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True)
@@ -106,7 +109,7 @@ def generate(root: Path = ROOT, output: Path | None = None) -> int:
     for quiz in quizzes:
         directory = output / quiz["slug"]
         directory.mkdir()
-        (directory / "index.html").write_text(render_page(quiz, template), encoding="utf-8", newline="\n")
+        (directory / "index.html").write_text(render_page(quiz, template, public_url), encoding="utf-8", newline="\n")
     return len(quizzes)
 
 

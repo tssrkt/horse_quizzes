@@ -378,7 +378,9 @@ class BuildSiteTests(unittest.TestCase):
         self.assertEqual(chain["english-5"]["previous_quiz"], "english-4")
         self.assertEqual(chain["english-5"]["next_quiz"], "english-6")
         self.assertEqual(chain["english-6"]["previous_quiz"], "english-5")
-        self.assertNotIn("next_quiz", chain["english-6"])
+        self.assertEqual(chain["english-6"]["next_quiz"], "english-7")
+        self.assertEqual(chain["english-7"]["previous_quiz"], "english-6")
+        self.assertNotIn("next_quiz", chain["english-7"])
 
     def test_vocabulary_legacy_next_quiz_is_rejected(self):
         vocabulary_path = self.data / "vocabulary-quizzes" / "english.json"

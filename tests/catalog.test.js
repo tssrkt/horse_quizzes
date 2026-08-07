@@ -168,9 +168,9 @@ assert.deepEqual(filteredSorted.slice(PAGE_SIZE, PAGE_SIZE * 2), sortQuizzes(fil
 const filteredPageUrl = buildUrl('https://example.test/quizzes.html', { section: 'english', tag: 'horses', sort: 'title', direction: 'down', page: 2 });
 assert.equal(filteredPageUrl, '/quizzes.html?section=english&tag=horses&sort=title&direction=down&page=2');
 assert.deepEqual(getStateFromUrl('?section=english&tag=horses&sort=title&direction=down&page=2', visible, 3), { section: 'english', tag: 'horses', sort: 'title', direction: 'down', page: 2 });
-assert.equal(quizPath('anatomy', 'https://tssrkt.github.io/quiz/quizzes.html'), '/quiz/v/anatomy/');
+assert.equal(quizPath('anatomy', 'https://example.test/project/quizzes.html'), '/project/v/anatomy/');
 assert.equal(quizPath('anatomy', 'http://localhost:8000/quizzes.html'), '/v/anatomy/');
-assert.equal(quizPath('horse-colors', 'https://tssrkt.github.io/quiz/quizzes.html?tag=horses&page=2'), '/quiz/v/horse-colors/');
+assert.equal(quizPath('horse-colors', 'https://example.test/project/quizzes.html?tag=horses&page=2'), '/project/v/horse-colors/');
 assert.throws(() => quizPath('../anatomy', 'http://localhost:8000/quizzes.html'), TypeError);
 
 console.log('catalog.test.js: все проверки пройдены');

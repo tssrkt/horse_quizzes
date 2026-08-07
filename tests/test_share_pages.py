@@ -5,9 +5,11 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 from scripts import generate_share_pages
+from scripts.site_config import load_site_config
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PUBLIC_URL = load_site_config(ROOT)["public_url"]
 
 
 class MetadataParser(HTMLParser):
@@ -40,7 +42,7 @@ class SharePageTests(unittest.TestCase):
             source = (ROOT / "v" / slug / "index.html").read_text(encoding="utf-8")
             parser = MetadataParser()
             parser.feed(source)
-            share_url = f"https://tssrkt.github.io/quiz/v/{slug}/"
+            share_url = f"{PUBLIC_URL}v/{slug}/"
             self.assertEqual(parser.meta["og:title"], quiz["title"].strip())
             self.assertEqual(parser.meta["og:description"], quiz["short_description"].strip())
             self.assertTrue(parser.meta["og:image"].startswith("https://"))
@@ -50,6 +52,7 @@ class SharePageTests(unittest.TestCase):
             self.assertNotIn("location.replace", source)
             self.assertIn('id="quiz-app"', source)
             self.assertIn('src="../../js/quiz.js"', source)
+            self.assertIn('src="../../js/site-config.js"', source)
             self.assertIn('src="../../js/urls.js"', source)
             self.assertIn('href="../../css/style.css"', source)
             self.assertNotRegex(source, r'(?:href|src)="(?:css|js|img)/')
@@ -69,7 +72,7 @@ class SharePageTests(unittest.TestCase):
         parser.feed(source)
         self.assertEqual(parser.meta["og:title"], html.unescape(quiz["title"]))
         self.assertEqual(parser.meta["og:description"], quiz["short_description"])
-        self.assertEqual(parser.meta["og:image"], "https://tssrkt.github.io/quiz/img/covers/special%20test.webp")
+        self.assertEqual(parser.meta["og:image"], f"{PUBLIC_URL}img/covers/special%20test.webp")
 
     def test_generation_removes_stale_page(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -84,18 +87,18 @@ class SharePageTests(unittest.TestCase):
     def test_sharing_changed_without_rewriting_internal_navigation(self):
         quiz_js = (ROOT / "js" / "quiz.js").read_text(encoding="utf-8")
         catalog_js = (ROOT / "js" / "quizzes.js").read_text(encoding="utf-8")
-        self.assertIn("core.shareQuizUrl(quiz.slug)", quiz_js)
+        self.assertIn("core.shareQuizUrl(quiz.slug, location.href, window.SiteConfig?.publicUrl)", quiz_js)
         self.assertIn("core.quizPath(nextQuiz.slug, location.href)", quiz_js)
         self.assertIn("urlCore.quizPath(quiz.slug, location.href)", catalog_js)
         self.assertNotIn("quiz.html?quiz=${encodeURIComponent(quiz.slug)}", catalog_js)
 
-    def test_catalog_intro_uses_full_share_urls(self):
+    def test_catalog_intro_uses_relative_share_urls(self):
         source = (ROOT / "quizzes.html").read_text(encoding="utf-8")
         expected = {
-            "Породы лошадей": "https://tssrkt.github.io/quiz/v/horse-breeds/",
-            "Масти лошадей": "https://tssrkt.github.io/quiz/v/horse-colors/",
-            "Лошадиная терминология": "https://tssrkt.github.io/quiz/v/horse-words/",
-            "Генетику лошади": "https://tssrkt.github.io/quiz/v/horse-genetics/",
+            "Породы лошадей": "v/horse-breeds/",
+            "Масти лошадей": "v/horse-colors/",
+            "Лошадиные термины": "v/horse-words/",
+            "Генетику лошади": "v/horse-genetics/",
         }
         for label, url in expected.items():
             self.assertIn(f'href="{url}"', source)

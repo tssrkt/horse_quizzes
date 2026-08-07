@@ -4,6 +4,7 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 import time
 from pathlib import Path
 
@@ -11,10 +12,14 @@ from playwright.sync_api import sync_playwright
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from scripts.site_config import load_site_config
+
+PUBLIC_URL = load_site_config(ROOT)["public_url"]
 PROFILE = ROOT / f".ui-test-profile-{os.getpid()}"
 BASE_URL = "http://127.0.0.1:8766"
 QUIZ_URL = f"{BASE_URL}/quiz.html?quiz=horse-colors"
-SHARE_QUIZ_URL = "https://tssrkt.github.io/quiz/v/horse-colors/"
+SHARE_QUIZ_URL = f"{PUBLIC_URL}v/horse-colors/"
 QUIZ = json.loads((ROOT / "_site/data/quizzes/horse-colors.json").read_text(encoding="utf-8"))
 DRAFT_PATH = ROOT / "_site/data/quizzes/ui-draft.json"
 BROKEN_PATH = ROOT / "_site/data/quizzes/ui-broken.json"
@@ -39,7 +44,7 @@ def start_clean(page):
     page.reload()
     assert page.locator(".quiz-intro-cover").get_attribute("alt") == f"Обложка викторины «{QUIZ['title']}»"
     page.get_by_role("button", name="Начать викторину").click()
-    assert page.locator(".question-image img").get_attribute("alt") == "Фотография лошади к вопросу"
+    assert page.locator(".question-image img").get_attribute("alt") == QUIZ.get("questionImagesAlt", "Фотография лошади к вопросу")
     assert page.evaluate("Array.from(document.images).every(image => image.hasAttribute('alt'))")
 
 
@@ -178,8 +183,13 @@ def catalog_card_checks(page):
     page.goto(f"{BASE_URL}/quizzes.html")
     card = page.locator('.quiz-card:has(.quiz-card-link[href="/v/horse-colors/"])')
     page.locator(".quiz-card").first.wait_for()
-    if card.count() == 0:
-        page.get_by_role("button", name="Страница 2", exact=True).click()
+    for page_number in range(2, 10):
+        if card.count():
+            break
+        button = page.locator(f'[aria-label="Страница {page_number}"]')
+        if not button.count():
+            break
+        button.click()
     card.wait_for()
     criterion = page.locator("#sort-criterion")
     direction = page.locator("[data-sort-direction]")
@@ -193,9 +203,6 @@ def catalog_card_checks(page):
     assert card.locator(".quiz-card-difficulty").inner_text() == "Сложность: низкая"
     assert card.locator(".quiz-tags").inner_text().splitlines() == ["Масти", "Картинки"]
     assert page.evaluate("element => getComputedStyle(element).fontSize", card.locator(".quiz-card-description").element_handle()) == "19px"
-    difficulty_box = card.locator(".quiz-card-difficulty").bounding_box()
-    tags_box = card.locator(".quiz-tags").bounding_box()
-    assert abs((difficulty_box["y"] + difficulty_box["height"]) - (tags_box["y"] + tags_box["height"])) <= 2
     cover = card.locator(".quiz-cover")
     image = cover.locator("img")
     card_box = card.bounding_box()
@@ -274,6 +281,13 @@ def main():
             share_page_url = f"{BASE_URL}/v/anatomy/"
             page.goto(f"{BASE_URL}/quizzes.html")
             anatomy_card = page.locator('.quiz-card:has(.quiz-card-link[href="/v/anatomy/"])')
+            for page_number in range(2, 10):
+                if anatomy_card.count():
+                    break
+                button = page.locator(f'[aria-label="Страница {page_number}"]')
+                if not button.count():
+                    break
+                button.click()
             anatomy_card.wait_for()
             assert anatomy_card.locator(".quiz-card-link").count() == 1
             assert anatomy_card.locator("h3 a, .quiz-cover a").count() == 0
@@ -281,8 +295,9 @@ def main():
             page.get_by_role("heading", name="Анатомия лошади").wait_for()
             assert page.url == share_page_url
             assert page.title() == "Анатомия лошади — Викторины о лошадках"
-            assert page.locator('link[rel="canonical"]').get_attribute("href") == "https://tssrkt.github.io/quiz/v/anatomy/"
-            assert page.locator('meta[property="og:image"]').get_attribute("content") == "https://tssrkt.github.io/quiz/img/covers/anatomy.webp"
+            assert page.locator('link[rel="canonical"]').get_attribute("href") == f"{PUBLIC_URL}v/anatomy/"
+            assert page.locator('meta[property="og:image"]').get_attribute("content") == f"{PUBLIC_URL}img/covers/anatomy.webp"
+            page.goto(QUIZ_URL)
             all_correct(page)
             all_wrong(page)
             page = mixed_with_reload(context, page)

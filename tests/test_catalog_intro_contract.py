@@ -46,7 +46,7 @@ class CatalogIntroContractTests(unittest.TestCase):
         parser.feed(intro)
         self.assertEqual(parser.strong, ["словарные", "английские"])
         self.assertEqual(parser.links, [{
-            "attrs": {"href": "https://tssrkt.github.io/quiz/v/english/"},
+            "attrs": {"href": "v/english/"},
             "text": "«Экстерьера лошади»",
         }])
         self.assertIn("два типа викторин", intro)

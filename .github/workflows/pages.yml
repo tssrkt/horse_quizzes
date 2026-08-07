@@ -45,7 +45,9 @@ jobs:
           echo "source_sha=${GITHUB_SHA}" >> "${GITHUB_OUTPUT}"
 
       - name: Validate content
-        run: python tools/build_site.py --check
+        run: |
+          python tools/check_site_url_literals.py
+          python tools/build_site.py --check
 
       - name: Build site
         run: python tools/build_site.py

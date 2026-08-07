@@ -41,7 +41,7 @@ examples/quiz-template.json    пример, не попадающий в кат
 ## Подключение Pages CMS
 
 1. Откройте [app.pagescms.org](https://app.pagescms.org/) и войдите через GitHub.
-2. Установите GitHub App Pages CMS и разрешите доступ к `tssrkt/quiz`.
+2. Установите GitHub App Pages CMS и разрешите доступ к этому репозиторию.
 3. Выберите репозиторий и ветку `main`.
 4. Pages CMS прочитает `.pages.yml` и покажет коллекции «Теги» и «Викторины».
 
@@ -134,7 +134,7 @@ Pages CMS требует выбрать одно значение `correct_answe
 Черновик с `published: false` не включается в каталог и без специального параметра не запускается. После успешной сборки его можно открыть напрямую:
 
 ```text
-https://tssrkt.github.io/quiz/quiz.html?quiz=my-quiz&preview=1
+<public_url из site.json>quiz.html?quiz=my-quiz&preview=1
 ```
 
 Локально адрес выглядит так:
@@ -156,6 +156,8 @@ http://localhost:8000/quiz.html?quiz=my-quiz&preview=1
 На итоговом экране доступны Web Share, Telegram, ВКонтакте и копирование результата. Публикуемая ссылка ведёт непосредственно на викторину и не содержит `preview` или данных прогресса.
 
 ## Локальная проверка и запуск
+
+Адрес сайта задаётся ровно в одном месте — `site.json`. Поля `origin` и `base_path` независимы: для GitHub Pages используются `https://tssrkt.github.io` и `/horse_quizzes/`, а для собственного домена можно указать, например, `https://example.com` и `/`. Сборщик получает из них абсолютные canonical/Open Graph URL и путь страницы 404; обычные ресурсы и переходы остаются относительными. Для разовой тестовой сборки значения можно переопределить переменными `SITE_ORIGIN` и `BASE_PATH`, не изменяя файл. Команда `python tools/check_site_url_literals.py` запрещает повторный хардкод Pages URL, repository slug и root-relative base path в исходниках; исключены только `site.json`, сам проверяющий скрипт, тестовые URL и сгенерированный каталог `v/`.
 
 Статические страницы индивидуальных превью создаются командой:
 

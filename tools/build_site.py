@@ -19,6 +19,7 @@ from xml.etree import ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from generate_share_pages import SharePageError, generate as generate_share_pages
+from site_config import load_site_config
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
@@ -604,12 +605,19 @@ def build(output: Path = OUTPUT) -> dict:
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True)
+    site_config = load_site_config(ROOT)
     for filename in HTML_FILES:
-        shutil.copy2(ROOT / filename, output / filename)
+        source = (ROOT / filename).read_text(encoding="utf-8")
+        rendered = source.replace("{{SITE_URL}}", site_config["public_url"]).replace("{{SITE_PATH}}", site_config["base_path"])
+        (output / filename).write_text(rendered, encoding="utf-8", newline="\n")
     for filename in ROOT_FILES:
         shutil.copy2(ROOT / filename, output / filename)
     for dirname in COPY_DIRS:
         shutil.copytree(ROOT / dirname, output / dirname, ignore=shutil.ignore_patterns(".gitkeep"))
+    client_config = (output / "js" / "site-config.js").read_text(encoding="utf-8")
+    (output / "js" / "site-config.js").write_text(
+        client_config.replace("{{SITE_URL}}", site_config["public_url"]), encoding="utf-8", newline="\n"
+    )
     shutil.copytree(ROOT / "img" / "covers", output / "img" / "covers", ignore=shutil.ignore_patterns(".gitkeep"))
     shutil.copytree(
         ROOT / "img" / "icons",
