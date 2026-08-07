@@ -339,7 +339,7 @@ function init(core) {
       ['ru-en', 'RU → EN', 'Вам показывают русские слова, вы выбираете английский перевод'],
       ['typing', 'Typing', 'Вам показывают русские слова, вы вводите английский перевод с клавиатуры']
     ];
-    return `<div class="vocabulary-modes">${options.map(([value, text, hint]) => `<label class="vocabulary-mode" title="${hint}" data-tooltip="${hint}" tabindex="0"><input type="checkbox" value="${value}" aria-describedby="mode-hint-${value}" ${selectedModes.includes(value) ? 'checked' : ''}><span>${text}</span><span class="visually-hidden" id="mode-hint-${value}">${hint}</span></label>`).join('')}</div>`;
+    return `<div class="vocabulary-modes">${options.map(([value, text, hint]) => `<label class="vocabulary-mode" data-tooltip="${hint}" tabindex="0"><input type="checkbox" value="${value}" aria-describedby="mode-hint-${value}" ${selectedModes.includes(value) ? 'checked' : ''}><span>${text}</span><span class="visually-hidden" id="mode-hint-${value}">${hint}</span></label>`).join('')}</div>`;
   }
   function updateModeAvailability() {
     const available = [...app.querySelectorAll('.vocabulary-modes input:not(:disabled)')];

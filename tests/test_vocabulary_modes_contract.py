@@ -10,6 +10,8 @@ class VocabularyModesContractTests(unittest.TestCase):
         javascript = (ROOT / "js" / "quiz.js").read_text(encoding="utf-8")
         self.assertIn("if (quiz.type !== 'vocabulary') return '';", javascript)
         self.assertIn('type="checkbox"', javascript)
+        self.assertIn('class="vocabulary-mode" data-tooltip="${hint}" tabindex="0"', javascript)
+        self.assertNotIn('class="vocabulary-mode" title=', javascript)
         self.assertIn('aria-describedby="mode-hint-${value}"', javascript)
         self.assertIn("Вам показывают английские слова, вы выбираете русский перевод", javascript)
         self.assertIn("Вам показывают русские слова, вы выбираете английский перевод", javascript)
