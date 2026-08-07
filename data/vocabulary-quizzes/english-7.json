@@ -170,48 +170,53 @@
           "category": "Coat colors"
         },
         {
-          "english": "Appaloosa pattern",
+          "english": "Appaloosa pattern (Leopard complex)",
           "russian": "чубарая",
           "category": "Coat colors"
         },
         {
           "english": "Leopard",
-          "russian": "леопардовая (чубарость)",
+          "russian": "леопардовый (тип чубарости)",
           "category": "Coat colors"
         },
         {
-          "english": "Fewspot Leopard",
-          "russian": "малопятнистая леопардовая (чубарость)",
+          "english": "Few-spot Leopard",
+          "russian": "леопардовый малопятнистый (тип чубарости)",
           "category": "Coat colors"
         },
         {
           "english": "Blanket",
-          "russian": "чепрачная (чубарость)",
+          "russian": "чепрачный (тип чубарости)",
           "category": "Coat colors"
         },
         {
-          "english": "Snowcap",
-          "russian": "белочепрачная (чубарость)",
+          "english": "Snowcap Blanket",
+          "russian": "белочепрачный (тип чубарости)",
           "category": "Coat colors"
         },
         {
-          "english": "Spotted Blanket",
-          "russian": "чепрачная с пятнами (чубарость)",
+          "english": "Mottled",
+          "russian": "крапчатый (тип чубарости)",
           "category": "Coat colors"
         },
         {
-          "english": "Snowflake",
-          "russian": "снежные хлопья (чубарость)",
+          "english": "Speckled",
+          "russian": "дроздовый (тип чубарости)",
           "category": "Coat colors"
         },
         {
           "english": "Frost",
-          "russian": "в инее (чубарость)",
+          "russian": "в инее (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Snowflake",
+          "russian": "снежные хлопья (тип чубарости)",
           "category": "Coat colors"
         },
         {
           "english": "Varnish Roan",
-          "russian": "глянцевая (чубарость)",
+          "russian": "глянцевая чалость (тип чубарости)",
           "category": "Coat colors"
         },
         {
