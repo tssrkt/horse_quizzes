@@ -1,5 +1,5 @@
 {
-  "title": "Аллюры лошади",
+  "title": "Аллюры лошадей",
   "slug": "horse-gaits",
   "published": true,
   "publication_date": "2026-08-07T09:50:00+00:00",
@@ -727,12 +727,12 @@
           "text": "Иноходь"
         },
         {
-          "text": "Шлапак",
-          "id": "answer-05"
+          "id": "answer-05",
+          "text": "Шлапак"
         },
         {
-          "text": "Тропота",
-          "id": "answer-06"
+          "id": "answer-06",
+          "text": "Тропота"
         }
       ],
       "correct_answer_id": "answer-03",
