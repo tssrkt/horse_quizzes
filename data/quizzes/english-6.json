@@ -1,0 +1,544 @@
+{
+  "type": "vocabulary",
+  "title": "Верховая езда",
+  "slug": "english-6",
+  "published": true,
+  "publication_date": "2026-08-05T14:35:00+00:00",
+  "difficulty": "medium",
+  "short_description": "Эта викторина познакомит вас с английскими словами и выражениями, связанными с верховой ездой, аллюрами, посадкой, средствами управления лошадью, а также одеждой и экипировкой всадника.",
+  "intro": "Эта викторина познакомит вас с английскими словами и выражениями, связанными с верховой ездой, аллюрами, посадкой, средствами управления лошадью, а также одеждой и экипировкой всадника.",
+  "cover": "img/covers/English_06.webp",
+  "tags": [
+    "dictionary",
+    "gaits",
+    "riding",
+    "sport"
+  ],
+  "previous_quiz": "english-5",
+  "parts": [
+    {
+      "id": "8e3aa091-ba1a-4457-b8e7-649a6109b981",
+      "title": "Аллюры",
+      "word_count": 21,
+      "vocabulary": [
+        {
+          "english": "Step",
+          "russian": "шаг (как движение ногой и реже как аллюр)",
+          "category": "Gaits"
+        },
+        {
+          "english": "Walk",
+          "russian": "шаг (аллюр), иногда хода",
+          "category": "Gaits"
+        },
+        {
+          "english": "Trot",
+          "russian": "рысь",
+          "category": "Gaits"
+        },
+        {
+          "english": "Trotter",
+          "russian": "рысак",
+          "category": "Gaits"
+        },
+        {
+          "english": "Pace",
+          "russian": "иноходь",
+          "category": "Gaits"
+        },
+        {
+          "english": "Pacer",
+          "russian": "иноходец",
+          "category": "Gaits"
+        },
+        {
+          "english": "Amble",
+          "russian": "медленная иноходь",
+          "category": "Gaits"
+        },
+        {
+          "english": "Stepping pace",
+          "russian": "четырехтактная иноходь",
+          "category": "Gaits"
+        },
+        {
+          "english": "Canter",
+          "russian": "кентер",
+          "category": "Gaits"
+        },
+        {
+          "english": "Gallop",
+          "russian": "галоп",
+          "category": "Gaits"
+        },
+        {
+          "english": "Lope",
+          "russian": "эквивалент кентера в классической езде",
+          "category": "Gaits"
+        },
+        {
+          "english": "Slow gait",
+          "russian": "разновидность ходы, свойственная американской верховой лошади, лошади Скалистых гор и американской лошади для шоу; искусственный аллюр, при котором слышно 4 удара копыт о землю, передние ноги поднимаются высоко и сгибаются, ноги движутся диагонально, задние ноги движутся «под собой»",
+          "category": "Gaits"
+        },
+        {
+          "english": "Rack",
+          "russian": "разновидность ходы, искусственный аллюр, схожий со slow gait, только быстрее",
+          "category": "Gaits"
+        },
+        {
+          "english": "Flat foot walk",
+          "russian": "«плоский шаг», искусственная разновидность ходы, характерная для теннессийской породы; слышно 4 удара копыт о землю, следы задних ног далеко заступают за следы передних, лошадь энергично качает головой и ушами",
+          "category": "Gaits"
+        },
+        {
+          "english": "Running walk",
+          "russian": "трусца, ускоренный вариант flat foot walk, при котором следы задних ног далеко заступают за следы передних",
+          "category": "Gaits"
+        },
+        {
+          "english": "Jog",
+          "russian": "специальный аллюр в езде вестерн",
+          "category": "Gaits"
+        },
+        {
+          "english": "Fox trot gait",
+          "russian": "тропота; естественный аллюр, свойственный миссурийскому фокстроттеру",
+          "category": "Gaits"
+        },
+        {
+          "english": "Paso fino",
+          "russian": "хода, свойственная пасо фино и испанскому мустангу",
+          "category": "Gaits"
+        },
+        {
+          "english": "Gaited horse",
+          "russian": "лошадь, способная двигаться ходой",
+          "category": "Gaits"
+        },
+        {
+          "english": "High knee action",
+          "russian": "утрированно высокий каретный ход",
+          "category": "Gaits"
+        },
+        {
+          "english": "Dishing",
+          "russian": "выворачивание передних ног в сторону после отталкивания; если смотреть спереди, кажется, будто копыта описывают круг",
+          "category": "Gaits"
+        }
+      ]
+    },
+    {
+      "id": "d53db58a-6559-469d-9099-435bc2db513a",
+      "title": "Езда",
+      "word_count": 40,
+      "vocabulary": [
+        {
+          "english": "Classical riding (baroque riding)",
+          "russian": "езда в стиле барокко",
+          "category": "Riding styles"
+        },
+        {
+          "english": "Classical dressage (haute ecole)",
+          "russian": "классическая выездка, Высшая школа верховой езды, от эколь",
+          "category": "Riding styles"
+        },
+        {
+          "english": "Competitive dressage",
+          "russian": "спортивная выездка",
+          "category": "Riding styles"
+        },
+        {
+          "english": "English riding",
+          "russian": "«английский» стиль езды (этим термином в англоязычных странах обозначают любую езду в седле английского типа — от прогулочной езды до конкура и стиля езды плантаторов Нового Света)",
+          "category": "Riding styles"
+        },
+        {
+          "english": "Saddle seat riding",
+          "russian": "сэддл сит райдинг, стиль езды плантаторов Нового Света в специальных седлах, в которых центр тяжести всадника и лошади смещается назад, чтобы дать свободу передним ногам для демонстрации высоких аллюров",
+          "category": "Riding styles"
+        },
+        {
+          "english": "Western riding",
+          "russian": "стиль езды вестерн",
+          "category": "Riding styles"
+        },
+        {
+          "english": "Side saddle riding",
+          "russian": "дамская езда",
+          "category": "Riding styles"
+        },
+        {
+          "english": "Vaquero riding",
+          "russian": "стиль езды вакеро",
+          "category": "Riding styles"
+        },
+        {
+          "english": "Rider",
+          "russian": "всадник",
+          "category": "Riding"
+        },
+        {
+          "english": "To ride",
+          "russian": "ехать верхом",
+          "category": "Riding"
+        },
+        {
+          "english": "Leg",
+          "russian": "шенкель",
+          "category": "Riding"
+        },
+        {
+          "english": "Active leg",
+          "russian": "высылающий шенкель",
+          "category": "Riding"
+        },
+        {
+          "english": "To relax the leg aids",
+          "russian": "прекратить посыл",
+          "category": "Riding"
+        },
+        {
+          "english": "Caress",
+          "russian": "похвала",
+          "category": "Riding"
+        },
+        {
+          "english": "To pat",
+          "russian": "похлопать лошадь",
+          "category": "Riding"
+        },
+        {
+          "english": "To touch with the whip",
+          "russian": "тушировать",
+          "category": "Riding"
+        },
+        {
+          "english": "To post",
+          "russian": "облегчаться, привставать на строевой рыси",
+          "category": "Riding"
+        },
+        {
+          "english": "To mount",
+          "russian": "садиться на лошадь",
+          "category": "Riding"
+        },
+        {
+          "english": "To dismount",
+          "russian": "спешиваться, слезать с лошади",
+          "category": "Riding"
+        },
+        {
+          "english": "Near side",
+          "russian": "левая сторона лошади",
+          "category": "Riding"
+        },
+        {
+          "english": "Off side",
+          "russian": "правая сторона лошади",
+          "category": "Riding"
+        },
+        {
+          "english": "Inside",
+          "russian": "внутренняя сторона манежа",
+          "category": "Riding"
+        },
+        {
+          "english": "Outside",
+          "russian": "наружная сторона манежа",
+          "category": "Riding"
+        },
+        {
+          "english": "Aids",
+          "russian": "средства управления",
+          "category": "Riding"
+        },
+        {
+          "english": "Natural aids",
+          "russian": "основные средства управления (повод, шенкель, корпус)",
+          "category": "Riding"
+        },
+        {
+          "english": "Rein",
+          "russian": "повод",
+          "category": "Riding"
+        },
+        {
+          "english": "Artificial aids",
+          "russian": "дополнительные средства управления",
+          "category": "Riding"
+        },
+        {
+          "english": "Cue",
+          "russian": "воздействие средств управления, команда, сигнал для лошади",
+          "category": "Riding"
+        },
+        {
+          "english": "To take the rein",
+          "russian": "набрать повод",
+          "category": "Riding"
+        },
+        {
+          "english": "To give the rein",
+          "russian": "отдать повод",
+          "category": "Riding"
+        },
+        {
+          "english": "Rising trot (posting trot)",
+          "russian": "строевая, облегченная рысь",
+          "category": "Riding"
+        },
+        {
+          "english": "Sitting trot",
+          "russian": "учебная рысь",
+          "category": "Riding"
+        },
+        {
+          "english": "Right lead canter",
+          "russian": "галоп с правой ноги",
+          "category": "Riding"
+        },
+        {
+          "english": "Counter canter",
+          "russian": "контргалоп",
+          "category": "Riding"
+        },
+        {
+          "english": "Rein back",
+          "russian": "осаживание",
+          "category": "Riding"
+        },
+        {
+          "english": "Change of the rein",
+          "russian": "поменять направление",
+          "category": "Riding"
+        },
+        {
+          "english": "Seat",
+          "russian": "посадка",
+          "category": "Riding"
+        },
+        {
+          "english": "Independent seat",
+          "russian": "независимая, раскрепощенная посадка",
+          "category": "Riding"
+        },
+        {
+          "english": "Forward seat",
+          "russian": "облегченная, охотничья посадка",
+          "category": "Riding"
+        },
+        {
+          "english": "Dressage seat",
+          "russian": "выездковая посадка",
+          "category": "Riding"
+        }
+      ]
+    },
+    {
+      "id": "734df900-3857-4d35-9ec7-3c5adc3069bb",
+      "title": "Одежда",
+      "word_count": 39,
+      "vocabulary": [
+        {
+          "english": "Bicorn (two-corned hat)",
+          "russian": "шляпа с двумя углами (в некоторых национальных школах верховой езды)",
+          "category": "Headwear"
+        },
+        {
+          "english": "Tricorn (three-corned hat)",
+          "russian": "треуголка",
+          "category": "Headwear"
+        },
+        {
+          "english": "Top hat (silk hat)",
+          "russian": "цилиндр",
+          "category": "Headwear"
+        },
+        {
+          "english": "Bowler",
+          "russian": "котелок",
+          "category": "Headwear"
+        },
+        {
+          "english": "Riding hat",
+          "russian": "каска, шлем для верховой езды",
+          "category": "Headwear"
+        },
+        {
+          "english": "Polo helmet",
+          "russian": "шлем для поло",
+          "category": "Headwear"
+        },
+        {
+          "english": "Jockey skull cap",
+          "russian": "скаковой шлем",
+          "category": "Headwear"
+        },
+        {
+          "english": "Jockey silk",
+          "russian": "нашлемник из шелка для скачек",
+          "category": "Headwear"
+        },
+        {
+          "english": "Chin strap dress",
+          "russian": "подбородный ремень",
+          "category": "Headwear"
+        },
+        {
+          "english": "English style",
+          "russian": "английский костюм для верховой езды",
+          "category": "Riding attire"
+        },
+        {
+          "english": "English style riding-dress",
+          "russian": "английский редингот",
+          "category": "Riding attire"
+        },
+        {
+          "english": "English style hunting dress",
+          "russian": "английский охотничий костюм",
+          "category": "Riding attire"
+        },
+        {
+          "english": "French hunting-coat",
+          "russian": "французский охотничий редингот",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Side-saddle habit",
+          "russian": "дамский костюм для верховой езды, амазонка",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Racing colours",
+          "russian": "камзол жокея, наездника",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Hacking jacket",
+          "russian": "спортивный редингот",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Waistcoat",
+          "russian": "жилет",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Stock (hunting tie)",
+          "russian": "пластрон, охотничий галстук",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Stock-pin",
+          "russian": "застежка для галстука",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Dressage tail coat",
+          "russian": "фрак для выездки",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Breeches",
+          "russian": "бриджи",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Jodhpurs",
+          "russian": "длинные бриджи для ботинок",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Chaps",
+          "russian": "чапсы",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Back protector",
+          "russian": "защитный жилет (для троеборья)",
+          "category": "Riding attire"
+        },
+        {
+          "english": "Riding boots",
+          "russian": "сапоги для верховой езды",
+          "category": "Riding boots"
+        },
+        {
+          "english": "Rubber riding boots",
+          "russian": "резиновые сапоги для верховой езды",
+          "category": "Riding boots"
+        },
+        {
+          "english": "Top-boots (hunting boots)",
+          "russian": "охотничьи сапоги с отворотом",
+          "category": "Riding boots"
+        },
+        {
+          "english": "Jockey boots (racing boots)",
+          "russian": "жокейские сапоги",
+          "category": "Riding boots"
+        },
+        {
+          "english": "Polo boots",
+          "russian": "сапоги для поло",
+          "category": "Riding boots"
+        },
+        {
+          "english": "Field-boots",
+          "russian": "сапоги для полевой езды",
+          "category": "Riding boots"
+        },
+        {
+          "english": "Jodhpur boots",
+          "russian": "ботинки для верховой езды",
+          "category": "Riding boots"
+        },
+        {
+          "english": "Tree",
+          "russian": "распорка для обуви",
+          "category": "Boot care"
+        },
+        {
+          "english": "Boot-hook",
+          "russian": "крючок для подвешивания сапог",
+          "category": "Boot care"
+        },
+        {
+          "english": "Boot-jack",
+          "russian": "холуй, упор для снимания сапог",
+          "category": "Boot care"
+        },
+        {
+          "english": "Cleaning kit",
+          "russian": "принадлежности для чистки обуви",
+          "category": "Boot care"
+        },
+        {
+          "english": "Polishing bone",
+          "russian": "брусок для натирания обуви",
+          "category": "Boot care"
+        },
+        {
+          "english": "To bone",
+          "russian": "полировать",
+          "category": "Boot care"
+        },
+        {
+          "english": "To pull on one's boots",
+          "russian": "надевать сапоги",
+          "category": "Dressing"
+        },
+        {
+          "english": "To take off one's boots",
+          "russian": "снимать сапоги",
+          "category": "Dressing"
+        }
+      ]
+    }
+  ],
+  "word_count": 100,
+  "next_quiz": "english-7",
+  "content_version": "b64b0646ee9b54cb24f1ff0d2ad031b3df84b923a67b0ad3898eca53bfe92f04"
+}

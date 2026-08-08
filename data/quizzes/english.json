@@ -1,0 +1,597 @@
+{
+  "type": "vocabulary",
+  "title": "Экстерьер лошади",
+  "slug": "english",
+  "published": true,
+  "publication_date": "2026-08-04T15:48:00+00:00",
+  "difficulty": "low",
+  "short_description": "Эта викторина поможет выучить английские названия частей тела лошади и элементов ее экстерьера. Пройдемся по строению коня — от головы до кончика хвоста и отдельным анатомическим деталям.",
+  "intro": "Эта викторина поможет выучить английские названия частей тела лошади и элементов ее экстерьера. Пройдемся по строению коня — от головы до кончика хвоста и отдельным анатомическим деталям.",
+  "cover": "img/covers/English_01.webp",
+  "tags": [
+    "dictionary",
+    "exterior",
+    "anatomy"
+  ],
+  "parts": [
+    {
+      "id": "706c1635-41d7-48aa-9957-86937ef9789a",
+      "title": "Часть 1",
+      "word_count": 29,
+      "vocabulary": [
+        {
+          "english": "Poll",
+          "russian": "затылок",
+          "category": ""
+        },
+        {
+          "english": "Forehead",
+          "russian": "лоб",
+          "category": ""
+        },
+        {
+          "english": "Curb groove (chin groove)",
+          "russian": "подбородок",
+          "category": ""
+        },
+        {
+          "english": "Ribs",
+          "russian": "ребра",
+          "category": ""
+        },
+        {
+          "english": "Elbow",
+          "russian": "локоть",
+          "category": ""
+        },
+        {
+          "english": "Tail",
+          "russian": "хвост",
+          "category": ""
+        },
+        {
+          "english": "Crest",
+          "russian": "гребень шеи",
+          "category": ""
+        },
+        {
+          "english": "Withers",
+          "russian": "холка",
+          "category": ""
+        },
+        {
+          "english": "Flank",
+          "russian": "подвздох",
+          "category": ""
+        },
+        {
+          "english": "Loins",
+          "russian": "поясница",
+          "category": ""
+        },
+        {
+          "english": "Croup",
+          "russian": "круп",
+          "category": ""
+        },
+        {
+          "english": "Point of hip",
+          "russian": "маклок",
+          "category": ""
+        },
+        {
+          "english": "Dock",
+          "russian": "репица хвоста",
+          "category": ""
+        },
+        {
+          "english": "Sheath",
+          "russian": "крайняя плоть",
+          "category": ""
+        },
+        {
+          "english": "Shoulder (shoulder blade)",
+          "russian": "лопатка",
+          "category": ""
+        },
+        {
+          "english": "Point of shoulder",
+          "russian": "плечевой сустав",
+          "category": ""
+        },
+        {
+          "english": "Upper arm",
+          "russian": "плечо (от локтя до плечевого сустава)",
+          "category": ""
+        },
+        {
+          "english": "Chestnut",
+          "russian": "каштан",
+          "category": ""
+        },
+        {
+          "english": "Knee",
+          "russian": "запястный сустав (колено передней ноги)",
+          "category": ""
+        },
+        {
+          "english": "Cannon bone",
+          "russian": "пясть (плюсна)",
+          "category": ""
+        },
+        {
+          "english": "Fetlock",
+          "russian": "путовый сустав",
+          "category": ""
+        },
+        {
+          "english": "Pastern",
+          "russian": "бабка (путо)",
+          "category": ""
+        },
+        {
+          "english": "Hoof",
+          "russian": "копыто",
+          "category": ""
+        },
+        {
+          "english": "Thigh",
+          "russian": "бедро",
+          "category": ""
+        },
+        {
+          "english": "Stifle",
+          "russian": "колено (задняя нога)",
+          "category": ""
+        },
+        {
+          "english": "Second thigh (gaskin)",
+          "russian": "голень",
+          "category": ""
+        },
+        {
+          "english": "Hock",
+          "russian": "скакательный сустав",
+          "category": ""
+        },
+        {
+          "english": "Forelock",
+          "russian": "челка",
+          "category": ""
+        },
+        {
+          "english": "Mane",
+          "russian": "грива",
+          "category": ""
+        }
+      ]
+    },
+    {
+      "id": "f4321573-9eed-480d-a52b-cf53e2825bdd",
+      "title": "Часть 2",
+      "word_count": 39,
+      "vocabulary": [
+        {
+          "english": "Coarse head",
+          "russian": "грубая голова",
+          "category": "Head"
+        },
+        {
+          "english": "Straight head",
+          "russian": "прямая голова",
+          "category": "Head"
+        },
+        {
+          "english": "Wedge-shaped head",
+          "russian": "клинообразная голова",
+          "category": "Head"
+        },
+        {
+          "english": "Concave profile head",
+          "russian": "голова с вогнутым профилем",
+          "category": "Head"
+        },
+        {
+          "english": "Dish-nosed head (dished face)",
+          "russian": "щучья голова",
+          "category": "Head"
+        },
+        {
+          "english": "Arched face (convex profile)",
+          "russian": "горбоносая голова",
+          "category": "Head"
+        },
+        {
+          "english": "Roman-nosed head",
+          "russian": "баранья голова",
+          "category": "Head"
+        },
+        {
+          "english": "Low-set neck",
+          "russian": "горизонтально поставленная шея",
+          "category": "Neck"
+        },
+        {
+          "english": "Sloping neck (oblique neck)",
+          "russian": "косо поставленная шея",
+          "category": "Neck"
+        },
+        {
+          "english": "Arched neck (curved neck)",
+          "russian": "изогнутая шея",
+          "category": "Neck"
+        },
+        {
+          "english": "Swan-necked",
+          "russian": "лебединая шея",
+          "category": "Neck"
+        },
+        {
+          "english": "Ewe-necked",
+          "russian": "оленья шея",
+          "category": "Neck"
+        },
+        {
+          "english": "Low-set neck",
+          "russian": "шея с низким выходом",
+          "category": "Neck"
+        },
+        {
+          "english": "High-set neck",
+          "russian": "шея с высоким выходом",
+          "category": "Neck"
+        },
+        {
+          "english": "Crested neck",
+          "russian": "шея с развитым гребнем",
+          "category": "Neck"
+        },
+        {
+          "english": "Hollow chest",
+          "russian": "неглубокая, плоская грудь",
+          "category": "Chest"
+        },
+        {
+          "english": "Deep chest",
+          "russian": "глубокая грудь",
+          "category": "Chest"
+        },
+        {
+          "english": "Chicken-breasted chest",
+          "russian": "соколиная грудь",
+          "category": "Chest"
+        },
+        {
+          "english": "Pigeon-breasted chest",
+          "russian": "козья грудь",
+          "category": "Chest"
+        },
+        {
+          "english": "Thick in front chest (carry chested)",
+          "russian": "львиная грудь",
+          "category": "Chest"
+        },
+        {
+          "english": "Flat ribs",
+          "russian": "плоские ребра",
+          "category": "Ribs"
+        },
+        {
+          "english": "Curved ribs (well-sprung ribs)",
+          "russian": "изогнутые ребра",
+          "category": "Ribs"
+        },
+        {
+          "english": "Straight back",
+          "russian": "прямая спина",
+          "category": "Back"
+        },
+        {
+          "english": "Dipped back (sway back, hollow back)",
+          "russian": "седлистая спина",
+          "category": "Back"
+        },
+        {
+          "english": "Arched back",
+          "russian": "выпуклая, горбатая спина",
+          "category": "Back"
+        },
+        {
+          "english": "Roach-backed back",
+          "russian": "карпообразная спина",
+          "category": "Back"
+        },
+        {
+          "english": "Lean withers",
+          "russian": "острая холка",
+          "category": "Withers"
+        },
+        {
+          "english": "Thin withers (bony withers)",
+          "russian": "худая холка",
+          "category": "Withers"
+        },
+        {
+          "english": "Thick withers",
+          "russian": "толстая холка",
+          "category": "Withers"
+        },
+        {
+          "english": "Pronounced withers",
+          "russian": "хорошо выраженная холка",
+          "category": "Withers"
+        },
+        {
+          "english": "Poorly defined withers",
+          "russian": "сухая, отекшая холка",
+          "category": "Withers"
+        },
+        {
+          "english": "Pendulous belly",
+          "russian": "висячий живот",
+          "category": "Belly"
+        },
+        {
+          "english": "Pot-bellied belly",
+          "russian": "сенной живот",
+          "category": "Belly"
+        },
+        {
+          "english": "Cow-bellied belly",
+          "russian": "коровий живот",
+          "category": "Belly"
+        },
+        {
+          "english": "Tucked-up belly",
+          "russian": "впалый живот",
+          "category": "Belly"
+        },
+        {
+          "english": "Herring-gutted belly (greyhound-like belly)",
+          "russian": "подтянутый живот",
+          "category": "Belly"
+        },
+        {
+          "english": "Level loins",
+          "russian": "прямая поясница",
+          "category": "Loins"
+        },
+        {
+          "english": "Sunken loins",
+          "russian": "мягкая поясница",
+          "category": "Loins"
+        },
+        {
+          "english": "Weak loins",
+          "russian": "запавшая поясница",
+          "category": "Loins"
+        }
+      ]
+    },
+    {
+      "id": "6d5ef36f-0ce9-4044-8e27-e5dfa7cb8026",
+      "title": "Часть 3",
+      "word_count": 43,
+      "vocabulary": [
+        {
+          "english": "Flat croup",
+          "russian": "прямой круп",
+          "category": "Croup"
+        },
+        {
+          "english": "Sloping croup (goose-rumped croup)",
+          "russian": "свислый круп",
+          "category": "Croup"
+        },
+        {
+          "english": "Sharp croup",
+          "russian": "крышеобразный круп",
+          "category": "Croup"
+        },
+        {
+          "english": "Oval croup",
+          "russian": "овальный круп",
+          "category": "Croup"
+        },
+        {
+          "english": "Too high croup (overbuilt croup)",
+          "russian": "высокий, перестроенный круп",
+          "category": "Croup"
+        },
+        {
+          "english": "Pointed hips (ragged hips)",
+          "russian": "острые маклоки",
+          "category": "Hip"
+        },
+        {
+          "english": "Prominent hips",
+          "russian": "выступающие маклоки",
+          "category": "Hip"
+        },
+        {
+          "english": "High-set tail",
+          "russian": "высоко приставленный хвост",
+          "category": "Tail"
+        },
+        {
+          "english": "Low-set tail",
+          "russian": "низко приставленный хвост",
+          "category": "Tail"
+        },
+        {
+          "english": "Deep-set tail",
+          "russian": "прижатый хвост",
+          "category": "Tail"
+        },
+        {
+          "english": "Rat tail",
+          "russian": "крысиный хвост",
+          "category": "Tail"
+        },
+        {
+          "english": "Tail carriage",
+          "russian": "постановка хвоста",
+          "category": "Tail"
+        },
+        {
+          "english": "Nicking of tail",
+          "russian": "подрезание мышц репицы для высокой постановки хвоста",
+          "category": "Tail"
+        },
+        {
+          "english": "Docking of tail",
+          "russian": "купирование хвоста",
+          "category": "Tail"
+        },
+        {
+          "english": "Straight shoulder (upright shoulder)",
+          "russian": "прямая лопатка",
+          "category": "Shoulder"
+        },
+        {
+          "english": "Oblique shoulder",
+          "russian": "косо поставленная лопатка",
+          "category": "Shoulder"
+        },
+        {
+          "english": "Sloping shoulder",
+          "russian": "косая лопатка",
+          "category": "Shoulder"
+        },
+        {
+          "english": "Lean shoulder (clean shoulder)",
+          "russian": "сухая лопатка",
+          "category": "Shoulder"
+        },
+        {
+          "english": "Loaded shoulder (coarse shoulder)",
+          "russian": "перегруженная лопатка",
+          "category": "Shoulder"
+        },
+        {
+          "english": "Loose shoulder (weak shoulder)",
+          "russian": "свободная лопатка",
+          "category": "Shoulder"
+        },
+        {
+          "english": "Sloping upper arm",
+          "russian": "косое плечо",
+          "category": ""
+        },
+        {
+          "english": "Loose elbow (weak elbow)",
+          "russian": "свободный локоть",
+          "category": "Elbow"
+        },
+        {
+          "english": "Elbows out (inclined outwards)",
+          "russian": "отставленный локоть",
+          "category": "Elbow"
+        },
+        {
+          "english": "Elbows in (inclined inwards)",
+          "russian": "прижатый локоть",
+          "category": "Elbow"
+        },
+        {
+          "english": "Tied-in elbow",
+          "russian": "«связанный» локоть",
+          "category": "Elbow"
+        },
+        {
+          "english": "Wide forearm (large forearm)",
+          "russian": "широкое предплечье",
+          "category": ""
+        },
+        {
+          "english": "Rounded knee (buck-knee, over on the knee)",
+          "russian": "козинец",
+          "category": "Knee"
+        },
+        {
+          "english": "Well-defined knee",
+          "russian": "выраженное запястье",
+          "category": "Knee"
+        },
+        {
+          "english": "Knotted knee",
+          "russian": "перехват под запястьем",
+          "category": "Knee"
+        },
+        {
+          "english": "Tied-in below the knee",
+          "russian": "подхват, утончение под запястьем",
+          "category": "Knee"
+        },
+        {
+          "english": "Clearly defined cannon",
+          "russian": "сухая пясть (плюсна)",
+          "category": ""
+        },
+        {
+          "english": "Upright pastern",
+          "russian": "прямые бабки (пута)",
+          "category": ""
+        },
+        {
+          "english": "Too long pastern",
+          "russian": "провисшие («медвежьи») бабки (пута)",
+          "category": ""
+        },
+        {
+          "english": "Lean stifle",
+          "russian": "выраженное, хорошо очерченное колено",
+          "category": ""
+        },
+        {
+          "english": "Open stifle",
+          "russian": "колено с открытым углом",
+          "category": ""
+        },
+        {
+          "english": "Full gaskin (full second thigh)",
+          "russian": "голень с развитыми «штанами»",
+          "category": ""
+        },
+        {
+          "english": "Close to the ground hock",
+          "russian": "длинная голень",
+          "category": "Hock"
+        },
+        {
+          "english": "Hock at an open angle",
+          "russian": "скакательный сустав с открытым углом",
+          "category": "Hock"
+        },
+        {
+          "english": "Straight hock",
+          "russian": "прямой (острый) скакательный сустав",
+          "category": "Hock"
+        },
+        {
+          "english": "Poorly defined hock",
+          "russian": "отекший скакательный сустав",
+          "category": "Hock"
+        },
+        {
+          "english": "Spongy hock",
+          "russian": "сырой скакательный сустав",
+          "category": "Hock"
+        },
+        {
+          "english": "Woolly outline hock",
+          "russian": "плохо выраженный скакательный сустав",
+          "category": "Hock"
+        },
+        {
+          "english": "Sickle hock",
+          "russian": "саблистый скакательный сустав",
+          "category": "Hock"
+        }
+      ]
+    }
+  ],
+  "word_count": 111,
+  "next_quiz": "english-2",
+  "content_version": "092b2165871878e61f2105a4a949236f52d515ff58e0523d070700a81964eb43"
+}

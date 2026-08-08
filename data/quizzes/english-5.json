@@ -1,0 +1,551 @@
+{
+  "type": "vocabulary",
+  "title": "Здоровье лошади",
+  "slug": "english-5",
+  "published": true,
+  "publication_date": "2026-08-05T10:03:00+00:00",
+  "difficulty": "medium",
+  "short_description": "Словарная викторина по английским терминам, связанным с ветеринарией и здоровьем лошадей. Она включает лексику о болезнях, травмах, симптомах, диагностике, лечении и профилактике.",
+  "intro": "Словарная викторина по английским терминам, связанным с ветеринарией и здоровьем лошадей. Она включает лексику о болезнях, травмах, симптомах, диагностике, лечении и профилактике.",
+  "cover": "img/covers/English_05.webp",
+  "tags": [
+    "dictionary",
+    "health",
+    "treating"
+  ],
+  "previous_quiz": "english-4",
+  "parts": [
+    {
+      "id": "9bb4b3a9-5895-44b5-99cc-d04fa91f41b1",
+      "title": "Здоровье",
+      "word_count": 53,
+      "vocabulary": [
+        {
+          "english": "Central nervous system",
+          "russian": "центральная нервная система",
+          "category": "Body systems"
+        },
+        {
+          "english": "Nerve",
+          "russian": "нерв",
+          "category": "Body systems"
+        },
+        {
+          "english": "Digestive system",
+          "russian": "пищеварительная система",
+          "category": "Body systems"
+        },
+        {
+          "english": "Respiratory system",
+          "russian": "дыхательная система",
+          "category": "Body systems"
+        },
+        {
+          "english": "Circulatory system",
+          "russian": "система кровообращения",
+          "category": "Body systems"
+        },
+        {
+          "english": "Musculoskeletal system",
+          "russian": "скелет и мускулатура",
+          "category": "Body systems"
+        },
+        {
+          "english": "Urinary system",
+          "russian": "выделительная система",
+          "category": "Body systems"
+        },
+        {
+          "english": "Discharge",
+          "russian": "выделение",
+          "category": "General veterinary"
+        },
+        {
+          "english": "Electrolytes",
+          "russian": "электролиты",
+          "category": "General veterinary"
+        },
+        {
+          "english": "Hormones",
+          "russian": "гормоны",
+          "category": "General veterinary"
+        },
+        {
+          "english": "Bacteria",
+          "russian": "бактерия",
+          "category": "General veterinary"
+        },
+        {
+          "english": "Virus",
+          "russian": "вирус",
+          "category": "General veterinary"
+        },
+        {
+          "english": "Veterinarian (vet)",
+          "russian": "ветеринар, разг. вет",
+          "category": "General veterinary"
+        },
+        {
+          "english": "Vaccination",
+          "russian": "вакцинация",
+          "category": "General veterinary"
+        },
+        {
+          "english": "Drug (medical)",
+          "russian": "лекарство",
+          "category": "Drugs"
+        },
+        {
+          "english": "Drug (prohibited substance)",
+          "russian": "допинг, запрещенное средство",
+          "category": "Drugs"
+        },
+        {
+          "english": "To give a drug",
+          "russian": "давать лекарство",
+          "category": "Drugs"
+        },
+        {
+          "english": "Worming",
+          "russian": "дегельминтизация",
+          "category": "Drugs"
+        },
+        {
+          "english": "Anthelmintic (wormer)",
+          "russian": "антигельминтик",
+          "category": "Drugs"
+        },
+        {
+          "english": "Analgesic",
+          "russian": "анальгетик",
+          "category": "Drugs"
+        },
+        {
+          "english": "Anaesthetic",
+          "russian": "анестетик",
+          "category": "Drugs"
+        },
+        {
+          "english": "Antibiotic",
+          "russian": "антибиотик",
+          "category": "Drugs"
+        },
+        {
+          "english": "Anti-inflammatory",
+          "russian": "противовоспалительное средство",
+          "category": "Drugs"
+        },
+        {
+          "english": "Antiseptic",
+          "russian": "антисептик",
+          "category": "Drugs"
+        },
+        {
+          "english": "Muscle-relaxant drug",
+          "russian": "средство, расслабляющее мускулатуру, релаксатор",
+          "category": "Drugs"
+        },
+        {
+          "english": "Ointment",
+          "russian": "мазь",
+          "category": "Drugs"
+        },
+        {
+          "english": "Lotion",
+          "russian": "настойка, микстура",
+          "category": "Drugs"
+        },
+        {
+          "english": "Tranquilizer",
+          "russian": "транквилизатор",
+          "category": "Drugs"
+        },
+        {
+          "english": "Powder",
+          "russian": "порошок",
+          "category": "Drugs"
+        },
+        {
+          "english": "To geld (to castrate)",
+          "russian": "кастрировать, холостить",
+          "category": "Procedures"
+        },
+        {
+          "english": "Castration",
+          "russian": "кастрация",
+          "category": "Procedures"
+        },
+        {
+          "english": "To destroy a horse",
+          "russian": "усыплять лошадь",
+          "category": "Procedures"
+        },
+        {
+          "english": "Bandages",
+          "russian": "бинты",
+          "category": "Procedures"
+        },
+        {
+          "english": "Cold compression",
+          "russian": "холодный компресс",
+          "category": "Procedures"
+        },
+        {
+          "english": "Cold hosing",
+          "russian": "обливание",
+          "category": "Procedures"
+        },
+        {
+          "english": "Dressings",
+          "russian": "перевязочный материал",
+          "category": "Procedures"
+        },
+        {
+          "english": "Faradism",
+          "russian": "электростимуляция",
+          "category": "Procedures"
+        },
+        {
+          "english": "First aid",
+          "russian": "первая помощь",
+          "category": "Procedures"
+        },
+        {
+          "english": "First-aid kit",
+          "russian": "аптечка первой помощи",
+          "category": "Procedures"
+        },
+        {
+          "english": "Laser therapy",
+          "russian": "лазерная терапия",
+          "category": "Procedures"
+        },
+        {
+          "english": "Nerve-blocking",
+          "russian": "блокада нерва",
+          "category": "Procedures"
+        },
+        {
+          "english": "To perform surgery",
+          "russian": "осуществлять хирургическое вмешательство, делать операцию",
+          "category": "Procedures"
+        },
+        {
+          "english": "Pin firing",
+          "russian": "прижигание",
+          "category": "Procedures"
+        },
+        {
+          "english": "Poultice",
+          "russian": "припарка, горячий компресс",
+          "category": "Procedures"
+        },
+        {
+          "english": "Pressure bandage",
+          "russian": "давящая повязка",
+          "category": "Procedures"
+        },
+        {
+          "english": "Swab",
+          "russian": "тампон",
+          "category": "Procedures"
+        },
+        {
+          "english": "Syringe",
+          "russian": "шприц",
+          "category": "Procedures"
+        },
+        {
+          "english": "Ultrasound scanning",
+          "russian": "ультразвуковое исследование",
+          "category": "Diagnostics"
+        },
+        {
+          "english": "X-ray",
+          "russian": "рентгеновское исследование",
+          "category": "Diagnostics"
+        },
+        {
+          "english": "Bloodiest",
+          "russian": "анализ крови",
+          "category": "Diagnostics"
+        },
+        {
+          "english": "Flexion test",
+          "russian": "проба на сгибание",
+          "category": "Diagnostics"
+        },
+        {
+          "english": "Microscopic examination",
+          "russian": "исследование под микроскопом",
+          "category": "Diagnostics"
+        },
+        {
+          "english": "Body temperature",
+          "russian": "температура тела",
+          "category": "Diagnostics"
+        }
+      ]
+    },
+    {
+      "id": "0343dadd-3117-4483-931f-3f5f461844c0",
+      "title": "Болезни",
+      "word_count": 50,
+      "vocabulary": [
+        {
+          "english": "Injury",
+          "russian": "травма",
+          "category": "Injuries"
+        },
+        {
+          "english": "Weakness",
+          "russian": "слабость",
+          "category": "General"
+        },
+        {
+          "english": "Disease",
+          "russian": "болезнь",
+          "category": "General"
+        },
+        {
+          "english": "Contagious",
+          "russian": "заразный, инфекционный",
+          "category": "General"
+        },
+        {
+          "english": "Vice",
+          "russian": "порок, дурная привычка, недостаток",
+          "category": "General"
+        },
+        {
+          "english": "Abscess",
+          "russian": "абсцесс",
+          "category": "Diseases"
+        },
+        {
+          "english": "African horse sickness",
+          "russian": "африканская чума лошадей",
+          "category": "Diseases"
+        },
+        {
+          "english": "Anaemia",
+          "russian": "анемия",
+          "category": "Diseases"
+        },
+        {
+          "english": "Ascarids",
+          "russian": "аскариды",
+          "category": "Diseases"
+        },
+        {
+          "english": "Arthritis",
+          "russian": "артрит",
+          "category": "Diseases"
+        },
+        {
+          "english": "Azoturia (Monday morning disease)",
+          "russian": "азотурия, болезнь рывка, утренняя болезнь понедельника",
+          "category": "Diseases"
+        },
+        {
+          "english": "Back sores (saddle sores)",
+          "russian": "нагнет (травмы спины седлом)",
+          "category": "Injuries"
+        },
+        {
+          "english": "Bleeding",
+          "russian": "кровотечение",
+          "category": "Injuries"
+        },
+        {
+          "english": "Blindness",
+          "russian": "слепота",
+          "category": "Diseases"
+        },
+        {
+          "english": "Bog spavin",
+          "russian": "наливы скакательных суставов",
+          "category": "Diseases"
+        },
+        {
+          "english": "Bone spavin",
+          "russian": "шпат",
+          "category": "Diseases"
+        },
+        {
+          "english": "Bots",
+          "russian": "оводы желудочные",
+          "category": "Diseases"
+        },
+        {
+          "english": "Broken knees",
+          "russian": "облысение запястного сустава",
+          "category": "Injuries"
+        },
+        {
+          "english": "Broken wind (whistling)",
+          "russian": "рорер, свистящее удушье",
+          "category": "Diseases"
+        },
+        {
+          "english": "Bruise",
+          "russian": "ушиб",
+          "category": "Injuries"
+        },
+        {
+          "english": "Burn",
+          "russian": "ожог",
+          "category": "Injuries"
+        },
+        {
+          "english": "Cancer",
+          "russian": "рак",
+          "category": "Diseases"
+        },
+        {
+          "english": "Capped elbow",
+          "russian": "бурсит локтя",
+          "category": "Diseases"
+        },
+        {
+          "english": "Capped hock",
+          "russian": "пипгак",
+          "category": "Diseases"
+        },
+        {
+          "english": "Chronic obstructive pulmonary disease (COPD)",
+          "russian": "хроническая обструктивная болезнь легких (ХОБЛ), эмфизема",
+          "category": "Diseases"
+        },
+        {
+          "english": "Colic",
+          "russian": "колики",
+          "category": "Diseases"
+        },
+        {
+          "english": "Concussion",
+          "russian": "сотрясение",
+          "category": "Injuries"
+        },
+        {
+          "english": "Conjunctivitis",
+          "russian": "конъюнктивит",
+          "category": "Diseases"
+        },
+        {
+          "english": "Contagious equine metritis",
+          "russian": "контагиозный метрит лошадей",
+          "category": "Diseases"
+        },
+        {
+          "english": "Corns",
+          "russian": "намины",
+          "category": "Diseases"
+        },
+        {
+          "english": "Cough",
+          "russian": "кашель",
+          "category": "Diseases"
+        },
+        {
+          "english": "Cracked heels (mud fever)",
+          "russian": "мокрецы, подседы",
+          "category": "Diseases"
+        },
+        {
+          "english": "Curb",
+          "russian": "курба",
+          "category": "Diseases"
+        },
+        {
+          "english": "Dehydration",
+          "russian": "обезвоживание",
+          "category": "Diseases"
+        },
+        {
+          "english": "Diarrhea",
+          "russian": "диарея",
+          "category": "Diseases"
+        },
+        {
+          "english": "Dust allergy",
+          "russian": "аллергия дыхательных путей, астма",
+          "category": "Diseases"
+        },
+        {
+          "english": "Eczema",
+          "russian": "экзема",
+          "category": "Diseases"
+        },
+        {
+          "english": "Equine influenza",
+          "russian": "грипп",
+          "category": "Diseases"
+        },
+        {
+          "english": "False curb",
+          "russian": "воспаление головки грифельной кости, ошибочно принимаемое за курбу",
+          "category": "Diseases"
+        },
+        {
+          "english": "Fever",
+          "russian": "жар",
+          "category": "General"
+        },
+        {
+          "english": "Fistulous withers",
+          "russian": "фистула холки",
+          "category": "Diseases"
+        },
+        {
+          "english": "Fracture",
+          "russian": "перелом, трещина",
+          "category": "Injuries"
+        },
+        {
+          "english": "Fungal infection",
+          "russian": "грибковое заболевание",
+          "category": "Diseases"
+        },
+        {
+          "english": "Glanders",
+          "russian": "сап",
+          "category": "Diseases"
+        },
+        {
+          "english": "Grass sickness",
+          "russian": "пастбищная тетания",
+          "category": "Diseases"
+        },
+        {
+          "english": "Heart diseases",
+          "russian": "заболевания сердца",
+          "category": "Diseases"
+        },
+        {
+          "english": "Hepatitis",
+          "russian": "гепатит",
+          "category": "Diseases"
+        },
+        {
+          "english": "Hernia",
+          "russian": "грыжа",
+          "category": "Diseases"
+        },
+        {
+          "english": "Inflammation",
+          "russian": "воспаление",
+          "category": "General"
+        },
+        {
+          "english": "Insect bite",
+          "russian": "укус насекомого",
+          "category": "Injuries"
+        }
+      ]
+    }
+  ],
+  "word_count": 103,
+  "next_quiz": "english-6",
+  "content_version": "13312bdb738aabc289069350f11679037b8a9549cd6d259415e56de30385b120"
+}

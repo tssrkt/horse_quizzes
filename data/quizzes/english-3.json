@@ -1,0 +1,997 @@
+{
+  "type": "vocabulary",
+  "title": "Содержание лошади",
+  "slug": "english-3",
+  "published": true,
+  "publication_date": "2026-08-05T08:55:00+00:00",
+  "difficulty": "medium",
+  "short_description": "Викторина по английским терминам, связанным с содержанием лошадей. Она включает лексику о конюшне, кормлении, чистке, ковке, а также инвентаре и предметах повседневного ухода.",
+  "intro": "Викторина по английским терминам, связанным с содержанием лошадей. Она включает лексику о конюшне, кормлении, чистке, ковке, а также инвентаре и предметах повседневного ухода.",
+  "cover": "img/covers/English_03.webp",
+  "tags": [
+    "dictionary",
+    "treating",
+    "health"
+  ],
+  "previous_quiz": "english-2",
+  "parts": [
+    {
+      "id": "5cb13e43-60b1-46ee-9d17-56359435be4a",
+      "title": "Конюшня",
+      "word_count": 39,
+      "vocabulary": [
+        {
+          "english": "Stable",
+          "russian": "брит. конюшня",
+          "category": "Stable"
+        },
+        {
+          "english": "Barn",
+          "russian": "амер. конюшня",
+          "category": "Stable"
+        },
+        {
+          "english": "Livery yard",
+          "russian": "брит. конюшня, в которой денники сдаются в аренду",
+          "category": "Stable"
+        },
+        {
+          "english": "Livery",
+          "russian": "брит. арендная плата",
+          "category": "Stable"
+        },
+        {
+          "english": "Boarding",
+          "russian": "амер. арендная плата",
+          "category": "Stable"
+        },
+        {
+          "english": "Full livery",
+          "russian": "брит. полная аренда (все услуги включены)",
+          "category": "Stable"
+        },
+        {
+          "english": "Part livery",
+          "russian": "брит. аренда с кормлением и отбивкой денника",
+          "category": "Stable"
+        },
+        {
+          "english": "DIY livery (do it yourself livery)",
+          "russian": "аренда денника, при которой уход за лошадью обеспечивает владелец",
+          "category": "Stable"
+        },
+        {
+          "english": "Working livery",
+          "russian": "брит. постой под прокат",
+          "category": "Stable"
+        },
+        {
+          "english": "Box (loose-box)",
+          "russian": "денник",
+          "category": "Stable"
+        },
+        {
+          "english": "Stall",
+          "russian": "стойло",
+          "category": "Stable"
+        },
+        {
+          "english": "Paddock",
+          "russian": "левада (паддок)",
+          "category": "Stable"
+        },
+        {
+          "english": "Manger",
+          "russian": "кормушка, ясли",
+          "category": "Stable"
+        },
+        {
+          "english": "Hay-net",
+          "russian": "рептух",
+          "category": "Stable"
+        },
+        {
+          "english": "Self-filling water bowl (automatic drinking bowl, water bowl)",
+          "russian": "автоматическая поилка",
+          "category": "Stable"
+        },
+        {
+          "english": "Tack room",
+          "russian": "каптерка",
+          "category": "Stable"
+        },
+        {
+          "english": "Bedding (bed, litter)",
+          "russian": "подстилка",
+          "category": "Stable"
+        },
+        {
+          "english": "Deep litter",
+          "russian": "глубокая подстилка",
+          "category": "Stable"
+        },
+        {
+          "english": "Straw",
+          "russian": "солома",
+          "category": "Stable"
+        },
+        {
+          "english": "Sawdust",
+          "russian": "опилки",
+          "category": "Stable"
+        },
+        {
+          "english": "Shavings",
+          "russian": "стружки",
+          "category": "Stable"
+        },
+        {
+          "english": "Shredded paper",
+          "russian": "бумажная резка",
+          "category": "Stable"
+        },
+        {
+          "english": "Droppings (muck)",
+          "russian": "навоз",
+          "category": "Stable"
+        },
+        {
+          "english": "Wheelbarrow",
+          "russian": "тачка",
+          "category": "Stable"
+        },
+        {
+          "english": "Pitchfork (fork)",
+          "russian": "вилы",
+          "category": "Stable"
+        },
+        {
+          "english": "Broom (yard broom)",
+          "russian": "метла",
+          "category": "Stable"
+        },
+        {
+          "english": "Bucket",
+          "russian": "ведро",
+          "category": "Stable"
+        },
+        {
+          "english": "Shovel",
+          "russian": "совковая лопата",
+          "category": "Stable"
+        },
+        {
+          "english": "To muck out (to clean the box)",
+          "russian": "отбивать денник",
+          "category": "Stable"
+        },
+        {
+          "english": "To remove the droppings (to skip out)",
+          "russian": "удалять навоз",
+          "category": "Stable"
+        },
+        {
+          "english": "To water",
+          "russian": "поить",
+          "category": "Stable"
+        },
+        {
+          "english": "To feed",
+          "russian": "кормить",
+          "category": "Stable"
+        },
+        {
+          "english": "To make up the bed",
+          "russian": "обновлять подстилку",
+          "category": "Stable"
+        },
+        {
+          "english": "To pick out the foot",
+          "russian": "крючковать копыта",
+          "category": "Stable"
+        },
+        {
+          "english": "To rub",
+          "russian": "растирать",
+          "category": "Stable"
+        },
+        {
+          "english": "To massage",
+          "russian": "массировать",
+          "category": "Stable"
+        },
+        {
+          "english": "Quick grooming (quartering)",
+          "russian": "быстрая чистка (перед работой)",
+          "category": "Stable"
+        },
+        {
+          "english": "Thorough grooming",
+          "russian": "основательная чистка",
+          "category": "Stable"
+        },
+        {
+          "english": "Horse walker",
+          "russian": "водилка",
+          "category": "Stable"
+        }
+      ]
+    },
+    {
+      "id": "ea1c42f1-641d-4e54-b851-aec9e3f2809a",
+      "title": "Уход",
+      "word_count": 57,
+      "vocabulary": [
+        {
+          "english": "To groom (to brush)",
+          "russian": "чистить лошадь",
+          "category": "Grooming"
+        },
+        {
+          "english": "Curry comb",
+          "russian": "скребница",
+          "category": "Grooming"
+        },
+        {
+          "english": "Body brush",
+          "russian": "щетка для чистки тела лошади",
+          "category": "Grooming"
+        },
+        {
+          "english": "Dandy brush",
+          "russian": "жесткая щетка для удаления грязи и чистки нижних частей ног, гривы и хвоста",
+          "category": "Grooming"
+        },
+        {
+          "english": "Water brush",
+          "russian": "щетка для мытья гривы",
+          "category": "Grooming"
+        },
+        {
+          "english": "Comb",
+          "russian": "расческа",
+          "category": "Grooming"
+        },
+        {
+          "english": "Hoof pick",
+          "russian": "копытный крючок",
+          "category": "Grooming"
+        },
+        {
+          "english": "To wash a horse",
+          "russian": "мыть лошадь",
+          "category": "Grooming"
+        },
+        {
+          "english": "Sweat scraper",
+          "russian": "скребок для пота",
+          "category": "Grooming"
+        },
+        {
+          "english": "Sponge",
+          "russian": "губка",
+          "category": "Grooming"
+        },
+        {
+          "english": "Chamois leather",
+          "russian": "кусок замши для мытья",
+          "category": "Grooming"
+        },
+        {
+          "english": "Stable rubber",
+          "russian": "тряпка",
+          "category": "Grooming"
+        },
+        {
+          "english": "To clean horse's face with wet rag",
+          "russian": "вытирать морду лошади влажной тряпкой",
+          "category": "Grooming"
+        },
+        {
+          "english": "To clip",
+          "russian": "стричь шерсть лошади",
+          "category": "Grooming"
+        },
+        {
+          "english": "To pull the mane",
+          "russian": "продергивать гриву",
+          "category": "Grooming"
+        },
+        {
+          "english": "Pulling of mane",
+          "russian": "продергивание гривы",
+          "category": "Grooming"
+        },
+        {
+          "english": "Pulled mane",
+          "russian": "продернутая грива",
+          "category": "Grooming"
+        },
+        {
+          "english": "Hogged mane",
+          "russian": "брит. грива, постриженная «под ноль»",
+          "category": "Grooming"
+        },
+        {
+          "english": "Roached mane",
+          "russian": "амер. грива, постриженная «под ноль»",
+          "category": "Grooming"
+        },
+        {
+          "english": "To plait",
+          "russian": "заплетать гриву",
+          "category": "Grooming"
+        },
+        {
+          "english": "Plaiting thread",
+          "russian": "ленточки для заплетания гривы",
+          "category": "Grooming"
+        },
+        {
+          "english": "Plaiting band",
+          "russian": "резинки, пластырь, колечки для заплетания гривы",
+          "category": "Grooming"
+        },
+        {
+          "english": "Plaited mane",
+          "russian": "брит. заплетенная грива",
+          "category": "Grooming"
+        },
+        {
+          "english": "French braid",
+          "russian": "амер. заплетенная грива",
+          "category": "Grooming"
+        },
+        {
+          "english": "Continental braid",
+          "russian": "гриву из косичек и хвостиков, заплетенную узором-сеткой",
+          "category": "Grooming"
+        },
+        {
+          "english": "Bridle path",
+          "russian": "выбритый короткий участок гривы под затылочным ремнем",
+          "category": "Grooming"
+        },
+        {
+          "english": "Saddle soap",
+          "russian": "седельное мыло",
+          "category": "Grooming"
+        },
+        {
+          "english": "Hoof grease (hoof oil)",
+          "russian": "масло для копыт",
+          "category": "Grooming"
+        },
+        {
+          "english": "Halter (head collar)",
+          "russian": "недоуздок",
+          "category": "Grooming"
+        },
+        {
+          "english": "Head-rope (tether, lead-rope)",
+          "russian": "чомбур",
+          "category": "Grooming"
+        },
+        {
+          "english": "Chain",
+          "russian": "цепочка",
+          "category": "Grooming"
+        },
+        {
+          "english": "Rug (blanket, sheet)",
+          "russian": "попона",
+          "category": "Grooming"
+        },
+        {
+          "english": "Sweat rug (sweat sheet)",
+          "russian": "утепленная попона",
+          "category": "Grooming"
+        },
+        {
+          "english": "Anti-sweat sheet",
+          "russian": "сушильная попона",
+          "category": "Grooming"
+        },
+        {
+          "english": "Cooler (cooler rug)",
+          "russian": "кулер (попона для охлаждения после работы)",
+          "category": "Grooming"
+        },
+        {
+          "english": "Stable blanket",
+          "russian": "денниковая попона",
+          "category": "Grooming"
+        },
+        {
+          "english": "Rain sheet",
+          "russian": "дождевая прогулочная попона",
+          "category": "Grooming"
+        },
+        {
+          "english": "Quarter sheet",
+          "russian": "попона под седло",
+          "category": "Grooming"
+        },
+        {
+          "english": "Fly sheet",
+          "russian": "сетка от мух",
+          "category": "Grooming"
+        },
+        {
+          "english": "Hood",
+          "russian": "капор",
+          "category": "Grooming"
+        },
+        {
+          "english": "Roller (surcingle)",
+          "russian": "подпруга, трок поверх попоны",
+          "category": "Grooming"
+        },
+        {
+          "english": "Bandages",
+          "russian": "бинты",
+          "category": "Grooming"
+        },
+        {
+          "english": "Boots",
+          "russian": "ногавки",
+          "category": "Grooming"
+        },
+        {
+          "english": "Knee-caps",
+          "russian": "ногавки на передние ноги",
+          "category": "Grooming"
+        },
+        {
+          "english": "Over-reach boots",
+          "russian": "колокольчики",
+          "category": "Grooming"
+        },
+        {
+          "english": "Twitch",
+          "russian": "закрутка",
+          "category": "Grooming"
+        },
+        {
+          "english": "Coat",
+          "russian": "шерсть",
+          "category": "Grooming"
+        },
+        {
+          "english": "Changing the coat (moulting)",
+          "russian": "линька, смена волоса",
+          "category": "Grooming"
+        },
+        {
+          "english": "Trimming",
+          "russian": "стрижка (подстригание)",
+          "category": "Grooming"
+        },
+        {
+          "english": "To thin",
+          "russian": "прореживать",
+          "category": "Grooming"
+        },
+        {
+          "english": "To hog",
+          "russian": "коротко подстригать гриву",
+          "category": "Grooming"
+        },
+        {
+          "english": "To dock",
+          "russian": "купировать хвост",
+          "category": "Grooming"
+        },
+        {
+          "english": "Short tail (docked tail)",
+          "russian": "купированный хвост",
+          "category": "Grooming"
+        },
+        {
+          "english": "Clippers",
+          "russian": "машинка для стрижки",
+          "category": "Grooming"
+        },
+        {
+          "english": "Clipper blades",
+          "russian": "ножи (гребенка) для машинки",
+          "category": "Grooming"
+        },
+        {
+          "english": "Hunter clip",
+          "russian": "охотничья стрижка",
+          "category": "Grooming"
+        },
+        {
+          "english": "Blanket clip",
+          "russian": "попонная стрижка",
+          "category": "Grooming"
+        }
+      ]
+    },
+    {
+      "id": "ad234b9c-e810-4713-b669-c122d29b4728",
+      "title": "Корм",
+      "word_count": 32,
+      "vocabulary": [
+        {
+          "english": "Feed stuff",
+          "russian": "корм",
+          "category": "Feed"
+        },
+        {
+          "english": "Daily ration",
+          "russian": "дневной рацион",
+          "category": "Rations"
+        },
+        {
+          "english": "Maintenance ration",
+          "russian": "поддерживающее кормление",
+          "category": "Rations"
+        },
+        {
+          "english": "Working ration",
+          "russian": "рабочий рацион",
+          "category": "Rations"
+        },
+        {
+          "english": "Supplementary ration",
+          "russian": "дополнительный рацион, добавки",
+          "category": "Rations"
+        },
+        {
+          "english": "Dry food (roughage)",
+          "russian": "грубый корм",
+          "category": "Feed"
+        },
+        {
+          "english": "Forage",
+          "russian": "фураж",
+          "category": "Feed"
+        },
+        {
+          "english": "Hay",
+          "russian": "сено",
+          "category": "Feed"
+        },
+        {
+          "english": "Ohaylage",
+          "russian": "сенаж",
+          "category": "Feed"
+        },
+        {
+          "english": "Corn",
+          "russian": "зерно",
+          "category": "Feed"
+        },
+        {
+          "english": "Oats",
+          "russian": "овес",
+          "category": "Feed"
+        },
+        {
+          "english": "Barley",
+          "russian": "ячмень",
+          "category": "Feed"
+        },
+        {
+          "english": "Compound feed",
+          "russian": "комбинированный корм",
+          "category": "Feed"
+        },
+        {
+          "english": "Crushed (rolled)",
+          "russian": "дробленый",
+          "category": "Feed"
+        },
+        {
+          "english": "Sugar beet",
+          "russian": "сухой жом сахарной свеклы",
+          "category": "Feed"
+        },
+        {
+          "english": "Maize",
+          "russian": "кукуруза, маис",
+          "category": "Feed"
+        },
+        {
+          "english": "Chaff",
+          "russian": "резка",
+          "category": "Feed"
+        },
+        {
+          "english": "Nuts (cubes)",
+          "russian": "гранулированный корм",
+          "category": "Feed"
+        },
+        {
+          "english": "Coarse mix",
+          "russian": "комбикорм",
+          "category": "Feed"
+        },
+        {
+          "english": "Green fodder",
+          "russian": "зеленый корм",
+          "category": "Feed"
+        },
+        {
+          "english": "Lucerne (alfalfa)",
+          "russian": "люцерна",
+          "category": "Feed"
+        },
+        {
+          "english": "Clover",
+          "russian": "клевер",
+          "category": "Feed"
+        },
+        {
+          "english": "Carrot",
+          "russian": "морковь",
+          "category": "Feed"
+        },
+        {
+          "english": "Bran",
+          "russian": "отруби",
+          "category": "Feed"
+        },
+        {
+          "english": "Linseed",
+          "russian": "льняное семя",
+          "category": "Feed"
+        },
+        {
+          "english": "Molasses",
+          "russian": "меласса",
+          "category": "Feed"
+        },
+        {
+          "english": "Titbit",
+          "russian": "лакомство",
+          "category": "Feed"
+        },
+        {
+          "english": "Sugar",
+          "russian": "сахар",
+          "category": "Feed"
+        },
+        {
+          "english": "Oil",
+          "russian": "масло",
+          "category": "Feed"
+        },
+        {
+          "english": "Salt (salt lick)",
+          "russian": "соль, соль-лизунец",
+          "category": "Feed"
+        },
+        {
+          "english": "Mash",
+          "russian": "солод, дробина",
+          "category": "Feed"
+        },
+        {
+          "english": "Water",
+          "russian": "вода",
+          "category": "Feed"
+        }
+      ]
+    },
+    {
+      "id": "f00c73f5-6a5c-429b-896f-abdddb31e39a",
+      "title": "Корм 2",
+      "word_count": 27,
+      "vocabulary": [
+        {
+          "english": "First cut",
+          "russian": "первый укос",
+          "category": "Pasture"
+        },
+        {
+          "english": "Second cut",
+          "russian": "отава (второй укос)",
+          "category": "Pasture"
+        },
+        {
+          "english": "Grass",
+          "russian": "трава",
+          "category": "Pasture"
+        },
+        {
+          "english": "Pasture",
+          "russian": "пастбище",
+          "category": "Pasture"
+        },
+        {
+          "english": "Grassland",
+          "russian": "пастбище",
+          "category": "Pasture"
+        },
+        {
+          "english": "Meadow",
+          "russian": "луг",
+          "category": "Pasture"
+        },
+        {
+          "english": "To graze",
+          "russian": "пастись",
+          "category": "Pasture"
+        },
+        {
+          "english": "Turning out to grass",
+          "russian": "выпас, пастьба",
+          "category": "Pasture"
+        },
+        {
+          "english": "Shelter",
+          "russian": "затишье; приют (например, для старых животных)",
+          "category": "Pasture"
+        },
+        {
+          "english": "Fencing",
+          "russian": "изгородь",
+          "category": "Pasture"
+        },
+        {
+          "english": "Poisonous plants",
+          "russian": "ядовитые растения",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Autumn crocus (meadow saffron, meadow-saffron)",
+          "russian": "безвременник осенний (Colchicum autumnale L.)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Box",
+          "russian": "самшит",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Bracken",
+          "russian": "папоротник (Pteridium aquilinum)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Buttercup",
+          "russian": "лютик (Ranunculus L.)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Deadly nightshade",
+          "russian": "белладонна (Atropa belladonna)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Foxglove",
+          "russian": "наперстянка (Digitalis purpurea)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Hemlock",
+          "russian": "вех ядовитый (Cicuta virosa), болиголов (Conium maculatum)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Henbane",
+          "russian": "паслен черный (Hyoscyamus niger)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Horsetails",
+          "russian": "хвощ полевой (Equisetum arvense)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Laburnum",
+          "russian": "ракитник, золотой дождь (Laburnum)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Lupin",
+          "russian": "люпин (Lupinus)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Privet",
+          "russian": "бирючина обыкновенная (Ligustrum)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Ragwort",
+          "russian": "крестовник обыкновенный (Senecio jacobaea)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Robinia (false acacia)",
+          "russian": "белая акация (Robinia pseudoacacia)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "St. John's wort (rose of Sharon)",
+          "russian": "зверобой (Hypericum)",
+          "category": "Poisonous plants"
+        },
+        {
+          "english": "Yew",
+          "russian": "тис ягодный (Taxus baccata)",
+          "category": "Poisonous plants"
+        }
+      ]
+    },
+    {
+      "id": "f19757a4-ab25-4650-8eb8-bfa1c30d47b7",
+      "title": "Ковка",
+      "word_count": 33,
+      "vocabulary": [
+        {
+          "english": "Farriery (forge, smithy)",
+          "russian": "ковальское дело",
+          "category": "Farriery"
+        },
+        {
+          "english": "Shoeing",
+          "russian": "ковка",
+          "category": "Farriery"
+        },
+        {
+          "english": "Farrier",
+          "russian": "коваль",
+          "category": "Farriery"
+        },
+        {
+          "english": "Blacksmith",
+          "russian": "кузнец",
+          "category": "Farriery"
+        },
+        {
+          "english": "Barehoof foot",
+          "russian": "неподкованное копыто",
+          "category": "Hoof anatomy"
+        },
+        {
+          "english": "Sole",
+          "russian": "подошва",
+          "category": "Hoof anatomy"
+        },
+        {
+          "english": "Frog",
+          "russian": "стрелка",
+          "category": "Hoof anatomy"
+        },
+        {
+          "english": "Heel",
+          "russian": "пятка",
+          "category": "Hoof anatomy"
+        },
+        {
+          "english": "Toe",
+          "russian": "зацеп",
+          "category": "Hoof anatomy"
+        },
+        {
+          "english": "Wall (horny wall)",
+          "russian": "копытная стенка",
+          "category": "Hoof anatomy"
+        },
+        {
+          "english": "White line",
+          "russian": "белая линия",
+          "category": "Hoof anatomy"
+        },
+        {
+          "english": "Flat foot (dropped sole)",
+          "russian": "плоское копыто",
+          "category": "Hoof defects"
+        },
+        {
+          "english": "Club foot",
+          "russian": "торцовое копыто",
+          "category": "Hoof defects"
+        },
+        {
+          "english": "Hoof-bound (contracted foot)",
+          "russian": "сжатое копыто",
+          "category": "Hoof defects"
+        },
+        {
+          "english": "Sandcrack",
+          "russian": "трещина копыта",
+          "category": "Hoof defects"
+        },
+        {
+          "english": "Seedy toe",
+          "russian": "пустая стенка копыта",
+          "category": "Hoof defects"
+        },
+        {
+          "english": "Sheared heels",
+          "russian": "разная высота латеральной и медиальной сторон пятки копыта",
+          "category": "Hoof defects"
+        },
+        {
+          "english": "Prick by farrier",
+          "russian": "заковка",
+          "category": "Hoof defects"
+        },
+        {
+          "english": "Gravel",
+          "russian": "«пробой»",
+          "category": "Hoof defects"
+        },
+        {
+          "english": "Trimming",
+          "russian": "расчистка",
+          "category": "Farriery"
+        },
+        {
+          "english": "To pare the hoof",
+          "russian": "расчищать копыто",
+          "category": "Farriery"
+        },
+        {
+          "english": "Shoe",
+          "russian": "подкова",
+          "category": "Farriery"
+        },
+        {
+          "english": "To shoe a horse",
+          "russian": "подковать лошадь",
+          "category": "Farriery"
+        },
+        {
+          "english": "To remove the shoe",
+          "russian": "снять подкову",
+          "category": "Farriery"
+        },
+        {
+          "english": "Nail",
+          "russian": "гвоздь",
+          "category": "Farriery"
+        },
+        {
+          "english": "Clenches",
+          "russian": "заклепки",
+          "category": "Farriery"
+        },
+        {
+          "english": "Drawing knife",
+          "russian": "копытный нож",
+          "category": "Farriery"
+        },
+        {
+          "english": "Hoof cutters",
+          "russian": "ковочные клещи",
+          "category": "Farriery"
+        },
+        {
+          "english": "Rasp",
+          "russian": "рашпиль",
+          "category": "Farriery"
+        },
+        {
+          "english": "Studs (screw-in calks)",
+          "russian": "подковные шипы",
+          "category": "Farriery"
+        },
+        {
+          "english": "Hot shoeing",
+          "russian": "горячая ковка",
+          "category": "Farriery"
+        },
+        {
+          "english": "Cold shoeing",
+          "russian": "холодная ковка",
+          "category": "Farriery"
+        },
+        {
+          "english": "Putting hoof oil (grease)",
+          "russian": "нанесение масла (мази) на копыто",
+          "category": "Farriery"
+        }
+      ]
+    }
+  ],
+  "word_count": 188,
+  "next_quiz": "english-4",
+  "content_version": "73d5c82befc8f04855eed777f94ace7444d916681f49997b949bb1f01b96420f"
+}

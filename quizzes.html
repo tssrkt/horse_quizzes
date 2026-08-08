@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+  <meta name="description" content="Познавательные викторины о породах, мастях, генетике, анатомии, уходе за лошадьми и конной терминологии.">
+  <title>Викторины о лошадках</title>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Викторины о лошадках">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Викторины о лошадках">
+  <meta property="og:description" content="Познавательные викторины о породах, мастях, генетике, анатомии, уходе за лошадьми и конной терминологии.">
+  <meta property="og:url" content="https://tssrkt.github.io/horse_quizzes/quizzes.html">
+  <meta property="og:image" content="https://tssrkt.github.io/horse_quizzes/img/site-preview.webp">
+  <meta property="og:image:alt" content="Викторины о лошадках">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Викторины о лошадках">
+  <meta name="twitter:description" content="Познавательные викторины о породах, мастях, генетике, анатомии, уходе за лошадьми и конной терминологии.">
+  <meta name="twitter:image" content="https://tssrkt.github.io/horse_quizzes/img/site-preview.webp">
+  <link rel="canonical" href="https://tssrkt.github.io/horse_quizzes/quizzes.html">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/common.js" defer></script>
+  <script src="js/urls.js" defer></script>
+  <script src="js/quizzes.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К основному содержимому</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Quiz — главная"><img class="brand-logo" src="img/icons/logo-60x180.png" alt="" width="180" height="60"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Открыть меню"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+      <nav class="site-nav" id="site-menu" aria-label="Основная навигация">
+        <a href="index.html">Главная</a><a href="quizzes.html" aria-current="page">Викторины</a><a href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="page-main container">
+    <header class="page-heading">
+      <h1 class="page-title">Выберите викторину</h1>
+      <p class="catalog-intro" id="catalog-intro" aria-live="polite">Если не знаете, с чего начать, то рекомендуем самую простую викторину: <a href="v/horse-breeds/" target="_blank" rel="noopener noreferrer">«Породы лошадей»</a>. Если мастевое разнообразие интересует больше, то откройте <a href="v/horse-colors/" target="_blank" rel="noopener noreferrer">«Масти лошадей»</a>. Если желаете проверить общие знания о конях, выберите <a href="v/horse-words/" target="_blank" rel="noopener noreferrer">«Лошадиные термины»</a>, а чтобы разобраться в наследовании признаков, пройдите <a href="v/horse-genetics/" target="_blank" rel="noopener noreferrer">«Генетику лошади»</a>. В конце каждой из них будет ссылка на следующую викторину той же серии, ну или не будет, это уже как повезет. Также обратите внимание, что если на обложке изображена только мордочка, значит, внутри есть фотографии, а если — конь целиком, значит, фоток нет. Желаем приятного прохождения викторин!</p>
+      <template id="catalog-intro-english">На данной вкладке есть два типа викторин: <strong>словарные</strong>, где вы изучаете конные термины на буржуйском, и <strong>английские</strong>, которые представляют собой переводы существующих на сайте русских викторин. Если в конном английском вы пока не сильны, рекомендуем начать со словарных, а именно с <a href="v/english/">«Экстерьера лошади»</a>, или с любой другой — сложность у них примерно одинаковая. Собрать их всех в кучку можно, нажав на тег «Словарь», а по тыку на тег «English» получите только викторины, переведенные на английский. Также обратите внимание, что на обложках всех словарных викторин изображен всадник на лошади (или всадница). Приятного изучения.</template>
+    </header>
+    <div class="catalog-tabs" id="catalog-start" role="tablist" aria-label="Раздел каталога">
+      <button class="catalog-tab" id="catalog-tab-quizzes" type="button" role="tab" data-section="quizzes" aria-selected="true" aria-controls="catalog-tools">Викторины</button>
+      <button class="catalog-tab" id="catalog-tab-english" type="button" role="tab" data-section="english" aria-selected="false" aria-controls="catalog-tools" tabindex="-1" aria-label="Английский для конников"><span class="catalog-tab-label-wide">Английский для конников</span><span class="catalog-tab-label-short" aria-hidden="true">Английский</span></button>
+    </div>
+    <section class="catalog-tools" id="catalog-tools" role="tabpanel" aria-labelledby="catalog-tab-quizzes">
+      <div class="tag-list" id="tag-list" aria-live="polite"><span class="tag is-muted">Загрузка…</span></div>
+      <div class="sort-tool"><div class="sort-control" id="sort-control"><select id="sort-criterion" aria-label="Критерий сортировки"><option value="date">По дате</option><option value="difficulty">По сложности</option><option value="title">По алфавиту</option></select><button class="sort-direction" type="button" data-sort-direction title="Сначала новые" aria-label="Сначала новые">↓</button></div></div>
+    </section>
+    <p class="catalog-status" id="catalog-status" role="status" hidden></p>
+    <section aria-labelledby="quiz-list-title"><h2 class="visually-hidden" id="quiz-list-title">Список викторин</h2><div class="quiz-list" id="quiz-list" aria-live="polite" aria-busy="true"><div class="loading-card">Загружаем викторины…</div></div></section>
+    <nav class="pagination" id="pagination" aria-label="Страницы каталога" hidden></nav>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><p>© <span data-current-year></span> Quiz / Викторины</p><a href="contacts.html">О проекте</a></div></footer>
+</body>
+</html>
