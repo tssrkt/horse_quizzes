@@ -286,7 +286,7 @@ class BuildSiteTests(unittest.TestCase):
         self.assertEqual(chain["rare-horse-colors"]["previous_quiz"], "horse-colors")
         self.assertEqual(chain["rare-horse-colors"]["next_quiz"], "very-rare-colors")
         self.assertEqual(chain["pinto-colors-3"]["previous_quiz"], "pinto-colors-2")
-        self.assertNotIn("next_quiz", chain["pinto-colors-3"])
+        self.assertEqual(chain["pinto-colors-3"]["next_quiz"], "coat-phenomena")
 
     def test_regular_previous_quiz_rejects_cross_type_self_cycle_and_branch(self):
         quiz = self.horse()
