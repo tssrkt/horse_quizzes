@@ -7,1009 +7,1009 @@
   "source_revision": "c89db8c51635d4be94a181fa08518cfcaba3bf31af81698040d21c0aeaeef47d",
   "mode": "created",
   "fields": {
-    "title": "Амуничные термины",
-    "short_description": "Конная амуниция — это не просто ремни и железо, а сложная система, обеспечивающая безопасность всадника и комфорт животного. Проверим насколько хорошо вы в ней разбираетесь?",
-    "intro": "Конная амуниция — это не просто ремни и железо, а сложная система, обеспечивающая безопасность всадника и комфорт животного. Проверим насколько хорошо вы в ней разбираетесь?",
+    "title": "Horse Tack Terms",
+    "short_description": "Horse tack is more than just straps and metal: it is a complex system designed to keep the rider safe and the horse comfortable. How well do you know it?",
+    "intro": "Horse tack is more than just straps and metal: it is a complex system designed to keep the rider safe and the horse comfortable. How well do you know it?",
     "questionImagesAlt": ""
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Уздечка — это:",
-        "explanation": "Уздечка — это полный рабочий комплект конной амуниции для управления лошадью, который собирается из трех самостоятельных элементов: оголовья (системы ремней на голове), удила (железного трензеля или мундштука во рту) и пристегнутого к ним повода, который всадник держит в руках. В конном спорте эти детали разделяют, так как ремни, железо и поводья всегда подбираются отдельно под индивидуальные размеры и анатомию конкретного животного, но только в сборе они образуют полноценную уздечку."
+        "question": "A bridle consists of:",
+        "explanation": "A bridle is the complete working set of tack used to control a horse. It consists of three separate elements: the headstall (the system of straps fitted around the horse’s head), the bit (such as a snaffle or curb bit in the mouth), and the reins attached to it and held by the rider. In equestrian sport these components are treated separately because the leatherwork, bit, and reins are selected individually to suit a particular horse’s size and anatomy, but together they form a complete bridle."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Оголовье, удила и повод"
+          "text": "Headstall, bit, and reins"
         },
         {
           "id": "answer-02",
-          "text": "Недоуздок, удила и повод"
+          "text": "Halter, bit, and reins"
         },
         {
           "id": "answer-03",
-          "text": "Подперсье, железо и мартингал"
+          "text": "Breastplate, bit, and martingale"
         },
         {
           "id": "answer-04",
-          "text": "Тарантас, трензель и вожжи"
+          "text": "Carriage, snaffle, and driving reins"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Что такое ногавки?",
-        "explanation": "Ногавки — это специальная защитная амуниция, которая надевается на нижнюю часть ног лошади (пясть, плюсну и путовые суставы) для защиты сухожилий и костей от механических травм во время тренировок или перевозок. Они изготавливаются из прочного пластика, кожи, неопрена или карбона и защищают конечности животного от случайных ударов собственными копытами (засечек), травм о препятствия в конкуре, а также поддерживают связочный аппарат при высоких нагрузках. В отличие от бинтов, ногавки надеваются и фиксируются на ноге за несколько секунд с помощью удобных липучек или быстрых застежек-крючков."
+        "question": "What are protective boots?",
+        "explanation": "Protective boots are pieces of horse tack fitted to the lower limbs—around the cannon bones, fetlocks, and associated structures—to protect tendons and bones from mechanical injury during training or transport. They may be made from tough plastic, leather, neoprene, or carbon fiber and help protect the legs from interference injuries caused by the horse’s own hooves, knocks against jumping obstacles, and high mechanical loads. Unlike bandages, boots can be fitted and secured within seconds using hook-and-loop straps or quick-release fastenings."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Часть экипировки всадника, защищающая его ноги"
+          "text": "Part of the rider’s equipment that protects the legs"
         },
         {
           "id": "answer-02",
-          "text": "Часть амуниции лошади, защищающая ее ноги"
+          "text": "Part of the horse’s tack that protects its legs"
         },
         {
           "id": "answer-03",
-          "text": "Дефекты экстерьера на ногах лошади"
+          "text": "Conformation defects of the horse’s legs"
         },
         {
           "id": "answer-04",
-          "text": "Недостатки экстерьера на ногах лошади"
+          "text": "Conformation faults of the horse’s legs"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что такое чумбур (чомбур)?",
-        "explanation": "Чомбур (или чумбур) — это специальный прочный канат, ремень или цепь длиной около двух метров, который пристегивается к недоуздку для ведения лошади в поводу или для её фиксации на привязи. Он используется для ежедневных манипуляций: вывода животного из денника в леваду, привязывания на развязках в проходе конюшни во время чистки, ковки или ветеринарных процедур. В отличие от повода, чомбур крепится к нижнему кольцу недоуздка под подбородком лошади и никогда не используется для верховой езды."
+        "question": "What is a lead rope?",
+        "explanation": "A lead rope is a strong rope, strap, or chain, usually around two meters long, that clips to a halter for leading a horse or tying it up. It is used for everyday handling, such as taking a horse from its stall to a paddock or securing it in cross-ties for grooming, farriery, or veterinary procedures. Unlike reins, a lead rope attaches to the lower ring of the halter beneath the horse’s chin and is never used for riding."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Длинная веревка для гонки"
+          "text": "A long line used for lunging"
         },
         {
           "id": "answer-02",
-          "text": "Железное приспособление во рту лошади"
+          "text": "A metal device placed in the horse’s mouth"
         },
         {
           "id": "answer-03",
-          "text": "Поводок для фиксации недоуздка"
+          "text": "A lead used with a halter"
         },
         {
           "id": "answer-04",
-          "text": "Ремень для затягивания седла"
+          "text": "A strap used to tighten the saddle"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что такое мартингалы?",
-        "explanation": "Мартингал — это элемент конной амуниции, который не дает лошади задирать голову выше критического уровня во время езды. Он крепится к подпруге, проходит между передними ногами лошади и раздваивается на два ремня с кольцами, через которые продеваются поводья."
+        "question": "What is a martingale?",
+        "explanation": "A martingale is a piece of tack designed to prevent a horse from raising its head excessively while being ridden. A running martingale attaches to the girth, passes between the horse’s front legs, and divides into two straps ending in rings through which the reins run."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитная обувь на копыта"
+          "text": "Protective footwear for the hooves"
         },
         {
           "id": "answer-02",
-          "text": "Ремень против задирания головы"
+          "text": "A strap that limits excessive head raising"
         },
         {
           "id": "answer-03",
-          "text": "Мягкая подстилка под седло"
+          "text": "A soft pad placed under the saddle"
         },
         {
           "id": "answer-04",
-          "text": "Железные шпоры на сапоги"
+          "text": "Metal spurs worn on riding boots"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Что такое колокольчики?",
-        "explanation": "Колокольчики — это защитные резиновые или неопреновые аксессуары куполообразной формы, которые надеваются на копыта лошади. Они защищают венчик и пятку копыта от травм, если лошадь случайно наступает задними ногами на передние (засекается), а также не дают животному наступить подковами на собственные пятки и сорвать их."
+        "question": "What are bell boots?",
+        "explanation": "Bell boots, also known as overreach boots, are protective rubber or neoprene boots shaped like a bell and worn around the horse’s hoof. They protect the coronary band and heel from injury when a hind hoof overreaches and strikes or steps on a front hoof. They also help prevent the horse from stepping on the heels of its front shoes and pulling them off."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитные резиновые колпачки на копыта"
+          "text": "Protective rubber boots worn around the hooves"
         },
         {
           "id": "answer-02",
-          "text": "Звонкие бубенцы на дугу упряжи"
+          "text": "Jingling bells attached to a harness bow"
         },
         {
           "id": "answer-03",
-          "text": "Специальные щетки для чистки шерсти"
+          "text": "Special brushes used for grooming the coat"
         },
         {
           "id": "answer-04",
-          "text": "Металлические застежки на попоне"
+          "text": "Metal fasteners on a horse blanket"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Что такое шнеллер?",
-        "explanation": "Шнеллер — это специальный металлический замок на корпусе седла, к которому крепится путлище со стременем. Его главным назначением является безопасность: при падении всадника, если его нога застревает в стремени, замок шнеллера автоматически раскрывается и отпускает кожаный ремень, предотвращая опасное волочение человека за лошадью."
+        "question": "What is a stirrup bar?",
+        "explanation": "A stirrup bar is a metal fitting on the saddle tree from which the stirrup leather and stirrup are suspended. Its main purpose is safety: on a correctly designed safety stirrup bar, the leather can release if the rider falls and a foot becomes trapped in the stirrup, reducing the risk of the rider being dragged by the horse."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Металлическое соединение на поводьях"
+          "text": "A metal connector on the reins"
         },
         {
           "id": "answer-02",
-          "text": "Острая шпора на сапог"
+          "text": "A sharp spur fitted to a riding boot"
         },
         {
           "id": "answer-03",
-          "text": "Предохранительный замок для стремени"
+          "text": "A safety fitting for the stirrup leather"
         },
         {
           "id": "answer-04",
-          "text": "Длинный хлыст для выездки"
+          "text": "A long dressage whip"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Что такое темляк?",
-        "explanation": "Темляк — это прочный кожаный или тканевый ремешок в виде петли на конце рукоятки хлыста. Он надевается на кисть всадника, чтобы случайно не выпустить и не потерять хлыст во время верховой езды, а также позволяет освободить пальцы для работы поводьями, не бросая при этом хлыст."
+        "question": "What is a whip wrist loop?",
+        "explanation": "A whip wrist loop is a strong leather or fabric loop fitted to the end of a riding whip’s handle. It is slipped over the rider’s wrist to help prevent the whip from being dropped or lost while riding and allows the fingers to work the reins without letting go of the whip."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Петля на рукоятке хлыста"
+          "text": "A loop on the handle of a riding whip"
         },
         {
           "id": "answer-02",
-          "text": "Застежка на подпруге седла"
+          "text": "A buckle on the saddle girth"
         },
         {
           "id": "answer-03",
-          "text": "Ремешок для крепления шпор"
+          "text": "A strap used to attach spurs"
         },
         {
           "id": "answer-04",
-          "text": "Мягкая меховая подкладка под капсюль"
+          "text": "A soft fleece pad under the noseband"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что такое шамбон?",
-        "explanation": "Шамбон — это вспомогательный ремень (кожаный шнур с резинками), который используется при работе лошади на корде для правильного развития мышц спины и шеи. Он крепится между передними ногами к подпруге, проходит через затылочный ремень и пристегивается к кольцам трензеля, мягко принуждая лошадь опускать голову вниз и расслаблять шею."
+        "question": "What is a chambon?",
+        "explanation": "A chambon is a training aid, usually made from leather or cord with elastic sections, used mainly when lunging to encourage correct development of the horse’s back and neck muscles. It attaches to the girth between the front legs, runs up toward the poll, and connects to the bit rings, encouraging the horse to lower its head and relax the neck."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Железная деталь для фиксации стремени"
+          "text": "A metal fitting used to secure a stirrup"
         },
         {
           "id": "answer-02",
-          "text": "Кожаная накладка на задние ногавки"
+          "text": "A leather insert on hind protective boots"
         },
         {
           "id": "answer-03",
-          "text": "Ремень для тренировки на корде"
+          "text": "A training aid used for lunging"
         },
         {
           "id": "answer-04",
-          "text": "Защитная попона от сильного дождя"
+          "text": "A protective rain sheet"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Что такое гог (гог-шамбон)?",
-        "explanation": "Гог (гог-шамбон) — это вспомогательный повод, который, в отличие от классического шамбона, можно использовать не только на корде, но и при езде верхом. Он заставляет лошадь не просто опускать голову, а правильно округлять шею и сдавать в затылке, формируя треугольник из ремней от подпруги через затылок к трензелю."
+        "question": "What is a gogue?",
+        "explanation": "A gogue is a training aid that, unlike a classic chambon, can be used both for lunging and, in certain configurations, under saddle. It encourages the horse not only to lower its head but also to round the neck and flex correctly at the poll, using a system of straps or cords running from the girth through the poll area to the bit."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитная маска от назойливых мух"
+          "text": "A protective fly mask"
         },
         {
           "id": "answer-02",
-          "text": "Повод для округления шеи лошади"
+          "text": "A training aid that encourages the horse to round its neck"
         },
         {
           "id": "answer-03",
-          "text": "Крепление для походных сумок седла"
+          "text": "An attachment for saddle bags"
         },
         {
           "id": "answer-04",
-          "text": "Зимний чехол для согревания копыт"
+          "text": "A winter hoof warmer"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Что такое подхвостник?",
-        "explanation": "Подхвостник — это ремень, который крепится к задней луке седла, проходит под хвостом лошади (через репицу) и удерживает седло от сползания вперед на шею и холку. Он незаменим при езде на лошадях с плоской холкой, круглым типом спины, на пони, а также во время крутых спусков в горной местности."
+        "question": "What is a crupper?",
+        "explanation": "A crupper is a strap attached to the back of the saddle that runs along the horse’s back and forms a padded loop under the tail. Its purpose is to prevent the saddle from sliding forward toward the withers and neck. It is especially useful on horses with low or flat withers, round backs, ponies, and when riding down steep slopes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мягкая подушка под заднюю луку"
+          "text": "A soft pad under the cantle"
         },
         {
           "id": "answer-02",
-          "text": "Застежка для задней попоны"
+          "text": "A fastener for the rear of a horse blanket"
         },
         {
           "id": "answer-03",
-          "text": "Ремень против сползания седла вперед"
+          "text": "A strap that prevents the saddle from sliding forward"
         },
         {
           "id": "answer-04",
-          "text": "Защитный чехол для хвоста коня"
+          "text": "A protective cover for the horse’s tail"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Что такое потник?",
-        "explanation": "Потник — это плотная войлочная, кожаная или меховая подкладка, которая кладется под седло для защиты спины лошади от потертостей, травм и сильного давления. В отличие от тонкого декоративного вальтрапа, потник имеет анатомическую форму, отлично амортизирует удары, равномерно распределяет вес всадника и эффективно впитывает пот животного во время работы."
+        "question": "What is a saddle blanket?",
+        "explanation": "A saddle blanket is a thick felt, leather, or fleece pad placed beneath the saddle to protect the horse’s back from rubbing, injury, and excessive pressure. Compared with a thin decorative saddle cloth, it provides more cushioning, helps distribute the rider’s weight, and absorbs sweat during work."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Тканевая салфетка для протирания морды"
+          "text": "A cloth used to wipe the horse’s face"
         },
         {
           "id": "answer-02",
-          "text": "Резиновый коврик на пол денника"
+          "text": "A rubber mat for the stall floor"
         },
         {
           "id": "answer-03",
-          "text": "Специальная попона для сушки шерсти"
+          "text": "A special cooler used to dry the coat"
         },
         {
           "id": "answer-04",
-          "text": "Плотная амортизирующая подкладка под седло"
+          "text": "A thick cushioning pad placed under the saddle"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Что такое вальтрап?",
-        "explanation": "Вальтрап — это стеганое тканевое покрывало, которое кладется под седло поверх потника или вместо него, чтобы защитить спину лошади от натирания и впитать лишний пот. Он предохраняет дорогое кожаное седло от загрязнения кожными выделениями, а в современном конном спорте также выполняет эстетическую функцию, подбираясь по цвету к остальной экипировке."
+        "question": "What is a saddle cloth?",
+        "explanation": "A saddle cloth is a quilted textile pad placed under the saddle, either over another underpad or on its own, to protect the horse’s back from rubbing and absorb excess sweat. It also helps protect an expensive leather saddle from sweat and dirt and, in modern equestrian sport, is often chosen to coordinate with the rest of the horse’s equipment."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мягкая зимняя попона с капором"
+          "text": "A warm winter blanket with a neck cover"
         },
         {
           "id": "answer-02",
-          "text": "Стеганое тканевое покрывало под седло"
+          "text": "A quilted cloth placed under the saddle"
         },
         {
           "id": "answer-03",
-          "text": "Защитный чехол для хранения уздечки"
+          "text": "A protective cover for storing a bridle"
         },
         {
           "id": "answer-04",
-          "text": "Ремень для фиксации хвоста лошади"
+          "text": "A strap used to secure the horse’s tail"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что такое капсюль?",
-        "explanation": "Капсюль — это ремень на уздечке, который застегивается вокруг храпа (морды) лошади и не дает ей широко открывать рот, чтобы животное не могло уйти от давления удил и команд всадника. Он помогает стабилизировать железо во рту коня, защищает его челюсть от травм и крепится строго так, чтобы под ремнем свободно помещались два пальца, не мешая дыханию."
+        "question": "What is a noseband?",
+        "explanation": "A noseband is a strap on the bridle that fastens around the horse’s muzzle. Depending on its design, it helps limit excessive opening of the mouth so the horse cannot evade the action of the bit and the rider’s aids. It can also help stabilize the bit. It must be fitted correctly and never overtightened so that it does not interfere with breathing or cause discomfort."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Металлическая застежка на поводьях"
+          "text": "A metal fastener on the reins"
         },
         {
           "id": "answer-02",
-          "text": "Ремень вокруг морды против открывания рта"
+          "text": "A strap around the muzzle that limits excessive mouth opening"
         },
         {
           "id": "answer-03",
-          "text": "Защитный пластиковый колпачок на копыто"
+          "text": "A protective plastic cap for the hoof"
         },
         {
           "id": "answer-04",
-          "text": "Мягкая меховая подкладка под подпругу"
+          "text": "A soft fleece pad under the girth"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что такое хакамора?",
-        "explanation": "Хакамора — это особый вид безтрензельного оголовья (уздечки), который позволяет управлять лошадью без использования железного удила во рту. Она работает за счет системы рычагов, которые при натяжении поводьев оказывают мягкое или строгое давление на чувствительные зоны морды: переносицу (храп), подбородок и затылок животного."
+        "question": "What is a hackamore?",
+        "explanation": "A hackamore is a type of bitless bridle that allows the rider to control the horse without a metal bit in the mouth. Mechanical hackamores use leverage to apply pressure to sensitive areas of the head, especially the nose, chin groove, and poll, when the reins are engaged."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Уздечка без железа во рту"
+          "text": "A bridle that works without a bit in the mouth"
         },
         {
           "id": "answer-02",
-          "text": "Длинный хлыст для выездки"
+          "text": "A long dressage whip"
         },
         {
           "id": "answer-03",
-          "text": "Кожаный чехол для хвоста"
+          "text": "A leather cover for the tail"
         },
         {
           "id": "answer-04",
-          "text": "Железный замок на седле"
+          "text": "A metal fitting on the saddle"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Что такое трензель?",
-        "explanation": "Трензель — это классическое металлическое или резиновое удило, состоящее из грызла и двух колец, которое вставляется в рот лошади на беззубый край челюсти. Он является главным элементом уздечки и мягко передает команды всадника от поводьев на язык, губы и нижнюю челюсть животного, позволяя управлять его направлением и скоростью."
+        "question": "What is a snaffle bit?",
+        "explanation": "A snaffle is a common type of metal or rubber bit whose mouthpiece lies in the toothless bars of the horse’s mouth and is attached to rings or similar cheek pieces. It is a basic component of many bridles and transmits the rider’s rein aids to the lips, tongue, and lower jaw, helping control direction and speed."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитный колпачок на копыто"
+          "text": "A protective cap for the hoof"
         },
         {
           "id": "answer-02",
-          "text": "Ремень для затягивания подпруги"
+          "text": "A strap used to tighten the girth"
         },
         {
           "id": "answer-03",
-          "text": "Разновидность железного удила во рту лошади"
+          "text": "A type of bit placed in the horse’s mouth"
         },
         {
           "id": "answer-04",
-          "text": "Замок для крепления стремени"
+          "text": "A fitting used to attach a stirrup leather"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что такое мундштук?",
-        "explanation": "Мундштук — это строгое железное удило с боковыми рычагами, которое вставляется в рот лошади на беззубый край челюсти в дополнение к трензелю или вместо него. За счет рычажного механизма он оказывает сильное давление на нижнюю челюсть, язык и затылок животного, позволяя всаднику выполнять филигранные и точные команды в высшей школе выездки."
+        "question": "What is a curb bit?",
+        "explanation": "A curb bit is a leverage bit with shanks, placed in the horse’s mouth on the toothless bars of the jaw. It may be used together with a bradoon in a double bridle or, depending on the design and discipline, on its own. Through leverage it can apply stronger pressure to the lower jaw, tongue, chin groove, and poll, allowing very precise rein aids in advanced riding."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Застежка для крепления попоны"
+          "text": "A fastener for securing a horse blanket"
         },
         {
           "id": "answer-02",
-          "text": "Строгое рычажное удило во рту"
+          "text": "A stronger leverage bit with shanks"
         },
         {
           "id": "answer-03",
-          "text": "Ремешок для пристегивания шпор"
+          "text": "A strap used to attach spurs"
         },
         {
           "id": "answer-04",
-          "text": "Мягкий кожаный недоуздок"
+          "text": "A soft leather halter"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что такое трок?",
-        "explanation": "Трок — это специальный широкий ремень (обычно из прочной ткани или кожи), который застегивается вокруг туловища лошади поверх попоны, чтобы надежно зафиксировать ее и не дать ей сползти или перекрутиться во время стояния в деннике или выгула. В отличие от подпруги, трок не крепится к седлу, а используется как самостоятельный фиксатор одежды для лошадей, часто имея мягкие подушечки по бокам от холки, чтобы избежать потертостей."
+        "question": "What is a blanket surcingle?",
+        "explanation": "A blanket surcingle is a broad, strong strap—usually made of sturdy webbing or leather—that fastens around the horse’s body over a blanket to keep it securely in place and prevent it from slipping or twisting in the stall or during turnout. Unlike a girth, it does not attach to a saddle and is used as an independent blanket fastener."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Железная деталь уздечки"
+          "text": "A metal part of the bridle"
         },
         {
           "id": "answer-02",
-          "text": "Кожаная петля на хлысте"
+          "text": "A leather loop on a whip"
         },
         {
           "id": "answer-03",
-          "text": "Ремень для фиксации попоны"
+          "text": "A strap used to secure a horse blanket"
         },
         {
           "id": "answer-04",
-          "text": "Длинный поводок для корды"
+          "text": "A long line used for lunging"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Что такое путлище?",
-        "explanation": "Путлище — это прочный кожаный или синтетический ремень, который соединяет седло со стременами. Он продевается в замок седла (шнеллер) и позволяет всаднику индивидуально регулировать длину подвеса стремени под рост и длину своих ног для правильной и безопасной посадки."
+        "question": "What is a stirrup leather?",
+        "explanation": "A stirrup leather is a strong leather or synthetic strap that connects the saddle to the stirrup. It runs over the stirrup bar and allows the rider to adjust the stirrup length to suit their height and leg length for a correct and secure riding position."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мягкая подкладка под подпругу"
+          "text": "A soft pad under the girth"
         },
         {
           "id": "answer-02",
-          "text": "Широкий пояс для крепления попоны"
+          "text": "A wide belt used to secure a blanket"
         },
         {
           "id": "answer-03",
-          "text": "Ремень вокруг морды лошади"
+          "text": "A strap around the horse’s muzzle"
         },
         {
           "id": "answer-04",
-          "text": "Ремень для подвешивания стремени"
+          "text": "A strap from which a stirrup hangs"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что такое лука?",
-        "explanation": "Лука — это выступающий изгиб переднего или заднего края седла, который образует его жесткий каркас и обеспечивает правильную посадку всадника. Передняя лука возвышается над холкой лошади, защищая ее от мышечных травм и потертостей, а задняя лука ограничивает сиденье сзади, не позволяя человеку соскользнуть с седла во время движения."
+        "question": "What are the pommel and cantle?",
+        "explanation": "The pommel and cantle are the raised front and rear parts of a saddle. The pommel forms the front of the saddle above the horse’s withers, while the cantle forms the raised rear boundary of the seat and helps support the rider’s position."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Длинный ремень для вождения коня"
+          "text": "A long strap used to lead a horse"
         },
         {
           "id": "answer-02",
-          "text": "Выступающий изгиб края седла"
+          "text": "The raised front and rear edges of a saddle"
         },
         {
           "id": "answer-03",
-          "text": "Защитный колпачок на копыто"
+          "text": "A protective cap for the hoof"
         },
         {
           "id": "answer-04",
-          "text": "Мягкая меховая попона"
+          "text": "A soft fleece horse blanket"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Что такое кордео?",
-        "explanation": "Кордео — это тонкий кожаный или веревочный обруч, который надевается на основание шеи лошади для управления ею без использования уздечки, недоуздка и железа. Этот инструмент применяется в мягких методиках тренировок (Natural Horsemanship) и работе на свободе, позволяя всаднику направлять и останавливать лошадь за счет веса своего тела, баланса и легкого прикосновения обруча к шее животного."
+        "question": "What is a cordeo?",
+        "explanation": "A cordeo, or neck rope, is a thin leather or rope loop placed around the base of the horse’s neck to allow riding without a bridle, halter, or bit. It is used in liberty work and some Natural Horsemanship methods, with the rider relying primarily on seat, balance, body cues, and light pressure from the neck rope to direct and stop the horse."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мягкая подушка под луку седла"
+          "text": "A soft pad under the saddle pommel"
         },
         {
           "id": "answer-02",
-          "text": "Защитная попона от насекомых"
+          "text": "A protective fly sheet"
         },
         {
           "id": "answer-03",
-          "text": "Длинный ремень для гонки коня"
+          "text": "A long line used for lunging"
         },
         {
           "id": "answer-04",
-          "text": "Обруч на шею для управления"
+          "text": "A neck rope used for control"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Что такое сайд-пул?",
-        "explanation": "Сайд-пул — это простая безтрензельная уздечка, которая управляет лошадью без железа во рту, оказывая давление на переносицу. Поводья пристегиваются к кольцам по бокам капсюля, что делает команды всадника понятными для лошади и мягкими для ее рта, поэтому сайд-пул часто используют для заездки молодых коней."
+        "question": "What is a side-pull?",
+        "explanation": "A side-pull is a simple bitless bridle that controls the horse without a bit by applying direct pressure to the nose. The reins attach to rings on the sides of the noseband, making the rein aids straightforward and gentle on the mouth. Side-pulls are often used when starting young horses."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мягкая шерстяная подкладка под подпругу"
+          "text": "A soft wool pad under the girth"
         },
         {
           "id": "answer-02",
-          "text": "Предохранительный замок на корпусе седла"
+          "text": "A safety fitting on the saddle"
         },
         {
           "id": "answer-03",
-          "text": "Безтрензельная уздечка с боковыми кольцами"
+          "text": "A bitless bridle with side rings"
         },
         {
           "id": "answer-04",
-          "text": "Ремень для фиксации зимней попоны"
+          "text": "A strap used to secure a winter blanket"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Что такое босал?",
-        "explanation": "Босал — это жесткое кольцо из сплетенной сыромятной кожи, которое надевается на морду лошади и является основой традиционного безтрензельного оголовья (хакаморы калифорнийского типа). Он управляет лошадью без железа во рту, оказывая давление на переносицу и челюсть, а тяжелый поводок (мекате) привязывается к большому узлу босала прямо под подбородком животного."
+        "question": "What is a bosal?",
+        "explanation": "A bosal is a stiff, usually rawhide-braided nosepiece that forms the main part of a traditional Californian-style hackamore. It controls the horse without a bit by applying pressure to the nose and jaw. The mecate rein is tied around the bosal’s large heel knot beneath the horse’s chin."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Длинный кожаный хлыст для выездки"
+          "text": "A long leather dressage whip"
         },
         {
           "id": "answer-02",
-          "text": "Кожаное кольцо традиционной безтрензельной уздечки"
+          "text": "A braided nosepiece used in a traditional bitless bridle"
         },
         {
           "id": "answer-03",
-          "text": "Замок для аварийного отстегивания стремени"
+          "text": "A safety release for the stirrup"
         },
         {
           "id": "answer-04",
-          "text": "Железная цепочка под нижней челюстью"
+          "text": "A metal curb chain under the jaw"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Что такое кавессон?",
-        "explanation": "Кавессон (или кавесон) — это специальный тяжелый безтрензельный капсюль (обычно с металлической пластиной внутри), который используется для работы лошади на корде, обучения в руках или гимнастики. Главная его особенность — три металлических кольца на носовом ремне, к центральному из которых пристегивается корда, что позволяет эффективно управлять головой и балансом лошади, не травмируя и не перекашивая ее рот железом."
+        "question": "What is a cavesson?",
+        "explanation": "A lunging cavesson is a sturdy bitless nosepiece, often reinforced internally, used for lunging, in-hand schooling, and gymnastic work. Its key feature is a set of metal rings on the noseband, with the lunge line usually attached to the central ring. This allows the handler to influence the horse’s head and balance without pulling the bit sideways in the mouth."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитный резиновый колпачок на копыто"
+          "text": "A protective rubber hoof boot"
         },
         {
           "id": "answer-02",
-          "text": "Ремень против сползания седла вперед"
+          "text": "A strap that prevents the saddle from sliding forward"
         },
         {
           "id": "answer-03",
-          "text": "Капсюль с кольцами для работы на корде"
+          "text": "A nosepiece with rings used for lunging"
         },
         {
           "id": "answer-04",
-          "text": "Мягкая меховая подкладка под седло"
+          "text": "A soft fleece pad under the saddle"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Что такое пелям?",
-        "explanation": "Пелям — это гибридное железное удило, которое совмещает в себе свойства классического трензеля и строгого мундштука. Благодаря боковым рычагам и возможности пристегнуть как один, так и два повода, пелям позволяет всаднику мягко вести лошадь на трензельном действии, но при необходимости мгновенно задействовать строгий рычажный механизм мундштука."
+        "question": "What is a Pelham bit?",
+        "explanation": "A Pelham is a hybrid leverage bit that combines some features of a snaffle and a curb bit. Its shanks allow both direct and leverage action, and it may be ridden with two reins or, with roundings, one rein. This lets the rider use a milder direct action while retaining access to stronger curb leverage when needed."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Комбинированное рычажное удило во рту "
+          "text": "A combined leverage bit"
         },
         {
           "id": "answer-02",
-          "text": "Предохранительный замок для отстегивания стремени"
+          "text": "A safety fitting that releases a stirrup leather"
         },
         {
           "id": "answer-03",
-          "text": "Широкий ремень для закрепления попоны"
+          "text": "A wide strap used to secure a blanket"
         },
         {
           "id": "answer-04",
-          "text": "Защитная неопреновая обувь на копыто"
+          "text": "A protective neoprene hoof boot"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Что такое кимбервик?",
-        "explanation": "Кимбервик (или кимблвик) — это гибридное рычажное удило, которое представляет собой промежуточный вариант между простым трензелем и строгим пелямом. Оно имеет характерные D-образные кольца с отверстиями для изменения силы рычага и комплектуется подбородной цепочкой, зажимающей нижнюю челюсть. Кимбервик используется строго с одним поводом и отлично подходит для сильных, увлекающих вперед лошадей (особенно на прыжках), помогая всаднику вернуть контроль без использования громоздкого двухповодного управления."
+        "question": "What is a Kimberwicke (Kimblewick)?",
+        "explanation": "A Kimberwicke, also called a Kimblewick, is a leverage bit that sits between a simple snaffle and a stronger curb-type bit such as a Pelham. It has characteristic D-shaped cheek pieces, often with slots that alter the amount of leverage, and is used with a curb chain. It is normally ridden with one rein and can provide extra control for strong horses, including in jumping."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ремень для стягивания крыльев седла"
+          "text": "A strap used to pull the saddle flaps together"
         },
         {
           "id": "answer-02",
-          "text": "Рычажное D-образное удило с цепочкой"
+          "text": "A D-shaped leverage bit used with a curb chain"
         },
         {
           "id": "answer-03",
-          "text": "Защитная теплая попона"
+          "text": "A warm protective horse blanket"
         },
         {
           "id": "answer-04",
-          "text": "Щетка для бережного ухода за копытами"
+          "text": "A brush for gentle hoof care"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Что такое скользящий мартингал (шпрунт)?",
-        "explanation": "Скользящий мартингал (или шпрунт) — это вспомогательный длинный повод, который идет от подпруги между передними ногами лошади, продевается сквозь кольца трензеля и ложится прямо в руки всадника. Он действует по принципу системы блоков: когда лошадь пытается вскинуть голову или выставить нос вперед, шпрунт натягивается и принудительно опускает ее голову вниз, заставляя держать шею округленной. При этом, как только животное принимает правильное положение и сдается в затылке, скользящий повод мгновенно провисает, освобождая рот от давления."
+        "question": "What are draw reins?",
+        "explanation": "Draw reins are long auxiliary reins that run from the girth, pass between the horse’s front legs and through the bit rings, and then continue to the rider’s hands. When engaged, they increase downward and backward leverage if the horse raises its head or pushes its nose forward. When the horse lowers the neck, rounds correctly, and yields at the poll, the draw reins should become slack. Because they can exert considerable leverage, they require skilled and restrained use."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Металлический замок для фиксации стремени"
+          "text": "A metal fitting used to secure a stirrup"
         },
         {
           "id": "answer-02",
-          "text": "Защитные резиновые колокольчики на копыта"
+          "text": "Protective rubber bell boots"
         },
         {
           "id": "answer-03",
-          "text": "Ремень против сползания седла назад"
+          "text": "A strap that prevents the saddle from sliding backward"
         },
         {
           "id": "answer-04",
-          "text": "Длинный повод от подпруги через трензель"
+          "text": "Long auxiliary reins running from the girth through the bit rings"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Что такое чавка?",
-        "explanation": "Чавка — это специальная веревочная или ременная петля, которая туго затягивается вокруг нижней челюсти лошади (на беззубом крае) для ее усмирения и фиксации. Принцип действия чавки основан на болевом воздействии: вызывая резкий дискомфорт, она переключает внимание строптивого или агрессивного животного, позволяя ветеринару или ковалю безопасно провести необходимые медицинские манипуляции, осмотр или ковку. В современном конном мире чавка считается строгим и травмоопасным средством, поэтому ее разрешено применять только в самых крайних случаях и на короткое время, когда другие методы успокоения (например, закрутка на губу) не помогают."
+        "question": "What is a jaw twitch?",
+        "explanation": "A jaw twitch is a restraining loop or strap tightened around the horse’s lower jaw, over the toothless bars, to control a difficult or aggressive animal during necessary procedures. It works by causing significant discomfort that distracts the horse and may allow a veterinarian or farrier to work more safely. Because it can injure the mouth and is a severe restraint, it should be used only in exceptional circumstances and for the shortest possible time when safer methods are inadequate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитная попона от сильного ветра"
+          "text": "A protective sheet for strong wind"
         },
         {
           "id": "answer-02",
-          "text": "Железное кольцо для крепления повода"
+          "text": "A metal ring used to attach a rein"
         },
         {
           "id": "answer-03",
-          "text": "Петля на нижней челюсти для усмирения"
+          "text": "A loop tightened around the lower jaw for restraint"
         },
         {
           "id": "answer-04",
-          "text": "Мягкая меховая подкладка под капсюль"
+          "text": "A soft fleece pad under the noseband"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Что такое шамбарьер?",
-        "explanation": "Шамбарьер (или шамберьер) — это длинный тренировочный бич на гибкой рукоятке, который используется берейтором при работе с лошадью на корде или арене цирка. Он состоит из легкого прочного удилища длиной около 1,5-2 метров и длинного плетеного шнура (тетивы) с тонким наконечником на конце, который при взмахе издает громкий щелчок. Шамбарьер служит для подсказок, контроля темпа, ритма движения и посыла лошади вперед на расстоянии, заменяя собой шенкель и хлыст всадника."
+        "question": "What is a lunge whip?",
+        "explanation": "A lunge whip is a long training whip with a flexible shaft, used by a trainer when working a horse on the lunge or at liberty. It typically has a lightweight shaft around 1.5–2 meters long and a long lash with a fine cracker at the end. It is used as an aid to send the horse forward and to influence tempo and rhythm from a distance, effectively replacing the rider’s leg and whip aids."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитная попона от сильного дождя"
+          "text": "A protective rain sheet"
         },
         {
           "id": "answer-02",
-          "text": "Длинный бич для работы на корде"
+          "text": "A long whip used for lunging"
         },
         {
           "id": "answer-03",
-          "text": "Ремень для стягивания крыльев седла"
+          "text": "A strap used to pull the saddle flaps together"
         },
         {
           "id": "answer-04",
-          "text": "Металлический замок для путлища"
+          "text": "A metal stirrup-leather fitting"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Что такое скошевка?",
-        "explanation": "Скошевка — это специальный соединительный ремень, который проходит под брюхом лошади и жестко скрепляет между собой правое и левое стремена. Она является обязательным элементом казачьего или джигитовочного седла и служит для того, чтобы стремена не болтались и не расходились в стороны, обеспечивая всаднику надежную опору при выполнении сложных трюков, прыжков, наклонов к земле и боевых приемов на скаку."
+        "question": "What is a stirrup connecting strap?",
+        "explanation": "A stirrup connecting strap is a special strap that passes beneath the horse’s belly and firmly links the right and left stirrups. It is used with some Cossack and trick-riding saddles to prevent the stirrups from swinging or spreading apart, giving the rider a secure support when performing acrobatic maneuvers, jumps, low hangs, and other mounted tricks at speed."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ремень под брюхом, скрепляющий стремена"
+          "text": "A strap under the belly connecting the stirrups"
         },
         {
           "id": "answer-02",
-          "text": "Длинный резиновый повод для корды"
+          "text": "A long elastic lunge line"
         },
         {
           "id": "answer-03",
-          "text": "Защитная попона от назойливых мух"
+          "text": "A protective fly sheet"
         },
         {
           "id": "answer-04",
-          "text": "Железная цепочка под мундштуком"
+          "text": "A metal curb chain under a curb bit"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что такое приструги?",
-        "explanation": "Приструги — это специализированные, скрытые под боковыми крыльями прочные ремни из толстой кожи или усиленного текстиля, которые намертво прикрепляются к деревянному или пластиковому ленчику конского седла с обеих сторон и спускаются вниз по бокам лошади, выполняя важнейшую техническую функцию: к ним с помощью металлических пряжек наглухо пристегивается подпруга, которая плотно обхватывает корпус животного снизу за передними ногами, что гарантирует неподвижность всей конструкции седла, безопасность всадника во время верховой езды и равномерное распределение веса без травмирования спины лошади."
+        "question": "What are saddle billets?",
+        "explanation": "Saddle billets are strong leather or reinforced synthetic straps fixed securely to the saddle tree beneath the saddle flaps and hanging down on both sides of the horse. The girth buckles onto these billets, allowing it to encircle the horse just behind the front legs and hold the saddle firmly in place while distributing pressure safely."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Металлические пряжки на уздечке"
+          "text": "Metal buckles on the bridle"
         },
         {
           "id": "answer-02",
-          "text": "Поводья для фиксации головы"
+          "text": "Reins used to fix the head position"
         },
         {
           "id": "answer-03",
-          "text": "Ремни для крепления подпруги"
+          "text": "Straps used to attach the girth"
         },
         {
           "id": "answer-04",
-          "text": "Ремни для подвешивания стремян"
+          "text": "Straps used to suspend the stirrups"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Что такое меховушка?",
-        "explanation": "Меховушка — это специальная мягкая подкладка под конское седло, изготовленная из натуральной овчины или плотного искусственного меха, которая укладывается поверх вальтрапа непосредственно под полки или крылья седла для выполнения нескольких критически важных функций: она эффективно амортизирует удары и толчки от веса всадника во время активной езды или прыжков, равномерно распределяет давление по спине животного, защищает нежную кожу от натирания и компенсирует небольшие огрехи в подгонке седла, обеспечивая максимальный комфорт лошади."
+        "question": "What is a sheepskin half pad?",
+        "explanation": "A sheepskin half pad is a soft cushioning pad made from natural sheepskin or dense synthetic fleece. It is placed over the saddle cloth directly beneath the saddle to absorb shock, distribute pressure across the horse’s back, reduce rubbing, and compensate for small imperfections in saddle fit, improving the horse’s comfort."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Щетка для чистки шерсти"
+          "text": "A brush used for grooming"
         },
         {
           "id": "answer-02",
-          "text": "Утепленная попона для крупа"
+          "text": "An insulated blanket for the hindquarters"
         },
         {
           "id": "answer-03",
-          "text": "Меховая накидка на уздечку"
+          "text": "A fleece cover for the bridle"
         },
         {
           "id": "answer-04",
-          "text": "Амортизирующая подкладка под седло"
+          "text": "A cushioning pad placed under the saddle"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Что такое флисовые бинты?",
-        "explanation": "Флисовые бинты — это длинные эластичные полосы из мягкого плотного полиэстера, которые наматываются на нижнюю часть ног лошади (от запястного или скакательного сустава до путового) поверх специальных подложек-ватников во время тренировок, отдыха в деннике или транспортировки, выполняя защитную и терапевтическую функции: они эффективно согревают связки и сухожилия, улучшая кровообращение, поддерживают суставы при нагрузках и защищают конечности от случайных легких ударов копытами или засечек."
+        "question": "What are fleece bandages?",
+        "explanation": "Fleece bandages, also known as polo wraps, are long strips of soft, dense polyester fleece wrapped around the horse’s lower legs, usually from below the knee or hock down toward the fetlock. Depending on how they are used, they can provide warmth, light support, and protection from minor knocks or interference during exercise, stall rest, or transport. Correct application is essential to avoid uneven or excessive pressure."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Полосы для чистки копыт"
+          "text": "Strips used for cleaning hooves"
         },
         {
           "id": "answer-02",
-          "text": "Утепленные ремни для седла"
+          "text": "Insulated straps for the saddle"
         },
         {
           "id": "answer-03",
-          "text": "Мягкие защитные обмотки ног"
+          "text": "Soft protective leg wraps"
         },
         {
           "id": "answer-04",
-          "text": "Тканевые повязки для хвоста"
+          "text": "Cloth bandages for the tail"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Что такое подперсье?",
-        "explanation": "Подперсье — это специальный элемент конской амуниции, состоящий из системы кожаных или тканевых ремней, который крепится к передней части седла (к кольцам или пристругам) и проходит через грудь лошади, фиксируясь между ее передними ногами на подпруге, ради выполнения одной главной задачи: оно намертво удерживает седло на месте, полностью предотвращая его опасное сползание назад на круп животного во время езды в гору, преодоления высоких препятствий в конкуре или при резких ускорениях."
+        "question": "What is a breastplate?",
+        "explanation": "A breastplate is a piece of tack made from leather or synthetic straps that attaches to the front of the saddle and passes across the horse’s chest, with part of the system often connecting to the girth between the front legs. Its main purpose is to prevent the saddle from sliding backward, especially when riding uphill, jumping large fences, or accelerating sharply."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Широкий ошейник для привязи"
+          "text": "A wide collar used for tying a horse"
         },
         {
           "id": "answer-02",
-          "text": "Ремень против сползания седла"
+          "text": "A strap system that prevents the saddle from sliding backward"
         },
         {
           "id": "answer-03",
-          "text": "Защитный нагрудник от камней"
+          "text": "Protective chest armor against stones"
         },
         {
           "id": "answer-04",
-          "text": "Декоративное украшение на грудь"
+          "text": "A decorative chest ornament"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Что такое ленчик?",
-        "explanation": "Ленчик — это жесткий внутренний каркас конского седла, определяющий его форму, размер и изгиб, который изготавливается из прочного дерева (часто клееной фанеры), пластика, стекловолокна или углепластика и усиливается металлическими пластинами, выполняя фундаментальную роль в седловке: он принимает на себя весь вес всадника и равномерно распределяет его по длинным мышцам спины лошади, полностью освобождая от давления позвоночник и холку животного, что предотвращает травмы и позволяет лошади свободно двигаться."
+        "question": "What is a saddle tree?",
+        "explanation": "The saddle tree is the rigid internal framework that determines the saddle’s shape, size, and curvature. It may be made from wood, laminated materials, plastic, fiberglass, or carbon fiber and may include metal reinforcement. Its fundamental role is to carry and distribute the rider’s weight over the horse’s back while keeping pressure away from the spine and withers, helping prevent injury and allowing freedom of movement."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кожаная подушка под колено"
+          "text": "A leather knee pad"
         },
         {
           "id": "answer-02",
-          "text": "Жесткий внутренний каркас седла"
+          "text": "The rigid internal framework of a saddle"
         },
         {
           "id": "answer-03",
-          "text": "Металлическое кольцо для повода"
+          "text": "A metal ring used for attaching a rein"
         },
         {
           "id": "answer-04",
-          "text": "Ремень для крепления хвоста"
+          "text": "A strap used to secure the tail"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Что такое кобуры?",
-        "explanation": "Кобуры (также называемые колокольчиками) — это специальные защитные аксессуары конусообразной формы, изготавливаемые из прочной резины, неопрена или плотной кожи, которые надеваются на нижнюю часть ног лошади непосредственно поверх копыта и полностью закрывают его венчик, пятку и частично копытную стенку ради выполнения защитной функции: они предотвращают «засечки» и травмы, когда лошадь во время активного движения, прыжка или скольжения наступает задними копытами на передние ноги или задевает одну ногу другой."
+        "question": "What are overreach boots?",
+        "explanation": "Overreach boots, also called bell boots, are cone-shaped protective boots made from durable rubber, neoprene, or leather. They fit around the lower pastern and hoof area, covering the coronary band and heels, and protect against overreaching and interference injuries when a hind hoof strikes or steps on a front hoof or when one leg knocks another."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кожаные накладки для колен"
+          "text": "Leather knee pads"
         },
         {
           "id": "answer-02",
-          "text": "Сумки на луке седла"
+          "text": "Bags attached to the saddle pommel"
         },
         {
           "id": "answer-03",
-          "text": "Чехлы для хранения пистолетов"
+          "text": "Holsters for carrying pistols"
         },
         {
           "id": "answer-04",
-          "text": "Защитные колпачки на копыта"
+          "text": "Protective boots worn around the hooves"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Что такое сопля?",
-        "explanation": "«Сопля» (официально называемая сопливчиком или откосным капсюлем) — это узкий вспомогательный кожаный ремешок, который является съемным элементом классического английского капсюля (комбинированного) и застегивается под трензелем вокруг подбородка лошади, выполняя важную задачу в управлении: он мягко блокирует возможность животного широко открывать рот, перекидывать язык через железо или уходить от давления трензеля, помогая всаднику сохранять более тонкий и стабильный контакт с лошадью во время тренировок."
+        "question": "What is a flash strap?",
+        "explanation": "A flash strap is the narrow removable lower strap of a flash noseband. It fastens below the bit around the horse’s muzzle and helps limit excessive opening of the mouth, crossing of the jaw, or attempts to evade the bit, allowing the rider to maintain a steadier contact. Like any noseband component, it must be fitted correctly and not overtightened."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Крючок для чистки копыт"
+          "text": "A hoof pick"
         },
         {
           "id": "answer-02",
-          "text": "Мягкий повод для новичков"
+          "text": "A soft rein for beginners"
         },
         {
           "id": "answer-03",
-          "text": "Ремешок против открывания рта"
+          "text": "A strap that limits excessive mouth opening"
         },
         {
           "id": "answer-04",
-          "text": "Смазка для кожаного седла"
+          "text": "Leather saddle conditioner"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Что такое пахва?",
-        "explanation": "Пахва (или подхвостник) — это специальный элемент конской амуниции, представляющий собой длинный прочный кожаный ремень, который одним концом прикрепляется к задней луке седла, проходит вдоль всей спины лошади и заканчивается мягкой петлей, надеваемой непосредственно под хвост животного, ради выполнения одной критически важной анатомической задачи: этот ремень намертво удерживает седло на месте, полностью предотвращая его опасное сползание вперед на холку и шею лошади при крутых спусках в холмистой местности или во время прыжков."
+        "question": "What is a crupper?",
+        "explanation": "A crupper is a long, strong leather strap attached to the rear of the saddle and ending in a padded loop that passes beneath the horse’s tail. Its purpose is to keep the saddle from sliding forward onto the withers and neck, particularly on steep descents, on horses with low withers, or in situations where the saddle tends to move forward."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мягкая подкладка под подпругу"
+          "text": "A soft pad under the girth"
         },
         {
           "id": "answer-02",
-          "text": "Ремень против сползания седла"
+          "text": "A strap that prevents the saddle from sliding forward"
         },
         {
           "id": "answer-03",
-          "text": "Металлическое кольцо на уздечке"
+          "text": "A metal ring on the bridle"
         },
         {
           "id": "answer-04",
-          "text": "Защитная повязка на сустав"
+          "text": "A protective joint bandage"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Что такое гурта?",
-        "explanation": "Гурта — это специальный широкий и прочный ремень (своеобразная подпруга), который плотно охватывает корпус лошади в области за холкой и застегивается снизу на животе, не неся при этом самого седла, а выполняя самостоятельную тренировочную или техническую функцию: она оснащена множеством металлических колец и полуколец на спине и по бокам, к которым прикрепляются различные вспомогательные поводья (развязки, шамбон, гог) для работы лошади на корде, либо используется как жесткая опора с ручками для тренировок по вольтижировке и джигитовке."
+        "question": "What is a training surcingle?",
+        "explanation": "A training surcingle is a broad, strong strap that encircles the horse’s body just behind the withers and fastens beneath the belly without carrying a saddle. It has multiple rings positioned along the top and sides for attaching training aids such as side reins, a chambon, or a gogue during lunging. Surcingles may also be fitted with handles for vaulting or trick-riding practice."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сумка для корма лошади"
+          "text": "A feed bag for a horse"
         },
         {
           "id": "answer-02",
-          "text": "Металлическое звено в цепочке"
+          "text": "A metal link in a chain"
         },
         {
           "id": "answer-03",
-          "text": "Кожаная защита для копыт"
+          "text": "Leather hoof protection"
         },
         {
           "id": "answer-04",
-          "text": "Тренировочный ремень с кольцами"
+          "text": "A training strap fitted with rings"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Что такое грызло?",
-        "explanation": "Грызло — это рабочая металлическая, пластиковая или резиновая часть трензеля или мундштука, которая вкладывается непосредственно в рот лошади и лежит на беззубом крае нижней челюсти (на деснах) между резцами и коренными зубами, выполняя ключевую роль в управлении животным: оно воспринимает малейшие движения рук всадника через поводья и передает это давление на язык, челюсть и углы рта лошади, позволяя задавать направление движения, замедлять ход или останавливать животное."
+        "question": "What is a bit mouthpiece?",
+        "explanation": "The mouthpiece is the working metal, plastic, or rubber part of a snaffle, curb, or other bit that lies inside the horse’s mouth on the toothless bars of the lower jaw between the incisors and cheek teeth. It receives the rider’s rein signals and transmits pressure to the tongue, bars, and corners of the mouth, helping control direction, speed, and stopping."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Инструмент для подпиливания зубов"
+          "text": "A tool for filing teeth"
         },
         {
           "id": "answer-02",
-          "text": "Ремень под подбородком лошади"
+          "text": "A strap under the horse’s chin"
         },
         {
           "id": "answer-03",
-          "text": "Часть железа во рту"
+          "text": "The part of the bit that lies in the mouth"
         },
         {
           "id": "answer-04",
-          "text": "Зубной скребок для копыт"
+          "text": "A dental scraper for cleaning hooves"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Чем тоньше грызло тем железо:",
-        "explanation": "Чем тоньше грызло, тем строже и жестче считается железо для лошади, поскольку уменьшение площади соприкосновения металла с беззубым краем челюсти и языком приводит к значительному увеличению точечного давления при том же усилии натяжения повода всадником."
+        "question": "The thinner the bit mouthpiece, the bit is generally:",
+        "explanation": "As a general rule, a thinner mouthpiece is considered more severe because the same rein force is concentrated over a smaller contact area on the tongue and bars of the horse’s mouth, increasing localized pressure."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жестче"
+          "text": "Harsher"
         },
         {
           "id": "answer-02",
-          "text": "Мягче"
+          "text": "Softer"
         },
         {
           "id": "answer-03",
-          "text": "Длиннее"
+          "text": "Longer"
         },
         {
           "id": "answer-04",
-          "text": "Изящнее"
+          "text": "More elegant"
         }
       ]
     }
