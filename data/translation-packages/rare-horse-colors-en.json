@@ -7,1011 +7,1012 @@
   "source_revision": "748122f341ec49706de211574b6a1d1bda6a59177f5c7de3787b9399b84b2910",
   "mode": "created",
   "fields": {
-    "title": "Редкие масти",
-    "short_description": "Если вы уже прошли викторину «Масти лошадей» то эта может стать логичным продолжением, она построена по тому же принципу: фотографии + варианты ответов. Хорошо подходит тем кто начал изучать мастевое разнообразие этих благородных животных.",
-    "intro": "Если вы уже прошли викторину «Масти лошадей» то эта может стать логичным продолжением, она построена по тому же принципу: фотографии + варианты ответов. Хорошо подходит тем кто начал изучать мастевое разнообразие этих благородных животных.",
-    "questionImagesAlt": "Фотография лошади для определения масти"
+    "title": "Rare Horse Coat Colors",
+    "short_description": "Already completed “Horse Coat Colors”? This quiz is a natural next step, with the same photo-based multiple-choice format. It is ideal for anyone beginning to explore the remarkable variety of equine coat colors.",
+    "intro": "Already completed “Horse Coat Colors”? This quiz is a natural next step, with the same photo-based multiple-choice format. It is ideal for anyone beginning to explore the remarkable variety of equine coat colors.",
+    "questionImagesAlt": "Photo of a horse for coat color identification"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У серебристо-вороной в яблоках осветленный навис и темная шерсть с характерными светлыми пятнами, которые формой отличаются от пятен любой другой масти в яблоках."
+        "question": "What coat color is this?",
+        "explanation": "A dappled silver black has a lightened mane and tail and a dark coat with distinctive pale dapples. Their shape differs from the dapples seen in any other coat color."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серая в яблоках"
+          "text": "Dapple gray"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         },
         {
           "id": "answer-03",
-          "text": "Игреневая в яблоках"
+          "text": "Dappled flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-04",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей розовая кожа, голубые глаза, а цвет шерсти может варьировать от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have pink skin and blue eyes, and their coat color can range from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "ЗП — это зональное потемнение. От других мастей буланую можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее."
+        "question": "What coat color is this?",
+        "explanation": "The darker shading is caused by the sooty effect. A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. Its head may be slightly lighter than its body, whereas a bay’s head is usually the same shade as the body or slightly darker."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная в загаре"
+          "text": "Fading black"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая с ЗП"
+          "text": "Sooty bay"
         },
         {
           "id": "answer-03",
-          "text": "Буланая с ЗП"
+          "text": "Sooty buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая с ЗП"
+          "text": "Sooty chestnut"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У серебристо-вороных темная шерсть (черная или немного осветленная черная) и осветленный навис (грива и хвост)."
+        "question": "What coat color is this?",
+        "explanation": "Silver black horses have a dark coat—black or slightly diluted black—and a lightened mane and tail."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-02",
-          "text": "Темно-игреневая"
+          "text": "Dark flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-04",
-          "text": "Бурая с ОЗВ"
+          "text": "Liver chestnut with a flaxen mane and tail (non-draft type)"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Светло-серая — это отмасток серой и предпоследняя стадия поседения, когда шерсть лошади обретает белоснежный окрас по всему телу или почти по всему."
+        "question": "What coat color is this?",
+        "explanation": "Light gray is a shade of gray and the penultimate stage of progressive graying, when the horse’s coat becomes white or nearly white over all or almost all of the body."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Основным отличием серой масти от изабелловой и белой является цвет кожи: у серой лошади он серый или черный, в то время как у двух других — розовый. У всех троих шерсть может быть белоснежной."
+        "question": "What coat color is this?",
+        "explanation": "The main difference between gray and cremello or white is skin color: a gray horse has gray or black skin, whereas the other two have pink skin. All three can have a nearly white coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-04",
-          "text": "Изабелловая"
+          "text": "Cremello"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороную в яблоках легче всего отличить от похожих мастей по светлым пятнам, характерным только для нее."
+        "question": "What coat color is this?",
+        "explanation": "Dappled silver black is easiest to distinguish from similar colors by its characteristic pale dapples, which are unique to this color."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серая в яблоках"
+          "text": "Dapple gray"
         },
         {
           "id": "answer-02",
-          "text": "Игреневая в яблоках"
+          "text": "Dappled flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         },
         {
           "id": "answer-04",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Соловую от рыжей с ОЗВ легче всего отличить по характерному песочно-желтому оттенку шерсти, а также по отсутствию градиентного осветления ног, которое часто бывает у рыжих с ОЗВ. "
+        "question": "What coat color is this?",
+        "explanation": "Palomino is easiest to distinguish from a flaxen chestnut by its characteristic sandy-gold coat and by the absence of the gradual lightening down the legs often seen in flaxen chestnuts."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая с ОЗВ"
+          "text": "Flaxen chestnut (non-draft type)"
         },
         {
           "id": "answer-02",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-04",
-          "text": "Соловая"
+          "text": "Palomino"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Изабелловую масть легко узнать по голубым глазам и розовой коже, цвет шерсти у нее может варьировать пот кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello is easy to recognize by blue eyes and pink skin; the coat color can range from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Основным отличием мышастой масти от вороно-чалой является черный ремень на спине. От саврасой и каурой она отличается пепельно-серым \"мышиным\" цветом шерсти."
+        "question": "What coat color is this?",
+        "explanation": "A grullo differs from a blue roan by the black dorsal stripe. It differs from bay dun and red dun by its ash-gray, “mouse-colored” coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Grullo (black dun)"
         },
         {
           "id": "answer-03",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это зональное потемнение)."
+        "question": "What coat color is this?",
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. Its head may be slightly lighter than its body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-02",
-          "text": "Соловая"
+          "text": "Palomino"
         },
         {
           "id": "answer-03",
-          "text": "Караковая"
+          "text": "Seal brown"
         },
         {
           "id": "answer-04",
-          "text": "Буланая"
+          "text": "Buckskin"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Бурая — это отмасток рыжей, ее еще называют темно-рыжей. От рыжих бурые отличаются только более темным цветом шерсти, иногда еще и более темной кожей."
+        "question": "What coat color is this?",
+        "explanation": "Liver chestnut is a dark shade of chestnut. It differs from other chestnut shades only in its darker coat and, occasionally, darker skin."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная в загаре"
+          "text": "Fading black"
         },
         {
           "id": "answer-02",
-          "text": "Бурая"
+          "text": "Liver chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-04",
-          "text": "Саврасая"
+          "text": "Bay dun"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороную в яблоках легко отличить по характерному мраморному рисунку на ногах и пятнам на корпусе. У темно-игреневой, темно-соловой и темно-рыжей с ОЗВ ноги без мраморного рисунка, а яблоки отсутствуют или имеют другую форму и выражены значительно слабее."
+        "question": "What coat color is this?",
+        "explanation": "Dappled silver black is easy to identify by the characteristic mottling on the legs and dapples on the body. Dark flaxen chestnuts, dark palominos, and dark chestnuts with flaxen manes and tails lack this leg mottling; their dapples are absent or have a different shape and are much less pronounced."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Игреневая в яблоках"
+          "text": "Dappled flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         },
         {
           "id": "answer-04",
-          "text": "Темно-рыжая с ОЗВ в яблоках"
+          "text": "Dappled dark chestnut with a flaxen mane and tail (non-draft type)"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это зональное потемнение). "
+        "question": "What coat color is this?",
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. Its head may be slightly lighter than its body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-02",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Соловая"
+          "text": "Palomino"
         },
         {
           "id": "answer-04",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut (traditional draft type)"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти может варьировать от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color can range from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-04",
-          "text": "Изабелловая"
+          "text": "Cremello"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороную в яблоках легко отличить по характерному мраморному рисунку на ногах и пятнам на корпусе. У темно-игреневой, темно-соловой и темно-рыжей с ОЗВ ноги без мраморного рисунка, а яблоки отсутствуют или имеют другую форму и выражены значительно слабее."
+        "question": "What coat color is this?",
+        "explanation": "Dappled silver black is easy to identify by the characteristic mottling on the legs and dapples on the body. Dark flaxen chestnuts, dark palominos, and dark chestnuts with flaxen manes and tails lack this leg mottling; their dapples are absent or have a different shape and are much less pronounced."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Бурая с ОЗВ в яблоках"
+          "text": "Dappled liver chestnut with a flaxen mane and tail (non-draft type)"
         },
         {
           "id": "answer-04",
-          "text": "Игреневая в яблоках"
+          "text": "Dappled flaxen chestnut (traditional draft type)"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти может варьировать от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color can range from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серую масть легко отличить по белому волосу и темно-серой коже, на корпусе часто бывают яблоки, ноги могут быть темнее корпуса."
+        "question": "What coat color is this?",
+        "explanation": "Gray horses can be recognized by their white hairs and dark gray skin. Their bodies are often dappled, and their legs may be darker than the body."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-02",
-          "text": "Серая"
+          "text": "Gray"
         },
         {
           "id": "answer-03",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-04",
-          "text": "Изабелловая"
+          "text": "Cremello"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-гнедая выглядит как гнедая только с осветленным нависом и характерным мраморным рисунком на черных ногах."
+        "question": "What coat color is this?",
+        "explanation": "A silver bay looks like a bay but has a lightened mane and tail and characteristic mottling on its black lower legs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая с ОЗВ"
+          "text": "Flaxen chestnut (non-draft type)"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти может варьировать от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color can range from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рыже-чалую масть легко отличить по равномерной примеси белых волос на корпусе, в то время как более темными остаются: голова, грива, хвост и нижние части ног. В отличие от светло-рыжей, светлый оттенок создается не осветлением рыжего пигмента, а смесью рыжих и белых волос. От гнедо-чалой она отличается отсутствием черных гривы, хвоста и ног, а от каурой — отсутствием характерных диких отметин: темного ремня вдоль спины, зеброидности на ногах и более светлой мордочки."
+        "question": "What coat color is this?",
+        "explanation": "Red roan is easy to identify by the even mixture of white hairs throughout the body coat, while the head, mane, tail, and lower legs remain darker. Unlike light chestnut, the pale appearance comes from a mixture of chestnut and white hairs rather than dilution of the chestnut pigment. It differs from bay roan by the absence of a black mane, tail, and lower legs, and from red dun by the absence of primitive markings: a dark dorsal stripe, leg barring, and a lighter muzzle."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-рыжая"
+          "text": "Light chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Рыже-чалая"
+          "text": "Red roan"
         },
         {
           "id": "answer-03",
-          "text": "Гнедо-чалая"
+          "text": "Bay roan"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Темно-серая масть бывает у молодых лошадей, это первая стадия поседения, во время которой еще хорошо просматривается основа, а она может быть любой: вороной, гнедой, рыжей и т.д. Седеет конь всегда с мордочки."
+        "question": "What coat color is this?",
+        "explanation": "Dark gray occurs in young horses and is the first stage of progressive graying. The base coat remains clearly visible and can be any color—black, bay, chestnut, and so on. Graying always begins around the face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-02",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-03",
-          "text": "Темно-серая"
+          "text": "Dark gray"
         },
         {
           "id": "answer-04",
-          "text": "Бурая"
+          "text": "Liver chestnut"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Подласость — это мастевое явление, при котором осветлена шерсть вокруг глаз, около ноздрей, под локтями, в паху, с внутренней стороны ног и внизу живота коня. Может быть на любой масти, хотя по фенотипу ее заметить возможно только на более темной основе."
+        "question": "What coat color is this?",
+        "explanation": "Pangaré, also known as mealy coloring, lightens the hair around the eyes and nostrils, beneath the elbows, in the groin, on the inner legs, and along the underside of the belly. It can occur on any base color, although it is visibly apparent only on darker coats."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая с ЗП"
+          "text": "Sooty bay"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая с ОЗВ"
+          "text": "Bay with a lightened mane and tail"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая с подласостью"
+          "text": "Mealy bay (pangaré)"
         },
         {
           "id": "answer-04",
-          "text": "Дикая гнедая"
+          "text": "Wild bay"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Светло-серыми бывают лошади в возрасте, потому что это предпоследняя стадия поседения. Светло-серую легко отличить от похожих мастей по серой или черной коже и черным глазам."
+        "question": "What coat color is this?",
+        "explanation": "Light gray is seen in older horses because it is the penultimate stage of progressive graying. It is easy to distinguish from similar colors by the gray or black skin and dark eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти может варьировать от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color can range from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Темно-гнедую иногда можно спутать с вороной или караковой, если есть сомнения следует смотреть на ушки: у гнедых на них всегда есть черная окантовка. Также у темно-гнедых есть подпалины у ноздрей, а у вороных нет. Стоит помнить, что у караковых лошадей подпалины всегда ярко-рыжие, плюс нет подпалин за ушами и на животе, в то время как у темно-гнедых они могут быть, также как и подпалины более тусклых оттенков."
+        "question": "What coat color is this?",
+        "explanation": "Dark bay can sometimes be confused with black or seal brown. When in doubt, check the ears: bays always have black ear rims. Dark bays also have lighter tan areas around the nostrils, which black horses lack. Seal browns have vivid reddish tan points and no tan areas behind the ears or on the belly, whereas dark bays may have these areas and their tan shading may be duller."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-гнедая"
+          "text": "Dark bay"
         },
         {
           "id": "answer-02",
-          "text": "Темно-буланая"
+          "text": "Dark buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Вороная в загаре"
+          "text": "Fading black"
         },
         {
           "id": "answer-04",
-          "text": "Бурая"
+          "text": "Liver chestnut"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти может варьировать от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color can range from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороную в яблоках легко отличить по характерному мраморному рисунку на ногах и пятнам на корпусе. У темно-игреневой, темно-соловой и темно-рыжей с ОЗВ ноги без мраморного рисунка, а яблоки отсутствуют или имеют другую форму и выражены значительно слабее."
+        "question": "What coat color is this?",
+        "explanation": "Dappled silver black is easy to identify by the characteristic mottling on the legs and dapples on the body. Dark flaxen chestnuts, dark palominos, and dark chestnuts with flaxen manes and tails lack this leg mottling; their dapples are absent or have a different shape and are much less pronounced."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-игреневая в яблоках"
+          "text": "Dappled dark flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Бурая с ОЗВ в яблоках"
+          "text": "Dappled liver chestnut with a flaxen mane and tail (non-draft type)"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Светло-серыми бывают лошади в возрасте, потому что это предпоследняя стадия поседения. Светло-серую легко отличить от похожих мастей по серой или черной коже и черным глазам."
+        "question": "What coat color is this?",
+        "explanation": "Light gray is seen in older horses because it is the penultimate stage of progressive graying. It is easy to distinguish from similar colors by the gray or black skin and dark eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от темно-буланой — наличием ремня на спине и отсутствием желтоватого или песочного оттенка шерсти."
+        "question": "What coat color is this?",
+        "explanation": "Grullo is easy to identify by its cool gray or ash-gray body coat combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, the pale appearance comes from the color of each hair rather than a mixture of white hairs, so the body looks uniform. Grullo differs from smoky black by its primitive markings and from dark buckskin by its dorsal stripe and lack of a yellow or sandy cast."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-02",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         },
         {
           "id": "answer-03",
-          "text": "Темно-буланая"
+          "text": "Dark buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Мышастая"
+          "text": "Grullo (black dun)"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороную в яблоках легко отличить по характерному мраморному рисунку на ногах и пятнам на корпусе. У темно-игреневой, темно-соловой и темно-рыжей с ОЗВ ноги без мраморного рисунка, а яблоки отсутствуют или имеют другую форму и выражены значительно слабее."
+        "question": "What coat color is this?",
+        "explanation": "Dappled silver black is easy to identify by the characteristic mottling on the legs and dapples on the body. Dark flaxen chestnuts, dark palominos, and dark chestnuts with flaxen manes and tails lack this leg mottling; their dapples are absent or have a different shape and are much less pronounced."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         },
         {
           "id": "answer-02",
-          "text": "Темно-игреневая в яблоках"
+          "text": "Dappled dark flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-03",
-          "text": "Бурая с ОЗВ в яблоках"
+          "text": "Dappled liver chestnut with a flaxen mane and tail (non-draft type)"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Подласость — это мастевое явление, при котором осветлена шерсть вокруг глаз, около ноздрей, под локтями, в паху, с внутренней стороны ног и внизу живота коня. Может быть на любой масти, хотя по фенотипу ее заметить возможно только на более темной основе."
+        "question": "What coat color is this?",
+        "explanation": "Pangaré, also known as mealy coloring, lightens the hair around the eyes and nostrils, beneath the elbows, in the groin, on the inner legs, and along the underside of the belly. It can occur on any base color, although it is visibly apparent only on darker coats."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая с ЗП"
+          "text": "Sooty bay"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая с ОЗВ"
+          "text": "Bay with a lightened mane and tail"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая с подласостью"
+          "text": "Mealy bay (pangaré)"
         },
         {
           "id": "answer-04",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рабикано — это мастевое явление, при котором наблюдается осветленный волос на репице, крупе, в паху и на животе, откуда осветление может подниматься по бокам вверх, формируя характерные белые полосы вдоль ребер. Рабикано часто путают с чалостью, но это не разновидность чалости."
+        "question": "What coat color is this?",
+        "explanation": "Rabicano is a pattern in which lighter hairs appear at the tailhead, over the croup, in the groin, and on the belly. The light hairs may extend upward along the sides, forming characteristic white striping over the ribs. Rabicano is often confused with roan, but it is not a form of classic roan."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Красно-серая"
+          "text": "Rose gray"
         },
         {
           "id": "answer-02",
-          "text": "Рыже-чалая"
+          "text": "Red roan"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая с рабикано"
+          "text": "Chestnut rabicano"
         },
         {
           "id": "answer-04",
-          "text": "Светло-рыжая"
+          "text": "Light chestnut"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороную в яблоках легко отличить по характерному мраморному рисунку на ногах и пятнам на корпусе. У темно-игреневой, темно-соловой и темно-рыжей с ОЗВ ноги без мраморного рисунка, а яблоки отсутствуют или имеют другую форму и выражены значительно слабее."
+        "question": "What coat color is this?",
+        "explanation": "Dappled silver black is easy to identify by the characteristic mottling on the legs and dapples on the body. Dark flaxen chestnuts, dark palominos, and dark chestnuts with flaxen manes and tails lack this leg mottling; their dapples are absent or have a different shape and are much less pronounced."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Темно-игреневая в яблоках"
+          "text": "Dappled dark flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-04",
-          "text": "Бурая с ОЗВ в яблоках"
+          "text": "Dappled liver chestnut with a flaxen mane and tail (non-draft type)"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рыже-чалую масть легко отличить по равномерной примеси белых волос на корпусе, в то время как более темными остаются: голова, грива, хвост и нижние части ног. В отличие от светло-рыжей, светлый оттенок создается не осветлением рыжего пигмента, а смесью рыжих и белых волос. От гнедо-чалой она отличается отсутствием черных гривы, хвоста и ног, а от каурой — отсутствием характерных диких отметин: темного ремня вдоль спины, зеброидности на ногах и более светлой мордочки."
+        "question": "What coat color is this?",
+        "explanation": "Red roan is easy to identify by the even mixture of white hairs throughout the body coat, while the head, mane, tail, and lower legs remain darker. Unlike light chestnut, the pale appearance comes from a mixture of chestnut and white hairs rather than dilution of the chestnut pigment. It differs from bay roan by the absence of a black mane, tail, and lower legs, and from red dun by the absence of primitive markings: a dark dorsal stripe, leg barring, and a lighter muzzle."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Красно-серая"
+          "text": "Rose gray"
         },
         {
           "id": "answer-02",
-          "text": "Рыже-чалая"
+          "text": "Red roan"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая с рабикано"
+          "text": "Chestnut rabicano"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая с ОЗВ"
+          "text": "Flaxen chestnut (non-draft type)"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от темно-буланой — наличием ремня на спине и отсутствием желтоватого или песочного оттенка шерсти."
+        "question": "What coat color is this?",
+        "explanation": "Grullo is easy to identify by its cool gray or ash-gray body coat combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, the pale appearance comes from the color of each hair rather than a mixture of white hairs, so the body looks uniform. Grullo differs from smoky black by its primitive markings and from dark buckskin by its dorsal stripe and lack of a yellow or sandy cast."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-буланая"
+          "text": "Dark buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Grullo (black dun)"
         },
         {
           "id": "answer-03",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         },
         {
           "id": "answer-04",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-гнедая выглядит как гнедая только с осветленным нависом и характерным мраморным рисунком на черных ногах."
+        "question": "What coat color is this?",
+        "explanation": "A silver bay looks like a bay but has a lightened mane and tail and characteristic mottling on its black lower legs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ОЗВ"
+          "text": "Flaxen chestnut (non-draft type)"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-04",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от темно-буланой — наличием ремня на спине и отсутствием желтоватого или песочного оттенка шерсти."
+        "question": "What coat color is this?",
+        "explanation": "Grullo is easy to identify by its cool gray or ash-gray body coat combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, the pale appearance comes from the color of each hair rather than a mixture of white hairs, so the body looks uniform. Grullo differs from smoky black by its primitive markings and from dark buckskin by its dorsal stripe and lack of a yellow or sandy cast."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-02",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         },
         {
           "id": "answer-03",
-          "text": "Темно-буланая"
+          "text": "Dark buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Мышастая"
+          "text": "Grullo (black dun)"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти может варьировать от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color can range from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороную в яблоках легко отличить по характерному мраморному рисунку на ногах и пятнам на корпусе. У темно-игреневой, темно-соловой и темно-рыжей с ОЗВ ноги без мраморного рисунка, а яблоки отсутствуют или имеют другую форму и выражены значительно слабее."
+        "question": "What coat color is this?",
+        "explanation": "Dappled silver black is easy to identify by the characteristic mottling on the legs and dapples on the body. Dark flaxen chestnuts, dark palominos, and dark chestnuts with flaxen manes and tails lack this leg mottling; their dapples are absent or have a different shape and are much less pronounced."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-игреневая в яблоках"
+          "text": "Dappled dark flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         },
         {
           "id": "answer-04",
-          "text": "Бурая с ОЗВ в яблоках"
+          "text": "Dappled liver chestnut with a flaxen mane and tail (non-draft type)"
         }
       ]
     }
   ]
 }
+
