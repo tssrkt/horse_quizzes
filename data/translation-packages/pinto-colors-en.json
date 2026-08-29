@@ -7,1005 +7,1005 @@
   "source_revision": "978ba4586981c8f4c85569e978734a4d179bcd9cb2b710bc54497fe44cae10d1",
   "mode": "created",
   "fields": {
-    "title": "Пегие масти",
-    "short_description": "Разберемся с типами пегости. Здесь, как и в других викторинах, принцип всё тот же: смотрите фотку и выбираете правильный вариант. Даже если ничему не научитесь хоть красивых лошадок посмотрите.",
-    "intro": "Разберемся с типами пегости. Здесь, как и в других викторинах, принцип всё тот же: смотрите фотку и выбираете правильный вариант. Даже если ничему не научитесь хоть красивых лошадок посмотрите.",
-    "questionImagesAlt": "Фотография лошади для определения масти"
+    "title": "Pinto Coat Colors",
+    "short_description": "Let's sort out the different pinto patterns. As in the other quizzes, the idea is simple: look at the photo and choose the correct answer. Even if you learn nothing, at least you'll see some beautiful horses.",
+    "intro": "Let's sort out the different pinto patterns. As in the other quizzes, the idea is simple: look at the photo and choose the correct answer. Even if you learn nothing, at least you'll see some beautiful horses.",
+    "questionImagesAlt": "Photo of a horse for identifying its pinto pattern"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая товеро"
+          "text": "Chestnut tovero"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая с ОЗВ сабино"
+          "text": "Flaxen chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ОЗВ тобиано"
+          "text": "Flaxen chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая с ОЗВ сплешед уайт"
+          "text": "Flaxen chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая с ОЗВ фрейм оверо"
+          "text": "Flaxen chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая сабино"
+          "text": "Bay sabino"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая тобиано"
+          "text": "Bay tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая сплешед уайт"
+          "text": "Bay splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Гнедая фрейм оверо"
+          "text": "Bay frame overo"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-гнедая сабино"
+          "text": "Silver bay sabino"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-гнедая тобиано"
+          "text": "Silver bay tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедая сплешед уайт"
+          "text": "Silver bay splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-гнедая фрейм оверо"
+          "text": "Silver bay frame overo"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышастая сабино"
+          "text": "Black dun (grullo) sabino"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая тобиано"
+          "text": "Black dun (grullo) tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Мышастая сплешед уайт"
+          "text": "Black dun (grullo) splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Мышастая фрейм оверо"
+          "text": "Black dun (grullo) frame overo"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным.\n"
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная сабино"
+          "text": "Black sabino"
         },
         {
           "id": "answer-02",
-          "text": "Вороная тобиано"
+          "text": "Black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Вороная сплешед уайт"
+          "text": "Black splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Вороная фрейм оверо"
+          "text": "Black frame overo"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная сабино"
+          "text": "Black sabino"
         },
         {
           "id": "answer-02",
-          "text": "Вороная тобиано"
+          "text": "Black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Вороная сплешед уайт"
+          "text": "Black splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Вороная фрейм оверо"
+          "text": "Black frame overo"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная в яблоках сабино"
+          "text": "Dappled silver black sabino"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороная в яблоках тобиано"
+          "text": "Dappled silver black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная в яблоках сплешед уайт"
+          "text": "Dappled silver black splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная в яблоках фрейм оверо"
+          "text": "Dappled silver black frame overo"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Какая это пегость по степени выраженности?",
-        "explanation": "Чем больше пежины — тем максимальнее пегость."
+        "question": "How extensive is this pinto pattern?",
+        "explanation": "The larger the white patches, the more extensive the pinto pattern."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Минимальная"
+          "text": "Minimal"
         },
         {
           "id": "answer-02",
-          "text": "Средняя"
+          "text": "Moderate"
         },
         {
           "id": "answer-03",
-          "text": "Максимальная"
+          "text": "Maximal"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-гнедая сабино"
+          "text": "Dark bay sabino"
         },
         {
           "id": "answer-02",
-          "text": "Темно-гнедая тобиано"
+          "text": "Dark bay tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Темно-гнедая сплешед уайт"
+          "text": "Dark bay splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Темно-гнедая фрейм оверо"
+          "text": "Dark bay frame overo"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная сабино"
+          "text": "Black sabino"
         },
         {
           "id": "answer-02",
-          "text": "Вороная тобиано"
+          "text": "Black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Вороная сплешед уайт"
+          "text": "Black splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Вороная фрейм оверо"
+          "text": "Black frame overo"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая сабино"
+          "text": "Bay dun sabino"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая тобиано"
+          "text": "Bay dun tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Саврасая сплешед уайт"
+          "text": "Bay dun splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Саврасая фрейм оверо"
+          "text": "Bay dun frame overo"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Соловая сабино"
+          "text": "Palomino sabino"
         },
         {
           "id": "answer-02",
-          "text": "Соловая тобиано"
+          "text": "Palomino tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Соловая сплешед уайт"
+          "text": "Palomino splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Соловая фрейм оверо"
+          "text": "Palomino frame overo"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая сабино"
+          "text": "Bay sabino"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая тобиано"
+          "text": "Bay tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая сплешед уайт"
+          "text": "Bay splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Гнедая фрейм оверо"
+          "text": "Bay frame overo"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловая сабино"
+          "text": "Cremello sabino"
         },
         {
           "id": "answer-02",
-          "text": "Изабелловая тобиано"
+          "text": "Cremello tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая сплешед уайт"
+          "text": "Cremello splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Изабелловая фрейм оверо"
+          "text": "Cremello frame overo"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная сабино"
+          "text": "Black sabino"
         },
         {
           "id": "answer-02",
-          "text": "Вороная тобиано"
+          "text": "Black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Вороная сплешед уайт"
+          "text": "Black splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Вороная фрейм оверо"
+          "text": "Black frame overo"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая сабино"
+          "text": "Bay sabino"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая тобиано"
+          "text": "Bay tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая сплешед уайт"
+          "text": "Bay splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Гнедая фрейм оверо"
+          "text": "Bay frame overo"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышастая сабино"
+          "text": "Black dun (grullo) sabino"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая тобиано"
+          "text": "Black dun (grullo) tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Мышастая сплешед уайт"
+          "text": "Black dun (grullo) splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Мышастая фрейм оверо"
+          "text": "Black dun (grullo) frame overo"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная сабино"
+          "text": "Black sabino"
         },
         {
           "id": "answer-02",
-          "text": "Вороная тобиано"
+          "text": "Black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Вороная сплешед уайт"
+          "text": "Black splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Вороная фрейм оверо"
+          "text": "Black frame overo"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая с ОЗВ сабино"
+          "text": "Flaxen chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ОЗВ тобиано"
+          "text": "Flaxen chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая с ОЗВ сплешед уайт"
+          "text": "Flaxen chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая с ОЗВ фрейм оверо"
+          "text": "Flaxen chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая сабино"
+          "text": "Buckskin sabino"
         },
         {
           "id": "answer-02",
-          "text": "Буланая тобиано"
+          "text": "Buckskin tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Буланая сплешед уайт"
+          "text": "Buckskin splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Буланая фрейм оверо"
+          "text": "Buckskin frame overo"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная в яблоках сабино"
+          "text": "Dappled silver black sabino"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороная в яблоках тобиано"
+          "text": "Dappled silver black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная в яблоках сплешед уайт"
+          "text": "Dappled silver black splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная в яблоках фрейм оверо"
+          "text": "Dappled silver black frame overo"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Соловая сабино"
+          "text": "Palomino sabino"
         },
         {
           "id": "answer-02",
-          "text": "Соловая тобиано"
+          "text": "Palomino tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Соловая сплешед уайт"
+          "text": "Palomino splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Соловая фрейм оверо"
+          "text": "Palomino frame overo"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая сабино"
+          "text": "Bay sabino"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая тобиано"
+          "text": "Bay tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая сплешед уайт"
+          "text": "Bay splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Гнедая фрейм оверо"
+          "text": "Bay frame overo"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая сабино"
+          "text": "Bay sabino"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая тобиано"
+          "text": "Bay tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая сплешед уайт"
+          "text": "Bay splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Гнедая фрейм оверо"
+          "text": "Bay frame overo"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая сабино"
+          "text": "Bay sabino"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая тобиано"
+          "text": "Bay tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая сплешед уайт"
+          "text": "Bay splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Гнедая фрейм оверо"
+          "text": "Bay frame overo"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Соловая сабино"
+          "text": "Palomino sabino"
         },
         {
           "id": "answer-02",
-          "text": "Соловая тобиано"
+          "text": "Palomino tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Соловая сплешед уайт"
+          "text": "Palomino splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Соловая фрейм оверо"
+          "text": "Palomino frame overo"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What coat color and pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино"
+          "text": "Chestnut sabino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сплешед уайт"
+          "text": "Chestnut splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая фрейм оверо"
+          "text": "Chestnut frame overo"
         }
       ]
     }
