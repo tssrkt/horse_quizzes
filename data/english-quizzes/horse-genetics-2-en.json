@@ -10,7 +10,7 @@
     "genetics",
     "horses"
   ],
-  "published": false,
+  "published": true,
   "title": "Horse Genetics 2",
   "short_description": "If Horse Genetics left you wanting more, continue your journey through the science here. The difficulty is about the same as in the previous quiz.",
   "intro": "If Horse Genetics left you wanting more, continue your journey through the science here. The difficulty is about the same as in the previous quiz.",
@@ -18,7 +18,6 @@
     {
       "id": "question-01",
       "question": "We bred a silver black stallion to black mares and got silver black, black, and chestnut foals. What is the stallion's genotype?",
-      "explanation": "Because he is black, he has only recessive alleles at Agouti (aa). The chestnut foals show that he is heterozygous at Extension (Ee), and the black foals show that he is heterozygous at the silver locus (Zz).",
       "answers": [
         {
           "id": "answer-01",
@@ -45,12 +44,12 @@
           "text": "EEaaZz"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Because he is black, he has only recessive alleles at Agouti (aa). The chestnut foals show that he is heterozygous at Extension (Ee), and the black foals show that he is heterozygous at the silver locus (Zz)."
     },
     {
       "id": "question-02",
       "question": "A chestnut stallion bred to a black mare produces a silver bay foal. What can we say about the parents' genes?",
-      "explanation": "Neither the dominant Agouti allele (A) nor the silver allele (Z) is visible on a chestnut coat, so the chestnut stallion must carry both.",
       "answers": [
         {
           "id": "answer-01",
@@ -73,12 +72,12 @@
           "text": "These parents cannot produce a silver bay foal"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Neither the dominant Agouti allele (A) nor the silver allele (Z) is visible on a chestnut coat, so the chestnut stallion must carry both."
     },
     {
       "id": "question-03",
       "question": "A pair of bay horses produced chestnut, bay, and black foals. What can we say about the parents' genotypes?",
-      "explanation": "Producing both chestnut and black foals means that both parents are heterozygous at Extension; producing both bay and black foals means that they are also heterozygous at Agouti.",
       "answers": [
         {
           "id": "answer-01",
@@ -101,12 +100,12 @@
           "text": "Bay horses cannot produce black foals"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Producing both chestnut and black foals means that both parents are heterozygous at Extension; producing both bay and black foals means that they are also heterozygous at Agouti."
     },
     {
       "id": "question-04",
       "question": "We bred a cremello stallion to a chestnut mare and got palomino, buckskin, and smoky black foals. What is the stallion's base-color genotype if we know that the mare's parents were black?",
-      "explanation": "Because the chestnut mare's parents were black, she has only recessive alleles at Agouti (aa): black horses cannot have a dominant Agouti allele, or they would be bay.\n\nSome of the offspring are buckskin, which has a bay base, so the sire must have a dominant Agouti allele (A). Because some are smoky black, he must also have the recessive allele (a): a black-based foal receives one recessive Agouti allele from each parent.\n\nThat gives the stallion Aa at Agouti. The chestnut mare is ee at Extension. The smoky black foals received a dominant E allele from their sire, while the palomino foals received one recessive e allele from each parent. Therefore, the stallion is heterozygous at both Extension and Agouti:\n\nEeAa (bay base)",
       "answers": [
         {
           "id": "answer-01",
@@ -133,12 +132,12 @@
           "text": "eeAa (chestnut)"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Because the chestnut mare's parents were black, she has only recessive alleles at Agouti (aa): black horses cannot have a dominant Agouti allele, or they would be bay.\n\nSome of the offspring are buckskin, which has a bay base, so the sire must have a dominant Agouti allele (A). Because some are smoky black, he must also have the recessive allele (a): a black-based foal receives one recessive Agouti allele from each parent.\n\nThat gives the stallion Aa at Agouti. The chestnut mare is ee at Extension. The smoky black foals received a dominant E allele from their sire, while the palomino foals received one recessive e allele from each parent. Therefore, the stallion is heterozygous at both Extension and Agouti:\n\nEeAa (bay base)"
     },
     {
       "id": "question-05",
       "question": "Which allele must be present in black dun (grullo), bay dun, and red dun horses?",
-      "explanation": "The Dun allele produces black dun on a black base, bay dun on a bay base, and red dun on a chestnut base.",
       "answers": [
         {
           "id": "answer-01",
@@ -165,12 +164,12 @@
           "text": "Champagne"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "The Dun allele produces black dun on a black base, bay dun on a bay base, and red dun on a chestnut base."
     },
     {
       "id": "question-06",
       "question": "Can a chestnut stallion bred to a black mare produce bay foals?",
-      "explanation": "A black horse cannot carry a dominant Agouti allele without showing it; if the mare had one, she would be bay. A chestnut stallion can carry it, however, because Agouti is not expressed on a chestnut base.",
       "answers": [
         {
           "id": "answer-01",
@@ -189,12 +188,12 @@
           "text": "Yes, if both parents carry the dominant Agouti allele (A)"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A black horse cannot carry a dominant Agouti allele without showing it; if the mare had one, she would be bay. A chestnut stallion can carry it, however, because Agouti is not expressed on a chestnut base."
     },
     {
       "id": "question-07",
       "question": "We bred two buckskin horses and got a black foal. What do we now know?",
-      "explanation": "Buckskin is one Cream allele on a bay base, and two bay-based horses can produce a black foal only if both are heterozygous at the Agouti locus.",
       "answers": [
         {
           "id": "answer-01",
@@ -217,12 +216,12 @@
           "text": "The horses are heterozygous at Agouti (Aa)"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "Buckskin is one Cream allele on a bay base, and two bay-based horses can produce a black foal only if both are heterozygous at the Agouti locus."
     },
     {
       "id": "question-08",
       "question": "We bred two buckskin horses and got a chestnut foal—just our luck when we wanted another buckskin. What do we now know about the parents' genotypes?",
-      "explanation": "A chestnut foal receives one recessive Extension allele (e) from each parent, while bay and its dilutions require a dominant Extension allele (E). Therefore, both parents have Ee and are heterozygous at Extension.",
       "answers": [
         {
           "id": "answer-01",
@@ -245,12 +244,12 @@
           "text": "They are heterozygous at Agouti (Aa)"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "A chestnut foal receives one recessive Extension allele (e) from each parent, while bay and its dilutions require a dominant Extension allele (E). Therefore, both parents have Ee and are heterozygous at Extension."
     },
     {
       "id": "question-09",
       "question": "If a chestnut mare produces a palomino foal, what can we say about the sire?",
-      "explanation": "Palomino is one Cream allele on a chestnut base. The mare does not have Cream, so the foal inherited that allele from its sire. A horse can be chestnut only after inheriting one recessive Extension allele from each parent.",
       "answers": [
         {
           "id": "answer-01",
@@ -273,12 +272,12 @@
           "text": "A chestnut sire"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Palomino is one Cream allele on a chestnut base. The mare does not have Cream, so the foal inherited that allele from its sire. A horse can be chestnut only after inheriting one recessive Extension allele from each parent."
     },
     {
       "id": "question-10",
       "question": "A mare recorded as black produces a palomino foal by a chestnut stallion. What can we say about her genotype?",
-      "explanation": "Smoky black can be difficult to distinguish phenotypically from black, so many horses recorded as black are actually smoky black.",
       "answers": [
         {
           "id": "answer-01",
@@ -301,12 +300,12 @@
           "text": "She is homozygous at both Extension and Agouti"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Smoky black can be difficult to distinguish phenotypically from black, so many horses recorded as black are actually smoky black."
     },
     {
       "id": "question-11",
       "question": "Can a buckskin horse carry the silver allele without showing it?",
-      "explanation": "Silver would turn buckskin into silver buckskin, so it would be visible in the phenotype. The horse would express silver rather than carry it unseen.",
       "answers": [
         {
           "id": "answer-01",
@@ -317,12 +316,12 @@
           "text": "No"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Silver would turn buckskin into silver buckskin, so it would be visible in the phenotype. The horse would express silver rather than carry it unseen."
     },
     {
       "id": "question-12",
       "question": "A pair of horses recorded as black produces a cremello foal. What does this mean?",
-      "explanation": "Smoky black horses are sometimes recorded as black because the dilution may not be noticeable in the phenotype. A cremello foal always inherits one Cream allele from each parent, so both parents must have it.",
       "answers": [
         {
           "id": "answer-01",
@@ -341,12 +340,12 @@
           "text": "The foal will shed its coat and turn black"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Smoky black horses are sometimes recorded as black because the dilution may not be noticeable in the phenotype. A cremello foal always inherits one Cream allele from each parent, so both parents must have it."
     },
     {
       "id": "question-13",
       "question": "What offspring can a palomino stallion and a buckskin mare produce?",
-      "explanation": "Palomino and buckskin horses are always heterozygous at the cream locus: Cn + Cn → CC, Cn, Cn, nn (25% cremello, 50% single-Cream dilutes, and 25% non-Cream).",
       "answers": [
         {
           "id": "answer-01",
@@ -369,12 +368,12 @@
           "text": "Single-Cream dilutes 75%, non-Cream 25%"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Palomino and buckskin horses are always heterozygous at the cream locus: Cn + Cn → CC, Cn, Cn, nn (25% cremello, 50% single-Cream dilutes, and 25% non-Cream)."
     },
     {
       "id": "question-14",
       "question": "A pair of bay dun horses produces a black foal. This means:",
-      "explanation": "A black foal has recessive alleles at both Agouti and Dun. Bay dun parents must each have at least one dominant allele at both loci, so they must be heterozygous at Agouti and Dun.",
       "answers": [
         {
           "id": "answer-01",
@@ -401,12 +400,12 @@
           "text": "The horses are homozygous at Extension, Agouti, and Dun"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "A black foal has recessive alleles at both Agouti and Dun. Bay dun parents must each have at least one dominant allele at both loci, so they must be heterozygous at Agouti and Dun."
     },
     {
       "id": "question-15",
       "question": "Can two chestnut horses produce a black foal if both horses had black parents?",
-      "explanation": "Chestnut is caused by recessive alleles at the Extension locus, so chestnut horses cannot carry the dominant Extension allele that produces a black base.",
       "answers": [
         {
           "id": "answer-01",
@@ -417,12 +416,12 @@
           "text": "No"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Chestnut is caused by recessive alleles at the Extension locus, so chestnut horses cannot carry the dominant Extension allele that produces a black base."
     },
     {
       "id": "question-16",
       "question": "Can two red dun horses produce a black dun foal if both horses had black dun parents?",
-      "explanation": "No, for the same reason that two chestnut horses cannot produce a black foal: red dun is Dun on a chestnut base, while black dun is Dun on a black base.",
       "answers": [
         {
           "id": "answer-01",
@@ -433,12 +432,12 @@
           "text": "No"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "No, for the same reason that two chestnut horses cannot produce a black foal: red dun is Dun on a chestnut base, while black dun is Dun on a black base."
     },
     {
       "id": "question-17",
       "question": "A pair of bay dun horses produces a red dun foal. What does this mean?",
-      "explanation": "Red dun is Dun on a chestnut base, while bay dun is Dun on a bay base. Bay requires at least one dominant Extension allele, whereas chestnut requires two recessive alleles.",
       "answers": [
         {
           "id": "answer-01",
@@ -453,12 +452,12 @@
           "text": "The horses are heterozygous at Dun"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Red dun is Dun on a chestnut base, while bay dun is Dun on a bay base. Bay requires at least one dominant Extension allele, whereas chestnut requires two recessive alleles."
     },
     {
       "id": "question-18",
       "question": "What foals can a pair of black dun horses produce if the stallion is homozygous at Dun and the mare is homozygous at Extension?",
-      "explanation": "Bay dun foals would require a dominant Agouti allele, which black dun horses do not have. Red dun foals would need one recessive Extension allele from each parent, but the mare is homozygous EE. Because the stallion is homozygous at Dun, none of his foals will lack the Dun allele.",
       "answers": [
         {
           "id": "answer-01",
@@ -485,12 +484,12 @@
           "text": "Black dun and black"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Bay dun foals would require a dominant Agouti allele, which black dun horses do not have. Red dun foals would need one recessive Extension allele from each parent, but the mare is homozygous EE. Because the stallion is homozygous at Dun, none of his foals will lack the Dun allele."
     },
     {
       "id": "question-19",
       "question": "Which allele is present in every Norwegian Fjord horse?",
-      "explanation": "Cream occurs in the breed, but not in every individual. Pearl, gray, and champagne have not been observed in the breed.",
       "answers": [
         {
           "id": "answer-01",
@@ -513,12 +512,12 @@
           "text": "Champagne"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Cream occurs in the breed, but not in every individual. Pearl, gray, and champagne have not been observed in the breed."
     },
     {
       "id": "question-20",
       "question": "What foals can two red dun horses produce if both are heterozygous at Dun?",
-      "explanation": "Red dun horses do not have a dominant Extension allele, so they cannot produce black, black dun, or bay dun foals. Because both parents are heterozygous at Dun, they can produce chestnut foals as well as red dun.",
       "answers": [
         {
           "id": "answer-01",
@@ -541,12 +540,12 @@
           "text": "Red dun and black"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Red dun horses do not have a dominant Extension allele, so they cannot produce black, black dun, or bay dun foals. Because both parents are heterozygous at Dun, they can produce chestnut foals as well as red dun."
     },
     {
       "id": "question-21",
       "question": "Can red dun horses be heterozygous at the Extension locus?",
-      "explanation": "Red dun is Dun on a chestnut base, and chestnut horses are always homozygous recessive at Extension.",
       "answers": [
         {
           "id": "answer-01",
@@ -557,12 +556,12 @@
           "text": "No!"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Red dun is Dun on a chestnut base, and chestnut horses are always homozygous recessive at Extension."
     },
     {
       "id": "question-22",
       "question": "A pair of bay dun horses produces a chestnut foal. This means:",
-      "explanation": "A chestnut foal has recessive alleles at both Extension and Dun in this example. Bay dun requires at least one dominant allele at both Extension and Dun, so both parents must be heterozygous at those loci.",
       "answers": [
         {
           "id": "answer-01",
@@ -585,12 +584,12 @@
           "text": "Both parents are homozygous at Extension, Agouti, and Dun"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A chestnut foal has recessive alleles at both Extension and Dun in this example. Bay dun requires at least one dominant allele at both Extension and Dun, so both parents must be heterozygous at those loci."
     },
     {
       "id": "question-23",
       "question": "We crossed a black stallion with a black dun mare and got a red dun foal. What do we now know about all three genotypes?",
-      "explanation": "A red dun foal—Dun on a chestnut base—receives one recessive Extension allele from each parent, so both parents are heterozygous at Extension. Both have recessive alleles at Agouti because they are black-based. Since the stallion does not have Dun, the foal is heterozygous at the Dun locus.",
       "answers": [
         {
           "id": "answer-01",
@@ -613,12 +612,12 @@
           "text": "This is impossible"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A red dun foal—Dun on a chestnut base—receives one recessive Extension allele from each parent, so both parents are heterozygous at Extension. Both have recessive alleles at Agouti because they are black-based. Since the stallion does not have Dun, the foal is heterozygous at the Dun locus."
     },
     {
       "id": "question-24",
       "question": "Polish Koniks are black dun, with occasional red dun individuals. This means their Agouti locus contains:",
-      "explanation": "If dominant Agouti alleles were present, some of the horses would be bay dun.",
       "answers": [
         {
           "id": "answer-01",
@@ -637,12 +636,12 @@
           "text": "An unknown combination"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "If dominant Agouti alleles were present, some of the horses would be bay dun."
     },
     {
       "id": "question-25",
       "question": "A pair of black dun horses produces a chestnut foal. What do we now know about all three genotypes?",
-      "explanation": "Because both parents are black dun, they have only recessive alleles at Agouti. Because the foal is chestnut and non-dun, both parents are heterozygous at Extension and Dun.",
       "answers": [
         {
           "id": "answer-01",
@@ -665,12 +664,12 @@
           "text": "Black dun horses cannot produce a chestnut foal"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Because both parents are black dun, they have only recessive alleles at Agouti. Because the foal is chestnut and non-dun, both parents are heterozygous at Extension and Dun."
     },
     {
       "id": "question-26",
       "question": "Because Przewalski's horses are all bay dun, their most likely genotype is:",
-      "explanation": "They must be homozygous for the dominant alleles in this simplified model; otherwise, other coat colors could occur.",
       "answers": [
         {
           "id": "answer-01",
@@ -689,12 +688,12 @@
           "text": "eeAADD"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "They must be homozygous for the dominant alleles in this simplified model; otherwise, other coat colors could occur."
     },
     {
       "id": "question-27",
       "question": "A pair of buckskin horses has two foals, one palomino and one black. This means the parents' genotype is:",
-      "explanation": "Palomino requires recessive alleles at Extension, while black requires recessive alleles at Agouti. Buckskin requires dominant alleles at both Extension and Agouti, so the parents must be heterozygous at both loci.",
       "answers": [
         {
           "id": "answer-01",
@@ -713,12 +712,12 @@
           "text": "EEAACn"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Palomino requires recessive alleles at Extension, while black requires recessive alleles at Agouti. Buckskin requires dominant alleles at both Extension and Agouti, so the parents must be heterozygous at both loci."
     },
     {
       "id": "question-28",
       "question": "If a frame overo stallion is bred to non-frame mares, what is the probability that an offspring will have the frame overo pattern?",
-      "explanation": "All frame overo horses are heterozygous at the frame overo locus because homozygotes with two frame alleles are not viable.",
       "answers": [
         {
           "id": "answer-01",
@@ -737,12 +736,12 @@
           "text": "90%"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "All frame overo horses are heterozygous at the frame overo locus because homozygotes with two frame alleles are not viable."
     },
     {
       "id": "question-29",
       "question": "A black mare produces a black foal by a chestnut stallion. This means the foal is:",
-      "explanation": "A chestnut stallion has only recessive alleles at Extension, while a black mare must have at least one dominant allele. The foal inherited a recessive allele from its sire and, because it is black, a dominant allele from its dam.",
       "answers": [
         {
           "id": "answer-01",
@@ -761,12 +760,12 @@
           "text": "Homozygous at Extension"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A chestnut stallion has only recessive alleles at Extension, while a black mare must have at least one dominant allele. The foal inherited a recessive allele from its sire and, because it is black, a dominant allele from its dam."
     },
     {
       "id": "question-30",
       "question": "A palomino mare produces a bay foal by a black dun stallion. What is the foal's genotype?",
-      "explanation": "The mare carries the dominant Agouti allele because the black dun stallion does not have it. The mare has no dominant Extension allele. Therefore, the bay foal received recessive e and dominant A from its dam, and dominant E and recessive a from its sire.",
       "answers": [
         {
           "id": "answer-01",
@@ -789,12 +788,12 @@
           "text": "EeAA"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The mare carries the dominant Agouti allele because the black dun stallion does not have it. The mare has no dominant Extension allele. Therefore, the bay foal received recessive e and dominant A from its dam, and dominant E and recessive a from its sire."
     },
     {
       "id": "question-31",
       "question": "Which combination of alleles produces cremello?",
-      "explanation": "Cremello results from two Cream alleles at the cream locus in this quiz's simplified model.",
       "answers": [
         {
           "id": "answer-01",
@@ -821,12 +820,12 @@
           "text": "A Champagne allele"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello results from two Cream alleles at the cream locus in this quiz's simplified model."
     },
     {
       "id": "question-32",
       "question": "Which alleles produce buckskin?",
-      "explanation": "Buckskin is one Cream allele on a bay base.",
       "answers": [
         {
           "id": "answer-01",
@@ -853,12 +852,12 @@
           "text": "Cream on a black base"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Buckskin is one Cream allele on a bay base."
     },
     {
       "id": "question-33",
       "question": "Which of these are Cream-dilute coat colors?",
-      "explanation": "Cream-dilute coat colors are those produced by the Cream allele.",
       "answers": [
         {
           "id": "answer-01",
@@ -877,12 +876,12 @@
           "text": "Black, bay, and chestnut"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Cream-dilute coat colors are those produced by the Cream allele."
     },
     {
       "id": "question-34",
       "question": "How does the silver allele affect a chestnut base?",
-      "explanation": "Silver affects only eumelanin, which produces black pigment; it does not affect pheomelanin, which produces red pigment.",
       "answers": [
         {
           "id": "answer-01",
@@ -897,12 +896,12 @@
           "text": "It has no visible effect: silver dilutes black pigment, not red pigment"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Silver affects only eumelanin, which produces black pigment; it does not affect pheomelanin, which produces red pigment."
     },
     {
       "id": "question-35",
       "question": "How can you tell that a foal has the gray allele?",
-      "explanation": "Gray horses are not born gray; they progressively gray with age. In this quiz's model, they are born without the typical foal camouflage. Because gray is dominant, at least one parent must also be gray.",
       "answers": [
         {
           "id": "answer-01",
@@ -925,12 +924,12 @@
           "text": "Both parents are white"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Gray horses are not born gray; they progressively gray with age. In this quiz's model, they are born without the typical foal camouflage. Because gray is dominant, at least one parent must also be gray."
     },
     {
       "id": "question-36",
       "question": "Which of the following produces a black base coat?",
-      "explanation": "Two recessive alleles at Extension produce chestnut, while a dominant allele at Agouti changes a black base to bay.",
       "answers": [
         {
           "id": "answer-01",
@@ -945,12 +944,12 @@
           "text": "A dominant allele at the Agouti locus"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Two recessive alleles at Extension produce chestnut, while a dominant allele at Agouti changes a black base to bay."
     },
     {
       "id": "question-37",
       "question": "In which breed does every horse carry the Dun allele?",
-      "explanation": "Akhal-Tekes do not have Dun at all; Rocky Mountain Horses often carry silver; and Gypsy Cobs occur in many different coat colors.",
       "answers": [
         {
           "id": "answer-01",
@@ -969,12 +968,12 @@
           "text": "Gypsy Cob"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Akhal-Tekes do not have Dun at all; Rocky Mountain Horses often carry silver; and Gypsy Cobs occur in many different coat colors."
     },
     {
       "id": "question-38",
       "question": "A bay mare produces a black foal by a chestnut stallion. The foal's genotype is:",
-      "explanation": "Because one parent is chestnut, the black foal has one recessive allele at Extension. It must also have a dominant Extension allele, or it could not be black. At Agouti, black horses can have only recessive alleles.",
       "answers": [
         {
           "id": "answer-01",
@@ -1001,12 +1000,12 @@
           "text": "This is impossible: a bay mare cannot produce a black foal by a chestnut stallion"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Because one parent is chestnut, the black foal has one recessive allele at Extension. It must also have a dominant Extension allele, or it could not be black. At Agouti, black horses can have only recessive alleles."
     },
     {
       "id": "question-39",
       "question": "A bay mare produces a chestnut foal and later a black foal. Her genotype is:",
-      "explanation": "A chestnut foal must receive a recessive Extension allele from each parent, while a black foal must receive a recessive Agouti allele from each parent. A bay horse requires dominant alleles at both loci, so the mare is heterozygous at both.",
       "answers": [
         {
           "id": "answer-01",
@@ -1029,12 +1028,12 @@
           "text": "eeaa"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A chestnut foal must receive a recessive Extension allele from each parent, while a black foal must receive a recessive Agouti allele from each parent. A bay horse requires dominant alleles at both loci, so the mare is heterozygous at both."
     },
     {
       "id": "question-40",
       "question": "A bay dun stallion is turned out with a herd of chestnut mares. Their offspring include bay dun, red dun, black dun, and bay foals. What is the stallion's genotype?",
-      "explanation": "The red dun offspring show that the stallion has a recessive allele at Extension; the black dun offspring show that he has a recessive allele at Agouti; and the bay foals, which lack Dun, show that he has a recessive allele at the Dun locus. He is therefore heterozygous at all three loci.",
       "answers": [
         {
           "id": "answer-01",
@@ -1061,7 +1060,8 @@
           "text": "EeAADD"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The red dun offspring show that the stallion has a recessive allele at Extension; the black dun offspring show that he has a recessive allele at Agouti; and the bay foals, which lack Dun, show that he has a recessive allele at the Dun locus. He is therefore heterozygous at all three loci."
     }
   ],
   "translation_status": "current",
@@ -1069,7 +1069,6 @@
     "title": "Генетика лошади 2",
     "short_description": "Если викторины «Генетика лошади» показалось вам мало, то здесь вы можете продолжить свой вояж по данной науке. Сложность тут примерно на том же уровне, что и в предыдущей викторине.",
     "intro": "Если викторины «Генетика лошади» показалось вам мало, то здесь вы можете продолжить свой вояж по данной науке. Сложность тут примерно на том же уровне, что и в предыдущей викторине.",
-    "questionImagesAlt": "",
     "difficulty": "high",
     "cover": "img/covers/horse-genetics-2.webp",
     "publication_date": "2026-07-20T09:00:00+00:00",
@@ -2129,5 +2128,6 @@
     ]
   },
   "questionImagesAlt": "Horse genetics quiz question",
-  "source_content_hash": "d6c8809c14a52c1c3822aa3caac1b63b90c77d64f4d4718954392e3c29045eb4"
+  "source_content_hash": "d6c8809c14a52c1c3822aa3caac1b63b90c77d64f4d4718954392e3c29045eb4",
+  "english_quiz": "horse-genetics-2-en"
 }
