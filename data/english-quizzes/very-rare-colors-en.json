@@ -11,1056 +11,2107 @@
     "images"
   ],
   "published": false,
-  "title": "Очень редкие масти",
-  "short_description": "Эта викторина построена по всё тому же принципу: фотка + варианты ответов, но она немного сложнее предыдущей, поэтому если вы еще не проходили викторину «Редкие масти», то рекомендуем начать с нее и потом уже переходить к этой.",
-  "intro": "Эта викторина построена по всё тому же принципу: фотка + варианты ответов, но она немного сложнее предыдущей, поэтому если вы еще не проходили викторину «Редкие масти», то рекомендуем начать с нее и потом уже переходить к этой.",
-  "questionImagesAlt": "Фотография лошади для определения масти",
+  "title": "Very Rare Coat Colors",
+  "short_description": "This quiz uses the same photo-and-answer format, but it is a little harder than the previous one. If you have not taken Rare Coat Colors yet, we recommend starting there before moving on to this quiz.",
+  "intro": "This quiz uses the same photo-and-answer format, but it is a little harder than the previous one. If you have not taken Rare Coat Colors yet, we recommend starting there before moving on to this quiz.",
+  "questionImagesAlt": "Photo of a horse for identifying its coat color",
   "questions": [
     {
       "id": "question-01",
-      "question": "Что это за масть?",
-      "explanation": "Здесь мы видим все признаки саврасой масти: черный ремень на спине, окантовка ушей, затемненная мордочка, но при этом грива сильно осветлена, что характерно для серебра, хотя в ней всё еще есть черные волоски, которых не может быть у соловых лошадей.",
+      "question": "What coat color is this?",
+      "explanation": "This horse shows all the features of bay dun: a black dorsal stripe, dark ear rims, and a darker muzzle. At the same time, the mane is strongly lightened, which indicates silver, although it still contains black hairs that a palomino cannot have.",
       "image": "img/quiz/very-rare-colors/01.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Солово-каурая"
+          "text": "Dunalino"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-саврасая"
+          "text": "Silver bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-04",
-          "text": "Соловая"
+          "text": "Palomino"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-02",
-      "question": "Что это за масть?",
-      "explanation": "У изабелловых лошадей розовая кожа, голубые глаза, а цвет шерсти может варьировать от кремового до белоснежного.",
+      "question": "What coat color is this?",
+      "explanation": "Cremello horses have pink skin and blue eyes, while their coat can range from cream to nearly snow-white.",
       "image": "img/quiz/very-rare-colors/02.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-03",
-      "question": "Что это за масть?",
-      "explanation": "Рабикано — это мастевое явление, при котором наблюдается осветленный волос на репице, крупе, в паху и на животе, откуда осветление может подниматься по бокам вверх, формируя характерные белые полосы вдоль ребер. Рабикано часто путают с чалостью, но это не разновидность чалости.",
+      "question": "What coat color is this?",
+      "explanation": "Rabicano is a coat pattern in which white hairs appear at the tailhead, over the croup, in the groin, and on the belly. The roaning may extend upward along the sides and form characteristic white barring over the ribs. Rabicano is often confused with true roan, but it is not a type of roan.",
       "image": "img/quiz/very-rare-colors/03.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая с ОЗВ"
+          "text": "Chestnut with a lightened mane and tail"
         },
         {
           "id": "answer-02",
-          "text": "Рыже-чалая"
+          "text": "Red roan"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая с рабикано"
+          "text": "Chestnut rabicano"
         },
         {
           "id": "answer-04",
-          "text": "Светло-рыжая"
+          "text": "Light chestnut"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-04",
-      "question": "Что это за масть?",
-      "explanation": "У серебристо-вороной в яблоках осветленный навис и темная шерсть с характерными светлыми пятнами, которые формой отличаются от пятен любой другой масти в яблоках.",
+      "question": "What coat color is this?",
+      "explanation": "A dappled silver black horse has a lightened mane and tail and a dark coat with distinctive pale dapples whose shape differs from dappling seen in other coat colors.",
       "image": "img/quiz/very-rare-colors/04.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-игреневая в яблоках"
+          "text": "Dappled dark flaxen chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Темно-рыжая в яблоках"
+          "text": "Dappled dark chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-05",
-      "question": "Что это за масть?",
-      "explanation": "У изабелловых лошадей розовая кожа, голубые глаза, а цвет шерсти может варьировать от кремового до белоснежного.",
+      "question": "What coat color is this?",
+      "explanation": "Cremello horses have pink skin and blue eyes, while their coat can range from cream to nearly snow-white.",
       "image": "img/quiz/very-rare-colors/05.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-06",
-      "question": "Что это за масть?",
-      "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это зональное потемнение).",
+      "question": "What coat color is this?",
+      "explanation": "Buckskin can be distinguished by its yellow or golden coat and lighter hairs in the mane and tail. The head may be slightly lighter than the body, whereas a bay's head is the same shade or a little darker. There is no crisp black dorsal stripe; if a stripe-like area is present, it is broad and diffuse, indicating countershading.",
       "image": "img/quiz/very-rare-colors/06.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-04",
-          "text": "Булано-саврасая"
+          "text": "Dunskin"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-07",
-      "question": "Что это за масть?",
-      "explanation": "У белой масти как и у изабелловой розовая кожа, отличить ее от последней можно по цвету глаз: у белых они темно-карие или ореховые.",
+      "question": "What coat color is this?",
+      "explanation": "White horses have pink skin like cremellos, but the two can be distinguished by eye color: white horses have dark brown or hazel eyes.",
       "image": "img/quiz/very-rare-colors/07.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-08",
-      "question": "Что это за масть?",
-      "explanation": "Серая в гречку — это отмасток серой, при котором по всему телу разбросаны многочисленные мелкие темные пятна («гречка»). Обычно такая окраска появляется у пожилых серых лошадей и является последней стадией поседения, а также она особенно характерна для арабских лошадей.",
+      "question": "What coat color is this?",
+      "explanation": "Flea-bitten gray is a shade of gray in which numerous small dark flecks are scattered over the body. It usually develops in older gray horses as a late stage of graying and is especially common in Arabians.",
       "image": "img/quiz/very-rare-colors/08.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Красно-серая"
+          "text": "Rose gray"
         },
         {
           "id": "answer-02",
-          "text": "Темно-серая"
+          "text": "Dark gray"
         },
         {
           "id": "answer-03",
-          "text": "Серая в гречку"
+          "text": "Flea-bitten gray"
         },
         {
           "id": "answer-04",
-          "text": "Светло-серая"
+          "text": "Light gray"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-09",
-      "question": "Что это за масть?",
-      "explanation": "Караковая масть очень редка и сейчас уже считается устаревшей. Отличается от темно-гнедой тем, что у нее на черной основе есть ярко-рыжие подпалины вокруг глаз, около ноздрей, под локтями и в паху. В то время как при темно-гнедой подпалины бывают более тусклыми и могут находиться за ушами, внизу живота и на боках, также по корпусу может быть немало коричневого волоса, а у караковых его нет.",
+      "question": "What coat color is this?",
+      "explanation": "Seal brown is very rare, and the Russian term used here is now considered outdated. It differs from dark bay in having vivid reddish tan points on an otherwise black coat around the eyes and nostrils, under the elbows, and in the groin. Dark bays have duller tan areas that may also occur behind the ears, along the lower belly, and on the sides, and they may have considerable brown hair on the body; seal brown horses do not.",
       "image": "img/quiz/very-rare-colors/09.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Темно-гнедая"
+          "text": "Dark bay"
         },
         {
           "id": "answer-03",
-          "text": "Темно-буланая"
+          "text": "Dark buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Караковая"
+          "text": "Seal brown"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-10",
-      "question": "Что это за масть?",
-      "explanation": "Караковая масть очень редка и сейчас уже считается устаревшей. Отличается от темно-гнедой тем, что у нее на черной основе есть ярко-рыжие подпалины вокруг глаз, около ноздрей, под локтями и в паху. В то время как при темно-гнедой подпалины бывают более тусклыми и могут находиться за ушами, внизу живота и на боках, также по корпусу может быть немало коричневого волоса, а у караковых его нет. Серебристо-караковая отличается от караковой сильно осветленным нависом.",
+      "question": "What coat color is this?",
+      "explanation": "Seal brown is very rare, and the Russian term used here is now considered outdated. It differs from dark bay in having vivid reddish tan points on an otherwise black coat around the eyes and nostrils, under the elbows, and in the groin. Dark bays have duller tan areas and may have considerable brown hair on the body. Silver seal brown differs from seal brown in its strongly lightened mane and tail.",
       "image": "img/quiz/very-rare-colors/10.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-темно-гнедая"
+          "text": "Silver dark bay"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-темно-буланая"
+          "text": "Silver dark buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-караковая"
+          "text": "Silver seal brown"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-11",
-      "question": "Что это за масть?",
-      "explanation": "Дикая гнедая масть чрезвычайно редкая, к тому же считается одной из самых древних. Отличается от гнедой бóльшим количеством рыжего волоса: черная шерсть на ногах доходит до путового сустава (бывает и выше, но очень мало), в гриве и хвосте могут быть светлые волоски. ",
+      "question": "What coat color is this?",
+      "explanation": "Wild bay is extremely rare and is considered one of the oldest coat-color variants. It has more red hair than ordinary bay: black on the legs may extend only to the fetlock, though it can reach slightly higher, and light hairs may occur in the mane and tail.",
       "image": "img/quiz/very-rare-colors/11.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая с ЗП"
+          "text": "Countershaded chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Темно-саврасая"
+          "text": "Dark bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Дикая гнедая"
+          "text": "Wild bay"
         },
         {
           "id": "answer-04",
-          "text": "Гнедая"
+          "text": "Bay"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-12",
-      "question": "Что это за масть?",
-      "explanation": "У серебристо-вороной сильно осветленный навис и черная шерсть, которая также может быть немного осветлена, а на ногах есть характерные мраморные отметины. Причем жеребята могут быть с песочно-желтой шерстью как у соловых, но потом обязательно перелиняют.",
+      "question": "What coat color is this?",
+      "explanation": "A silver black horse has a strongly lightened mane and tail and a black coat that may also be somewhat diluted, with characteristic marbling on the legs. Foals may be born with a sandy yellow coat resembling palomino, but they always shed into their adult color.",
       "image": "img/quiz/very-rare-colors/12.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-Соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-саврасая"
+          "text": "Silver bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-13",
-      "question": "Что это за масть?",
-      "explanation": "У изабелловых лошадей розовая кожа, голубые глаза, а цвет шерсти может варьировать от кремового до белоснежного.",
+      "question": "What coat color is this?",
+      "explanation": "Cremello horses have pink skin and blue eyes, while their coat can range from cream to nearly snow-white.",
       "image": "img/quiz/very-rare-colors/13.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-14",
-      "question": "Что это за масть?",
-      "explanation": "ЗП — это зональное потемнение. От других мастей буланую можно отличить по желтой шерсти, отсутствию ремня на спине и светлому волосу в черной гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее.",
+      "question": "What coat color is this?",
+      "explanation": "This is countershading. Buckskin can be distinguished from the other options by its yellow coat, the absence of a crisp dorsal stripe, and lighter hairs mixed into the black mane and tail. The head may be slightly lighter than the body, while a bay's head is usually the same shade or a little darker.",
       "image": "img/quiz/very-rare-colors/14.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая с ЗП"
+          "text": "Countershaded bay"
         },
         {
           "id": "answer-02",
-          "text": "Буланая с ЗП"
+          "text": "Countershaded buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая с ЗП"
+          "text": "Countershaded chestnut"
         },
         {
           "id": "answer-04",
-          "text": "Саврасая с ЗП"
+          "text": "Countershaded bay dun"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-15",
-      "question": "Что это за масть?",
-      "explanation": "От других мастей буланую можно отличить по желтой шерсти, отсутствию ремня на спине и светлому волосу в черной гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее.",
+      "question": "What coat color is this?",
+      "explanation": "Buckskin can be distinguished by its yellow coat, the absence of a true dorsal stripe, and lighter hairs mixed into the black mane and tail. The head may be slightly lighter than the body, while a bay's head is usually the same shade or a little darker.",
       "image": "img/quiz/very-rare-colors/15.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Булано-саврасая"
+          "text": "Dunskin"
         },
         {
           "id": "answer-04",
-          "text": "Булано-псевдосаврасая"
+          "text": "Pseudo-dun buckskin"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-16",
-      "question": "Что это за масть?",
-      "explanation": "Подласость — это мастевое явление, при котором осветлена шерсть вокруг глаз, около ноздрей, под локтями, в паху, с внутренней стороны ног и внизу живота коня. Может быть на любой масти, хотя по фенотипу ее заметить возможно только на более темной основе.",
+      "question": "What coat color is this?",
+      "explanation": "Pangaré is a coat modifier that lightens the hair around the eyes and nostrils, under the elbows, in the groin, on the insides of the legs, and along the lower belly. It can occur on any base color, although it is visible mainly on darker coats.",
       "image": "img/quiz/very-rare-colors/16.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая с ЗП"
+          "text": "Countershaded bay"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая с подласостью"
+          "text": "Pangaré bay"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая с рабикано"
+          "text": "Bay rabicano"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-чалая"
+          "text": "Bay roan"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-17",
-      "question": "Что это за масть?",
-      "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от темно-буланой — наличием ремня на спине и отсутствием желтоватого или песочного оттенка шерсти.",
+      "question": "What coat color is this?",
+      "explanation": "Black dun is easily recognized by its cool gray or ash-gray body combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, its pale appearance comes from the color of each hair rather than an admixture of white hairs, so the body looks uniform. It differs from smoky black in having primitive markings, and from dark buckskin in having a dorsal stripe and no yellow or sandy cast.",
       "image": "img/quiz/very-rare-colors/17.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-18",
-      "question": "Что это за масть?",
-      "explanation": "Главным отличием саврасой от буланой является черный ремень на спине, также часто мордочка темнее корпуса, а у буланых она обычно светлее. От каурой саврасая отличается черным нависом, а от мышастой — песочно-желтой шерстью.",
+      "question": "What coat color is this?",
+      "explanation": "The main difference between bay dun and buckskin is the black dorsal stripe; the muzzle is also often darker than the body, whereas a buckskin's is usually lighter. Bay dun differs from red dun in having a black mane and tail, and from black dun in its sandy yellow coat.",
       "image": "img/quiz/very-rare-colors/18.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Буланая"
+          "text": "Buckskin"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-19",
-      "question": "Что это за масть?",
-      "explanation": "У мышастой лошади равномерный зольный или пепельно-серый окрас корпуса, напоминающий цвет шерсти дикой мыши. При этом голова и нижняя часть ног заметно темнее, а вдоль спины обязательно проходит четкий ремень.",
+      "question": "What coat color is this?",
+      "explanation": "A black dun horse has a uniform slate-gray or ash-gray body resembling the coat of a wild mouse. The head and lower legs are noticeably darker, and a distinct dorsal stripe always runs along the back.",
       "image": "img/quiz/very-rare-colors/19.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Буланая"
+          "text": "Buckskin"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-20",
-      "question": "Что это за масть?",
-      "explanation": "У ахалтекинцев нет дикого гена, то есть они не могут быть саврасыми. Черный ремень на спине ахалтекинца — всегда признак псевдосаврасости.",
+      "question": "What coat color is this?",
+      "explanation": "Akhal-Tekes do not carry the Dun allele, so they cannot be true bay duns. A dorsal stripe on an Akhal-Teke therefore indicates a dun mimic or pseudo-dun appearance.",
       "image": "img/quiz/very-rare-colors/20.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Булано-саврасая"
+          "text": "Dunskin"
         },
         {
           "id": "answer-04",
-          "text": "Булано-псевдосаврасая"
+          "text": "Pseudo-dun buckskin"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-21",
-      "question": "Что это за масть?",
-      "explanation": "Серебристо-вороную в яблоках легко отличить по характерному мраморному рисунку на ногах и пятнам на корпусе. У темно-игреневой, темно-соловой и темно-рыжей с ОЗВ ноги без мраморного рисунка, а яблоки отсутствуют или имеют другую форму и выражены значительно слабее.",
+      "question": "What coat color is this?",
+      "explanation": "Dappled silver black is easy to recognize by the characteristic marbling on the legs and the dapples on the body. Dark flaxen chestnut, dark palomino, and dark chestnut with a lightened mane and tail lack leg marbling, while any dapples are absent, differently shaped, or much less pronounced.",
       "image": "img/quiz/very-rare-colors/21.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-игреневая в яблоках"
+          "text": "Dappled dark flaxen chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая в яблоках"
+          "text": "Dappled dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Бурая с ОЗВ в яблоках"
+          "text": "Dappled liver chestnut with a lightened mane and tail"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная в яблоках"
+          "text": "Dappled silver black"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-22",
-      "question": "Что это за масть?",
-      "explanation": "Главным отличием саврасой от буланой является черный ремень на спине, также часто мордочка темнее корпуса, а у буланых она обычно светлее. От каурой саврасая отличается черным нависом, а от гнедой — песочно-желтой шерстью.",
+      "question": "What coat color is this?",
+      "explanation": "The main difference between bay dun and buckskin is the black dorsal stripe; the muzzle is also often darker than the body, whereas a buckskin's is usually lighter. Bay dun differs from red dun in having a black mane and tail, and from bay in its sandy yellow coat.",
       "image": "img/quiz/very-rare-colors/22.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-23",
-      "question": "Что это за масть?",
-      "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это зональное потемнение).",
+      "question": "What coat color is this?",
+      "explanation": "Buckskin can be distinguished by its yellow coat and lighter hairs mixed into the mane and tail. The head may be slightly lighter than the body, whereas a bay's is the same shade or slightly darker. There is no crisp black dorsal stripe; if a stripe-like area is present, it is broad and diffuse, indicating countershading.",
       "image": "img/quiz/very-rare-colors/23.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-04",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-24",
-      "question": "Что это за масть?",
-      "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это ЗП, то есть зональное потемнение).",
+      "question": "What coat color is this?",
+      "explanation": "Buckskin can be distinguished by its yellow coat and lighter hairs mixed into the mane and tail. The head may be slightly lighter than the body, whereas a bay's is the same shade or slightly darker. There is no crisp black dorsal stripe; a broad, diffuse stripe-like area is countershading.",
       "image": "img/quiz/very-rare-colors/24.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая с ЗП в яблоках"
+          "text": "Dappled countershaded bay"
         },
         {
           "id": "answer-02",
-          "text": "Буланая с ЗП в яблоках"
+          "text": "Dappled countershaded buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Серая в яблоках"
+          "text": "Dapple gray"
         },
         {
           "id": "answer-04",
-          "text": "Саврасая в яблоках"
+          "text": "Dappled bay dun"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-25",
-      "question": "Что это за масть?",
-      "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от саврасой — отсутствием желтоватого или песочного оттенка шерсти.",
+      "question": "What coat color is this?",
+      "explanation": "Black dun is easily recognized by its cool gray or ash-gray body combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, its pale appearance comes from the color of each hair rather than an admixture of white hairs, so the body looks uniform. It differs from smoky black in having primitive markings and from bay dun in lacking a yellow or sandy cast.",
       "image": "img/quiz/very-rare-colors/25.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-04",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-26",
-      "question": "Что это за масть?",
-      "explanation": "Рыжий ремень на спине указывает на дикий ген на рыжей основе, а осветленный навис — на наличие кремового гена на рыжей основе.",
+      "question": "What coat color is this?",
+      "explanation": "The reddish dorsal stripe indicates Dun on a chestnut base, while the lightened mane and tail indicate one Cream allele on that same chestnut base.",
       "image": "img/quiz/very-rare-colors/26.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Соловая"
+          "text": "Palomino"
         },
         {
           "id": "answer-02",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-03",
-          "text": "Солово-каурая"
+          "text": "Dunalino"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-саврасая"
+          "text": "Silver bay dun"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-27",
-      "question": "Что это за масть?",
-      "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти может варьировать от кремового до белоснежного.",
+      "question": "What coat color is this?",
+      "explanation": "Cremello horses have blue eyes and pink skin, while their coat can range from cream to nearly snow-white.",
       "image": "img/quiz/very-rare-colors/27.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-28",
-      "question": "Что это за масть?",
-      "explanation": "Такой рыжий цвет нависа может быть только у бурой с ОЗВ. У вороной навис не может выгореть настолько сильно тем более зимой, у серебристо-вороных навис более холодных оттенков, в нем могут быть черные волоски, а у рыжих (бурых) их не бывает, то же касается и темно-соловых — навис у них может быть темнее белого или желтого, но не рыжий.",
+      "question": "What coat color is this?",
+      "explanation": "This reddish mane and tail can occur only on a liver chestnut with lightened long hair. A black horse's mane and tail would not bleach this extensively, especially in winter. Silver black has cooler-toned long hair that may contain black strands, which chestnut horses lack. A dark palomino's mane and tail may be darker than white or yellow, but not red.",
       "image": "img/quiz/very-rare-colors/28.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Бурая с ОЗВ"
+          "text": "Liver chestnut with a lightened mane and tail"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-04",
-          "text": "Вороная в загаре"
+          "text": "Sun-bleached black"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-29",
-      "question": "Что это за масть?",
-      "explanation": "Каурая очень похожа на рыжую, но ее легко отличить от последней по темному ремню на спине, затемненному навису и ногам, на которых может проявляться небольшая зеброидность.",
+      "question": "What coat color is this?",
+      "explanation": "Red dun closely resembles chestnut, but it is easily distinguished by its dark reddish dorsal stripe, darker mane and tail, and darker legs that may show faint barring.",
       "image": "img/quiz/very-rare-colors/29.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ЗП"
+          "text": "Countershaded chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Саврасая"
+          "text": "Bay dun"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-30",
-      "question": "Что это за масть?",
-      "explanation": "Серебристо-гнедая выглядит как гнедая только с осветленным нависом и характерным мраморным рисунком на черных ногах.",
+      "question": "What coat color is this?",
+      "explanation": "Silver bay looks like bay with a lightened mane and tail and characteristic marbling on the black lower legs.",
       "image": "img/quiz/very-rare-colors/30.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая с ОЗВ"
+          "text": "Chestnut with a lightened mane and tail"
         },
         {
           "id": "answer-02",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-31",
-      "question": "Что это за масть?",
-      "explanation": "От остальных диких мастей каурая отличается теплым рыжевато-коричневым оттенком ремня на спине и прочих самых темных участков: нависа, зеброидности, нижней части ног.",
+      "question": "What coat color is this?",
+      "explanation": "Red dun differs from the other dun colors in the warm reddish-brown shade of its dorsal stripe and other darkest areas: the mane and tail, leg barring, and lower legs.",
       "image": "img/quiz/very-rare-colors/31.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Мухортая"
+          "text": "Mealy bay"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-32",
-      "question": "Что это за масть?",
-      "explanation": "Серебристый ген на основе вороной масти сильно осветляет навис и добавляет характерные мраморные отметины на ногах.",
+      "question": "What coat color is this?",
+      "explanation": "On a black base, silver strongly lightens the mane and tail and produces characteristic marbling on the legs.",
       "image": "img/quiz/very-rare-colors/32.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-игреневая"
+          "text": "Dark flaxen chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Бурая с ОЗВ"
+          "text": "Liver chestnut with a lightened mane and tail"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-33",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Кровавые отметины — это рыжевато-красные пятна на шерсти серых лошадей, чаще всего на плечах, боках и крупе. Они считаются особым вариантом крапчатости и не связаны с травмами или кровью.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Blood marks are reddish patches on the coats of gray horses, most often on the shoulders, sides, and croup. They are considered a distinct form of pigmentation associated with flea-bitten gray and are unrelated to injury or actual blood.",
       "image": "img/quiz/very-rare-colors/33.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гречка"
+          "text": "Flea-bitten spots"
         },
         {
           "id": "answer-02",
-          "text": "Кровавые отметины"
+          "text": "Blood marks"
         },
         {
           "id": "answer-03",
-          "text": "Зональное потемнение"
+          "text": "Countershading"
         },
         {
           "id": "answer-04",
-          "text": "Рабикано"
+          "text": "Rabicano"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-34",
-      "question": "Что это за масть?",
-      "explanation": "От остальных диких мастей каурая отличается теплым рыжевато-коричневым оттенком ремня на спине и прочих самых темных участков: нависа, зеброидности, нижней части ног.",
+      "question": "What coat color is this?",
+      "explanation": "Red dun differs from the other dun colors in the warm reddish-brown shade of its dorsal stripe and other darkest areas: the mane and tail, leg barring, and lower legs.",
       "image": "img/quiz/very-rare-colors/34.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Мухортая"
+          "text": "Mealy bay"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-35",
-      "question": "Что это за масть?",
-      "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от саврасой — отсутствием желтоватого или песочного оттенка шерсти.",
+      "question": "What coat color is this?",
+      "explanation": "Black dun is easily recognized by its cool gray or ash-gray body combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, its pale appearance comes from the color of each hair rather than an admixture of white hairs, so the body looks uniform. It differs from smoky black in having primitive markings and from bay dun in lacking a yellow or sandy cast.",
       "image": "img/quiz/very-rare-colors/35.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-04",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-36",
-      "question": "Что это за масть?",
-      "explanation": "От диких мастей вороно-чалая отличается отсутствием ремня на спине и других примитивных отметин, а от пепельно-вороной — отчетливой примесью белых волос по корпусу. Пепельно-вороная окрашена более равномерно и отличается менее насыщенным, иногда буроватым оттенком черной шерсти.",
+      "question": "What coat color is this?",
+      "explanation": "Blue roan differs from dun colors in lacking a dorsal stripe and other primitive markings, and from smoky black in having an obvious admixture of white hairs across the body. Smoky black is more evenly colored and has a softer, sometimes brownish shade of black.",
       "image": "img/quiz/very-rare-colors/36.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-04",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-37",
-      "question": "Что это за масть?",
-      "explanation": "Караковая масть очень редка и сейчас уже считается устаревшей. Отличается от темно-гнедой тем, что у нее на черной основе есть ярко-рыжие подпалины вокруг глаз, около ноздрей, под локтями и в паху. В то время как при темно-гнедой подпалины бывают более тусклыми и могут находиться за ушами, внизу живота и на боках, также по корпусу может быть немало коричневого волоса, а у караковых его нет. Серебристо-караковая отличается от караковой сильно осветленным нависом.",
+      "question": "What coat color is this?",
+      "explanation": "Seal brown is very rare, and the Russian term used here is now considered outdated. It differs from dark bay in having vivid reddish tan points on an otherwise black coat around the eyes and nostrils, under the elbows, and in the groin. Dark bays have duller tan areas and may have considerable brown hair on the body. Silver seal brown differs from seal brown in its strongly lightened mane and tail.",
       "image": "img/quiz/very-rare-colors/37.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-игреневая"
+          "text": "Dark flaxen chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-караковая"
+          "text": "Silver seal brown"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-38",
-      "question": "Что это за масть?",
-      "explanation": "Низ ног не черный и нет мраморных отметин, так что серебристо-гнедая отпадает, есть черные волоски в нависе, чего не может быть у игреневых и рыжих с ОЗВ. Таким образом, методом исключения мы приходим к тому, что это темно-соловая. И да, это один из самых сложных вопросов данной викторины.",
+      "question": "What coat color is this?",
+      "explanation": "The lower legs are not black and show no marbling, so silver bay can be ruled out. The mane and tail contain black hairs, which are impossible in flaxen chestnut and chestnut with a lightened mane and tail. By elimination, this is dark palomino—and yes, it is one of the hardest questions in the quiz.",
       "image": "img/quiz/very-rare-colors/38.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Бурая с ОЗВ"
+          "text": "Liver chestnut with a lightened mane and tail"
         },
         {
           "id": "answer-02",
-          "text": "Темно-игреневая"
+          "text": "Dark flaxen chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-04",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-39",
-      "question": "Что это за масть?",
-      "explanation": "Тут в пользу серебристо-гнедой говорит черный низ ног с \"мрамором\" и осветленный навис, а про чалость свидетельствует характерный осветленный корпус.",
+      "question": "What coat color is this?",
+      "explanation": "The black lower legs with marbling and the lightened mane and tail indicate silver bay, while the characteristically lightened body indicates roan.",
       "image": "img/quiz/very-rare-colors/39.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедо-чалая"
+          "text": "Bay roan"
         },
         {
           "id": "answer-02",
-          "text": "Красно-серая"
+          "text": "Rose gray"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедо-чалая"
+          "text": "Silver bay roan"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-чалая с ОЗВ"
+          "text": "Red roan with a lightened mane and tail"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-40",
-      "question": "Что это за масть?",
-      "explanation": "У изабелловых лошадей розовая кожа и голубые глаза, а цвет шерсти может варьировать от кремового к белоснежного.",
+      "question": "What coat color is this?",
+      "explanation": "Cremello horses have pink skin and blue eyes, while their coat can range from cream to nearly snow-white.",
       "image": "img/quiz/very-rare-colors/40.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ],
       "correct_answer_id": "answer-03"
     }
   ],
-  "translation_status": "outdated",
-  "_pending_translation": {
-    "source_revision": "3c823b726cbcc305accef47a7eeef6ba5c80aaac63fa36b169d0767da14dd508",
-    "package": "very-rare-colors-en.json"
+  "translation_status": "current",
+  "_translation_source": {
+    "title": "Очень редкие масти",
+    "short_description": "Эта викторина построена по всё тому же принципу: фотка + варианты ответов, но она немного сложнее предыдущей, поэтому если вы еще не проходили викторину «Редкие масти», то рекомендуем начать с нее и потом уже переходить к этой.",
+    "intro": "Эта викторина построена по всё тому же принципу: фотка + варианты ответов, но она немного сложнее предыдущей, поэтому если вы еще не проходили викторину «Редкие масти», то рекомендуем начать с нее и потом уже переходить к этой.",
+    "questionImagesAlt": "Фотография лошади для определения масти",
+    "difficulty": "medium",
+    "cover": "img/covers/very-rare-colors.webp",
+    "publication_date": "2026-07-21T12:00:00+00:00",
+    "tags": [
+      "horses",
+      "images"
+    ],
+    "questions": [
+      {
+        "id": "question-01",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/01.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Солово-каурая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серебристо-саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Соловая"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Здесь мы видим все признаки саврасой масти: черный ремень на спине, окантовка ушей, затемненная мордочка, но при этом грива сильно осветлена, что характерно для серебра, хотя в ней всё еще есть черные волоски, которых не может быть у соловых лошадей.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-02",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/02.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Светло-серая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Светло-соловая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Изабелловая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Белая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У изабелловых лошадей розовая кожа, голубые глаза, а цвет шерсти может варьировать от кремового до белоснежного.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-03",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/03.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Рыжая с ОЗВ"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рыже-чалая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рыжая с рабикано"
+          },
+          {
+            "id": "answer-04",
+            "text": "Светло-рыжая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Рабикано — это мастевое явление, при котором наблюдается осветленный волос на репице, крупе, в паху и на животе, откуда осветление может подниматься по бокам вверх, формируя характерные белые полосы вдоль ребер. Рабикано часто путают с чалостью, но это не разновидность чалости.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-04",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/04.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Темно-игреневая в яблоках"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-рыжая в яблоках"
+          },
+          {
+            "id": "answer-03",
+            "text": "Темно-соловая в яблоках"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серебристо-вороная в яблоках"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "У серебристо-вороной в яблоках осветленный навис и темная шерсть с характерными светлыми пятнами, которые формой отличаются от пятен любой другой масти в яблоках.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-05",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/05.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Светло-серая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Светло-соловая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Изабелловая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Белая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У изабелловых лошадей розовая кожа, голубые глаза, а цвет шерсти может варьировать от кремового до белоснежного.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-06",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/06.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Буланая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Светло-гнедая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Булано-саврасая"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это зональное потемнение).",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-07",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/07.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Светло-соловая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Светло-серая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Изабелловая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Белая"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "У белой масти как и у изабелловой розовая кожа, отличить ее от последней можно по цвету глаз: у белых они темно-карие или ореховые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-08",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/08.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Красно-серая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-серая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серая в гречку"
+          },
+          {
+            "id": "answer-04",
+            "text": "Светло-серая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Серая в гречку — это отмасток серой, при котором по всему телу разбросаны многочисленные мелкие темные пятна («гречка»). Обычно такая окраска появляется у пожилых серых лошадей и является последней стадией поседения, а также она особенно характерна для арабских лошадей.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-09",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/09.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Вороная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-гнедая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Темно-буланая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Караковая"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Караковая масть очень редка и сейчас уже считается устаревшей. Отличается от темно-гнедой тем, что у нее на черной основе есть ярко-рыжие подпалины вокруг глаз, около ноздрей, под локтями и в паху. В то время как при темно-гнедой подпалины бывают более тусклыми и могут находиться за ушами, внизу живота и на боках, также по корпусу может быть немало коричневого волоса, а у караковых его нет.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-10",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/10.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Серебристо-вороная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серебристо-темно-гнедая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серебристо-темно-буланая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серебристо-караковая"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Караковая масть очень редка и сейчас уже считается устаревшей. Отличается от темно-гнедой тем, что у нее на черной основе есть ярко-рыжие подпалины вокруг глаз, около ноздрей, под локтями и в паху. В то время как при темно-гнедой подпалины бывают более тусклыми и могут находиться за ушами, внизу живота и на боках, также по корпусу может быть немало коричневого волоса, а у караковых его нет. Серебристо-караковая отличается от караковой сильно осветленным нависом.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-11",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/11.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Рыжая с ЗП"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Дикая гнедая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Дикая гнедая масть чрезвычайно редкая, к тому же считается одной из самых древних. Отличается от гнедой бóльшим количеством рыжего волоса: черная шерсть на ногах доходит до путового сустава (бывает и выше, но очень мало), в гриве и хвосте могут быть светлые волоски. ",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-12",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/12.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Темно-Соловая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серебристо-саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серебристо-вороная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серебристо-гнедая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У серебристо-вороной сильно осветленный навис и черная шерсть, которая также может быть немного осветлена, а на ногах есть характерные мраморные отметины. Причем жеребята могут быть с песочно-желтой шерстью как у соловых, но потом обязательно перелиняют.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-13",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/13.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Светло-соловая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Светло-серая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Изабелловая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Белая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У изабелловых лошадей розовая кожа, голубые глаза, а цвет шерсти может варьировать от кремового до белоснежного.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-14",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/14.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Гнедая с ЗП"
+          },
+          {
+            "id": "answer-02",
+            "text": "Буланая с ЗП"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рыжая с ЗП"
+          },
+          {
+            "id": "answer-04",
+            "text": "Саврасая с ЗП"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "ЗП — это зональное потемнение. От других мастей буланую можно отличить по желтой шерсти, отсутствию ремня на спине и светлому волосу в черной гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-15",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/15.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Буланая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Булано-саврасая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Булано-псевдосаврасая"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "От других мастей буланую можно отличить по желтой шерсти, отсутствию ремня на спине и светлому волосу в черной гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-16",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/16.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Гнедая с ЗП"
+          },
+          {
+            "id": "answer-02",
+            "text": "Гнедая с подласостью"
+          },
+          {
+            "id": "answer-03",
+            "text": "Гнедая с рабикано"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-чалая"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Подласость — это мастевое явление, при котором осветлена шерсть вокруг глаз, около ноздрей, под локтями, в паху, с внутренней стороны ног и внизу живота коня. Может быть на любой масти, хотя по фенотипу ее заметить возможно только на более темной основе.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-17",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/17.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороно-чалая"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от темно-буланой — наличием ремня на спине и отсутствием желтоватого или песочного оттенка шерсти.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-18",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/18.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Буланая"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Главным отличием саврасой от буланой является черный ремень на спине, также часто мордочка темнее корпуса, а у буланых она обычно светлее. От каурой саврасая отличается черным нависом, а от мышастой — песочно-желтой шерстью.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-19",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/19.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Буланая"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "У мышастой лошади равномерный зольный или пепельно-серый окрас корпуса, напоминающий цвет шерсти дикой мыши. При этом голова и нижняя часть ног заметно темнее, а вдоль спины обязательно проходит четкий ремень.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-20",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/20.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Буланая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Булано-саврасая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Булано-псевдосаврасая"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "У ахалтекинцев нет дикого гена, то есть они не могут быть саврасыми. Черный ремень на спине ахалтекинца — всегда признак псевдосаврасости.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-21",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/21.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Темно-игреневая в яблоках"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-соловая в яблоках"
+          },
+          {
+            "id": "answer-03",
+            "text": "Бурая с ОЗВ в яблоках"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серебристо-вороная в яблоках"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Серебристо-вороную в яблоках легко отличить по характерному мраморному рисунку на ногах и пятнам на корпусе. У темно-игреневой, темно-соловой и темно-рыжей с ОЗВ ноги без мраморного рисунка, а яблоки отсутствуют или имеют другую форму и выражены значительно слабее.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-22",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/22.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Буланая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Светло-гнедая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Каурая"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Главным отличием саврасой от буланой является черный ремень на спине, также часто мордочка темнее корпуса, а у буланых она обычно светлее. От каурой саврасая отличается черным нависом, а от гнедой — песочно-желтой шерстью.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-23",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/23.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Буланая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Светло-гнедая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Игреневая"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это зональное потемнение).",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-24",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/24.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Гнедая с ЗП в яблоках"
+          },
+          {
+            "id": "answer-02",
+            "text": "Буланая с ЗП в яблоках"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серая в яблоках"
+          },
+          {
+            "id": "answer-04",
+            "text": "Саврасая в яблоках"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это ЗП, то есть зональное потемнение).",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-25",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/25.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-чалая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пепельно-вороная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от саврасой — отсутствием желтоватого или песочного оттенка шерсти.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-26",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/26.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Соловая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Каурая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Солово-каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серебристо-саврасая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Рыжий ремень на спине указывает на дикий ген на рыжей основе, а осветленный навис — на наличие кремового гена на рыжей основе.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-27",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/27.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Светло-серая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Светло-соловая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Изабелловая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Белая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти может варьировать от кремового до белоснежного.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-28",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/28.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Бурая с ОЗВ"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-соловая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серебристо-вороная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороная в загаре"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Такой рыжий цвет нависа может быть только у бурой с ОЗВ. У вороной навис не может выгореть настолько сильно тем более зимой, у серебристо-вороных навис более холодных оттенков, в нем могут быть черные волоски, а у рыжих (бурых) их не бывает, то же касается и темно-соловых — навис у них может быть темнее белого или желтого, но не рыжий.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-29",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/29.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Рыжая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рыжая с ЗП"
+          },
+          {
+            "id": "answer-03",
+            "text": "Каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Саврасая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Каурая очень похожа на рыжую, но ее легко отличить от последней по темному ремню на спине, затемненному навису и ногам, на которых может проявляться небольшая зеброидность.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-30",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/30.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Рыжая с ОЗВ"
+          },
+          {
+            "id": "answer-02",
+            "text": "Игреневая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Темно-соловая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серебристо-гнедая"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Серебристо-гнедая выглядит как гнедая только с осветленным нависом и характерным мраморным рисунком на черных ногах.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-31",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/31.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мухортая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "От остальных диких мастей каурая отличается теплым рыжевато-коричневым оттенком ремня на спине и прочих самых темных участков: нависа, зеброидности, нижней части ног.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-32",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/32.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Темно-игреневая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-соловая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Бурая с ОЗВ"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серебристо-вороная"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Серебристый ген на основе вороной масти сильно осветляет навис и добавляет характерные мраморные отметины на ногах.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-33",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/very-rare-colors/33.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Гречка"
+          },
+          {
+            "id": "answer-02",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Зональное потемнение"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рабикано"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Кровавые отметины — это рыжевато-красные пятна на шерсти серых лошадей, чаще всего на плечах, боках и крупе. Они считаются особым вариантом крапчатости и не связаны с травмами или кровью.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-34",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/34.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мухортая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "От остальных диких мастей каурая отличается теплым рыжевато-коричневым оттенком ремня на спине и прочих самых темных участков: нависа, зеброидности, нижней части ног.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-35",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/35.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-чалая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пепельно-вороная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Мышастую масть легко отличить по холодному серому или пепельно-серому оттенку корпуса в сочетании с характерными дикими отметинами: темным ремнем вдоль спины, зеброидностью на ногах и темной окантовкой ушей. В отличие от вороно-чалой, светлый оттенок создается не примесью белых волос, а окраской самого волоса, поэтому корпус выглядит однотонным. От пепельно-вороной мышастая отличается наличием диких отметин, а от саврасой — отсутствием желтоватого или песочного оттенка шерсти.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-36",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/36.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-чалая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пепельно-вороная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "От диких мастей вороно-чалая отличается отсутствием ремня на спине и других примитивных отметин, а от пепельно-вороной — отчетливой примесью белых волос по корпусу. Пепельно-вороная окрашена более равномерно и отличается менее насыщенным, иногда буроватым оттенком черной шерсти.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-37",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/37.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Темно-игреневая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-соловая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серебристо-вороная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серебристо-караковая"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Караковая масть очень редка и сейчас уже считается устаревшей. Отличается от темно-гнедой тем, что у нее на черной основе есть ярко-рыжие подпалины вокруг глаз, около ноздрей, под локтями и в паху. В то время как при темно-гнедой подпалины бывают более тусклыми и могут находиться за ушами, внизу живота и на боках, также по корпусу может быть немало коричневого волоса, а у караковых его нет. Серебристо-караковая отличается от караковой сильно осветленным нависом.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-38",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/38.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Бурая с ОЗВ"
+          },
+          {
+            "id": "answer-02",
+            "text": "Темно-игреневая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серебристо-гнедая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Темно-соловая"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Низ ног не черный и нет мраморных отметин, так что серебристо-гнедая отпадает, есть черные волоски в нависе, чего не может быть у игреневых и рыжих с ОЗВ. Таким образом, методом исключения мы приходим к тому, что это темно-соловая. И да, это один из самых сложных вопросов данной викторины.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-39",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/39.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Гнедо-чалая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Красно-серая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серебристо-гнедо-чалая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рыже-чалая с ОЗВ"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Тут в пользу серебристо-гнедой говорит черный низ ног с \"мрамором\" и осветленный навис, а про чалость свидетельствует характерный осветленный корпус.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-40",
+        "question": "Что это за масть?",
+        "image": "img/quiz/very-rare-colors/40.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Светло-соловая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Светло-серая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Изабелловая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Белая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У изабелловых лошадей розовая кожа и голубые глаза, а цвет шерсти может варьировать от кремового к белоснежного.",
+        "image_author": "Неизвестен"
+      }
+    ]
   },
-  "_translation_source": {}
+  "source_content_hash": "3c823b726cbcc305accef47a7eeef6ba5c80aaac63fa36b169d0767da14dd508"
 }

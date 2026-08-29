@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "very-rare-colors",
   "target_quiz": "very-rare-colors-en",
   "source_revision": "3c823b726cbcc305accef47a7eeef6ba5c80aaac63fa36b169d0767da14dd508",
