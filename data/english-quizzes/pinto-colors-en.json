@@ -10,7 +10,7 @@
     "horses",
     "images"
   ],
-  "published": false,
+  "published": true,
   "title": "Pinto Coat Colors",
   "short_description": "Let's sort out the different pinto patterns. As in the other quizzes, the idea is simple: look at the photo and choose the correct answer. Even if you learn nothing, at least you'll see some beautiful horses.",
   "intro": "Let's sort out the different pinto patterns. As in the other quizzes, the idea is simple: look at the photo and choose the correct answer. Even if you learn nothing, at least you'll see some beautiful horses.",
@@ -19,9 +19,7 @@
     {
       "id": "question-01",
       "question": "What coat color and pattern is this?",
-      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
       "image": "img/quiz/pinto-colors/01.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -40,14 +38,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-02",
       "question": "What coat color and pattern is this?",
-      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
       "image": "img/quiz/pinto-colors/02.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -66,14 +64,14 @@
           "text": "Flaxen chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-03",
       "question": "What coat color and pattern is this?",
-      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
       "image": "img/quiz/pinto-colors/03.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -92,14 +90,14 @@
           "text": "Bay frame overo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-04",
       "question": "What coat color and pattern is this?",
-      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
       "image": "img/quiz/pinto-colors/04.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -118,14 +116,14 @@
           "text": "Silver bay frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-05",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/05.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -144,14 +142,14 @@
           "text": "Black dun (grullo) frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-06",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/06.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -170,14 +168,14 @@
           "text": "Black frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-07",
       "question": "What coat color and pattern is this?",
-      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
       "image": "img/quiz/pinto-colors/07.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -196,14 +194,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-08",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/08.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -222,14 +220,14 @@
           "text": "Black frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-09",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/09.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -248,14 +246,14 @@
           "text": "Dappled silver black frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-10",
       "question": "How extensive is this pinto pattern?",
-      "explanation": "The larger the white patches, the more extensive the pinto pattern.",
       "image": "img/quiz/pinto-colors/10.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -270,14 +268,14 @@
           "text": "Maximal"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The larger the white patches, the more extensive the pinto pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-11",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/11.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -296,14 +294,14 @@
           "text": "Dark bay frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-12",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/12.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -322,14 +320,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-13",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/13.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -348,14 +346,14 @@
           "text": "Black frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-14",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/14.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -374,14 +372,14 @@
           "text": "Bay dun frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-15",
       "question": "What coat color and pattern is this?",
-      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
       "image": "img/quiz/pinto-colors/15.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -400,14 +398,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-16",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/16.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -426,14 +424,14 @@
           "text": "Palomino frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-17",
       "question": "What coat color and pattern is this?",
-      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
       "image": "img/quiz/pinto-colors/17.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -452,14 +450,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-18",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/18.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -478,14 +476,14 @@
           "text": "Bay frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-19",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/19.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -504,14 +502,14 @@
           "text": "Cremello frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-20",
       "question": "What coat color and pattern is this?",
-      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
       "image": "img/quiz/pinto-colors/20.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -530,14 +528,14 @@
           "text": "Black frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-21",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/21.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -556,14 +554,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-22",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/22.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -582,14 +580,14 @@
           "text": "Bay frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-23",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/23.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -608,14 +606,14 @@
           "text": "Black dun (grullo) frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-24",
       "question": "What coat color and pattern is this?",
-      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
       "image": "img/quiz/pinto-colors/24.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -634,14 +632,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-25",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/25.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -660,14 +658,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-26",
       "question": "What coat color and pattern is this?",
-      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
       "image": "img/quiz/pinto-colors/26.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -686,14 +684,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-27",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/27.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -712,14 +710,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-28",
       "question": "What coat color and pattern is this?",
-      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
       "image": "img/quiz/pinto-colors/28.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -738,14 +736,14 @@
           "text": "Black frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-29",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/29.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -764,14 +762,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-30",
       "question": "What coat color and pattern is this?",
-      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
       "image": "img/quiz/pinto-colors/30.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -790,14 +788,14 @@
           "text": "Flaxen chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-31",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/31.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -816,14 +814,14 @@
           "text": "Buckskin frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-32",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/32.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -842,14 +840,14 @@
           "text": "Dappled silver black frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-33",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/33.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -868,14 +866,14 @@
           "text": "Palomino frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-34",
       "question": "What coat color and pattern is this?",
-      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
       "image": "img/quiz/pinto-colors/34.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -894,14 +892,14 @@
           "text": "Bay frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-35",
       "question": "What coat color and pattern is this?",
-      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
       "image": "img/quiz/pinto-colors/35.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -920,14 +918,14 @@
           "text": "Bay frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-36",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/36.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -946,14 +944,14 @@
           "text": "Bay frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-37",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/37.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -972,14 +970,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-38",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/38.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -998,14 +996,14 @@
           "text": "Palomino frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-39",
       "question": "What coat color and pattern is this?",
-      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
       "image": "img/quiz/pinto-colors/39.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1024,14 +1022,14 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-40",
       "question": "What coat color and pattern is this?",
-      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
       "image": "img/quiz/pinto-colors/40.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1050,7 +1048,9 @@
           "text": "Chestnut frame overo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     }
   ],
   "translation_status": "current",
@@ -2105,5 +2105,6 @@
       }
     ]
   },
-  "source_content_hash": "978ba4586981c8f4c85569e978734a4d179bcd9cb2b710bc54497fe44cae10d1"
+  "source_content_hash": "978ba4586981c8f4c85569e978734a4d179bcd9cb2b710bc54497fe44cae10d1",
+  "english_quiz": "pinto-colors-en"
 }
