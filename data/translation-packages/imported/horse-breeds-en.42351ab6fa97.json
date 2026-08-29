@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "horse-breeds",
   "target_quiz": "horse-breeds-en",
   "source_revision": "42351ab6fa97093ce227083848f0d5d82da7218d138e859b02c3e6eafaa0f3f8",
