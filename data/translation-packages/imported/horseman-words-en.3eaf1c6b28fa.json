@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "horseman-words",
   "target_quiz": "horseman-words-en",
   "source_revision": "3eaf1c6b28facb0eb96b8533bb8f48be6099cd2fa2012c367f1ab9ac7ab43fd1",
