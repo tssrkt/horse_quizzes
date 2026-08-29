@@ -352,24 +352,24 @@
     },
     {
       "id": "question-14",
-      "question": "Что это за конь?",
+      "question": "Что это за масть?",
       "image": "img/quiz/very-rare-colors/14.webp",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедой с ЗП"
+          "text": "Гнедая с ЗП"
         },
         {
           "id": "answer-02",
-          "text": "Буланый с ЗП"
+          "text": "Буланая с ЗП"
         },
         {
           "id": "answer-03",
-          "text": "Рыжий с ЗП"
+          "text": "Рыжая с ЗП"
         },
         {
           "id": "answer-04",
-          "text": "Саврасый с ЗП"
+          "text": "Саврасая с ЗП"
         }
       ],
       "correct_answer_id": "answer-02",
