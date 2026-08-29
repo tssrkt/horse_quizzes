@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "anatomy",
   "target_quiz": "anatomy-en",
   "source_revision": "c29440159573e6ebd421db9f5187cb1b8ed572ee7a1345e3cf75630eab229cfd",
