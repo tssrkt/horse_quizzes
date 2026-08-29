@@ -7,1025 +7,1025 @@
   "source_revision": "3eaf1c6b28facb0eb96b8533bb8f48be6099cd2fa2012c367f1ab9ac7ab43fd1",
   "mode": "created",
   "fields": {
-    "title": "Тезаурус конника",
-    "short_description": "Здесь собраны основные термины, которые должен знать конник, независимо от того занимается он конным спортом, держит лошадь для души или просто работает с этими благородными животными.",
-    "intro": "Здесь собраны основные термины, которые должен знать конник, независимо от того занимается он конным спортом, держит лошадь для души или просто работает с этими благородными животными.",
-    "questionImagesAlt": ""
+    "title": "Equestrian Glossary",
+    "short_description": "Essential terms for riders, horse owners, and anyone who works with horses—from tack and farriery to training, dressage, and equine behavior.",
+    "intro": "This quiz covers essential terms every horseperson should know, whether you compete, keep a horse for pleasure, or work with these remarkable animals.",
+    "questionImagesAlt": "Illustrations for the Equestrian Glossary quiz"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Что такое ухналь?",
-        "explanation": "Слово «ухна́ль» (или ухнали) пришло в русский язык в XVII веке из польского языка (от hufnal, которое, в свою очередь, заимствовано из немецкого Hufnagel, где Huf — копыто, а Nagel — гвоздь). В конном мире и кузнечном деле этот технический термин обозначает специальный плоский кованый гвоздь, предназначенный для прикрепления подковы к роговому слою копыта лошади. Конструкция ухналя уникальна: он имеет прямоугольное сечение, массивную четырехгранную головку, которая полностью тонет в отверстии подковы, и слегка скошенное острие на конце, которое при забивании заставляет гвоздь выходить наружу через стенку копыта, не задевая чувствительные живые ткани внутри."
+        "question": "What is a horseshoe nail?",
+        "explanation": "A horseshoe nail is a specially shaped, forged nail used to fasten a shoe to the insensitive horn of a horse’s hoof wall. Its rectangular shank, substantial head, and beveled point help the farrier guide it outward through the hoof wall without touching the sensitive structures inside."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент амуниции лошади"
+          "text": "A piece of horse tack"
         },
         {
           "id": "answer-02",
-          "text": "Элемент экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-03",
-          "text": "Гвоздь, которым прибывают подкову к копыту"
+          "text": "A nail used to fasten a horseshoe to the hoof"
         },
         {
           "id": "answer-04",
-          "text": "Дурноезжая лошадь"
+          "text": "A badly trained horse"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Что такое бухтовка?",
-        "explanation": "Слово «бухто́вка» пришло в ковочный лексикон из немецкого языка (от Bucht — изгиб, выемка) и обозначает специальный пологий скос или углубление на верхней поверхности внутреннего края подковы. Этот кузнечный элемент выковывается ковалями для того, чтобы жесткий металл подковы не оказывал прямого давления на чувствительную живую подошву копыта при наступании, что особенно критично для передних ног с их плоским строением. Наличие бухтовки предотвращает появление болезненных наминов, а в лечебной ковке и ветеринарии глубокая выемка используется для фиксации лечебных повязок и компрессов с помощью деревянных лучинок."
+        "question": "What is seating out a horseshoe?",
+        "explanation": "Seating out is the shallow bevel or hollow made along the inner edge of the upper surface of a horseshoe. It keeps the rigid shoe from pressing on the sensitive sole, which is especially important for flat-footed horses. A deeper seated-out area may also provide room for a therapeutic dressing or packing."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент амуниции лошади"
+          "text": "A piece of horse tack"
         },
         {
           "id": "answer-02",
-          "text": "Элемент экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-03",
-          "text": "Процесс закрепления седельных сумок"
+          "text": "The process of securing saddlebags"
         },
         {
           "id": "answer-04",
-          "text": "Специальное углубление у подковы"
+          "text": "Creating a recessed area on the inner edge of a horseshoe"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что такое заковка?",
-        "explanation": "Слово «зако́вка» — это официальный ветеринарный и ковочный термин исконно славянского происхождения от глагола ковать, обозначающий производственную травму копыта, при которой коваль при забивании ухналя (гвоздя) повреждает живые, чувствительные ткани внутри копытного башмака. Заковка бывает прямой (когда гвоздь полностью пробивает роговую стенку и вонзается в основу кожи копыта) или косвенной (когда гвоздь проходит слишком близко к живым тканям и сильно сдавливает их). Эта ошибка кузнеца вызывает у лошади острую боль, мгновенную или развивающуюся хромоту, а при несвоевременном извлечении гвоздя приводит к тяжелому гнойному воспалению (пододерматиту), требующему серьезного ветеринарного вмешательства."
+        "question": "What is a nail prick?",
+        "explanation": "A nail prick is a shoeing injury in which a horseshoe nail penetrates sensitive tissue inside the hoof. A nail driven very close to the sensitive structures may instead cause a nail bind. Either can cause pain and lameness; an undetected puncture can lead to infection and requires prompt attention from a farrier or veterinarian."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Процесс подковывания лошади"
+          "text": "The process of shoeing a horse"
         },
         {
           "id": "answer-02",
-          "text": "Травма лошади из-за неправильного подковывания"
+          "text": "A hoof injury caused by a misplaced horseshoe nail"
         },
         {
           "id": "answer-03",
-          "text": "Болезнь лошади из-за неподходящих подков"
+          "text": "A disease caused by an unsuitable horseshoe"
         },
         {
           "id": "answer-04",
-          "text": "Вредная привычка лошади"
+          "text": "An unwanted stable behavior"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что такое краги?",
-        "explanation": "Слово «кра́ги» пришло в русский язык в Петровскую эпоху из нидерландского (kraag) или немецкого (Kragen) языка, где оно изначально означало «воротник» или «отворот». В современном конном спорте этот термин обозначает съемные кожаные, замшевые или синтетические голенища, которые надеваются поверх коротких ботинок для верховой езды и застегиваются на молнию сбоку или сзади. Они фиксируются штрипкой под каблуком и служат доступной, практичной заменой дорогостоящим высоким сапогам, защищая внутреннюю поверхность икры всадника от трения о седло и защемления ремнем стремени (путлищем), а также обеспечивая плотный и стабильный контакт ноги с боком лошади."
+        "question": "What are riding gaiters?",
+        "explanation": "Riding gaiters are close-fitting leather or synthetic leg coverings worn over short riding boots. Fastened at the side or back and usually secured beneath the heel, they provide an affordable alternative to tall boots, protect the rider’s calf from rubbing and pinching, and help maintain steady contact with the horse’s side."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент амуниции лошади"
+          "text": "A piece of horse tack"
         },
         {
           "id": "answer-02",
-          "text": "Элемент экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-03",
-          "text": "Молодые горячие лошади"
+          "text": "Young, excitable horses"
         },
         {
           "id": "answer-04",
-          "text": "То же, что и клячи"
+          "text": "Another name for worn-out horses"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Что такое шенкель?",
-        "explanation": "Слово «ше́нкель» пришло в русский конный лексикон в XVIII веке из немецкого языка (от Schenkel — «голень», «бедро»), где оно восходит к древнегерманскому корню со значением «сгибать» или «наклонять». В конном спорте и классической верховой езде этот термин обозначает внутреннюю сторону ноги всадника от колена до щиколотки, которая плотно прилегает к боку лошади и является одним из главных естественных средств управления животным. С помощью ритмичных нажатий, прижатий или посылов шенкелем всадник задает лошади темп движения, дает команду к началу аллюра, регулирует скорость, а также контролирует сгибание корпуса коня при выполнении сложных манежных элементов и поворотов."
+        "question": "What is the rider’s lower leg?",
+        "explanation": "In riding, the lower leg—from the knee to the ankle—is one of the rider’s principal natural aids. By applying, closing, or pulsing the calf against the horse’s side, the rider asks the horse to move forward, regulates energy and tempo, and influences bend and lateral movement."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Часть амуниции лошади"
+          "text": "A part of the horse’s tack"
         },
         {
           "id": "answer-02",
-          "text": "Часть экипировки всадника"
+          "text": "A part of the rider’s equipment"
         },
         {
           "id": "answer-03",
-          "text": "Внутренняя поверхность ноги всадника от колена до ступни"
+          "text": "The inside of the rider’s leg from knee to ankle"
         },
         {
           "id": "answer-04",
-          "text": "Внутренняя поверхность руки всадника от локтя до кисти"
+          "text": "The inside of the rider’s arm from elbow to hand"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Что такое конкур?",
-        "explanation": "Слово «конку́р» пришло в русский язык в XIX веке из французского языка (от concours hippique — «конные состязания») и восходит к латинскому корню concurrere, означающему «бежать вместе» или «сталкиваться». В современном конном спорте этот термин обозначает наиболее популярную олимпийскую дисциплину по преодолению препятствий на турнирном поле в определенном порядке. Прыжковые маршруты состоят из 8–16 различных барьеров высотой от 80 до 160 см, а победителем признается всадник, прошедший дистанцию за минимальное время и без штрафных очков, которые начисляются за разрушение жердей, превышение лимита времени или закидки лошади."
+        "question": "What is show jumping?",
+        "explanation": "Show jumping is an Olympic equestrian discipline in which horse-and-rider combinations negotiate a set course of obstacles in a prescribed order. Faults are awarded for knocking down rails, refusals, and exceeding the time allowed; the winner completes the course with the fewest faults, with time often deciding ties."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Выставка лошадей на продажу"
+          "text": "A horse auction"
         },
         {
           "id": "answer-02",
-          "text": "Конкурс красоты лошадей"
+          "text": "A horse beauty contest"
         },
         {
           "id": "answer-03",
-          "text": "Конный вид спорта"
+          "text": "An equestrian sport"
         },
         {
           "id": "answer-04",
-          "text": "Соревнования тяжеловозов"
+          "text": "A competition for draft horses"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Что такое шлюс?",
-        "explanation": "Слово «шлюс» пришло в русский конный лексикон из немецкого языка (от Schluss — «заключение», «замок», «смыкание») и в классической верховой езде обозначает внутреннюю сторону бедра всадника от паха до колена. Шлюс является важнейшей частью глубокой независимой посадки и служит главным «замком», которым всадник удерживает равновесие в седле без судорожного цепляния за повод или стремена. За счет мягкого, но плотного прижатия шлюса и перераспределения веса своего тела всадник может давать лошади тончайшие незаметные команды: тормозить ее, высылать вперед или подготавливать к сбору, при этом сила сжатия шлюса регулирует степень контроля над движениями спины коня."
+        "question": "What is the rider’s inner-thigh contact?",
+        "explanation": "The rider’s inner thigh, from groin to knee, helps create a deep, secure, independent seat. Soft, consistent contact supports balance without gripping the reins or stirrups. Together with the seat, weight, and lower-leg aids, it can subtly influence the horse’s tempo, balance, and preparation for collection."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Болезнь лошади"
+          "text": "A horse disease"
         },
         {
           "id": "answer-02",
-          "text": "Часть экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-03",
-          "text": "Часть амуниции лошади"
+          "text": "A piece of horse tack"
         },
         {
           "id": "answer-04",
-          "text": "Внутренняя сторона бедра всадника от паха до колена"
+          "text": "The inside of the rider’s thigh from groin to knee"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что такое швунг?",
-        "explanation": "Слово «швунг» пришло в русский конный лексикон из немецкого языка (от Schwung — «взмах», «полет», «импульс», «энергия») и в классической верховой езде (выездке) обозначает импульс — мощное, упругое и ритмичное продвижение лошади вперед, рождающееся от активного толчка задних ног. Швунг не является синонимом обычной скорости, а характеризует качество аллюра (рыси или галопа): при хорошем импульсе энергия от задних ног волнообразно проходит через расслабленную спину и шею прямо в руку всадника, создавая визуальный эффект легкости, эластичности движений и отчетливо выраженной фазы зависания лошади в воздухе."
+        "question": "What is impulsion?",
+        "explanation": "In dressage, impulsion is the controlled, energetic thrust generated by the horse’s engaged hindquarters. It is not simply speed: the energy should travel through a supple, swinging back into an elastic contact, producing expressive, cadenced movement with a clear moment of suspension in trot and canter."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Фигура в выездке"
+          "text": "A dressage figure"
         },
         {
           "id": "answer-02",
-          "text": "Элемент экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-03",
-          "text": "Элемент амуниции лошади"
+          "text": "A piece of horse tack"
         },
         {
           "id": "answer-04",
-          "text": "Продвижение лошади вперед"
+          "text": "Energetic forward thrust generated by the hindquarters"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Кто такой берейтор?",
-        "explanation": "Термин «берейтор» (или «берейтер») происходит от немецкого слова Bereiter (от глагола bereiten — «выезжать верхом», «объезжать лошадь») и буквально переводится как «объездчик». В конном мире берейтор — это профессиональный специалист и тренер, который занимается обучением и воспитанием лошадей, начиная от заездки молодых животных до подготовки их к спортивным соревнованиям (конкуру, выездке) или цирковым выступлениям. В отличие от коновода, который только чистит и собирает лошадь, берейтор непосредственно работает с ней под седлом или на корде, развивая у животного нужные физические навыки, правильные аллюры и послушание."
+        "question": "Who is a schooling rider?",
+        "explanation": "A schooling rider is a professional who starts, educates, and develops horses. The work may range from backing young horses to preparing them for dressage, show jumping, other competitions, or performances. Unlike a groom, a schooling rider trains the horse under saddle and may also work it in hand or on the lunge."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Старший конюх"
+          "text": "A head groom"
         },
         {
           "id": "answer-02",
-          "text": "Тренер по верховой езде"
+          "text": "A riding instructor"
         },
         {
           "id": "answer-03",
-          "text": "Человек, объезжающий и тренирующий лошадей"
+          "text": "A person who starts and trains horses"
         },
         {
           "id": "answer-04",
-          "text": "Тренер по джигитовке"
+          "text": "A trick-riding coach"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Треножить (или стреножить) коня значит:",
-        "explanation": "Термин «стреножить» (или «треножить») является исконно славянским словом, образованным от существительного «тренога» (три ноги) и приставки с-, что буквально означает «связать три ноги». В конном деле этот термин означает надевание на ноги лошади специального ремня или пут (треноги), который соединяет между собой две передние ноги и одну заднюю (либо только две передние). Это древнее приспособление ограничивает длину шага и мешает животному быстро бегать или скакать, благодаря чему лошадь можно спокойно оставлять на пастбище без привязи, не опасаясь, что она далеко убежит."
+        "question": "What does it mean to hobble a horse?",
+        "explanation": "To hobble a horse means to fit straps or ropes that restrict the movement of its legs, commonly by linking the forelegs. Hobbles shorten the horse’s stride so it can graze without being tied while being less able to travel far or fast. They should be introduced and used only by an experienced handler."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Привязывать его к коновязи"
+          "text": "To tie it to a hitching rail"
         },
         {
           "id": "answer-02",
-          "text": "Останавливать на полном скаку"
+          "text": "To stop it at full gallop"
         },
         {
           "id": "answer-03",
-          "text": "Связывать ему ноги перед тем как пустить на выпас"
+          "text": "To restrict its legs before turning it out to graze"
         },
         {
           "id": "answer-04",
-          "text": "Обрабатывать его ноги специальной мазью"
+          "text": "To apply a special ointment to its legs"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Что такое шпрингартен?",
-        "explanation": "Термин «шпрингартен» заимствован из немецкого языка и сложен из двух слов: springen («прыгать») и Garten («сад» или «ограждённое место»). В конном спорте это специальный стационарный или переносной коридор (часто овальной формы), огороженный высоким забором, внутри которого располагают препятствия для тренировки лошадей. Шпрингартен используется для натаскивания молодых или спортивных животных прыжкам на свободе (без всадника в седле), что позволяет развивать у лошади правильную технику прыжка, глазомер, гибкость и самостоятельность без лишней нагрузки на спину."
+        "question": "What is a free-jumping chute?",
+        "explanation": "A free-jumping chute, or jumping lane, is a fenced corridor containing a sequence of obstacles that a horse negotiates without a rider. It is used to introduce young horses to jumping and to develop technique, confidence, judgment, and athletic ability without the additional weight of a rider."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Инструмент специалиста по расчистке лошадей"
+          "text": "A hoof trimmer’s tool"
         },
         {
           "id": "answer-02",
-          "text": "Элемент экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-03",
-          "text": "Элемент амуниции лошади"
+          "text": "A piece of horse tack"
         },
         {
           "id": "answer-04",
-          "text": "Коридор для напрыгивания лошадей"
+          "text": "A fenced lane used for free jumping"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Что значит закрутить коня на вольт?",
-        "explanation": "Термин «вольт» пришел из французского (volte — «поворот», «круг») через фехтование и конный спорт, изначально восходя к латинскому volvere — «катить», «вращать». В конном деле этот термин означает направление лошади по ровной окружности диаметром от 6 до 10 метров (всё, что больше 10 метров, называется просто «кругом»). Команду «закрутить на вольт» используют в процессе обучения, чтобы развить у лошади гибкость, а также в качестве приема для экстренного торможения или успокоения: когда разгоряченное или испуганное животное замыкается в плотное кольцо, оно теряет возможность нестись вперед и быстро сбавляет скорость."
+        "question": "What does it mean to put a horse on a volte?",
+        "explanation": "A volte is a small, even circle ridden as a school figure, traditionally about six to ten meters in diameter. Riding a volte develops suppleness and bend. Turning a forward-going horse onto a progressively smaller circle can also reduce its speed, provided there is enough safe space and suitable footing."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Заставить его бежать по кругу"
+          "text": "To make it travel on a small circle"
         },
         {
           "id": "answer-02",
-          "text": "Привязать его  к коновязи определенным образом"
+          "text": "To tie it to a hitching rail in a special way"
         },
         {
           "id": "answer-03",
-          "text": "Связать его перед медицинскими процедурами"
+          "text": "To restrain it for a veterinary procedure"
         },
         {
           "id": "answer-04",
-          "text": "То же, что и стреножить"
+          "text": "The same as hobbling it"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что значит конь закинулся?",
-        "explanation": "Фраза «конь закинулся» (или «закидка») имеет исконно русское происхождение, где глагол «закинуться» используется в значении «резко податься назад или в сторону, уклониться». В конном спорте, особенно в конкуре, этот термин означает внезапный отказ лошади преодолевать препятствие непосредственно перед прыжком. Лошадь может резко затормозить («вкопаться»), резко отпрыгнуть в сторону (обнести препятствие) или развернуться на месте из-за страха, неуверенности, ошибки всадника или боли. Закидка считается серьезной технической ошибкой на соревнованиях и наказывается штрафными очками или дискриминацией пары."
+        "question": "What does it mean when a horse refuses a jump?",
+        "explanation": "A refusal occurs when a horse stops in front of an obstacle instead of jumping it. The horse may plant its feet, step back, turn away, or evade because of fear, uncertainty, pain, or rider error. In competition a refusal is penalized, and repeated refusals may eliminate the combination."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Перевернулся"
+          "text": "It has rolled over"
         },
         {
           "id": "answer-02",
-          "text": "Встал на задние ноги"
+          "text": "It has reared"
         },
         {
           "id": "answer-03",
-          "text": "Отказался прыгать"
+          "text": "It has declined to jump the obstacle"
         },
         {
           "id": "answer-04",
-          "text": "Отказался переходить в галоп"
+          "text": "It has refused to canter"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что значит конь козлит (делает козлы)?",
-        "explanation": "Выражение «конь козлит» (или «делает козлы») имеет чисто русское происхождение и основано на сравнении поведения лошади с повадками домашнего козла, который при испуге или в игре высоко и резко прыгает на месте. В конном мире этот термин означает особый вид брыкания, когда лошадь низко опускает голову, скругляет спину дугой и делает резкий прыжок вверх, одновременно подбрасывая задние ноги и отбивая ими в воздух. Лошади «козлят» по разным причинам: от избытка энергии и игривого настроения на прогулке до выражения протеста, дискомфорта от плохо подогнанного седла или попытки сбросить всадника."
+        "question": "What does it mean when a horse bucks?",
+        "explanation": "When bucking, a horse lowers its head, rounds its back, and springs upward while kicking out with the hind legs. Horses may buck from excitement or excess energy, but also because of fear, protest, pain, or poorly fitting tack. Persistent bucking warrants a careful tack, health, and training assessment."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Проявляет агрессию и пытается укусить"
+          "text": "It acts aggressively and tries to bite"
         },
         {
           "id": "answer-02",
-          "text": "Резко прыгает вверх, опустив голову"
+          "text": "It jumps sharply upward with its head lowered"
         },
         {
           "id": "answer-03",
-          "text": "Поднимается на задние ноги"
+          "text": "It rises onto its hind legs"
         },
         {
           "id": "answer-04",
-          "text": "Взмахом головы пугает или опрокидывает находящихся рядом"
+          "text": "It tosses its head at nearby people"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Что значит конь свечит (делает свечку)?",
-        "explanation": "Выражение «конь свечит» (или «делает свечку») восходит к старорусскому сравнению вертикального предмета с вытянутой восковой свечой, которая стоит прямо и ровно. В конном деле этот термин означает вертикальное поднимание лошади на задние ноги, когда передние конечности полностью отрываются от земли и взмывают в воздух. С точки зрения поведения это может быть проявлением сильного испуга, агрессии, бунта против всадника или избытка энергии, а в высшей школе верховой езды (например, левада или пезада) это сложный элемент, выполняемый строго по команде. Для всадника «свечка» считается одним из самых опасных пороков поведения, так как при потере равновесия животное может опрокинуться навзничь и сильно травмировать человека."
+        "question": "What does it mean when a horse rears?",
+        "explanation": "A rearing horse rises upright on its hind legs with both forelegs off the ground. Rearing may result from fear, pain, resistance, aggression, or excess energy; controlled movements such as the levade belong to advanced classical training. Uncommanded rearing is dangerous because the horse can lose its balance and fall backward."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Проявляет агрессию и пытается укусить"
+          "text": "It acts aggressively and tries to bite"
         },
         {
           "id": "answer-02",
-          "text": "Резко прыгает вверх, опустив голову"
+          "text": "It jumps sharply upward with its head lowered"
         },
         {
           "id": "answer-03",
-          "text": "Поднимается на задние ноги"
+          "text": "It rises onto its hind legs"
         },
         {
           "id": "answer-04",
-          "text": "Отбивает задними ногами"
+          "text": "It kicks out with its hind legs"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что значит конь замкнулся?",
-        "explanation": "Выражение «конь замкнулся» связано с русским глаголом «замкнуться» в значении «закрыться в себе, стать недоступным для контакта». В конной практике этот термин описывает психологическое и поведенческое состояние, когда лошадь полностью отказывается подчиняться командам всадника, «выключается» из работы и замирает на месте либо начинает хаотично сопротивляться (осаживать, свечить, отбивать задними ногами). Это происходит из-за жесткой работы человека, перегрузки нервной системы животного, страха или боли: лошадь переходит в состояние ступора или глухой обороны, переставая реагировать на шенкель и повод. Исправление «замкнувшейся» лошади требует от всадника огромного терпения, смягчения требований и возвращения доверия животного."
+        "question": "What does it mean when a horse shuts down?",
+        "explanation": "A horse that shuts down becomes mentally disengaged and stops responding normally to the rider’s aids. It may freeze or resist by backing, rearing, or kicking out. Fear, pain, excessive pressure, or mental overload can trigger this defensive state; restoring calm, reducing demands, and rebuilding trust are essential."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "У коня опасное инфекционное заболевание"
+          "text": "The horse has a dangerous infectious disease"
         },
         {
           "id": "answer-02",
-          "text": "Конь резвый и норовистый, надо снять его с овса и больше работать"
+          "text": "The horse is too fresh and needs less feed and more work"
         },
         {
           "id": "answer-03",
-          "text": "Конь отказывается выполнять команды и выбрасывает всадника"
+          "text": "The horse stops obeying the aids and may try to unseat the rider"
         },
         {
           "id": "answer-04",
-          "text": "Конь не хочет общаться ни с людьми, ни с лошадьми"
+          "text": "The horse avoids all contact with both people and horses"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что такое флемен?",
-        "explanation": "Термин «флемен» (или флемен-реакция) происходит от немецкого глагола flehmen, что переводится как «обнажать верхние зубы» или «задирать верхнюю губу». В биологии и конном деле этот термин описывает особое поведение, когда лошадь высоко поднимает голову, вытягивает шею и сильно заворачивает верхнюю губу вверх, из-за чего кажется, будто она широко улыбается или смеется. "
+        "question": "What is the flehmen response?",
+        "explanation": "The flehmen response is a characteristic behavior in which a horse raises its head, extends its neck, and curls back the upper lip, exposing the teeth. This can look like a grin, but it is a specialized way of investigating a scent."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Прижатие ушей к шее и поднятие головы"
+          "text": "Pinning the ears and raising the head"
         },
         {
           "id": "answer-02",
-          "text": "Прижатие ушей к шее и напряжение нижней губы"
+          "text": "Pinning the ears and tightening the lower lip"
         },
         {
           "id": "answer-03",
-          "text": "Прижатие ушей к шее и показывание зубов"
+          "text": "Pinning the ears and baring the teeth"
         },
         {
           "id": "answer-04",
-          "text": "Заворачивание верхней губы и обнажение зубов"
+          "text": "Curling the upper lip and exposing the teeth"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Флемен значит, что:",
-        "explanation": "Флемен — это физиологический процесс: в таком положении животное перекрывает обычные ноздри и направляет воздух в вомероназальный орган (орган Якобсона), расположенный на небе, чтобы максимально глубоко проанализировать редкие, резкие или новые запахи, особенно феромоны других лошадей."
+        "question": "What does the flehmen response mean?",
+        "explanation": "During the flehmen response, the horse directs scent molecules toward the vomeronasal, or Jacobson’s, organ in the roof of the mouth. This allows closer analysis of unusual odors and chemical signals, especially pheromones from other horses."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Лошадь смеется"
+          "text": "The horse is laughing"
         },
         {
           "id": "answer-02",
-          "text": "Лошадь злится"
+          "text": "The horse is angry"
         },
         {
           "id": "answer-03",
-          "text": "Лошадь довольна"
+          "text": "The horse is pleased"
         },
         {
           "id": "answer-04",
-          "text": "Лошадь принюхивается"
+          "text": "The horse is investigating a scent"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что такое сбор лошади?",
-        "explanation": "Термин «сбор лошади» происходит от русского глагола «собрать» (соединить вместе, сосредоточить) и буквально означает «приведение тела лошади в компактное, сосредоточенное состояние». В верховой езде сбор — это высшая степень уравновешенности и готовности к движению, при которой лошадь подводит задние ноги глубоко под корпус, переносит на них основной вес тела, округляет спину и поднимает шею, слегка сдавая в затылке. Исторически этот навык развился из боевой кавалерии, где от лошади требовалась максимальная маневренность. Сбор не имеет ничего общего с насильственным притягиванием головы к груди: это естественное положение сильного, хорошо натренированного животного, которое позволяет ему мгновенно изменить направление, прыгнуть или остановиться по первому требованию всадника."
+        "question": "What is collection?",
+        "explanation": "Collection is a state of increased balance and readiness in which the horse engages the hindquarters, carries more weight behind, lightens the forehand, and moves with shorter, more elevated strides. It develops through correct training and strength; it is not created by forcibly pulling the head toward the chest."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Седловка и взнуздывание лошади"
+          "text": "Tacking up a horse"
         },
         {
           "id": "answer-02",
-          "text": "Подготовка лошади к состязаниям"
+          "text": "Preparing a horse for a competition"
         },
         {
           "id": "answer-03",
-          "text": "Положение лошади во время рыси"
+          "text": "A balanced posture with greater engagement of the hindquarters"
         },
         {
           "id": "answer-04",
-          "text": "Воспитание молодой лошади"
+          "text": "The initial training of a young horse"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Что такое развязки?",
-        "explanation": "Термин «развязки» происходит от русского глагола «развязать/разводить» в значении «развести в разные стороны». В конном деле развязки — это две прочные веревки, цепи или ремни с карабинами, прикрепленные к противоположным стенам конного прохода, между которыми фиксируют лошадь за кольца недоуздка. Это приспособление ограничивает движение животного вперед, назад и в стороны, что позволяет безопасно чистить, седлать или ковать лошадь (существуют также «скользящие развязки» для работы под седлом или на корде). Исторически этот метод фиксации пришел из армейских и коннозаводских конюшен, где требовалось быстро и надежно зафиксировать коня в проходе, не запирая его в деннике."
+        "question": "What are cross-ties?",
+        "explanation": "Cross-ties are two ropes, straps, or chains attached on opposite sides of an aisle or grooming area and clipped to the horse’s halter. They limit forward, backward, and sideways movement so the horse can be groomed or tacked up safely. A horse should be trained to cross-tie, and quick-release safety features are advisable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Веревки прикрепленные к противоположным стенам"
+          "text": "Two ties attached on opposite sides of an aisle"
         },
         {
           "id": "answer-02",
-          "text": "Элемент экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-03",
-          "text": "Элемент амуниции лошади"
+          "text": "A piece of horse tack used while riding"
         },
         {
           "id": "answer-04",
-          "text": "То же что и чумбур"
+          "text": "The same as a lead rope"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Что такое реприза?",
-        "explanation": "Термин «реприза» (или «реприз») заимствован из французского языка (reprise) и восходит к глаголу reprendre — «возобновлять, повторять». В тренинге лошадей и конном спорте этот термин означает определенный непрерывный отрезок времени, в течение которого лошадь движется одним конкретным аллюром или выполняет одну задачу в рамках тренировочного занятия (например, десятиминутная реприза рыси, пятиминутная реприза шага для отдыха или реприза галопа). Исторически это понятие пришло в методику подготовки спортивных и кавалерийских лошадей для четкого дозирования физических нагрузок. Чередование таких реприз позволяет грамотно распределять силы животного, развивать его выносливость и не допускать переутомления мышц во время тренировки."
+        "question": "What is a work interval in horse training?",
+        "explanation": "A work interval is an uninterrupted period spent in one gait or on one task during a schooling session—for example, several minutes of trot followed by a walk break. Alternating planned work and recovery intervals helps distribute the workload, build fitness, and reduce fatigue."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент выездки"
+          "text": "A dressage movement"
         },
         {
           "id": "answer-02",
-          "text": "Время за которое лошадь выполняет одну задачу"
+          "text": "A period in which the horse performs one task"
         },
         {
           "id": "answer-03",
-          "text": "Цирковой трюк"
+          "text": "A circus trick"
         },
         {
           "id": "answer-04",
-          "text": "Аллюр лошади"
+          "text": "A horse’s gait"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Что такое принимание?",
-        "explanation": "Термин «принимание» является исконно русским конным словом, образованным от глагола «принимать» (в значении «смещаться, уступать дорогу, забирать в сторону»). В выездке и высшей школе верховой езды принимание — это сложный элемент, при котором лошадь движется одновременно вперед и вбок по диагонали, оставаясь параллельной длинной стенке манежа и сохраняя легкое постановление (изгиб) в сторону движения. Исторически этот навык зародился в кавалерии и боевых искусствах, где всаднику было необходимо быстро смещать коня в сторону, чтобы увернуться от удара или занять выгодную позицию, не теряя контроля над направлением движения. Выполнение принимания требует от лошади высокого уровня сбора, гибкости и идеального баланса, так как ее внутренние ноги должны ритмично перекрещиваться перед внешними."
+        "question": "What is half-pass?",
+        "explanation": "Half-pass is an advanced lateral dressage movement in which the horse travels both forward and sideways on a diagonal line while remaining slightly bent in the direction of travel. The legs cross, and the horse maintains rhythm, balance, and collection throughout the movement."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент выездки"
+          "text": "A dressage movement"
         },
         {
           "id": "answer-02",
-          "text": "Время за которое лошадь выполняет одну задачу"
+          "text": "A period in which the horse performs one task"
         },
         {
           "id": "answer-03",
-          "text": "Цирковой трюк"
+          "text": "A circus trick"
         },
         {
           "id": "answer-04",
-          "text": "Аллюр лошади"
+          "text": "A horse’s gait"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Что такое контргалоп?",
-        "explanation": "Термин «контргалоп» образован путем слияния латинской приставки contra- («против») и французского слова galop («галоп»), что буквально переводится как «галоп наоборот». В конном спорте и выездке контргалоп — это искусственное упражнение, при котором всадник намеренно заставляет лошадь скакать с «неправильной» ноги относительно направления движения (например, галопировать с правой ноги при движении по кругу налево). Исторически этот элемент использовался в манежной езде для проверки дисциплины боевой лошади, а сегодня он служит мощным гимнастическим инструментом: контргалоп развивает у животного идеальный баланс, гибкость, укрепляет мышцы спины и крупа, а также доказывает абсолютное послушание лошади командам всадника."
+        "question": "What is counter-canter?",
+        "explanation": "Counter-canter is a deliberate exercise in which the horse canters on the lead opposite to the direction of the curve—for example, remaining on the right lead while traveling on a left-hand circle. It develops balance, suppleness, straightness, and obedience to the rider’s aids."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Галоп с «неправильной» ноги"
+          "text": "Cantering deliberately on the outside lead"
         },
         {
           "id": "answer-02",
-          "text": "Очень медленный галоп"
+          "text": "A very slow canter"
         },
         {
           "id": "answer-03",
-          "text": "Галоп на трех ногах"
+          "text": "Cantering on three legs"
         },
         {
           "id": "answer-04",
-          "text": "Галоп назад"
+          "text": "Cantering backward"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Что такое осаживание?",
-        "explanation": "Термин «осаживание» происходит от древнерусского глагола осадить («заставить отступить назад», «прижать к земле»), который исторически связан со словом садиться (понижать центр тяжести). В конном деле осаживание — это манежное упражнение и элемент выездки, при котором лошадь движется назад по прямой линии, переставляя ноги подиагонально (как на рыси), но без фазы зависания. Этот навык был жизненно необходим в кавалерийском бою для маневрирования в тесном строю и перегруппировки, а сегодня он используется как лакмусовая бумажка правильной подготовки: при верном осаживании лошадь не пятится в панике, а мягко опускает круп, сгибает суставы задних ног и сохраняет полное подчинение поводу."
+        "question": "What is rein-back?",
+        "explanation": "Rein-back is a dressage movement in which the horse steps backward in a straight line, moving the legs in diagonal pairs without a moment of suspension. Correctly performed, the horse remains calm, attentive, and engaged rather than simply retreating from pressure."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "То же что и оповаживание"
+          "text": "The same as teaching a young horse to lead"
         },
         {
           "id": "answer-02",
-          "text": "Резкая смена направления движения"
+          "text": "A sudden change of direction"
         },
         {
           "id": "answer-03",
-          "text": "Задний ход у лошади"
+          "text": "A controlled backward movement"
         },
         {
           "id": "answer-04",
-          "text": "Смена ноги на галопе"
+          "text": "A flying change of canter lead"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Что такое прибавленный шаг?",
-        "explanation": "Термин «прибавленный шаг» состоит из исконно русского глагола «прибавить» (в значении «увеличить, приплюсовать») и названия естественного аллюра «шаг». В конном спорте и выездке этот термин означает высшую степень удлинения шагов лошади, при которой она покрывает максимальное количество пространства без перехода на рысь. Исторически этот навык ценился в кавалерии и дальних походах, так как позволял быстро преодолевать огромные расстояния, экономя силы животного. При правильном прибавленном шаге лошадь полностью вытягивает шею вперед и вниз, активно работает спиной, а ее задние копыта четко и далеко заступают за следы передних (перенос), демонстрируя широту, свободу движений и максимальное доверие руке всадника."
+        "question": "What is extended walk?",
+        "explanation": "In extended walk, the horse lengthens its steps to cover as much ground as possible without hurrying or breaking into trot. The neck stretches forward and downward, the back swings freely, and the hind feet clearly overtrack the prints of the forefeet."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Быстрое передвижение шагом без удлинения шагов"
+          "text": "A faster walk without longer steps"
         },
         {
           "id": "answer-02",
-          "text": "Быстрое передвижение шагом с удлинением шагов"
+          "text": "A ground-covering walk with lengthened steps"
         },
         {
           "id": "answer-03",
-          "text": "Нечто среднее между шагом и рысью"
+          "text": "A gait between walk and trot"
         },
         {
           "id": "answer-04",
-          "text": "То же что и шлапак"
+          "text": "The same as an irregular ambling gait"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Что такое сокращенная рысь?",
-        "explanation": "Сокращенная рысь — это элемент подготовки, при котором лошадь укорачивает длину своего шага, но при этом сохраняет прежний темп, ритм и высокую активность движений. Исторически этот навык развивался в манежной кавалерийской езде для повышения маневренности коня в бою. При правильной сокращенной рыси лошадь сильнее подводит задние ноги под корпус, переносит на них свой вес (собирается) и совершает более высокие, пружинящие шаги вверх, а не вперед, демонстрируя легкость передней части тела и идеальный баланс под всадником."
+        "question": "What is collected trot?",
+        "explanation": "In collected trot, the horse takes shorter, more elevated strides while maintaining clear rhythm, impulsion, and activity. Greater engagement of the hindquarters shifts more weight behind, improves balance, and lightens the forehand; collection is not merely a very slow trot."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рысь с укороченным шагом и быстрым темпом"
+          "text": "Trot with shorter strides, maintained rhythm, and greater engagement"
         },
         {
           "id": "answer-02",
-          "text": "Рысь с удлиненным шагом и медленным темпом"
+          "text": "Trot with longer strides and a slower tempo"
         },
         {
           "id": "answer-03",
-          "text": "Просто очень медленная рысь"
+          "text": "Simply a very slow trot"
         },
         {
           "id": "answer-04",
-          "text": "Рысь с «неправильной» ноги"
+          "text": "Trot on the wrong diagonal"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Что такое правильный подъем в галоп?",
-        "explanation": "Правильный подъем в галоп — это технически точный, мгновенный переход лошади со шага или рыси в галоп с конкретной, заданной всадником ноги. Исторически этот навык оттачивался в кавалерии, где от четкого старта с нужной ноги зависела скорость разворота и выживание бойца. При «правильном» подъеме лошадь не разгоняется суетливо, а делает один мощный толчок внешней задней ногой, аккуратно округляя спину и оставаясь в полном балансе. Всадник при этом дает команду комплексно: мягко высылает внутренним шенкелем у подпруги, слегка отводит внешний шенкель назад, делает легкое внутреннее постановление поводьями и смещает свой вес на внутренний седалищный бугор."
+        "question": "What is a correct canter depart?",
+        "explanation": "A correct canter depart is a prompt, balanced transition from walk or trot into canter on the lead requested by the rider. The horse should not rush; it should strike off cleanly while staying straight, responsive, and in balance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Переход в галоп с рыси"
+          "text": "Any transition from trot to canter"
         },
         {
           "id": "answer-02",
-          "text": "Переход в галоп с шага"
+          "text": "Any transition from walk to canter"
         },
         {
           "id": "answer-03",
-          "text": "Плавный переход в галоп"
+          "text": "A gradual transition into canter"
         },
         {
           "id": "answer-04",
-          "text": "Переход в галоп с заданной всадником ноги"
+          "text": "A transition into canter on the lead requested by the rider"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Что такое прямолинейность лошади?",
-        "explanation": "Термин «прямолинейность лошади» означает состояние, при котором продольная ось тела лошади (от головы до хвоста) совпадает с траекторией ее движения. Исторически этот навык развивался в кавалерии для того, чтобы лошадь могла двигаться ровно в строю «плечом к плечу» и наносить мощный таранный удар, не виляя в стороны. Из-за природной асимметрии большинство лошадей рождаются «кривыми» (однобокими) и косят крупом внутрь или наружу, как бы «собачат». Прямолинейность достигается долгой гимнастической работой, когда всадник выравнивает плечи лошади относительно ее бедер, благодаря чему задние ноги наступают точно в след передних, обеспечивая равномерное распределение веса, правильный толчок и долголетие суставов животного."
+        "question": "What is straightness in a horse?",
+        "explanation": "Straightness means that the horse’s body is aligned with its line of travel, whether that line is straight or curved, with the hind feet following the tracks of the forefeet. Correct gymnastic training helps overcome natural asymmetry, improves balance and thrust, and distributes the workload more evenly."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Совпадение оси тела с линией движения, когда задние ноги наступают в следы передних"
+          "text": "Alignment of the horse’s body with its line of travel, with the hind feet tracking the forefeet"
         },
         {
           "id": "answer-02",
-          "text": "Движение лошади строго на максимальной скорости по прямой линии без остановок"
+          "text": "Galloping at top speed in a straight line without stopping"
         },
         {
           "id": "answer-03",
-          "text": "Способность лошади держать голову идеально прямо, не поворачивая шею в стороны"
+          "text": "Keeping the head perfectly straight without turning the neck"
         },
         {
           "id": "answer-04",
-          "text": "Врожденное умение лошади ходить только прямо, из-за которого ее нужно учить поворотам"
+          "text": "An inborn inability to turn"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Что такое редингот?",
-        "explanation": "Термин «редингот» заимствован из французского языка (redingote), который, в свою очередь, исказил английское словосочетания «riding-coat» (буквально — «пальто/сюртук для верховой езды»). Он появился в Англии в XVIII веке как удобная верхняя одежда для всадников и участников конной охоты. В современном конном спорте редингот — это специальный строго регламентированный пиджак приталенного силуэта, в котором всадники выступают на соревнованиях по конкуру и троеборью. Его крой имеет важные технические особенности: разрез (шлицу) сзади для удобной посадки в седле и особый пошив проймы рукавов, благодаря которому пиджак не задирается вверх и не стесняет движений спортсмена во время прыжка."
+        "question": "What is a show jacket?",
+        "explanation": "A show jacket is a tailored riding coat worn in equestrian competition. Its close-fitting cut, rear vents, and rider-friendly sleeves allow freedom of movement and keep the jacket lying neatly while the rider is seated or jumping."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитный жилет, оберегающий спину всадника при падении"
+          "text": "A protective body vest for falls"
         },
         {
           "id": "answer-02",
-          "text": "Шерстяная попона для согревания лошади после тренировки"
+          "text": "A wool cooler for a horse"
         },
         {
           "id": "answer-03",
-          "text": "Спортивный пиджак для соревнований по верховой езде"
+          "text": "A tailored jacket for equestrian competition"
         },
         {
           "id": "answer-04",
-          "text": "Кожаный ремень для фиксации седла на спине коня"
+          "text": "A leather strap that secures the saddle"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что такое чапсы?",
-        "explanation": "Термин «чапсы» (или «краги») происходит от испанского слова chaparejos через американское сокращение chaps, что переводится как «кожаные штаны/ноговицы». Этот элемент экипировки придумали мексиканские пастухи (вакеро) и американские ковбои для защиты ног от колючих кустов, укусов скота и трения о седло при долгой езде. В современном конном спорте чапсы — это специальные накладные гетры из кожи или замши, которые надеваются поверх обуви (ботинок) и застегиваются на молнию сбоку, чтобы защитить голень всадника от потертостей о седло, зафиксировать ногу и обеспечить плотный контакт с боком лошади."
+        "question": "What are half chaps?",
+        "explanation": "Half chaps are fitted leather, suede, or synthetic coverings worn over short riding boots. Derived from the protective legwear of vaqueros and cowboys, modern half chaps protect the rider’s lower leg from rubbing, improve grip, and provide a feel similar to tall boots."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Особый вид подков для езды по скользкому грунту"
+          "text": "Horseshoes designed for slippery ground"
         },
         {
           "id": "answer-02",
-          "text": "Накладные гетры для защиты голени всадника"
+          "text": "Protective coverings worn over a rider’s lower legs"
         },
         {
           "id": "answer-03",
-          "text": "Специальные ремни для крепления попоны"
+          "text": "Straps used to secure a horse rug"
         },
         {
           "id": "answer-04",
-          "text": "Лакомство из сушеных яблок для поощрения лошади"
+          "text": "Dried-apple horse treats"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Что такое полуодержка?",
-        "explanation": "Термин «полуодержка» (в международной практике — half-halt, в немецкой — Halbe Parade) является калькой. Полуодержка — это не «полуостановка», а короткий, едва заметный сигнал внимания, который всадник передает лошади одновременным, скоординированным усилием поясницы, ног и рук. Этот прием используется для того, чтобы мгновенно перебалансировать животное, перенести его вес на задние ноги, вернуть концентрацию и подготовить коня к выполнению следующей команды (новому элементу, переходу, повороту или прыжку)."
+        "question": "What is a half-halt?",
+        "explanation": "A half-halt is a brief, coordinated aid from the rider’s seat, legs, and hands. It asks the horse to rebalance, engage the hindquarters, and pay attention in preparation for a transition, turn, movement, or jump. It is not a partial stop."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Специальное упражнение для развития мускулатуры лошади"
+          "text": "An exercise used only to build muscle"
         },
         {
           "id": "answer-02",
-          "text": "Способ удержания молодой лошади во время ковки"
+          "text": "A way to restrain a young horse for shoeing"
         },
         {
           "id": "answer-03",
-          "text": "Наказание лошади за отказ прыгать через барьер"
+          "text": "A punishment for refusing a jump"
         },
         {
           "id": "answer-04",
-          "text": "Краткий сигнал для привлечения внимания и улучшения баланса лошади"
+          "text": "A brief aid that restores attention and balance"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Что такое серпантин?",
-        "explanation": "Термин «серпантин» заимствован из французского языка (serpentin — «змеевидный») и восходит к латинскому serpens («змея»). В конном спорте и выездке это манежная фигура, при которой лошадь движется по змеевидной линии, плавно меняя направление от одного длинного борта манежа к другому. Этот элемент используется как гимнастическое упражнение для развития гибкости, баланса лошади и ее проводимости (послушания) командам всадника."
+        "question": "What is a serpentine?",
+        "explanation": "A serpentine is a school figure made up of smooth, connected loops that carry the horse from one side of the arena to the other. It develops suppleness, balance, accuracy, and responsiveness through repeated changes of bend and direction."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Тонкий кожаный хлыст "
+          "text": "A thin leather whip"
         },
         {
           "id": "answer-02",
-          "text": "Манежная фигура в виде змеевидной линии с плавными поворотами"
+          "text": "A school figure formed by a flowing series of loops"
         },
         {
           "id": "answer-03",
-          "text": "Заболевание копыт, возникающее из-за сырости в деннике"
+          "text": "A hoof disease caused by damp bedding"
         },
         {
           "id": "answer-04",
-          "text": "Особое плетение гривы для праздничных выступлений"
+          "text": "A decorative way of braiding a mane"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Что такое оповаживание?",
-        "explanation": "Термин «оповаживание» означает процесс приучения молодой лошади к человеку, недоуздку и хождению на поводу рядом со всадником. Это важнейший базовый этап воспитания жеребенка, во время которого животное учат доверять человеку, спокойно идти рядом, останавливаться, поворачивать по команде и не паниковать при натяжении веревки (чумбура)."
+        "question": "What is teaching a young horse to lead?",
+        "explanation": "Teaching a young horse to lead is the process of accustoming it to a handler, a halter, and a lead rope. The horse learns to walk beside the handler, halt, turn, yield to light pressure, and remain calm when the rope becomes taut."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Приучение молодой лошади к недоуздку и хождению рядом с человеком"
+          "text": "Accustoming a young horse to a halter and to walking beside a handler"
         },
         {
           "id": "answer-02",
-          "text": "Процесс поения лошади из автоматической поилки после тренировки"
+          "text": "Teaching a horse to drink from an automatic waterer"
         },
         {
           "id": "answer-03",
-          "text": "Очищение копыт от грязи перед выходом в манеж"
+          "text": "Cleaning the hooves before entering the arena"
         },
         {
           "id": "answer-04",
-          "text": "Специальный массаж спины коня после тяжелой нагрузки"
+          "text": "Massaging a horse’s back after hard work"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Что такое пиаффе?",
-        "explanation": "Термин «пиаффе» заимствован из французского языка (piaffer — «бить копытами землю», «важничать», «рисоваться»). В конном спорте и высшей школе верховой езды пиаффе — это один из самых сложных и красивых элементов выездки, который представляет собой высокую, ритмичную рысь на одном месте. Лошадь находится в максимальном сборе: ее круп опущен, задние ноги глубоко подведены под корпус и принимают на себя весь вес, а передние ноги поочередно поднимаются высоко вверх с четкой фазой зависания, демонстрируя абсолютный баланс и грацию."
+        "question": "What is piaffe?",
+        "explanation": "Piaffe is a highly collected, elevated, cadenced diagonal movement performed nearly in place. The horse lowers the hindquarters, engages the hind legs deeply beneath the body, and alternately lifts diagonal pairs with clear rhythm and balance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Прыжок вверх с ударом задними ногами"
+          "text": "A leap with a kick of the hind legs"
         },
         {
           "id": "answer-02",
-          "text": "Парадные бинты на ноги коня"
+          "text": "Decorative leg wraps"
         },
         {
           "id": "answer-03",
-          "text": "Быстрая испанская рысь"
+          "text": "A fast Spanish trot"
         },
         {
           "id": "answer-04",
-          "text": "Рысь на месте"
+          "text": "A highly collected trot nearly in place"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Зачем менять ногу на рыси?",
-        "explanation": "Всадник на строевой рыси приподнимается в седле в такт движения животного, и «сменить ногу» означает пропустить один такт, чтобы начать садиться в седло под противоположную переднюю ногу лошади. Это необходимо для равномерного распределения нагрузки на спину коня при движении в манеже: всадник всегда должен облегчаться под внешнюю переднюю ногу, чтобы внутренняя задняя нога лошади (которая принимает на себя главный толчок на поворотах) не перегружалась, а само животное сохраняло идеальный баланс и не портило суставы."
+        "question": "Why should a rider change diagonal in rising trot?",
+        "explanation": "In rising trot, the rider rises and sits in rhythm with one diagonal pair of the horse’s legs. Changing diagonal by sitting for an extra beat alternates which diagonal bears the rider’s weight. In the arena, riders normally rise as the outside shoulder moves forward and change diagonal when they change rein, helping distribute the workload evenly."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Это просто элемент выездки, а так, не нужно"
+          "text": "It is only a dressage flourish and serves no purpose"
         },
         {
           "id": "answer-02",
-          "text": "Чтобы равномерно распределить нагрузку на ноги лошади"
+          "text": "To distribute the workload more evenly"
         },
         {
           "id": "answer-03",
-          "text": "Чтобы подать судьям сигнал о завершении выполнения упражнения"
+          "text": "To signal the judges that the exercise is finished"
         },
         {
           "id": "answer-04",
-          "text": "Чтобы подать лошади сигнал о предстоящей смене направления"
+          "text": "To warn the horse of an upcoming change of direction"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Что делать, если вы падаете с коня?",
-        "explanation": "Вынуть ноги из стремян нужно чтобы избежать застревания стопы: если всадник падает, а его нога остается в стремени, лошадь может потащить человека по земле, что приведет к тяжелейшим травмам. Держать повод до удара необходимо для того, чтобы сгруппироваться и упасть задней частью а не головой вниз (на голову лучше вообще никогда не падать). Отпустить повод в момент или сразу после удара нужно, чтобы рывком не вывихнуть себе плечи и руки, когда сотни килограммов убегающей в испуге лошади потянут человека за собой."
+        "question": "What should you do if you are falling from a horse?",
+        "explanation": "If a fall is unavoidable, freeing both feet from the stirrups reduces the risk of being dragged. Try to protect your head, avoid reaching out with a straight arm, and release the reins rather than remain attached to a moving horse. Fall training with a qualified coach can help riders learn safer reactions."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Обхватить себя руками и принять позу эмбриона"
+          "text": "Wrap your arms around yourself and curl into a tight ball"
         },
         {
           "id": "answer-02",
-          "text": "Вынуть ноги из стремян, держать повод до удара о землю и отпустить только после удара"
+          "text": "Free your feet from the stirrups, avoid getting dragged, and release the reins as you separate from the horse"
         },
         {
           "id": "answer-03",
-          "text": "Зажмуриться и визжать, пусть услышат и придут на помощь"
+          "text": "Close your eyes and scream for help"
         },
         {
           "id": "answer-04",
-          "text": "Закрыть глаза и расслабиться"
+          "text": "Close your eyes and go completely limp"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Что делать, если конь понес вас в чистом поле?",
-        "explanation": "Когда испуганная лошадь несется по прямой, ее шея и спина напряжены как струна, а мощные задние ноги работают как поршни, поэтому тянуть за два повода или передергивать бесполезно — у человека просто не хватит сил перетянуть челюсть животного. Откидывание веса назад смещает центр тяжести всадника и мешает коню разгоняться, а натяжение только одного повода вынужденно поворачивает голову коня набок, сгибает его шею и лишает точки опоры. Из-за этого траектория движения ломается, лошадь уходит на вольт (круг), а при сужении круга она чисто физически теряет способность бежать на бешеной скорости, успокаивается и постепенно замедляется до полной остановки."
+        "question": "What should you do if a horse bolts in an open field?",
+        "explanation": "A bolting horse can brace against an even pull on both reins. If terrain, space, and balance allow, sit deeply, avoid panic, use one rein to create gradual bend, and guide the horse onto a large circle that can be reduced only as speed comes down. Do not make a sharp turn at high speed; prioritize safe footing and professional instruction for emergency-control techniques."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Взять мобильник и звонить в службу спасения"
+          "text": "Take out your phone and call emergency services"
         },
         {
           "id": "answer-02",
-          "text": "Кричать «стой, кретин!», материться и звать на помощь"
+          "text": "Shout, swear, and call for help"
         },
         {
           "id": "answer-03",
-          "text": "Тянуть один повод, ложась назад всем весом, пустить коня по кругу, уменьшать круг"
+          "text": "Sit deep, use one rein to guide the horse onto a safe circle, and reduce the circle as it slows"
         },
         {
           "id": "answer-04",
-          "text": "Тянуть оба повода, периодически передергивая"
+          "text": "Pull hard on both reins with repeated jerks"
         },
         {
           "id": "answer-05",
-          "text": "Срочно катапультироваться посредством двойного сальто"
+          "text": "Bail out immediately with a double somersault"
         },
         {
           "id": "answer-06",
-          "text": "Сильно обнять шею коня, закрыть глаза и визжать"
+          "text": "Hug the horse’s neck, close your eyes, and scream"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Какая обувь лучше всего подходит для верховой езды, не считая специализированной?",
-        "explanation": "Ботинки челси идеально подходят для верховой езды, потому что они имеют гладкую подошву и небольшой каблук, а также у них нет шнурков, пряжек и молний. Всё это не позволяют ноге застрять в стремени."
+        "question": "Apart from purpose-made riding boots, which footwear is most suitable for riding?",
+        "explanation": "Chelsea boots can be suitable because they have no laces or buckles to catch, and many models have a smooth sole and a small, defined heel. The heel helps prevent the foot from sliding through the stirrup, while a smooth sole reduces the risk of becoming trapped. The boot and stirrup must fit each other safely."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кросовки"
+          "text": "Running shoes"
         },
         {
           "id": "answer-02",
-          "text": "Шлепанцы"
+          "text": "Flip-flops"
         },
         {
           "id": "answer-03",
-          "text": "Лабутены"
+          "text": "Stiletto heels"
         },
         {
           "id": "answer-04",
-          "text": "Челси"
+          "text": "Chelsea boots"
         },
         {
           "id": "answer-05",
-          "text": "Кеды"
+          "text": "Canvas sneakers"
         },
         {
           "id": "answer-06",
-          "text": "Сапоги"
+          "text": "Rubber boots"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Что такое обтяжка?",
-        "explanation": "Термин «обтяжка» имеет исконно русское происхождение и восходит к глаголу обтягивать в значении «плотно окружать, приучать к натяжению, усмирять». В зоотехнии и коневодстве обтяжка — это самый первый этап воспитания диких жеребят или молодых лошадей («неуков»), который заключается в первоначальном приучении животного к недоуздку, чистке, привязи и послушанию человеку. В процессе обтяжки жеребенка учат не паниковать при давлении ремней на голову, спокойно стоять во время гигиенических процедур и уступать натяжению веревки (чумбура), что закладывает базу для всего последующего обучения и работы под седлом."
+        "question": "What is halter-breaking?",
+        "explanation": "Halter-breaking is the first stage of teaching a young or previously unhandled horse to accept human contact, wear a halter, stand tied, be groomed, and yield to light pressure on a lead rope. It establishes the foundation for safe handling and later training."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Первоначальное приучение молодой лошади к недоуздку, чистке и привязи"
+          "text": "Initially teaching a young horse to accept a halter, grooming, and tying"
         },
         {
           "id": "answer-02",
-          "text": "Затягивание подпруги седла до максимального упора перед прыжками"
+          "text": "Tightening the girth as much as possible before jumping"
         },
         {
           "id": "answer-03",
-          "text": "Процесс плотного бинтования ног лошади эластичными бинтами"
+          "text": "Wrapping the horse’s legs tightly with elastic bandages"
         },
         {
           "id": "answer-04",
-          "text": "Натягивание новой кожаной обшивки на деревянный каркас седла"
+          "text": "Stretching new leather over a saddle tree"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Что такое обноска?\n",
-        "explanation": "В конном спорте, особенно в конкуре и троеборье, этот термин означает техническую ошибку, когда лошадь пробегает мимо препятствия, уклоняясь от прыжка в сторону от барьера. В отличие от закидки, когда лошадь резко останавливается («вкопается») прямо перед барьером, при обноске животное просто уходит с заданной траектории."
+        "question": "What is a run-out?",
+        "explanation": "In show jumping and eventing, a run-out occurs when a horse avoids an obstacle by deviating sideways and passing it instead of jumping. Unlike a refusal, where the horse stops in front of the fence, a run-out usually preserves forward movement but leaves the intended line."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Натирание кожи под подпругой"
+          "text": "Chafing beneath the girth"
         },
         {
           "id": "answer-02",
-          "text": "Когда конь вместо прыжка оббегает барьер"
+          "text": "When a horse goes around a fence instead of jumping it"
         },
         {
           "id": "answer-03",
-          "text": "Приучение жеребенка к ношению попоны"
+          "text": "Teaching a foal to wear a rug"
         },
         {
           "id": "answer-04",
-          "text": "Это когда лошадь кружится вокруг всадника"
+          "text": "When a horse circles around its rider"
         }
       ]
     }
