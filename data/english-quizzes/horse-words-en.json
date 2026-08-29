@@ -12,999 +12,1996 @@
     "gaits"
   ],
   "published": false,
-  "title": "Лошадиные термины",
-  "short_description": "Готовы проверить свои знания о лошадках? А именно об их содержании, разведении, поведении, аллюрах, некоторых особенностях и возрастных изменениях, а также о многом другом.",
-  "intro": "Готовы проверить свои знания о лошадках? А именно об их содержании, разведении, поведении, аллюрах, некоторых особенностях и возрастных изменениях, а также о многом другом.",
+  "title": "Horse Terms",
+  "short_description": "Ready to test your knowledge of horses? This quiz covers horse care, breeding, behavior, gaits, physical traits, age-related changes, and much more.",
+  "intro": "Ready to test your knowledge of horses? This quiz covers horse care, breeding, behavior, gaits, physical traits, age-related changes, and much more.",
   "questions": [
     {
       "id": "question-01",
-      "question": "Как называется стадо лошадей?",
-      "explanation": "Слово «табу́н» пришло в русский язык в XIV-XV веках из тюркских языков (татарского, казахского, алтайского), где корень tabun или tabyn изначально означал «куча», «множество», «собрание» или «стадо любого скота». Попав в русский язык через тесные контакты с кочевыми народами степи, это слово сузило свое значение и закрепилось исключительно за стадом лошадей.",
+      "question": "What is a group of horses called?",
+      "explanation": "In English, a group of horses is called a herd. The Russian word tabun, also meaning a herd of horses, entered Russian in the fourteenth or fifteenth century from Turkic languages such as Tatar, Kazakh, and Altai. In those languages, the root tabun or tabyn originally meant a crowd, collection, gathering, or herd of any livestock. In Russian, its meaning eventually narrowed specifically to a herd of horses.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отара"
+          "text": "Flock"
         },
         {
           "id": "answer-02",
-          "text": "Стая"
+          "text": "Pack"
         },
         {
           "id": "answer-03",
-          "text": "Коалиция"
+          "text": "Coalition"
         },
         {
           "id": "answer-04",
-          "text": "Группировка"
+          "text": "Gang"
         },
         {
           "id": "answer-05",
-          "text": "Бригада"
+          "text": "Crew"
         },
         {
           "id": "answer-06",
-          "text": "Табун"
+          "text": "Herd"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-02",
-      "question": "Когда кони самостоятельно добывают еду из-под снега это называется:",
-      "explanation": "Слово «тебенёвка» (и глагол тебеневать) заимствовано из тюркских языков, где оно имело прямое практическое значение. В его основе лежит татарское слово тибенү или казахское тебіндеу, что буквально переводится как «копание», «пинание» или «удары ногой». Кочевые народы использовали этот термин для описания того, как кони зимой разбивают копытами наст и разгребают снег, чтобы добраться до скрытой под ним травы. Попав в русский язык жителей Сибири и южных окраин, слово русифицировалось с помощью суффиксов и превратилось в официальный зоотехнический термин, обозначающий зимнюю пастьбу подножным кормом из-под снега.",
+      "question": "When horses dig forage out from beneath the snow on their own, this practice is called:",
+      "explanation": "Tebenevka is a Russian pastoral term borrowed from Turkic languages. It comes from the Tatar tibenu or Kazakh tebindeu, meaning digging, kicking, or striking with the foot. Nomadic peoples used it for horses breaking through crusted snow with their hooves to reach hidden grass. The word became an official Russian zootechnical term for winter grazing on forage beneath the snow.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жеребьевка"
+          "text": "Drawing lots"
         },
         {
           "id": "answer-02",
-          "text": "Выжеребка"
+          "text": "Foaling"
         },
         {
           "id": "answer-03",
-          "text": "Тебенёвка"
+          "text": "Tebenevka"
         },
         {
           "id": "answer-04",
-          "text": "Жеребцевание"
+          "text": "Stallion behavior"
         },
         {
           "id": "answer-05",
-          "text": "Груминг"
+          "text": "Grooming"
         },
         {
           "id": "answer-06",
-          "text": "Эструс"
+          "text": "Estrus"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-03",
-      "question": "Лошадь ожеребилась значит, что она:",
-      "explanation": "Слово «ожереби́лась» (и глагол ожеребиться) имеет исконно славянское происхождение и образовано от существительного жеребенок. Этот корень восходит к праславянскому слову žerbę, которое первоначально означало «молодое животное», «детеныш» (в древности так могли назвать не только коня, но и, например, козленка). Со временем в русском языке значение сузилось, и глагол стал обозначать исключительно рождение жеребенка.",
+      "question": "If a mare has foaled, she has:",
+      "explanation": "To foal means to give birth to a foal. The corresponding Russian verb, ozherebit'sya, is derived from the word zherebyonok, meaning foal, which ultimately comes from a Proto-Slavic word for a young animal. Over time, its meaning narrowed specifically to the birth of a foal.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Забеременела"
+          "text": "Become pregnant"
         },
         {
           "id": "answer-02",
-          "text": "Случилась"
+          "text": "Been bred"
         },
         {
           "id": "answer-03",
-          "text": "Родила"
+          "text": "Given birth"
         },
         {
           "id": "answer-04",
-          "text": "Достигла совершеннолетия"
+          "text": "Reached adulthood"
         },
         {
           "id": "answer-05",
-          "text": "Вошла в охоту"
+          "text": "Come into season"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-04",
-      "question": "Лошадь зажеребилась значит, что она:",
-      "explanation": "Слово «зажеребилась» имеет исконно славянское происхождение и образовано от древнего корня жереб (жеребя). В его основе лежит праславянское слово žerbъ, которое изначально означало «жребий», «кусок» или «отрезанная часть». В древности кочевники и пастухи определяли долю и собственность при разделе скота по жребию, из-за чего молодое, выделенное в личную долю животное (детеныша) стали называть жеребенком.",
+      "question": "If a mare is in foal, she has:",
+      "explanation": "A mare that is in foal is pregnant. The Russian verb zazherebit'sya has the same meaning and is built from the old Slavic root associated with a foal. In modern horse-breeding terminology, it means that the mare has conceived.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Случилась"
+          "text": "Been bred"
         },
         {
           "id": "answer-02",
-          "text": "Забеременела"
+          "text": "Become pregnant"
         },
         {
           "id": "answer-03",
-          "text": "Родила"
+          "text": "Given birth"
         },
         {
           "id": "answer-04",
-          "text": "Достигла совершеннолетия"
+          "text": "Reached adulthood"
         },
         {
           "id": "answer-05",
-          "text": "Вошла в охоту"
+          "text": "Come into season"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-05",
-      "question": "Жеребая лошадь - это:",
-      "explanation": "Слово «же́ребая» (беременная кобыла) имеет древнерусское происхождение и напрямую восходит к праславянскому корню žerbę (жеребенок). В основе этого корня лежит индоевропейское слово со значением «утроба», «плод» или «чрево» (родственное древнегреческому delphys — матка, откуда пошло слово дельфин — «рыба с маткой»). Со временем в славянских языках этот корень закрепился за обозначением потомства лошадей, а прилагательное «жеребая» стало буквально означать «носящая во чреве жеребенка».",
+      "question": "An in-foal mare is:",
+      "explanation": "An in-foal mare is a pregnant mare carrying a foal. The equivalent Russian adjective, zherebaya, comes from an old Slavic root associated with the foal and literally describes a mare carrying a foal in her womb.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Совершеннолетняя"
+          "text": "Adult"
         },
         {
           "id": "answer-02",
-          "text": "Лактирующая"
+          "text": "Lactating"
         },
         {
           "id": "answer-03",
-          "text": "Беременная"
+          "text": "Pregnant"
         },
         {
           "id": "answer-04",
-          "text": "Родившая"
+          "text": "One that has already foaled"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-06",
-      "question": "Жеребцевание — это:",
-      "explanation": "Слово «жеребцевание» — это специфический профессиональный термин конников и зоотехников, имеющий исконно славянское происхождение от корня жеребец. Этот термин обозначает характерное, инстинктивное поведение половозрелого самца (жеребца), которое включает в себя бурное проявление половых инстинктов, повышенную агрессию, громкое ржание, флемен (задирание верхней губы для распознавания запахов) и стремление доминировать. Жеребцевать может и мерин, если его слишком поздно кастрировали.",
+      "question": "What is meant by stallion behavior?",
+      "explanation": "The Russian term zherebtsevanie describes the instinctive behavior of a sexually mature stallion: strong sexual interest, increased excitability or aggression, loud calling, flehmen, and attempts to dominate. A gelding may also retain stallion-like behavior, particularly if he was castrated late.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Случка лошадей"
+          "text": "Breeding horses"
         },
         {
           "id": "answer-02",
-          "text": "Стабунивание лошадей"
+          "text": "Forming horses into a herd"
         },
         {
           "id": "answer-03",
-          "text": "Буйное поведение коня вследствие спермотоксикоза"
+          "text": "Boisterous sexual behavior driven by strong stallion instincts"
         },
         {
           "id": "answer-04",
-          "text": "Вхождение в охоту у кобыл"
+          "text": "A mare coming into season"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-07",
-      "question": "Жеребчик — это:",
-      "explanation": "Слово «жеребчик» имеет исконно славянское происхождение и образовано от корня жеребец с помощью уменьшительно-ласкательного суффикса -чик. В конном мире и зоотехнии этот термин используется для обозначения молодого, еще не достигшего зрелости самца лошади (обычно в возрасте от отъема от матери до трех-четырех лет). В народной речи и литературе это слово часто приобретает поэтичный или одобрительный оттенок, подчеркивающий резвость, изящество, молодой задор и игривый нрав подрастающего коня.",
+      "question": "A colt is:",
+      "explanation": "A colt is a young, uncastrated male horse, usually under four years of age. The Russian equivalent, zherebchik, is a diminutive of the word for stallion and similarly emphasizes the animal's youth.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "То же, что и жеребец"
+          "text": "Exactly the same as a stallion"
         },
         {
           "id": "answer-02",
-          "text": "Жеребец, не достигший 4 лет"
+          "text": "A male horse under four years old"
         },
         {
           "id": "answer-03",
-          "text": "Жеребец, не достигший 7 лет"
+          "text": "A male horse under seven years old"
         },
         {
           "id": "answer-04",
-          "text": "Гугл утверждает, что это рослый и сильный мужчина!"
+          "text": "According to Google, a tall and powerful man!"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-08",
-      "question": "Кобылка — это:",
-      "explanation": "Слово «кобы́лка» имеет исконно славянское происхождение и образовано от древнего корня кобыла. В конном мире и зоотехнии этот термин используют для обозначения молодой, еще не рожавшей самки лошади (обычно в возрасте до трех-четырех лет), что является зеркальным аналогом слова жеребчик. При этом в русском языке слово приобрело широкое переносное значение: из-за внешнего сходства конских ног с длинными согнутыми задними лапками насекомых «кобылками» стали называть прямокрылых вредителей из семейства саранчовых, а также различные технические детали — от деревянной подставки под струны у музыкальных инструментов до кровельных досок, удлиняющих стропила.",
+      "question": "A filly is:",
+      "explanation": "A filly is a young female horse, usually under four years of age. She is the female counterpart of a colt; after reaching maturity—or earlier if she has had a foal—she is generally called a mare.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "То же, что и кобыла"
+          "text": "Exactly the same as a mare"
         },
         {
           "id": "answer-02",
-          "text": "Кобыла, не достигшая 4 лет"
+          "text": "A female horse under four years old"
         },
         {
           "id": "answer-03",
-          "text": "Кобыла, не достигшая 7 лет"
+          "text": "A female horse under seven years old"
         },
         {
           "id": "answer-04",
-          "text": "Низкорослая кобыла"
+          "text": "A short mare"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-09",
-      "question": "Подсосный жеребенок — это:",
-      "explanation": "Словосочетание «подсо́сный жеребенок» — это официальный зоотехнический термин исконно славянского происхождения, обозначающий малыша лошади в возрасте от рождения до момента отъема от матери (обычно до 6–8 месяцев). В основе термина лежит древний глагол сосать с приставкой под-, что буквально указывает на способ питания: этот жеребенок находится «под матерью» и его главным источником пищи является материнское молоко. Этот период биологически крайне важен, так как именно в подсосном возрасте закладывается иммунитет, прочность костяка и будущая выносливость взрослой лошади.",
+      "question": "A suckling foal is:",
+      "explanation": "A suckling is a foal from birth until weaning, commonly around six to eight months in the system described here. Its principal food is its dam's milk. This period is important for immunity, skeletal development, and the foal's future soundness and stamina.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "То же, что и жеребенок"
+          "text": "Exactly the same as any foal"
         },
         {
           "id": "answer-02",
-          "text": "Жеребенок, питающийся молоком матери"
+          "text": "A foal still nursing from its dam"
         },
         {
           "id": "answer-03",
-          "text": "Хороший жеребенок с крепким костяком"
+          "text": "A particularly good foal with strong bone"
         },
         {
           "id": "answer-04",
-          "text": "Жеребенок, отстающий от сверстников в развитии"
+          "text": "A foal developing more slowly than its peers"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-10",
-      "question": "Отьемыш — это:",
-      "explanation": "Слово «отъемыш» — это официальный зоотехнический термин исконно славянского происхождения, обозначающий жеребенка, которого навсегда разлучили (отняли) от материнского молока. Этот статус наступает сразу после подсосного периода, обычно в возрасте 6-8 месяцев, когда пищеварительная система малыша уже готова полностью перейти на грубые и сочные растительные корма. В основе слова лежит древнерусский глагол отъяти (отнять, забрать), а суффикс -ыш подчеркивает предмет или живое существо, подвергшееся этому действию, из-за чего термин часто приобретает легкий оттенок сиротства или беззащитности, ведь отъем — это первый серьезный самостоятельный этап и стресс в жизни молодого коня.",
+      "question": "A weanling is:",
+      "explanation": "A weanling is a young horse that has been permanently weaned from its dam's milk. This stage begins after the suckling period, usually at about six to eight months in the system described here, when the foal is ready to rely on forage and other solid feed. Weaning is the first major independent stage of a young horse's life and can be stressful.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Агрессивный жеребенок"
+          "text": "An aggressive foal"
         },
         {
           "id": "answer-02",
-          "text": "Больной жеребенок"
+          "text": "A sick foal"
         },
         {
           "id": "answer-03",
-          "text": "Жеребенок, которого отлучили от вымени"
+          "text": "A foal that has been weaned from its dam"
         },
         {
           "id": "answer-04",
-          "text": "Жеребенок, которого одна кобыла украла у другой"
+          "text": "A foal stolen by one mare from another"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-11",
-      "question": "Как называется поднятие коня на задние ноги? ",
-      "explanation": "«Све́чка» (или вставание на дыбы) — это исконно славянское по происхождению образное выражение, обозначающее вертикальный подъем лошади на задние ноги, при котором ее тело выпрямляется почти перпендикулярно земле. Название закрепилось в русском конном лексиконе из-за внешнего сходства вытянувшейся вверх лошади с прямой восковой свечой. В зависимости от ситуации «свечка» может быть элементом высшей школы верховой езды (левадой), признаком бурной радости и игры на пастбище, либо опасным проявлением неповиновения, страха или боли, когда лошадь пытается избавиться от контроля со стороны всадника.",
+      "question": "What is it called when a horse rises onto its hind legs?",
+      "explanation": "This movement is called rearing. The Russian term svechka, literally “candle,” compares the upright horse to a straight candle. Depending on the context, rearing may be a trained high-school movement such as the levade, an expression of play, or a dangerous response to fear, pain, or resistance.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Пассаж"
+          "text": "Passage"
         },
         {
           "id": "answer-02",
-          "text": "Пируэт"
+          "text": "Pirouette"
         },
         {
           "id": "answer-03",
-          "text": "Свечка"
+          "text": "Rearing"
         },
         {
           "id": "answer-04",
-          "text": "Скачок"
+          "text": "Jumping"
         },
         {
           "id": "answer-05",
-          "text": "Пиаффе"
+          "text": "Piaffe"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-12",
-      "question": "Что такое иноходь?",
-      "explanation": "Слово «ино́ходь» — исконно славянское по происхождению, обозначает оно врожденный тип быстрого аллюра лошади, при котором она поочередно поднимает и опускает ноги не по диагонали (как на рыси), а односторонне — сначала обе правые, затем обе левые. Термин образовался путем слияния двух древнерусских основ: корня инъ (в значении «иной», «другой», «особенный») и корня ходъ (хождение, бег). Буквально слово переводится как «иной ход», подчеркивая необычность этого мягкого, плавного и очень комфортного для всадника движения, при котором тело лошади покачивается из стороны в сторону, не совершая жестких толчков вверх.",
+      "question": "What is the pace?",
+      "explanation": "The pace is a fast lateral gait in which the legs on the same side move together or nearly together—first the two right legs, then the two left. Unlike the diagonal pairs of the trot, this produces a side-to-side motion. Some pacing gaits are naturally smooth and comfortable for the rider.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вредная привычка лошади"
+          "text": "A behavioral vice"
         },
         {
           "id": "answer-02",
-          "text": "Аллюр лошади"
+          "text": "A horse gait"
         },
         {
           "id": "answer-03",
-          "text": "Дефект экстерьера"
+          "text": "A conformation defect"
         },
         {
           "id": "answer-04",
-          "text": "Болезнь"
+          "text": "A disease"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-13",
-      "question": "Груминг — это:",
-      "explanation": "Слово «гру́минг» пришло в русский язык в конце XX века из английского языка (от глагола to groom — «чистить лошадь», «ухаживать», «холить»). Исторически в Англии словом groom (грум) называли конюха, в чьи обязанности входила ежедневная чистка, мытье коней и поддержание их шерсти и копыт в идеальном порядке. В современном конном мире этот термин сохранил свое первоначальное значение и обозначает полный комплекс гигиенического ухода за лошадью (чистку скребницей, расчесывание гривы, крючкование копыт и стрижку). При этом в быту слово расширило свои границы, и теперь «грумингом» чаще называют профессиональный уход и стрижку домашних питомцев — собак и кошек.",
+      "question": "Grooming is:",
+      "explanation": "Grooming means the hygienic care of a horse, including currying and brushing the coat, combing the mane and tail, picking out the hooves, washing, and clipping when needed. The English verb to groom originally referred specifically to caring for horses; the term is now also widely used for professional care of companion animals.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Лечение инфекционных болезней лошади"
+          "text": "Treating an infectious disease"
         },
         {
           "id": "answer-02",
-          "text": "Гигиенический уход за лошадью"
+          "text": "Hygienic care of a horse"
         },
         {
           "id": "answer-03",
-          "text": "Валяние лошади в песке"
+          "text": "A horse rolling in sand"
         },
         {
           "id": "answer-04",
-          "text": "Аллюр лошади"
+          "text": "A horse gait"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-14",
-      "question": "Что такое менка?",
-      "explanation": "Слово «ме́нка» (а именно — менка ног) имеет исконно славянское происхождение и образовано от древнерусского глагола меняти (обменивать, чередовать). В конном спорте (выездке и конкуре) этот термин обозначает сложный технический элемент, при котором лошадь во время движения на галопе прямо в воздухе (в фазе зависания) меняет ведущую ногу, с которой она начинает прыжок. В выездке высшего уровня выполняется серийная менка ног — «в один темп», когда лошадь виртуозно меняет ноги на каждом шагу, создавая красивый визуальный эффект танца.",
+      "question": "What is a flying change?",
+      "explanation": "A flying change is a change of canter lead performed in the air during the suspension phase, with the front and hind legs changing in the same stride. In advanced dressage, horses perform tempi changes in sequence, including one-tempi changes on every stride.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Аллюр лошади"
+          "text": "A horse gait"
         },
         {
           "id": "answer-02",
-          "text": "Смена ноги на рыси"
+          "text": "Changing diagonal at the trot"
         },
         {
           "id": "answer-03",
-          "text": "Смена ведущей ноги на галопе"
+          "text": "Changing the canter lead in the air"
         },
         {
           "id": "answer-04",
-          "text": "Смена ноги во время иноходи"
+          "text": "Changing legs during the pace"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-15",
-      "question": "Что такое шлапак?",
-      "explanation": "Слово «шлапа́к» (или шляпак) пришло в конный лексикон из южнорусских диалектов и украинского языка, где глагол шлапать (или шлепать) означает «тяжело ступать», «идти по грязи» или «хлопать обувью». Шлапак — это ломаный, гибридный ход, нечто среднее между рысью и галопом, когда передние ноги лошади скачут галопом, а задние в это же время бегут рысью (или наоборот). Лошадь сбивается на шлапак/тропоту из-за нетренированности мышц, отсутствия баланса или когда молодая лошадь путается в ногах при неправильном подъеме в галоп. Этот аллюр крайне утомителен для животного и очень неудобен для всадника, поэтому таких лошадей всегда стараются переучить на «чистый» ход.",
+      "question": "What is shlapak?",
+      "explanation": "Shlapak, also called shlyapak or tropota in regional Russian and Ukrainian usage, is a broken hybrid gait between trot and canter. The forelegs may canter while the hindlegs trot, or vice versa. A horse may fall into it through poor balance, weak conditioning, or confusion when learning canter departures. It is tiring for the horse and uncomfortable for the rider, so training aims to restore a pure gait.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Дефектный аллюр"
+          "text": "A faulty gait"
         },
         {
           "id": "answer-02",
-          "text": "Элемент амуниции лошади"
+          "text": "A piece of horse tack"
         },
         {
           "id": "answer-03",
-          "text": "Элемент экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-04",
-          "text": "Болезнь лошади"
+          "text": "A disease"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-16",
-      "question": "Что такое тёльт?",
-      "explanation": "Слово «тёльт» (исл. tölt) пришло в русский язык из исландского языка, где оно буквально означает «толчок», «подпрыгивание» или «быстрый шаг». Это уникальный, генетически обусловленный четырехтактный аллюр исландских лошадей, напоминающий очень быструю, плавную и ритмичную шаговую иноходь, при которой животное всегда имеет хотя бы одну точку опоры о землю. В отличие от тряской рыси, тёльт полностью лишен фазы зависания в воздухе, благодаря чему всадник в седле сидит абсолютно неподвижно и не испытывает толчков, а сама лошадь способна двигаться таким ходом на огромные расстояния без усталости.",
+      "question": "What is tölt?",
+      "explanation": "Tölt is the characteristic four-beat lateral gait of the Icelandic horse. The horse always has at least one hoof on the ground, so there is no suspension phase. This makes the gait exceptionally smooth for the rider, while its speed can range from slow to very fast.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Аллюр лошади"
+          "text": "A horse gait"
         },
         {
           "id": "answer-02",
-          "text": "Элемент амуниции лошади"
+          "text": "A piece of horse tack"
         },
         {
           "id": "answer-03",
-          "text": "Элемент экипировки всадника"
+          "text": "An item of riding apparel"
         },
         {
           "id": "answer-04",
-          "text": "Болезнь лошади"
+          "text": "A disease"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-17",
-      "question": "Что такое хода?",
-      "explanation": "Слово «хо́да» — это исконно славянское по происхождению существительное от праславянского корня xodъ (идти, двигаться), которое в конном мире используется как синоним слова «походка» или «бег» и обозначает плавные, четырехтактные аллюры лошади. С точки зрения биомеханики хода и тёльт — это разные региональные названия одного и того же четырехтактного латерального аллюра. Разница между ними исключительно географическая и породная: словом «тёльт» называют этот мягкий бегущий шаг только у исландских лошадей, в то время как старинное славянское слово «хода» использовалось на Руси как собирательное название для аналогичного плавного хода местных лошадей-иноходцев. В обоих случаях ноги переставляются строго поочередно, всадника совершенно не трясет, и слышны четыре четких, быстрых удара копыт о землю.",
+      "question": "What is khoda?",
+      "explanation": "Khoda is an old Slavic regional term for a smooth four-beat gait comparable to tölt. The feet land separately in a rapid four-beat sequence, producing little vertical bounce for the rider. Tölt is the Icelandic name, while khoda was used for similar smooth gaits in local gaited horses in Eastern Europe.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "То же, что и тёльт (аллюр)"
+          "text": "The same type of gait as tölt"
         },
         {
           "id": "answer-02",
-          "text": "Дефект экстерьера лошади"
+          "text": "A conformation defect"
         },
         {
           "id": "answer-03",
-          "text": "Плохая привычка лошади"
+          "text": "A behavioral vice"
         },
         {
           "id": "answer-04",
-          "text": "Болезнь лошади"
+          "text": "A disease"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-18",
-      "question": "Косячным называют жеребца который:",
-      "explanation": "Словосочетание «кося́чный жеребец» — это традиционный пастбищный и зоотехнический термин исконно славянского происхождения, обозначающий взрослого племенного самца, который возглавляет, охраняет и оплодотворяет отдельную устойчивую группу кобыл (косяк) в условиях табунного содержания. Слово «косячный» образовано от существительного косяк (в значении обособленной группы или стада), восходящего к древнерусскому корню косой. Главная природная задача такого жеребца — держать свой гарем вместе, защищать кобыл и жеребят от хищников или чужих самцов, а также не давать лошадям разбредаться, из-за чего косячные жеребцы отличаются повышенной бдительностью, строгим нравом и отвагой.",
+      "question": "A band stallion is a stallion that:",
+      "explanation": "A band stallion leads, guards, and breeds a stable group of mares and their foals under herd-management conditions. His role is to keep the family band together, protect it from predators and rival males, and prevent horses from straying.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Косячит на тренировках"
+          "text": "Makes mistakes during training"
         },
         {
           "id": "answer-02",
-          "text": "Обладает определенным дефектами экстерьера"
+          "text": "Has certain conformation defects"
         },
         {
           "id": "answer-03",
-          "text": "Обладает определенным дефектами характера"
+          "text": "Has certain temperament defects"
         },
         {
           "id": "answer-04",
-          "text": "Охраняет и оплодотворяет группу кобыл"
+          "text": "Guards and breeds a group of mares"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-19",
-      "question": "Что такое мерин?",
-      "explanation": "Слово «ме́рин» пришло в русский язык в XIV-XV веках из монгольских языков (от корня mörin или mori), где оно изначально переводилось просто как «лошадь» или «конь». Попав на Русь в эпоху тесных контактов со степными народами, это слово существенно сузило свое значение и закрепилось исключительно за кастрированным самцом лошади. Поскольку такие кони теряли половые инстинкты, становились спокойными, послушными и покладистыми, они ценились как идеальная рабочая сила на пашне и надежный транспорт в кавалерии, а само слово со временем прочно вошло в русский фольклор (например, в поговорку «врет как сивый мерин»).",
+      "question": "What is a gelding?",
+      "explanation": "A gelding is a castrated male horse. The Russian word merin entered Russian from Mongolic languages, where mörin or mori originally meant simply horse. In Russian, the meaning narrowed to a castrated male, traditionally valued for calmness and reliability in work and riding.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Племенной жеребец"
+          "text": "A breeding stallion"
         },
         {
           "id": "answer-02",
-          "text": "Кастрированный конь"
+          "text": "A castrated male horse"
         },
         {
           "id": "answer-03",
-          "text": "Старый и больной конь"
+          "text": "An old and sick male horse"
         },
         {
           "id": "answer-04",
-          "text": "То же что и кляча, только самец"
+          "text": "The male equivalent of a broken-down nag"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-20",
-      "question": "Как называются роды у лошадей?",
-      "explanation": "Слово «вы́жеребка» — это официальный зоотехнический термин исконно славянского происхождения, обозначающий процесс родов у кобылы. В основе слова лежит древний праславянский корень žerbę (жеребенок), а добавление приставки вы- указывает на завершение процесса — выведение плода наружу из организма матери. В коневодстве выжеребка является ключевым событием, к которому тщательно готовятся, так как успешные роды гарантируют здоровье новорожденного жеребенка и быстрое восстановление кобылы для будущей племенной работы.",
+      "question": "What is the process of a mare giving birth called?",
+      "explanation": "The birth of a foal is called foaling. The Russian zootechnical term vyzherebka likewise means parturition in a mare and is formed from an old Slavic root meaning foal.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жеребцевание"
+          "text": "Stallion behavior"
         },
         {
           "id": "answer-02",
-          "text": "Выжеребка"
+          "text": "Foaling"
         },
         {
           "id": "answer-03",
-          "text": "Кобылевание"
+          "text": "Mare-ing"
         },
         {
           "id": "answer-04",
-          "text": "Эструс"
+          "text": "Estrus"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-21",
-      "question": "Что такое косяк?",
-      "explanation": "Слово «кося́к» имеет исконно славянское происхождение от корня косой и обозначает маленькую, автономную «семейную ячейку» из 10-25 кобыл с жеребятами под предводительством одного косячного жеребца, в то время как «табу́н» — это огромное общее стадо (из сотен или тысяч голов), пасущееся на одной территории. Главное отличие заключается в том, что табун формируется человеком для совместного выпаса, а косяк — это естественная, закрытая семейная группа с жесткой внутренней иерархией, которую жеребец яростно охраняет и держит обособленно от всех остальных лошадей внутри большого табуна.",
+      "question": "What is a harem band?",
+      "explanation": "A horse band is a small, stable family group of mares and their foals led by one stallion. In the traditional system described here, it may contain roughly 10–25 mares. A large managed herd can contain several such bands, each with its own internal hierarchy and stallion.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "То же что и табун"
+          "text": "Exactly the same as a whole herd"
         },
         {
           "id": "answer-02",
-          "text": "Плохая привычка коня"
+          "text": "A behavioral vice"
         },
         {
           "id": "answer-03",
-          "text": "Дефект экстерьера"
+          "text": "A conformation defect"
         },
         {
           "id": "answer-04",
-          "text": "Группа кобыл с жеребцом"
+          "text": "A group of mares with one stallion"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-22",
-      "question": "Что такое каденция?",
-      "explanation": "Слово «каде́нция» пришло в русский конный лексикон из итальянского языка (через французский) от латинского корня cadere — «падать», что изначально в музыке означало гармоничный оборот или финал музыкальной фразы. В выездке этот термин обозначает выраженную ритмичность, четкость и размеренность аллюра, при которой шаги лошади приобретают особую выразительность и отчетливую фазу зависания в воздухе. Каденция не является отдельным аллюром, а указывает на высшее качество движения (чаще всего на пассаже или пиаффе), когда конь двигается в идеальном, «танцующем» музыкальном такте, демонстрируя абсолютный баланс и сбор.",
+      "question": "What is cadence?",
+      "explanation": "In dressage, cadence is the pronounced rhythm, balance, and measured regularity that gives a horse's steps expression and, in appropriate gaits, a clear moment of suspension. It is not a separate gait but a quality of movement, especially evident in passage and piaffe when the horse moves with balance and collection.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Аллюр лошади"
+          "text": "A horse gait"
         },
         {
           "id": "answer-02",
-          "text": "Идеальный ритм движения лошади"
+          "text": "Ideal rhythm and measure in a horse's movement"
         },
         {
           "id": "answer-03",
-          "text": "Скаковые характеристики лошади"
+          "text": "A horse's racing ability"
         },
         {
           "id": "answer-04",
-          "text": "Болезнь лошади"
+          "text": "A disease"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-23",
-      "question": "Что такое полуторник?",
-      "explanation": "Слово «полуто́рник» — это официальный профессиональный и зоотехнический термин исконно славянского происхождения, обозначающий молодую лошадь в возрасте полутора лет (от 18 до 24 месяцев). Этот период является критически важным рубежом в коневодстве: полуторников переводят на усиленный рацион, разделяют по полу на группы жеребчиков и кобылок, а на конных заводах для чистокровных верховых и рысистых пород в этом возрасте начинается первая бережная подготовка к будущим скачкам и бегам — приучение к недоуздку, вожжам и седлу.",
+      "question": "What does the Russian term polutornik mean?",
+      "explanation": "Polutornik is a Russian professional term for a young horse approximately one and a half years old, usually 18–24 months. At this stage, young horses may be separated by sex, receive a carefully balanced ration, and begin gentle handling and preparation for future work.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жеребенок от полтора года до 2-х лет"
+          "text": "A young horse from 18 to 24 months old"
         },
         {
           "id": "answer-02",
-          "text": "Жеребенок от года до полтора года"
+          "text": "A young horse from 12 to 18 months old"
         },
         {
           "id": "answer-03",
-          "text": "Жеребенок от рождения до полтора года"
+          "text": "A foal from birth to 18 months old"
         },
         {
           "id": "answer-04",
-          "text": "Жеребенок, которого начали оповаживать в полтора года"
+          "text": "A young horse first halter-trained at 18 months"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-24",
-      "question": "Что такое пежина?",
-      "explanation": "Слово «пе́жина» — это старинный русский иппологический термин исконно славянского происхождения, обозначающий крупное, бесформенное светлое пятно на теле лошади, нарушающее ее основной окрас. Название напрямую восходит к древнерусскому прилагательному пегий (пятнистый, двухцветный), которое имеет общие корни со словом пегий в значении «сорочий». В современной зоотехнии и генетике мастей этот термин практически вытеснен официальным понятием «пегая масть», однако на конных заводах и в обиходе конников словом «пежина» до сих пор называют отдельные крупные белые отметины на теле животного.",
+      "question": "What does the Russian term pezhina mean?",
+      "explanation": "Pezhina is an old Russian hippological term for a large, irregular white patch on a horse's body that interrupts the base color. It comes from the Russian word pegy, meaning pinto or pied. Today, the term is largely replaced by the names of specific pinto patterns but is still used colloquially for an individual white patch.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Белое пятно у пегого коня"
+          "text": "A white patch on a pinto horse"
         },
         {
           "id": "answer-02",
-          "text": "Цветное пятно у пегого коня"
+          "text": "A colored patch on a pinto horse"
         },
         {
           "id": "answer-03",
-          "text": "Отметина на мордочке"
+          "text": "A marking on the face"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-25",
-      "question": "Что такое прохолостение?",
-      "explanation": "Слово «прохолосте́ние» — это официальный зоотехнический и ветеринарный термин исконно славянского происхождения, обозначающий неоплодотворенное состояние кобылы в конце случного сезона. В основе слова лежит древнерусское прилагательное холостой (в значении «пустой», «незанятый», «бездетный»). В коневодстве прохолостение является серьезной экономической проблемой, так как «холостая» кобыла целый год не приносит жеребенка, а причинами этого могут быть скрытые гинекологические болезни, плохой рацион, стресс или стерильность самого жеребца.",
+      "question": "What does the Russian breeding term prokholostenie mean?",
+      "explanation": "Prokholostenie is the failure of a mare to become pregnant by the end of the breeding season. The word is related to the Russian term for barren or empty. It is economically important in breeding programs and may result from reproductive disease, poor nutrition, stress, breeding management, or infertility in either parent.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Разновидность болезни лошади"
+          "text": "A type of disease"
         },
         {
           "id": "answer-02",
-          "text": "Отказ кобылы от случки с жеребцом и ее агрессия к нему"
+          "text": "A mare refusing and attacking a stallion"
         },
         {
           "id": "answer-03",
-          "text": "Неоплодотворенное состояние лошади в конце случного сезона"
+          "text": "A mare remaining nonpregnant at the end of the breeding season"
         },
         {
           "id": "answer-04",
-          "text": "Процесс кастрации коня"
+          "text": "Castrating a male horse"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-26",
-      "question": "Что такое ремонтный молодняк?",
-      "explanation": "Словосочетание «ремо́нтный молодня́к» — это официальный профессиональный термин исконно славянского происхождения, пришедший в зоотехнию из военного дела и обозначающий молодых хороших лошадей, выращиваемых для замены старых, отбракованных или выбывших животных в основном составе (табуне). В основе термина лежит заимствованное в Петровскую эпоху французское слово remonte («пополнение упряжи», «смена лошадей»), которое на Руси превратилось в понятие «ремонт кавалерии» — государственную закупку молодых коней для армии. Сегодня на конных заводах ремонтным молодняком называют лучших подрастающих жеребчиков и кобылок, которых не продают, а оставляют в хозяйстве для обновления племенного ядра и воспроизводства стада.",
+      "question": "What is replacement stock?",
+      "explanation": "Replacement stock consists of the best young horses retained to replace older, culled, or lost animals in the breeding or working herd. These colts and fillies are not sold but raised to renew the breeding nucleus and maintain the herd's future productivity.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Лучшие молодые лошади, которых отбирают на замену старым"
+          "text": "The best young horses selected to replace older stock"
         },
         {
           "id": "answer-02",
-          "text": "Молодые лошади, которых готовят на продажу"
+          "text": "Young horses being prepared for sale"
         },
         {
           "id": "answer-03",
-          "text": "Молодые лошади, которых готовят к соревнованиям"
+          "text": "Young horses being prepared for competition"
         },
         {
           "id": "answer-04",
-          "text": "Молодые лошади, которых отбраковывают"
+          "text": "Young horses selected for culling"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-27",
-      "question": "Что такое карьер?",
-      "explanation": "Слово «карье́р» (в значении самого быстрого аллюра) пришло в русский конный лексикон в XVIII веке из французского языка (от слова carrière — «бег», «жизненный путь», «ипподром»), которое восходит к латинскому carrus — «телега» или «повозка». В иппологии этот термин обозначает предельно быстрый, стремительный галоп в три или четыре темпа, при котором лошадь полностью растягивает тело над землей, низко опускает шею и совершает мощные, частые прыжки, развивая максимальную скорость. Название закрепилось из-за ассоциации с безудержным, безостановочным бегом по прямой дорожке ипподрома, где конь выкладывается на пределе своих физических возможностей.",
+      "question": "What does the traditional Russian term karier mean?",
+      "explanation": "In traditional Russian horse terminology, karier means a racing gallop or full gallop: an extremely fast stride in which the horse lengthens its body, lowers its neck, and covers ground with powerful repeated bounds. It is the horse's maximum-speed gait rather than a distinct dressage movement.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент выездки"
+          "text": "A dressage movement"
         },
         {
           "id": "answer-02",
-          "text": "Очень быстрая рысь"
+          "text": "A very fast trot"
         },
         {
           "id": "answer-03",
-          "text": "Очень быстрый галоп"
+          "text": "A very fast gallop"
         },
         {
           "id": "answer-04",
-          "text": "Фигура в джигитовке"
+          "text": "A trick-riding figure"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-28",
-      "question": "Что такое табунирование?",
-      "explanation": "Слово «табуни́рование» — это официальный профессиональный и зоотехнический термин гибридного происхождения, обозначающий процесс формирования новых искусственных табунов или перевод домашних лошадей на пастбищно-табунное содержание. В основе термина лежит тюркский корень табун (стадо, множество), соединенный с русским глагольным суффиксом -ирова-, заимствованным из немецкого языка (-ieren) для обозначения масштабного технологического действия. В коневодстве табунирование является важнейшим зоотехническим процессом: лошадей тщательно отбирают и объединяют в одно стадо по полу, возрасту и назначению (например, формируют табуны ремонтного молодняка или маточные табуны), при этом за конями круглосуточно наблюдают пастухи-табунщики, пока в группе не выстроится естественная социальная иерархия.",
+      "question": "What is tabunirovanie?",
+      "explanation": "Tabunirovanie is a Russian zootechnical term for forming an organized herd or transferring domestic horses to herd-based pasture management. Horses are grouped by sex, age, and purpose—for example, young replacement stock or broodmares—and monitored while a social hierarchy develops.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "То же что и таврение"
+          "text": "The same as hot branding"
         },
         {
           "id": "answer-02",
-          "text": "Формирование табуна"
+          "text": "Forming a herd"
         },
         {
           "id": "answer-03",
-          "text": "Этап тренинга лошади"
+          "text": "A stage of horse training"
         },
         {
           "id": "answer-04",
-          "text": "Выпас табуна"
+          "text": "Grazing a herd"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-29",
-      "question": "Что такое стабунивание?",
-      "explanation": "Слово «стабуни́рование» — это официальный зоотехнический термин гибридного происхождения, обозначающий процесс объединения отдельных, незнакомых между собой лошадей в одну общую группу (табун) или подсаживание новой лошади в уже сложившийся коллектив. В его основе лежит тюркский корень табун (стадо, множество), русифицированный приставкой совместного действия с- и технологическим суффиксом -ирова-. В коневодстве стабунирование является сложным психологическим процессом, который проводят под строгим контролем человека на просторной территории, так как лошади как социальные животные должны заново выстроить внутреннюю иерархию, что на первых порах неизбежно сопровождается выяснением отношений, визгом и демонстративными погонями.",
+      "question": "What is stabunivanie?",
+      "explanation": "Stabunivanie is a Russian zootechnical term for bringing unfamiliar horses together into one herd or introducing a new horse into an established group. Because horses must form a new hierarchy, the process should be supervised in a spacious area and may initially involve squealing, chasing, and other social displays.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Введение новой лошади в табун"
+          "text": "Introducing a new horse into a herd"
         },
         {
           "id": "answer-02",
-          "text": "Выгон табуна на пастбище"
+          "text": "Turning a herd out to pasture"
         },
         {
           "id": "answer-03",
-          "text": "Возвращение табуна с пастбища"
+          "text": "Bringing a herd back from pasture"
         },
         {
           "id": "answer-04",
-          "text": "Этап случки лошадей"
+          "text": "A stage of horse breeding"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-30",
-      "question": "Что такое отъем?",
-      "explanation": "Слово «отъем» (а именно — отъём жеребят) — это официальный зоотехнический термин исконно славянского происхождения, обозначающий процесс планового и окончательного отлучения подсосного жеребенка от материнского молока. Слово образовано от древнерусского глагола отъяти (отнять, забрать) и указывает на принудительный разрыв пищевой и психологической связи между кобылой и ее подросшим детенышем (обычно в возрасте 6-8 месяцев). В коневодстве отъем проводят либо одномоментно (сразу разделяя кобыл и жеребят по разным левадам), либо постепенно, при этом для снижения сильнейшего стресса у малышей их формируют в отдельные группы — группы отъемышей.",
+      "question": "What is weaning?",
+      "explanation": "Weaning is the planned, permanent separation of a suckling foal from its dam's milk, commonly at about six to eight months in the system described here. It may be done abruptly or gradually. To reduce stress, weanlings are often kept with familiar peers in a carefully managed group.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отбор лучших молодых лошадей"
+          "text": "Selecting the best young horses"
         },
         {
           "id": "answer-02",
-          "text": "Отлучение жеребенка от вымени"
+          "text": "Separating a foal from its dam's milk"
         },
         {
           "id": "answer-03",
-          "text": "Изьятие из табуна лошадей для каких-либо целей"
+          "text": "Removing horses from a herd for some purpose"
         },
         {
           "id": "answer-04",
-          "text": "Снятие коня с овса, в случае его буйного поведения"
+          "text": "Removing oats from an excitable horse's diet"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-31",
-      "question": "Доращивание обычно длится:",
-      "explanation": "Слово «дора́щивание» — это официальный профессиональный и зоотехнический термин исконно славянского происхождения, обозначающий период целенаправленного содержания и кормления молодого ремонтного молодняка после отъема от матери до достижения ими полной зрелости или перевода в производственный состав. В коневодстве этап доращивания длится обычно от 6-8 месяцев до 2-3 лет и является критически важным: в это время жеребчики и кобылки содержатся в сбалансированных условиях, получают активный моцион на пастбищах и развивают крепкий костяк, сухожилия и мускулатуру, необходимые для будущей племенной или спортивной работы.",
+      "question": "The growing-on period usually lasts:",
+      "explanation": "Growing on is the period of carefully managing and feeding young replacement stock after weaning until maturity or entry into the productive herd. In the system described here, it usually extends from about six to eight months of age until two or three years. During this time, appropriate nutrition, turnout, and exercise help develop bone, tendons, and muscle for future breeding or sport.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "От 2 до 3 лет"
+          "text": "From two to three years of age"
         },
         {
           "id": "answer-02",
-          "text": "От 1 до 2 лет"
+          "text": "From one to two years of age"
         },
         {
           "id": "answer-03",
-          "text": "От 6 месяцев до 3 лет"
+          "text": "From six months to three years of age"
         },
         {
           "id": "answer-04",
-          "text": "От 8 месяцев до 1 года"
+          "text": "From eight months to one year of age"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-32",
-      "question": "Что такое нагул?",
-      "explanation": "Слово «нагу́л» (или нагул лошадей) — это официальный зоотехнический термин исконно славянского происхождения, обозначающий процесс интенсивного откорма и набора живой массы животными за счет бесплатного подножного корма на пастбищах. Слово образовано от древнерусского глагола гулять (в значении свободно ходить, пастись) с помощью приставки на-, указывающей на накопление результата. В коневодстве нагул является самым дешевым и экологичным способом улучшения упитанности лошадей: их выгоняют на богатые травой угодья (часто в степные или горные районы), где за весенне-летний сезон кони не только восстанавливают силы после зимы и наращивают мускулатуру, но и закладывают необходимый подкожный жировой слой для успешной зимовки.",
+      "question": "What is pasture conditioning?",
+      "explanation": "Pasture conditioning is the process of improving an animal's body condition and live weight through grazing. It is a low-cost way to restore horses after winter, build muscle during the growing season, and develop adequate fat reserves for the next winter.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Откорм лошадей овсом и сеном"
+          "text": "Fattening horses on oats and hay"
         },
         {
           "id": "answer-02",
-          "text": "Откорм лошадей на подножном корме"
+          "text": "Improving condition on pasture forage"
         },
         {
           "id": "answer-03",
-          "text": "Откорм лошадей только сеном"
+          "text": "Fattening horses on hay only"
         },
         {
           "id": "answer-04",
-          "text": "Откорм лошадей только овсом"
+          "text": "Fattening horses on oats only"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-33",
-      "question": "Что такое нагульное содержание?",
-      "explanation": "Словосочетание «нагу́льное соде́ржание» — это официальный зоотехнический термин исконно славянского происхождения, обозначающий метод пастбищного содержания лошадей, направленный на максимальное увеличение их упитанности, живой массы и укрепление здоровья исключительно за счет поедания подножного корма. Термин образован от существительного нагул (откорма на пасьбе) и глагола содержать. При нагульном содержании табуны лошадей переводят на круглосуточное нахождение на естественных или культурных пастбищах с богатым травостоем, где животные имеют возможность свободно двигаться, полноценно развивать мускулатуру и естественным, самым дешевым для хозяйства способом накапливать жировые запасы перед зимним периодом.",
+      "question": "What is full-time pasture conditioning?",
+      "explanation": "This management system keeps horses on good natural or cultivated pasture around the clock so that grazing, free movement, and exercise improve body condition, live weight, and general fitness. It is a low-cost way to build muscle and fat reserves before winter.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Круглосуточное нахождение лошадей на пастбище"
+          "text": "Keeping horses on pasture around the clock"
         },
         {
           "id": "answer-02",
-          "text": "Круглосуточное нахождение лошадей в специальных загонах"
+          "text": "Keeping horses in special pens around the clock"
         },
         {
           "id": "answer-03",
-          "text": "Это когда лошадь много работают в руках (нагуливают)"
+          "text": "Working a horse extensively in hand"
         },
         {
           "id": "answer-04",
-          "text": "Это когда лошадь работают в шпрингартене"
+          "text": "Exercising a horse in a free-jumping chute"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-34",
-      "question": "Соломенная лошадь — это:",
-      "explanation": "«Соло́менная лоша́дь» (или лошадь с соломенным/сенным животом) — это образное профессиональное выражение исконно славянского происхождения, обозначающее животное с неестественно раздутым, отвисшим и распухшим пузом из-за длительного кормления дешевой соломой или некачественным переросшим сеном. Из-за избытка грубой, трудноперевариваемой клетчатки и нехватки питательных веществ кормовые массы задерживаются в слепой кишке, вызывая хроническое газообразование и растяжение брюшных стенок, что усугубляется слабостью мышц пресса и дефицитом белка в рационе коня.",
+      "question": "A horse with a straw or hay belly is:",
+      "explanation": "A straw- or hay-bellied horse has an abnormally enlarged, pendulous abdomen associated here with prolonged feeding of bulky, poor-quality straw or overmature hay and inadequate nutrition. Large volumes of low-value roughage, weak abdominal musculature, and protein deficiency can all contribute to the distended appearance.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Лошадь из соломы"
+          "text": "A horse made of straw"
         },
         {
           "id": "answer-02",
-          "text": "Лошадь, которая любит кушать солому"
+          "text": "A horse that loves eating straw"
         },
         {
           "id": "answer-03",
-          "text": "Лошадь с распухшим пузом от того, что ее кормили некачественным сеном и соломой"
+          "text": "A horse with a swollen belly after being fed poor-quality hay and straw"
         },
         {
           "id": "answer-04",
-          "text": "Лошадь соловой масти"
+          "text": "A palomino horse"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-35",
-      "question": "Что такое кентер?",
-      "explanation": "Слово «ке́нтер» пришло в русский конный лексикон из английского языка (от canter, сокращения от Canterbury gallop — «кентерберийский галоп») и восходит к средневековой традиции паломников, которые чинно ехали верхом на лошадях в Кентерберийский собор легким, размеренным ходом. В ипполо́гии и конном спорте этот термин обозначает размеренный, укороченный и плавный полевой галоп в три темпа, который совершается со скоростью около 300-400 метров в минуту без максимального напряжения сил животного. Название прочно закрепилось в тренинге скаковых лошадей, где кентер является основным аллюром для повседневной тренировки, разминки и развития дыхательной системы коня перед резвыми финишными бросками.",
+      "question": "What is canter?",
+      "explanation": "Canter is a controlled three-beat gait that is slower and more collected than a racing gallop. The English word is traditionally linked to Canterbury gallop, referring to the comfortable pace associated with medieval pilgrims riding toward Canterbury. In racehorse training, an easy canter is widely used for daily conditioning and warm-up.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Болезнь лошади"
+          "text": "A horse disease"
         },
         {
           "id": "answer-02",
-          "text": "Плохая привычка лошади"
+          "text": "A behavioral vice"
         },
         {
           "id": "answer-03",
-          "text": "Аллюр лошади"
+          "text": "A horse gait"
         },
         {
           "id": "answer-04",
-          "text": "Кентерберийская лошадь"
+          "text": "A horse from Canterbury"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-36",
-      "question": "Что такое намёт?",
-      "explanation": "Слово «намёт» (в значении конного бега) — это старинный русский иппологический термин исконно славянского происхождения, выступающий абсолютным синонимом слова «гало́п». Глагольное существительное образовано от древнерусского метати (бросать, кидать) с приставкой на-, что буквально описывает биомеханику движения: лошадь на бегу стремительно «наметывает», то есть бросает свое тело вперед волнообразными прыжками. В классической русской школе верховой езды и кавалерии галоп всегда называли исключительно намётом (разделяя его на тяжелый, легкий или широкий), и хотя сегодня в спорте этот термин считается устаревшим, он до сих пор активно используется в деревнях, казачьей среде и художественной литературе.",
+      "question": "What does the old Russian term namyot mean?",
+      "explanation": "Namyot is an old Russian hippological term meaning gallop. The word evokes the horse throwing its body forward in a sequence of bounding strides. Although obsolete in modern sport, it still appears in rural speech, Cossack traditions, and literature.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Болезнь лошади"
+          "text": "A horse disease"
         },
         {
           "id": "answer-02",
-          "text": "Плохая привычка лошади"
+          "text": "A behavioral vice"
         },
         {
           "id": "answer-03",
-          "text": "Дефект экстерьера лошади"
+          "text": "A conformation defect"
         },
         {
           "id": "answer-04",
-          "text": "Аллюр лошади"
+          "text": "A horse gait"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-37",
-      "question": "Что такое медвежья качка?",
-      "explanation": "Словосочетание «медве́жья ка́чка» — это образный профессиональный термин исконно славянского происхождения, обозначающий тяжелый поведенческий порок (стереотипию) лошади, при котором она, стоя где-либо, непрерывно переминается с одной передней ноги на другую, монотонно раскачивая голову и туловище из стороны в сторону. Название закрепилось из-за внешнего сходства этого движения с поведением скучающего медведя в зоопарке. Данная вредная привычка возникает от скуки, сильного стресса, нехватки общения с сородичами или длительного отсутствия выгула (левады) и является серьезной проблемой, так как постоянная осевая нагрузка на одни и те же суставы быстро приводит к преждевременному износу связок, копыт и хронической хромоте коня.",
+      "question": "What is weaving?",
+      "explanation": "Weaving is a stereotypical behavior in which a stationary horse repeatedly shifts weight from one foreleg to the other while swinging its head and body from side to side. It is commonly associated with stress, social isolation, insufficient turnout, or a restrictive environment. Repetition can place additional strain on the limbs, hooves, tendons, and ligaments.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Болезнь лошади"
+          "text": "A horse disease"
         },
         {
           "id": "answer-02",
-          "text": "Вредная привычка лошади"
+          "text": "A behavioral vice"
         },
         {
           "id": "answer-03",
-          "text": "Неправильные движения во время рыси"
+          "text": "Incorrect movement at the trot"
         },
         {
           "id": "answer-04",
-          "text": "Неправильные движения во время иноходи"
+          "text": "Incorrect movement at the pace"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-38",
-      "question": "Что такое прикус (прикуска) у лошади?",
-      "explanation": "Слово «при́кус» (или чаще — «прику́ска») имеет исконно славянское происхождение от глагола кусать и в конном мире обозначает опасный поведенческий порок (стереотипию), при котором лошадь захватывает зубами край кормушки, забора или двери и с характерным звуком со свистом заглатывает воздух. Этот порок бывает предметным или воздушным (когда опора не нужна) и развивается от стресса, скуки, гастрита или длительного пребывания взаперти, принося лошади удовольствие из-за выброса эндорфинов. Но это быстро приводит к стиранию резцов, коликам и потере веса. ",
+      "question": "What is cribbing in horses?",
+      "explanation": "Crib-biting, often called cribbing, is a stereotypical behavior in which a horse grasps a fixed object with its incisors, arches its neck, and draws in air with a characteristic sound. Wind-sucking is the related form performed without grasping an object. These behaviors are associated with stress, management, and sometimes gastrointestinal discomfort, and may contribute to tooth wear, weight loss, and an increased risk of colic.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Болезнь лошади"
+          "text": "A horse disease"
         },
         {
           "id": "answer-02",
-          "text": "Врожденный дефект челюсти лошади"
+          "text": "A congenital jaw defect"
         },
         {
           "id": "answer-03",
-          "text": "Врожденный дефект зубов лошади"
+          "text": "A congenital tooth defect"
         },
         {
           "id": "answer-04",
-          "text": "Вредная привычка лошади"
+          "text": "A behavioral vice"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-39",
-      "question": "Что такое сенное животное?",
-      "explanation": "«Сенно́е живо́тное» (как и «соломенная лошадь») — это образное народно-профессиональное выражение исконно славянского происхождения, обозначающее измученную рабочую лошадь, корову или козу, которая имеет сильно раздутый, отвисший и круглый («сенной») живот на фоне общего истощения и худобы. Такое состояние является следствием грубого нарушения зоотехнических норм, когда животное содержат на голодном рационе из пустой соломы или переросшего, некачественного сена без добавления сочных кормов, белков и концентратов. Из-за обилия трудноперевариваемой грубой клетчатки кормовые массы надолго задерживаются в слепой кишке, вызывая хроническое газообразование и сильное растяжение брюшных стенок, из-за чего голодное и тощее животное внешне кажется неоправданно толстым.",
+      "question": "What is a hay-bellied animal?",
+      "explanation": "A hay-bellied animal is an undernourished horse or other grazing animal with a markedly enlarged, pendulous abdomen despite poor overall condition. In the usage described here, it results from a low-quality, bulky ration dominated by straw or overmature hay without enough protein, concentrates, or more nutritious forage.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "То же, что и соломенная лошадь"
+          "text": "The same as a horse with a straw or hay belly"
         },
         {
           "id": "answer-02",
-          "text": "Лошадь, которая очень любит сено"
+          "text": "A horse that especially loves hay"
         },
         {
           "id": "answer-03",
-          "text": "Лошадь соловой масти"
+          "text": "A palomino horse"
         },
         {
           "id": "answer-04",
-          "text": "Тяжело больная лошадь"
+          "text": "A critically ill horse"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-40",
-      "question": "Что такое стереотипия?",
-      "explanation": "Слово «стереотипи́я» пришло в русский конный и ветеринарный лексикон в XX веке из древнегреческого языка (через французский или немецкий), образовавшись от слияния основ stereos («твердый», «объемный», «устойчивый») и typos («отпечаток», «образ», «образчик»). В иппологии и зоопсихологии этот медицинский термин обозначает тяжелое поведенческое расстройство лошади, выражающееся в монотонном, патологически повторяющемся действии, которое не имеет явной биологической цели. Развитие стереотипии (такой как медвежья качка, прикуска или ткачество) свидетельствует о хроническом стрессе, нарушении условий содержания, дефиците общения с сородичами или гиподинамии, при которых лошадь пытается заглушить ментальную боль и скуку за счет циклического выброса эндорфинов, превращая это действие в непреодолимую психологическую зависимость.",
+      "question": "What is a stereotypy?",
+      "explanation": "A stereotypy is a repetitive, relatively invariant behavior with no obvious immediate purpose. In horses, examples include weaving, crib-biting, and wind-sucking. Such behaviors are often associated with chronic stress, social isolation, limited forage, restricted movement, or other management factors, and may persist even after conditions improve.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Болезнь лошади"
+          "text": "A horse disease"
         },
         {
           "id": "answer-02",
-          "text": "Вредная привычка лошади"
+          "text": "A behavioral vice"
         },
         {
           "id": "answer-03",
-          "text": "Врожденный дефект экстерьера"
+          "text": "A congenital conformation defect"
         },
         {
           "id": "answer-04",
-          "text": "Дурноезжая лошадь"
+          "text": "A badly schooled horse"
         }
       ],
       "correct_answer_id": "answer-02"
     }
   ],
-  "translation_status": "outdated",
-  "_pending_translation": {
-    "source_revision": "5a9b4bd2dc682216ff5dc6f6c726866b564e4ddb89ba3b408ff37acadfec7738",
-    "package": "horse-words-en.json"
+  "translation_status": "current",
+  "_translation_source": {
+    "title": "Лошадиные термины",
+    "short_description": "Готовы проверить свои знания о лошадках? А именно об их содержании, разведении, поведении, аллюрах, некоторых особенностях и возрастных изменениях, а также о многом другом.",
+    "intro": "Готовы проверить свои знания о лошадках? А именно об их содержании, разведении, поведении, аллюрах, некоторых особенностях и возрастных изменениях, а также о многом другом.",
+    "questionImagesAlt": "",
+    "difficulty": "low",
+    "cover": "img/covers/horse-words.webp",
+    "publication_date": "2026-07-22T07:00:00+00:00",
+    "tags": [
+      "words",
+      "behavior",
+      "gaits"
+    ],
+    "questions": [
+      {
+        "id": "question-01",
+        "question": "Как называется стадо лошадей?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отара"
+          },
+          {
+            "id": "answer-02",
+            "text": "Стая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Коалиция"
+          },
+          {
+            "id": "answer-04",
+            "text": "Группировка"
+          },
+          {
+            "id": "answer-05",
+            "text": "Бригада"
+          },
+          {
+            "id": "answer-06",
+            "text": "Табун"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Слово «табу́н» пришло в русский язык в XIV-XV веках из тюркских языков (татарского, казахского, алтайского), где корень tabun или tabyn изначально означал «куча», «множество», «собрание» или «стадо любого скота». Попав в русский язык через тесные контакты с кочевыми народами степи, это слово сузило свое значение и закрепилось исключительно за стадом лошадей."
+      },
+      {
+        "id": "question-02",
+        "question": "Когда кони самостоятельно добывают еду из-под снега это называется:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жеребьевка"
+          },
+          {
+            "id": "answer-02",
+            "text": "Выжеребка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Тебенёвка"
+          },
+          {
+            "id": "answer-04",
+            "text": "Жеребцевание"
+          },
+          {
+            "id": "answer-05",
+            "text": "Груминг"
+          },
+          {
+            "id": "answer-06",
+            "text": "Эструс"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «тебенёвка» (и глагол тебеневать) заимствовано из тюркских языков, где оно имело прямое практическое значение. В его основе лежит татарское слово тибенү или казахское тебіндеу, что буквально переводится как «копание», «пинание» или «удары ногой». Кочевые народы использовали этот термин для описания того, как кони зимой разбивают копытами наст и разгребают снег, чтобы добраться до скрытой под ним травы. Попав в русский язык жителей Сибири и южных окраин, слово русифицировалось с помощью суффиксов и превратилось в официальный зоотехнический термин, обозначающий зимнюю пастьбу подножным кормом из-под снега."
+      },
+      {
+        "id": "question-03",
+        "question": "Лошадь ожеребилась значит, что она:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Забеременела"
+          },
+          {
+            "id": "answer-02",
+            "text": "Случилась"
+          },
+          {
+            "id": "answer-03",
+            "text": "Родила"
+          },
+          {
+            "id": "answer-04",
+            "text": "Достигла совершеннолетия"
+          },
+          {
+            "id": "answer-05",
+            "text": "Вошла в охоту"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «ожереби́лась» (и глагол ожеребиться) имеет исконно славянское происхождение и образовано от существительного жеребенок. Этот корень восходит к праславянскому слову žerbę, которое первоначально означало «молодое животное», «детеныш» (в древности так могли назвать не только коня, но и, например, козленка). Со временем в русском языке значение сузилось, и глагол стал обозначать исключительно рождение жеребенка."
+      },
+      {
+        "id": "question-04",
+        "question": "Лошадь зажеребилась значит, что она:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Случилась"
+          },
+          {
+            "id": "answer-02",
+            "text": "Забеременела"
+          },
+          {
+            "id": "answer-03",
+            "text": "Родила"
+          },
+          {
+            "id": "answer-04",
+            "text": "Достигла совершеннолетия"
+          },
+          {
+            "id": "answer-05",
+            "text": "Вошла в охоту"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «зажеребилась» имеет исконно славянское происхождение и образовано от древнего корня жереб (жеребя). В его основе лежит праславянское слово žerbъ, которое изначально означало «жребий», «кусок» или «отрезанная часть». В древности кочевники и пастухи определяли долю и собственность при разделе скота по жребию, из-за чего молодое, выделенное в личную долю животное (детеныша) стали называть жеребенком."
+      },
+      {
+        "id": "question-05",
+        "question": "Жеребая лошадь - это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Совершеннолетняя"
+          },
+          {
+            "id": "answer-02",
+            "text": "Лактирующая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Беременная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Родившая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «же́ребая» (беременная кобыла) имеет древнерусское происхождение и напрямую восходит к праславянскому корню žerbę (жеребенок). В основе этого корня лежит индоевропейское слово со значением «утроба», «плод» или «чрево» (родственное древнегреческому delphys — матка, откуда пошло слово дельфин — «рыба с маткой»). Со временем в славянских языках этот корень закрепился за обозначением потомства лошадей, а прилагательное «жеребая» стало буквально означать «носящая во чреве жеребенка»."
+      },
+      {
+        "id": "question-06",
+        "question": "Жеребцевание — это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Случка лошадей"
+          },
+          {
+            "id": "answer-02",
+            "text": "Стабунивание лошадей"
+          },
+          {
+            "id": "answer-03",
+            "text": "Буйное поведение коня вследствие спермотоксикоза"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вхождение в охоту у кобыл"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «жеребцевание» — это специфический профессиональный термин конников и зоотехников, имеющий исконно славянское происхождение от корня жеребец. Этот термин обозначает характерное, инстинктивное поведение половозрелого самца (жеребца), которое включает в себя бурное проявление половых инстинктов, повышенную агрессию, громкое ржание, флемен (задирание верхней губы для распознавания запахов) и стремление доминировать. Жеребцевать может и мерин, если его слишком поздно кастрировали."
+      },
+      {
+        "id": "question-07",
+        "question": "Жеребчик — это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "То же, что и жеребец"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жеребец, не достигший 4 лет"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жеребец, не достигший 7 лет"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гугл утверждает, что это рослый и сильный мужчина!"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «жеребчик» имеет исконно славянское происхождение и образовано от корня жеребец с помощью уменьшительно-ласкательного суффикса -чик. В конном мире и зоотехнии этот термин используется для обозначения молодого, еще не достигшего зрелости самца лошади (обычно в возрасте от отъема от матери до трех-четырех лет). В народной речи и литературе это слово часто приобретает поэтичный или одобрительный оттенок, подчеркивающий резвость, изящество, молодой задор и игривый нрав подрастающего коня."
+      },
+      {
+        "id": "question-08",
+        "question": "Кобылка — это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "То же, что и кобыла"
+          },
+          {
+            "id": "answer-02",
+            "text": "Кобыла, не достигшая 4 лет"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кобыла, не достигшая 7 лет"
+          },
+          {
+            "id": "answer-04",
+            "text": "Низкорослая кобыла"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «кобы́лка» имеет исконно славянское происхождение и образовано от древнего корня кобыла. В конном мире и зоотехнии этот термин используют для обозначения молодой, еще не рожавшей самки лошади (обычно в возрасте до трех-четырех лет), что является зеркальным аналогом слова жеребчик. При этом в русском языке слово приобрело широкое переносное значение: из-за внешнего сходства конских ног с длинными согнутыми задними лапками насекомых «кобылками» стали называть прямокрылых вредителей из семейства саранчовых, а также различные технические детали — от деревянной подставки под струны у музыкальных инструментов до кровельных досок, удлиняющих стропила."
+      },
+      {
+        "id": "question-09",
+        "question": "Подсосный жеребенок — это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "То же, что и жеребенок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жеребенок, питающийся молоком матери"
+          },
+          {
+            "id": "answer-03",
+            "text": "Хороший жеребенок с крепким костяком"
+          },
+          {
+            "id": "answer-04",
+            "text": "Жеребенок, отстающий от сверстников в развитии"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Словосочетание «подсо́сный жеребенок» — это официальный зоотехнический термин исконно славянского происхождения, обозначающий малыша лошади в возрасте от рождения до момента отъема от матери (обычно до 6–8 месяцев). В основе термина лежит древний глагол сосать с приставкой под-, что буквально указывает на способ питания: этот жеребенок находится «под матерью» и его главным источником пищи является материнское молоко. Этот период биологически крайне важен, так как именно в подсосном возрасте закладывается иммунитет, прочность костяка и будущая выносливость взрослой лошади."
+      },
+      {
+        "id": "question-10",
+        "question": "Отьемыш — это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Агрессивный жеребенок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Больной жеребенок"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жеребенок, которого отлучили от вымени"
+          },
+          {
+            "id": "answer-04",
+            "text": "Жеребенок, которого одна кобыла украла у другой"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «отъемыш» — это официальный зоотехнический термин исконно славянского происхождения, обозначающий жеребенка, которого навсегда разлучили (отняли) от материнского молока. Этот статус наступает сразу после подсосного периода, обычно в возрасте 6-8 месяцев, когда пищеварительная система малыша уже готова полностью перейти на грубые и сочные растительные корма. В основе слова лежит древнерусский глагол отъяти (отнять, забрать), а суффикс -ыш подчеркивает предмет или живое существо, подвергшееся этому действию, из-за чего термин часто приобретает легкий оттенок сиротства или беззащитности, ведь отъем — это первый серьезный самостоятельный этап и стресс в жизни молодого коня."
+      },
+      {
+        "id": "question-11",
+        "question": "Как называется поднятие коня на задние ноги? ",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Пассаж"
+          },
+          {
+            "id": "answer-02",
+            "text": "Пируэт"
+          },
+          {
+            "id": "answer-03",
+            "text": "Свечка"
+          },
+          {
+            "id": "answer-04",
+            "text": "Скачок"
+          },
+          {
+            "id": "answer-05",
+            "text": "Пиаффе"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "«Све́чка» (или вставание на дыбы) — это исконно славянское по происхождению образное выражение, обозначающее вертикальный подъем лошади на задние ноги, при котором ее тело выпрямляется почти перпендикулярно земле. Название закрепилось в русском конном лексиконе из-за внешнего сходства вытянувшейся вверх лошади с прямой восковой свечой. В зависимости от ситуации «свечка» может быть элементом высшей школы верховой езды (левадой), признаком бурной радости и игры на пастбище, либо опасным проявлением неповиновения, страха или боли, когда лошадь пытается избавиться от контроля со стороны всадника."
+      },
+      {
+        "id": "question-12",
+        "question": "Что такое иноходь?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Вредная привычка лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Аллюр лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Дефект экстерьера"
+          },
+          {
+            "id": "answer-04",
+            "text": "Болезнь"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «ино́ходь» — исконно славянское по происхождению, обозначает оно врожденный тип быстрого аллюра лошади, при котором она поочередно поднимает и опускает ноги не по диагонали (как на рыси), а односторонне — сначала обе правые, затем обе левые. Термин образовался путем слияния двух древнерусских основ: корня инъ (в значении «иной», «другой», «особенный») и корня ходъ (хождение, бег). Буквально слово переводится как «иной ход», подчеркивая необычность этого мягкого, плавного и очень комфортного для всадника движения, при котором тело лошади покачивается из стороны в сторону, не совершая жестких толчков вверх."
+      },
+      {
+        "id": "question-13",
+        "question": "Груминг — это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Лечение инфекционных болезней лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Гигиенический уход за лошадью"
+          },
+          {
+            "id": "answer-03",
+            "text": "Валяние лошади в песке"
+          },
+          {
+            "id": "answer-04",
+            "text": "Аллюр лошади"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «гру́минг» пришло в русский язык в конце XX века из английского языка (от глагола to groom — «чистить лошадь», «ухаживать», «холить»). Исторически в Англии словом groom (грум) называли конюха, в чьи обязанности входила ежедневная чистка, мытье коней и поддержание их шерсти и копыт в идеальном порядке. В современном конном мире этот термин сохранил свое первоначальное значение и обозначает полный комплекс гигиенического ухода за лошадью (чистку скребницей, расчесывание гривы, крючкование копыт и стрижку). При этом в быту слово расширило свои границы, и теперь «грумингом» чаще называют профессиональный уход и стрижку домашних питомцев — собак и кошек."
+      },
+      {
+        "id": "question-14",
+        "question": "Что такое менка?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Аллюр лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Смена ноги на рыси"
+          },
+          {
+            "id": "answer-03",
+            "text": "Смена ведущей ноги на галопе"
+          },
+          {
+            "id": "answer-04",
+            "text": "Смена ноги во время иноходи"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «ме́нка» (а именно — менка ног) имеет исконно славянское происхождение и образовано от древнерусского глагола меняти (обменивать, чередовать). В конном спорте (выездке и конкуре) этот термин обозначает сложный технический элемент, при котором лошадь во время движения на галопе прямо в воздухе (в фазе зависания) меняет ведущую ногу, с которой она начинает прыжок. В выездке высшего уровня выполняется серийная менка ног — «в один темп», когда лошадь виртуозно меняет ноги на каждом шагу, создавая красивый визуальный эффект танца."
+      },
+      {
+        "id": "question-15",
+        "question": "Что такое шлапак?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Дефектный аллюр"
+          },
+          {
+            "id": "answer-02",
+            "text": "Элемент амуниции лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Элемент экипировки всадника"
+          },
+          {
+            "id": "answer-04",
+            "text": "Болезнь лошади"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Слово «шлапа́к» (или шляпак) пришло в конный лексикон из южнорусских диалектов и украинского языка, где глагол шлапать (или шлепать) означает «тяжело ступать», «идти по грязи» или «хлопать обувью». Шлапак — это ломаный, гибридный ход, нечто среднее между рысью и галопом, когда передние ноги лошади скачут галопом, а задние в это же время бегут рысью (или наоборот). Лошадь сбивается на шлапак/тропоту из-за нетренированности мышц, отсутствия баланса или когда молодая лошадь путается в ногах при неправильном подъеме в галоп. Этот аллюр крайне утомителен для животного и очень неудобен для всадника, поэтому таких лошадей всегда стараются переучить на «чистый» ход."
+      },
+      {
+        "id": "question-16",
+        "question": "Что такое тёльт?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Аллюр лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Элемент амуниции лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Элемент экипировки всадника"
+          },
+          {
+            "id": "answer-04",
+            "text": "Болезнь лошади"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Слово «тёльт» (исл. tölt) пришло в русский язык из исландского языка, где оно буквально означает «толчок», «подпрыгивание» или «быстрый шаг». Это уникальный, генетически обусловленный четырехтактный аллюр исландских лошадей, напоминающий очень быструю, плавную и ритмичную шаговую иноходь, при которой животное всегда имеет хотя бы одну точку опоры о землю. В отличие от тряской рыси, тёльт полностью лишен фазы зависания в воздухе, благодаря чему всадник в седле сидит абсолютно неподвижно и не испытывает толчков, а сама лошадь способна двигаться таким ходом на огромные расстояния без усталости."
+      },
+      {
+        "id": "question-17",
+        "question": "Что такое хода?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "То же, что и тёльт (аллюр)"
+          },
+          {
+            "id": "answer-02",
+            "text": "Дефект экстерьера лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Плохая привычка лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Болезнь лошади"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Слово «хо́да» — это исконно славянское по происхождению существительное от праславянского корня xodъ (идти, двигаться), которое в конном мире используется как синоним слова «походка» или «бег» и обозначает плавные, четырехтактные аллюры лошади. С точки зрения биомеханики хода и тёльт — это разные региональные названия одного и того же четырехтактного латерального аллюра. Разница между ними исключительно географическая и породная: словом «тёльт» называют этот мягкий бегущий шаг только у исландских лошадей, в то время как старинное славянское слово «хода» использовалось на Руси как собирательное название для аналогичного плавного хода местных лошадей-иноходцев. В обоих случаях ноги переставляются строго поочередно, всадника совершенно не трясет, и слышны четыре четких, быстрых удара копыт о землю."
+      },
+      {
+        "id": "question-18",
+        "question": "Косячным называют жеребца который:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Косячит на тренировках"
+          },
+          {
+            "id": "answer-02",
+            "text": "Обладает определенным дефектами экстерьера"
+          },
+          {
+            "id": "answer-03",
+            "text": "Обладает определенным дефектами характера"
+          },
+          {
+            "id": "answer-04",
+            "text": "Охраняет и оплодотворяет группу кобыл"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Словосочетание «кося́чный жеребец» — это традиционный пастбищный и зоотехнический термин исконно славянского происхождения, обозначающий взрослого племенного самца, который возглавляет, охраняет и оплодотворяет отдельную устойчивую группу кобыл (косяк) в условиях табунного содержания. Слово «косячный» образовано от существительного косяк (в значении обособленной группы или стада), восходящего к древнерусскому корню косой. Главная природная задача такого жеребца — держать свой гарем вместе, защищать кобыл и жеребят от хищников или чужих самцов, а также не давать лошадям разбредаться, из-за чего косячные жеребцы отличаются повышенной бдительностью, строгим нравом и отвагой."
+      },
+      {
+        "id": "question-19",
+        "question": "Что такое мерин?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Племенной жеребец"
+          },
+          {
+            "id": "answer-02",
+            "text": "Кастрированный конь"
+          },
+          {
+            "id": "answer-03",
+            "text": "Старый и больной конь"
+          },
+          {
+            "id": "answer-04",
+            "text": "То же что и кляча, только самец"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «ме́рин» пришло в русский язык в XIV-XV веках из монгольских языков (от корня mörin или mori), где оно изначально переводилось просто как «лошадь» или «конь». Попав на Русь в эпоху тесных контактов со степными народами, это слово существенно сузило свое значение и закрепилось исключительно за кастрированным самцом лошади. Поскольку такие кони теряли половые инстинкты, становились спокойными, послушными и покладистыми, они ценились как идеальная рабочая сила на пашне и надежный транспорт в кавалерии, а само слово со временем прочно вошло в русский фольклор (например, в поговорку «врет как сивый мерин»)."
+      },
+      {
+        "id": "question-20",
+        "question": "Как называются роды у лошадей?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жеребцевание"
+          },
+          {
+            "id": "answer-02",
+            "text": "Выжеребка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кобылевание"
+          },
+          {
+            "id": "answer-04",
+            "text": "Эструс"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «вы́жеребка» — это официальный зоотехнический термин исконно славянского происхождения, обозначающий процесс родов у кобылы. В основе слова лежит древний праславянский корень žerbę (жеребенок), а добавление приставки вы- указывает на завершение процесса — выведение плода наружу из организма матери. В коневодстве выжеребка является ключевым событием, к которому тщательно готовятся, так как успешные роды гарантируют здоровье новорожденного жеребенка и быстрое восстановление кобылы для будущей племенной работы."
+      },
+      {
+        "id": "question-21",
+        "question": "Что такое косяк?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "То же что и табун"
+          },
+          {
+            "id": "answer-02",
+            "text": "Плохая привычка коня"
+          },
+          {
+            "id": "answer-03",
+            "text": "Дефект экстерьера"
+          },
+          {
+            "id": "answer-04",
+            "text": "Группа кобыл с жеребцом"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Слово «кося́к» имеет исконно славянское происхождение от корня косой и обозначает маленькую, автономную «семейную ячейку» из 10-25 кобыл с жеребятами под предводительством одного косячного жеребца, в то время как «табу́н» — это огромное общее стадо (из сотен или тысяч голов), пасущееся на одной территории. Главное отличие заключается в том, что табун формируется человеком для совместного выпаса, а косяк — это естественная, закрытая семейная группа с жесткой внутренней иерархией, которую жеребец яростно охраняет и держит обособленно от всех остальных лошадей внутри большого табуна."
+      },
+      {
+        "id": "question-22",
+        "question": "Что такое каденция?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Аллюр лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Идеальный ритм движения лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Скаковые характеристики лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Болезнь лошади"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «каде́нция» пришло в русский конный лексикон из итальянского языка (через французский) от латинского корня cadere — «падать», что изначально в музыке означало гармоничный оборот или финал музыкальной фразы. В выездке этот термин обозначает выраженную ритмичность, четкость и размеренность аллюра, при которой шаги лошади приобретают особую выразительность и отчетливую фазу зависания в воздухе. Каденция не является отдельным аллюром, а указывает на высшее качество движения (чаще всего на пассаже или пиаффе), когда конь двигается в идеальном, «танцующем» музыкальном такте, демонстрируя абсолютный баланс и сбор."
+      },
+      {
+        "id": "question-23",
+        "question": "Что такое полуторник?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жеребенок от полтора года до 2-х лет"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жеребенок от года до полтора года"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жеребенок от рождения до полтора года"
+          },
+          {
+            "id": "answer-04",
+            "text": "Жеребенок, которого начали оповаживать в полтора года"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Слово «полуто́рник» — это официальный профессиональный и зоотехнический термин исконно славянского происхождения, обозначающий молодую лошадь в возрасте полутора лет (от 18 до 24 месяцев). Этот период является критически важным рубежом в коневодстве: полуторников переводят на усиленный рацион, разделяют по полу на группы жеребчиков и кобылок, а на конных заводах для чистокровных верховых и рысистых пород в этом возрасте начинается первая бережная подготовка к будущим скачкам и бегам — приучение к недоуздку, вожжам и седлу."
+      },
+      {
+        "id": "question-24",
+        "question": "Что такое пежина?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Белое пятно у пегого коня"
+          },
+          {
+            "id": "answer-02",
+            "text": "Цветное пятно у пегого коня"
+          },
+          {
+            "id": "answer-03",
+            "text": "Отметина на мордочке"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Слово «пе́жина» — это старинный русский иппологический термин исконно славянского происхождения, обозначающий крупное, бесформенное светлое пятно на теле лошади, нарушающее ее основной окрас. Название напрямую восходит к древнерусскому прилагательному пегий (пятнистый, двухцветный), которое имеет общие корни со словом пегий в значении «сорочий». В современной зоотехнии и генетике мастей этот термин практически вытеснен официальным понятием «пегая масть», однако на конных заводах и в обиходе конников словом «пежина» до сих пор называют отдельные крупные белые отметины на теле животного."
+      },
+      {
+        "id": "question-25",
+        "question": "Что такое прохолостение?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Разновидность болезни лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Отказ кобылы от случки с жеребцом и ее агрессия к нему"
+          },
+          {
+            "id": "answer-03",
+            "text": "Неоплодотворенное состояние лошади в конце случного сезона"
+          },
+          {
+            "id": "answer-04",
+            "text": "Процесс кастрации коня"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «прохолосте́ние» — это официальный зоотехнический и ветеринарный термин исконно славянского происхождения, обозначающий неоплодотворенное состояние кобылы в конце случного сезона. В основе слова лежит древнерусское прилагательное холостой (в значении «пустой», «незанятый», «бездетный»). В коневодстве прохолостение является серьезной экономической проблемой, так как «холостая» кобыла целый год не приносит жеребенка, а причинами этого могут быть скрытые гинекологические болезни, плохой рацион, стресс или стерильность самого жеребца."
+      },
+      {
+        "id": "question-26",
+        "question": "Что такое ремонтный молодняк?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Лучшие молодые лошади, которых отбирают на замену старым"
+          },
+          {
+            "id": "answer-02",
+            "text": "Молодые лошади, которых готовят на продажу"
+          },
+          {
+            "id": "answer-03",
+            "text": "Молодые лошади, которых готовят к соревнованиям"
+          },
+          {
+            "id": "answer-04",
+            "text": "Молодые лошади, которых отбраковывают"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Словосочетание «ремо́нтный молодня́к» — это официальный профессиональный термин исконно славянского происхождения, пришедший в зоотехнию из военного дела и обозначающий молодых хороших лошадей, выращиваемых для замены старых, отбракованных или выбывших животных в основном составе (табуне). В основе термина лежит заимствованное в Петровскую эпоху французское слово remonte («пополнение упряжи», «смена лошадей»), которое на Руси превратилось в понятие «ремонт кавалерии» — государственную закупку молодых коней для армии. Сегодня на конных заводах ремонтным молодняком называют лучших подрастающих жеребчиков и кобылок, которых не продают, а оставляют в хозяйстве для обновления племенного ядра и воспроизводства стада."
+      },
+      {
+        "id": "question-27",
+        "question": "Что такое карьер?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Элемент выездки"
+          },
+          {
+            "id": "answer-02",
+            "text": "Очень быстрая рысь"
+          },
+          {
+            "id": "answer-03",
+            "text": "Очень быстрый галоп"
+          },
+          {
+            "id": "answer-04",
+            "text": "Фигура в джигитовке"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «карье́р» (в значении самого быстрого аллюра) пришло в русский конный лексикон в XVIII веке из французского языка (от слова carrière — «бег», «жизненный путь», «ипподром»), которое восходит к латинскому carrus — «телега» или «повозка». В иппологии этот термин обозначает предельно быстрый, стремительный галоп в три или четыре темпа, при котором лошадь полностью растягивает тело над землей, низко опускает шею и совершает мощные, частые прыжки, развивая максимальную скорость. Название закрепилось из-за ассоциации с безудержным, безостановочным бегом по прямой дорожке ипподрома, где конь выкладывается на пределе своих физических возможностей."
+      },
+      {
+        "id": "question-28",
+        "question": "Что такое табунирование?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "То же что и таврение"
+          },
+          {
+            "id": "answer-02",
+            "text": "Формирование табуна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Этап тренинга лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Выпас табуна"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «табуни́рование» — это официальный профессиональный и зоотехнический термин гибридного происхождения, обозначающий процесс формирования новых искусственных табунов или перевод домашних лошадей на пастбищно-табунное содержание. В основе термина лежит тюркский корень табун (стадо, множество), соединенный с русским глагольным суффиксом -ирова-, заимствованным из немецкого языка (-ieren) для обозначения масштабного технологического действия. В коневодстве табунирование является важнейшим зоотехническим процессом: лошадей тщательно отбирают и объединяют в одно стадо по полу, возрасту и назначению (например, формируют табуны ремонтного молодняка или маточные табуны), при этом за конями круглосуточно наблюдают пастухи-табунщики, пока в группе не выстроится естественная социальная иерархия."
+      },
+      {
+        "id": "question-29",
+        "question": "Что такое стабунивание?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Введение новой лошади в табун"
+          },
+          {
+            "id": "answer-02",
+            "text": "Выгон табуна на пастбище"
+          },
+          {
+            "id": "answer-03",
+            "text": "Возвращение табуна с пастбища"
+          },
+          {
+            "id": "answer-04",
+            "text": "Этап случки лошадей"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Слово «стабуни́рование» — это официальный зоотехнический термин гибридного происхождения, обозначающий процесс объединения отдельных, незнакомых между собой лошадей в одну общую группу (табун) или подсаживание новой лошади в уже сложившийся коллектив. В его основе лежит тюркский корень табун (стадо, множество), русифицированный приставкой совместного действия с- и технологическим суффиксом -ирова-. В коневодстве стабунирование является сложным психологическим процессом, который проводят под строгим контролем человека на просторной территории, так как лошади как социальные животные должны заново выстроить внутреннюю иерархию, что на первых порах неизбежно сопровождается выяснением отношений, визгом и демонстративными погонями."
+      },
+      {
+        "id": "question-30",
+        "question": "Что такое отъем?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отбор лучших молодых лошадей"
+          },
+          {
+            "id": "answer-02",
+            "text": "Отлучение жеребенка от вымени"
+          },
+          {
+            "id": "answer-03",
+            "text": "Изьятие из табуна лошадей для каких-либо целей"
+          },
+          {
+            "id": "answer-04",
+            "text": "Снятие коня с овса, в случае его буйного поведения"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «отъем» (а именно — отъём жеребят) — это официальный зоотехнический термин исконно славянского происхождения, обозначающий процесс планового и окончательного отлучения подсосного жеребенка от материнского молока. Слово образовано от древнерусского глагола отъяти (отнять, забрать) и указывает на принудительный разрыв пищевой и психологической связи между кобылой и ее подросшим детенышем (обычно в возрасте 6-8 месяцев). В коневодстве отъем проводят либо одномоментно (сразу разделяя кобыл и жеребят по разным левадам), либо постепенно, при этом для снижения сильнейшего стресса у малышей их формируют в отдельные группы — группы отъемышей."
+      },
+      {
+        "id": "question-31",
+        "question": "Доращивание обычно длится:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "От 2 до 3 лет"
+          },
+          {
+            "id": "answer-02",
+            "text": "От 1 до 2 лет"
+          },
+          {
+            "id": "answer-03",
+            "text": "От 6 месяцев до 3 лет"
+          },
+          {
+            "id": "answer-04",
+            "text": "От 8 месяцев до 1 года"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «дора́щивание» — это официальный профессиональный и зоотехнический термин исконно славянского происхождения, обозначающий период целенаправленного содержания и кормления молодого ремонтного молодняка после отъема от матери до достижения ими полной зрелости или перевода в производственный состав. В коневодстве этап доращивания длится обычно от 6-8 месяцев до 2-3 лет и является критически важным: в это время жеребчики и кобылки содержатся в сбалансированных условиях, получают активный моцион на пастбищах и развивают крепкий костяк, сухожилия и мускулатуру, необходимые для будущей племенной или спортивной работы."
+      },
+      {
+        "id": "question-32",
+        "question": "Что такое нагул?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Откорм лошадей овсом и сеном"
+          },
+          {
+            "id": "answer-02",
+            "text": "Откорм лошадей на подножном корме"
+          },
+          {
+            "id": "answer-03",
+            "text": "Откорм лошадей только сеном"
+          },
+          {
+            "id": "answer-04",
+            "text": "Откорм лошадей только овсом"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «нагу́л» (или нагул лошадей) — это официальный зоотехнический термин исконно славянского происхождения, обозначающий процесс интенсивного откорма и набора живой массы животными за счет бесплатного подножного корма на пастбищах. Слово образовано от древнерусского глагола гулять (в значении свободно ходить, пастись) с помощью приставки на-, указывающей на накопление результата. В коневодстве нагул является самым дешевым и экологичным способом улучшения упитанности лошадей: их выгоняют на богатые травой угодья (часто в степные или горные районы), где за весенне-летний сезон кони не только восстанавливают силы после зимы и наращивают мускулатуру, но и закладывают необходимый подкожный жировой слой для успешной зимовки."
+      },
+      {
+        "id": "question-33",
+        "question": "Что такое нагульное содержание?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Круглосуточное нахождение лошадей на пастбище"
+          },
+          {
+            "id": "answer-02",
+            "text": "Круглосуточное нахождение лошадей в специальных загонах"
+          },
+          {
+            "id": "answer-03",
+            "text": "Это когда лошадь много работают в руках (нагуливают)"
+          },
+          {
+            "id": "answer-04",
+            "text": "Это когда лошадь работают в шпрингартене"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Словосочетание «нагу́льное соде́ржание» — это официальный зоотехнический термин исконно славянского происхождения, обозначающий метод пастбищного содержания лошадей, направленный на максимальное увеличение их упитанности, живой массы и укрепление здоровья исключительно за счет поедания подножного корма. Термин образован от существительного нагул (откорма на пасьбе) и глагола содержать. При нагульном содержании табуны лошадей переводят на круглосуточное нахождение на естественных или культурных пастбищах с богатым травостоем, где животные имеют возможность свободно двигаться, полноценно развивать мускулатуру и естественным, самым дешевым для хозяйства способом накапливать жировые запасы перед зимним периодом."
+      },
+      {
+        "id": "question-34",
+        "question": "Соломенная лошадь — это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Лошадь из соломы"
+          },
+          {
+            "id": "answer-02",
+            "text": "Лошадь, которая любит кушать солому"
+          },
+          {
+            "id": "answer-03",
+            "text": "Лошадь с распухшим пузом от того, что ее кормили некачественным сеном и соломой"
+          },
+          {
+            "id": "answer-04",
+            "text": "Лошадь соловой масти"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "«Соло́менная лоша́дь» (или лошадь с соломенным/сенным животом) — это образное профессиональное выражение исконно славянского происхождения, обозначающее животное с неестественно раздутым, отвисшим и распухшим пузом из-за длительного кормления дешевой соломой или некачественным переросшим сеном. Из-за избытка грубой, трудноперевариваемой клетчатки и нехватки питательных веществ кормовые массы задерживаются в слепой кишке, вызывая хроническое газообразование и растяжение брюшных стенок, что усугубляется слабостью мышц пресса и дефицитом белка в рационе коня."
+      },
+      {
+        "id": "question-35",
+        "question": "Что такое кентер?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Болезнь лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Плохая привычка лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Аллюр лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Кентерберийская лошадь"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Слово «ке́нтер» пришло в русский конный лексикон из английского языка (от canter, сокращения от Canterbury gallop — «кентерберийский галоп») и восходит к средневековой традиции паломников, которые чинно ехали верхом на лошадях в Кентерберийский собор легким, размеренным ходом. В ипполо́гии и конном спорте этот термин обозначает размеренный, укороченный и плавный полевой галоп в три темпа, который совершается со скоростью около 300-400 метров в минуту без максимального напряжения сил животного. Название прочно закрепилось в тренинге скаковых лошадей, где кентер является основным аллюром для повседневной тренировки, разминки и развития дыхательной системы коня перед резвыми финишными бросками."
+      },
+      {
+        "id": "question-36",
+        "question": "Что такое намёт?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Болезнь лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Плохая привычка лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Дефект экстерьера лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Аллюр лошади"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Слово «намёт» (в значении конного бега) — это старинный русский иппологический термин исконно славянского происхождения, выступающий абсолютным синонимом слова «гало́п». Глагольное существительное образовано от древнерусского метати (бросать, кидать) с приставкой на-, что буквально описывает биомеханику движения: лошадь на бегу стремительно «наметывает», то есть бросает свое тело вперед волнообразными прыжками. В классической русской школе верховой езды и кавалерии галоп всегда называли исключительно намётом (разделяя его на тяжелый, легкий или широкий), и хотя сегодня в спорте этот термин считается устаревшим, он до сих пор активно используется в деревнях, казачьей среде и художественной литературе."
+      },
+      {
+        "id": "question-37",
+        "question": "Что такое медвежья качка?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Болезнь лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Вредная привычка лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Неправильные движения во время рыси"
+          },
+          {
+            "id": "answer-04",
+            "text": "Неправильные движения во время иноходи"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Словосочетание «медве́жья ка́чка» — это образный профессиональный термин исконно славянского происхождения, обозначающий тяжелый поведенческий порок (стереотипию) лошади, при котором она, стоя где-либо, непрерывно переминается с одной передней ноги на другую, монотонно раскачивая голову и туловище из стороны в сторону. Название закрепилось из-за внешнего сходства этого движения с поведением скучающего медведя в зоопарке. Данная вредная привычка возникает от скуки, сильного стресса, нехватки общения с сородичами или длительного отсутствия выгула (левады) и является серьезной проблемой, так как постоянная осевая нагрузка на одни и те же суставы быстро приводит к преждевременному износу связок, копыт и хронической хромоте коня."
+      },
+      {
+        "id": "question-38",
+        "question": "Что такое прикус (прикуска) у лошади?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Болезнь лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Врожденный дефект челюсти лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Врожденный дефект зубов лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вредная привычка лошади"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Слово «при́кус» (или чаще — «прику́ска») имеет исконно славянское происхождение от глагола кусать и в конном мире обозначает опасный поведенческий порок (стереотипию), при котором лошадь захватывает зубами край кормушки, забора или двери и с характерным звуком со свистом заглатывает воздух. Этот порок бывает предметным или воздушным (когда опора не нужна) и развивается от стресса, скуки, гастрита или длительного пребывания взаперти, принося лошади удовольствие из-за выброса эндорфинов. Но это быстро приводит к стиранию резцов, коликам и потере веса. "
+      },
+      {
+        "id": "question-39",
+        "question": "Что такое сенное животное?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "То же, что и соломенная лошадь"
+          },
+          {
+            "id": "answer-02",
+            "text": "Лошадь, которая очень любит сено"
+          },
+          {
+            "id": "answer-03",
+            "text": "Лошадь соловой масти"
+          },
+          {
+            "id": "answer-04",
+            "text": "Тяжело больная лошадь"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "«Сенно́е живо́тное» (как и «соломенная лошадь») — это образное народно-профессиональное выражение исконно славянского происхождения, обозначающее измученную рабочую лошадь, корову или козу, которая имеет сильно раздутый, отвисший и круглый («сенной») живот на фоне общего истощения и худобы. Такое состояние является следствием грубого нарушения зоотехнических норм, когда животное содержат на голодном рационе из пустой соломы или переросшего, некачественного сена без добавления сочных кормов, белков и концентратов. Из-за обилия трудноперевариваемой грубой клетчатки кормовые массы надолго задерживаются в слепой кишке, вызывая хроническое газообразование и сильное растяжение брюшных стенок, из-за чего голодное и тощее животное внешне кажется неоправданно толстым."
+      },
+      {
+        "id": "question-40",
+        "question": "Что такое стереотипия?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Болезнь лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Вредная привычка лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Врожденный дефект экстерьера"
+          },
+          {
+            "id": "answer-04",
+            "text": "Дурноезжая лошадь"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Слово «стереотипи́я» пришло в русский конный и ветеринарный лексикон в XX веке из древнегреческого языка (через французский или немецкий), образовавшись от слияния основ stereos («твердый», «объемный», «устойчивый») и typos («отпечаток», «образ», «образчик»). В иппологии и зоопсихологии этот медицинский термин обозначает тяжелое поведенческое расстройство лошади, выражающееся в монотонном, патологически повторяющемся действии, которое не имеет явной биологической цели. Развитие стереотипии (такой как медвежья качка, прикуска или ткачество) свидетельствует о хроническом стрессе, нарушении условий содержания, дефиците общения с сородичами или гиподинамии, при которых лошадь пытается заглушить ментальную боль и скуку за счет циклического выброса эндорфинов, превращая это действие в непреодолимую психологическую зависимость."
+      }
+    ]
   },
-  "_translation_source": {}
+  "questionImagesAlt": "Horse terminology quiz question",
+  "source_content_hash": "5a9b4bd2dc682216ff5dc6f6c726866b564e4ddb89ba3b408ff37acadfec7738"
 }
