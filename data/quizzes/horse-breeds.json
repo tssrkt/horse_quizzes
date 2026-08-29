@@ -1052,5 +1052,6 @@
       "image_author": "Неизвестен"
     }
   ],
-  "questionImagesAlt": "Фотография лошади для определения породы"
+  "questionImagesAlt": "Фотография лошади для определения породы",
+  "english_quiz": "horse-breeds-en"
 }
