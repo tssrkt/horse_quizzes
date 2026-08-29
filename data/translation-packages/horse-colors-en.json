@@ -5,1011 +5,1011 @@
   "source_quiz": "horse-colors",
   "target_quiz": "horse-colors-en",
   "source_revision": "fceb23181755d5ff98eef9992dc5a8365c0170482906f722d9f01d77b04a5f94",
-  "mode": "created",
+  "mode": "updated",
   "fields": {
-    "title": "Масти лошадей",
-    "short_description": "Смотрите фотки лошадок и выбираете из списка что за масть на фотке. Отличная викторина для старта, особенно, если вы новичок в этой теме.",
-    "intro": "Смотрите фотки лошадок и выбираете из списка что за масть на фотке. Отличная викторина для старта, особенно, если вы новичок в этой теме.",
-    "questionImagesAlt": "Фотография лошади для определения масти"
+    "title": "Horse Coat Colors",
+    "short_description": "Look at photos of horses and choose the correct coat color from the list. A great quiz to start with, especially if you’re new to the subject.",
+    "intro": "Look at photos of horses and choose the correct coat color from the list. A great quiz to start with, especially if you’re new to the subject.",
+    "questionImagesAlt": "Photo of a horse for coat color identification"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У рыжих лошадей серая кожа, а цвет шерсти варьирует от молочно-рыжего до темно-бурого, почти черного. Нет темной каймы на ушках и есть осветленный венчик."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black. They have no black ear rims, and the hair around the coronet bands is lighter."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-чалая"
+          "text": "Red roan"
         },
         {
           "id": "answer-04",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Игреневыми бывают только упряжные кони (к тому же эта масть уже устарела), а на фотке арабская чистокровная, которая также не бывает соловой, потому что у нее нет кремового гена. А у гнедых грива черная и на ушках есть кайма. ОЗВ — это осветление защитного волоса, то есть нависа (гривы с хвостом) и ног."
+        "question": "What coat color is this?",
+        "explanation": "Under the traditional Russian classification, igrénevaya is used only for draft horses, and the term itself is now outdated. The horse in the photo is a purebred Arabian. It cannot be palomino either, because Arabians do not carry the cream allele. Bays have a black mane and black ear rims. Here, “flaxen” refers to lightening of the mane and tail, and sometimes the legs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ОЗВ"
+          "text": "Flaxen chestnut (non-draft type)"
         },
         {
           "id": "answer-03",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-04",
-          "text": "Соловая"
+          "text": "Palomino"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Если точнее, то это серая в яблоках. У этого коня все еще видна основа, на корпусе есть светлые пятна, которые в народе называют яблоками. Считается, что они повторяют узор кровеносных сосудов."
+        "question": "What coat color is this?",
+        "explanation": "More precisely, this is dapple gray. The horse’s base coat is still visible, and the body has lighter circular areas known as dapples. They are traditionally believed to reflect the pattern of the underlying blood vessels."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Бурая"
+          "text": "Liver chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Серая"
+          "text": "Gray"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Гнедая масть одна из самых распространенных, ее легко узнать по черным ногам, гриве и хвосте в комплекте с рыжим, коричневым или темно-коричневым корпусом и мордочкой."
+        "question": "What coat color is this?",
+        "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-04",
-          "text": "Саврасая"
+          "text": "Bay dun"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У этой лошадки навис темный из-за ЗП (зонального потемнения), поэтому ее можно спутать с гнедой, если бы не отсутствие каймы на ушках и рыжие ноги, которые у гнедых черные."
+        "question": "What coat color is this?",
+        "explanation": "This horse’s mane and tail are dark because of sooty shading, so it could be mistaken for a bay. However, it lacks black ear rims and has chestnut-colored legs, whereas a bay’s lower legs are black."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая с ЗП"
+          "text": "Sooty chestnut"
         },
         {
           "id": "answer-04",
-          "text": "Саврасая с ЗП"
+          "text": "Sooty bay dun"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Если точнее, то это светло-серая. От изабелловой и белой ее легко отличить по серой или черной коже, которая хорошо видна на мордочке."
+        "question": "What coat color is this?",
+        "explanation": "More precisely, this is light gray. It is easy to distinguish from cremello and white by the gray or black skin, which is clearly visible on the face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серая"
+          "text": "Gray"
         },
         {
           "id": "answer-02",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Соловая"
+          "text": "Palomino"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Гнедая масть одна из самых распространенных, ее легко узнать по черным ногам, гриве и хвосте в комплекте с рыжим, коричневым или темно-коричневым корпусом и мордочкой."
+        "question": "What coat color is this?",
+        "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-04",
-          "text": "Караковая"
+          "text": "Seal brown"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У рыжих лошадей серая кожа, а цвет шерсти варьирует от молочно-рыжего до темно-бурого, почти черного. Нет темной каймы на ушках и есть осветленный венчик."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black. They have no black ear rims, and the hair around the coronet bands is lighter."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-03",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Соловая"
+          "text": "Palomino"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У буланых лошадей ноги, грива, хвост и окантовка уха черные как у гнедой масти, хотя могут быть чуть светлее, а корпус, шея и мордочка песочно-желтые. Кожа, как и у гнедых темная, но может быть чуть светлее. Глаза карие или янтарные. ЗП — это зональное потемнение."
+        "question": "What coat color is this?",
+        "explanation": "Buckskins have black lower legs, mane, tail, and ear rims, like bays, although these areas may be slightly lighter. The body, neck, and face are sandy yellow. The skin is dark, as in bays, but may be somewhat lighter. The eyes are brown or amber. The darker shading is the sooty effect."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая с ЗП"
+          "text": "Sooty bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Буланая с ЗП"
+          "text": "Sooty buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Караковая"
+          "text": "Seal brown"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Если точнее, то это серая в яблоках, у нее все еще может быть видна основа, на корпусе появляются светлые пятна, которые в народе называют яблоками. Считается, что они повторяют узор кровеносных сосудов."
+        "question": "What coat color is this?",
+        "explanation": "More precisely, this is dapple gray. The base coat may still be visible, while lighter circular areas known as dapples appear on the body. They are traditionally believed to reflect the pattern of the underlying blood vessels."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-02",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-03",
-          "text": "Мышастая"
+          "text": "Grullo (black dun)"
         },
         {
           "id": "answer-04",
-          "text": "Серая"
+          "text": "Gray"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У рыжих лошадей серая кожа, а цвет шерсти варьирует от молочно-рыжего до темно-бурого, почти черного. Нет темной каймы на ушках и есть осветленный венчик."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black. They have no black ear rims, and the hair around the coronet bands is lighter."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-03",
-          "text": "Соловая"
+          "text": "Palomino"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Бурая, еще известная как темно-рыжая, может обладать очень темной шерстю как у темно-гнедых или почти черной, как у вороных. Однако, ее выдают осветленные ноги, и особенно — венчик, которые не бывает светлым у гнедых и вороных."
+        "question": "What coat color is this?",
+        "explanation": "Liver chestnut, also known as dark chestnut, can have a very dark coat like a dark bay or an almost black coat. However, the lighter lower legs—and especially the lighter hair around the coronet bands—distinguish it from bay and black horses, which do not have light coronet bands."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Темно-гнедая"
+          "text": "Dark bay"
         },
         {
           "id": "answer-03",
-          "text": "Темно-буланая"
+          "text": "Dark buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Бурая"
+          "text": "Liver chestnut"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в черной гриве и хвосте. Голова бывает светлее корпуса, а у гнедых — в тон или чуть темнее."
+        "question": "What coat color is this?",
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая с ЗП"
+          "text": "Sooty bay"
         },
         {
           "id": "answer-02",
-          "text": "Буланая с ЗП"
+          "text": "Sooty buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Каурая с ЗП"
+          "text": "Sooty red dun"
         },
         {
           "id": "answer-04",
-          "text": "Соловая с ЗП"
+          "text": "Sooty palomino"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а окраска шерсти варьирует от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color ranges from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-02",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в черной гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. "
+        "question": "What coat color is this?",
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-04",
-          "text": "Караковая"
+          "text": "Seal brown"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей голубые глаза и розовая кожа, а цвет шерсти варьирует от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color ranges from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-04",
-          "text": "Изабелловая"
+          "text": "Cremello"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У соловой масти темная кожа, но может быть светлее чем у рыжих, глаза карие, ореховые или янтарные, ресницы желтые или светло-рыжие, шерсть песочно-желтая, грива и хвост белые или светло-желтые."
+        "question": "What coat color is this?",
+        "explanation": "Palominos have dark skin, although it may be lighter than a chestnut’s. Their eyes are brown, hazel, or amber; their eyelashes are yellow or pale chestnut; their body coat is sandy yellow; and their mane and tail are white or pale yellow."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Соловая"
+          "text": "Palomino"
         },
         {
           "id": "answer-02",
-          "text": "Светло-рыжая с ОЗВ"
+          "text": "Light flaxen chestnut (non-draft type)"
         },
         {
           "id": "answer-03",
-          "text": "Светло-игреневая"
+          "text": "Light flaxen chestnut (traditional draft type)"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловых лошадей розовая кожа и голубые глаза, а цвет шерсти может варьировать от кремового к белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have pink skin and blue eyes, and their coat color ranges from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Гнедая масть одна из самых распространенных, ее легко узнать по черным ногам, гриве и хвосте в комплекте с рыжим, коричневым или темно-коричневым корпусом и мордочкой."
+        "question": "What coat color is this?",
+        "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Бурая"
+          "text": "Liver chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-04",
-          "text": "Буланая"
+          "text": "Buckskin"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Если точнее, то на фотографии темно-серая масть, то есть первая стадия поседения, когда конь только начал седеть, и этот процесс всегда начинается с мордочки."
+        "question": "What coat color is this?",
+        "explanation": "More precisely, the horse in the photo is dark gray—the earliest stage of progressive graying, when the horse has only just begun to turn gray. The process always starts around the face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серая"
+          "text": "Gray"
         },
         {
           "id": "answer-02",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-03",
-          "text": "Мышастая"
+          "text": "Grullo (black dun)"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Вороной конь полностью покрыт черным волосом (конечно же может быть белена на мордочке и носочки). В жаркую погоду из-за длительного пребывания на солнце черный волос может осветляться вплоть до рыжего тогда такая масть называется вороной в загаре."
+        "question": "What coat color is this?",
+        "explanation": "A black horse has a coat of entirely black hair, although white facial and leg markings may of course be present. Prolonged exposure to strong sunlight can bleach the black coat to a reddish shade; this is known as sun-bleached or fading black."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Темно-гнедая"
+          "text": "Dark bay"
         },
         {
           "id": "answer-03",
-          "text": "Караковая"
+          "text": "Seal brown"
         },
         {
           "id": "answer-04",
-          "text": "Бурая"
+          "text": "Liver chestnut"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Каурая очень похожа на рыжую, но ее легко отличить от последней по темному ремню на спине, затемненному навису и ногам, на которых может проявляться небольшая зеброидность."
+        "question": "What coat color is this?",
+        "explanation": "Red dun closely resembles chestnut, but it is easy to distinguish by the darker dorsal stripe, the darker mane and tail, and the darker legs, which may show faint zebra striping."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-03",
-          "text": "Светло-буланая"
+          "text": "Light buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Гнедая масть одна из самых распространенных, ее легко узнать по черным ногам, гриве и хвосте в комплекте с рыжим, коричневым или темно-коричневым корпусом и мордочкой."
+        "question": "What coat color is this?",
+        "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-буланая"
+          "text": "Dark buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая"
+          "text": "Chestnut"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в черной гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это зональное потемнение)."
+        "question": "What coat color is this?",
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-02",
-          "text": "Светло-саврасая"
+          "text": "Light bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Мухортая"
+          "text": "Mealy bay (pangaré)"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Вороно-чалая лошадь имеет дымчатый или сизый корпус из-за равномерной примеси белых волос к черной шерсти. При этом ее голова, нижняя часть ног, грива и хвост остаются черными."
+        "question": "What coat color is this?",
+        "explanation": "A blue roan has a smoky or bluish body because white hairs are evenly mixed through the black coat. The head, lower legs, mane, and tail remain black."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышастая"
+          "text": "Grullo (black dun)"
         },
         {
           "id": "answer-02",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-04",
-          "text": "Мухортая"
+          "text": "Mealy bay (pangaré)"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У рыжих лошадей серая кожа, а цвет шерсти варьирует от молочно-рыжего до темно-бурого, почти черного."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Бурая"
+          "text": "Liver chestnut"
         },
         {
           "id": "answer-04",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Вороной конь полностью покрыт черным волосом (конечно же может быть белена на мордочке и носочки)."
+        "question": "What coat color is this?",
+        "explanation": "A black horse has a coat of entirely black hair, although white facial and leg markings may of course be present."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У рыжих лошадей серая кожа, а цвет шерсти варьирует от молочно-рыжего до темно-бурого, почти черного. Нет темной каймы на ушках и есть осветленный венчик."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black. They have no black ear rims, and the hair around the coronet bands is lighter."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-04",
-          "text": "Мухортая"
+          "text": "Mealy bay (pangaré)"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "ЗП — это зональное потемнение. Из-за него у этого коня темный навис, однако рыжую масть здесь выдают рыжие ноги, у гнедой они черные ниже скакательных суставов и «колен» (запястий)."
+        "question": "What coat color is this?",
+        "explanation": "The sooty effect darkens this horse’s mane and tail. Its chestnut-colored legs reveal the chestnut base coat; a bay has black lower legs below the hocks and knees (carpi)."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ЗП"
+          "text": "Sooty chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Буланая с ЗП"
+          "text": "Sooty buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серую масть легко отличить от изабелловой и белой по серой или черной коже, которую хорошо видно на мордочке. "
+        "question": "What coat color is this?",
+        "explanation": "Gray is easy to distinguish from cremello and white by the gray or black skin, which is clearly visible on the face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-02",
-          "text": "Серая"
+          "text": "Gray"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У мышастой лошади равномерный зольный или пепельно-серый окрас корпуса, напоминающий цвет шерсти дикой мыши. При этом голова и нижняя часть ног заметно темнее, а вдоль спины обязательно проходит четкий ремень."
+        "question": "What coat color is this?",
+        "explanation": "A grullo has an even slate-gray or ash-gray body coat resembling the fur of a wild mouse. The head and lower legs are noticeably darker, and a sharply defined dorsal stripe always runs along the back."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышастая"
+          "text": "Grullo (black dun)"
         },
         {
           "id": "answer-02",
-          "text": "Вороно-чалая"
+          "text": "Blue roan"
         },
         {
           "id": "answer-03",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         },
         {
           "id": "answer-04",
-          "text": "Мухортая"
+          "text": "Mealy bay (pangaré)"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У изабелловой лошади голубые глаза и розовая кожа, а цвет шерсти варьирует от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color ranges from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Изабелловая"
+          "text": "Cremello"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Саврасая отличается от буланой черным ремнем на спине, мордочка у нее часто затемнена или в тон корпусу, в то время как у буланой — светлее."
+        "question": "What coat color is this?",
+        "explanation": "Bay dun differs from buckskin by its black dorsal stripe. Its face is often darker than the body or the same shade, whereas a buckskin’s face is usually lighter."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "у изабелловых лошадей глаза голубые, кожа розовая, а цвет шерсти может варьировать от кремового до белоснежного."
+        "question": "What coat color is this?",
+        "explanation": "Cremello horses have blue eyes and pink skin, and their coat color ranges from cream to nearly pure white."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Светло-соловая"
+          "text": "Light palomino"
         },
         {
           "id": "answer-04",
-          "text": "Изабелловая"
+          "text": "Cremello"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Главным отличием саврасой от буланой является черный ремень на спине, также часто мордочка темнее корпуса, а у буланых она обычно светлее. От каурой саврасая отличается черным нависом, а от гнедой — песочно-желтой шерстью."
+        "question": "What coat color is this?",
+        "explanation": "The main feature distinguishing bay dun from buckskin is the black dorsal stripe. The face is also often darker than the body, whereas a buckskin’s face is usually lighter. Bay dun differs from red dun by its black mane and tail, and from bay by its sandy-yellow body coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Гнедая"
+          "text": "Bay"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Гнедая масть одна из самых распространенных, ее легко узнать по черным ногам, гриве и хвосте в комплекте с рыжим, коричневым или темно-коричневым корпусом и мордочкой."
+        "question": "What coat color is this?",
+        "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая"
+          "text": "Chestnut"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Ахалтекинцы не бывают саврасыми, поскольку у них нет дикого гена, от гнедой буланую легко отличить по песочно-желтому цвету шерсти, а от рыжей — по черному навису, ногам и кайме на ушках."
+        "question": "What coat color is this?",
+        "explanation": "Akhal-Tekes do not come in dun because the breed does not carry the dun allele. Buckskin is easy to distinguish from bay by its sandy-yellow body coat and from chestnut by its black mane, tail, lower legs, and ear rims."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая с ЗП"
+          "text": "Sooty bay"
         },
         {
           "id": "answer-02",
-          "text": "Буланая с ЗП"
+          "text": "Sooty buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Саврасая с ЗП"
+          "text": "Sooty bay dun"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая с ЗП"
+          "text": "Sooty chestnut"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "У соловой лошади темная кожа, но может быть светлее чем у рыжих, глаза карие, ореховые или янтарные, ресницы желтые или светло-рыжие, шерсть песочно-желтая, грива и хвост белые или светло-желтые."
+        "question": "What coat color is this?",
+        "explanation": "Palominos have dark skin, although it may be lighter than a chestnut’s. Their eyes are brown, hazel, or amber; their eyelashes are yellow or pale chestnut; their body coat is sandy yellow; and their mane and tail are white or pale yellow."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Соловая"
+          "text": "Palomino"
         },
         {
           "id": "answer-02",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Светло-рыжая"
+          "text": "Light chestnut"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Буланую от других мастей можно отличить по желтой шерсти и светлому волосу в черной гриве и хвосте. Голова бывает чуть светлее корпуса, а у гнедых в тон или чуть темнее. На спине нет черного ремня, или он широкий и размытый, без четких границ (тогда это зональное потемнение)."
+        "question": "What coat color is this?",
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Главным отличием саврасой от буланой является черный ремень на спине, также часто мордочка темнее корпуса, а у буланых она обычно светлее. От каурой саврасая отличается черным нависом, а от гнедой — песочно-желтой шерстью."
+        "question": "What coat color is this?",
+        "explanation": "The main feature distinguishing bay dun from buckskin is the black dorsal stripe. The face is also often darker than the body, whereas a buckskin’s face is usually lighter. Bay dun differs from red dun by its black mane and tail, and from bay by its sandy-yellow body coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Светло-гнедая"
+          "text": "Light bay"
         }
       ]
     }
