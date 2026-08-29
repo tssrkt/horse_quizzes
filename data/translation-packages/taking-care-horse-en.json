@@ -7,977 +7,977 @@
   "source_revision": "dc0463465a0f1c0ac91b5487c1d190157dedb864dbaf2cde72658e178e2e12e6",
   "mode": "created",
   "fields": {
-    "title": "Уход за лошадью",
-    "short_description": "Самая актуальная викторина для тех у кого есть лошадь, а также для желающих ею обзавестись. Поговорим об уходе, здоровье и поведении наших непарнокопытных друзей.",
-    "intro": "Самая актуальная викторина для тех у кого есть лошадь, а также для желающих ею обзавестись. Поговорим об уходе, здоровье и поведении наших непарнокопытных друзей.",
-    "questionImagesAlt": ""
+    "title": "Horse Care",
+    "short_description": "An essential quiz for horse owners and anyone planning to become one, covering everyday care, health, feeding, hoof care, and behavior.",
+    "intro": "This practical quiz covers the essentials of horse care, from feeding and hoof maintenance to health, safe handling, and behavior.",
+    "questionImagesAlt": "Illustrations for the Horse Care quiz"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Какое минимальное количество корма лошадь должна съедать в сутки?",
-        "explanation": "Желудок лошади непрерывно вырабатывает соляную кислоту, а кишечник нуждается в постоянном заполнении грубой клетчаткой. Если этот объем снизить, кислота мгновенно начнет разъедать пустой желудок, вызывая язвенную болезнь, а отсутствие постоянной работы микрофлоры кишечника приведет к смертельно опасным коликам и нарушению терморегуляции."
+        "question": "Approximately how much feed should a horse consume each day?",
+        "explanation": "A typical adult horse consumes roughly 2–3% of its body weight in total dry matter per day, depending on workload, body condition, forage quality, and health. Forage should make up most of the ration, with at least about 1.5–2% of body weight commonly recommended to support normal gut function and natural feeding behavior."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "2-3% от своей массы"
+          "text": "About 2–3% of its body weight"
         },
         {
           "id": "answer-02",
-          "text": "4-5% от своей массы"
+          "text": "About 4–5% of its body weight"
         },
         {
           "id": "answer-03",
-          "text": "6-7% от своей массы"
+          "text": "About 6–7% of its body weight"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Сколько сена лошадь может съесть в сутки, если давать его в неограниченных количествах?",
-        "explanation": "Лошадь физически не способна стабильно усваивать больше 4 кг сухого корма на 100 кг своего веса в сутки (то есть до 20 кг для коня массой 500 кг), потому что ее крошечный желудок (объемом всего 8–15 литров) и длинный, но узкий кишечник имеют жесткий предел пропускной способности. Если превысить этот анатомический барьер, огромная масса клетчатки просто забьет пищеварительный тракт, спровоцировав его закупорку и смертельно опасные колики. Кроме того, избыток корма резко снижает общую перевариваемость питательных веществ, нарушает хрупкий баланс бактериальной микрофлоры в слепой кишке и приводит к ламиниту (опасному воспалению копыт) или лишнему весу."
+        "question": "How much hay may a horse consume when it is offered free-choice?",
+        "explanation": "Most mature horses voluntarily consume about 1.5–2.5 kg of forage dry matter per 100 kg of body weight each day, although intake varies with the horse and the hay. Free-choice forage should be monitored because very rich hay can promote obesity or metabolic problems, while poor-quality forage may not meet nutritional needs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "4 кг на 100 кг своего веса"
+          "text": "About 2–3 kg per 100 kg of body weight, sometimes more"
         },
         {
           "id": "answer-02",
-          "text": "6 кг на 100 кг своего веса"
+          "text": "About 6 kg per 100 kg of body weight"
         },
         {
           "id": "answer-03",
-          "text": "8 кг на 100 кг своего веса"
+          "text": "About 8 kg per 100 kg of body weight"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что такое раскрючковка?",
-        "explanation": "Термин «раскрючковка» происходит от названия специального конного инструмента — копытного крючка. В конном деле этот термин означает обязательную гигиеническую процедуру очистки подошвы и стрелки копыта лошади от набившейся грязи, навоза, камней и опилок. Раскрючковку выполняют вручную перед каждой тренировкой и сразу после нее, чтобы вовремя заметить застрявшие острые предметы, предотвратить развитие гнилостных инфекций (гниение стрелки) и убедиться, что лошадь не испытывает боли при ходьбе."
+        "question": "What does picking out a horse’s hooves mean?",
+        "explanation": "Picking out the hooves means using a hoof pick to remove packed dirt, manure, stones, and bedding from the sole and frog. It should be done regularly, especially before and after work, so trapped objects, thrush, tenderness, or damage can be noticed early."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Метод быстрого распутывания хвоста лошади"
+          "text": "Quickly detangling the horse’s tail"
         },
         {
           "id": "answer-02",
-          "text": "Очистка копыт от грязи и камней"
+          "text": "Removing dirt and stones from the hooves"
         },
         {
           "id": "answer-03",
-          "text": "Снятие старых подков"
+          "text": "Taking off old horseshoes"
         },
         {
           "id": "answer-04",
-          "text": "Особый способ затягивания ремней амуниции"
+          "text": "Tightening tack straps in a special way"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что такое расчистка коня?",
-        "explanation": "Термин «расчистка коня» означает регулярную процедуру срезания отросшего копытного рога для придания копыту его естественной, анатомически правильной формы. Так как у домашних лошадей копыта растут непрерывно, но не стачиваются о мягкий грунт так же быстро, как в дикой природе, коваль (триммер) каждые 4-6 недель срезает излишки подошвы и стенок специальными ножами и клещами. Без своевременной расчистки копыта деформируются, трескаются и нарушают баланс всей ноги, что приводит к хромоте, повреждению суставов и сухожилий животного."
+        "question": "What is hoof trimming?",
+        "explanation": "Hoof trimming is the regular removal and shaping of overgrown hoof horn to maintain sound balance and an appropriate hoof form. Domestic horses often do not wear their hooves evenly, so a qualified farrier or hoof-care professional trims them at intervals suited to the individual horse."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мытье лошади"
+          "text": "Washing the horse"
         },
         {
           "id": "answer-02",
-          "text": "Чистка лошади специальными щетками"
+          "text": "Grooming the horse with special brushes"
         },
         {
           "id": "answer-03",
-          "text": "Обрезание отросшего копытного рога"
+          "text": "Removing and shaping overgrown hoof horn"
         },
         {
           "id": "answer-04",
-          "text": "Расчесывание гривы и хвоста"
+          "text": "Combing the mane and tail"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Как часто коням проводится расчистка?",
-        "explanation": "Копытный рог отрастает как раз за полтора месяца. Если коня вовремя не расчищать, копыта могут деформироваться, потрескаться и нарушить баланс всей ноги, что приведет к хромоте, повреждению суставов и сухожилий животного."
+        "question": "How often should a horse’s hooves usually be trimmed?",
+        "explanation": "Many horses need trimming or shoeing every four to eight weeks, with about six weeks being common. The ideal interval varies with season, hoof growth, conformation, workload, and whether the horse is shod, so the schedule should be set with a qualified farrier."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Раз в полтора месяца"
+          "text": "Usually every four to eight weeks"
         },
         {
           "id": "answer-02",
-          "text": "Раз в три месяца"
+          "text": "Every three months"
         },
         {
           "id": "answer-03",
-          "text": "Раз в полгода"
+          "text": "Every six months"
         },
         {
           "id": "answer-04",
-          "text": "Раз в год"
+          "text": "Once a year"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Как часто следует проводить дегельминтизацию?",
-        "explanation": "Дегельминтизацию лошадей проводят раз в полгода (обычно весной перед пастбищным сезоном и осенью после его завершения), чтобы разорвать жизненный цикл паразитов и защитить животных от сезонных пиков заражения на пастбищах. Осенняя обработка уничтожает личинки оводов и стронгилят, накопленные за лето, а весенняя — очищает организм перед выходом на траву, снижая загрязнение пастбищ яйцами глистов. Такой график позволяет эффективно контролировать численность внутренних паразитов, предотвращая истощение, повреждение внутренних органов и развитие смертельно опасных глистных колик."
+        "question": "Which deworming schedule is currently recommended for adult horses?",
+        "explanation": "Modern parasite control is individualized. Current guidance recommends fecal egg counts once or twice a year to identify low, moderate, and high shedders, baseline treatment for most adult horses once or twice yearly, and additional targeted treatment only when indicated by test results, local risks, and veterinary advice."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Раз в три месяца"
+          "text": "Every three months for every horse, without testing"
         },
         {
           "id": "answer-02",
-          "text": "Раз в полгода"
+          "text": "Usually one or two baseline treatments yearly, with further treatment guided by fecal egg counts"
         },
         {
           "id": "answer-03",
-          "text": "Раз в год"
+          "text": "Exactly once a year for every horse"
         },
         {
           "id": "answer-04",
-          "text": "Раз в полтора года"
+          "text": "Once every eighteen months"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Круглый загон для воспитания молодых лошадей называется:",
-        "explanation": "Название «бочка» закрепилось за круглым загоном из-за его внешнего вида и конструктивного сходства с обычной деревянной бочкой. Исторически такие сооружения строились (а часто строятся и сейчас) в виде сплошного высокого забора из вертикальных деревянных досок или брусьев, стянутых по периметру металлическим каркасом или обручами, что визуально один в один напоминает гигантскую бочку без дна и крышки. Кроме того, это название отражает функциональную суть конструкции: в таком тесном, замкнутом пространстве диаметром всего 15–20 метров у молодой лошади нет углов, где она могла бы спрятаться или «замяться», что позволяет тренеру удерживать ее внимание в центре, как внутри закрытого сосуда, и безопасно обучать базовым командам."
+        "question": "What is the circular enclosure used for handling and training young horses called?",
+        "explanation": "A round pen is a circular fenced enclosure commonly used for groundwork, starting young horses, and controlled exercise. Because it has no corners, the trainer can work the horse on a consistent curved track while maintaining clear communication and safe spacing."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Манеж"
+          "text": "An indoor arena"
         },
         {
           "id": "answer-02",
-          "text": "Цирк"
+          "text": "A circus ring"
         },
         {
           "id": "answer-03",
-          "text": "Бочка"
+          "text": "A round pen"
         },
         {
           "id": "answer-04",
-          "text": "Ротонда"
+          "text": "A rotunda"
         },
         {
           "id": "answer-05",
-          "text": "Антаблемент"
+          "text": "An entablature"
         },
         {
           "id": "answer-06",
-          "text": "Розетка"
+          "text": "A rosette"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что есть у качественной подковы?",
-        "explanation": "Термин «бухтовка» в кузнечном и ковальном деле происходит от немецкого слова Bucht (в значении «изгиб», «закругление») и означает специальный скос на внутренней верхней поверхности подковы. Эта выемка делается для того, чтобы подкова со стороны копыта не была идеально плоской и не соприкасалась напрямую с чувствительной подошвой копыта. Назначение бухтовки защитное: она полностью исключает опасное давление металла на мягкие ткани и предохраняет подошву от сильных наминов и скрытых травм во время ходьбы и прыжков."
+        "question": "What feature may be found on a well-made horseshoe?",
+        "explanation": "A horseshoe may be seated out along the inner edge of its foot surface. This shallow bevel or concavity helps prevent the shoe from pressing on the sole while leaving the hoof wall to bear weight appropriately."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Номерной знак"
+          "text": "A registration plate"
         },
         {
           "id": "answer-02",
-          "text": "Бухтовка"
+          "text": "A seated-out inner edge"
         },
         {
           "id": "answer-03",
-          "text": "Зацепка"
+          "text": "A toe clip on every shoe"
         },
         {
           "id": "answer-04",
-          "text": "Ухналь"
+          "text": "A horseshoe nail fixed into the shoe"
         },
         {
           "id": "answer-05",
-          "text": "Алиби"
+          "text": "An alibi"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Что делать, если вы ехали верхом и заметили, что ваш конь потерял подкову?",
-        "explanation": "Езда на лошади, потерявшей подкову, приведет к хромоте из-за резкого нарушения баланса ног и быстрого стирания копытного рога. Раскованная нога становится короче остальных, что вызывает колоссальную неравномерную нагрузку на суставы и сухожилия, а мягкая подошва, не привыкшая к прямому контакту с грунтом, быстро стирается «до мяса», получая болезненные намины от камней и глубокие трещины."
+        "question": "What should you do if your horse loses a shoe while you are riding?",
+        "explanation": "Stop work, dismount, and inspect the hoof. If the shoe is partly attached, do not pull it off unless you are trained and have the right tools. Protect the hoof if possible and lead the horse carefully over safe footing or arrange transport, then contact a farrier. Continuing at speed can damage the hoof wall or cause lameness."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Спешиться, снять симметричную подкову, вернуться домой, расчистить и подковать"
+          "text": "Dismount, stop work, protect the hoof, and return carefully or call a farrier"
         },
         {
           "id": "answer-02",
-          "text": "Как можно быстрее галопом добраться домой, расчистить и подковать коня"
+          "text": "Gallop home as quickly as possible"
         },
         {
           "id": "answer-03",
-          "text": "Ничего не делать, продолжать кататься верхом"
+          "text": "Do nothing and continue riding"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Что делать, если объезженный конь вдруг начал выбрасывать всадника на каждой тренировке?",
-        "explanation": "Внезапный и регулярный отказ от работы у обученной лошади — это почти всегда крик о сильной боли. Нужно вызвать ветеринара для полной проверки опорно-двигательного аппарата, зубов и спины, а также пригласить специалиста для проверки подгонки седла, которое могло начать сильно давить на холку или зажимать лопатки из-за изменения обвалки или обминки под воздействием влаги и тепла. Если конь полностью здоров, а амуниция лежит идеально, проблему ищут в психологии и ошибках всадника: лошадь могла «замкнуться» из-за слишком грубой работы руками, грубых подсказок шенкелем, переутомления на репризах или банально научилась эффективно избавляться от нагрузки, проверяя границы дозволенного. В таком случае работу временно переносят на корду или в бочку, а для исправления поведения привлекают опытного берейтора, который вернет доверие животного к поводу и дисциплину без жестокости."
+        "question": "What should you do if a previously reliable horse suddenly starts trying to unseat the rider in every session?",
+        "explanation": "A sudden, repeated behavior change should be treated as a possible sign of pain. Stop pushing through it and arrange assessment of the horse’s back, limbs, teeth, and general health, as well as saddle fit. If physical causes are excluded, an experienced, humane trainer can investigate stress, confusion, and learned behavior."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Бить его хлыстом и ругать"
+          "text": "Hit and punish the horse"
         },
         {
           "id": "answer-02",
-          "text": "Снять с овса, пусть жрет одно сено"
+          "text": "Remove all oats and feed only hay"
         },
         {
           "id": "answer-03",
-          "text": "Проверить его спину на предмет травм и мышечных зажимов, посмотреть нет ли неявной хромоты"
+          "text": "Check for pain, back problems, poor saddle fit, and subtle lameness"
         },
         {
           "id": "answer-04",
-          "text": "Оставить в деннике на несколько дней, пусть постоит подумает о своем поведении"
+          "text": "Leave the horse in its stall to think about its behavior"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Можно ли поить коня сразу после тренировки когда его кожа горячая и влажная от пота?",
-        "explanation": "Поить коня сразу после интенсивной тренировки, пока его кожа горячая и влажная от пота, категорически нельзя, так как поступление холодной воды в разгоряченный организм вызывает резкий температурный шок и спазм сосудов ЖКТ. Это останавливает пищеварение, провоцируя смертельно опасные колики, а также резко нарушает циркуляцию крови в конечностях, что приводит к ламиниту — неизлечимому и крайне болезненному воспалению копытного рога (опою). Безопасно напоить лошадь можно только после полного высыхания шерсти, восстановления дыхания и отшагивания, то есть не ранее чем через 50–60 минут после окончания работы."
+        "question": "May a hot, sweaty horse drink immediately after exercise?",
+        "explanation": "Yes. There is no scientific basis for withholding water from a hot horse until the coat is dry. Offer clean, cool water during recovery; a very hot horse can take several swallows every few minutes while being actively cooled. Water supports rehydration and does not cause laminitis merely because the horse is warm."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Можно, только если вода не ледяная"
+          "text": "Only after the horse has been completely dry for an hour"
         },
         {
           "id": "answer-02",
-          "text": "Можно в любом случае, и даже нужно, ему же жарко"
+          "text": "Never; drinking after work causes colic"
         },
         {
           "id": "answer-03",
-          "text": "Нельзя, если так делать у него опухнут ноги и может быть кровоизлияние в копыто"
+          "text": "Yes—offer clean, cool water during recovery"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Может ли конь сбросить всадника, независимо от силы и опытности последнего?",
-        "explanation": "Абсолютно любая лошадь может сбросить даже самого опытного и сильного всадника в мире, так как в экстремальной ситуации у этого пятисоткилограммового животного мгновенно включается древний эволюционный инстинкт бегства от опасности. При сильном испуге, внезапной резкой боли или проявлении открытой агрессии (например, при серии мощных «козлов» или вертикальной «свечке») сила и техника человека перестают иметь значение против массы и взрывной биомеханики коня. Даже олимпийские чемпионы по конкуру и выездке регулярно падают на тренировках и турнирах."
+        "question": "Can any horse unseat a rider, no matter how strong or experienced the rider is?",
+        "explanation": "Yes. A horse is a powerful prey animal, and fear, sudden pain, loss of balance, bucking, or rearing can unseat even an elite rider. Experience reduces risk and improves reactions, but it cannot make a rider incapable of falling."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Конечно может"
+          "text": "Yes, any horse can"
         },
         {
           "id": "answer-02",
-          "text": "Не может! Опытные всадники не падают"
+          "text": "No—experienced riders never fall"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что значит, если у коня блестит шерсть?",
-        "explanation": "Блеск шерсти у коня — это главный внешний индикатор отличного здоровья, сбалансированного питания и правильного ухода. Такой лоск появляется тогда, когда организм лошади получает достаточное количество жирных кислот (например, омега-3 и омега-6), витаминов и минералов, а волосяные луковицы активно выделяют кожное сало (кожный жир), которое сглаживает чешуйки каждого волоска и заставляет их отражать свет. Кроме того, яркий блеск говорит о чистокровности животного (особенно у ахалтекинцев), регулярной качественной чистке щетками, отсутствии внутренних паразитов и хорошем состоянии желудочно-кишечного тракта. Однако блестящая шерсть не является стопроцентной гарантией абсолютного здоровья, так как лошадь может иметь скрытые хронические заболевания суставов, копыт или начальную стадию язвы желудка, при которых волос продолжает лосниться благодаря хорошему кормлению или генетике. Точно так же и тусклая шерсть не всегда указывает на болезнь: кони часто теряют лоск во время глубокой линьки, из-за плохой погоды, пыли, длительного выгула или из-за особенностей своей породы (например, у некоторых местных или лохматых пород шерсть от природы матовая и пористая). Блеск — это лишь один из визуальных признаков хорошего содержания, но никак не окончательный ветеринарный диагноз."
+        "question": "What may a glossy coat indicate?",
+        "explanation": "A glossy coat often reflects good grooming, adequate nutrition, and overall well-being, but it is not a veterinary diagnosis. Genetics, season, weather, coat type, and grooming all affect shine, and a horse with a glossy coat can still have hidden pain or disease."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Значит конь счастлив и абсолютно здоров"
+          "text": "The horse is happy and completely healthy"
         },
         {
           "id": "answer-02",
-          "text": "Значит коня регулярно чистят, скорее всего у него здоровый ЖКТ и сбалансированное питание"
+          "text": "The horse is probably well groomed and receiving suitable nutrition"
         },
         {
           "id": "answer-03",
-          "text": "Значит у него хорошие гены и крепкое здоровье"
+          "text": "The horse must have exceptional genes and perfect health"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что такое неявная хромота?",
-        "explanation": "Неявная хромота (или скрытая хромота) — это начальная, слабовыраженная степень нарушения опорно-двигательного аппарата лошади, при которой животное не имеет явного, бросающегося в глаза кивка головы или припадания на ногу (четкого лимпа), но испытывает дискомфорт и подспудную боль. Распознать ее невероятно сложно, так как она проявляется косвенно: через смазанность аллюров, укорочение шага одной из ног, частые спотыкания, отказ менять ногу на галопе или резкое «сопротивление» командам всадника. Часто неявная хромота бывает двусторонней (когда болят сразу обе передние или обе задние ноги), из-за чего конь бежит «ровно», но зажато и скованно."
+        "question": "What is subtle lameness?",
+        "explanation": "Subtle lameness is a mild or difficult-to-see gait abnormality caused by discomfort or impaired movement. It may appear as a shortened stride, stiffness, stumbling, reluctance to take one canter lead, or a change in performance rather than an obvious head nod. Bilateral pain can make it especially hard to identify."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Миф, придуманный ветеринарами чтобы драть с коневодов деньги"
+          "text": "A myth invented by veterinarians"
         },
         {
           "id": "answer-02",
-          "text": "Хромота, которую сложно выявить, даже опытные ветеринары не всегда могут ее распознать"
+          "text": "Lameness that can be difficult to detect, even for experienced professionals"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "В поле пасутся две лошади одной верховой породы: длиннохвостая и короткохвостая. Которая из них быстрее сойдет с ума?",
-        "explanation": "Если серьезно, то лошади не сходят с ума в человеческом понимании, но короткохвостая лошадь гораздо быстрее дойдет до крайней степени психологического истощения и сильного стресса из-за непрерывных укусов слепней, мошек и мух. Хвост для пасущегося коня — это главный естественный инструмент защиты от насекомых. Лишенная этой защиты короткохвостая лошадь будет вынуждена непрерывно тратить энергию на хаотичные движения: постоянно отбивать ногами, резко крутиться на месте и нервно встряхивать всем телом. В результате на летнем пастбище она быстро заработает хронический недосып, сильное истощение нервной системы и может начать панически метаться по полю в попытках убежать от гнуса."
+        "question": "Two similar riding horses share a summer pasture: one has a long tail and the other a very short tail. Which is likely to become distressed by insects sooner?",
+        "explanation": "The short-tailed horse has less natural protection from flies and other biting insects. A horse normally uses its tail to swat pests, so one deprived of that defense may stamp, twitch, pace, and spend less time grazing or resting. Fly control and suitable protective equipment can reduce the stress."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Длиннохвостая"
+          "text": "The long-tailed horse"
         },
         {
           "id": "answer-02",
-          "text": "Короткохвостая"
+          "text": "The short-tailed horse"
         },
         {
           "id": "answer-03",
-          "text": "Обе одновременно"
+          "text": "Both at exactly the same time"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что значит, если у лошади из хвоста у самого его основания торчат волосы вверх?",
-        "explanation": "Это означает, что лошадь сильно и регулярно чешет свой хвост об стены денника, левады или деревья, из-за чего длинные волосы у корня репицы обламываются, превращаясь в торчащий вверх жесткий «ёжик» (в конном мире это называют «зачесанным хвостом»). Пытаясь унять нестерпимый зуд в этой области, животное трется крупом о любые твердые поверхности. Главными причинами такого поведения обычно являются скопление грязи в интимных зонах (под хвостом и в препуции/вымени), глистная инвазия (особенно острицы-оксиурисы, которые откладывают яйца вокруг ануса) или сильная аллергическая реакция на укусы насекомых (летний дерматит)."
+        "question": "What can upright, broken hairs at the top of a horse’s tail indicate?",
+        "explanation": "A spiky or rubbed tailhead usually means the horse has been rubbing because of itching. Possible causes include pinworms, insect hypersensitivity, skin irritation, or dirt and secretions around the dock. The cause should be investigated rather than assumed from the tail alone."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Лошадке не вычесывают хвостик"
+          "text": "The tail has not been brushed enough"
         },
         {
           "id": "answer-02",
-          "text": "Скорее всего у лошадки гельминты"
+          "text": "The horse may be itchy from pinworms or another skin problem"
         },
         {
           "id": "answer-03",
-          "text": "Ничего не значит"
+          "text": "It means nothing"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что будет, если не давать коню никаких физических нагрузок и возможности бегать на протяжении месяца или больше?",
-        "explanation": "Если запереть лошадь в деннике без движения на месяц или больше, в ее организме произойдут тяжелые системные разрушительные процессы, так как физиология этого животного рассчитана на почти непрерывное движение. В первую очередь из-за отсутствия работы копытного насоса (который качает кровь обратно к сердцу только при ходьбе) возникнут сильные застои крови и лимфы в ногах, что приведет к хроническим отекам («наливам») и ламиниту. Кишечник без движения практически перестанет сокращаться, вызывая завалы корма и смертельно опасные колики. Кости и сухожилия без нагрузок начнут стремительно терять прочность, мышцы атрофируются, а легкие без глубокого дыхания забьются пылью от опилок и сена, спровоцировав неизлечимую астму (ХОБЛ). Психика коня также пострадает: от скуки и избытка запертой энергии у него разовьются вредные привычки (прикуска, ткачество и т.д.) или вспышки неконтролируемой агрессии."
+        "question": "What may happen if a horse has no turnout or meaningful exercise for a month or longer?",
+        "explanation": "Prolonged confinement and inactivity can cause loss of fitness and muscle, filled legs, reduced joint mobility, weight or metabolic changes, and a higher risk of stereotypic or anxious behavior. Some horses must be confined for medical reasons, but their diet, enrichment, and rehabilitation should then be managed with veterinary guidance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Он умрет"
+          "text": "The horse will inevitably die"
         },
         {
           "id": "answer-02",
-          "text": "Он разжиреет и обленится"
+          "text": "It will merely become fat and lazy"
         },
         {
           "id": "answer-03",
-          "text": "Он исхудает и заболеет"
+          "text": "It can lose condition and develop physical or behavioral problems"
         },
         {
           "id": "answer-04",
-          "text": "Ничего страшного с ним не случится, ну погрустит чуток"
+          "text": "Nothing important will happen"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Если конь оглядывается на бока, садится по-собачьи или в позу мочеиспускания, но не писает, отказывается от еды, бьет себя задними ногами по животу, проявляет беспокойство или наоборот подавленность и безразличие, значит у него:",
-        "explanation": "У коня острый приступ колик (сильная боль в области желудочно-кишечного тракта). Все перечисленные симптомы — оглядывание на живот, копание земли, принятие позы «собаки» или позы для мочеиспускания без самого процесса — это классические поведенческие маркеры, которыми лошадь пытается облегчить сильные спазмы, газы или завал в кишечнике. Ситуация требует экстренного вызова ветеринарного врача, так как без медицинской помощи колики часто приводят к завороту кишок и гибели животного в течение нескольких часов."
+        "question": "A horse looks at its flanks, paws, kicks at its belly, refuses feed, repeatedly lies down, or strains as if to urinate without passing urine. What should you suspect?",
+        "explanation": "These are classic warning signs of colic—abdominal pain that can have many causes and levels of severity. Remove feed, observe the horse safely, take vital signs if you can, and contact a veterinarian promptly, especially when pain is severe, persistent, or accompanied by abnormal vital signs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Козинец"
+          "text": "Over at the knee"
         },
         {
           "id": "answer-02",
-          "text": "Брокдаун"
+          "text": "Breakdown injury"
         },
         {
           "id": "answer-03",
-          "text": "Ламинит"
+          "text": "Laminitis"
         },
         {
           "id": "answer-04",
-          "text": "Колики"
+          "text": "Colic"
         },
         {
           "id": "answer-05",
-          "text": "Вредная привычка"
+          "text": "A harmless stable vice"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что значит, если конь прижимает уши к шее?",
-        "explanation": "Когда конь плотно прижимает уши назад к шее, это главный сигнал крайней степени агрессии, злости, страха, предупреждения о нападении или сильной боли. Таким способом животное демонстрирует свое недовольство, угрожает укусить или ударить того, кто находится рядом, а также инстинктивно защищает ушные раковины от возможных травм во время драки."
+        "question": "What does it usually mean when a horse pins its ears flat back?",
+        "explanation": "Pinned ears are a warning that the horse is uncomfortable, frightened, irritated, in pain, or prepared to defend its space. Context and the rest of the body language matter, but handlers should take the signal seriously and avoid placing themselves within biting or kicking range."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "У него замерзли уши"
+          "text": "Its ears are cold"
         },
         {
           "id": "answer-02",
-          "text": "Он злится или боится"
+          "text": "It is frightened, irritated, or warning you away"
         },
         {
           "id": "answer-03",
-          "text": "Ему весело, он хочет играть"
+          "text": "It is happy and wants to play"
         },
         {
           "id": "answer-04",
-          "text": "Он хочет вкусняшек"
+          "text": "It is asking for treats"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Почему кони визжат друг на друга? (особенно когда нюхают друг друга)",
-        "explanation": "Визг лошадей при близком контакте и обнюхивании «ноздря в ноздрю» — это ритуальный сигнал высокой степени эмоционального возбуждения и установления личных границ. Когда две кобылы или два жеребца обнюхивают друг друга, они считывают гормональный фон, пол и статус партнера. Визг в этот момент служит аналогом фразы «Держи дистанцию и не наглей!»: это предупреждение о готовности пустить в ход зубы или копыта и демонстрация силы. Зачастую сразу после такого пронзительного взвизга одна из лошадей резко бьет по земле передним копытом или отскакивает в сторону. Дальше они могут еще некоторое время обнюхивать друг друга, визжать и махать ногами, пока кто-то не уступит главенствующую роль другому. В некоторых случаях, особенно если это молодые жеребцы, они начинают драку (кусаются и бьют копытами уже не землю, а друг друга)."
+        "question": "Why do horses sometimes squeal when they meet nose to nose?",
+        "explanation": "Squealing during close investigation is a high-arousal social signal. It can communicate a boundary, warn the other horse to keep its distance, or form part of negotiating space and social status. A strike or kick may follow, so introductions should be managed safely."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Они рады видеть друг друга"
+          "text": "They are simply delighted to meet"
         },
         {
           "id": "answer-02",
-          "text": "Они ненавидят друг друга"
+          "text": "They hate each other"
         },
         {
           "id": "answer-03",
-          "text": "Они решают вопрос доминирования"
+          "text": "They are negotiating boundaries and social status"
         },
         {
           "id": "answer-04",
-          "text": "Это часть брачных игр"
+          "text": "It is always courtship behavior"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Если конь прижимает вас к стене когда вы находитесь с ним в деннике, значит:",
-        "explanation": "Если конь намеренно прижимает вас к стене денника, это означает доминантное или агрессивное поведение, попытку запугать человека и вытеснить его со своей территории. В табунной иерархии лошади используют массу своего тела для физического давления на более слабых сородичей, и в замкнутом пространстве денника такое поведение является опасной проверкой границ дозволенного. В редких случаях животное может сделать это неосознанно из-за сильного испуга, пытаясь спрятаться в угол от внешнего раздражителя, однако в любой ситуации всадник должен немедленно оттолкнуть коня в области плеча или заставить его отойти по команде, чтобы избежать тяжелых травм."
+        "question": "What does it mean if a horse deliberately crowds you against a stall wall?",
+        "explanation": "Crowding a person against a wall is unsafe displacement behavior, whether caused by fear, poor spatial awareness, or learned disregard for the handler’s space. Do not interpret it as affection. Prioritize an escape route and use calm, trained cues to move the horse away; seek professional help if the behavior is repeated or aggressive."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Он хочет более тесного контакта с вами, чтобы вы его гладили и чесали"
+          "text": "It wants closer cuddling and scratching"
         },
         {
           "id": "answer-02",
-          "text": "Он пытается сказать, что здесь очень тесно и он хотел бы гулять по более просторным территориям"
+          "text": "It is asking for a larger stall"
         },
         {
           "id": "answer-03",
-          "text": "Он говорит вам, что он главнее вас"
+          "text": "It is displacing you and ignoring your personal space"
         },
         {
           "id": "answer-04",
-          "text": "Он выражает к вам симпатию"
+          "text": "It is showing affection"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Кони спят стоя?",
-        "explanation": "Полноценно спать стоя кони не могут, в этом положении они способны только дремать. Благодаря уникальному «запирающему механизму» коленных и скакательных суставов лошадь может полностью расслабить мышцы тела стоя и восстановить силы, не опасаясь упасть. Однако войти в критически важную фазу глубокого (быстрого) сна, которая необходима для полноценного отдыха, конь физически может только лежа на боку, полностью вытянув ноги. Для этого животному требуется безопасная обстановка и не менее 30-60 минут лежания в сутки, иначе у него разовьется хронический недосып и нервное истощение."
+        "question": "Do horses sleep standing up?",
+        "explanation": "Horses can doze while standing because the stay apparatus lets them rest with little muscular effort. However, they need to lie down for normal REM sleep. A horse that does not feel safe or comfortable enough to lie down can become sleep deprived and may collapse during involuntary REM episodes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Всегда"
+          "text": "Always"
         },
         {
           "id": "answer-02",
-          "text": "Да, стоя спят кобылы, а жеребцы спят лежа"
+          "text": "Only mares sleep standing; stallions lie down"
         },
         {
           "id": "answer-03",
-          "text": "Стоя они только дремлют, чтобы поспать нормально им надо лечь"
+          "text": "They doze standing but need to lie down for normal deep sleep"
         },
         {
           "id": "answer-04",
-          "text": "Нет, кони вообще никогда не спят, а только дремлют"
+          "text": "Horses never sleep at all"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Можно ли чистить разных лошадей одними и теми же инструментами?",
-        "explanation": "Использовать одни и те же инструменты для чистки разных лошадей категорически запрещено, так как щетки, скребницы и расчески являются главными переносчиками опасных кожных инфекций и грибковых заболеваний. Если почистить больное или скрыто инфицированное животное общей щеткой, то лишай (дерматофитоз), мыт или чесоточные клещи передадутся здоровым лошадям. По правилам гигиены и биобезопасности у каждой лошади должен быть свой индивидуальный комплект инструментов для ухода, который необходимо регулярно мыть и дезинфицировать."
+        "question": "Should the same grooming tools be used on different horses?",
+        "explanation": "Ideally, each horse should have its own grooming kit. Brushes, combs, towels, and tack can spread ringworm, mites, and other infectious agents. If equipment must be shared, it should be thoroughly cleaned and disinfected between horses, especially during an outbreak or after contact with a sick horse."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Можно"
+          "text": "Yes, without cleaning them"
         },
         {
           "id": "answer-02",
-          "text": "Нельзя"
+          "text": "No—use individual tools or disinfect them between horses"
         },
         {
           "id": "answer-03",
-          "text": "Можно только жеребцов, а кобыл — нельзя"
+          "text": "Only between stallions"
         },
         {
           "id": "answer-04",
-          "text": "Можно только кобыл, а жеребцов — нельзя"
+          "text": "Only between mares"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Вы зашли в денник и увидели, что лошадь не съела свой овес и не проявляет к нему никакого интереса. Что делать?",
-        "explanation": "В первую очередь необходимо немедленно убрать овес из кормушки, измерить лошади температуру и вызвать ветеринара, так как полный отказ от любимого концентрата у этого прожорливого животного — это всегда первый и главный симптом начала тяжелого заболевания. Чаще всего отсутствие аппетита указывает на развитие острого приступа колик, высокую температуру при инфекции (например, мыте) или сильную боль из-за острых крючков на зубах, которые ранят щеки коня при жевании. Оставлять зерно нельзя: если лошади станет чуть легче и она съест его на фоне остановившегося пищеварения, это спровоцирует смертельно опасный завал кишечника или ламинит."
+        "question": "You find that a horse has left its usual grain and shows no interest in it. What should you do?",
+        "explanation": "A sudden loss of appetite can be an early sign of colic, fever, dental pain, or another illness. Remove the concentrate, check for colic signs, take the horse’s temperature and other vital signs if you know how, and contact a veterinarian for advice. Do not work the horse as usual or tempt it with more grain."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ничего, седлать и работать как обычно"
+          "text": "Saddle up and work as normal"
         },
         {
           "id": "answer-02",
-          "text": "Убрать овес, проверить нет ли признаков колик, позвать ветеринара"
+          "text": "Remove the grain, check for illness or colic, and contact a veterinarian"
         },
         {
           "id": "answer-03",
-          "text": "Оставить овес в кормушке, лошадь просто не голодна, проголодается и съест"
+          "text": "Leave the grain until the horse eventually eats it"
         },
         {
           "id": "answer-04",
-          "text": "Убрать овес и дать лошади ее любимые вкусняшки"
+          "text": "Replace the grain with treats"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Каким лошадям овес лучше давать в торбах?",
-        "explanation": "Торба лишает животное возможности ухватиться зубами за кормушку, забор или перегородку денника во время и сразу после еды. Этот способ эффективно блокирует саму механику вредной привычки, не позволяя лошади заглатывать воздух в процессе кормления и помогая ей полностью сконцентрироваться на поедании овса."
+        "question": "Which horses may benefit from being fed grain from a feed bag?",
+        "explanation": "A properly fitted feed bag can prevent a horse from grasping a fixed object while eating and may reduce crib-biting during the meal. It is not a cure for crib-biting, and the horse must be supervised and able to breathe freely. Management should also address forage access, stress, pain, and gastric health."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Никаким, кормушка всегда лучше"
+          "text": "No horse; a manger is always better"
         },
         {
           "id": "answer-02",
-          "text": "Лошадям, страдающим заболеваниями ЖКТ"
+          "text": "Every horse with digestive disease"
         },
         {
           "id": "answer-03",
-          "text": "Лошадям с такой вредной привычкой, как прикуска"
+          "text": "A horse that crib-bites while eating"
         },
         {
           "id": "answer-04",
-          "text": "Лошадям, болеющим ламинитом"
+          "text": "Every horse with laminitis"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Что будет, если кормить коня зеленым или свежевымолотым овсом?",
-        "explanation": "Кормление лошади зеленым (недозрелым) или свежевымолоченным овсом представляет смертельную опасность для ее здоровья и может спровоцировать тяжелые колики, ламинит (опой) и сильное газообразование. Такое зерно содержит слишком много сырого, химически нестабильного крахмала, сахаров и влаги. В пищеварительном тракте лошади эта масса мгновенно начинает бродить, вызывая резкое закисление слепой кишки и массовую гибель полезной микрофлоры."
+        "question": "What can happen if a horse is fed immature or poorly stored newly harvested oats?",
+        "explanation": "Immature, damp, moldy, or poorly cured grain can spoil and may cause diarrhea or other digestive disturbances. Any new batch of concentrate should be checked for quality and introduced gradually, because abrupt dietary changes and excessive starch increase the risk of hindgut upset, colic, and laminitis."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ничего не будет"
+          "text": "Nothing can happen"
         },
         {
           "id": "answer-02",
-          "text": "Понос или другие нарушения ЖКТ"
+          "text": "Diarrhea or another digestive disturbance"
         },
         {
           "id": "answer-03",
-          "text": "Конь станет очень энергичным"
+          "text": "The horse will simply become more energetic"
         },
         {
           "id": "answer-04",
-          "text": "Здоровье коня улучшится"
+          "text": "The horse’s health will automatically improve"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Трещины на копытах чаще всего появляются из-за:",
-        "explanation": "Сухость копытного рога является главным пусковым фактором для появления поверхностных трещин, ведь обезвоженное копыто теряет эластичность, становится хрупким и легко колется под весом лошади. Однако сама по себе сухость редко приводит к глубоким расщелинам, если копыто вовремя и правильно расчищено: критические трещины возникают тогда, когда на эту хрупкую, сухую ткань накладывается сильное механическое давление отросших стенок или нарушенный баланс копыта. Таким образом, сухость делает рог уязвимым, а неправильная нагрузка ломает его. Еще одним фактором возникновения трещин является несвоевременная или неправильная расчистка, которая нарушает баланс копыта и создает избыточное механическое давление на отросшую копытную стенку. К этому приводят и резкие перепады влажности (постоянная смена сырости и сухости), которые делают копытный рог хрупким, а также дефицит биотина, цинка и аминокислот в рационе, ухудшающий качество растущих тканей. В результате под весом лошади разбалансированный и ослабленный рог просто не выдерживает нагрузок и начинает раскалываться."
+        "question": "Hoof-wall cracks are often associated with:",
+        "explanation": "Cracks can develop when hoof horn is brittle, when conditions repeatedly alternate between wet and dry, or when the hoof is unbalanced and the wall is overloaded. Poor trimming, injury, infection, and nutritional or conformational factors can also contribute, so significant cracks should be assessed by a farrier and veterinarian."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сухости копытного рога"
+          "text": "Brittle horn, repeated wet-dry cycles, and mechanical imbalance"
         },
         {
           "id": "answer-02",
-          "text": "Влажности копытного рога"
+          "text": "Moisture alone in every case"
         },
         {
           "id": "answer-03",
-          "text": "Недостаточного питания"
+          "text": "Inadequate feed as the only cause"
         },
         {
           "id": "answer-04",
-          "text": "Ожирения лошади"
+          "text": "Obesity as the only cause"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Для предотвращения трещин копытного рога лучше всего:",
-        "explanation": "Обмывание копыт холодной водой в течение 10-15 минут — это лучший и самый доступный способ профилактики трещин, эта процедура быстро возвращает копытному рогу естественную эластичность и защищает его от хрупкости. Однако, чтобы вода принесла пользу, ее необходимо сразу же «запереть» внутри ткани, нанеся на влажное копыто специальное масло или мазь, иначе на сухом воздухе рог высохнет еще сильнее. Кроме того, этот метод сработает только в комплексе с регулярной расчисткой коваля каждые 4–6 недель, которая снимает механическое напряжение с отросших стенок и не дает им раскалываться под весом лошади."
+        "question": "Which simple measure may help temporarily hydrate very dry hooves?",
+        "explanation": "Briefly wetting very dry hooves with cool water may provide temporary surface hydration, but it is not the main solution for cracking. Consistent farriery, balanced nutrition, clean footing, and avoiding extreme wet-dry cycles matter more. Repeated prolonged soaking can soften and weaken the hoof."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Обмывать копыта холодной водой"
+          "text": "Briefly rinse or wet them with cool water"
         },
         {
           "id": "answer-02",
-          "text": "Обмывать копыта теплой водой"
+          "text": "Soak them in warm water for hours"
         },
         {
           "id": "answer-03",
-          "text": "Давать коню много сена"
+          "text": "Feed unlimited hay regardless of body condition"
         },
         {
           "id": "answer-04",
-          "text": "Давать коню много овса"
+          "text": "Feed unlimited oats"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Если каждый раз когда лошади подходят к водопою первой всегда пьет одна и та же лошадь, значит:",
-        "explanation": "Если каждый раз первой у водопоя всегда пьет одна и та же лошадь, это означает, что она занимает самый высокий ранг в иерархии (является альфой) данного табуна. В лошадином сообществе доступ к ключевым ресурсам — воде, лучшей траве и укрытию — строго регламентирован, и право первого выбора всегда принадлежит доминантной особи. Остальные члены табуна при этом терпеливо ждут своей очереди на безопасном расстоянии, демонстрируя подчинение и уважение к статусу лидера."
+        "question": "If the same horse consistently drinks first when a herd reaches water, what may this suggest?",
+        "explanation": "The horse may have priority of access to that resource and may hold a high social rank, although one observation is not enough to define the entire herd hierarchy. Thirst, habit, confidence, and position when approaching the trough can also influence who drinks first."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ее мучит жажда больше всего, это из-за старости"
+          "text": "It is always thirstier because it is old"
         },
         {
           "id": "answer-02",
-          "text": "Она больная, надо показать ее ветеринару"
+          "text": "It must be ill"
         },
         {
           "id": "answer-03",
-          "text": "Она доминантная лошадь"
+          "text": "It may be a socially dominant horse with priority at the water"
         },
         {
           "id": "answer-04",
-          "text": "У нее обезвоживание"
+          "text": "It must be dehydrated"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что делать, если лошадь сломала ключицу, а ветеринар приедет не скоро?",
-        "explanation": "У лошадей нет ключиц. В процессе эволюции этот элемент скелета полностью исчез, чтобы обеспечить лошади размашистый бег: ее передние конечности крепятся к туловищу исключительно с помощью мощного мышечно-связочного аппарата (синсаркоза), который работает как естественный амортизатор."
+        "question": "What should you do if a horse has broken its collarbone?",
+        "explanation": "Horses do not have clavicles, or collarbones. Their forelimbs are attached to the trunk by muscles, tendons, and fascia forming a muscular sling called the thoracic sling or synsarcosis, which helps absorb concussion during movement."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ничего, в любом случае придется усыпить"
+          "text": "Nothing; euthanasia is inevitable"
         },
         {
           "id": "answer-02",
-          "text": "Вколоть обезбаливающее и обеспечить неподвижность"
+          "text": "Inject pain medication and immobilize the horse"
         },
         {
           "id": "answer-03",
-          "text": "Это невозможно, у лошади нет ключиц"
+          "text": "That specific injury is impossible because horses have no collarbones"
         },
         {
           "id": "answer-04",
-          "text": "Ничего не делать, вызвать ветеринара"
+          "text": "Do nothing except call a veterinarian"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Как вызвать рвотный рефлекс у лошади которая отравилась?",
-        "explanation": "Вызвать рвотный рефлекс у лошади невозможно, эти животные не способны к рвоте. У лошадей очень мощный и жесткий нижний пищеводный сфинктер (мускульный клапан на входе в желудок), который работает только в одну сторону — пропускает пищу внутрь, но намертво блокирует ее выход обратно. Кроме того, пищевод входит в желудок под острым углом, что при повышении давления внутри органа лишь сильнее сжимает клапан."
+        "question": "How can you make a poisoned horse vomit?",
+        "explanation": "You cannot: horses are unable to vomit because of their anatomy and a very strong lower esophageal sphincter. Suspected poisoning is an emergency. Remove access to the suspected substance, preserve a sample or label if safe, and call a veterinarian or animal poison service immediately; do not give home remedies unless instructed."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Нажать ей на корень языка"
+          "text": "Press the back of its tongue"
         },
         {
           "id": "answer-02",
-          "text": "Вколоть ей три кубика баралгина"
+          "text": "Inject a painkiller"
         },
         {
           "id": "answer-03",
-          "text": "Дать ей понюхать табак"
+          "text": "Make it smell tobacco"
         },
         {
           "id": "answer-04",
-          "text": "Никак, у лошадей нет рвотного рефлекса"
+          "text": "You cannot—horses are unable to vomit"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Как долго лошадь может голодать без вреда для здоровья?",
-        "explanation": "Лошадь не может голодать без вреда для здоровья дольше 2-4 часов. В отличие от человека или собак, желудок лошади устроен так, что соляная кислота вырабатывается в нем непрерывно, даже когда животное ничего не ест. Если в желудок подолгу не поступает  корм, кислота начинает разъедать стенки желудка, что уже через несколько часов приводит к образованию острых язв, а в дальнейшем — к смертельно опасным коликам и гиперлипемии (ожирению печени)."
+        "question": "How long should a horse routinely go without forage?",
+        "explanation": "Horses are adapted to eat small amounts for many hours each day. Long fasting periods increase gastric acidity and are associated with ulcers and abnormal feeding behavior, so management should aim to keep gaps between forage meals short—commonly no more than about three to four hours whenever practical. Medical fasting should follow veterinary instructions."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Три дня"
+          "text": "Three days"
         },
         {
           "id": "answer-02",
-          "text": "Сутки"
+          "text": "Twenty-four hours"
         },
         {
           "id": "answer-03",
-          "text": "12 часов"
+          "text": "Twelve hours"
         },
         {
           "id": "answer-04",
-          "text": "3 часа"
+          "text": "About three to four hours"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Если разгоряченную после работы лошадь поить холодной водой, то у нее может случиться:",
-        "explanation": "Если разгоряченную после работы лошадь поить холодной водой, то у нее может случиться острый ламинит (опой) или тяжелые спастические колики. Резкое поступление ледяной воды в разогретый организм вызывает мгновенный спазм сосудов желудочно-кишечного тракта, сбой в терморегуляции и системный сосудистый шок, который приводит к нарушению кровообращения в копытных тканях и воспалению основы кожи копыта."
+        "question": "What is likely to happen if a hot horse is offered cool water after work?",
+        "explanation": "Usually nothing harmful—drinking cool, clean water helps replace fluid lost in sweat. A hot horse may be allowed several swallows every few minutes while cooling down, and withholding water can worsen dehydration. Cool water does not itself cause colic, hoof hemorrhage, or laminitis."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рвота, обезвоживание и тяжелое истощение"
+          "text": "Vomiting, dehydration, and severe wasting"
         },
         {
           "id": "answer-02",
-          "text": "Опухание ног, острый ламинит, колики и кровоизлияние в копыто"
+          "text": "It will rehydrate; cool water does not itself cause laminitis or colic"
         },
         {
           "id": "answer-03",
-          "text": "Брадыкардия, острый тромбоз и отек сердца"
+          "text": "Bradycardia, thrombosis, and heart edema"
         },
         {
           "id": "answer-04",
-          "text": "Ничего не случится"
+          "text": "It will inevitably develop acute laminitis"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Если лошадь поднимает мордочку и загибает верхнюю губу, обнажая зубы - это:",
-        "explanation": "Если лошадь поднимает мордочку и загибает верхнюю губу, обнажая зубы — это флемен (или реакция Флемена). Таким специфическим движением животное загоняет воздух в особый вомероназальный (якобсонов) орган, расположенный на нёбе, чтобы максимально точно распознать новые, резкие или феромоновые запахи. Чаще всего такое поведение можно увидеть у жеребцов при оценке готовности кобылы к спариванию, а также у любых лошадей при знакомстве с незнакомыми вкусами, запахами или при первых признаках боли в животе (коликах)."
+        "question": "A horse raises its head and curls its upper lip, exposing its teeth. What is this called?",
+        "explanation": "This is the flehmen response. By curling the upper lip, the horse helps direct scent molecules toward the vomeronasal, or Jacobson’s, organ. It is often seen when stallions investigate mares, but any horse may flehmen in response to an unfamiliar smell or taste."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Она смеется"
+          "text": "Laughing"
         },
         {
           "id": "answer-02",
-          "text": "Она злится"
+          "text": "Anger"
         },
         {
           "id": "answer-03",
-          "text": "Флемен"
+          "text": "The flehmen response"
         },
         {
           "id": "answer-04",
-          "text": "Пигидий"
+          "text": "A pygidium"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Если седлать коня сразу после еды, то у него будет:",
-        "explanation": "Если седлать коня сразу после еды и брать его в активную работу, то у него могут случиться тяжелые колики, одышка или заворот кишок. Полный желудок сильно увеличивается в объеме, давит на диафрагму и мешает легким нормально расширяться, а туго затянутая подпруга седла дополнительно сжимает брюшную полость, грубо нарушая весь процесс пищеварения и циркуляцию крови."
+        "question": "What may happen if a horse is worked hard immediately after a substantial meal?",
+        "explanation": "Hard exercise immediately after a large grain or forage meal may cause discomfort and can interfere with comfortable breathing and digestion. Allow an appropriate rest period after a substantial meal, while recognizing that access to forage and water should not be unnecessarily withheld. The interval depends on meal size and exercise intensity."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Несварение"
+          "text": "Digestive discomfort"
         },
         {
           "id": "answer-02",
-          "text": "Острый ламинит"
+          "text": "Acute laminitis in every case"
         },
         {
           "id": "answer-03",
-          "text": "Опухание ног"
+          "text": "Swollen legs"
         },
         {
           "id": "answer-04",
-          "text": "Отек легких"
+          "text": "Pulmonary edema"
         },
         {
           "id": "answer-05",
-          "text": "Ничего не будет"
+          "text": "Nothing can ever happen"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Можно ли чистить коня в деннике?",
-        "explanation": "Чистить коня в деннике настоятельно не рекомендуется, за исключением экстренных случаев или условий сильной непогоды. Денник — это замкнутое пространство, где летящая при чистке пыль, перхоть и шерсть быстро концентрируются в воздухе, загрязняя кормушку, попону и дыхательные пути самой лошади. Кроме того, в узком помещении резко возрастает риск травм: испугавшись или уклоняясь от щетки, лошадь может нечаянно прижать человека к стене или наступить ему на ногу. Для безопасной и гигиеничной чистки всегда лучше выводить животное в специально оборудованный проход конюшни на развязки или на уличную площадку."
+        "question": "Is a stall the best place to groom a horse?",
+        "explanation": "A well-ventilated stall can be used when necessary, but a designated grooming area or safe cross-tie space is usually preferable. It reduces dust around bedding and feed and gives the handler more room and a clearer escape route. Wherever grooming occurs, the horse must be safely restrained and the area kept tidy."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Можно и даже нужно"
+          "text": "Yes, it is always the best place"
         },
         {
           "id": "answer-02",
-          "text": "Нельзя \\ не желательно"
+          "text": "No—a suitable grooming area is generally safer and cleaner"
         },
         {
           "id": "answer-03",
-          "text": "Можно только кобыл, а жеребцов — нельзя"
+          "text": "Only mares may be groomed in a stall"
         },
         {
           "id": "answer-04",
-          "text": "Можно только жеребцов, а кобыл — нельзя"
+          "text": "Only stallions may be groomed in a stall"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "На какой срок можно оставлять рабочие бинты на ногах лошадей?",
-        "explanation": "На 2 часа (и даже меньше) оставляют исключительно рабочие бинты, которые надевают строго на время тренировки для поддержки сухожилий во время нагрузок. Если оставить трикотажный или эластичный рабочий бинт на ноге дольше этого времени, из-за отсутствия толстого защитного ватника он начнет сильно передавливать кровеносные сосуды и вызовет опасный перегрев связок. А ограничение в 12 часов относится только к толстым денниковым (госпитальным) бинтам, которые наматываются поверх мягких ватников для отдыха после тяжелой работы или во время транспортировки."
+        "question": "How long should exercise bandages remain on a horse’s legs?",
+        "explanation": "Exercise bandages are intended for the work period and should be removed promptly afterward—typically within about two hours of application. They must be applied evenly by a competent person, because excessive pressure, slipping, heat, or wrinkles can damage the leg. Stable bandages are different and require suitable padding and monitoring."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "1 час"
+          "text": "One hour in every situation"
         },
         {
           "id": "answer-02",
-          "text": "2 часа"
+          "text": "Only for the exercise period—usually no more than about two hours"
         },
         {
           "id": "answer-03",
-          "text": "3 часа"
+          "text": "Three hours"
         },
         {
           "id": "answer-04",
-          "text": "4 часа"
+          "text": "Four hours"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Спортивной лошади в интенсивном тренинге исключительно пастбищный рацион:",
-        "explanation": "Спортивной лошади в интенсивном тренинге не подходит исключительно пастбищный рацион, потому что из-за высокого содержания воды в свежей траве (до 85%) животному приходится поедать огромные объемы корма, что приводит к переполнению желудочно-кишечного тракта, росту «травяного живота» и, как следствие, к одышке и потере маневренности во время нагрузок. Кроме того, сочная зеленая масса слишком быстро проходит через пищеварительную систему, не обеспечивая лошадь плотной, долгоиграющей энергией и выносливостью, которые дают концентрированные корма (овес, мюсли) и качественное сухое сено. Таким образом, лошадь слабеет от низкой концентрации питательных веществ относительно объема съеденного и тяжести в желудке во время работы."
+        "question": "For a sport horse in intensive training, a pasture-only diet is generally:",
+        "explanation": "Good pasture can supply forage and substantial energy, but whether it meets the needs of a hard-working sport horse depends on grass quality, intake, workload, body condition, and mineral balance. Many such horses need conserved forage, a ration balancer, or additional energy, but concentrates should be added only after the whole diet is assessed."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вреден"
+          "text": "Potentially inadequate without a nutritional assessment"
         },
         {
           "id": "answer-02",
-          "text": "Полезен"
+          "text": "Automatically ideal for every sport horse"
         },
         {
           "id": "answer-03",
-          "text": "Безразлична"
+          "text": "Completely irrelevant to performance"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Если на галопе ваш конь часто фыркает или сбивается с ноги, надо:",
-        "explanation": "Если на галопе ваш конь часто фыркает или сбивается с ноги, надо перевести его на шаг, проверить чистоту дыхательных путей и убедиться в отсутствии болевого синдрома в спине или конечностях. Фырканье часто указывает на попытку очистить носоглотку от скопившейся пыли, аллергенов или слизи, но в сочетании со сбоем с аллюра это может быть сигналом хромоты, зажатости мышц спины или дискомфорта от неподходящего седла. Если физические причины и дефекты амуниции исключены, необходимо обратиться к тренеру для коррекции баланса лошади и исправления ошибок в командах всадника, так как частая смена ноги на галопе обычно вызвана потерей равновесия."
+        "question": "If a horse repeatedly snorts or loses rhythm and lead in canter, what should you do?",
+        "explanation": "Reduce the pace or return to walk and assess the horse. Repeated loss of rhythm or lead can reflect fatigue, poor balance, pain, lameness, back discomfort, or unsuitable tack. Snorting alone can be normal, but respiratory noise, discharge, coughing, poor recovery, or repeated performance changes warrant veterinary assessment."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Еще больше высылать его в галоп шенкелями или хлыстом"
+          "text": "Drive the horse harder with the legs or whip"
         },
         {
           "id": "answer-02",
-          "text": "Сбавить темп или и вовсе перевести на шаг"
+          "text": "Slow down or return to walk and investigate the cause"
         },
         {
           "id": "answer-03",
-          "text": "Ничего не делать, продолжать тренировку"
+          "text": "Ignore it and continue the session"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Что такое ламинит?",
-        "explanation": "Ламинит (или опой) — это крайне опасное, диффузное воспаление основы кожи копыта (ламин), которое приводит к разрушению связи между копытной костью и роговой капсулой. Под весом лошади освободившаяся копытная кость начинает смещаться вниз или поворачиваться, что в тяжелых случаях приводит к прободению подошвы и неизлечимой хромоте. Заболевание возникает как системная катастрофа в организме из-за резкого выброса токсинов в кровь, что чаще всего провоцируется поеданием избытка зерна или сочной травы, поением разгоряченной лошади ледяной водой, либо сильной нагрузкой по твердому грунту."
+        "question": "What is laminitis?",
+        "explanation": "Laminitis is a painful failure and inflammation of the lamellae that suspend the coffin bone within the hoof capsule. In severe cases the bone can rotate or sink. Common risk factors include endocrine disease, excessive intake of starch or pasture sugars, severe systemic illness, and overload of a supporting limb—not drinking cool water after exercise."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Заболевание ЖКТ лошади"
+          "text": "A gastrointestinal disease"
         },
         {
           "id": "answer-02",
-          "text": "Вредная привычка лошади"
+          "text": "A stable vice"
         },
         {
           "id": "answer-03",
-          "text": "Воспаление копыта лошади"
+          "text": "A painful disease of the hoof lamellae"
         },
         {
           "id": "answer-04",
-          "text": "Порок сердца лошади"
+          "text": "A heart defect"
         }
       ]
     }
