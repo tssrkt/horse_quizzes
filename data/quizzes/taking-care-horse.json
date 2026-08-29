@@ -942,5 +942,6 @@
     }
   ],
   "cover": "img/covers/taking-care-horse.webp",
-  "previous_quiz": "horseman-words"
+  "previous_quiz": "horseman-words",
+  "english_quiz": "taking-care-horse-en"
 }
