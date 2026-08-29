@@ -7,1009 +7,1009 @@
   "source_revision": "42351ab6fa97093ce227083848f0d5d82da7218d138e859b02c3e6eafaa0f3f8",
   "mode": "created",
   "fields": {
-    "title": "Породы лошадей",
-    "short_description": "Это, пожалуй, самая простая викторина среди представленных на сайте, а также идеальный вариант для тех кто не знает с чего начать. Кроме того, здесь лучшие фотографии самых узнаваемых пород. ",
-    "intro": "Это, пожалуй, самая простая викторина среди представленных на сайте, а также идеальный вариант для тех кто не знает с чего начать. Кроме того, здесь лучшие фотографии самых узнаваемых пород. ",
-    "questionImagesAlt": "Фотография лошади для определения породы"
+    "title": "Horse Breeds",
+    "short_description": "This is probably the easiest quiz on the site and an ideal choice for anyone who does not know where to start. It also features some of the best photos of the most recognizable horse breeds. ",
+    "intro": "This is probably the easiest quiz on the site and an ideal choice for anyone who does not know where to start. It also features some of the best photos of the most recognizable horse breeds. ",
+    "questionImagesAlt": "Photograph of a horse for breed identification"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Арабская чистокровная — это одна из самых древних и узнаваемых пород в мире, которую можно мгновенно отличить по уникальному «щучьему» (вогнутому) профилю головы, огромным выразительным глазам, широким ноздрям и высокому, горделивому поставу шеи. Еще одной яркой визитной карточкой породы является высоко поднятый, словно флаг, хвост, который лошадь несет во время движения на летящей, пружинящей рыси. Арабские лошади отличаются сухим и изящным телосложением, тонкими ногами, невероятной выносливостью и благородным, темпераментным, но ориентированным на человека характером, а их силуэт невозможно перепутать ни с одной другой породой."
+        "question": "What breed is this?",
+        "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         },
         {
           "id": "answer-02",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-03",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-04",
-          "text": "Орловский рысак"
+          "text": "Orlov Trotter"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Тинкер (цыганский коб) — это компактная, мощная лошадь тяжеловозного типа, которую легко узнать по экстремально густым фризам (щеткам на ногах), а также по роскошной, часто волнистой гриве и хвосту. В отличие от гигантских тяжеловозов вроде шайров, тинкеры имеют небольшой рост (в среднем 135–155 см), широкую грудь и характерный мощный, приземистый силуэт коба. Их масть может быть абсолютно любой — от классической пегой до вороной, гнедой или серой, а визитной карточкой породы, помимо пышного волосяного покрова, является невероятно покладистый, уравновешенный и дружелюбный нрав."
+        "question": "What breed is this?",
+        "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (циганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фьордская лошадь (норвежский фьорд) — одна из древнейших и самых чистокровных пород, которую можно мгновенно узнать по саврасой масти и уникальной двухцветной гриве. Темные волосы растут строго по центру гривы и хвоста, а по бокам их обрамляют светлые, серебристо-белые пряди. Традиционно гриву фьордов стригут коротко и полукругом, чтобы она стояла торчком, эффектно подчеркивая этот контраст и мощный изгиб шеи. От других невысоких пород (их рост всего 135–150 см) фьорды отличаются коренастым, крепким телосложением, обязательным «ремнем» вдоль спины, «зеброидными» полосками на ногах и выносливым, уравновешенным характером."
+        "question": "What breed is this?",
+        "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Тинкер (цыганский коб) — это компактная, мощная лошадь тяжеловозного типа, которую легко узнать по экстремально густым фризам (щеткам на ногах), а также по роскошной, часто волнистой гриве и хвосту. В отличие от гигантских тяжеловозов вроде шайров, тинкеры имеют небольшой рост (в среднем 135–155 см), широкую грудь и характерный мощный, приземистый силуэт коба. Их масть может быть абсолютно любой — от классической пегой до вороной, гнедой или серой, а визитной карточкой породы, помимо пышного волосяного покрова, является невероятно покладистый, уравновешенный и дружелюбный нрав."
+        "question": "What breed is this?",
+        "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Клейдесдаль — это шотландская порода массивных и высоких тяжеловозов (ростом до 170–183 см), главной визитной карточкой которой является сочетание огромной силы с удивительно элегантным, гармоничным сложением и высоким выходом длинной, изогнутой шеи. Для породы характерны крупные белые отметины на голове и ногах (пегость сабино), а также роскошные, очень длинные и шелковистые фризы (щетки). Отличительной чертой клейдесдалей в движении является их нетипичный для тяжеловозов высокий, размашистый и энергичный шаг, при котором они очень четко и высоко поднимают ноги, демонстрируя нарядный и величественный ход."
+        "question": "What breed is this?",
+        "explanation": "The Clydesdale is a Scottish breed of massive, tall draft horses, standing up to about 170–183 cm. Its hallmark is the combination of immense strength with surprisingly elegant, harmonious conformation and a long, arched neck set high on the shoulders. The breed commonly has extensive white markings on the head and legs, often associated with sabino patterning, as well as luxurious, very long, silky feathering. In motion, Clydesdales are notable for an unusually high, sweeping, energetic action for a draft breed, lifting their feet cleanly and distinctly to create an impressive, majestic gait."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фризская лошадь (фриз) — это старинная голландская порода, которую легко узнать по исключительно вороной масти и полному отсутствию белых отметин. Главными признаками породы являются высокий, горделивый постав шеи с выразительным изгибом, а также невероятно густые, длинные и волнистые грива, хвост и роскошные щетки (фризы) на ногах, которые ниспадают до самой земли. В движении фризов легко отличить по «каретному» ходу — очень высокому, ритмичному и размашистому подъему передних ног на рыси, что придает этой массивной, но элегантной лошади величественный и театральный вид."
+        "question": "What breed is this?",
+        "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Арабская чистокровная — это одна из самых древних и узнаваемых пород в мире, которую можно мгновенно отличить по уникальному «щучьему» (вогнутому) профилю головы, огромным выразительным глазам, широким ноздрям и высокому, горделивому поставу шеи. Еще одной яркой визитной карточкой породы является высоко поднятый, словно флаг, хвост, который лошадь несет во время движения на летящей, пружинящей рыси. Арабские лошади отличаются сухим и изящным телосложением, тонкими ногами, невероятной выносливостью и благородным, темпераментным, но ориентированным на человека характером, а их силуэт невозможно перепутать ни с одной другой породой."
+        "question": "What breed is this?",
+        "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Ахалтекинская чистокровная (ахалтекинец) — это древнейшая верховая порода, которую невозможно перепутать ни с одной другой благодаря уникальному «металлическому» атласному блеску шерсти (особенно у соловых, буланых и изабелловых лошадей) и экстремально сухому, поджарому телосложению. Эти лошади имеют очень длинные, утонченные линии корпуса, высокую изящную шею, глубокую грудь и элегантную голову с огромными, миндалевидными глазами «восточного» разреза. Главной визитной карточкой ахалтекинца также является почти полное отсутствие гривы (волосы у них очень редкие и короткие поэтому их сбривают полностью)."
+        "question": "What breed is this?",
+        "explanation": "The Akhal-Teke is one of the oldest riding breeds and is virtually impossible to confuse with any other because of its distinctive metallic, satin-like coat sheen, especially noticeable in palomino, buckskin, and cremello horses, and its extremely lean, dry conformation. These horses have very long, refined body lines, a high-set elegant neck, a deep chest, and a fine head with large, almond-shaped eyes. Another hallmark of the Akhal-Teke is its very sparse mane; the hair is often so thin and short that the mane may be clipped off entirely."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Польский коник — это уникальная аборигенная порода одичавших низкорослых лошадей (ростом 130–140 см), которую можно мгновенно узнать по исключительно мышастой масти (среди них было обнаружено всего несколько каурых). Главными отличительными признаками породы являются обязательные «дикие» отметины: черный ремень вдоль всей спины, темная полоса на плечах и поперечные «зеброидные» полосы на ногах. От других пони и невысоких коней польский коник отличается коренастым, бочкообразным телосложением, очень плотной шерстью, грубоватой головой с прямым профилем и темной, жесткой гривой, а его внешность максимально приближена к облику их прямого дикого предка — европейского тарпана."
+        "question": "What breed is this?",
+        "explanation": "The Konik is a distinctive primitive Polish breed of small, semi-feral horses, usually standing about 130–140 cm, and is recognizable by its predominantly grullo coat; only a few red dun individuals have been recorded. Its defining features are primitive markings: a black dorsal stripe running the length of the back, a dark shoulder stripe, and transverse zebra-like bars on the legs. Compared with other ponies and small horses, the Konik has a stocky, barrel-shaped body, a very dense coat, a somewhat coarse head with a straight profile, and a dark, stiff mane. Its appearance closely resembles the historic European tarpan."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Украинская верховая"
+          "text": "Ukrainian Riding Horse"
         },
         {
           "id": "answer-04",
-          "text": "Польский коник"
+          "text": "Konik"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Тинкер (цыганский коб) — это компактная, мощная лошадь тяжеловозного типа, которую легко узнать по экстремально густым фризам (щеткам на ногах), а также по роскошной, часто волнистой гриве и хвосту. В отличие от гигантских тяжеловозов вроде шайров, тинкеры имеют небольшой рост (в среднем 135–155 см), широкую грудь и характерный мощный, приземистый силуэт коба. Их масть может быть абсолютно любой — от классической пегой до вороной, гнедой или серой, а визитной карточкой породы, помимо пышного волосяного покрова, является невероятно покладистый, уравновешенный и дружелюбный нрав."
+        "question": "What breed is this?",
+        "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фризская лошадь (фриз) — это старинная голландская порода, которую легко узнать по исключительно вороной масти и полному отсутствию белых отметин. Главными признаками породы являются высокий, горделивый постав шеи с выразительным изгибом, а также невероятно густые, длинные и волнистые грива, хвост и роскошные щетки (фризы) на ногах, которые ниспадают до самой земли. В движении фризов легко отличить по «каретному» ходу — очень высокому, ритмичному и размашистому подъему передних ног на рыси, что придает этой массивной, но элегантной лошади величественный и театральный вид."
+        "question": "What breed is this?",
+        "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фьордская лошадь (норвежский фьорд) — одна из древнейших и самых чистокровных пород, которую можно мгновенно узнать по саврасой масти и уникальной двухцветной гриве. Темные волосы растут строго по центру гривы и хвоста, а по бокам их обрамляют светлые, серебристо-белые пряди. Традиционно гриву фьордов стригут коротко и полукругом, чтобы она стояла торчком, эффектно подчеркивая этот контраст и мощный изгиб шеи. От других невысоких пород (их рост всего 135–150 см) фьорды отличаются коренастым, крепким телосложением, обязательным «ремнем» вдоль спины, «зеброидными» полосками на ногах и выносливым, уравновешенным характером."
+        "question": "What breed is this?",
+        "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Тинкер (цыганский коб) — это компактная, мощная лошадь тяжеловозного типа, которую легко узнать по экстремально густым фризам (щеткам на ногах), а также по роскошной, часто волнистой гриве и хвосту. В отличие от гигантских тяжеловозов вроде шайров, тинкеры имеют небольшой рост (в среднем 135–155 см), широкую грудь и характерный мощный, приземистый силуэт коба. Их масть может быть абсолютно любой — от классической пегой до вороной, гнедой или серой, а визитной карточкой породы, помимо пышного волосяного покрова, является невероятно покладистый, уравновешенный и дружелюбный нрав."
+        "question": "What breed is this?",
+        "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Клейдесдаль — это шотландская порода массивных и высоких тяжеловозов (ростом до 170-183 см), главной визитной карточкой которой является сочетание огромной силы с удивительно элегантным, гармоничным сложением и высоким выходом длинной, изогнутой шеи. Для породы характерны крупные белые отметины на голове и ногах (пегость сабино), а также роскошные, очень длинные и шелковистые фризы (щетки). Отличительной чертой клейдесдалей в движении является их нетипичный для тяжеловозов высокий, размашистый и энергичный шаг, при котором они очень четко и высоко поднимают ноги, демонстрируя нарядный и величественный ход."
+        "question": "What breed is this?",
+        "explanation": "The Clydesdale is a Scottish breed of massive, tall draft horses, standing up to about 170–183 cm. Its hallmark is the combination of immense strength with surprisingly elegant, harmonious conformation and a long, arched neck set high on the shoulders. The breed commonly has extensive white markings on the head and legs, often associated with sabino patterning, as well as luxurious, very long, silky feathering. In motion, Clydesdales are notable for an unusually high, sweeping, energetic action for a draft breed, lifting their feet cleanly and distinctly to create an impressive, majestic gait."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Арабская чистокровная — это одна из самых древних и узнаваемых пород в мире, которую можно мгновенно отличить по уникальному «щучьему» (вогнутому) профилю головы, огромным выразительным глазам, широким ноздрям и высокому, горделивому поставу шеи. Еще одной яркой визитной карточкой породы является высоко поднятый, словно флаг, хвост, который лошадь несет во время движения на летящей, пружинящей рыси. Арабские лошади отличаются сухим и изящным телосложением, тонкими ногами, невероятной выносливостью и благородным, темпераментным, но ориентированным на человека характером, а их силуэт невозможно перепутать ни с одной другой породой."
+        "question": "What breed is this?",
+        "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Тинкер (цыганский коб) — это компактная, мощная лошадь тяжеловозного типа, которую легко узнать по экстремально густым фризам (щеткам на ногах), а также по роскошной, часто волнистой гриве и хвосту. В отличие от гигантских тяжеловозов вроде шайров, тинкеры имеют небольшой рост (в среднем 135–155 см), широкую грудь и характерный мощный, приземистый силуэт коба. Их масть может быть абсолютно любой — от классической пегой до вороной, гнедой или серой, а визитной карточкой породы, помимо пышного волосяного покрова, является невероятно покладистый, уравновешенный и дружелюбный нрав."
+        "question": "What breed is this?",
+        "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Кладрубская лошадь (кладруб) — старейшая чешская упряжная порода каретных лошадей эпохи барокко, которую легко узнать по экзотической длинной голове с экстремально выпуклым, горбоносым (римским) профилем и крупным, добрым глазам. Эти величественные, рослые кони (высотой в холке до 175–180 см) выводились строго для королевских церемоний Габсбургов, поэтому сегодня по стандарту они бывают исключительно двух мастей: серой и вороной, без каких-либо отметин. От других упряжных пород их отличает сочетание мощного, костистого корпуса тяжеловеса с высоко поставленной изогнутой «лебединой» шеей, а в движении их визитной карточкой является «каретный ход» — эффектная, ритмичная рысь с очень высоким подъемом передних ног."
+        "question": "What breed is this?",
+        "explanation": "The Kladruber is one of the oldest Czech carriage breeds of the Baroque type. It is easily recognized by its unusually long head with a strongly convex Roman profile and large, gentle eyes. These majestic, tall horses, reaching about 175–180 cm at the withers, were bred specifically for the ceremonial carriages of the Habsburg court. Today the breed standard recognizes only two colors: gray and black, without white markings. Kladrubers combine a powerful, substantial body with a high-set, arched swan neck, and their hallmark in motion is an impressive, rhythmic carriage trot with pronounced high action of the forelegs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фьордская лошадь (норвежский фьорд) — одна из древнейших и самых чистокровных пород, которую можно мгновенно узнать по саврасой масти и уникальной двухцветной гриве. Темные волосы растут строго по центру гривы и хвоста, а по бокам их обрамляют светлые, серебристо-белые пряди. Традиционно гриву фьордов стригут коротко и полукругом, чтобы она стояла торчком, эффектно подчеркивая этот контраст и мощный изгиб шеи. От других невысоких пород (их рост всего 135–150 см) фьорды отличаются коренастым, крепким телосложением, обязательным «ремнем» вдоль спины, «зеброидными» полосками на ногах и выносливым, уравновешенным характером."
+        "question": "What breed is this?",
+        "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Тинкер (цыганский коб) — это компактная, мощная лошадь тяжеловозного типа, которую легко узнать по экстремально густым фризам (щеткам на ногах), а также по роскошной, часто волнистой гриве и хвосту. В отличие от гигантских тяжеловозов вроде шайров, тинкеры имеют небольшой рост (в среднем 135–155 см), широкую грудь и характерный мощный, приземистый силуэт коба. Их масть может быть абсолютно любой — от классической пегой до вороной, гнедой или серой, а визитной карточкой породы, помимо пышного волосяного покрова, является невероятно покладистый, уравновешенный и дружелюбный нрав."
+        "question": "What breed is this?",
+        "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Арабская чистокровная — это одна из самых древних и узнаваемых пород в мире, которую можно мгновенно отличить по уникальному «щучьему» (вогнутому) профилю головы, огромным выразительным глазам, широким ноздрям и высокому, горделивому поставу шеи. Еще одной яркой визитной карточкой породы является высоко поднятый, словно флаг, хвост, который лошадь несет во время движения на летящей, пружинящей рыси. Арабские лошади отличаются сухим и изящным телосложением, тонкими ногами, невероятной выносливостью и благородным, темпераментным, но ориентированным на человека характером, а их силуэт невозможно перепутать ни с одной другой породой."
+        "question": "What breed is this?",
+        "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фризская лошадь (фриз) — это старинная голландская порода, которую легко узнать по исключительно вороной масти и полному отсутствию белых отметин. Главными признаками породы являются высокий, горделивый постав шеи с выразительным изгибом, а также невероятно густые, длинные и волнистые грива, хвост и роскошные щетки (фризы) на ногах, которые ниспадают до самой земли. В движении фризов легко отличить по «каретному» ходу — очень высокому, ритмичному и размашистому подъему передних ног на рыси, что придает этой массивной, но элегантной лошади величественный и театральный вид."
+        "question": "What breed is this?",
+        "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фьордская лошадь (норвежский фьорд) — одна из древнейших и самых чистокровных пород, которую можно мгновенно узнать по саврасой масти и уникальной двухцветной гриве. Темные волосы растут строго по центру гривы и хвоста, а по бокам их обрамляют светлые, серебристо-белые пряди. Традиционно гриву фьордов стригут коротко и полукругом, чтобы она стояла торчком, эффектно подчеркивая этот контраст и мощный изгиб шеи. От других невысоких пород (их рост всего 135–150 см) фьорды отличаются коренастым, крепким телосложением, обязательным «ремнем» вдоль спины, «зеброидными» полосками на ногах и выносливым, уравновешенным характером."
+        "question": "What breed is this?",
+        "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Польский коник — это уникальная аборигенная порода одичавших низкорослых лошадей (ростом 130-140 см), которую можно мгновенно узнать по исключительно мышастой масти (среди них было обнаружено всего несколько каурых). Главными отличительными признаками породы являются обязательные «дикие» отметины: черный ремень вдоль всей спины, темная полоса на плечах и поперечные «зеброидные» полосы на ногах. От других пони и невысоких коней польский коник отличается коренастым, бочкообразным телосложением, очень плотной шерстью, грубоватой головой с прямым профилем и темной, жесткой гривой, а его внешность максимально приближена к облику их прямого дикого предка — европейского тарпана."
+        "question": "What breed is this?",
+        "explanation": "The Konik is a distinctive primitive Polish breed of small, semi-feral horses, usually standing about 130–140 cm, and is recognizable by its predominantly grullo coat; only a few red dun individuals have been recorded. Its defining features are primitive markings: a black dorsal stripe running the length of the back, a dark shoulder stripe, and transverse zebra-like bars on the legs. Compared with other ponies and small horses, the Konik has a stocky, barrel-shaped body, a very dense coat, a somewhat coarse head with a straight profile, and a dark, stiff mane. Its appearance closely resembles the historic European tarpan."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гуцульский пони"
+          "text": "Hucul Pony"
         },
         {
           "id": "answer-02",
-          "text": "Монгольская лошадь"
+          "text": "Mongolian Horse"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Польский коник"
+          "text": "Konik"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Шварцвальдская упряжная (шварцвальдский тяжеловоз) — это редкая немецкая порода легких тяжеловозов, визитной карточкой которой является исключительно темно-игреневая масть (темно-рыжая или бурая с ОЗВ). У представителей этой породы густые, длинные белоснежные или льняные грива и хвост, часто бывает проточина с «кошачьими следами». Этих выносливых лесных лошадок выводили в Южной Германии для работы в густых чащах, поэтому они имеют относительно небольшой для тяжеловозов рост (около 147-160 см), коренастый прямоугольный корпус, короткую голову и мускулистую шею при полном отсутствии массивных фризов на ногах. От похожих на них невысоких хафлингеров шварцвальдцы отличаются более крупным костяком, выраженным тяжеловозным типом сложения и очень темным (иногда почти черным) шоколадным оттенком корпуса."
+        "question": "What breed is this?",
+        "explanation": "The Black Forest Horse (Black Forest Draft) is a rare German light draft breed whose hallmark is a dark flaxen chestnut coat, ranging from dark chestnut to brownish shades with a flaxen mane and tail. These horses have thick, long, snow-white or flaxen manes and tails, and may also show a blaze with “cat tracks.” Bred in southern Germany for work in dense forests, they are relatively small for draft horses, around 147–160 cm, with a stocky rectangular body, short head, muscular neck, and no heavy feathering on the legs. Compared with the smaller Haflinger, the Black Forest Horse has heavier bone, a more pronounced draft type, and a much darker, sometimes nearly black, chocolate-colored body."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Хафлингер"
+          "text": "Haflinger"
         },
         {
           "id": "answer-02",
-          "text": "Шварцвальдская упряжная"
+          "text": "Black Forest Horse"
         },
         {
           "id": "answer-03",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-04",
-          "text": "Советский тяжеловоз"
+          "text": "Soviet Heavy Draft"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Кладрубская лошадь (кладруб) — старейшая чешская упряжная порода каретных лошадей эпохи барокко, которую легко узнать по экзотической длинной голове с экстремально выпуклым, горбоносым (римским) профилем и крупным, добрым глазам. Эти величественные, рослые кони (высотой в холке до 175–180 см) выводились строго для королевских церемоний Габсбургов, поэтому сегодня по стандарту они бывают исключительно двух мастей: серой и вороной, без каких-либо отметин. От других упряжных пород их отличает сочетание мощного, костистого корпуса тяжеловеса с высоко поставленной изогнутой «лебединой» шеей, а в движении их визитной карточкой является «каретный ход» — эффектная, ритмичная рысь с очень высоким подъемом передних ног."
+        "question": "What breed is this?",
+        "explanation": "The Kladruber is one of the oldest Czech carriage breeds of the Baroque type. It is easily recognized by its unusually long head with a strongly convex Roman profile and large, gentle eyes. These majestic, tall horses, reaching about 175–180 cm at the withers, were bred specifically for the ceremonial carriages of the Habsburg court. Today the breed standard recognizes only two colors: gray and black, without white markings. Kladrubers combine a powerful, substantial body with a high-set, arched swan neck, and their hallmark in motion is an impressive, rhythmic carriage trot with pronounced high action of the forelegs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Арабская чистокровная — это одна из самых древних и узнаваемых пород в мире, которую можно мгновенно отличить по уникальному «щучьему» (вогнутому) профилю головы, огромным выразительным глазам, широким ноздрям и высокому, горделивому поставу шеи. Еще одной яркой визитной карточкой породы является высоко поднятый, словно флаг, хвост, который лошадь несет во время движения на летящей, пружинящей рыси. Арабские лошади отличаются сухим и изящным телосложением, тонкими ногами, невероятной выносливостью и благородным, темпераментным, но ориентированным на человека характером, а их силуэт невозможно перепутать ни с одной другой породой."
+        "question": "What breed is this?",
+        "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фьордская лошадь (норвежский фьорд) — одна из древнейших и самых чистокровных пород, которую можно мгновенно узнать по саврасой масти и уникальной двухцветной гриве. Темные волосы растут строго по центру гривы и хвоста, а по бокам их обрамляют светлые, серебристо-белые пряди. Традиционно гриву фьордов стригут коротко и полукругом, чтобы она стояла торчком, эффектно подчеркивая этот контраст и мощный изгиб шеи. От других невысоких пород (их рост всего 135–150 см) фьорды отличаются коренастым, крепким телосложением, обязательным «ремнем» вдоль спины, «зеброидными» полосками на ногах и выносливым, уравновешенным характером."
+        "question": "What breed is this?",
+        "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Ахалтекинская чистокровная (ахалтекинец) — это древнейшая верховая порода, которую невозможно перепутать ни с одной другой благодаря уникальному «металлическому» атласному блеску шерсти (особенно у соловых, буланых и изабелловых лошадей) и экстремально сухому, поджарому телосложению. Эти лошади имеют очень длинные, утонченные линии корпуса, высокую изящную шею, глубокую грудь и элегантную голову с огромными, миндалевидными глазами «восточного» разреза. Главной визитной карточкой ахалтекинца также является почти полное отсутствие гривы (волосы у них очень редкие и короткие поэтому их сбривают полностью)."
+        "question": "What breed is this?",
+        "explanation": "The Akhal-Teke is one of the oldest riding breeds and is virtually impossible to confuse with any other because of its distinctive metallic, satin-like coat sheen, especially noticeable in palomino, buckskin, and cremello horses, and its extremely lean, dry conformation. These horses have very long, refined body lines, a high-set elegant neck, a deep chest, and a fine head with large, almond-shaped eyes. Another hallmark of the Akhal-Teke is its very sparse mane; the hair is often so thin and short that the mane may be clipped off entirely."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фризская лошадь (фриз) — это старинная голландская порода, которую легко узнать по исключительно вороной масти и полному отсутствию белых отметин. Главными признаками породы являются высокий, горделивый постав шеи с выразительным изгибом, а также невероятно густые, длинные и волнистые грива, хвост и роскошные щетки (фризы) на ногах, которые ниспадают до самой земли. В движении фризов легко отличить по «каретному» ходу — очень высокому, ритмичному и размашистому подъему передних ног на рыси, что придает этой массивной, но элегантной лошади величественный и театральный вид."
+        "question": "What breed is this?",
+        "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Арабская чистокровная — это одна из самых древних и узнаваемых пород в мире, которую можно мгновенно отличить по уникальному «щучьему» (вогнутому) профилю головы, огромным выразительным глазам, широким ноздрям и высокому, горделивому поставу шеи. Еще одной яркой визитной карточкой породы является высоко поднятый, словно флаг, хвост, который лошадь несет во время движения на летящей, пружинящей рыси. Арабские лошади отличаются сухим и изящным телосложением, тонкими ногами, невероятной выносливостью и благородным, темпераментным, но ориентированным на человека характером, а их силуэт невозможно перепутать ни с одной другой породой."
+        "question": "What breed is this?",
+        "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фьордская лошадь (норвежский фьорд) — одна из древнейших и самых чистокровных пород, которую можно мгновенно узнать по саврасой масти и уникальной двухцветной гриве. Темные волосы растут строго по центру гривы и хвоста, а по бокам их обрамляют светлые, серебристо-белые пряди. Традиционно гриву фьордов стригут коротко и полукругом, чтобы она стояла торчком, эффектно подчеркивая этот контраст и мощный изгиб шеи. От других невысоких пород (их рост всего 135–150 см) фьорды отличаются коренастым, крепким телосложением, обязательным «ремнем» вдоль спины, «зеброидными» полосками на ногах и выносливым, уравновешенным характером."
+        "question": "What breed is this?",
+        "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Ахалтекинская чистокровная (ахалтекинец) — это древнейшая верховая порода, которую невозможно перепутать ни с одной другой благодаря уникальному «металлическому» атласному блеску шерсти (особенно у соловых, буланых и изабелловых лошадей) и экстремально сухому, поджарому телосложению. Эти лошади имеют очень длинные, утонченные линии корпуса, высокую изящную шею, глубокую грудь и элегантную голову с огромными, миндалевидными глазами «восточного» разреза. Главной визитной карточкой ахалтекинца также является почти полное отсутствие гривы (волосы у них очень редкие и короткие поэтому их сбривают полностью)."
+        "question": "What breed is this?",
+        "explanation": "The Akhal-Teke is one of the oldest riding breeds and is virtually impossible to confuse with any other because of its distinctive metallic, satin-like coat sheen, especially noticeable in palomino, buckskin, and cremello horses, and its extremely lean, dry conformation. These horses have very long, refined body lines, a high-set elegant neck, a deep chest, and a fine head with large, almond-shaped eyes. Another hallmark of the Akhal-Teke is its very sparse mane; the hair is often so thin and short that the mane may be clipped off entirely."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Арабская чистокровная — это одна из самых древних и узнаваемых пород в мире, которую можно мгновенно отличить по уникальному «щучьему» (вогнутому) профилю головы, огромным выразительным глазам, широким ноздрям и высокому, горделивому поставу шеи. Еще одной яркой визитной карточкой породы является высоко поднятый, словно флаг, хвост, который лошадь несет во время движения на летящей, пружинящей рыси. Арабские лошади отличаются сухим и изящным телосложением, тонкими ногами, невероятной выносливостью и благородным, темпераментным, но ориентированным на человека характером, а их силуэт невозможно перепутать ни с одной другой породой."
+        "question": "What breed is this?",
+        "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Кладрубская лошадь (кладруб) — старейшая чешская упряжная порода каретных лошадей эпохи барокко, которую легко узнать по экзотической длинной голове с экстремально выпуклым, горбоносым (римским) профилем и крупным, добрым глазам. Эти величественные, рослые кони (высотой в холке до 175–180 см) выводились строго для королевских церемоний Габсбургов, поэтому сегодня по стандарту они бывают исключительно двух мастей: серой и вороной, без каких-либо отметин. От других упряжных пород их отличает сочетание мощного, костистого корпуса тяжеловеса с высоко поставленной изогнутой «лебединой» шеей, а в движении их визитной карточкой является «каретный ход» — эффектная, ритмичная рысь с очень высоким подъемом передних ног."
+        "question": "What breed is this?",
+        "explanation": "The Kladruber is one of the oldest Czech carriage breeds of the Baroque type. It is easily recognized by its unusually long head with a strongly convex Roman profile and large, gentle eyes. These majestic, tall horses, reaching about 175–180 cm at the withers, were bred specifically for the ceremonial carriages of the Habsburg court. Today the breed standard recognizes only two colors: gray and black, without white markings. Kladrubers combine a powerful, substantial body with a high-set, arched swan neck, and their hallmark in motion is an impressive, rhythmic carriage trot with pronounced high action of the forelegs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фьордская лошадь (норвежский фьорд) — одна из древнейших и самых чистокровных пород, которую можно мгновенно узнать по саврасой масти и уникальной двухцветной гриве. Темные волосы растут строго по центру гривы и хвоста, а по бокам их обрамляют светлые, серебристо-белые пряди. Традиционно гриву фьордов стригут коротко и полукругом, чтобы она стояла торчком, эффектно подчеркивая этот контраст и мощный изгиб шеи. От других невысоких пород (их рост всего 135–150 см) фьорды отличаются коренастым, крепким телосложением, обязательным «ремнем» вдоль спины, «зеброидными» полосками на ногах и выносливым, уравновешенным характером."
+        "question": "What breed is this?",
+        "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Ахалтекинская чистокровная (ахалтекинец) — это древнейшая верховая порода, которую невозможно перепутать ни с одной другой благодаря уникальному «металлическому» атласному блеску шерсти (особенно у соловых, буланых и изабелловых лошадей) и экстремально сухому, поджарому телосложению. Эти лошади имеют очень длинные, утонченные линии корпуса, высокую изящную шею, глубокую грудь и элегантную голову с огромными, миндалевидными глазами «восточного» разреза. Главной визитной карточкой ахалтекинца также является почти полное отсутствие гривы (волосы у них очень редкие и короткие поэтому их сбривают полностью)."
+        "question": "What breed is this?",
+        "explanation": "The Akhal-Teke is one of the oldest riding breeds and is virtually impossible to confuse with any other because of its distinctive metallic, satin-like coat sheen, especially noticeable in palomino, buckskin, and cremello horses, and its extremely lean, dry conformation. These horses have very long, refined body lines, a high-set elegant neck, a deep chest, and a fine head with large, almond-shaped eyes. Another hallmark of the Akhal-Teke is its very sparse mane; the hair is often so thin and short that the mane may be clipped off entirely."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Арабская чистокровная — это одна из самых древних и узнаваемых пород в мире, которую можно мгновенно отличить по уникальному «щучьему» (вогнутому) профилю головы, огромным выразительным глазам, широким ноздрям и высокому, горделивому поставу шеи. Еще одной яркой визитной карточкой породы является высоко поднятый, словно флаг, хвост, который лошадь несет во время движения на летящей, пружинящей рыси. Арабские лошади отличаются сухим и изящным телосложением, тонкими ногами, невероятной выносливостью и благородным, темпераментным, но ориентированным на человека характером, а их силуэт невозможно перепутать ни с одной другой породой."
+        "question": "What breed is this?",
+        "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кладрубская лошадь"
+          "text": "Kladruber"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-04",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Фризская лошадь (фриз) — это старинная голландская порода, которую легко узнать по исключительно вороной масти и полному отсутствию белых отметин. Главными признаками породы являются высокий, горделивый постав шеи с выразительным изгибом, а также невероятно густые, длинные и волнистые грива, хвост и роскошные щетки (фризы) на ногах, которые ниспадают до самой земли. В движении фризов легко отличить по «каретному» ходу — очень высокому, ритмичному и размашистому подъему передних ног на рыси, что придает этой массивной, но элегантной лошади величественный и театральный вид."
+        "question": "What breed is this?",
+        "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Тинкер (цыганский коб) — это компактная, мощная лошадь тяжеловозного типа, которую легко узнать по экстремально густым фризам (щеткам на ногах), а также по роскошной, часто волнистой гриве и хвосту. В отличие от гигантских тяжеловозов вроде шайров, тинкеры имеют небольшой рост (в среднем 135–155 см), широкую грудь и характерный мощный, приземистый силуэт коба. Их масть может быть абсолютно любой — от классической пегой до вороной, гнедой или серой, а визитной карточкой породы, помимо пышного волосяного покрова, является невероятно покладистый, уравновешенный и дружелюбный нрав."
+        "question": "What breed is this?",
+        "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-02",
-          "text": "Тинкер (цыганский коб)"
+          "text": "Tinker (Gypsy Cob)"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Что это за порода?",
-        "explanation": "Польский коник — это уникальная аборигенная порода одичавших низкорослых лошадей (ростом 130–140 см), которую можно мгновенно узнать по исключительно мышастой масти (среди них было обнаружено всего несколько каурых). Главными отличительными признаками породы являются обязательные «дикие» отметины: черный ремень вдоль всей спины, темная полоса на плечах и поперечные «зеброидные» полосы на ногах. От других пони и невысоких коней польский коник отличается коренастым, бочкообразным телосложением, очень плотной шерстью, грубоватой головой с прямым профилем и темной, жесткой гривой, а его внешность максимально приближена к облику их прямого дикого предка — европейского тарпана."
+        "question": "What breed is this?",
+        "explanation": "The Konik is a distinctive primitive Polish breed of small, semi-feral horses, usually standing about 130–140 cm, and is recognizable by its predominantly grullo coat; only a few red dun individuals have been recorded. Its defining features are primitive markings: a black dorsal stripe running the length of the back, a dark shoulder stripe, and transverse zebra-like bars on the legs. Compared with other ponies and small horses, the Konik has a stocky, barrel-shaped body, a very dense coat, a somewhat coarse head with a straight profile, and a dark, stiff mane. Its appearance closely resembles the historic European tarpan."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гуцульский пони"
+          "text": "Hucul Pony"
         },
         {
           "id": "answer-02",
-          "text": "Монгольская лошадь"
+          "text": "Mongolian Horse"
         },
         {
           "id": "answer-03",
-          "text": "Фьордская лошадь"
+          "text": "Fjord Horse"
         },
         {
           "id": "answer-04",
-          "text": "Польский коник"
+          "text": "Konik"
         }
       ]
     }
