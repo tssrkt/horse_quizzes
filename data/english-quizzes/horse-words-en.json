@@ -11,7 +11,7 @@
     "behavior",
     "gaits"
   ],
-  "published": false,
+  "published": true,
   "title": "Horse Terms",
   "short_description": "Ready to test your knowledge of horses? This quiz covers horse care, breeding, behavior, gaits, physical traits, age-related changes, and much more.",
   "intro": "Ready to test your knowledge of horses? This quiz covers horse care, breeding, behavior, gaits, physical traits, age-related changes, and much more.",
@@ -19,7 +19,6 @@
     {
       "id": "question-01",
       "question": "What is a group of horses called?",
-      "explanation": "In English, a group of horses is called a herd. The Russian word tabun, also meaning a herd of horses, entered Russian in the fourteenth or fifteenth century from Turkic languages such as Tatar, Kazakh, and Altai. In those languages, the root tabun or tabyn originally meant a crowd, collection, gathering, or herd of any livestock. In Russian, its meaning eventually narrowed specifically to a herd of horses.",
       "answers": [
         {
           "id": "answer-01",
@@ -46,12 +45,12 @@
           "text": "Herd"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "In English, a group of horses is called a herd. The Russian word tabun, also meaning a herd of horses, entered Russian in the fourteenth or fifteenth century from Turkic languages such as Tatar, Kazakh, and Altai. In those languages, the root tabun or tabyn originally meant a crowd, collection, gathering, or herd of any livestock. In Russian, its meaning eventually narrowed specifically to a herd of horses."
     },
     {
       "id": "question-02",
       "question": "When horses dig forage out from beneath the snow on their own, this practice is called:",
-      "explanation": "Tebenevka is a Russian pastoral term borrowed from Turkic languages. It comes from the Tatar tibenu or Kazakh tebindeu, meaning digging, kicking, or striking with the foot. Nomadic peoples used it for horses breaking through crusted snow with their hooves to reach hidden grass. The word became an official Russian zootechnical term for winter grazing on forage beneath the snow.",
       "answers": [
         {
           "id": "answer-01",
@@ -78,12 +77,12 @@
           "text": "Estrus"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Tebenevka is a Russian pastoral term borrowed from Turkic languages. It comes from the Tatar tibenu or Kazakh tebindeu, meaning digging, kicking, or striking with the foot. Nomadic peoples used it for horses breaking through crusted snow with their hooves to reach hidden grass. The word became an official Russian zootechnical term for winter grazing on forage beneath the snow."
     },
     {
       "id": "question-03",
       "question": "If a mare has foaled, she has:",
-      "explanation": "To foal means to give birth to a foal. The corresponding Russian verb, ozherebit'sya, is derived from the word zherebyonok, meaning foal, which ultimately comes from a Proto-Slavic word for a young animal. Over time, its meaning narrowed specifically to the birth of a foal.",
       "answers": [
         {
           "id": "answer-01",
@@ -106,12 +105,12 @@
           "text": "Come into season"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "To foal means to give birth to a foal. The corresponding Russian verb, ozherebit'sya, is derived from the word zherebyonok, meaning foal, which ultimately comes from a Proto-Slavic word for a young animal. Over time, its meaning narrowed specifically to the birth of a foal."
     },
     {
       "id": "question-04",
       "question": "If a mare is in foal, she has:",
-      "explanation": "A mare that is in foal is pregnant. The Russian verb zazherebit'sya has the same meaning and is built from the old Slavic root associated with a foal. In modern horse-breeding terminology, it means that the mare has conceived.",
       "answers": [
         {
           "id": "answer-01",
@@ -134,12 +133,12 @@
           "text": "Come into season"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A mare that is in foal is pregnant. The Russian verb zazherebit'sya has the same meaning and is built from the old Slavic root associated with a foal. In modern horse-breeding terminology, it means that the mare has conceived."
     },
     {
       "id": "question-05",
       "question": "An in-foal mare is:",
-      "explanation": "An in-foal mare is a pregnant mare carrying a foal. The equivalent Russian adjective, zherebaya, comes from an old Slavic root associated with the foal and literally describes a mare carrying a foal in her womb.",
       "answers": [
         {
           "id": "answer-01",
@@ -158,12 +157,12 @@
           "text": "One that has already foaled"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "An in-foal mare is a pregnant mare carrying a foal. The equivalent Russian adjective, zherebaya, comes from an old Slavic root associated with the foal and literally describes a mare carrying a foal in her womb."
     },
     {
       "id": "question-06",
       "question": "What is meant by stallion behavior?",
-      "explanation": "The Russian term zherebtsevanie describes the instinctive behavior of a sexually mature stallion: strong sexual interest, increased excitability or aggression, loud calling, flehmen, and attempts to dominate. A gelding may also retain stallion-like behavior, particularly if he was castrated late.",
       "answers": [
         {
           "id": "answer-01",
@@ -182,12 +181,12 @@
           "text": "A mare coming into season"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Russian term zherebtsevanie describes the instinctive behavior of a sexually mature stallion: strong sexual interest, increased excitability or aggression, loud calling, flehmen, and attempts to dominate. A gelding may also retain stallion-like behavior, particularly if he was castrated late."
     },
     {
       "id": "question-07",
       "question": "A colt is:",
-      "explanation": "A colt is a young, uncastrated male horse, usually under four years of age. The Russian equivalent, zherebchik, is a diminutive of the word for stallion and similarly emphasizes the animal's youth.",
       "answers": [
         {
           "id": "answer-01",
@@ -206,12 +205,12 @@
           "text": "According to Google, a tall and powerful man!"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A colt is a young, uncastrated male horse, usually under four years of age. The Russian equivalent, zherebchik, is a diminutive of the word for stallion and similarly emphasizes the animal's youth."
     },
     {
       "id": "question-08",
       "question": "A filly is:",
-      "explanation": "A filly is a young female horse, usually under four years of age. She is the female counterpart of a colt; after reaching maturity—or earlier if she has had a foal—she is generally called a mare.",
       "answers": [
         {
           "id": "answer-01",
@@ -230,12 +229,12 @@
           "text": "A short mare"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A filly is a young female horse, usually under four years of age. She is the female counterpart of a colt; after reaching maturity—or earlier if she has had a foal—she is generally called a mare."
     },
     {
       "id": "question-09",
       "question": "A suckling foal is:",
-      "explanation": "A suckling is a foal from birth until weaning, commonly around six to eight months in the system described here. Its principal food is its dam's milk. This period is important for immunity, skeletal development, and the foal's future soundness and stamina.",
       "answers": [
         {
           "id": "answer-01",
@@ -254,12 +253,12 @@
           "text": "A foal developing more slowly than its peers"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A suckling is a foal from birth until weaning, commonly around six to eight months in the system described here. Its principal food is its dam's milk. This period is important for immunity, skeletal development, and the foal's future soundness and stamina."
     },
     {
       "id": "question-10",
       "question": "A weanling is:",
-      "explanation": "A weanling is a young horse that has been permanently weaned from its dam's milk. This stage begins after the suckling period, usually at about six to eight months in the system described here, when the foal is ready to rely on forage and other solid feed. Weaning is the first major independent stage of a young horse's life and can be stressful.",
       "answers": [
         {
           "id": "answer-01",
@@ -278,12 +277,12 @@
           "text": "A foal stolen by one mare from another"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A weanling is a young horse that has been permanently weaned from its dam's milk. This stage begins after the suckling period, usually at about six to eight months in the system described here, when the foal is ready to rely on forage and other solid feed. Weaning is the first major independent stage of a young horse's life and can be stressful."
     },
     {
       "id": "question-11",
       "question": "What is it called when a horse rises onto its hind legs?",
-      "explanation": "This movement is called rearing. The Russian term svechka, literally “candle,” compares the upright horse to a straight candle. Depending on the context, rearing may be a trained high-school movement such as the levade, an expression of play, or a dangerous response to fear, pain, or resistance.",
       "answers": [
         {
           "id": "answer-01",
@@ -306,12 +305,12 @@
           "text": "Piaffe"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "This movement is called rearing. The Russian term svechka, literally “candle,” compares the upright horse to a straight candle. Depending on the context, rearing may be a trained high-school movement such as the levade, an expression of play, or a dangerous response to fear, pain, or resistance."
     },
     {
       "id": "question-12",
       "question": "What is the pace?",
-      "explanation": "The pace is a fast lateral gait in which the legs on the same side move together or nearly together—first the two right legs, then the two left. Unlike the diagonal pairs of the trot, this produces a side-to-side motion. Some pacing gaits are naturally smooth and comfortable for the rider.",
       "answers": [
         {
           "id": "answer-01",
@@ -330,12 +329,12 @@
           "text": "A disease"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The pace is a fast lateral gait in which the legs on the same side move together or nearly together—first the two right legs, then the two left. Unlike the diagonal pairs of the trot, this produces a side-to-side motion. Some pacing gaits are naturally smooth and comfortable for the rider."
     },
     {
       "id": "question-13",
       "question": "Grooming is:",
-      "explanation": "Grooming means the hygienic care of a horse, including currying and brushing the coat, combing the mane and tail, picking out the hooves, washing, and clipping when needed. The English verb to groom originally referred specifically to caring for horses; the term is now also widely used for professional care of companion animals.",
       "answers": [
         {
           "id": "answer-01",
@@ -354,12 +353,12 @@
           "text": "A horse gait"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Grooming means the hygienic care of a horse, including currying and brushing the coat, combing the mane and tail, picking out the hooves, washing, and clipping when needed. The English verb to groom originally referred specifically to caring for horses; the term is now also widely used for professional care of companion animals."
     },
     {
       "id": "question-14",
       "question": "What is a flying change?",
-      "explanation": "A flying change is a change of canter lead performed in the air during the suspension phase, with the front and hind legs changing in the same stride. In advanced dressage, horses perform tempi changes in sequence, including one-tempi changes on every stride.",
       "answers": [
         {
           "id": "answer-01",
@@ -378,12 +377,12 @@
           "text": "Changing legs during the pace"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A flying change is a change of canter lead performed in the air during the suspension phase, with the front and hind legs changing in the same stride. In advanced dressage, horses perform tempi changes in sequence, including one-tempi changes on every stride."
     },
     {
       "id": "question-15",
       "question": "What is shlapak?",
-      "explanation": "Shlapak, also called shlyapak or tropota in regional Russian and Ukrainian usage, is a broken hybrid gait between trot and canter. The forelegs may canter while the hindlegs trot, or vice versa. A horse may fall into it through poor balance, weak conditioning, or confusion when learning canter departures. It is tiring for the horse and uncomfortable for the rider, so training aims to restore a pure gait.",
       "answers": [
         {
           "id": "answer-01",
@@ -402,12 +401,12 @@
           "text": "A disease"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Shlapak, also called shlyapak or tropota in regional Russian and Ukrainian usage, is a broken hybrid gait between trot and canter. The forelegs may canter while the hindlegs trot, or vice versa. A horse may fall into it through poor balance, weak conditioning, or confusion when learning canter departures. It is tiring for the horse and uncomfortable for the rider, so training aims to restore a pure gait."
     },
     {
       "id": "question-16",
       "question": "What is tölt?",
-      "explanation": "Tölt is the characteristic four-beat lateral gait of the Icelandic horse. The horse always has at least one hoof on the ground, so there is no suspension phase. This makes the gait exceptionally smooth for the rider, while its speed can range from slow to very fast.",
       "answers": [
         {
           "id": "answer-01",
@@ -426,12 +425,12 @@
           "text": "A disease"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Tölt is the characteristic four-beat lateral gait of the Icelandic horse. The horse always has at least one hoof on the ground, so there is no suspension phase. This makes the gait exceptionally smooth for the rider, while its speed can range from slow to very fast."
     },
     {
       "id": "question-17",
       "question": "What is khoda?",
-      "explanation": "Khoda is an old Slavic regional term for a smooth four-beat gait comparable to tölt. The feet land separately in a rapid four-beat sequence, producing little vertical bounce for the rider. Tölt is the Icelandic name, while khoda was used for similar smooth gaits in local gaited horses in Eastern Europe.",
       "answers": [
         {
           "id": "answer-01",
@@ -450,12 +449,12 @@
           "text": "A disease"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Khoda is an old Slavic regional term for a smooth four-beat gait comparable to tölt. The feet land separately in a rapid four-beat sequence, producing little vertical bounce for the rider. Tölt is the Icelandic name, while khoda was used for similar smooth gaits in local gaited horses in Eastern Europe."
     },
     {
       "id": "question-18",
       "question": "A band stallion is a stallion that:",
-      "explanation": "A band stallion leads, guards, and breeds a stable group of mares and their foals under herd-management conditions. His role is to keep the family band together, protect it from predators and rival males, and prevent horses from straying.",
       "answers": [
         {
           "id": "answer-01",
@@ -474,12 +473,12 @@
           "text": "Guards and breeds a group of mares"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "A band stallion leads, guards, and breeds a stable group of mares and their foals under herd-management conditions. His role is to keep the family band together, protect it from predators and rival males, and prevent horses from straying."
     },
     {
       "id": "question-19",
       "question": "What is a gelding?",
-      "explanation": "A gelding is a castrated male horse. The Russian word merin entered Russian from Mongolic languages, where mörin or mori originally meant simply horse. In Russian, the meaning narrowed to a castrated male, traditionally valued for calmness and reliability in work and riding.",
       "answers": [
         {
           "id": "answer-01",
@@ -498,12 +497,12 @@
           "text": "The male equivalent of a broken-down nag"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A gelding is a castrated male horse. The Russian word merin entered Russian from Mongolic languages, where mörin or mori originally meant simply horse. In Russian, the meaning narrowed to a castrated male, traditionally valued for calmness and reliability in work and riding."
     },
     {
       "id": "question-20",
       "question": "What is the process of a mare giving birth called?",
-      "explanation": "The birth of a foal is called foaling. The Russian zootechnical term vyzherebka likewise means parturition in a mare and is formed from an old Slavic root meaning foal.",
       "answers": [
         {
           "id": "answer-01",
@@ -522,12 +521,12 @@
           "text": "Estrus"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The birth of a foal is called foaling. The Russian zootechnical term vyzherebka likewise means parturition in a mare and is formed from an old Slavic root meaning foal."
     },
     {
       "id": "question-21",
       "question": "What is a harem band?",
-      "explanation": "A horse band is a small, stable family group of mares and their foals led by one stallion. In the traditional system described here, it may contain roughly 10–25 mares. A large managed herd can contain several such bands, each with its own internal hierarchy and stallion.",
       "answers": [
         {
           "id": "answer-01",
@@ -546,12 +545,12 @@
           "text": "A group of mares with one stallion"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "A horse band is a small, stable family group of mares and their foals led by one stallion. In the traditional system described here, it may contain roughly 10–25 mares. A large managed herd can contain several such bands, each with its own internal hierarchy and stallion."
     },
     {
       "id": "question-22",
       "question": "What is cadence?",
-      "explanation": "In dressage, cadence is the pronounced rhythm, balance, and measured regularity that gives a horse's steps expression and, in appropriate gaits, a clear moment of suspension. It is not a separate gait but a quality of movement, especially evident in passage and piaffe when the horse moves with balance and collection.",
       "answers": [
         {
           "id": "answer-01",
@@ -570,12 +569,12 @@
           "text": "A disease"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "In dressage, cadence is the pronounced rhythm, balance, and measured regularity that gives a horse's steps expression and, in appropriate gaits, a clear moment of suspension. It is not a separate gait but a quality of movement, especially evident in passage and piaffe when the horse moves with balance and collection."
     },
     {
       "id": "question-23",
       "question": "What does the Russian term polutornik mean?",
-      "explanation": "Polutornik is a Russian professional term for a young horse approximately one and a half years old, usually 18–24 months. At this stage, young horses may be separated by sex, receive a carefully balanced ration, and begin gentle handling and preparation for future work.",
       "answers": [
         {
           "id": "answer-01",
@@ -594,12 +593,12 @@
           "text": "A young horse first halter-trained at 18 months"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Polutornik is a Russian professional term for a young horse approximately one and a half years old, usually 18–24 months. At this stage, young horses may be separated by sex, receive a carefully balanced ration, and begin gentle handling and preparation for future work."
     },
     {
       "id": "question-24",
       "question": "What does the Russian term pezhina mean?",
-      "explanation": "Pezhina is an old Russian hippological term for a large, irregular white patch on a horse's body that interrupts the base color. It comes from the Russian word pegy, meaning pinto or pied. Today, the term is largely replaced by the names of specific pinto patterns but is still used colloquially for an individual white patch.",
       "answers": [
         {
           "id": "answer-01",
@@ -614,12 +613,12 @@
           "text": "A marking on the face"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Pezhina is an old Russian hippological term for a large, irregular white patch on a horse's body that interrupts the base color. It comes from the Russian word pegy, meaning pinto or pied. Today, the term is largely replaced by the names of specific pinto patterns but is still used colloquially for an individual white patch."
     },
     {
       "id": "question-25",
       "question": "What does the Russian breeding term prokholostenie mean?",
-      "explanation": "Prokholostenie is the failure of a mare to become pregnant by the end of the breeding season. The word is related to the Russian term for barren or empty. It is economically important in breeding programs and may result from reproductive disease, poor nutrition, stress, breeding management, or infertility in either parent.",
       "answers": [
         {
           "id": "answer-01",
@@ -638,12 +637,12 @@
           "text": "Castrating a male horse"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Prokholostenie is the failure of a mare to become pregnant by the end of the breeding season. The word is related to the Russian term for barren or empty. It is economically important in breeding programs and may result from reproductive disease, poor nutrition, stress, breeding management, or infertility in either parent."
     },
     {
       "id": "question-26",
       "question": "What is replacement stock?",
-      "explanation": "Replacement stock consists of the best young horses retained to replace older, culled, or lost animals in the breeding or working herd. These colts and fillies are not sold but raised to renew the breeding nucleus and maintain the herd's future productivity.",
       "answers": [
         {
           "id": "answer-01",
@@ -662,12 +661,12 @@
           "text": "Young horses selected for culling"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Replacement stock consists of the best young horses retained to replace older, culled, or lost animals in the breeding or working herd. These colts and fillies are not sold but raised to renew the breeding nucleus and maintain the herd's future productivity."
     },
     {
       "id": "question-27",
       "question": "What does the traditional Russian term karier mean?",
-      "explanation": "In traditional Russian horse terminology, karier means a racing gallop or full gallop: an extremely fast stride in which the horse lengthens its body, lowers its neck, and covers ground with powerful repeated bounds. It is the horse's maximum-speed gait rather than a distinct dressage movement.",
       "answers": [
         {
           "id": "answer-01",
@@ -686,12 +685,12 @@
           "text": "A trick-riding figure"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "In traditional Russian horse terminology, karier means a racing gallop or full gallop: an extremely fast stride in which the horse lengthens its body, lowers its neck, and covers ground with powerful repeated bounds. It is the horse's maximum-speed gait rather than a distinct dressage movement."
     },
     {
       "id": "question-28",
       "question": "What is tabunirovanie?",
-      "explanation": "Tabunirovanie is a Russian zootechnical term for forming an organized herd or transferring domestic horses to herd-based pasture management. Horses are grouped by sex, age, and purpose—for example, young replacement stock or broodmares—and monitored while a social hierarchy develops.",
       "answers": [
         {
           "id": "answer-01",
@@ -710,12 +709,12 @@
           "text": "Grazing a herd"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tabunirovanie is a Russian zootechnical term for forming an organized herd or transferring domestic horses to herd-based pasture management. Horses are grouped by sex, age, and purpose—for example, young replacement stock or broodmares—and monitored while a social hierarchy develops."
     },
     {
       "id": "question-29",
       "question": "What is stabunivanie?",
-      "explanation": "Stabunivanie is a Russian zootechnical term for bringing unfamiliar horses together into one herd or introducing a new horse into an established group. Because horses must form a new hierarchy, the process should be supervised in a spacious area and may initially involve squealing, chasing, and other social displays.",
       "answers": [
         {
           "id": "answer-01",
@@ -734,12 +733,12 @@
           "text": "A stage of horse breeding"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Stabunivanie is a Russian zootechnical term for bringing unfamiliar horses together into one herd or introducing a new horse into an established group. Because horses must form a new hierarchy, the process should be supervised in a spacious area and may initially involve squealing, chasing, and other social displays."
     },
     {
       "id": "question-30",
       "question": "What is weaning?",
-      "explanation": "Weaning is the planned, permanent separation of a suckling foal from its dam's milk, commonly at about six to eight months in the system described here. It may be done abruptly or gradually. To reduce stress, weanlings are often kept with familiar peers in a carefully managed group.",
       "answers": [
         {
           "id": "answer-01",
@@ -758,12 +757,12 @@
           "text": "Removing oats from an excitable horse's diet"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Weaning is the planned, permanent separation of a suckling foal from its dam's milk, commonly at about six to eight months in the system described here. It may be done abruptly or gradually. To reduce stress, weanlings are often kept with familiar peers in a carefully managed group."
     },
     {
       "id": "question-31",
       "question": "The growing-on period usually lasts:",
-      "explanation": "Growing on is the period of carefully managing and feeding young replacement stock after weaning until maturity or entry into the productive herd. In the system described here, it usually extends from about six to eight months of age until two or three years. During this time, appropriate nutrition, turnout, and exercise help develop bone, tendons, and muscle for future breeding or sport.",
       "answers": [
         {
           "id": "answer-01",
@@ -782,12 +781,12 @@
           "text": "From eight months to one year of age"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Growing on is the period of carefully managing and feeding young replacement stock after weaning until maturity or entry into the productive herd. In the system described here, it usually extends from about six to eight months of age until two or three years. During this time, appropriate nutrition, turnout, and exercise help develop bone, tendons, and muscle for future breeding or sport."
     },
     {
       "id": "question-32",
       "question": "What is pasture conditioning?",
-      "explanation": "Pasture conditioning is the process of improving an animal's body condition and live weight through grazing. It is a low-cost way to restore horses after winter, build muscle during the growing season, and develop adequate fat reserves for the next winter.",
       "answers": [
         {
           "id": "answer-01",
@@ -806,12 +805,12 @@
           "text": "Fattening horses on oats only"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Pasture conditioning is the process of improving an animal's body condition and live weight through grazing. It is a low-cost way to restore horses after winter, build muscle during the growing season, and develop adequate fat reserves for the next winter."
     },
     {
       "id": "question-33",
       "question": "What is full-time pasture conditioning?",
-      "explanation": "This management system keeps horses on good natural or cultivated pasture around the clock so that grazing, free movement, and exercise improve body condition, live weight, and general fitness. It is a low-cost way to build muscle and fat reserves before winter.",
       "answers": [
         {
           "id": "answer-01",
@@ -830,12 +829,12 @@
           "text": "Exercising a horse in a free-jumping chute"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "This management system keeps horses on good natural or cultivated pasture around the clock so that grazing, free movement, and exercise improve body condition, live weight, and general fitness. It is a low-cost way to build muscle and fat reserves before winter."
     },
     {
       "id": "question-34",
       "question": "A horse with a straw or hay belly is:",
-      "explanation": "A straw- or hay-bellied horse has an abnormally enlarged, pendulous abdomen associated here with prolonged feeding of bulky, poor-quality straw or overmature hay and inadequate nutrition. Large volumes of low-value roughage, weak abdominal musculature, and protein deficiency can all contribute to the distended appearance.",
       "answers": [
         {
           "id": "answer-01",
@@ -854,12 +853,12 @@
           "text": "A palomino horse"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A straw- or hay-bellied horse has an abnormally enlarged, pendulous abdomen associated here with prolonged feeding of bulky, poor-quality straw or overmature hay and inadequate nutrition. Large volumes of low-value roughage, weak abdominal musculature, and protein deficiency can all contribute to the distended appearance."
     },
     {
       "id": "question-35",
       "question": "What is canter?",
-      "explanation": "Canter is a controlled three-beat gait that is slower and more collected than a racing gallop. The English word is traditionally linked to Canterbury gallop, referring to the comfortable pace associated with medieval pilgrims riding toward Canterbury. In racehorse training, an easy canter is widely used for daily conditioning and warm-up.",
       "answers": [
         {
           "id": "answer-01",
@@ -878,12 +877,12 @@
           "text": "A horse from Canterbury"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Canter is a controlled three-beat gait that is slower and more collected than a racing gallop. The English word is traditionally linked to Canterbury gallop, referring to the comfortable pace associated with medieval pilgrims riding toward Canterbury. In racehorse training, an easy canter is widely used for daily conditioning and warm-up."
     },
     {
       "id": "question-36",
       "question": "What does the old Russian term namyot mean?",
-      "explanation": "Namyot is an old Russian hippological term meaning gallop. The word evokes the horse throwing its body forward in a sequence of bounding strides. Although obsolete in modern sport, it still appears in rural speech, Cossack traditions, and literature.",
       "answers": [
         {
           "id": "answer-01",
@@ -902,12 +901,12 @@
           "text": "A horse gait"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Namyot is an old Russian hippological term meaning gallop. The word evokes the horse throwing its body forward in a sequence of bounding strides. Although obsolete in modern sport, it still appears in rural speech, Cossack traditions, and literature."
     },
     {
       "id": "question-37",
       "question": "What is weaving?",
-      "explanation": "Weaving is a stereotypical behavior in which a stationary horse repeatedly shifts weight from one foreleg to the other while swinging its head and body from side to side. It is commonly associated with stress, social isolation, insufficient turnout, or a restrictive environment. Repetition can place additional strain on the limbs, hooves, tendons, and ligaments.",
       "answers": [
         {
           "id": "answer-01",
@@ -926,12 +925,12 @@
           "text": "Incorrect movement at the pace"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Weaving is a stereotypical behavior in which a stationary horse repeatedly shifts weight from one foreleg to the other while swinging its head and body from side to side. It is commonly associated with stress, social isolation, insufficient turnout, or a restrictive environment. Repetition can place additional strain on the limbs, hooves, tendons, and ligaments."
     },
     {
       "id": "question-38",
       "question": "What is cribbing in horses?",
-      "explanation": "Crib-biting, often called cribbing, is a stereotypical behavior in which a horse grasps a fixed object with its incisors, arches its neck, and draws in air with a characteristic sound. Wind-sucking is the related form performed without grasping an object. These behaviors are associated with stress, management, and sometimes gastrointestinal discomfort, and may contribute to tooth wear, weight loss, and an increased risk of colic.",
       "answers": [
         {
           "id": "answer-01",
@@ -950,12 +949,12 @@
           "text": "A behavioral vice"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Crib-biting, often called cribbing, is a stereotypical behavior in which a horse grasps a fixed object with its incisors, arches its neck, and draws in air with a characteristic sound. Wind-sucking is the related form performed without grasping an object. These behaviors are associated with stress, management, and sometimes gastrointestinal discomfort, and may contribute to tooth wear, weight loss, and an increased risk of colic."
     },
     {
       "id": "question-39",
       "question": "What is a hay-bellied animal?",
-      "explanation": "A hay-bellied animal is an undernourished horse or other grazing animal with a markedly enlarged, pendulous abdomen despite poor overall condition. In the usage described here, it results from a low-quality, bulky ration dominated by straw or overmature hay without enough protein, concentrates, or more nutritious forage.",
       "answers": [
         {
           "id": "answer-01",
@@ -974,12 +973,12 @@
           "text": "A critically ill horse"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "A hay-bellied animal is an undernourished horse or other grazing animal with a markedly enlarged, pendulous abdomen despite poor overall condition. In the usage described here, it results from a low-quality, bulky ration dominated by straw or overmature hay without enough protein, concentrates, or more nutritious forage."
     },
     {
       "id": "question-40",
       "question": "What is a stereotypy?",
-      "explanation": "A stereotypy is a repetitive, relatively invariant behavior with no obvious immediate purpose. In horses, examples include weaving, crib-biting, and wind-sucking. Such behaviors are often associated with chronic stress, social isolation, limited forage, restricted movement, or other management factors, and may persist even after conditions improve.",
       "answers": [
         {
           "id": "answer-01",
@@ -998,7 +997,8 @@
           "text": "A badly schooled horse"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A stereotypy is a repetitive, relatively invariant behavior with no obvious immediate purpose. In horses, examples include weaving, crib-biting, and wind-sucking. Such behaviors are often associated with chronic stress, social isolation, limited forage, restricted movement, or other management factors, and may persist even after conditions improve."
     }
   ],
   "translation_status": "current",
@@ -1006,7 +1006,6 @@
     "title": "Лошадиные термины",
     "short_description": "Готовы проверить свои знания о лошадках? А именно об их содержании, разведении, поведении, аллюрах, некоторых особенностях и возрастных изменениях, а также о многом другом.",
     "intro": "Готовы проверить свои знания о лошадках? А именно об их содержании, разведении, поведении, аллюрах, некоторых особенностях и возрастных изменениях, а также о многом другом.",
-    "questionImagesAlt": "",
     "difficulty": "low",
     "cover": "img/covers/horse-words.webp",
     "publication_date": "2026-07-22T07:00:00+00:00",
@@ -2003,5 +2002,6 @@
     ]
   },
   "questionImagesAlt": "Horse terminology quiz question",
-  "source_content_hash": "5a9b4bd2dc682216ff5dc6f6c726866b564e4ddb89ba3b408ff37acadfec7738"
+  "source_content_hash": "5a9b4bd2dc682216ff5dc6f6c726866b564e4ddb89ba3b408ff37acadfec7738",
+  "english_quiz": "horse-words-en"
 }
