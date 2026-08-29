@@ -11,7 +11,7 @@
     "health",
     "behavior"
   ],
-  "published": false,
+  "published": true,
   "title": "Horse Care",
   "short_description": "An essential quiz for horse owners and anyone planning to become one, covering everyday care, health, feeding, hoof care, and behavior.",
   "intro": "This practical quiz covers the essentials of horse care, from feeding and hoof maintenance to health, safe handling, and behavior.",
@@ -19,7 +19,6 @@
     {
       "id": "question-01",
       "question": "Approximately how much feed should a horse consume each day?",
-      "explanation": "A typical adult horse consumes roughly 2–3% of its body weight in total dry matter per day, depending on workload, body condition, forage quality, and health. Forage should make up most of the ration, with at least about 1.5–2% of body weight commonly recommended to support normal gut function and natural feeding behavior.",
       "answers": [
         {
           "id": "answer-01",
@@ -34,12 +33,12 @@
           "text": "About 6–7% of its body weight"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "A typical adult horse consumes roughly 2–3% of its body weight in total dry matter per day, depending on workload, body condition, forage quality, and health. Forage should make up most of the ration, with at least about 1.5–2% of body weight commonly recommended to support normal gut function and natural feeding behavior."
     },
     {
       "id": "question-02",
       "question": "How much hay may a horse consume when it is offered free-choice?",
-      "explanation": "Most mature horses voluntarily consume about 1.5–2.5 kg of forage dry matter per 100 kg of body weight each day, although intake varies with the horse and the hay. Free-choice forage should be monitored because very rich hay can promote obesity or metabolic problems, while poor-quality forage may not meet nutritional needs.",
       "answers": [
         {
           "id": "answer-01",
@@ -54,12 +53,12 @@
           "text": "About 8 kg per 100 kg of body weight"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Most mature horses voluntarily consume about 1.5–2.5 kg of forage dry matter per 100 kg of body weight each day, although intake varies with the horse and the hay. Free-choice forage should be monitored because very rich hay can promote obesity or metabolic problems, while poor-quality forage may not meet nutritional needs."
     },
     {
       "id": "question-03",
       "question": "What does picking out a horse’s hooves mean?",
-      "explanation": "Picking out the hooves means using a hoof pick to remove packed dirt, manure, stones, and bedding from the sole and frog. It should be done regularly, especially before and after work, so trapped objects, thrush, tenderness, or damage can be noticed early.",
       "answers": [
         {
           "id": "answer-01",
@@ -78,12 +77,12 @@
           "text": "Tightening tack straps in a special way"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Picking out the hooves means using a hoof pick to remove packed dirt, manure, stones, and bedding from the sole and frog. It should be done regularly, especially before and after work, so trapped objects, thrush, tenderness, or damage can be noticed early."
     },
     {
       "id": "question-04",
       "question": "What is hoof trimming?",
-      "explanation": "Hoof trimming is the regular removal and shaping of overgrown hoof horn to maintain sound balance and an appropriate hoof form. Domestic horses often do not wear their hooves evenly, so a qualified farrier or hoof-care professional trims them at intervals suited to the individual horse.",
       "answers": [
         {
           "id": "answer-01",
@@ -102,12 +101,12 @@
           "text": "Combing the mane and tail"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Hoof trimming is the regular removal and shaping of overgrown hoof horn to maintain sound balance and an appropriate hoof form. Domestic horses often do not wear their hooves evenly, so a qualified farrier or hoof-care professional trims them at intervals suited to the individual horse."
     },
     {
       "id": "question-05",
       "question": "How often should a horse’s hooves usually be trimmed?",
-      "explanation": "Many horses need trimming or shoeing every four to eight weeks, with about six weeks being common. The ideal interval varies with season, hoof growth, conformation, workload, and whether the horse is shod, so the schedule should be set with a qualified farrier.",
       "answers": [
         {
           "id": "answer-01",
@@ -126,12 +125,12 @@
           "text": "Once a year"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Many horses need trimming or shoeing every four to eight weeks, with about six weeks being common. The ideal interval varies with season, hoof growth, conformation, workload, and whether the horse is shod, so the schedule should be set with a qualified farrier."
     },
     {
       "id": "question-06",
       "question": "Which deworming schedule is currently recommended for adult horses?",
-      "explanation": "Modern parasite control is individualized. Current guidance recommends fecal egg counts once or twice a year to identify low, moderate, and high shedders, baseline treatment for most adult horses once or twice yearly, and additional targeted treatment only when indicated by test results, local risks, and veterinary advice.",
       "answers": [
         {
           "id": "answer-01",
@@ -150,12 +149,12 @@
           "text": "Once every eighteen months"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Modern parasite control is individualized. Current guidance recommends fecal egg counts once or twice a year to identify low, moderate, and high shedders, baseline treatment for most adult horses once or twice yearly, and additional targeted treatment only when indicated by test results, local risks, and veterinary advice."
     },
     {
       "id": "question-07",
       "question": "What is the circular enclosure used for handling and training young horses called?",
-      "explanation": "A round pen is a circular fenced enclosure commonly used for groundwork, starting young horses, and controlled exercise. Because it has no corners, the trainer can work the horse on a consistent curved track while maintaining clear communication and safe spacing.",
       "answers": [
         {
           "id": "answer-01",
@@ -182,12 +181,12 @@
           "text": "A rosette"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A round pen is a circular fenced enclosure commonly used for groundwork, starting young horses, and controlled exercise. Because it has no corners, the trainer can work the horse on a consistent curved track while maintaining clear communication and safe spacing."
     },
     {
       "id": "question-08",
       "question": "What feature may be found on a well-made horseshoe?",
-      "explanation": "A horseshoe may be seated out along the inner edge of its foot surface. This shallow bevel or concavity helps prevent the shoe from pressing on the sole while leaving the hoof wall to bear weight appropriately.",
       "answers": [
         {
           "id": "answer-01",
@@ -210,12 +209,12 @@
           "text": "An alibi"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A horseshoe may be seated out along the inner edge of its foot surface. This shallow bevel or concavity helps prevent the shoe from pressing on the sole while leaving the hoof wall to bear weight appropriately."
     },
     {
       "id": "question-09",
       "question": "What should you do if your horse loses a shoe while you are riding?",
-      "explanation": "Stop work, dismount, and inspect the hoof. If the shoe is partly attached, do not pull it off unless you are trained and have the right tools. Protect the hoof if possible and lead the horse carefully over safe footing or arrange transport, then contact a farrier. Continuing at speed can damage the hoof wall or cause lameness.",
       "answers": [
         {
           "id": "answer-01",
@@ -230,12 +229,12 @@
           "text": "Do nothing and continue riding"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Stop work, dismount, and inspect the hoof. If the shoe is partly attached, do not pull it off unless you are trained and have the right tools. Protect the hoof if possible and lead the horse carefully over safe footing or arrange transport, then contact a farrier. Continuing at speed can damage the hoof wall or cause lameness."
     },
     {
       "id": "question-10",
       "question": "What should you do if a previously reliable horse suddenly starts trying to unseat the rider in every session?",
-      "explanation": "A sudden, repeated behavior change should be treated as a possible sign of pain. Stop pushing through it and arrange assessment of the horse’s back, limbs, teeth, and general health, as well as saddle fit. If physical causes are excluded, an experienced, humane trainer can investigate stress, confusion, and learned behavior.",
       "answers": [
         {
           "id": "answer-01",
@@ -254,12 +253,12 @@
           "text": "Leave the horse in its stall to think about its behavior"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A sudden, repeated behavior change should be treated as a possible sign of pain. Stop pushing through it and arrange assessment of the horse’s back, limbs, teeth, and general health, as well as saddle fit. If physical causes are excluded, an experienced, humane trainer can investigate stress, confusion, and learned behavior."
     },
     {
       "id": "question-11",
       "question": "May a hot, sweaty horse drink immediately after exercise?",
-      "explanation": "Yes. There is no scientific basis for withholding water from a hot horse until the coat is dry. Offer clean, cool water during recovery; a very hot horse can take several swallows every few minutes while being actively cooled. Water supports rehydration and does not cause laminitis merely because the horse is warm.",
       "answers": [
         {
           "id": "answer-01",
@@ -274,12 +273,12 @@
           "text": "Yes—offer clean, cool water during recovery"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Yes. There is no scientific basis for withholding water from a hot horse until the coat is dry. Offer clean, cool water during recovery; a very hot horse can take several swallows every few minutes while being actively cooled. Water supports rehydration and does not cause laminitis merely because the horse is warm."
     },
     {
       "id": "question-12",
       "question": "Can any horse unseat a rider, no matter how strong or experienced the rider is?",
-      "explanation": "Yes. A horse is a powerful prey animal, and fear, sudden pain, loss of balance, bucking, or rearing can unseat even an elite rider. Experience reduces risk and improves reactions, but it cannot make a rider incapable of falling.",
       "answers": [
         {
           "id": "answer-01",
@@ -290,12 +289,12 @@
           "text": "No—experienced riders never fall"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Yes. A horse is a powerful prey animal, and fear, sudden pain, loss of balance, bucking, or rearing can unseat even an elite rider. Experience reduces risk and improves reactions, but it cannot make a rider incapable of falling."
     },
     {
       "id": "question-13",
       "question": "What may a glossy coat indicate?",
-      "explanation": "A glossy coat often reflects good grooming, adequate nutrition, and overall well-being, but it is not a veterinary diagnosis. Genetics, season, weather, coat type, and grooming all affect shine, and a horse with a glossy coat can still have hidden pain or disease.",
       "answers": [
         {
           "id": "answer-01",
@@ -310,12 +309,12 @@
           "text": "The horse must have exceptional genes and perfect health"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A glossy coat often reflects good grooming, adequate nutrition, and overall well-being, but it is not a veterinary diagnosis. Genetics, season, weather, coat type, and grooming all affect shine, and a horse with a glossy coat can still have hidden pain or disease."
     },
     {
       "id": "question-14",
       "question": "What is subtle lameness?",
-      "explanation": "Subtle lameness is a mild or difficult-to-see gait abnormality caused by discomfort or impaired movement. It may appear as a shortened stride, stiffness, stumbling, reluctance to take one canter lead, or a change in performance rather than an obvious head nod. Bilateral pain can make it especially hard to identify.",
       "answers": [
         {
           "id": "answer-01",
@@ -326,12 +325,12 @@
           "text": "Lameness that can be difficult to detect, even for experienced professionals"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Subtle lameness is a mild or difficult-to-see gait abnormality caused by discomfort or impaired movement. It may appear as a shortened stride, stiffness, stumbling, reluctance to take one canter lead, or a change in performance rather than an obvious head nod. Bilateral pain can make it especially hard to identify."
     },
     {
       "id": "question-15",
       "question": "Two similar riding horses share a summer pasture: one has a long tail and the other a very short tail. Which is likely to become distressed by insects sooner?",
-      "explanation": "The short-tailed horse has less natural protection from flies and other biting insects. A horse normally uses its tail to swat pests, so one deprived of that defense may stamp, twitch, pace, and spend less time grazing or resting. Fly control and suitable protective equipment can reduce the stress.",
       "answers": [
         {
           "id": "answer-01",
@@ -346,12 +345,12 @@
           "text": "Both at exactly the same time"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The short-tailed horse has less natural protection from flies and other biting insects. A horse normally uses its tail to swat pests, so one deprived of that defense may stamp, twitch, pace, and spend less time grazing or resting. Fly control and suitable protective equipment can reduce the stress."
     },
     {
       "id": "question-16",
       "question": "What can upright, broken hairs at the top of a horse’s tail indicate?",
-      "explanation": "A spiky or rubbed tailhead usually means the horse has been rubbing because of itching. Possible causes include pinworms, insect hypersensitivity, skin irritation, or dirt and secretions around the dock. The cause should be investigated rather than assumed from the tail alone.",
       "answers": [
         {
           "id": "answer-01",
@@ -366,12 +365,12 @@
           "text": "It means nothing"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A spiky or rubbed tailhead usually means the horse has been rubbing because of itching. Possible causes include pinworms, insect hypersensitivity, skin irritation, or dirt and secretions around the dock. The cause should be investigated rather than assumed from the tail alone."
     },
     {
       "id": "question-17",
       "question": "What may happen if a horse has no turnout or meaningful exercise for a month or longer?",
-      "explanation": "Prolonged confinement and inactivity can cause loss of fitness and muscle, filled legs, reduced joint mobility, weight or metabolic changes, and a higher risk of stereotypic or anxious behavior. Some horses must be confined for medical reasons, but their diet, enrichment, and rehabilitation should then be managed with veterinary guidance.",
       "answers": [
         {
           "id": "answer-01",
@@ -390,12 +389,12 @@
           "text": "Nothing important will happen"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Prolonged confinement and inactivity can cause loss of fitness and muscle, filled legs, reduced joint mobility, weight or metabolic changes, and a higher risk of stereotypic or anxious behavior. Some horses must be confined for medical reasons, but their diet, enrichment, and rehabilitation should then be managed with veterinary guidance."
     },
     {
       "id": "question-18",
       "question": "A horse looks at its flanks, paws, kicks at its belly, refuses feed, repeatedly lies down, or strains as if to urinate without passing urine. What should you suspect?",
-      "explanation": "These are classic warning signs of colic—abdominal pain that can have many causes and levels of severity. Remove feed, observe the horse safely, take vital signs if you can, and contact a veterinarian promptly, especially when pain is severe, persistent, or accompanied by abnormal vital signs.",
       "answers": [
         {
           "id": "answer-01",
@@ -418,12 +417,12 @@
           "text": "A harmless stable vice"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "These are classic warning signs of colic—abdominal pain that can have many causes and levels of severity. Remove feed, observe the horse safely, take vital signs if you can, and contact a veterinarian promptly, especially when pain is severe, persistent, or accompanied by abnormal vital signs."
     },
     {
       "id": "question-19",
       "question": "What does it usually mean when a horse pins its ears flat back?",
-      "explanation": "Pinned ears are a warning that the horse is uncomfortable, frightened, irritated, in pain, or prepared to defend its space. Context and the rest of the body language matter, but handlers should take the signal seriously and avoid placing themselves within biting or kicking range.",
       "answers": [
         {
           "id": "answer-01",
@@ -442,12 +441,12 @@
           "text": "It is asking for treats"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Pinned ears are a warning that the horse is uncomfortable, frightened, irritated, in pain, or prepared to defend its space. Context and the rest of the body language matter, but handlers should take the signal seriously and avoid placing themselves within biting or kicking range."
     },
     {
       "id": "question-20",
       "question": "Why do horses sometimes squeal when they meet nose to nose?",
-      "explanation": "Squealing during close investigation is a high-arousal social signal. It can communicate a boundary, warn the other horse to keep its distance, or form part of negotiating space and social status. A strike or kick may follow, so introductions should be managed safely.",
       "answers": [
         {
           "id": "answer-01",
@@ -466,12 +465,12 @@
           "text": "It is always courtship behavior"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Squealing during close investigation is a high-arousal social signal. It can communicate a boundary, warn the other horse to keep its distance, or form part of negotiating space and social status. A strike or kick may follow, so introductions should be managed safely."
     },
     {
       "id": "question-21",
       "question": "What does it mean if a horse deliberately crowds you against a stall wall?",
-      "explanation": "Crowding a person against a wall is unsafe displacement behavior, whether caused by fear, poor spatial awareness, or learned disregard for the handler’s space. Do not interpret it as affection. Prioritize an escape route and use calm, trained cues to move the horse away; seek professional help if the behavior is repeated or aggressive.",
       "answers": [
         {
           "id": "answer-01",
@@ -490,12 +489,12 @@
           "text": "It is showing affection"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Crowding a person against a wall is unsafe displacement behavior, whether caused by fear, poor spatial awareness, or learned disregard for the handler’s space. Do not interpret it as affection. Prioritize an escape route and use calm, trained cues to move the horse away; seek professional help if the behavior is repeated or aggressive."
     },
     {
       "id": "question-22",
       "question": "Do horses sleep standing up?",
-      "explanation": "Horses can doze while standing because the stay apparatus lets them rest with little muscular effort. However, they need to lie down for normal REM sleep. A horse that does not feel safe or comfortable enough to lie down can become sleep deprived and may collapse during involuntary REM episodes.",
       "answers": [
         {
           "id": "answer-01",
@@ -514,12 +513,12 @@
           "text": "Horses never sleep at all"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Horses can doze while standing because the stay apparatus lets them rest with little muscular effort. However, they need to lie down for normal REM sleep. A horse that does not feel safe or comfortable enough to lie down can become sleep deprived and may collapse during involuntary REM episodes."
     },
     {
       "id": "question-23",
       "question": "Should the same grooming tools be used on different horses?",
-      "explanation": "Ideally, each horse should have its own grooming kit. Brushes, combs, towels, and tack can spread ringworm, mites, and other infectious agents. If equipment must be shared, it should be thoroughly cleaned and disinfected between horses, especially during an outbreak or after contact with a sick horse.",
       "answers": [
         {
           "id": "answer-01",
@@ -538,12 +537,12 @@
           "text": "Only between mares"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Ideally, each horse should have its own grooming kit. Brushes, combs, towels, and tack can spread ringworm, mites, and other infectious agents. If equipment must be shared, it should be thoroughly cleaned and disinfected between horses, especially during an outbreak or after contact with a sick horse."
     },
     {
       "id": "question-24",
       "question": "You find that a horse has left its usual grain and shows no interest in it. What should you do?",
-      "explanation": "A sudden loss of appetite can be an early sign of colic, fever, dental pain, or another illness. Remove the concentrate, check for colic signs, take the horse’s temperature and other vital signs if you know how, and contact a veterinarian for advice. Do not work the horse as usual or tempt it with more grain.",
       "answers": [
         {
           "id": "answer-01",
@@ -562,12 +561,12 @@
           "text": "Replace the grain with treats"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A sudden loss of appetite can be an early sign of colic, fever, dental pain, or another illness. Remove the concentrate, check for colic signs, take the horse’s temperature and other vital signs if you know how, and contact a veterinarian for advice. Do not work the horse as usual or tempt it with more grain."
     },
     {
       "id": "question-25",
       "question": "Which horses may benefit from being fed grain from a feed bag?",
-      "explanation": "A properly fitted feed bag can prevent a horse from grasping a fixed object while eating and may reduce crib-biting during the meal. It is not a cure for crib-biting, and the horse must be supervised and able to breathe freely. Management should also address forage access, stress, pain, and gastric health.",
       "answers": [
         {
           "id": "answer-01",
@@ -586,12 +585,12 @@
           "text": "Every horse with laminitis"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A properly fitted feed bag can prevent a horse from grasping a fixed object while eating and may reduce crib-biting during the meal. It is not a cure for crib-biting, and the horse must be supervised and able to breathe freely. Management should also address forage access, stress, pain, and gastric health."
     },
     {
       "id": "question-26",
       "question": "What can happen if a horse is fed immature or poorly stored newly harvested oats?",
-      "explanation": "Immature, damp, moldy, or poorly cured grain can spoil and may cause diarrhea or other digestive disturbances. Any new batch of concentrate should be checked for quality and introduced gradually, because abrupt dietary changes and excessive starch increase the risk of hindgut upset, colic, and laminitis.",
       "answers": [
         {
           "id": "answer-01",
@@ -610,12 +609,12 @@
           "text": "The horse’s health will automatically improve"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Immature, damp, moldy, or poorly cured grain can spoil and may cause diarrhea or other digestive disturbances. Any new batch of concentrate should be checked for quality and introduced gradually, because abrupt dietary changes and excessive starch increase the risk of hindgut upset, colic, and laminitis."
     },
     {
       "id": "question-27",
       "question": "Hoof-wall cracks are often associated with:",
-      "explanation": "Cracks can develop when hoof horn is brittle, when conditions repeatedly alternate between wet and dry, or when the hoof is unbalanced and the wall is overloaded. Poor trimming, injury, infection, and nutritional or conformational factors can also contribute, so significant cracks should be assessed by a farrier and veterinarian.",
       "answers": [
         {
           "id": "answer-01",
@@ -634,12 +633,12 @@
           "text": "Obesity as the only cause"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Cracks can develop when hoof horn is brittle, when conditions repeatedly alternate between wet and dry, or when the hoof is unbalanced and the wall is overloaded. Poor trimming, injury, infection, and nutritional or conformational factors can also contribute, so significant cracks should be assessed by a farrier and veterinarian."
     },
     {
       "id": "question-28",
       "question": "Which simple measure may help temporarily hydrate very dry hooves?",
-      "explanation": "Briefly wetting very dry hooves with cool water may provide temporary surface hydration, but it is not the main solution for cracking. Consistent farriery, balanced nutrition, clean footing, and avoiding extreme wet-dry cycles matter more. Repeated prolonged soaking can soften and weaken the hoof.",
       "answers": [
         {
           "id": "answer-01",
@@ -658,12 +657,12 @@
           "text": "Feed unlimited oats"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Briefly wetting very dry hooves with cool water may provide temporary surface hydration, but it is not the main solution for cracking. Consistent farriery, balanced nutrition, clean footing, and avoiding extreme wet-dry cycles matter more. Repeated prolonged soaking can soften and weaken the hoof."
     },
     {
       "id": "question-29",
       "question": "If the same horse consistently drinks first when a herd reaches water, what may this suggest?",
-      "explanation": "The horse may have priority of access to that resource and may hold a high social rank, although one observation is not enough to define the entire herd hierarchy. Thirst, habit, confidence, and position when approaching the trough can also influence who drinks first.",
       "answers": [
         {
           "id": "answer-01",
@@ -682,12 +681,12 @@
           "text": "It must be dehydrated"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The horse may have priority of access to that resource and may hold a high social rank, although one observation is not enough to define the entire herd hierarchy. Thirst, habit, confidence, and position when approaching the trough can also influence who drinks first."
     },
     {
       "id": "question-30",
       "question": "What should you do if a horse has broken its collarbone?",
-      "explanation": "Horses do not have clavicles, or collarbones. Their forelimbs are attached to the trunk by muscles, tendons, and fascia forming a muscular sling called the thoracic sling or synsarcosis, which helps absorb concussion during movement.",
       "answers": [
         {
           "id": "answer-01",
@@ -706,12 +705,12 @@
           "text": "Do nothing except call a veterinarian"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Horses do not have clavicles, or collarbones. Their forelimbs are attached to the trunk by muscles, tendons, and fascia forming a muscular sling called the thoracic sling or synsarcosis, which helps absorb concussion during movement."
     },
     {
       "id": "question-31",
       "question": "How can you make a poisoned horse vomit?",
-      "explanation": "You cannot: horses are unable to vomit because of their anatomy and a very strong lower esophageal sphincter. Suspected poisoning is an emergency. Remove access to the suspected substance, preserve a sample or label if safe, and call a veterinarian or animal poison service immediately; do not give home remedies unless instructed.",
       "answers": [
         {
           "id": "answer-01",
@@ -730,12 +729,12 @@
           "text": "You cannot—horses are unable to vomit"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "You cannot: horses are unable to vomit because of their anatomy and a very strong lower esophageal sphincter. Suspected poisoning is an emergency. Remove access to the suspected substance, preserve a sample or label if safe, and call a veterinarian or animal poison service immediately; do not give home remedies unless instructed."
     },
     {
       "id": "question-32",
       "question": "How long should a horse routinely go without forage?",
-      "explanation": "Horses are adapted to eat small amounts for many hours each day. Long fasting periods increase gastric acidity and are associated with ulcers and abnormal feeding behavior, so management should aim to keep gaps between forage meals short—commonly no more than about three to four hours whenever practical. Medical fasting should follow veterinary instructions.",
       "answers": [
         {
           "id": "answer-01",
@@ -754,12 +753,12 @@
           "text": "About three to four hours"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Horses are adapted to eat small amounts for many hours each day. Long fasting periods increase gastric acidity and are associated with ulcers and abnormal feeding behavior, so management should aim to keep gaps between forage meals short—commonly no more than about three to four hours whenever practical. Medical fasting should follow veterinary instructions."
     },
     {
       "id": "question-33",
       "question": "What is likely to happen if a hot horse is offered cool water after work?",
-      "explanation": "Usually nothing harmful—drinking cool, clean water helps replace fluid lost in sweat. A hot horse may be allowed several swallows every few minutes while cooling down, and withholding water can worsen dehydration. Cool water does not itself cause colic, hoof hemorrhage, or laminitis.",
       "answers": [
         {
           "id": "answer-01",
@@ -778,12 +777,12 @@
           "text": "It will inevitably develop acute laminitis"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Usually nothing harmful—drinking cool, clean water helps replace fluid lost in sweat. A hot horse may be allowed several swallows every few minutes while cooling down, and withholding water can worsen dehydration. Cool water does not itself cause colic, hoof hemorrhage, or laminitis."
     },
     {
       "id": "question-34",
       "question": "A horse raises its head and curls its upper lip, exposing its teeth. What is this called?",
-      "explanation": "This is the flehmen response. By curling the upper lip, the horse helps direct scent molecules toward the vomeronasal, or Jacobson’s, organ. It is often seen when stallions investigate mares, but any horse may flehmen in response to an unfamiliar smell or taste.",
       "answers": [
         {
           "id": "answer-01",
@@ -802,12 +801,12 @@
           "text": "A pygidium"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "This is the flehmen response. By curling the upper lip, the horse helps direct scent molecules toward the vomeronasal, or Jacobson’s, organ. It is often seen when stallions investigate mares, but any horse may flehmen in response to an unfamiliar smell or taste."
     },
     {
       "id": "question-35",
       "question": "What may happen if a horse is worked hard immediately after a substantial meal?",
-      "explanation": "Hard exercise immediately after a large grain or forage meal may cause discomfort and can interfere with comfortable breathing and digestion. Allow an appropriate rest period after a substantial meal, while recognizing that access to forage and water should not be unnecessarily withheld. The interval depends on meal size and exercise intensity.",
       "answers": [
         {
           "id": "answer-01",
@@ -830,12 +829,12 @@
           "text": "Nothing can ever happen"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Hard exercise immediately after a large grain or forage meal may cause discomfort and can interfere with comfortable breathing and digestion. Allow an appropriate rest period after a substantial meal, while recognizing that access to forage and water should not be unnecessarily withheld. The interval depends on meal size and exercise intensity."
     },
     {
       "id": "question-36",
       "question": "Is a stall the best place to groom a horse?",
-      "explanation": "A well-ventilated stall can be used when necessary, but a designated grooming area or safe cross-tie space is usually preferable. It reduces dust around bedding and feed and gives the handler more room and a clearer escape route. Wherever grooming occurs, the horse must be safely restrained and the area kept tidy.",
       "answers": [
         {
           "id": "answer-01",
@@ -854,12 +853,12 @@
           "text": "Only stallions may be groomed in a stall"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A well-ventilated stall can be used when necessary, but a designated grooming area or safe cross-tie space is usually preferable. It reduces dust around bedding and feed and gives the handler more room and a clearer escape route. Wherever grooming occurs, the horse must be safely restrained and the area kept tidy."
     },
     {
       "id": "question-37",
       "question": "How long should exercise bandages remain on a horse’s legs?",
-      "explanation": "Exercise bandages are intended for the work period and should be removed promptly afterward—typically within about two hours of application. They must be applied evenly by a competent person, because excessive pressure, slipping, heat, or wrinkles can damage the leg. Stable bandages are different and require suitable padding and monitoring.",
       "answers": [
         {
           "id": "answer-01",
@@ -878,12 +877,12 @@
           "text": "Four hours"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Exercise bandages are intended for the work period and should be removed promptly afterward—typically within about two hours of application. They must be applied evenly by a competent person, because excessive pressure, slipping, heat, or wrinkles can damage the leg. Stable bandages are different and require suitable padding and monitoring."
     },
     {
       "id": "question-38",
       "question": "For a sport horse in intensive training, a pasture-only diet is generally:",
-      "explanation": "Good pasture can supply forage and substantial energy, but whether it meets the needs of a hard-working sport horse depends on grass quality, intake, workload, body condition, and mineral balance. Many such horses need conserved forage, a ration balancer, or additional energy, but concentrates should be added only after the whole diet is assessed.",
       "answers": [
         {
           "id": "answer-01",
@@ -898,12 +897,12 @@
           "text": "Completely irrelevant to performance"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Good pasture can supply forage and substantial energy, but whether it meets the needs of a hard-working sport horse depends on grass quality, intake, workload, body condition, and mineral balance. Many such horses need conserved forage, a ration balancer, or additional energy, but concentrates should be added only after the whole diet is assessed."
     },
     {
       "id": "question-39",
       "question": "If a horse repeatedly snorts or loses rhythm and lead in canter, what should you do?",
-      "explanation": "Reduce the pace or return to walk and assess the horse. Repeated loss of rhythm or lead can reflect fatigue, poor balance, pain, lameness, back discomfort, or unsuitable tack. Snorting alone can be normal, but respiratory noise, discharge, coughing, poor recovery, or repeated performance changes warrant veterinary assessment.",
       "answers": [
         {
           "id": "answer-01",
@@ -918,12 +917,12 @@
           "text": "Ignore it and continue the session"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Reduce the pace or return to walk and assess the horse. Repeated loss of rhythm or lead can reflect fatigue, poor balance, pain, lameness, back discomfort, or unsuitable tack. Snorting alone can be normal, but respiratory noise, discharge, coughing, poor recovery, or repeated performance changes warrant veterinary assessment."
     },
     {
       "id": "question-40",
       "question": "What is laminitis?",
-      "explanation": "Laminitis is a painful failure and inflammation of the lamellae that suspend the coffin bone within the hoof capsule. In severe cases the bone can rotate or sink. Common risk factors include endocrine disease, excessive intake of starch or pasture sugars, severe systemic illness, and overload of a supporting limb—not drinking cool water after exercise.",
       "answers": [
         {
           "id": "answer-01",
@@ -942,7 +941,8 @@
           "text": "A heart defect"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Laminitis is a painful failure and inflammation of the lamellae that suspend the coffin bone within the hoof capsule. In severe cases the bone can rotate or sink. Common risk factors include endocrine disease, excessive intake of starch or pasture sugars, severe systemic illness, and overload of a supporting limb—not drinking cool water after exercise."
     }
   ],
   "translation_status": "current",
@@ -950,7 +950,6 @@
     "title": "Уход за лошадью",
     "short_description": "Самая актуальная викторина для тех у кого есть лошадь, а также для желающих ею обзавестись. Поговорим об уходе, здоровье и поведении наших непарнокопытных друзей.",
     "intro": "Самая актуальная викторина для тех у кого есть лошадь, а также для желающих ею обзавестись. Поговорим об уходе, здоровье и поведении наших непарнокопытных друзей.",
-    "questionImagesAlt": "",
     "difficulty": "low",
     "cover": "img/covers/taking-care-horse.webp",
     "publication_date": "2026-07-23T10:50:00+00:00",
@@ -1891,5 +1890,6 @@
     ]
   },
   "questionImagesAlt": "Illustrations for the Horse Care quiz",
-  "source_content_hash": "dc0463465a0f1c0ac91b5487c1d190157dedb864dbaf2cde72658e178e2e12e6"
+  "source_content_hash": "dc0463465a0f1c0ac91b5487c1d190157dedb864dbaf2cde72658e178e2e12e6",
+  "english_quiz": "taking-care-horse-en"
 }
