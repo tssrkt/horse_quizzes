@@ -4,8 +4,8 @@
   "status": "pending",
   "source_quiz": "horse-colors",
   "target_quiz": "horse-colors-en",
-  "source_revision": "d7a0be9851f8a31b890178c626a534ff98392bcf8643b2a029472c8079139763",
-  "mode": "created",
+  "source_revision": "fceb23181755d5ff98eef9992dc5a8365c0170482906f722d9f01d77b04a5f94",
+  "mode": "updated",
   "fields": {
     "title": "Horse Coat Colors",
     "short_description": "Look at photos of horses and choose the correct coat color from the list. A great quiz to start with, especially if you’re new to the subject.",
@@ -317,7 +317,7 @@
       "id": "question-13",
       "fields": {
         "question": "What coat color is this?",
-        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and black mane and tail. The head may be lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker."
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker."
       },
       "answers": [
         {
@@ -367,7 +367,7 @@
       "id": "question-15",
       "fields": {
         "question": "What coat color is this?",
-        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker."
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker."
       },
       "answers": [
         {
@@ -592,7 +592,7 @@
       "id": "question-24",
       "fields": {
         "question": "What coat color is this?",
-        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading."
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading."
       },
       "answers": [
         {
@@ -967,7 +967,7 @@
       "id": "question-39",
       "fields": {
         "question": "What coat color is this?",
-        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading."
+        "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading."
       },
       "answers": [
         {
@@ -1015,4 +1015,3 @@
     }
   ]
 }
-
