@@ -10,7 +10,7 @@
     "breed",
     "images"
   ],
-  "published": false,
+  "published": true,
   "title": "Horse Breeds 2",
   "short_description": "A continuation of the Horse Breeds quiz. This time you'll identify both familiar breeds from Part 1 and some new ones that are a little harder to tell apart.",
   "intro": "A continuation of the Horse Breeds quiz. This time you'll identify both familiar breeds from Part 1 and some new ones that are a little harder to tell apart.",
@@ -19,9 +19,7 @@
     {
       "id": "question-01",
       "question": "What breed is this?",
-      "explanation": "The Falabella is a unique Argentine miniature horse breed developed in the 19th century through selective breeding by the Falabella family. Unlike ponies, Falabellas retain the refined proportions of a full-sized horse in miniature, commonly standing only about 40–75 cm at the withers. They are known for being intelligent, sociable, and good-natured, with strong hooves, dense coats, and remarkable longevity. Because of their tiny size, they are not suitable for riding; instead, they are kept as companion animals, shown in exhibitions, taught tricks, or driven in very light carts.",
       "image": "img/quiz/horse-breeds-2/01.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -48,14 +46,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Falabella is a unique Argentine miniature horse breed developed in the 19th century through selective breeding by the Falabella family. Unlike ponies, Falabellas retain the refined proportions of a full-sized horse in miniature, commonly standing only about 40–75 cm at the withers. They are known for being intelligent, sociable, and good-natured, with strong hooves, dense coats, and remarkable longevity. Because of their tiny size, they are not suitable for riding; instead, they are kept as companion animals, shown in exhibitions, taught tricks, or driven in very light carts.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-02",
       "question": "What breed is this?",
-      "explanation": "The Arabian is one of the world's oldest and most recognizable horse breeds. It is easily identified by its distinctive dished facial profile, large expressive eyes, wide nostrils, and high-set, proudly arched neck. Another hallmark is the high-carried tail, often held like a flag in motion. Arabians have a refined, dry build, fine legs, exceptional endurance, and an energetic yet people-oriented temperament.",
       "image": "img/quiz/horse-breeds-2/02.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -82,14 +80,14 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The Arabian is one of the world's oldest and most recognizable horse breeds. It is easily identified by its distinctive dished facial profile, large expressive eyes, wide nostrils, and high-set, proudly arched neck. Another hallmark is the high-carried tail, often held like a flag in motion. Arabians have a refined, dry build, fine legs, exceptional endurance, and an energetic yet people-oriented temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-03",
       "question": "What breed is this?",
-      "explanation": "The Marwari is an ancient and rare Indian horse breed developed in the Marwar region of present-day Rajasthan for the Rajput warriors. Its most distinctive feature is the unusual inward-curving ears, whose tips may touch or even cross above the head. Marwaris are hardy, lean, and graceful horses adapted to desert conditions and capable of traveling long distances with limited water. Historically they were prized for courage, loyalty, and acute hearing.",
       "image": "img/quiz/horse-breeds-2/03.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -116,14 +114,14 @@
           "text": "Falabella"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "The Marwari is an ancient and rare Indian horse breed developed in the Marwar region of present-day Rajasthan for the Rajput warriors. Its most distinctive feature is the unusual inward-curving ears, whose tips may touch or even cross above the head. Marwaris are hardy, lean, and graceful horses adapted to desert conditions and capable of traveling long distances with limited water. Historically they were prized for courage, loyalty, and acute hearing.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-04",
       "question": "What breed is this?",
-      "explanation": "The Shire is a famous British draft breed and one of the largest and strongest horse breeds in the world. These giant horses can reach around 175–185 cm at the withers and may weigh more than a metric ton. Shires have a massive yet well-proportioned build, broad chest, strong back, and abundant silky feathering that covers the lower legs and hooves. Despite their imposing size, they are renowned for a calm, kind, and tractable temperament—the classic 'gentle giants.'",
       "image": "img/quiz/horse-breeds-2/04.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -150,14 +148,14 @@
           "text": "Shire"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "The Shire is a famous British draft breed and one of the largest and strongest horse breeds in the world. These giant horses can reach around 175–185 cm at the withers and may weigh more than a metric ton. Shires have a massive yet well-proportioned build, broad chest, strong back, and abundant silky feathering that covers the lower legs and hooves. Despite their imposing size, they are renowned for a calm, kind, and tractable temperament—the classic 'gentle giants.'",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-05",
       "question": "What breed is this?",
-      "explanation": "The Arabian is one of the world's oldest and most recognizable horse breeds. It is easily identified by its distinctive dished facial profile, large expressive eyes, wide nostrils, and high-set, proudly arched neck. Another hallmark is the high-carried tail, often held like a flag in motion. Arabians have a refined, dry build, fine legs, exceptional endurance, and an energetic yet people-oriented temperament.",
       "image": "img/quiz/horse-breeds-2/05.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -184,14 +182,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The Arabian is one of the world's oldest and most recognizable horse breeds. It is easily identified by its distinctive dished facial profile, large expressive eyes, wide nostrils, and high-set, proudly arched neck. Another hallmark is the high-carried tail, often held like a flag in motion. Arabians have a refined, dry build, fine legs, exceptional endurance, and an energetic yet people-oriented temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-06",
       "question": "What breed is this?",
-      "explanation": "The Kladruber is one of the oldest Czech carriage breeds and a classic Baroque horse. It is easily recognized by its long head with a strongly convex Roman profile and large, kind eyes. These tall, majestic horses were bred for ceremonial use at the Habsburg court and today are traditionally seen in gray and black. The breed combines substantial bone and power with a high-set, arched neck and an elevated, rhythmic carriage-horse trot.",
       "image": "img/quiz/horse-breeds-2/06.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -218,14 +216,14 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Kladruber is one of the oldest Czech carriage breeds and a classic Baroque horse. It is easily recognized by its long head with a strongly convex Roman profile and large, kind eyes. These tall, majestic horses were bred for ceremonial use at the Habsburg court and today are traditionally seen in gray and black. The breed combines substantial bone and power with a high-set, arched neck and an elevated, rhythmic carriage-horse trot.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-07",
       "question": "What breed is this?",
-      "explanation": "The Norwegian Fjord Horse is one of Europe's oldest established breeds and is instantly recognizable by its dun coat and distinctive two-tone mane. Dark hair runs down the center of the mane and tail, bordered by lighter cream-colored hair. The mane is traditionally clipped short so it stands upright and emphasizes the dark center stripe and strong arch of the neck. Fjords are compact, sturdy horses, usually around 135–150 cm tall, with a dorsal stripe, primitive leg barring, and a calm, hardy temperament.",
       "image": "img/quiz/horse-breeds-2/07.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -252,14 +250,14 @@
           "text": "Yakutian Horse"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Norwegian Fjord Horse is one of Europe's oldest established breeds and is instantly recognizable by its dun coat and distinctive two-tone mane. Dark hair runs down the center of the mane and tail, bordered by lighter cream-colored hair. The mane is traditionally clipped short so it stands upright and emphasizes the dark center stripe and strong arch of the neck. Fjords are compact, sturdy horses, usually around 135–150 cm tall, with a dorsal stripe, primitive leg barring, and a calm, hardy temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-08",
       "question": "What breed is this?",
-      "explanation": "The Arabian is one of the world's oldest and most recognizable horse breeds. It is easily identified by its distinctive dished facial profile, large expressive eyes, wide nostrils, and high-set, proudly arched neck. Another hallmark is the high-carried tail, often held like a flag in motion. Arabians have a refined, dry build, fine legs, exceptional endurance, and an energetic yet people-oriented temperament.",
       "image": "img/quiz/horse-breeds-2/08.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -286,14 +284,14 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The Arabian is one of the world's oldest and most recognizable horse breeds. It is easily identified by its distinctive dished facial profile, large expressive eyes, wide nostrils, and high-set, proudly arched neck. Another hallmark is the high-carried tail, often held like a flag in motion. Arabians have a refined, dry build, fine legs, exceptional endurance, and an energetic yet people-oriented temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-09",
       "question": "What breed is this?",
-      "explanation": "The Falabella is a unique Argentine miniature horse breed developed in the 19th century through selective breeding by the Falabella family. Unlike ponies, Falabellas retain the refined proportions of a full-sized horse in miniature, commonly standing only about 40–75 cm at the withers. They are known for being intelligent, sociable, and good-natured, with strong hooves, dense coats, and remarkable longevity. Because of their tiny size, they are not suitable for riding; instead, they are kept as companion animals, shown in exhibitions, taught tricks, or driven in very light carts.",
       "image": "img/quiz/horse-breeds-2/09.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -320,14 +318,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "The Falabella is a unique Argentine miniature horse breed developed in the 19th century through selective breeding by the Falabella family. Unlike ponies, Falabellas retain the refined proportions of a full-sized horse in miniature, commonly standing only about 40–75 cm at the withers. They are known for being intelligent, sociable, and good-natured, with strong hooves, dense coats, and remarkable longevity. Because of their tiny size, they are not suitable for riding; instead, they are kept as companion animals, shown in exhibitions, taught tricks, or driven in very light carts.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-10",
       "question": "What breed is this?",
-      "explanation": "The Friesian is a historic Dutch breed famous for its black coat and dramatic appearance. Hallmarks include a high-set, arched neck, exceptionally long and often wavy mane and tail, and abundant feathering on the lower legs. In motion, Friesians are known for an elevated, rhythmic trot with pronounced knee action, giving these substantial yet elegant horses a distinctly majestic and theatrical presence.",
       "image": "img/quiz/horse-breeds-2/10.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -354,14 +352,14 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The Friesian is a historic Dutch breed famous for its black coat and dramatic appearance. Hallmarks include a high-set, arched neck, exceptionally long and often wavy mane and tail, and abundant feathering on the lower legs. In motion, Friesians are known for an elevated, rhythmic trot with pronounced knee action, giving these substantial yet elegant horses a distinctly majestic and theatrical presence.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-11",
       "question": "What breed is this?",
-      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
       "image": "img/quiz/horse-breeds-2/11.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -388,14 +386,14 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-12",
       "question": "What breed is this?",
-      "explanation": "The Polish Konik is a hardy native horse breed with a strongly primitive appearance, usually standing around 130–140 cm. It is characteristically black dun (grullo), although a few red-dun individuals have been reported. Typical primitive markings include a dark dorsal stripe and leg barring. Koniks are compact and barrel-bodied, with dense coats, sturdy heads, and dark, coarse manes; their appearance reflects the type of small European horses historically associated with the tarpan.",
       "image": "img/quiz/horse-breeds-2/12.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -422,14 +420,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Polish Konik is a hardy native horse breed with a strongly primitive appearance, usually standing around 130–140 cm. It is characteristically black dun (grullo), although a few red-dun individuals have been reported. Typical primitive markings include a dark dorsal stripe and leg barring. Koniks are compact and barrel-bodied, with dense coats, sturdy heads, and dark, coarse manes; their appearance reflects the type of small European horses historically associated with the tarpan.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-13",
       "question": "What breed is this?",
-      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
       "image": "img/quiz/horse-breeds-2/13.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -456,14 +454,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-14",
       "question": "What breed is this?",
-      "explanation": "The Kladruber is one of the oldest Czech carriage breeds and a classic Baroque horse. It is easily recognized by its long head with a strongly convex Roman profile and large, kind eyes. These tall, majestic horses were bred for ceremonial use at the Habsburg court and today are traditionally seen in gray and black. The breed combines substantial bone and power with a high-set, arched neck and an elevated, rhythmic carriage-horse trot.",
       "image": "img/quiz/horse-breeds-2/14.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -490,14 +488,14 @@
           "text": "Polish Konik"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Kladruber is one of the oldest Czech carriage breeds and a classic Baroque horse. It is easily recognized by its long head with a strongly convex Roman profile and large, kind eyes. These tall, majestic horses were bred for ceremonial use at the Habsburg court and today are traditionally seen in gray and black. The breed combines substantial bone and power with a high-set, arched neck and an elevated, rhythmic carriage-horse trot.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-15",
       "question": "What breed is this?",
-      "explanation": "The Marwari is an ancient and rare Indian horse breed developed in the Marwar region of present-day Rajasthan for the Rajput warriors. Its most distinctive feature is the unusual inward-curving ears, whose tips may touch or even cross above the head. Marwaris are hardy, lean, and graceful horses adapted to desert conditions and capable of traveling long distances with limited water. Historically they were prized for courage, loyalty, and acute hearing.",
       "image": "img/quiz/horse-breeds-2/15.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -524,14 +522,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "The Marwari is an ancient and rare Indian horse breed developed in the Marwar region of present-day Rajasthan for the Rajput warriors. Its most distinctive feature is the unusual inward-curving ears, whose tips may touch or even cross above the head. Marwaris are hardy, lean, and graceful horses adapted to desert conditions and capable of traveling long distances with limited water. Historically they were prized for courage, loyalty, and acute hearing.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-16",
       "question": "What breed is this?",
-      "explanation": "The Haflinger is an Austrian breed developed in the Tyrol region in the late 19th century and now valued as a versatile all-round horse. Its hallmark is a chestnut coat with a light flaxen mane and tail. Haflingers are relatively small, usually around 138–150 cm, but strong, muscular, and sure-footed, making them well suited to mountain terrain. They are known for a friendly, steady, patient temperament and are used for trail riding, family riding, light driving, teaching, and therapeutic programs.",
       "image": "img/quiz/horse-breeds-2/16.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -558,14 +556,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "The Haflinger is an Austrian breed developed in the Tyrol region in the late 19th century and now valued as a versatile all-round horse. Its hallmark is a chestnut coat with a light flaxen mane and tail. Haflingers are relatively small, usually around 138–150 cm, but strong, muscular, and sure-footed, making them well suited to mountain terrain. They are known for a friendly, steady, patient temperament and are used for trail riding, family riding, light driving, teaching, and therapeutic programs.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-17",
       "question": "What breed is this?",
-      "explanation": "The Nukra, sometimes called Nukra Marwari, is a rare white Indian horse type closely associated with the Marwari and the regions of Punjab and Rajasthan. Its defining feature is a dominant-white phenotype: white hair, pink skin, and dark eyes. These stately horses often retain the characteristic inward-curving ears associated with Marwari-type horses and are especially prized for ceremonial use. Today they are particularly prominent at weddings and religious festivals, where white horses traditionally symbolize prestige and purity.",
       "image": "img/quiz/horse-breeds-2/17.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -592,14 +590,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "The Nukra, sometimes called Nukra Marwari, is a rare white Indian horse type closely associated with the Marwari and the regions of Punjab and Rajasthan. Its defining feature is a dominant-white phenotype: white hair, pink skin, and dark eyes. These stately horses often retain the characteristic inward-curving ears associated with Marwari-type horses and are especially prized for ceremonial use. Today they are particularly prominent at weddings and religious festivals, where white horses traditionally symbolize prestige and purity.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-18",
       "question": "What breed is this?",
-      "explanation": "The Marwari is an ancient and rare Indian horse breed developed in the Marwar region of present-day Rajasthan for the Rajput warriors. Its most distinctive feature is the unusual inward-curving ears, whose tips may touch or even cross above the head. Marwaris are hardy, lean, and graceful horses adapted to desert conditions and capable of traveling long distances with limited water. Historically they were prized for courage, loyalty, and acute hearing.",
       "image": "img/quiz/horse-breeds-2/18.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -626,14 +624,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "The Marwari is an ancient and rare Indian horse breed developed in the Marwar region of present-day Rajasthan for the Rajput warriors. Its most distinctive feature is the unusual inward-curving ears, whose tips may touch or even cross above the head. Marwaris are hardy, lean, and graceful horses adapted to desert conditions and capable of traveling long distances with limited water. Historically they were prized for courage, loyalty, and acute hearing.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-19",
       "question": "What breed is this?",
-      "explanation": "The Gypsy Cob, also known as the Tinker in parts of Europe, is a compact, powerful cob-type horse easily recognized by heavy feathering on the lower legs and an abundant, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Gypsy Cobs are usually around 135–155 cm tall and have a broad chest and low, powerful build. They occur in many coat colors, with pinto patterns especially common, and are well known for their calm, friendly, tractable temperament.",
       "image": "img/quiz/horse-breeds-2/19.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -660,14 +658,14 @@
           "text": "Polish Konik"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The Gypsy Cob, also known as the Tinker in parts of Europe, is a compact, powerful cob-type horse easily recognized by heavy feathering on the lower legs and an abundant, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Gypsy Cobs are usually around 135–155 cm tall and have a broad chest and low, powerful build. They occur in many coat colors, with pinto patterns especially common, and are well known for their calm, friendly, tractable temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-20",
       "question": "What breed is this?",
-      "explanation": "The Gypsy Cob, also known as the Tinker in parts of Europe, is a compact, powerful cob-type horse easily recognized by heavy feathering on the lower legs and an abundant, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Gypsy Cobs are usually around 135–155 cm tall and have a broad chest and low, powerful build. They occur in many coat colors, with pinto patterns especially common, and are well known for their calm, friendly, tractable temperament.",
       "image": "img/quiz/horse-breeds-2/20.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -694,14 +692,14 @@
           "text": "Polish Konik"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The Gypsy Cob, also known as the Tinker in parts of Europe, is a compact, powerful cob-type horse easily recognized by heavy feathering on the lower legs and an abundant, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Gypsy Cobs are usually around 135–155 cm tall and have a broad chest and low, powerful build. They occur in many coat colors, with pinto patterns especially common, and are well known for their calm, friendly, tractable temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-21",
       "question": "What breed is this?",
-      "explanation": "The Norwegian Fjord Horse is one of Europe's oldest established breeds and is instantly recognizable by its dun coat and distinctive two-tone mane. Dark hair runs down the center of the mane and tail, bordered by lighter cream-colored hair. The mane is traditionally clipped short so it stands upright and emphasizes the dark center stripe and strong arch of the neck. Fjords are compact, sturdy horses, usually around 135–150 cm tall, with a dorsal stripe, primitive leg barring, and a calm, hardy temperament.",
       "image": "img/quiz/horse-breeds-2/21.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -728,14 +726,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Norwegian Fjord Horse is one of Europe's oldest established breeds and is instantly recognizable by its dun coat and distinctive two-tone mane. Dark hair runs down the center of the mane and tail, bordered by lighter cream-colored hair. The mane is traditionally clipped short so it stands upright and emphasizes the dark center stripe and strong arch of the neck. Fjords are compact, sturdy horses, usually around 135–150 cm tall, with a dorsal stripe, primitive leg barring, and a calm, hardy temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-22",
       "question": "What breed is this?",
-      "explanation": "The Shire is a famous British draft breed and one of the largest and strongest horse breeds in the world. These giant horses can reach around 175–185 cm at the withers and may weigh more than a metric ton. Shires have a massive yet well-proportioned build, broad chest, strong back, and abundant silky feathering that covers the lower legs and hooves. Despite their imposing size, they are renowned for a calm, kind, and tractable temperament—the classic 'gentle giants.'",
       "image": "img/quiz/horse-breeds-2/22.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -762,14 +760,14 @@
           "text": "Falabella"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The Shire is a famous British draft breed and one of the largest and strongest horse breeds in the world. These giant horses can reach around 175–185 cm at the withers and may weigh more than a metric ton. Shires have a massive yet well-proportioned build, broad chest, strong back, and abundant silky feathering that covers the lower legs and hooves. Despite their imposing size, they are renowned for a calm, kind, and tractable temperament—the classic 'gentle giants.'",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-23",
       "question": "What breed is this?",
-      "explanation": "The Marwari is an ancient and rare Indian horse breed developed in the Marwar region of present-day Rajasthan for the Rajput warriors. Its most distinctive feature is the unusual inward-curving ears, whose tips may touch or even cross above the head. Marwaris are hardy, lean, and graceful horses adapted to desert conditions and capable of traveling long distances with limited water. Historically they were prized for courage, loyalty, and acute hearing.",
       "image": "img/quiz/horse-breeds-2/23.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -796,14 +794,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "The Marwari is an ancient and rare Indian horse breed developed in the Marwar region of present-day Rajasthan for the Rajput warriors. Its most distinctive feature is the unusual inward-curving ears, whose tips may touch or even cross above the head. Marwaris are hardy, lean, and graceful horses adapted to desert conditions and capable of traveling long distances with limited water. Historically they were prized for courage, loyalty, and acute hearing.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-24",
       "question": "What breed is this?",
-      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
       "image": "img/quiz/horse-breeds-2/24.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -830,14 +828,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-25",
       "question": "What breed is this?",
-      "explanation": "The Black Forest Horse is an old German light-draft breed developed in the mountainous Black Forest region of southern Germany. Its hallmark is a dark chestnut body contrasted with a thick flaxen mane and tail. Relatively compact for a draft horse, it usually stands around 148–160 cm and is strong, sure-footed, and durable, with little heavy feathering. Historically used for forestry and farm work on difficult slopes, the breed is now rare and is also seen in driving, traditional events, and conservation forestry.",
       "image": "img/quiz/horse-breeds-2/25.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -864,14 +862,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Black Forest Horse is an old German light-draft breed developed in the mountainous Black Forest region of southern Germany. Its hallmark is a dark chestnut body contrasted with a thick flaxen mane and tail. Relatively compact for a draft horse, it usually stands around 148–160 cm and is strong, sure-footed, and durable, with little heavy feathering. Historically used for forestry and farm work on difficult slopes, the breed is now rare and is also seen in driving, traditional events, and conservation forestry.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-26",
       "question": "What breed is this?",
-      "explanation": "The Appaloosa is an American breed strongly associated with the Nez Perce people of the Pacific Northwest. Its best-known feature is the wide variety of Leopard Complex coat patterns, often accompanied by mottled skin, visible white sclera, and vertically striped hooves. Appaloosas are typically compact, athletic, hardy, and agile, and are known for intelligence, versatility, and stamina. Today they are especially popular in Western disciplines, trail riding, and general family riding.",
       "image": "img/quiz/horse-breeds-2/26.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -898,14 +896,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The Appaloosa is an American breed strongly associated with the Nez Perce people of the Pacific Northwest. Its best-known feature is the wide variety of Leopard Complex coat patterns, often accompanied by mottled skin, visible white sclera, and vertically striped hooves. Appaloosas are typically compact, athletic, hardy, and agile, and are known for intelligence, versatility, and stamina. Today they are especially popular in Western disciplines, trail riding, and general family riding.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-27",
       "question": "What breed is this?",
-      "explanation": "The Friesian is a historic Dutch breed famous for its black coat and dramatic appearance. Hallmarks include a high-set, arched neck, exceptionally long and often wavy mane and tail, and abundant feathering on the lower legs. In motion, Friesians are known for an elevated, rhythmic trot with pronounced knee action, giving these substantial yet elegant horses a distinctly majestic and theatrical presence.",
       "image": "img/quiz/horse-breeds-2/27.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -932,14 +930,14 @@
           "text": "Black Forest Horse"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Friesian is a historic Dutch breed famous for its black coat and dramatic appearance. Hallmarks include a high-set, arched neck, exceptionally long and often wavy mane and tail, and abundant feathering on the lower legs. In motion, Friesians are known for an elevated, rhythmic trot with pronounced knee action, giving these substantial yet elegant horses a distinctly majestic and theatrical presence.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-28",
       "question": "What breed is this?",
-      "explanation": "The Rocky Mountain Horse is an American riding breed developed in the Appalachian region of Kentucky despite its name. A hallmark of the breed is its smooth natural four-beat gait, commonly called the single-foot or rack, which provides a comfortable ride over long distances. Silver dilution is common and can produce the breed's famous dark body with a light flaxen-looking mane and tail, although not every Rocky Mountain Horse carries Silver. The breed is known for strength, stamina, a calm temperament, and suitability for trail riding.",
       "image": "img/quiz/horse-breeds-2/28.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -966,14 +964,14 @@
           "text": "Black Forest Horse"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "The Rocky Mountain Horse is an American riding breed developed in the Appalachian region of Kentucky despite its name. A hallmark of the breed is its smooth natural four-beat gait, commonly called the single-foot or rack, which provides a comfortable ride over long distances. Silver dilution is common and can produce the breed's famous dark body with a light flaxen-looking mane and tail, although not every Rocky Mountain Horse carries Silver. The breed is known for strength, stamina, a calm temperament, and suitability for trail riding.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-29",
       "question": "What breed is this?",
-      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
       "image": "img/quiz/horse-breeds-2/29.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1000,14 +998,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-30",
       "question": "What breed is this?",
-      "explanation": "The Norwegian Fjord Horse is one of Europe's oldest established breeds and is instantly recognizable by its dun coat and distinctive two-tone mane. Dark hair runs down the center of the mane and tail, bordered by lighter cream-colored hair. The mane is traditionally clipped short so it stands upright and emphasizes the dark center stripe and strong arch of the neck. Fjords are compact, sturdy horses, usually around 135–150 cm tall, with a dorsal stripe, primitive leg barring, and a calm, hardy temperament.",
       "image": "img/quiz/horse-breeds-2/30.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1034,14 +1032,14 @@
           "text": "Polish Konik"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Norwegian Fjord Horse is one of Europe's oldest established breeds and is instantly recognizable by its dun coat and distinctive two-tone mane. Dark hair runs down the center of the mane and tail, bordered by lighter cream-colored hair. The mane is traditionally clipped short so it stands upright and emphasizes the dark center stripe and strong arch of the neck. Fjords are compact, sturdy horses, usually around 135–150 cm tall, with a dorsal stripe, primitive leg barring, and a calm, hardy temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-31",
       "question": "What breed is this?",
-      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
       "image": "img/quiz/horse-breeds-2/31.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1068,14 +1066,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Akhal-Teke is an ancient riding breed famous for its distinctive metallic sheen, especially striking on palomino, buckskin, and double-cream horses, and for its extremely lean, refined build. Akhal-Tekes have long, elegant body lines, a high-set slender neck, a deep chest, and a fine head with large almond-shaped eyes. Their mane is naturally sparse and may be kept very short or clipped, contributing to the breed's unmistakably sleek appearance.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-32",
       "question": "What breed is this?",
-      "explanation": "The Haflinger is an Austrian breed developed in the Tyrol region in the late 19th century and now valued as a versatile all-round horse. Its hallmark is a chestnut coat with a light flaxen mane and tail. Haflingers are relatively small, usually around 138–150 cm, but strong, muscular, and sure-footed, making them well suited to mountain terrain. They are known for a friendly, steady, patient temperament and are used for trail riding, family riding, light driving, teaching, and therapeutic programs.",
       "image": "img/quiz/horse-breeds-2/32.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1102,14 +1100,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "The Haflinger is an Austrian breed developed in the Tyrol region in the late 19th century and now valued as a versatile all-round horse. Its hallmark is a chestnut coat with a light flaxen mane and tail. Haflingers are relatively small, usually around 138–150 cm, but strong, muscular, and sure-footed, making them well suited to mountain terrain. They are known for a friendly, steady, patient temperament and are used for trail riding, family riding, light driving, teaching, and therapeutic programs.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-33",
       "question": "What breed is this?",
-      "explanation": "The Nukra, sometimes called Nukra Marwari, is a rare white Indian horse type closely associated with the Marwari and the regions of Punjab and Rajasthan. Its defining feature is a dominant-white phenotype: white hair, pink skin, and dark eyes. These stately horses often retain the characteristic inward-curving ears associated with Marwari-type horses and are especially prized for ceremonial use. Today they are particularly prominent at weddings and religious festivals, where white horses traditionally symbolize prestige and purity.",
       "image": "img/quiz/horse-breeds-2/33.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1136,14 +1134,14 @@
           "text": "Nukra"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "The Nukra, sometimes called Nukra Marwari, is a rare white Indian horse type closely associated with the Marwari and the regions of Punjab and Rajasthan. Its defining feature is a dominant-white phenotype: white hair, pink skin, and dark eyes. These stately horses often retain the characteristic inward-curving ears associated with Marwari-type horses and are especially prized for ceremonial use. Today they are particularly prominent at weddings and religious festivals, where white horses traditionally symbolize prestige and purity.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-34",
       "question": "What breed is this?",
-      "explanation": "The Exmoor Pony is one of Britain's oldest native pony breeds and has lived for centuries in semi-feral conditions on the harsh moors of southwest England. Distinctive features include a mealy muzzle, lighter rings around the eyes—often called 'toad eyes'—and the absence of white markings. Exmoors are small but exceptionally sturdy and strong, with deep chests, dense weather-resistant coats, and remarkable hardiness. Today they are valued both as riding ponies and for conservation grazing.",
       "image": "img/quiz/horse-breeds-2/34.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1170,14 +1168,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "The Exmoor Pony is one of Britain's oldest native pony breeds and has lived for centuries in semi-feral conditions on the harsh moors of southwest England. Distinctive features include a mealy muzzle, lighter rings around the eyes—often called 'toad eyes'—and the absence of white markings. Exmoors are small but exceptionally sturdy and strong, with deep chests, dense weather-resistant coats, and remarkable hardiness. Today they are valued both as riding ponies and for conservation grazing.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-35",
       "question": "What breed is this?",
-      "explanation": "The Black Forest Horse is an old German light-draft breed developed in the mountainous Black Forest region of southern Germany. Its hallmark is a dark chestnut body contrasted with a thick flaxen mane and tail. Relatively compact for a draft horse, it usually stands around 148–160 cm and is strong, sure-footed, and durable, with little heavy feathering. Historically used for forestry and farm work on difficult slopes, the breed is now rare and is also seen in driving, traditional events, and conservation forestry.",
       "image": "img/quiz/horse-breeds-2/35.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1204,14 +1202,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Black Forest Horse is an old German light-draft breed developed in the mountainous Black Forest region of southern Germany. Its hallmark is a dark chestnut body contrasted with a thick flaxen mane and tail. Relatively compact for a draft horse, it usually stands around 148–160 cm and is strong, sure-footed, and durable, with little heavy feathering. Historically used for forestry and farm work on difficult slopes, the breed is now rare and is also seen in driving, traditional events, and conservation forestry.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-36",
       "question": "What breed is this?",
-      "explanation": "The Gypsy Cob, also known as the Tinker in parts of Europe, is a compact, powerful cob-type horse easily recognized by heavy feathering on the lower legs and an abundant, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Gypsy Cobs are usually around 135–155 cm tall and have a broad chest and low, powerful build. They occur in many coat colors, with pinto patterns especially common, and are well known for their calm, friendly, tractable temperament.",
       "image": "img/quiz/horse-breeds-2/36.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1238,14 +1236,14 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The Gypsy Cob, also known as the Tinker in parts of Europe, is a compact, powerful cob-type horse easily recognized by heavy feathering on the lower legs and an abundant, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Gypsy Cobs are usually around 135–155 cm tall and have a broad chest and low, powerful build. They occur in many coat colors, with pinto patterns especially common, and are well known for their calm, friendly, tractable temperament.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-37",
       "question": "What breed is this?",
-      "explanation": "The Yakutian Horse is an ancient native breed shaped by extreme natural selection in Yakutia, where winter temperatures can fall below −60 °C. Its most striking adaptation is an extremely thick winter coat with a dense undercoat, allowing the horses to live outdoors year-round and forage beneath the snow. Yakutian horses are small but massive and compact, with broad chests, short strong legs, and exceptional cold tolerance. They remain important to traditional northern livelihoods for transport and livestock products.",
       "image": "img/quiz/horse-breeds-2/37.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1272,14 +1270,14 @@
           "text": "Polish Konik"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Yakutian Horse is an ancient native breed shaped by extreme natural selection in Yakutia, where winter temperatures can fall below −60 °C. Its most striking adaptation is an extremely thick winter coat with a dense undercoat, allowing the horses to live outdoors year-round and forage beneath the snow. Yakutian horses are small but massive and compact, with broad chests, short strong legs, and exceptional cold tolerance. They remain important to traditional northern livelihoods for transport and livestock products.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-38",
       "question": "What breed is this?",
-      "explanation": "The Polish Konik is a hardy native horse breed with a strongly primitive appearance, usually standing around 130–140 cm. It is characteristically black dun (grullo), although a few red-dun individuals have been reported. Typical primitive markings include a dark dorsal stripe and leg barring. Koniks are compact and barrel-bodied, with dense coats, sturdy heads, and dark, coarse manes; their appearance reflects the type of small European horses historically associated with the tarpan.",
       "image": "img/quiz/horse-breeds-2/38.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1306,14 +1304,14 @@
           "text": "Falabella"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The Polish Konik is a hardy native horse breed with a strongly primitive appearance, usually standing around 130–140 cm. It is characteristically black dun (grullo), although a few red-dun individuals have been reported. Typical primitive markings include a dark dorsal stripe and leg barring. Koniks are compact and barrel-bodied, with dense coats, sturdy heads, and dark, coarse manes; their appearance reflects the type of small European horses historically associated with the tarpan.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-39",
       "question": "What breed is this?",
-      "explanation": "The Black Forest Horse is an old German light-draft breed developed in the mountainous Black Forest region of southern Germany. Its hallmark is a dark chestnut body contrasted with a thick flaxen mane and tail. Relatively compact for a draft horse, it usually stands around 148–160 cm and is strong, sure-footed, and durable, with little heavy feathering. Historically used for forestry and farm work on difficult slopes, the breed is now rare and is also seen in driving, traditional events, and conservation forestry.",
       "image": "img/quiz/horse-breeds-2/39.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1340,14 +1338,14 @@
           "text": "Polish Konik"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Black Forest Horse is an old German light-draft breed developed in the mountainous Black Forest region of southern Germany. Its hallmark is a dark chestnut body contrasted with a thick flaxen mane and tail. Relatively compact for a draft horse, it usually stands around 148–160 cm and is strong, sure-footed, and durable, with little heavy feathering. Historically used for forestry and farm work on difficult slopes, the breed is now rare and is also seen in driving, traditional events, and conservation forestry.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-40",
       "question": "What breed is this?",
-      "explanation": "The Norwegian Fjord Horse is one of Europe's oldest established breeds and is instantly recognizable by its dun coat and distinctive two-tone mane. Dark hair runs down the center of the mane and tail, bordered by lighter cream-colored hair. The mane is traditionally clipped short so it stands upright and emphasizes the dark center stripe and strong arch of the neck. Fjords are compact, sturdy horses, usually around 135–150 cm tall, with a dorsal stripe, primitive leg barring, and a calm, hardy temperament.",
       "image": "img/quiz/horse-breeds-2/40.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1374,7 +1372,9 @@
           "text": "Haflinger"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Norwegian Fjord Horse is one of Europe's oldest established breeds and is instantly recognizable by its dun coat and distinctive two-tone mane. Dark hair runs down the center of the mane and tail, bordered by lighter cream-colored hair. The mane is traditionally clipped short so it stands upright and emphasizes the dark center stripe and strong arch of the neck. Fjords are compact, sturdy horses, usually around 135–150 cm tall, with a dorsal stripe, primitive leg barring, and a calm, hardy temperament.",
+      "image_author": "Неизвестен"
     }
   ],
   "translation_status": "current",
@@ -2753,5 +2753,6 @@
       }
     ]
   },
-  "source_content_hash": "a104f402adc492a421716bb61695c128f20799370581746d44e9cd9bf8ea3750"
+  "source_content_hash": "a104f402adc492a421716bb61695c128f20799370581746d44e9cd9bf8ea3750",
+  "english_quiz": "horse-breeds-2-en"
 }
