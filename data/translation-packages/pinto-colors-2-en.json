@@ -7,1169 +7,1169 @@
   "source_revision": "fe8048028f09245e9ce28326e4a0b25161692211d68371fd8496caebc0cc6345",
   "mode": "created",
   "fields": {
-    "title": "Пегие масти 2",
-    "short_description": "Данная викторина продолжает тему пегих мастей. Так что если вы закончили первую часть и готовы проверить свои знания на примерах посложнее, смело переходите ко второй.",
-    "intro": "Данная викторина продолжает тему пегих мастей. Так что если вы закончили первую часть и готовы проверить свои знания на примерах посложнее, смело переходите ко второй.",
-    "questionImagesAlt": "Фотография лошади для определения масти"
+    "title": "Pinto Coat Colors 2",
+    "short_description": "This quiz continues the topic of pinto coat colors. If you've finished Part 1 and are ready to test your knowledge on some trickier examples, go ahead and move on to Part 2.",
+    "intro": "This quiz continues the topic of pinto coat colors. If you've finished Part 1 and are ready to test your knowledge on some trickier examples, go ahead and move on to Part 2.",
+    "questionImagesAlt": "Photo of a horse for identifying its pinto pattern"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What pinto pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What pinto pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What pinto pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Товеро"
+          "text": "Tovero"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What pinto pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What pinto pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What pinto pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What pinto pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What pinto pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What pinto pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What pinto pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What pinto pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What pinto pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What pinto pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What pinto pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What pinto pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Товеро — это смешанный тип пегости. Такие лошади обладают несколькими генами, отвечающими за разные типы пегостей. Чаще всего товеро является сочетанием двух разных пегих генов: тобиано + сабино, сабино + сплешед уайт, тобиано + фрейм оверо и так далее. Очень редко у лошади может быть три типа пегости. Кони с четырьмя пегими генами (тобиано, сабино, сплешед уайт и фрейм оверо) пока не обнаружены, но теоретически такое возможно."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Фрейм оверо — разновидность пегости, при которой белые пятна с четкими неровными краями располагаются преимущественно по бокам корпуса и обычно не пересекают линию спины, создавая впечатление, что темная окраска заключена в белую «рамку» (frame). Голова часто имеет широкие белые отметины, тогда как ноги нередко остаются темными."
+        "question": "What pinto pattern is this?",
+        "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What pinto pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сплешед уайт — разновидность пегости, при которой создается впечатление, будто нижнюю часть тела лошади окунули в белую краску. Для нее характерны крупные белые отметины с четкими ровными границами, начинающиеся с ног и нижней части корпуса и захватывающие голову, глаза часто бывают голубыми."
+        "question": "What pinto pattern is this?",
+        "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Тобиано — разновидность пегости, при которой крупные белые пятна с четкими, обычно гладкими краями пересекают линию спины и распространяются вниз по бокам. Ноги чаще всего белые, голова обычно остается темной с обычными белыми отметинами вроде проточины, а хвост часто бывает двухцветным."
+        "question": "What pinto pattern is this?",
+        "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Какой это тип пегости?",
-        "explanation": "Сабино — разновидность пегости, при которой белые отметины начинаются с ног и мордочки (проточина идет вниз от челки до нижней челюсти) и распространяются на живот и бока. Для сабино характерны неровные, словно «рваные» или чалые края белых пятен, а также многочисленные белые волоски, смешанные с основной окраской."
+        "question": "What pinto pattern is this?",
+        "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         },
         {
           "id": "answer-05",
-          "text": "Товеро"
+          "text": "Tovero"
         }
       ]
     }
