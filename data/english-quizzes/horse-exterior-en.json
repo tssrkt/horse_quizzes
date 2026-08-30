@@ -11,7 +11,7 @@
     "exterior",
     "health"
   ],
-  "published": false,
+  "published": true,
   "title": "Horse Conformation",
   "short_description": "Horse conformation is more than just the names of body parts: it is an entire system for assessing an animal’s build, proportions, and structural features.",
   "intro": "Horse conformation is more than just the names of body parts: it is an entire system for assessing an animal’s build, proportions, and structural features.",
@@ -19,7 +19,6 @@
     {
       "id": "question-01",
       "question": "How can you assess the width between a horse’s jaws?",
-      "explanation": "The rear angles of the horse’s mandible form the lower jaw. The width of the intermandibular space between the two sides of the jaw is important for comfortable flexion, breathing, and collection under saddle. A traditional practical check is to place a clenched fist into the space beneath the jaw: in a horse with favorable anatomy, four fingers or an adult fist should fit freely between the jawbones. If the space is too narrow, flexion at the poll can compress the soft tissues of the throat, which may contribute to noisy breathing, reduced airflow, and faster fatigue.",
       "answers": [
         {
           "id": "answer-01",
@@ -38,12 +37,12 @@
           "text": "Use a fist to measure the space between the jawbones"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The rear angles of the horse’s mandible form the lower jaw. The width of the intermandibular space between the two sides of the jaw is important for comfortable flexion, breathing, and collection under saddle. A traditional practical check is to place a clenched fist into the space beneath the jaw: in a horse with favorable anatomy, four fingers or an adult fist should fit freely between the jawbones. If the space is too narrow, flexion at the poll can compress the soft tissues of the throat, which may contribute to noisy breathing, reduced airflow, and faster fatigue."
     },
     {
       "id": "question-02",
       "question": "What if a horse has a narrow intermandibular space?",
-      "explanation": "A narrow intermandibular space—too little room between the two sides of the lower jaw—can substantially restrict freedom of flexion at the poll. When the rider takes up the reins and asks the horse to collect, rounding the neck and lowering the nose, the jawbones can compress the soft tissues of the throat. The larynx, trachea, major blood vessels, and parotid salivary glands are located in this area. As a result, the horse may breathe noisily because of restricted airflow, experience discomfort, resist the aids, and be physically unable to perform collected work correctly without strain. In a harness horse, however, a narrow space between the jaws is not considered a significant disadvantage because the horse is not required to work in the same degree of flexion and collection.",
       "answers": [
         {
           "id": "answer-01",
@@ -62,12 +61,12 @@
           "text": "It does not interfere with a riding horse at all"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A narrow intermandibular space—too little room between the two sides of the lower jaw—can substantially restrict freedom of flexion at the poll. When the rider takes up the reins and asks the horse to collect, rounding the neck and lowering the nose, the jawbones can compress the soft tissues of the throat. The larynx, trachea, major blood vessels, and parotid salivary glands are located in this area. As a result, the horse may breathe noisily because of restricted airflow, experience discomfort, resist the aids, and be physically unable to perform collected work correctly without strain. In a harness horse, however, a narrow space between the jaws is not considered a significant disadvantage because the horse is not required to work in the same degree of flexion and collection."
     },
     {
       "id": "question-03",
       "question": "What does the term “crow’s-beak” profile describe in horses?",
-      "explanation": "The metaphor “crow’s beak” is used in traditional horse husbandry to describe the characteristic profile of the incisors in an elderly or old horse. With age, the angle of the incisors changes markedly: instead of meeting almost vertically, they slant increasingly forward. Because of this pronounced angle and age-related wear of the tooth surfaces, the closed jaws of an older horse can take on a distinctly beak-like profile. This is one of the classic visual clues traditionally used to estimate advanced age when examining a horse’s mouth.",
       "answers": [
         {
           "id": "answer-01",
@@ -86,12 +85,12 @@
           "text": "The shape of the closed jaws in certain dental diseases"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The metaphor “crow’s beak” is used in traditional horse husbandry to describe the characteristic profile of the incisors in an elderly or old horse. With age, the angle of the incisors changes markedly: instead of meeting almost vertically, they slant increasingly forward. Because of this pronounced angle and age-related wear of the tooth surfaces, the closed jaws of an older horse can take on a distinctly beak-like profile. This is one of the classic visual clues traditionally used to estimate advanced age when examining a horse’s mouth."
     },
     {
       "id": "question-04",
       "question": "A short, broad neck, narrow space between the jaws, low short withers, a long loin, and an upright shoulder are features of:",
-      "explanation": "These conformation traits are well suited to heavy draft work. A short, broad neck combined with low withers provides a powerful lever and allows a harness horse to put its weight effectively into the collar. An upright shoulder limits the forward reach of the forelimb but provides a strong, stable base of support for moving very heavy loads. A long loin and relatively narrow space between the jaws are less critical in draft horses than in riding horses, because draft work does not require a high, flexible degree of collection or jumping ability; raw strength and endurance at slower gaits are more important.",
       "answers": [
         {
           "id": "answer-01",
@@ -110,12 +109,12 @@
           "text": "A part-bred horse"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "These conformation traits are well suited to heavy draft work. A short, broad neck combined with low withers provides a powerful lever and allows a harness horse to put its weight effectively into the collar. An upright shoulder limits the forward reach of the forelimb but provides a strong, stable base of support for moving very heavy loads. A long loin and relatively narrow space between the jaws are less critical in draft horses than in riding horses, because draft work does not require a high, flexible degree of collection or jumping ability; raw strength and endurance at slower gaits are more important."
     },
     {
       "id": "question-05",
       "question": "A horse that is built downhill is:",
-      "explanation": "A horse is described as built downhill when the highest point of the croup is visibly higher than the highest point of the withers. In young, growing horses up to about three or four years of age, this can be a completely normal developmental stage because the hindquarters often grow faster than the front end. If the condition persists in an adult riding horse, however, it is considered a conformation fault. It shifts the horse’s center of gravity forward, increasing concussion on the forelimbs and making it harder for the hind legs to step deeply under the body, which can impair balance and athletic performance under saddle. In heavy draft breeds, a croup-high build may be useful for work. By shifting the center of gravity slightly forward and downward, the higher hindquarters and powerful croup can act as an effective lever when the horse leans into the collar, helping it push strongly from behind and transfer body mass into draft effort.",
       "answers": [
         {
           "id": "answer-01",
@@ -134,12 +133,12 @@
           "text": "A horse whose conformation faults have been corrected through training and therapy"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A horse is described as built downhill when the highest point of the croup is visibly higher than the highest point of the withers. In young, growing horses up to about three or four years of age, this can be a completely normal developmental stage because the hindquarters often grow faster than the front end. If the condition persists in an adult riding horse, however, it is considered a conformation fault. It shifts the horse’s center of gravity forward, increasing concussion on the forelimbs and making it harder for the hind legs to step deeply under the body, which can impair balance and athletic performance under saddle. In heavy draft breeds, a croup-high build may be useful for work. By shifting the center of gravity slightly forward and downward, the higher hindquarters and powerful croup can act as an effective lever when the horse leans into the collar, helping it push strongly from behind and transfer body mass into draft effort."
     },
     {
       "id": "question-06",
       "question": "If a horse has a medium or long neck, adequate space between the jaws, high long withers, a short loin, a sloping shoulder, and a refined build, it is most likely:",
-      "explanation": "These anatomical features are characteristic of riding breeds developed for speed, jumping, and maneuverability. A longer neck and adequate space between the jaws promote balance, flexion, and freedom of breathing. High withers and a sloping shoulder favor a longer stride and smoother movement, while a short loin helps transmit impulsion from the hindquarters forward. Together with a refined build, these points indicate a typical light riding horse, such as a Thoroughbred or an Akhal-Teke.",
       "answers": [
         {
           "id": "answer-01",
@@ -158,12 +157,12 @@
           "text": "A working horse"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "These anatomical features are characteristic of riding breeds developed for speed, jumping, and maneuverability. A longer neck and adequate space between the jaws promote balance, flexion, and freedom of breathing. High withers and a sloping shoulder favor a longer stride and smoother movement, while a short loin helps transmit impulsion from the hindquarters forward. Together with a refined build, these points indicate a typical light riding horse, such as a Thoroughbred or an Akhal-Teke."
     },
     {
       "id": "question-07",
       "question": "How does a serious conformation defect differ from a minor fault?",
-      "explanation": "The main difference is the degree to which it affects the horse’s soundness and ability to work. A serious defect or unsoundness—for example, bone spavin or ringbone—can significantly reduce performance, cause lameness, or make strenuous work impossible. A minor fault is a less severe deviation in conformation or structure, such as a soft back or slight toeing-in. It may detract from overall harmony and reduce breeding value somewhat, while still allowing the horse to live normally and perform moderate work.",
       "answers": [
         {
           "id": "answer-01",
@@ -182,12 +181,12 @@
           "text": "A minor fault is a symptom of disease, while a serious defect is not"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The main difference is the degree to which it affects the horse’s soundness and ability to work. A serious defect or unsoundness—for example, bone spavin or ringbone—can significantly reduce performance, cause lameness, or make strenuous work impossible. A minor fault is a less severe deviation in conformation or structure, such as a soft back or slight toeing-in. It may detract from overall harmony and reduce breeding value somewhat, while still allowing the horse to live normally and perform moderate work."
     },
     {
       "id": "question-08",
       "question": "How is the length of a horse’s neck assessed?",
-      "explanation": "In horse conformation, neck length is often judged in proportion to the head by comparing the distance from the poll to the withers with the length of the head from the poll to the nostrils. If the neck exceeds this measure, it is classified as long, a trait valued in many racing horses because it can aid balance at the gallop. If the neck is shorter than the head, it is considered short, which is common in draft and native breeds and can provide greater strength for pulling. When the two measurements are approximately equal, the neck is considered medium in length and harmoniously proportioned for many sport horses.",
       "answers": [
         {
           "id": "answer-01",
@@ -206,12 +205,12 @@
           "text": "If the neck is longer than the foreleg, it is long; if shorter, it is short; if equal, it is medium"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "In horse conformation, neck length is often judged in proportion to the head by comparing the distance from the poll to the withers with the length of the head from the poll to the nostrils. If the neck exceeds this measure, it is classified as long, a trait valued in many racing horses because it can aid balance at the gallop. If the neck is shorter than the head, it is considered short, which is common in draft and native breeds and can provide greater strength for pulling. When the two measurements are approximately equal, the neck is considered medium in length and harmoniously proportioned for many sport horses."
     },
     {
       "id": "question-09",
       "question": "A horse described as having substantial bone has:",
-      "explanation": "Bone is an important conformation trait that reflects the size, substance, and overall development of the skeleton. Horses with substantial bone tend to have large, clearly defined joints and a greater cannon-bone circumference, features associated with a stronger supporting framework. This build is typical of heavy draft horses, large harness breeds, and some working breeds that must withstand considerable loads. Substantial bone should never be confused with being thin or bony: it describes the strength and mass of the skeletal foundation, not body condition.",
       "answers": [
         {
           "id": "answer-01",
@@ -230,12 +229,12 @@
           "text": "Heavy, substantial bone"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Bone is an important conformation trait that reflects the size, substance, and overall development of the skeleton. Horses with substantial bone tend to have large, clearly defined joints and a greater cannon-bone circumference, features associated with a stronger supporting framework. This build is typical of heavy draft horses, large harness breeds, and some working breeds that must withstand considerable loads. Substantial bone should never be confused with being thin or bony: it describes the strength and mass of the skeletal foundation, not body condition."
     },
     {
       "id": "question-10",
       "question": "A double croup (a “heart-shaped butt”) is a sign of:",
-      "explanation": "A double croup, sometimes affectionately described as a “heart-shaped butt,” results from strongly developed musculature on either side of the sacrum, creating a characteristic groove along the center of the hindquarters. The feature indicates good body condition, a strong constitution, and powerful hindquarter musculature. It is most common in draft horses, other harness breeds, and some muscular riding breeds such as the Quarter Horse, in which explosive power and a strong push from behind are important.",
       "answers": [
         {
           "id": "answer-01",
@@ -254,12 +253,12 @@
           "text": "Exclusively sport riding breeds"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "A double croup, sometimes affectionately described as a “heart-shaped butt,” results from strongly developed musculature on either side of the sacrum, creating a characteristic groove along the center of the hindquarters. The feature indicates good body condition, a strong constitution, and powerful hindquarter musculature. It is most common in draft horses, other harness breeds, and some muscular riding breeds such as the Quarter Horse, in which explosive power and a strong push from behind are important."
     },
     {
       "id": "question-11",
       "question": "A long back caused by a long loin is:",
-      "explanation": "In conformation judging, the value of a long back depends on the horse’s intended use: it may be acceptable or even useful in harness horses, but is generally undesirable in riding horses. A longer body can give a harness horse a more ground-covering stride at the trot, helping it pull efficiently over level ground. In a riding horse, however, excessive length through the back and loin makes it harder to engage and collect, reduces maneuverability over fences, and leaves the back more vulnerable to the rider’s weight.",
       "answers": [
         {
           "id": "answer-01",
@@ -278,12 +277,12 @@
           "text": "Bad for all horses"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "In conformation judging, the value of a long back depends on the horse’s intended use: it may be acceptable or even useful in harness horses, but is generally undesirable in riding horses. A longer body can give a harness horse a more ground-covering stride at the trot, helping it pull efficiently over level ground. In a riding horse, however, excessive length through the back and loin makes it harder to engage and collect, reduces maneuverability over fences, and leaves the back more vulnerable to the rider’s weight."
     },
     {
       "id": "question-12",
       "question": "A large, heavy head in a horse is:",
-      "explanation": "A large, heavy head is normal in many harness horses but is considered a significant conformation fault in a riding horse. Extra weight at the front shifts the center of gravity forward, increasing load on the forelimbs, shortening the stride, and reducing maneuverability at faster gaits. Riding horses benefit from a lighter, more refined head for balance, whereas the large head of a draft or harness breed is more harmonious with its powerful neck and substantial frame.",
       "answers": [
         {
           "id": "answer-01",
@@ -302,12 +301,12 @@
           "text": "Bad for all horses"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "A large, heavy head is normal in many harness horses but is considered a significant conformation fault in a riding horse. Extra weight at the front shifts the center of gravity forward, increasing load on the forelimbs, shortening the stride, and reducing maneuverability at faster gaits. Riding horses benefit from a lighter, more refined head for balance, whereas the large head of a draft or harness breed is more harmonious with its powerful neck and substantial frame."
     },
     {
       "id": "question-13",
       "question": "The greater the distance between a horse’s eyes, the:",
-      "explanation": "A broad forehead and good width between the eyes are traditionally considered desirable features in the conformation of almost any horse breed. Widely set eyes contribute to the horse’s broad panoramic field of vision and reduce blind areas, helping the animal perceive its surroundings confidently. In traditional conformation judging, a broad forehead is viewed positively because it suggests a well-developed skull and harmonious placement of the sensory organs.",
       "answers": [
         {
           "id": "answer-01",
@@ -326,12 +325,12 @@
           "text": "Lighter the head"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "A broad forehead and good width between the eyes are traditionally considered desirable features in the conformation of almost any horse breed. Widely set eyes contribute to the horse’s broad panoramic field of vision and reduce blind areas, helping the animal perceive its surroundings confidently. In traditional conformation judging, a broad forehead is viewed positively because it suggests a well-developed skull and harmonious placement of the sensory organs."
     },
     {
       "id": "question-14",
       "question": "Which of the following are Baroque horse breeds?",
-      "explanation": "Baroque horses are a distinctive group of breeds whose roots lie in the Renaissance and Enlightenment eras, when Europe prized powerful yet exceptionally graceful horses for classical haute école and ceremonial riding. Breeds such as the Andalusian, Lusitano, Friesian, Lipizzaner, and Kladruber typically have compact, powerful bodies, rounded croups, high-set arched necks, and abundant manes and tails. Their movement is often elevated and expressive, with a strong natural aptitude for collection and advanced movements such as pirouettes, piaffe, and passage.",
       "answers": [
         {
           "id": "answer-01",
@@ -350,12 +349,12 @@
           "text": "Thoroughbreds, Orlov Trotters, Don horses, Budyonny horses"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Baroque horses are a distinctive group of breeds whose roots lie in the Renaissance and Enlightenment eras, when Europe prized powerful yet exceptionally graceful horses for classical haute école and ceremonial riding. Breeds such as the Andalusian, Lusitano, Friesian, Lipizzaner, and Kladruber typically have compact, powerful bodies, rounded croups, high-set arched necks, and abundant manes and tails. Their movement is often elevated and expressive, with a strong natural aptitude for collection and advanced movements such as pirouettes, piaffe, and passage."
     },
     {
       "id": "question-15",
       "question": "If a horse has long, soft pasterns, is it a good choice for show jumping?",
-      "explanation": "Long, soft pasterns are undesirable in a show jumper because of the enormous forces involved in landing. With this conformation, the fetlock can drop excessively under load, placing increased strain on the tendons, ligaments, and sesamoid bones. Although soft pasterns can make a horse feel comfortable and springy to ride, repeated jumping may greatly increase the risk of chronic soft-tissue injury and lameness.",
       "answers": [
         {
           "id": "answer-01",
@@ -374,12 +373,12 @@
           "text": "You have to try the horse under saddle to know for sure"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Long, soft pasterns are undesirable in a show jumper because of the enormous forces involved in landing. With this conformation, the fetlock can drop excessively under load, placing increased strain on the tendons, ligaments, and sesamoid bones. Although soft pasterns can make a horse feel comfortable and springy to ride, repeated jumping may greatly increase the risk of chronic soft-tissue injury and lameness."
     },
     {
       "id": "question-16",
       "question": "If a horse has short upright pasterns, is short in stature, and has a heavy head, is it suitable for show jumping?",
-      "explanation": "This combination of conformation traits is poorly suited to jumping. Short, upright pasterns reduce the limb’s natural shock absorption, so each landing transmits more concussion through the joints and can contribute to early degenerative changes and chronic lameness. Combined with a heavy head that loads the forehand and a smaller overall frame, these traits can make it more difficult for the horse to clear high fences, maintain balance, and bascule efficiently in the air.",
       "answers": [
         {
           "id": "answer-01",
@@ -398,12 +397,12 @@
           "text": "You have to try the horse under saddle to know for sure"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "This combination of conformation traits is poorly suited to jumping. Short, upright pasterns reduce the limb’s natural shock absorption, so each landing transmits more concussion through the joints and can contribute to early degenerative changes and chronic lameness. Combined with a heavy head that loads the forehand and a smaller overall frame, these traits can make it more difficult for the horse to clear high fences, maintain balance, and bascule efficiently in the air."
     },
     {
       "id": "question-17",
       "question": "If a horse has a double croup and is trained to ride, what job is it best suited to?",
-      "explanation": "Horses with a strongly muscled double croup often have the sturdy build and calm temperament associated with harness types, making them a practical choice as lesson horses in riding schools and clubs. A broad back, powerful musculature, and steady, unhurried gaits can make them comfortable for beginners learning an independent seat and basic aids. Their mental steadiness and physical durability also help them tolerate the frequent mistakes of novice riders.",
       "answers": [
         {
           "id": "answer-01",
@@ -422,12 +421,12 @@
           "text": "Racing"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Horses with a strongly muscled double croup often have the sturdy build and calm temperament associated with harness types, making them a practical choice as lesson horses in riding schools and clubs. A broad back, powerful musculature, and steady, unhurried gaits can make them comfortable for beginners learning an independent seat and basic aids. Their mental steadiness and physical durability also help them tolerate the frequent mistakes of novice riders."
     },
     {
       "id": "question-18",
       "question": "A large, heavy head on a riding horse is:",
-      "explanation": "A large, coarse, heavy head is considered a substantial conformation fault in a riding horse because the head and neck act as an important mobile balancing mechanism during movement. Extra weight on the forehand shifts the center of gravity forward, increases load on the front limbs and joints, can shorten the stride, and may reduce maneuverability in jumping and fast turns. Riding horses generally benefit from a lighter, more refined head, while a heavy head can make correct balance and collection more difficult under saddle.",
       "answers": [
         {
           "id": "answer-01",
@@ -446,12 +445,12 @@
           "text": "A congenital defect that completely rules out any work"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "A large, coarse, heavy head is considered a substantial conformation fault in a riding horse because the head and neck act as an important mobile balancing mechanism during movement. Extra weight on the forehand shifts the center of gravity forward, increases load on the front limbs and joints, can shorten the stride, and may reduce maneuverability in jumping and fast turns. Riding horses generally benefit from a lighter, more refined head, while a heavy head can make correct balance and collection more difficult under saddle."
     },
     {
       "id": "question-19",
       "question": "A deep chest in a riding horse is:",
-      "explanation": "A deep chest, judged by the vertical depth from the withers to the sternum, is a highly valued trait in a riding horse. It provides ample thoracic capacity for the heart and lungs and is therefore associated with endurance, efficient oxygen use during prolonged exercise, and faster recovery after hard galloping or jumping. For this reason, good depth through the chest is prized in sport, racing, and endurance horses.",
       "answers": [
         {
           "id": "answer-01",
@@ -470,12 +469,12 @@
           "text": "A defect that seriously restricts breathing at the gallop"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A deep chest, judged by the vertical depth from the withers to the sternum, is a highly valued trait in a riding horse. It provides ample thoracic capacity for the heart and lungs and is therefore associated with endurance, efficient oxygen use during prolonged exercise, and faster recovery after hard galloping or jumping. For this reason, good depth through the chest is prized in sport, racing, and endurance horses."
     },
     {
       "id": "question-20",
       "question": "What is a wall eye in a horse?",
-      "explanation": "A “wall eye” is an eye whose iris contains little or no melanin, giving it a whitish, pale blue, or gray-blue appearance. This feature is often seen in pinto, leopard-complex, and dominant-white horses, as well as in some maximally expressed sabino patterns. From a conformation and genetic standpoint, a wall eye is simply an individual characteristic rather than a disease or conformation defect. Such an eye can function normally and does not by itself reduce visual acuity or working ability.",
       "answers": [
         {
           "id": "answer-01",
@@ -494,12 +493,12 @@
           "text": "Congenital blindness"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A “wall eye” is an eye whose iris contains little or no melanin, giving it a whitish, pale blue, or gray-blue appearance. This feature is often seen in pinto, leopard-complex, and dominant-white horses, as well as in some maximally expressed sabino patterns. From a conformation and genetic standpoint, a wall eye is simply an individual characteristic rather than a disease or conformation defect. Such an eye can function normally and does not by itself reduce visual acuity or working ability."
     },
     {
       "id": "question-21",
       "question": "What is a ewe neck?",
-      "explanation": "A ewe neck is a serious conformation fault in which the topline of the neck is straight or concave while the underside is strongly developed and convex. This gives the lower neck a bulging appearance. Horses with this conformation often carry the head too high and may find correct flexion and collection difficult. In a riding horse, an ewe neck can interfere with balance and correct use of the topline and is often associated with stiff, less elastic movement.",
       "answers": [
         {
           "id": "answer-01",
@@ -518,12 +517,12 @@
           "text": "A neck with a deep hollow near the withers"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A ewe neck is a serious conformation fault in which the topline of the neck is straight or concave while the underside is strongly developed and convex. This gives the lower neck a bulging appearance. Horses with this conformation often carry the head too high and may find correct flexion and collection difficult. In a riding horse, an ewe neck can interfere with balance and correct use of the topline and is often associated with stiff, less elastic movement."
     },
     {
       "id": "question-22",
       "question": "What does “buck-kneed” mean?",
-      "explanation": "A buck-kneed horse, also described as being over at the knee, has a forelimb conformation in which the carpal joint is carried forward of the vertical line and remains somewhat flexed. The condition may be congenital, including cases associated with contracted flexor tendons, or acquired after heavy work, trauma, or inflammation of supporting structures. Marked buck-kneed conformation can alter shock absorption and stride mechanics and may reduce the horse’s suitability for demanding work.",
       "answers": [
         {
           "id": "answer-01",
@@ -542,12 +541,12 @@
           "text": "An acute skin infection in the feathering"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A buck-kneed horse, also described as being over at the knee, has a forelimb conformation in which the carpal joint is carried forward of the vertical line and remains somewhat flexed. The condition may be congenital, including cases associated with contracted flexor tendons, or acquired after heavy work, trauma, or inflammation of supporting structures. Marked buck-kneed conformation can alter shock absorption and stride mechanics and may reduce the horse’s suitability for demanding work."
     },
     {
       "id": "question-23",
       "question": "What is a capped hock (also called a pip hock)?",
-      "explanation": "A capped hock is a chronic swelling of the bursa over the point of the hock. It appears as a soft, usually painless, rounded swelling on the back of the joint. It is most often an acquired blemish caused by repeated trauma—for example, a horse kicking stable walls, striking partitions during transport, or lying on a hard floor without adequate bedding. In many cases it is primarily cosmetic and does not cause lameness, although it indicates previous trauma.",
       "answers": [
         {
           "id": "answer-01",
@@ -566,12 +565,12 @@
           "text": "A bony enlargement at the coronet"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A capped hock is a chronic swelling of the bursa over the point of the hock. It appears as a soft, usually painless, rounded swelling on the back of the joint. It is most often an acquired blemish caused by repeated trauma—for example, a horse kicking stable walls, striking partitions during transport, or lying on a hard floor without adequate bedding. In many cases it is primarily cosmetic and does not cause lameness, although it indicates previous trauma."
     },
     {
       "id": "question-24",
       "question": "What is sweeney?",
-      "explanation": "Sweeney is a visible hollowing of the shoulder caused by atrophy of the muscles around the scapula, especially the supraspinatus and infraspinatus. It results from damage to the suprascapular nerve, which may occur after a hard blow, collision, fall, or prolonged pressure from poorly fitted tack or a collar. As the muscles waste away, normal forward movement of the forelimb can be impaired, producing a shortened, restricted, or irregular stride and reducing the horse’s ability to work under saddle or in harness.",
       "answers": [
         {
           "id": "answer-01",
@@ -590,12 +589,12 @@
           "text": "An excessively long and sloping shoulder blade"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Sweeney is a visible hollowing of the shoulder caused by atrophy of the muscles around the scapula, especially the supraspinatus and infraspinatus. It results from damage to the suprascapular nerve, which may occur after a hard blow, collision, fall, or prolonged pressure from poorly fitted tack or a collar. As the muscles waste away, normal forward movement of the forelimb can be impaired, producing a shortened, restricted, or irregular stride and reducing the horse’s ability to work under saddle or in harness."
     },
     {
       "id": "question-25",
       "question": "What does “splay-footed” mean?",
-      "explanation": "A splay-footed, or toed-out, horse has a limb conformation—most often affecting the forelegs—in which the toes point outward and the heels inward. During movement, the limb may swing through an arc rather than travel straight ahead, increasing the chance of interference between the legs. Toeing out can place uneven stress on the joints and hoof walls and may reduce efficiency of movement at the trot and gallop.",
       "answers": [
         {
           "id": "answer-01",
@@ -614,12 +613,12 @@
           "text": "The toes of the hooves turn outward"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "A splay-footed, or toed-out, horse has a limb conformation—most often affecting the forelegs—in which the toes point outward and the heels inward. During movement, the limb may swing through an arc rather than travel straight ahead, increasing the chance of interference between the legs. Toeing out can place uneven stress on the joints and hoof walls and may reduce efficiency of movement at the trot and gallop."
     },
     {
       "id": "question-26",
       "question": "What is knock-kneed or cow-hocked conformation?",
-      "explanation": "In an X-shaped limb alignment, paired joints angle toward each other while the lower parts of the limbs diverge outward. In the forelimbs this is commonly described as knock-kneed; in the hind limbs, inward-set hocks are commonly described as cow-hocked. Such alignment can place uneven strain on the supporting ligaments, alter shock absorption, and increase the risk of the limbs interfering with one another during movement, potentially reducing durability and predisposing the horse to early joint wear.",
       "answers": [
         {
           "id": "answer-01",
@@ -638,12 +637,12 @@
           "text": "The stifle joints bow outward"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "In an X-shaped limb alignment, paired joints angle toward each other while the lower parts of the limbs diverge outward. In the forelimbs this is commonly described as knock-kneed; in the hind limbs, inward-set hocks are commonly described as cow-hocked. Such alignment can place uneven strain on the supporting ligaments, alter shock absorption, and increase the risk of the limbs interfering with one another during movement, potentially reducing durability and predisposing the horse to early joint wear."
     },
     {
       "id": "question-27",
       "question": "What is bow-legged or bandy-legged conformation?",
-      "explanation": "Bow-legged, bandy-legged, or O-shaped conformation describes limbs in which the knees in front or the hocks behind are displaced outward, creating a bowed appearance. The lower limbs often angle inward, so this conformation may be accompanied by toeing in. Weight is distributed unevenly across the joints and hoof walls, increasing stress on the outer side of the limb and potentially shortening the stride and reducing efficiency at faster gaits.",
       "answers": [
         {
           "id": "answer-01",
@@ -662,12 +661,12 @@
           "text": "The limbs have excessively long pasterns"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Bow-legged, bandy-legged, or O-shaped conformation describes limbs in which the knees in front or the hocks behind are displaced outward, creating a bowed appearance. The lower limbs often angle inward, so this conformation may be accompanied by toeing in. Weight is distributed unevenly across the joints and hoof walls, increasing stress on the outer side of the limb and potentially shortening the stride and reducing efficiency at faster gaits."
     },
     {
       "id": "question-28",
       "question": "What are the “points” of a horse?",
-      "explanation": "In conformation terminology, the points of a horse are the individual anatomical regions used to assess its exterior, build, health, and suitability for work. Dozens of points are commonly described, including the head, neck, withers, back, croup, chest, and the various parts of the limbs. Conformation judges consider each point both separately and in relation to the rest of the body to determine how harmoniously the horse is built, whether it is more suited to riding or harness work, and how appropriate it may be for breeding or a particular equestrian discipline.",
       "answers": [
         {
           "id": "answer-01",
@@ -686,12 +685,12 @@
           "text": "Fast gaits used in equestrian competition"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "In conformation terminology, the points of a horse are the individual anatomical regions used to assess its exterior, build, health, and suitability for work. Dozens of points are commonly described, including the head, neck, withers, back, croup, chest, and the various parts of the limbs. Conformation judges consider each point both separately and in relation to the rest of the body to determine how harmoniously the horse is built, whether it is more suited to riding or harness work, and how appropriate it may be for breeding or a particular equestrian discipline."
     },
     {
       "id": "question-29",
       "question": "What is a horse’s body format?",
-      "explanation": "A horse’s body format describes the relationship between height at the withers and the oblique length of the body from the point of shoulder to the point of buttock. Three broad types are traditionally recognized: square, when height and length are approximately equal; rectangular or elongated, when body length exceeds height; and tall or short-bodied, when height exceeds length. The measure is used to characterize overall proportions and to help assess whether a horse’s build is more suited to riding or harness work.",
       "answers": [
         {
           "id": "answer-01",
@@ -710,12 +709,12 @@
           "text": "An international classification of equestrian competitions"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A horse’s body format describes the relationship between height at the withers and the oblique length of the body from the point of shoulder to the point of buttock. Three broad types are traditionally recognized: square, when height and length are approximately equal; rectangular or elongated, when body length exceeds height; and tall or short-bodied, when height exceeds length. The measure is used to characterize overall proportions and to help assess whether a horse’s build is more suited to riding or harness work."
     },
     {
       "id": "question-30",
       "question": "What is the cannon bone index?",
-      "explanation": "The cannon bone index is a traditional zootechnical measure calculated as the circumference of the cannon bone divided by the horse’s height at the withers, expressed as a percentage. It provides an objective estimate of skeletal substance independent of body condition or live weight. A higher index is typical of heavy draft and powerful harness breeds that need a strong supporting framework for pulling, while a lower index is more common in light, fast riding horses, where excessive skeletal mass would reduce speed and increase limb loading.",
       "answers": [
         {
           "id": "answer-01",
@@ -734,12 +733,12 @@
           "text": "The percentage of total body mass made up by bone"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The cannon bone index is a traditional zootechnical measure calculated as the circumference of the cannon bone divided by the horse’s height at the withers, expressed as a percentage. It provides an objective estimate of skeletal substance independent of body condition or live weight. A higher index is typical of heavy draft and powerful harness breeds that need a strong supporting framework for pulling, while a lower index is more common in light, fast riding horses, where excessive skeletal mass would reduce speed and increase limb loading."
     },
     {
       "id": "question-31",
       "question": "What is the body length index?",
-      "explanation": "The body length index, also called the format index, is a zootechnical measure calculated by dividing the oblique body length by the height at the withers and multiplying by 100. An index of 100 indicates a square format, commonly associated with many riding horses and good maneuverability. A value above 100 indicates a more elongated body, typical of many draft and harness breeds and often of broodmares. An excessively high value in a riding horse may be undesirable because it can be associated with excessive length and weakness through the back and loin.",
       "answers": [
         {
           "id": "answer-01",
@@ -758,12 +757,12 @@
           "text": "The ratio of neck length to body length"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The body length index, also called the format index, is a zootechnical measure calculated by dividing the oblique body length by the height at the withers and multiplying by 100. An index of 100 indicates a square format, commonly associated with many riding horses and good maneuverability. A value above 100 indicates a more elongated body, typical of many draft and harness breeds and often of broodmares. An excessively high value in a riding horse may be undesirable because it can be associated with excessive length and weakness through the back and loin."
     },
     {
       "id": "question-32",
       "question": "What does a horse’s “caliber” or overall scale refer to?",
-      "explanation": "In traditional hippology and animal husbandry, “caliber” refers to the horse’s overall size, combining height at the withers, body weight, and general massiveness. Horses can be grouped broadly as large, medium, or small in scale. Large-scale examples include Shires, Percherons, and large warmbloods; many sport and trotting breeds fall into the medium range; and ponies and small native horses represent the smaller end. Overall scale matters when matching breeding stock and determining appropriate workloads, since larger horses may offer greater physical strength but also have different management and nutritional requirements.",
       "answers": [
         {
           "id": "answer-01",
@@ -782,12 +781,12 @@
           "text": "The combination of height, weight, and overall massiveness"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "In traditional hippology and animal husbandry, “caliber” refers to the horse’s overall size, combining height at the withers, body weight, and general massiveness. Horses can be grouped broadly as large, medium, or small in scale. Large-scale examples include Shires, Percherons, and large warmbloods; many sport and trotting breeds fall into the medium range; and ponies and small native horses represent the smaller end. Overall scale matters when matching breeding stock and determining appropriate workloads, since larger horses may offer greater physical strength but also have different management and nutritional requirements."
     },
     {
       "id": "question-33",
       "question": "What is a breed type?",
-      "explanation": "A breed type is a distinct group of animals within a single breed that shares particular features of conformation, constitution, or intended use. Such types may develop because of regional breeding conditions, market demands, or deliberate selection by breeders and stud farms. Within the Orlov Trotter, for example, historical descriptions distinguish a heavier, more massive type, a lighter racing type selected for maximum track speed, and a drier, more oriental type. Recognizing breed types helps breeders plan matings while maintaining diversity and improving desired working traits within the breed.",
       "answers": [
         {
           "id": "answer-01",
@@ -806,12 +805,12 @@
           "text": "A horse’s level of athletic training for competition"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A breed type is a distinct group of animals within a single breed that shares particular features of conformation, constitution, or intended use. Such types may develop because of regional breeding conditions, market demands, or deliberate selection by breeders and stud farms. Within the Orlov Trotter, for example, historical descriptions distinguish a heavier, more massive type, a lighter racing type selected for maximum track speed, and a drier, more oriental type. Recognizing breed types helps breeders plan matings while maintaining diversity and improving desired working traits within the breed."
     },
     {
       "id": "question-34",
       "question": "What is a horse’s constitution?",
-      "explanation": "A horse’s constitution is a broad biological description of the organism that combines anatomical structure, tissue characteristics, nervous-system type, and metabolic tendencies. It is shaped by both heredity and rearing conditions and is traditionally used to describe health, stamina, and working capacity. In classical zootechnical systems, several constitutional types are distinguished, including coarse, refined or delicate, dry or firm, and soft or loose. Identifying constitutional type has traditionally been used to help guide feeding, management, and the kind of work considered most appropriate for the horse.",
       "answers": [
         {
           "id": "answer-01",
@@ -830,12 +829,12 @@
           "text": "The horse’s ability to withstand cold winters"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A horse’s constitution is a broad biological description of the organism that combines anatomical structure, tissue characteristics, nervous-system type, and metabolic tendencies. It is shaped by both heredity and rearing conditions and is traditionally used to describe health, stamina, and working capacity. In classical zootechnical systems, several constitutional types are distinguished, including coarse, refined or delicate, dry or firm, and soft or loose. Identifying constitutional type has traditionally been used to help guide feeding, management, and the kind of work considered most appropriate for the horse."
     },
     {
       "id": "question-35",
       "question": "What is a dry (firm) constitution?",
-      "explanation": "A dry, firm constitution is characterized by a strong skeleton and dense, clearly defined musculature with little excess subcutaneous fat or loose connective tissue. Such horses tend to have thin, elastic skin through which veins, tendons, and bony contours are readily visible, while the joints appear clean and well defined. This type is traditionally valued in light riding and racing breeds such as Arabians and Thoroughbreds because it is associated with energy, a high metabolic rate, endurance, and the ability to cope with demanding athletic work.",
       "answers": [
         {
           "id": "answer-01",
@@ -854,12 +853,12 @@
           "text": "A high percentage of subcutaneous fat"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A dry, firm constitution is characterized by a strong skeleton and dense, clearly defined musculature with little excess subcutaneous fat or loose connective tissue. Such horses tend to have thin, elastic skin through which veins, tendons, and bony contours are readily visible, while the joints appear clean and well defined. This type is traditionally valued in light riding and racing breeds such as Arabians and Thoroughbreds because it is associated with energy, a high metabolic rate, endurance, and the ability to cope with demanding athletic work."
     },
     {
       "id": "question-36",
       "question": "What is a soft (loose) constitution?",
-      "explanation": "A soft or loose constitution is characterized by abundant subcutaneous fat and connective tissue, which makes the outlines of the muscles, joints, and tendons appear smoother and rounder. Such horses tend to have thicker skin, bulky joints, and softer musculature with a tendency to gain weight readily. This type is traditional in large heavy draft breeds such as the Soviet Heavy Draft and Vladimir Heavy Draft, where substantial body mass, a calm temperament, and efficient use of feed can support pulling strength. In riding horses, however, excessive looseness is considered undesirable because it is associated with reduced speed and quicker fatigue.",
       "answers": [
         {
           "id": "answer-01",
@@ -878,12 +877,12 @@
           "text": "Abundant subcutaneous tissue and thick skin"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "A soft or loose constitution is characterized by abundant subcutaneous fat and connective tissue, which makes the outlines of the muscles, joints, and tendons appear smoother and rounder. Such horses tend to have thicker skin, bulky joints, and softer musculature with a tendency to gain weight readily. This type is traditional in large heavy draft breeds such as the Soviet Heavy Draft and Vladimir Heavy Draft, where substantial body mass, a calm temperament, and efficient use of feed can support pulling strength. In riding horses, however, excessive looseness is considered undesirable because it is associated with reduced speed and quicker fatigue."
     },
     {
       "id": "question-37",
       "question": "What is a balanced horse?",
-      "explanation": "In horse conformation and riding, a balanced horse is one that can distribute its own weight and the rider’s weight efficiently between the forehand and hindquarters during movement. Horses naturally carry more weight on the front end, but a correctly developed and trained horse learns to engage the hind legs more deeply beneath the body and shift the center of gravity rearward. Good balance allows the horse to move lightly, change direction efficiently, jump with better technique, and perform collected dressage movements while minimizing unnecessary stress on the joints.",
       "answers": [
         {
           "id": "answer-01",
@@ -902,12 +901,12 @@
           "text": "A horse receiving a nutritionally balanced grain ration"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "In horse conformation and riding, a balanced horse is one that can distribute its own weight and the rider’s weight efficiently between the forehand and hindquarters during movement. Horses naturally carry more weight on the front end, but a correctly developed and trained horse learns to engage the hind legs more deeply beneath the body and shift the center of gravity rearward. Good balance allows the horse to move lightly, change direction efficiently, jump with better technique, and perform collected dressage movements while minimizing unnecessary stress on the joints."
     },
     {
       "id": "question-38",
       "question": "What is a loose or soft body type?",
-      "explanation": "A loose or soft body type is characterized by abundant subcutaneous fat, thick skin, and poorly defined muscular contours. The joints and tendons may appear less cleanly outlined, and the body looks rounded and massive. This type is normal in Shires, Percherons, and other heavy draft horses, where great body mass contributes to pulling power. In sport and riding horses, however, excessive looseness is considered a serious disadvantage because it can reduce speed and maneuverability and make intense athletic work harder to sustain.",
       "answers": [
         {
           "id": "answer-01",
@@ -926,12 +925,12 @@
           "text": "Unusually high flexibility of the spinal joints"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A loose or soft body type is characterized by abundant subcutaneous fat, thick skin, and poorly defined muscular contours. The joints and tendons may appear less cleanly outlined, and the body looks rounded and massive. This type is normal in Shires, Percherons, and other heavy draft horses, where great body mass contributes to pulling power. In sport and riding horses, however, excessive looseness is considered a serious disadvantage because it can reduce speed and maneuverability and make intense athletic work harder to sustain."
     },
     {
       "id": "question-39",
       "question": "Are a loose body type and a loose constitution the same thing?",
-      "explanation": "Although the two concepts are closely related, there is an important distinction. Body type or exterior describes the horse’s visible anatomical form, proportions, and tissue characteristics that can be seen or palpated—for example, rounded contours, poorly defined musculature, and thick skin. Constitution is a broader concept that also includes internal physiological characteristics of the organism, such as nervous-system type, metabolic tendencies, propensity to deposit fat, and patterns of response to external influences. In this traditional framework, a loose body type is therefore the outward expression of a loose constitution rather than a fully identical concept.",
       "answers": [
         {
           "id": "answer-01",
@@ -950,12 +949,12 @@
           "text": "Yes. Both terms simply describe body condition"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Although the two concepts are closely related, there is an important distinction. Body type or exterior describes the horse’s visible anatomical form, proportions, and tissue characteristics that can be seen or palpated—for example, rounded contours, poorly defined musculature, and thick skin. Constitution is a broader concept that also includes internal physiological characteristics of the organism, such as nervous-system type, metabolic tendencies, propensity to deposit fat, and patterns of response to external influences. In this traditional framework, a loose body type is therefore the outward expression of a loose constitution rather than a fully identical concept."
     },
     {
       "id": "question-40",
       "question": "Being built downhill in a horse is:",
-      "explanation": "A horse is described as built downhill when the highest point of the croup is visibly higher than the highest point of the withers. In young, growing horses up to about three or four years of age, this can be a normal developmental stage because the hindquarters often grow faster than the front end. If the condition persists in an adult riding horse, however, it is considered a conformation fault. It shifts the center of gravity forward, increasing concussion on the forelimbs and making it harder for the hind legs to step deeply under the body, which can impair balance and athletic performance under saddle. In heavy draft breeds, a croup-high build may be useful for work. By shifting the center of gravity slightly forward and downward, the higher hindquarters and powerful croup can act as an effective lever when the horse leans into the collar, helping it push strongly from behind and transfer body mass into draft effort.",
       "answers": [
         {
           "id": "answer-01",
@@ -974,7 +973,8 @@
           "text": "Good for all horses"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "A horse is described as built downhill when the highest point of the croup is visibly higher than the highest point of the withers. In young, growing horses up to about three or four years of age, this can be a normal developmental stage because the hindquarters often grow faster than the front end. If the condition persists in an adult riding horse, however, it is considered a conformation fault. It shifts the center of gravity forward, increasing concussion on the forelimbs and making it harder for the hind legs to step deeply under the body, which can impair balance and athletic performance under saddle. In heavy draft breeds, a croup-high build may be useful for work. By shifting the center of gravity slightly forward and downward, the higher hindquarters and powerful croup can act as an effective lever when the horse leans into the collar, helping it push strongly from behind and transfer body mass into draft effort."
     }
   ],
   "translation_status": "current",
@@ -982,7 +982,6 @@
     "title": "Экстерьер лошади",
     "short_description": "Экстерьер лошади — это не просто названия частей тела, а целая система, позволяющая оценить телосложение, пропорции и особенности строения животного. ",
     "intro": "Экстерьер лошади — это не просто названия частей тела, а целая система, позволяющая оценить телосложение, пропорции и особенности строения животного. ",
-    "questionImagesAlt": "",
     "difficulty": "medium",
     "cover": "img/covers/horse-exterior.webp",
     "publication_date": "2026-07-26T13:25:00+00:00",
@@ -1954,6 +1953,6 @@
       }
     ]
   },
-  "questionImagesAlt": "",
-  "source_content_hash": "391811e6bed120cb39d1d204bbfde9e54ce0c067b22368d5312489b37b71d2c0"
+  "source_content_hash": "391811e6bed120cb39d1d204bbfde9e54ce0c067b22368d5312489b37b71d2c0",
+  "english_quiz": "horse-exterior-en"
 }
