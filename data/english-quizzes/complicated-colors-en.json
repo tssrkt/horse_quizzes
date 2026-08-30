@@ -10,7 +10,7 @@
     "horses",
     "images"
   ],
-  "published": false,
+  "published": true,
   "title": "Complex Coat Colors",
   "short_description": "A collection of complex and combined coat colors, plus rare equine color variants not covered in the other quizzes. Challenging even for experienced coat-color enthusiasts.",
   "intro": "A collection of complex and combined coat colors, plus rare equine color variants not covered in the other quizzes. Challenging even for experienced coat-color enthusiasts.",
@@ -19,9 +19,7 @@
     {
       "id": "question-01",
       "question": "What coat color is this?",
-      "explanation": "Dappled silver black tobiano combines Silver with Tobiano on a black base, together with visible dappling. Large, rounded white tobiano patches with relatively smooth edges cross the topline, while the pigmented areas are diluted by Silver to ash-gray, sepia, or chocolate tones and may show distinct lighter dapples. The mane and tail can be strongly lightened to silver-white or smoky shades. Skin is pink beneath white markings and dark beneath colored areas; the eyes are usually brown unless facial white affects the eye area.",
       "image": "img/quiz/complicated-colors/01.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -40,14 +38,14 @@
           "text": "Dappled dark palomino tobiano"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Dappled silver black tobiano combines Silver with Tobiano on a black base, together with visible dappling. Large, rounded white tobiano patches with relatively smooth edges cross the topline, while the pigmented areas are diluted by Silver to ash-gray, sepia, or chocolate tones and may show distinct lighter dapples. The mane and tail can be strongly lightened to silver-white or smoky shades. Skin is pink beneath white markings and dark beneath colored areas; the eyes are usually brown unless facial white affects the eye area.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-02",
       "question": "What coat color is this?",
-      "explanation": "Chestnut tobiano is Tobiano on a chestnut base. The coat is divided into large white and chestnut patches with fairly smooth, well-defined edges, and the white commonly crosses the topline over the neck, back, or croup. The mane and tail may be white, chestnut, or two-colored, and the legs are commonly white. Skin is pink beneath white areas and pigmented beneath chestnut areas.",
       "image": "img/quiz/complicated-colors/02.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -66,14 +64,14 @@
           "text": "Buckskin tobiano"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Chestnut tobiano is Tobiano on a chestnut base. The coat is divided into large white and chestnut patches with fairly smooth, well-defined edges, and the white commonly crosses the topline over the neck, back, or croup. The mane and tail may be white, chestnut, or two-colored, and the legs are commonly white. Skin is pink beneath white areas and pigmented beneath chestnut areas.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-03",
       "question": "What coat color is this?",
-      "explanation": "Rose gray is a transitional stage of progressive graying, here on a bay base rather than a separate genetic color. As white hairs increasingly mix with the underlying reddish-brown coat, the body can appear pinkish, brick-red, or warm taupe. The darker points often retain more pigment for longer. The skin remains dark and the eyes brown while the horse continues to lighten with age.",
       "image": "img/quiz/complicated-colors/03.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -92,14 +90,14 @@
           "text": "Flea-bitten gray"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Rose gray is a transitional stage of progressive graying, here on a bay base rather than a separate genetic color. As white hairs increasingly mix with the underlying reddish-brown coat, the body can appear pinkish, brick-red, or warm taupe. The darker points often retain more pigment for longer. The skin remains dark and the eyes brown while the horse continues to lighten with age.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-04",
       "question": "What coat color is this?",
-      "explanation": "Wild bay is a bay phenotype in which black pigment on the legs is greatly reduced, often remaining mainly around the fetlocks and pasterns rather than extending high up the limbs. The body remains reddish-brown, while the mane and tail stay black. The skin remains dark and the eyes brown.",
       "image": "img/quiz/complicated-colors/04.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -118,14 +116,14 @@
           "text": "Gray"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Wild bay is a bay phenotype in which black pigment on the legs is greatly reduced, often remaining mainly around the fetlocks and pasterns rather than extending high up the limbs. The body remains reddish-brown, while the mane and tail stay black. The skin remains dark and the eyes brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-05",
       "question": "What coat color is this?",
-      "explanation": "Chestnut sabino with Poteka markings is a rare, source-specific sabino variant named after the Arabian mare Lava Ridge Poteka. A large irregular white area rises from the lower body—often from a hind leg onto the thigh and flank—with sharply jagged borders and sometimes small chestnut spots within the white. Typical sabino features include extensive leg white, a broad facial marking that may reach the lower lip, and pink skin beneath the white areas, without Leopard Complex characteristics.",
       "image": "img/quiz/complicated-colors/05.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -144,14 +142,14 @@
           "text": "Chestnut spotted blanket"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Chestnut sabino with Poteka markings is a rare, source-specific sabino variant named after the Arabian mare Lava Ridge Poteka. A large irregular white area rises from the lower body—often from a hind leg onto the thigh and flank—with sharply jagged borders and sometimes small chestnut spots within the white. Typical sabino features include extensive leg white, a broad facial marking that may reach the lower lip, and pink skin beneath the white areas, without Leopard Complex characteristics.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-06",
       "question": "What coat color is this?",
-      "explanation": "Blue roan sabino combines true Roan and Sabino on a black base. The body has an even mixture of black and white hairs that produces a blue-gray or steel appearance, overlaid by irregular sabino white with ragged or lacy edges. The head and lower legs remain darker because of Roan, while sabino adds extensive facial and leg white. Skin stays dark under roaned areas and pink beneath depigmented sabino markings.",
       "image": "img/quiz/complicated-colors/06.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -170,14 +168,14 @@
           "text": "Blue roan splashed white"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Blue roan sabino combines true Roan and Sabino on a black base. The body has an even mixture of black and white hairs that produces a blue-gray or steel appearance, overlaid by irregular sabino white with ragged or lacy edges. The head and lower legs remain darker because of Roan, while sabino adds extensive facial and leg white. Skin stays dark under roaned areas and pink beneath depigmented sabino markings.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-07",
       "question": "What coat color is this?",
-      "explanation": "Silver smoky grullo combines Dun, one Cream allele, and Silver on a black base. Multiple dilution effects produce a soft ash-cream, muted gray-beige, or smoky buff body color. Silver lightens areas that would otherwise be black, including the mane, tail, legs, and facial points, toward chocolate, coffee, smoky gray, or silver-white. Dun primitive markings remain important identifiers, especially a darker dorsal stripe and leg barring. The skin remains pigmented.",
       "image": "img/quiz/complicated-colors/07.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -196,14 +194,14 @@
           "text": "Silver pearl grullo"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Silver smoky grullo combines Dun, one Cream allele, and Silver on a black base. Multiple dilution effects produce a soft ash-cream, muted gray-beige, or smoky buff body color. Silver lightens areas that would otherwise be black, including the mane, tail, legs, and facial points, toward chocolate, coffee, smoky gray, or silver-white. Dun primitive markings remain important identifiers, especially a darker dorsal stripe and leg barring. The skin remains pigmented.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-08",
       "question": "What coat color is this?",
-      "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown.",
       "image": "img/quiz/complicated-colors/08.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -222,14 +220,14 @@
           "text": "Gray"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-09",
       "question": "What coat color is this?",
-      "explanation": "Bay few-spot leopard is a near-white Leopard Complex phenotype on a bay base, associated with homozygous Lp and strong pattern expression. Only a few small remnants of bay pigment may remain on the head, neck, elbows, groin, mane, or tail. Typical Leopard Complex markers include mottled skin, vertically striped hooves, and visible white sclera.",
       "image": "img/quiz/complicated-colors/09.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -248,14 +246,14 @@
           "text": "Bay snowcap"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Bay few-spot leopard is a near-white Leopard Complex phenotype on a bay base, associated with homozygous Lp and strong pattern expression. Only a few small remnants of bay pigment may remain on the head, neck, elbows, groin, mane, or tail. Typical Leopard Complex markers include mottled skin, vertically striped hooves, and visible white sclera.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-10",
       "question": "What coat color is this?",
-      "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown.",
       "image": "img/quiz/complicated-colors/10.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -274,14 +272,14 @@
           "text": "Silver gray"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-11",
       "question": "What coat color is this?",
-      "explanation": "Silver bay is Silver dilution on a bay base. The reddish-brown body remains largely recognizable, while black pigment in the mane, tail, and lower legs is strongly diluted. The mane and tail may become silver-white, flaxen-looking, or smoky gray, and the legs shift toward chocolate or ash-brown. The skin remains dark and the eyes brown.",
       "image": "img/quiz/complicated-colors/11.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -300,14 +298,14 @@
           "text": "Flaxen chestnut"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Silver bay is Silver dilution on a bay base. The reddish-brown body remains largely recognizable, while black pigment in the mane, tail, and lower legs is strongly diluted. The mane and tail may become silver-white, flaxen-looking, or smoky gray, and the legs shift toward chocolate or ash-brown. The skin remains dark and the eyes brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-12",
       "question": "What coat color is this?",
-      "explanation": "Red dun is Dun on a chestnut base. The body becomes a muted light red, peach, buff, or sandy shade, while the mane, tail, and lower legs may be somewhat darker. Primitive markings include a distinct darker red dorsal stripe and may also include leg barring, shoulder shading, and cobwebbing on the forehead. The skin remains dark and the eyes brown.",
       "image": "img/quiz/complicated-colors/12.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -326,14 +324,14 @@
           "text": "Red dun"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Red dun is Dun on a chestnut base. The body becomes a muted light red, peach, buff, or sandy shade, while the mane, tail, and lower legs may be somewhat darker. Primitive markings include a distinct darker red dorsal stripe and may also include leg barring, shoulder shading, and cobwebbing on the forehead. The skin remains dark and the eyes brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-13",
       "question": "What coat color is this?",
-      "explanation": "Smoky grullo combines Dun with one Cream allele on a black base. The body is lighter and softer than ordinary grullo, ranging from silvery ash and smoky gray to buff-gray, while the legs, mane, tail, ears, and facial mask remain comparatively dark. A clear dorsal stripe and possible leg barring identify Dun. The skin remains dark; the eyes are usually brown but may be somewhat lighter under Cream.",
       "image": "img/quiz/complicated-colors/13.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -352,14 +350,14 @@
           "text": "Sable champagne"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Smoky grullo combines Dun with one Cream allele on a black base. The body is lighter and softer than ordinary grullo, ranging from silvery ash and smoky gray to buff-gray, while the legs, mane, tail, ears, and facial mask remain comparatively dark. A clear dorsal stripe and possible leg barring identify Dun. The skin remains dark; the eyes are usually brown but may be somewhat lighter under Cream.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-14",
       "question": "What coat color is this?",
-      "explanation": "Ermine gray is a rare traditional name for a stage of progressive graying in which the body has become very light while the mane, tail, and lower legs remain markedly darker. The contrast can resemble the winter coat of an ermine. The skin remains dark and the eyes brown, and the appearance may be temporary as the horse continues to gray with age.",
       "image": "img/quiz/complicated-colors/14.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -378,14 +376,14 @@
           "text": "Ermine gray"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Ermine gray is a rare traditional name for a stage of progressive graying in which the body has become very light while the mane, tail, and lower legs remain markedly darker. The contrast can resemble the winter coat of an ermine. The skin remains dark and the eyes brown, and the appearance may be temporary as the horse continues to gray with age.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-15",
       "question": "What coat color is this?",
-      "explanation": "Dunalino, also called palomino dun, combines one Cream allele and Dun on a chestnut base. The body is a muted cream-gold, sandy, or pale yellow rather than the brighter gold of an ordinary palomino, while the mane and tail are strongly lightened. Dun adds primitive markings, especially a darker reddish-brown dorsal stripe and often leg barring.",
       "image": "img/quiz/complicated-colors/15.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -404,14 +402,14 @@
           "text": "Light flaxen chestnut"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Dunalino, also called palomino dun, combines one Cream allele and Dun on a chestnut base. The body is a muted cream-gold, sandy, or pale yellow rather than the brighter gold of an ordinary palomino, while the mane and tail are strongly lightened. Dun adds primitive markings, especially a darker reddish-brown dorsal stripe and often leg barring.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-16",
       "question": "What coat color is this?",
-      "explanation": "Silver black tobiano combines Silver and Tobiano on a black base. Large white tobiano patches cross the topline, while the pigmented areas are diluted from black to ash-gray, sepia, or chocolate. The mane and tail may be strongly lightened toward silver-white or smoky gray. Skin is pink under white areas and dark under pigmented areas.",
       "image": "img/quiz/complicated-colors/16.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -430,14 +428,14 @@
           "text": "Smoky black tobiano"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Silver black tobiano combines Silver and Tobiano on a black base. Large white tobiano patches cross the topline, while the pigmented areas are diluted from black to ash-gray, sepia, or chocolate. The mane and tail may be strongly lightened toward silver-white or smoky gray. Skin is pink under white areas and dark under pigmented areas.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-17",
       "question": "What coat color is this?",
-      "explanation": "Silver smoky grullo combines Dun, one Cream allele, and Silver on a black base. Multiple dilution effects produce a soft ash-cream, muted gray-beige, or smoky buff body color. Silver lightens areas that would otherwise be black, including the mane, tail, legs, and facial points, toward chocolate, coffee, smoky gray, or silver-white. Dun primitive markings remain important identifiers, especially a darker dorsal stripe and leg barring. The skin remains pigmented.",
       "image": "img/quiz/complicated-colors/17.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -456,14 +454,14 @@
           "text": "Silver smoky grullo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Silver smoky grullo combines Dun, one Cream allele, and Silver on a black base. Multiple dilution effects produce a soft ash-cream, muted gray-beige, or smoky buff body color. Silver lightens areas that would otherwise be black, including the mane, tail, legs, and facial points, toward chocolate, coffee, smoky gray, or silver-white. Dun primitive markings remain important identifiers, especially a darker dorsal stripe and leg barring. The skin remains pigmented.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-18",
       "question": "What coat color is this?",
-      "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling.",
       "image": "img/quiz/complicated-colors/18.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -482,14 +480,14 @@
           "text": "Dark flaxen chestnut"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-19",
       "question": "What coat color is this?",
-      "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown.",
       "image": "img/quiz/complicated-colors/19.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -508,14 +506,14 @@
           "text": "Pseudo-dun buckskin"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-20",
       "question": "What coat color is this?",
-      "explanation": "Silver grullo combines Dun and Silver on a black base. The body becomes smoky cream, ash-buff, or soft gray-beige, while Silver dilutes the normally black mane, tail, lower legs, ears, and facial points toward coffee, chocolate, or silver-gray. Dun primitive markings remain visible, especially the dorsal stripe and often leg barring.",
       "image": "img/quiz/complicated-colors/20.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -534,14 +532,14 @@
           "text": "Silver grullo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Silver grullo combines Dun and Silver on a black base. The body becomes smoky cream, ash-buff, or soft gray-beige, while Silver dilutes the normally black mane, tail, lower legs, ears, and facial points toward coffee, chocolate, or silver-gray. Dun primitive markings remain visible, especially the dorsal stripe and often leg barring.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-21",
       "question": "What coat color is this?",
-      "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling.",
       "image": "img/quiz/complicated-colors/21.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -560,14 +558,14 @@
           "text": "Silver grullo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-22",
       "question": "What coat color is this?",
-      "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown.",
       "image": "img/quiz/complicated-colors/22.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -586,14 +584,14 @@
           "text": "Pseudo-dun buckskin"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-23",
       "question": "What coat color is this?",
-      "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling.",
       "image": "img/quiz/complicated-colors/23.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -612,14 +610,14 @@
           "text": "Silver grullo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-24",
       "question": "What coat color is this?",
-      "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown.",
       "image": "img/quiz/complicated-colors/24.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -638,14 +636,14 @@
           "text": "Pseudo-dun buckskin"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-25",
       "question": "What coat color is this?",
-      "explanation": "Silver dark bay is Silver acting on a very dark bay base. The body remains deep chocolate, coffee-brown, or nearly black, while the originally black mane, tail, and lower legs are strongly diluted toward silver-white, platinum, smoky gray, or ash-brown. The skin stays dark and the eyes brown, and dappling may be especially visible in seasonal coat.",
       "image": "img/quiz/complicated-colors/25.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -664,14 +662,14 @@
           "text": "Silver brown"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Silver dark bay is Silver acting on a very dark bay base. The body remains deep chocolate, coffee-brown, or nearly black, while the originally black mane, tail, and lower legs are strongly diluted toward silver-white, platinum, smoky gray, or ash-brown. The skin stays dark and the eyes brown, and dappling may be especially visible in seasonal coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-26",
       "question": "What coat color is this?",
-      "explanation": "Black few-spot leopard is a near-white Leopard Complex phenotype on a black base, associated with homozygous Lp and strong pattern expression. Only a few small remnants of black pigment may remain on the head, neck, elbows, groin, mane, or tail. Mottled skin, vertically striped hooves, and visible white sclera are characteristic Leopard Complex markers.",
       "image": "img/quiz/complicated-colors/26.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -690,14 +688,14 @@
           "text": "White"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Black few-spot leopard is a near-white Leopard Complex phenotype on a black base, associated with homozygous Lp and strong pattern expression. Only a few small remnants of black pigment may remain on the head, neck, elbows, groin, mane, or tail. Mottled skin, vertically striped hooves, and visible white sclera are characteristic Leopard Complex markers.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-27",
       "question": "What coat color is this?",
-      "explanation": "Silver dark bay is Silver acting on a very dark bay base. The body remains deep chocolate, coffee-brown, or nearly black, while the originally black mane, tail, and lower legs are strongly diluted toward silver-white, platinum, smoky gray, or ash-brown. The skin stays dark and the eyes brown, and dappling may be especially visible in seasonal coat.",
       "image": "img/quiz/complicated-colors/27.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -716,14 +714,14 @@
           "text": "Silver dark bay"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Silver dark bay is Silver acting on a very dark bay base. The body remains deep chocolate, coffee-brown, or nearly black, while the originally black mane, tail, and lower legs are strongly diluted toward silver-white, platinum, smoky gray, or ash-brown. The skin stays dark and the eyes brown, and dappling may be especially visible in seasonal coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-28",
       "question": "What coat color is this?",
-      "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown.",
       "image": "img/quiz/complicated-colors/28.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -742,14 +740,14 @@
           "text": "Silver bay roan"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-29",
       "question": "What coat color is this?",
-      "explanation": "Dunalino, also called palomino dun, combines one Cream allele and Dun on a chestnut base. The body is a muted cream-gold, sandy, or pale yellow rather than the brighter gold of an ordinary palomino, while the mane and tail are strongly lightened. Dun adds primitive markings, especially a darker reddish-brown dorsal stripe and often leg barring.",
       "image": "img/quiz/complicated-colors/29.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -768,14 +766,14 @@
           "text": "Silver bay dun"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Dunalino, also called palomino dun, combines one Cream allele and Dun on a chestnut base. The body is a muted cream-gold, sandy, or pale yellow rather than the brighter gold of an ordinary palomino, while the mane and tail are strongly lightened. Dun adds primitive markings, especially a darker reddish-brown dorsal stripe and often leg barring.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-30",
       "question": "What coat color is this?",
-      "explanation": "Chestnut roan, often called strawberry roan, is true Roan on a chestnut base. White hairs are evenly intermixed through the body, producing a pinkish, strawberry, or muted red appearance, while the head, mane, tail, and lower legs retain much more of the original chestnut color. The skin remains dark, and healed injuries may produce solid-colored 'corn spots' where white hairs do not regrow.",
       "image": "img/quiz/complicated-colors/30.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -794,14 +792,14 @@
           "text": "Red dun"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Chestnut roan, often called strawberry roan, is true Roan on a chestnut base. White hairs are evenly intermixed through the body, producing a pinkish, strawberry, or muted red appearance, while the head, mane, tail, and lower legs retain much more of the original chestnut color. The skin remains dark, and healed injuries may produce solid-colored 'corn spots' where white hairs do not regrow.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-31",
       "question": "What coat color is this?",
-      "explanation": "Chestnut roan with a spotted blanket combines true Roan and Leopard Complex patterning on a chestnut base. The forebody shows the even red-and-white hair mixture of chestnut roan, while the croup and loin carry a distinct white blanket scattered with chestnut-colored spots. Leopard Complex markers include mottled skin, striped hooves, and visible white sclera.",
       "image": "img/quiz/complicated-colors/31.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -820,14 +818,14 @@
           "text": "Chestnut roan spotted blanket"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Chestnut roan with a spotted blanket combines true Roan and Leopard Complex patterning on a chestnut base. The forebody shows the even red-and-white hair mixture of chestnut roan, while the croup and loin carry a distinct white blanket scattered with chestnut-colored spots. Leopard Complex markers include mottled skin, striped hooves, and visible white sclera.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-32",
       "question": "What pinto and Leopard Complex patterns does this horse have?",
-      "explanation": "Tobiano plus a spotted blanket is a pintaloosa-type combination of Tobiano and Leopard Complex patterning. Large smooth-edged tobiano white patches cross the topline, while the croup and loin also carry a Leopard Complex blanket with colored spots. The horse can show both pinto skin depigmentation and Leopard Complex markers such as mottled skin, vertically striped hooves, and visible white sclera.",
       "image": "img/quiz/complicated-colors/32.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -846,14 +844,14 @@
           "text": "Tovero + snowflake"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Tobiano plus a spotted blanket is a pintaloosa-type combination of Tobiano and Leopard Complex patterning. Large smooth-edged tobiano white patches cross the topline, while the croup and loin also carry a Leopard Complex blanket with colored spots. The horse can show both pinto skin depigmentation and Leopard Complex markers such as mottled skin, vertically striped hooves, and visible white sclera.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-33",
       "question": "What coat color is this?",
-      "explanation": "Smoky seal brown is one Cream allele on a seal-brown base. The dark body is softened toward cocoa, dark chocolate, or coffee-brown, while the characteristic lighter tan areas around the muzzle, eyes, groin, and flanks remain visible in warmer beige or sandy tones. The skin remains dark and the eyes are usually brown, though Cream can sometimes lighten them slightly.",
       "image": "img/quiz/complicated-colors/33.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -872,14 +870,14 @@
           "text": "Smoky black"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Smoky seal brown is one Cream allele on a seal-brown base. The dark body is softened toward cocoa, dark chocolate, or coffee-brown, while the characteristic lighter tan areas around the muzzle, eyes, groin, and flanks remain visible in warmer beige or sandy tones. The skin remains dark and the eyes are usually brown, though Cream can sometimes lighten them slightly.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-34",
       "question": "What coat color is this?",
-      "explanation": "The source uses the old Russian term 'mukhortaya' for a seal-brown-type base with Dun primitive markings. The coat is very dark brown to nearly black with contrasting warm tan or reddish areas around the muzzle, eyes, groin, and inner thighs, together with a distinct dark dorsal stripe. In English genetic terminology, 'seal brown dun' is the clearest descriptive equivalent.",
       "image": "img/quiz/complicated-colors/34.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -898,14 +896,14 @@
           "text": "Seal brown dun (mukhortaya)"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The source uses the old Russian term 'mukhortaya' for a seal-brown-type base with Dun primitive markings. The coat is very dark brown to nearly black with contrasting warm tan or reddish areas around the muzzle, eyes, groin, and inner thighs, together with a distinct dark dorsal stripe. In English genetic terminology, 'seal brown dun' is the clearest descriptive equivalent.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-35",
       "question": "What coat color is this?",
-      "explanation": "Bay roan is true Roan on a bay base. White hairs are evenly intermixed through the reddish-brown body, giving a wine-red, pinkish-gray, or mauve cast, while the head, mane, tail, and lower legs remain much darker and retain the bay points. The skin remains dark and healed injuries can leave solid darker corn spots.",
       "image": "img/quiz/complicated-colors/35.webp",
-      "image_source": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -924,14 +922,14 @@
           "text": "Dark buckskin"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Bay roan is true Roan on a bay base. White hairs are evenly intermixed through the reddish-brown body, giving a wine-red, pinkish-gray, or mauve cast, while the head, mane, tail, and lower legs remain much darker and retain the bay points. The skin remains dark and healed injuries can leave solid darker corn spots.",
+      "image_source": "Неизвестен"
     },
     {
       "id": "question-36",
       "question": "What type of pinto pattern is this?",
-      "explanation": "Tortoiseshell tobiano is a rare and poorly understood name used for a visually tricolored tobiano phenotype. The coat has large white tobiano areas plus irregular pigmented zones in contrasting red, brown, buff, and dark chocolate shades, creating a mottled 'tortoiseshell' appearance. Because the terminology and underlying mechanism are not standardized, the name is best treated as a descriptive phenotype rather than a single established genetic diagnosis.",
       "image": "img/quiz/complicated-colors/36.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -950,14 +948,14 @@
           "text": "Chimeric tobiano"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tortoiseshell tobiano is a rare and poorly understood name used for a visually tricolored tobiano phenotype. The coat has large white tobiano areas plus irregular pigmented zones in contrasting red, brown, buff, and dark chocolate shades, creating a mottled 'tortoiseshell' appearance. Because the terminology and underlying mechanism are not standardized, the name is best treated as a descriptive phenotype rather than a single established genetic diagnosis.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-37",
       "question": "What coat color is this?",
-      "explanation": "In Gypsy Cob and some British usage, 'blagdon' is a traditional term for extensive sabino-like white patterning. On a black base it may be called blue blagdon: white ticking and irregular white spread upward from the legs and belly into the sides, often with a large facial marking, creating a blue-roan-like appearance without the sharply defined patches of tobiano.",
       "image": "img/quiz/complicated-colors/37.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -976,14 +974,14 @@
           "text": "Black sabino rount"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "In Gypsy Cob and some British usage, 'blagdon' is a traditional term for extensive sabino-like white patterning. On a black base it may be called blue blagdon: white ticking and irregular white spread upward from the legs and belly into the sides, often with a large facial marking, creating a blue-roan-like appearance without the sharply defined patches of tobiano.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-38",
       "question": "What coat color is this?",
-      "explanation": "The source uses the term 'rount' for a sabino-like chestnut phenotype with an even mixture of white and chestnut hairs across much of the body, but without the clear dark head-and-leg contrast typical of true Roan. Large jagged belly patches are absent, while extensive leg and facial white and white hairs in the mane or tail help identify the sabino-type pattern. The term is niche and not a standardized genetic designation.",
       "image": "img/quiz/complicated-colors/38.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1002,14 +1000,14 @@
           "text": "Chestnut sabino rount"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The source uses the term 'rount' for a sabino-like chestnut phenotype with an even mixture of white and chestnut hairs across much of the body, but without the clear dark head-and-leg contrast typical of true Roan. Large jagged belly patches are absent, while extensive leg and facial white and white hairs in the mane or tail help identify the sabino-type pattern. The term is niche and not a standardized genetic designation.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-39",
       "question": "What coat color is this?",
-      "explanation": "This phenotype combines a chestnut base with strongly lightened mane and tail, sabino white patterning, and Poteka markings. The large asymmetric white area rises from the lower body onto a hindquarter or flank with sharply jagged edges and may contain small chestnut spots. Typical sabino features include extensive leg white and a broad facial marking reaching toward the lower lip.",
       "image": "img/quiz/complicated-colors/39.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1028,14 +1026,14 @@
           "text": "Chestnut with lightened mane and tail, sabino rount"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "This phenotype combines a chestnut base with strongly lightened mane and tail, sabino white patterning, and Poteka markings. The large asymmetric white area rises from the lower body onto a hindquarter or flank with sharply jagged edges and may contain small chestnut spots. Typical sabino features include extensive leg white and a broad facial marking reaching toward the lower lip.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-40",
       "question": "What coat color is this?",
-      "explanation": "This source describes a grullo sabino with a 'Belton effect': Dun on a black base combined with sabino white, with the white areas densely flecked or spotted by the underlying grullo color in a pattern likened to Belton ticking in English Setters. Dun primitive markings such as a dark dorsal stripe, dark facial mask, and leg barring remain visible. 'Belton effect' here is a descriptive, nonstandard equine term rather than a recognized coat-color gene.",
       "image": "img/quiz/complicated-colors/40.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1054,7 +1052,9 @@
           "text": "Grullo sabino rount"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "This source describes a grullo sabino with a 'Belton effect': Dun on a black base combined with sabino white, with the white areas densely flecked or spotted by the underlying grullo color in a pattern likened to Belton ticking in English Setters. Dun primitive markings such as a dark dorsal stripe, dark facial mask, and leg barring remain visible. 'Belton effect' here is a descriptive, nonstandard equine term rather than a recognized coat-color gene.",
+      "image_author": "Неизвестен"
     }
   ],
   "translation_status": "current",
@@ -2113,5 +2113,6 @@
       }
     ]
   },
-  "source_content_hash": "d1edc11f471117a071dd596b88194cfae6e4f32adcd14b2ea2d590ee2dfc899c"
+  "source_content_hash": "d1edc11f471117a071dd596b88194cfae6e4f32adcd14b2ea2d590ee2dfc899c",
+  "english_quiz": "complicated-colors-en"
 }
