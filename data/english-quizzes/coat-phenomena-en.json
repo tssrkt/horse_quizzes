@@ -11,1376 +11,2747 @@
     "images"
   ],
   "published": false,
-  "title": "Мастевые явления",
-  "short_description": "Насколько хорошо вы разбираетесь в мастевых явлениях? Тигровость, жирафовые отметины, мозаицизм и другие редкие особенности внешности лошадей — проверьте, сможете ли вы их распознать.",
-  "intro": "Насколько хорошо вы разбираетесь в мастевых явлениях? Тигровость, жирафовые отметины, мозаицизм и другие редкие особенности внешности лошадей — проверьте, сможете ли вы их распознать.",
-  "questionImagesAlt": "Фотография лошади для определения масти",
+  "title": "Coat Color Phenomena",
+  "short_description": "How well do you know unusual coat-color phenomena? Brindle, giraffe markings, mosaicism, and other rare features of a horse's appearance—see if you can recognize them.",
+  "intro": "How well do you know unusual coat-color phenomena? Brindle, giraffe markings, mosaicism, and other rare features of a horse's appearance—see if you can recognize them.",
+  "questionImagesAlt": "Photo of a horse for identifying a coat-color phenomenon",
   "questions": [
     {
       "id": "question-01",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Пятна Массауда (в англоязычной традиции — «обратные кровавые отметины», reverse bloodmarks) — это крайне редкие врожденные белые или белесые пятна неправильной формы, возникающие на теле лошади (чаще на плечах или крупе) в результате соматической мутации или как скрытое проявление пегости типа сабино или тобиано. Главное отличие этих уникальных отметин заключается в том, что они проявляются с рождения, не имеют отношения к шрамам, травмам или лишаю, а с возрастом и после линек не исчезают, а могут становиться только контрастнее, больше и ярче на фоне основной, обычно темной или рыжей, масти.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
       "image": "img/quiz/coat-phenomena/01.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-02",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-06",
-          "text": "Подласость"
+          "text": "Pangaré"
         }
       ],
       "correct_answer_id": "answer-05"
     },
     {
       "id": "question-02",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Кровавые отметины (англ. Bloody Shoulder или Blood Marks) — это редкое врожденное мастное явление, присущее исключительно лошадям серой масти (чаще всего арабской породы), при котором на плечах, холке или боках взрослого животного красуется крупное, яркое красно-рыжее, бурое или черное пятно. Генетически этот феномен объясняется соматической мутацией, из-за которой ген серой масти «отключается» на определенном участке тела, сохраняя там исходный, первоначальный цвет шерсти (которым жеребенок обладал до поседения). Чтобы безошибочно отличить кровавую отметину, нужно искать чисто-белую или светло-серую «в гречку» лошадь, на теле которой есть контрастная, хаотичная цветная зона, состоящая либо из плотного скопления мелких цветных крупинок, либо из сплошного несмываемого пигментного пятна, которое никогда не седеет с возрастом и не является следствием ранения или травмы.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
       "image": "img/quiz/coat-phenomena/02.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-02",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-03",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-04",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-05",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-06",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-03",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Отметины Бёрдкэтчера (англ. Birdcatcher spots) — это редкие, нестандартные мелкие округлые белые пятнышки с четко очерченными краями, которые хаотично появляются на корпусе лошади любой породы (чаще у Чистокровных верховых) из-за неизвестной генетической мутации (предположительно, лейкотрихии), могут спонтанно возникать и исчезать в течение жизни и обычно не затрагивают голову животного. Главное отличие этих отметин от похожей чубарой масти типа «снежные хлопья» заключается в том, что у лошади с отметинами Бёрдкэтчера полностью отсутствуют другие признаки чубарости (у нее нет полосатых копыт, пятнистой кожи на морде и видимой белой склеры глаза), а сами пятна не имеют отношения к травмам и могут собираться в небольшие группы или оставаться одиночными «хлопьями» на базовом темном фоне.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
       "image": "img/quiz/coat-phenomena/03.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-02",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-04",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Жирафовые отметины (или мраморность, англ. Giraffe markings) — это редчайшее, малоизученное и проявляющееся с возрастом мастное явление, которое выражается в виде характерной белой сетки поверх более темного волоса, покрывающей спину, шею, плечи, бока и круп лошади и напоминающей узор на шкуре жирафа. Чтобы безошибочно отличить жирафовые отметины от чубарой или серой масти, нужно искать четкий сетчатый или паутинообразный рисунок из светлых линий, который медленно проступает на теле взрослого животного любой породы, при этом у лошади полностью отсутствуют чубарые признаки (полосатые копыта, пятнистая кожа) и типичное для серой масти равномерное забеливание «в гречку» или «яблоки», так как генетика этого феномена уникальна, не связана с травмами и иногда является лишь специфическим, локальным сбоем пигментации.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
       "image": "img/quiz/coat-phenomena/04.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-04",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-05",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Чернильные (мастные) пятна (англ. Ink spots или Paw prints) — это небольшие цветные пятнышки в цвет основного окраса лошади, которые располагаются строго поверх белых отметин или пежин (чаще всего у пегостей типа тобиано и фрейм оверо) и имеют четкие либо слегка размытые края, иногда окруженные темной каймой. Главное отличие чернильных пятен от чубарой масти или обычного крапа заключается в том, что они находятся исключительно внутри белых полей пегости, дублируя базовый пигмент лошади, а если такое пятно заходит на венчик ноги, то оно дает локальные полосы на копыте, при этом у животного полностью отсутствуют другие системные признаки чубарости (такие как сплошь полосатые копыта, розовая пятнистая кожа на морде или видимая белая склера глаза).",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Ink spots, also called paw prints, are small patches of the horse's base color that occur inside white markings or white pinto areas, particularly in some tobiano and overo-patterned horses. Their edges may be crisp or slightly blurred, and a spot extending to the coronet can produce a localized stripe in the hoof. Their defining feature is that the colored spots lie within white areas rather than forming part of a Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/05.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-06",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Тетрарковы отметины (англ. Tetrarch spots или Chubari spots) — это уникальные врожденные овальные или круглые белые пятна размером примерно с яйцо и с размытыми краями, которые встречаются исключительно у серых лошадей любой породы и наиболее ярко проступают на фоне темно-серой или серой в яблоках шерсти. Главное отличие тетрарковых отметин заключается в том, что они появляются с рождения, не меняют свой размер и полностью исчезают по мере взросления лошади, когда животное окончательно светлеет и становится светло-серым, что отличает их от похожих стабильных белых отметин (например, Бёрдкэтчера) или шрамов. Кроме того, они не связаны с чубарой мастью, могут сливаться в крупные асимметричные зоны и передаются по наследству как редкая фенотипическая особенность процесса раннего поседения.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/06.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-07",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Жирафовые отметины (или мраморность, англ. Giraffe markings) — это редчайшее, малоизученное и проявляющееся с возрастом мастное явление, которое выражается в виде характерной белой сетки поверх более темного волоса, покрывающей спину, шею, плечи, бока и круп лошади и напоминающей узор на шкуре жирафа. Чтобы безошибочно отличить жирафовые отметины от чубарой или серой масти, нужно искать четкий сетчатый или паутинообразный рисунок из светлых линий, который медленно проступает на теле взрослого животного любой породы, при этом у лошади полностью отсутствуют чубарые признаки (полосатые копыта, пятнистая кожа) и типичное для серой масти равномерное забеливание «в гречку» или «яблоки», так как генетика этого феномена уникальна, не связана с травмами и иногда является лишь специфическим, локальным сбоем пигментации.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
       "image": "img/quiz/coat-phenomena/07.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-04",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-08",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Павлиньи пятнышки (или «павлиньи глазки», англ. Peacock spots) — это условное название особого типа цветных пятен у лошадей чубарой масти, вокруг которых образуется характерная светлая кайма из белого волоса или зона, где белый и темный волос равномерно перемешаны, напоминая по форме «глазки» на перьях павлиньего хвоста. Главное отличие павлиньих пятен от обычного чубарого крапа или чернильных пятен заключается в том, что они встречаются строго у чубарых лошадей и наиболее отчетливо видны на «чалом» (смешанном) фоне корпуса, при этом кайма может быть разной ширины, а само явление не связано со шрамами или болезнями кожи, не является отдельным типом масти и представляет собой редкую, малоизученную генетическую особенность распределения пигмента внутри чубарого комплекса.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Peacock spots, sometimes called peacock eyes, are a descriptive term for colored spots in Leopard Complex horses that are surrounded by a lighter halo of white hair or an evenly mixed zone of white and colored hairs, giving an eye-like appearance reminiscent of a peacock feather. They are seen within Leopard Complex patterning rather than as isolated pinto ink spots, and they are not considered a separate coat color.",
       "image": "img/quiz/coat-phenomena/08.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-04",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-09",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Отметины Бёрдкэтчера (англ. Birdcatcher spots) — это редкие, нестандартные мелкие округлые белые пятнышки с четко очерченными краями, которые хаотично появляются на корпусе лошади любой породы (чаще у Чистокровных верховых) из-за неизвестной генетической мутации (предположительно, лейкотрихии), могут спонтанно возникать и исчезать в течение жизни и обычно не затрагивают голову животного. Главное отличие этих отметин от похожей чубарой масти типа «снежные хлопья» заключается в том, что у лошади с отметинами Бёрдкэтчера полностью отсутствуют другие признаки чубарости (у нее нет полосатых копыт, пятнистой кожи на морде и видимой белой склеры глаза), а сами пятна не имеют отношения к травмам и могут собираться в небольшие группы или оставаться одиночными «хлопьями» на базовом темном фоне.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
       "image": "img/quiz/coat-phenomena/09.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-04",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-10",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Тигровость (англ. Brindle) — это редчайшая пигментная аномалия, не являющаяся самостоятельной мастью, которая выражается в виде неровных вертикальных полос разной ширины и интенсивности, проступающих поверх любого базового окраса лошади, мула или осла. Главное отличие тигровости от других отметин заключается в том, что ее полосы выделяются не только цветом, но и уникальной текстурой шерсти, ощутимой тактильно, при этом природа феномена разделяется на три независимых типа: наследуемую мутацию в гене Brindle1 на Х-хромосоме (проявляется у кобыл, а у жеребцов без полос дает жидкие гриву и хвост), спонтанный нетипичный химеризм из-за слияния двух эмбрионов, а также локальные частные сбои в генах саврасости, чалости или серой масти, которые важно не путать с обычными «дикими» зеброидными полосами на ногах.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Brindle is a very rare striped pigmentation pattern rather than a separate base coat color. It produces irregular vertical stripes of varying width and intensity over the horse's underlying coat. Different biological mechanisms can create brindle-like phenotypes, including inherited Brindle1, chimerism, mosaicism, and localized alterations of other color patterns. It should not be confused with ordinary primitive leg barring associated with dun.",
       "image": "img/quiz/coat-phenomena/10.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-02",
-          "text": "Рабикано"
+          "text": "Rabicano"
         },
         {
           "id": "answer-03",
-          "text": "Тигровость"
+          "text": "Brindle"
         },
         {
           "id": "answer-04",
-          "text": "Бронзинг"
+          "text": "Bronzing"
         },
         {
           "id": "answer-05",
-          "text": "Мозаицизм"
+          "text": "Mosaicism"
         },
         {
           "id": "answer-06",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-11",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Чернильные (мастные) пятна (англ. Ink spots или Paw prints) — это небольшие цветные пятнышки в цвет основного окраса лошади, которые располагаются строго поверх белых отметин или пежин (чаще всего у пегостей типа тобиано и фрейм оверо) и имеют четкие либо слегка размытые края, иногда окруженные темной каймой. Главное отличие чернильных пятен от чубарой масти или обычного крапа заключается в том, что они находятся исключительно внутри белых полей пегости, дублируя базовый пигмент лошади, а если такое пятно заходит на венчик ноги, то оно дает локальные полосы на копыте, при этом у животного полностью отсутствуют другие системные признаки чубарости (такие как сплошь полосатые копыта, розовая пятнистая кожа на морде или видимая белая склера глаза).",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Ink spots, also called paw prints, are small patches of the horse's base color that occur inside white markings or white pinto areas, particularly in some tobiano and overo-patterned horses. Their edges may be crisp or slightly blurred, and a spot extending to the coronet can produce a localized stripe in the hoof. Their defining feature is that the colored spots lie within white areas rather than forming part of a Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/11.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-04",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-12",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Пятна Массауда (в англоязычной традиции — «обратные кровавые отметины», reverse bloodmarks) — это крайне редкие врожденные белые или белесые пятна неправильной формы, возникающие на теле лошади (чаще на плечах или крупе) в результате соматической мутации или как скрытое проявление пегости типа сабино или тобиано. Главное отличие этих уникальных отметин заключается в том, что они проявляются с рождения, не имеют отношения к шрамам, травмам или лишаю, а с возрастом и после линек не исчезают, а могут становиться только контрастнее, больше и ярче на фоне основной, обычно темной или рыжей, масти.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
       "image": "img/quiz/coat-phenomena/12.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-02",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-06",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         }
       ],
       "correct_answer_id": "answer-05"
     },
     {
       "id": "question-13",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Кровавые отметины (англ. Bloody Shoulder или Blood Marks) — это редкое врожденное мастное явление, присущее исключительно лошадям серой масти (чаще всего арабской породы), при котором на плечах, холке или боках взрослого животного красуется крупное, яркое красно-рыжее, бурое или черное пятно. Генетически этот феномен объясняется соматической мутацией, из-за которой ген серой масти «отключается» на определенном участке тела, сохраняя там исходный, первоначальный цвет шерсти (которым жеребенок обладал до поседения). Чтобы безошибочно отличить кровавую отметину, нужно искать чисто-белую или светло-серую «в гречку» лошадь, на теле которой есть контрастная, хаотичная цветная зона, состоящая либо из плотного скопления мелких цветных крупинок, либо из сплошного несмываемого пигментного пятна, которое никогда не седеет с возрастом и не является следствием ранения или травмы.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
       "image": "img/quiz/coat-phenomena/13.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-02",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-03",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-04",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-05",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-06",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-14",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Тигровость (англ. Brindle) — это редчайшая пигментная аномалия, не являющаяся самостоятельной мастью, которая выражается в виде неровных вертикальных полос разной ширины и интенсивности, проступающих поверх любого базового окраса лошади, мула или осла. Главное отличие тигровости от других отметин заключается в том, что ее полосы выделяются не только цветом, но и уникальной текстурой шерсти, ощутимой тактильно, при этом природа феномена разделяется на три независимых типа: наследуемую мутацию в гене Brindle1 на Х-хромосоме (проявляется у кобыл, а у жеребцов без полос дает жидкие гриву и хвост), спонтанный нетипичный химеризм из-за слияния двух эмбрионов, а также локальные частные сбои в генах саврасости, чалости или серой масти, которые важно не путать с обычными «дикими» зеброидными полосами на ногах.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Brindle is a very rare striped pigmentation pattern rather than a separate base coat color. It produces irregular vertical stripes of varying width and intensity over the horse's underlying coat. Different biological mechanisms can create brindle-like phenotypes, including inherited Brindle1, chimerism, mosaicism, and localized alterations of other color patterns. It should not be confused with ordinary primitive leg barring associated with dun.",
       "image": "img/quiz/coat-phenomena/14.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-02",
-          "text": "Рабикано"
+          "text": "Rabicano"
         },
         {
           "id": "answer-03",
-          "text": "Тигровость"
+          "text": "Brindle"
         },
         {
           "id": "answer-04",
-          "text": "Бронзинг"
+          "text": "Bronzing"
         },
         {
           "id": "answer-05",
-          "text": "Мозаицизм"
+          "text": "Mosaicism"
         },
         {
           "id": "answer-06",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-15",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Кукурузные пятна (англ. Corn spots) — это уникальное и частое явление, характерное исключительно для чалой масти, которое представляет собой небольшие асимметричные темные пятна в цвет базовой основы, по форме напоминающие зерна индейской кукурузы. Главное отличие кукурузных пятен от любых других отметин или «возвратных яблок» заключается в том, что они состоят из чистого цветного волоса вообще без примеси белых волосков и появляются на корпусе чалой лошади в местах бывших мелких царапин, укусов или потертостей, где поврежденная кожа регенерирует шерсть первоначального темного окраса.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
       "image": "img/quiz/coat-phenomena/15.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-02",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-03",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-04",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-05",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-06",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-16",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Подласость (англ. Pangaré или Mealy) — это распространенное мастное явление, не являющееся самостоятельной мастью, которое выражается в характерном побелении или бледно-желтом осветлении шерсти в паху, под локтями, на животе, груди, а также вокруг глаз («очки») и ноздрей («морда в толокне») у лошадей на любой основе с рыжим пигментом (гнедая, рыжая, игреневая, саврасая). Главное отличие подласости от других типов осветления или пегости заключается в том, что она никогда не встречается на вороной масти, так как гипотетический ген Pa+ разрушает только рыжий пигмент, а сами зоны подпалин располагаются строго в анатомических низах и естественных складках тела, плавно переходя в основной цвет и иногда затрагивая защитный волос гривы и хвоста.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Pangaré, also called mealy, is a lightening pattern rather than a separate coat color. It produces pale or yellowish areas on the muzzle, around the eyes, under the belly, inside the legs, and in other soft parts of the body on horses with red pigment in the coat. The lighter areas blend gradually into the base color and are especially familiar on breeds such as Exmoor Ponies and Haflingers.",
       "image": "img/quiz/coat-phenomena/16.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-02",
-          "text": "Рабикано"
+          "text": "Rabicano"
         },
         {
           "id": "answer-03",
-          "text": "Рабикано"
+          "text": "Rabicano"
         },
         {
           "id": "answer-04",
-          "text": "Бронзинг"
+          "text": "Bronzing"
         },
         {
           "id": "answer-05",
-          "text": "Мозаицизм"
+          "text": "Mosaicism"
         },
         {
           "id": "answer-06",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-17",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Феномен Кэтч Э Бёрда (англ. Catch A Bird anomaly) — это редчайшее аномальное мастевое явление, названное в честь чистокровного верхового жеребца из Австралии, которое выражается в появлении хаотичных неровных вертикальных полос исключительно белого цвета («обратное тигровое окрашивание» или reverse brindling) поверх любой базовой темной масти. Главное отличие этого феномена от обычной тигровости заключается в том, что его полосы никогда не бывают темными или цветными, а состоят строго из примеси белого волоса, при этом явление генетически уникально: сам феномен полосатости потомству напрямую не передается, однако его носители неожиданно рождают жеребят классической чалой масти (что крайне нетипично для чистокровной верховой породы), из-за чего ученые считают данный узор редчайшей формой мозаицизма или спонтанной мутацией гена чалости (Rn) с нестандартным визуальным проявлением.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
       "image": "img/quiz/coat-phenomena/17.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-02",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-06",
-          "text": "Подласость"
+          "text": "Pangaré"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-18",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Павлиньи пятнышки (или «павлиньи глазки», англ. Peacock spots) — это условное название особого типа цветных пятен у лошадей чубарой масти, вокруг которых образуется характерная светлая кайма из белого волоса или зона, где белый и темный волос равномерно перемешаны, напоминая по форме «глазки» на перьях павлиньего хвоста. Главное отличие павлиньих пятен от обычного чубарого крапа или чернильных пятен заключается в том, что они встречаются строго у чубарых лошадей и наиболее отчетливо видны на «чалом» (смешанном) фоне корпуса, при этом кайма может быть разной ширины, а само явление не связано со шрамами или болезнями кожи, не является отдельным типом масти и представляет собой редкую, малоизученную генетическую особенность распределения пигмента внутри чубарого комплекса.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Peacock spots, sometimes called peacock eyes, are a descriptive term for colored spots in Leopard Complex horses that are surrounded by a lighter halo of white hair or an evenly mixed zone of white and colored hairs, giving an eye-like appearance reminiscent of a peacock feather. They are seen within Leopard Complex patterning rather than as isolated pinto ink spots, and they are not considered a separate coat color.",
       "image": "img/quiz/coat-phenomena/18.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-02",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-03",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-04",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-05",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-06",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-19",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Жирафовые отметины (или мраморность, англ. Giraffe markings) — это редчайшее, малоизученное и проявляющееся с возрастом мастное явление, которое выражается в виде характерной белой сетки поверх более темного волоса, покрывающей спину, шею, плечи, бока и круп лошади и напоминающей узор на шкуре жирафа. Чтобы безошибочно отличить жирафовые отметины от чубарой или серой масти, нужно искать четкий сетчатый или паутинообразный рисунок из светлых линий, который медленно проступает на теле взрослого животного любой породы, при этом у лошади полностью отсутствуют чубарые признаки (полосатые копыта, пятнистая кожа) и типичное для серой масти равномерное забеливание «в гречку» или «яблоки», так как генетика этого феномена уникальна, не связана с травмами и иногда является лишь специфическим, локальным сбоем пигментации.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
       "image": "img/quiz/coat-phenomena/19.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-04",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-05",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-20",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Барсучья отметина (англ. Badger face) — это эффектная разновидность нестандартных отметин на голове лошади, которая представляет собой крупное темное пигментное пятно в цвет основной масти, расположенное прямо поверх широкой белой проточины или лысины и визуально напоминающее характерный окрас морды барсука. Главное отличие барсучьей отметины от обычных темных зон на морде заключается в том, что она всегда указывает на скрытое наличие пегости типа сабино или сплешед уайт, из-за чего у таких лошадей часто бывают «нереально» пронзительные голубые глаза, а сам узор выглядит как «отметина наоборот» — словно на белоснежную морду животного хаотично наложили широкие цветные полосы или полностью темную маску, оставляющую белыми лишь боковые части щек и ганашей.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "A badger face is a reverse-type facial marking in which dark hair of the horse's base color remains within or across an otherwise broad white face marking. The result can resemble a dark mask or broad colored stripe laid over a white face. Such markings may occur with extensive white-spotting patterns such as sabino or splashed white and can be accompanied by blue eyes.",
       "image": "img/quiz/coat-phenomena/20.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-04",
-          "text": "Барсучьи отметины"
+          "text": "Badger face markings"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-21",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Тетрарковы отметины (англ. Tetrarch spots или Chubari spots) — это уникальные врожденные овальные или круглые белые пятна размером примерно с яйцо и с размытыми краями, которые встречаются исключительно у серых лошадей любой породы и наиболее ярко проступают на фоне темно-серой или серой в яблоках шерсти. Главное отличие тетрарковых отметин заключается в том, что они появляются с рождения, не меняют свой размер и полностью исчезают по мере взросления лошади, когда животное окончательно светлеет и становится светло-серым, что отличает их от похожих стабильных белых отметин (например, Бёрдкэтчера) или шрамов. Кроме того, они не связаны с чубарой мастью, могут сливаться в крупные асимметричные зоны и передаются по наследству как редкая фенотипическая особенность процесса раннего поседения.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/21.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-04",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-05",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-22",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Тетрарковы отметины (англ. Tetrarch spots или Chubari spots) — это уникальные врожденные овальные или круглые белые пятна размером примерно с яйцо и с размытыми краями, которые встречаются исключительно у серых лошадей любой породы и наиболее ярко проступают на фоне темно-серой или серой в яблоках шерсти. Главное отличие тетрарковых отметин заключается в том, что они появляются с рождения, не меняют свой размер и полностью исчезают по мере взросления лошади, когда животное окончательно светлеет и становится светло-серым, что отличает их от похожих стабильных белых отметин (например, Бёрдкэтчера) или шрамов. Кроме того, они не связаны с чубарой мастью, могут сливаться в крупные асимметричные зоны и передаются по наследству как редкая фенотипическая особенность процесса раннего поседения.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/22.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-04",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-05",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-23",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Мозаицизм у лошади (англ. Mosaicism) — это редкое генетическое явление, при котором организм животного развивается из одной-единственной оплодотворенной яйцеклетки, но из-за спонтанной (соматической) мутации на ранней стадии деления эмбриона приобретает две или более генетически различающиеся группы клеток. Визуально пигментный мозаицизм проявляется в виде хаотичных, асимметричных цветных пятен или полос, которые резко контрастируют с основным окрасом (например, вороные зоны на рыжем корпусе). Главное отличие мозаицизма от очень похожего химеризма заключается в том, что мозаичная лошадь изначально была одним эмбрионом с локальным сбоем ДНК, а не слиянием двух разных близнецов, при этом мозаичные пятна никогда не передаются по наследству потомству. Кроме того, такие отметины легко отличить от пегости или чубарости по полному отсутствию их системных признаков (вроде сорочьих глаз или полосатых копыт) и по уникальным границам пятен, которые часто следуют так называемым эмбриональным линиям Блашко.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
       "image": "img/quiz/coat-phenomena/23.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-04",
-          "text": "Мозаицизм"
+          "text": "Mosaicism"
         },
         {
           "id": "answer-05",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-06",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-24",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Магомедовы пятна (англ. Prophet's thumbprints или Mohammad's spots) — это редкие врожденные небольшие овальные пятнышки бурого или черного цвета, которые хаотично располагаются на крупе и бедрах лошади и, согласно арабским поверьям, приносят владельцу счастье. Главное отличие Магомедовых пятен от чубарого крапа заключается в том, что они проявляются преимущественно на светлом фоне рыжей или соловой масти и полностью лишены чубарых признаков (у лошади нет полосатых копыт, белой склеры или розовой кожи), встречаясь даже в тех породах, где чубарая масть генетически отсутствует (например, у арабских чистокровных лошадей). Эти отметины не связаны со шрамами, могут сливаться в более крупные пигментные зоны и сохраняют свой контрастный темный цвет неизменным на протяжении всей жизни животного.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Mohammed spots are described as rare, congenital dark oval spots occurring on the hindquarters or thighs, especially against lighter chestnut or palomino-type coats. In traditional lore they are considered lucky markings. They are distinct from Leopard Complex spotting because the horse lacks associated features such as mottled skin, striped hooves, and prominent white sclera, and the dark pigmented areas remain stable throughout life.",
       "image": "img/quiz/coat-phenomena/24.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-04",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-05",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-25",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Жирафовые отметины (или мраморность, англ. Giraffe markings) — это редчайшее, малоизученное и проявляющееся с возрастом мастное явление, которое выражается в виде характерной белой сетки поверх более темного волоса, покрывающей спину, шею, плечи, бока и круп лошади и напоминающей узор на шкуре жирафа. Чтобы безошибочно отличить жирафовые отметины от чубарой или серой масти, нужно искать четкий сетчатый или паутинообразный рисунок из светлых линий, который медленно проступает на теле взрослого животного любой породы, при этом у лошади полностью отсутствуют чубарые признаки (полосатые копыта, пятнистая кожа) и типичное для серой масти равномерное забеливание «в гречку» или «яблоки», так как генетика этого феномена уникальна, не связана с травмами и иногда является лишь специфическим, локальным сбоем пигментации.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
       "image": "img/quiz/coat-phenomena/25.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-04",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-05",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-26",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Мозаицизм у лошади (англ. Mosaicism) — это редкое генетическое явление, при котором организм животного развивается из одной-единственной оплодотворенной яйцеклетки, но из-за спонтанной (соматической) мутации на ранней стадии деления эмбриона приобретает две или более генетически различающиеся группы клеток. Визуально пигментный мозаицизм проявляется в виде хаотичных, асимметричных цветных пятен или полос, которые резко контрастируют с основным окрасом (например, вороные зоны на рыжем корпусе). Главное отличие мозаицизма от очень похожего химеризма заключается в том, что мозаичная лошадь изначально была одним эмбрионом с локальным сбоем ДНК, а не слиянием двух разных близнецов, при этом мозаичные пятна никогда не передаются по наследству потомству. Кроме того, такие отметины легко отличить от пегости или чубарости по полному отсутствию их системных признаков (вроде сорочьих глаз или полосатых копыт) и по уникальным границам пятен, которые часто следуют так называемым эмбриональным линиям Блашко.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
       "image": "img/quiz/coat-phenomena/26.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-04",
-          "text": "Мозаицизм"
+          "text": "Mosaicism"
         },
         {
           "id": "answer-05",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-06",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-27",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Тетрарковы отметины (англ. Tetrarch spots или Chubari spots) — это уникальные врожденные овальные или круглые белые пятна размером примерно с яйцо и с размытыми краями, которые встречаются исключительно у серых лошадей любой породы и наиболее ярко проступают на фоне темно-серой или серой в яблоках шерсти. Главное отличие тетрарковых отметин заключается в том, что они появляются с рождения, не меняют свой размер и полностью исчезают по мере взросления лошади, когда животное окончательно светлеет и становится светло-серым, что отличает их от похожих стабильных белых отметин (например, Бёрдкэтчера) или шрамов. Кроме того, они не связаны с чубарой мастью, могут сливаться в крупные асимметричные зоны и передаются по наследству как редкая фенотипическая особенность процесса раннего поседения.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/27.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-04",
-          "text": "Мозаицизм"
+          "text": "Mosaicism"
         },
         {
           "id": "answer-05",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-06",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-28",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Мозаицизм у лошади (англ. Mosaicism) — это редкое генетическое явление, при котором организм животного развивается из одной-единственной оплодотворенной яйцеклетки, но из-за спонтанной (соматической) мутации на ранней стадии деления эмбриона приобретает две или более генетически различающиеся группы клеток. Визуально пигментный мозаицизм проявляется в виде хаотичных, асимметричных цветных пятен или полос, которые резко контрастируют с основным окрасом (например, вороные зоны на рыжем корпусе). Главное отличие мозаицизма от очень похожего химеризма заключается в том, что мозаичная лошадь изначально была одним эмбрионом с локальным сбоем ДНК, а не слиянием двух разных близнецов, при этом мозаичные пятна никогда не передаются по наследству потомству. Кроме того, такие отметины легко отличить от пегости или чубарости по полному отсутствию их системных признаков (вроде сорочьих глаз или полосатых копыт) и по уникальным границам пятен, которые часто следуют так называемым эмбриональным линиям Блашко.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
       "image": "img/quiz/coat-phenomena/28.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-04",
-          "text": "Мозаицизм"
+          "text": "Mosaicism"
         },
         {
           "id": "answer-05",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-06",
-          "text": "Просто пегая лошадь, без мастевых явлений"
+          "text": "Just a pinto horse, with no coat-color phenomenon"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-29",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Феномен Кэтч Э Бёрда (англ. Catch A Bird anomaly) — это редчайшее аномальное мастевое явление, названное в честь чистокровного верхового жеребца из Австралии, которое выражается в появлении хаотичных неровных вертикальных полос исключительно белого цвета («обратное тигровое окрашивание» или reverse brindling) поверх любой базовой темной масти. Главное отличие этого феномена от обычной тигровости заключается в том, что его полосы никогда не бывают темными или цветными, а состоят строго из примеси белого волоса, при этом явление генетически уникально: сам феномен полосатости потомству напрямую не передается, однако его носители неожиданно рождают жеребят классической чалой масти (что крайне нетипично для чистокровной верховой породы), из-за чего ученые считают данный узор редчайшей формой мозаицизма или спонтанной мутацией гена чалости (Rn) с нестандартным визуальным проявлением.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
       "image": "img/quiz/coat-phenomena/29.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-02",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-06",
-          "text": "Подласость"
+          "text": "Pangaré"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-30",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Барсучья отметина (англ. Badger face) — это эффектная разновидность нестандартных отметин на голове лошади, которая представляет собой крупное темное пигментное пятно в цвет основной масти, расположенное прямо поверх широкой белой проточины или лысины и визуально напоминающее характерный окрас морды барсука. Главное отличие барсучьей отметины от обычных темных зон на морде заключается в том, что она всегда указывает на скрытое наличие пегости типа сабино или сплешед уайт, из-за чего у таких лошадей часто бывают «нереально» пронзительные голубые глаза, а сам узор выглядит как «отметина наоборот» — словно на белоснежную морду животного хаотично наложили широкие цветные полосы или полностью темную маску, оставляющую белыми лишь боковые части щек и ганашей.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "A badger face is a reverse-type facial marking in which dark hair of the horse's base color remains within or across an otherwise broad white face marking. The result can resemble a dark mask or broad colored stripe laid over a white face. Such markings may occur with extensive white-spotting patterns such as sabino or splashed white and can be accompanied by blue eyes.",
       "image": "img/quiz/coat-phenomena/30.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-04",
-          "text": "Барсучьи отметины"
+          "text": "Badger face markings"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-31",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Пятна Массауда (в англоязычной традиции — «обратные кровавые отметины», reverse bloodmarks) — это крайне редкие врожденные белые или белесые пятна неправильной формы, возникающие на теле лошади (чаще на плечах или крупе) в результате соматической мутации или как скрытое проявление пегости типа сабино или тобиано. Главное отличие этих уникальных отметин заключается в том, что они проявляются с рождения, не имеют отношения к шрамам, травмам или лишаю, а с возрастом и после линек не исчезают, а могут становиться только контрастнее, больше и ярче на фоне основной, обычно темной или рыжей, масти.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
       "image": "img/quiz/coat-phenomena/31.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-02",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-06",
-          "text": "Подласость"
+          "text": "Pangaré"
         }
       ],
       "correct_answer_id": "answer-05"
     },
     {
       "id": "question-32",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Отметины Бёрдкэтчера (англ. Birdcatcher spots) — это редкие, нестандартные мелкие округлые белые пятнышки с четко очерченными краями, которые хаотично появляются на корпусе лошади любой породы (чаще у Чистокровных верховых) из-за неизвестной генетической мутации (предположительно, лейкотрихии), могут спонтанно возникать и исчезать в течение жизни и обычно не затрагивают голову животного. Главное отличие этих отметин от похожей чубарой масти типа «снежные хлопья» заключается в том, что у лошади с отметинами Бёрдкэтчера полностью отсутствуют другие признаки чубарости (у нее нет полосатых копыт, пятнистой кожи на морде и видимой белой склеры глаза), а сами пятна не имеют отношения к травмам и могут собираться в небольшие группы или оставаться одиночными «хлопьями» на базовом темном фоне.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
       "image": "img/quiz/coat-phenomena/32.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-02",
-          "text": "Отметины Бёрдкэтчера"
+          "text": "Birdcatcher spots"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-06",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-33",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Кровавые отметины (англ. Bloody Shoulder или Blood Marks) — это редкое врожденное мастное явление, присущее исключительно лошадям серой масти (чаще всего арабской породы), при котором на плечах, холке или боках взрослого животного красуется крупное, яркое красно-рыжее, бурое или черное пятно. Генетически этот феномен объясняется соматической мутацией, из-за которой ген серой масти «отключается» на определенном участке тела, сохраняя там исходный, первоначальный цвет шерсти (которым жеребенок обладал до поседения). Чтобы безошибочно отличить кровавую отметину, нужно искать чисто-белую или светло-серую «в гречку» лошадь, на теле которой есть контрастная, хаотичная цветная зона, состоящая либо из плотного скопления мелких цветных крупинок, либо из сплошного несмываемого пигментного пятна, которое никогда не седеет с возрастом и не является следствием ранения или травмы.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
       "image": "img/quiz/coat-phenomena/33.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-02",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-03",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-04",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-05",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-06",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-34",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Кукурузные пятна (англ. Corn spots) — это уникальное и частое явление, характерное исключительно для чалой масти, которое представляет собой небольшие асимметричные темные пятна в цвет базовой основы, по форме напоминающие зерна индейской кукурузы. Главное отличие кукурузных пятен от любых других отметин или «возвратных яблок» заключается в том, что они состоят из чистого цветного волоса вообще без примеси белых волосков и появляются на корпусе чалой лошади в местах бывших мелких царапин, укусов или потертостей, где поврежденная кожа регенерирует шерсть первоначального темного окраса.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
       "image": "img/quiz/coat-phenomena/34.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-02",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-03",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-04",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-05",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-06",
-          "text": "Рабикано"
+          "text": "Rabicano"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-35",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Рабикано (или «белый тикинг», англ. Rabicano) — это наследуемое мастевое явление, характеризующееся локальной примесью белого волоса, который распространяется снизу вверх от паха вдоль ребер в виде тонких вертикальных полос, а также обязательно присутствует у основания хвоста в виде поперечных полосок, называемых «скунсовым хвостом» (skunk tail). Главное отличие рабикано от обычной чалой масти заключается в строгой зональности и направлении рисунка: чалость покрывает корпус равномерно сверху вниз, оставляя голову и ноги темными, в то время как рабикано всегда идет от паха и живота вверх в виде рваного узора, никогда не затрагивает голову лошади и не имеет отношения к шрамам, являясь самостоятельным генетическим признаком «белохвостости».",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Rabicano is a white-ticking pattern concentrated around the flanks, belly, ribs, and especially the base of the tail. White hairs may extend upward from the flank in narrow vertical streaks, while the tailhead can show the characteristic banded or 'skunk-tail' appearance. Unlike classic roan, which is distributed more evenly over the body, rabicano is strongly localized and typically leaves the head unaffected.",
       "image": "img/quiz/coat-phenomena/35.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-02",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-03",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-04",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-05",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-06",
-          "text": "Рабикано"
+          "text": "Rabicano"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-36",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Мозаицизм у лошади (англ. Mosaicism) — это редкое генетическое явление, при котором организм животного развивается из одной-единственной оплодотворенной яйцеклетки, но из-за спонтанной (соматической) мутации на ранней стадии деления эмбриона приобретает две или более генетически различающиеся группы клеток. Визуально пигментный мозаицизм проявляется в виде хаотичных, асимметричных цветных пятен или полос, которые резко контрастируют с основным окрасом (например, вороные зоны на рыжем корпусе). Главное отличие мозаицизма от очень похожего химеризма заключается в том, что мозаичная лошадь изначально была одним эмбрионом с локальным сбоем ДНК, а не слиянием двух разных близнецов, при этом мозаичные пятна никогда не передаются по наследству потомству. Кроме того, такие отметины легко отличить от пегости или чубарости по полному отсутствию их системных признаков (вроде сорочьих глаз или полосатых копыт) и по уникальным границам пятен, которые часто следуют так называемым эмбриональным линиям Блашко.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
       "image": "img/quiz/coat-phenomena/36.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-04",
-          "text": "Мозаицизм"
+          "text": "Mosaicism"
         },
         {
           "id": "answer-05",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-06",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-37",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Кукурузные пятна (англ. Corn spots) — это уникальное и частое явление, характерное исключительно для чалой масти, которое представляет собой небольшие асимметричные темные пятна в цвет базовой основы, по форме напоминающие зерна индейской кукурузы. Главное отличие кукурузных пятен от любых других отметин или «возвратных яблок» заключается в том, что они состоят из чистого цветного волоса вообще без примеси белых волосков и появляются на корпусе чалой лошади в местах бывших мелких царапин, укусов или потертостей, где поврежденная кожа регенерирует шерсть первоначального темного окраса.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
       "image": "img/quiz/coat-phenomena/37.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-02",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-03",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-04",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-05",
-          "text": "Подласость"
+          "text": "Pangaré"
         },
         {
           "id": "answer-06",
-          "text": "Рабикано"
+          "text": "Rabicano"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-38",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Феномен Кэтч Э Бёрда (англ. Catch A Bird anomaly) — это редчайшее аномальное мастевое явление, названное в честь чистокровного верхового жеребца из Австралии, которое выражается в появлении хаотичных неровных вертикальных полос исключительно белого цвета («обратное тигровое окрашивание» или reverse brindling) поверх любой базовой темной масти. Главное отличие этого феномена от обычной тигровости заключается в том, что его полосы никогда не бывают темными или цветными, а состоят строго из примеси белого волоса, при этом явление генетически уникально: сам феномен полосатости потомству напрямую не передается, однако его носители неожиданно рождают жеребят классической чалой масти (что крайне нетипично для чистокровной верховой породы), из-за чего ученые считают данный узор редчайшей формой мозаицизма или спонтанной мутацией гена чалости (Rn) с нестандартным визуальным проявлением.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
       "image": "img/quiz/coat-phenomena/38.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кэтч Э Бёрд"
+          "text": "Catch A Bird"
         },
         {
           "id": "answer-02",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-03",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         },
         {
           "id": "answer-06",
-          "text": "Подласость"
+          "text": "Pangaré"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-39",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Кровавые отметины (англ. Bloody Shoulder или Blood Marks) — это редкое врожденное мастное явление, присущее исключительно лошадям серой масти (чаще всего арабской породы), при котором на плечах, холке или боках взрослого животного красуется крупное, яркое красно-рыжее, бурое или черное пятно. Генетически этот феномен объясняется соматической мутацией, из-за которой ген серой масти «отключается» на определенном участке тела, сохраняя там исходный, первоначальный цвет шерсти (которым жеребенок обладал до поседения). Чтобы безошибочно отличить кровавую отметину, нужно искать чисто-белую или светло-серую «в гречку» лошадь, на теле которой есть контрастная, хаотичная цветная зона, состоящая либо из плотного скопления мелких цветных крупинок, либо из сплошного несмываемого пигментного пятна, которое никогда не седеет с возрастом и не является следствием ранения или травмы.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
       "image": "img/quiz/coat-phenomena/39.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-02",
-          "text": "Кукурузные пятна"
+          "text": "Corn spots"
         },
         {
           "id": "answer-03",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-04",
-          "text": "Чернильные пятна"
+          "text": "Ink spots"
         },
         {
           "id": "answer-05",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-06",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-40",
-      "question": "Что это за мастевое явление?",
-      "explanation": "Магомедовы пятна (англ. Prophet's thumbprints или Mohammad's spots) — это редкие врожденные небольшие овальные пятнышки бурого или черного цвета, которые хаотично располагаются на крупе и бедрах лошади. Согласно арабским поверьям, они приносят владельцу счастье. Главное отличие Магомедовых пятен от чубарого крапа заключается в том, что они проявляются преимущественно на светлом фоне рыжей или соловой масти и полностью лишены чубарых признаков (у лошади нет полосатых копыт, белой склеры или розовой кожи), встречаясь даже в тех породах, где чубарая масть генетически отсутствует (например, у арабских чистокровных лошадей). Эти отметины не связаны со шрамами, могут сливаться в более крупные пигментные зоны и сохраняют свой контрастный темный цвет неизменным на протяжении всей жизни животного.",
+      "question": "What coat-color phenomenon is this?",
+      "explanation": "Mohammed spots are described as rare, congenital dark oval spots occurring on the hindquarters or thighs, especially against lighter chestnut or palomino-type coats. In traditional lore they are considered lucky markings. They are distinct from Leopard Complex spotting because the horse lacks associated features such as mottled skin, striped hooves, and prominent white sclera, and the dark pigmented areas remain stable throughout life.",
       "image": "img/quiz/coat-phenomena/40.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Жирафовые отметины"
+          "text": "Giraffe markings"
         },
         {
           "id": "answer-02",
-          "text": "Тетрарковы отметины"
+          "text": "Tetrarch spots"
         },
         {
           "id": "answer-03",
-          "text": "Кровавые отметины"
+          "text": "Bloodmarks"
         },
         {
           "id": "answer-04",
-          "text": "Магомедовы пятна"
+          "text": "Mohammed spots"
         },
         {
           "id": "answer-05",
-          "text": "Павлиньи пятна"
+          "text": "Peacock spots"
         },
         {
           "id": "answer-06",
-          "text": "Пятна Массауда"
+          "text": "Massoud spots"
         }
       ],
       "correct_answer_id": "answer-04"
     }
   ],
-  "translation_status": "outdated",
-  "_pending_translation": {
-    "source_revision": "ff8fa391d3beeb774a65e8cd28c3fcaa43df8cd9668cee1bcb1b226859c9cc81",
-    "package": "coat-phenomena-en.json"
+  "translation_status": "current",
+  "_translation_source": {
+    "title": "Мастевые явления",
+    "short_description": "Насколько хорошо вы разбираетесь в мастевых явлениях? Тигровость, жирафовые отметины, мозаицизм и другие редкие особенности внешности лошадей — проверьте, сможете ли вы их распознать.",
+    "intro": "Насколько хорошо вы разбираетесь в мастевых явлениях? Тигровость, жирафовые отметины, мозаицизм и другие редкие особенности внешности лошадей — проверьте, сможете ли вы их распознать.",
+    "questionImagesAlt": "Фотография лошади для определения масти",
+    "difficulty": "high",
+    "cover": "img/covers/Portrait_03_Color-1.webp",
+    "publication_date": "2026-08-06T09:58:00+00:00",
+    "tags": [
+      "horses",
+      "images"
+    ],
+    "questions": [
+      {
+        "id": "question-01",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/01.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-06",
+            "text": "Подласость"
+          }
+        ],
+        "correct_answer_id": "answer-05",
+        "explanation": "Пятна Массауда (в англоязычной традиции — «обратные кровавые отметины», reverse bloodmarks) — это крайне редкие врожденные белые или белесые пятна неправильной формы, возникающие на теле лошади (чаще на плечах или крупе) в результате соматической мутации или как скрытое проявление пегости типа сабино или тобиано. Главное отличие этих уникальных отметин заключается в том, что они проявляются с рождения, не имеют отношения к шрамам, травмам или лишаю, а с возрастом и после линек не исчезают, а могут становиться только контрастнее, больше и ярче на фоне основной, обычно темной или рыжей, масти.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-02",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/02.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кровавые отметины"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Кровавые отметины (англ. Bloody Shoulder или Blood Marks) — это редкое врожденное мастное явление, присущее исключительно лошадям серой масти (чаще всего арабской породы), при котором на плечах, холке или боках взрослого животного красуется крупное, яркое красно-рыжее, бурое или черное пятно. Генетически этот феномен объясняется соматической мутацией, из-за которой ген серой масти «отключается» на определенном участке тела, сохраняя там исходный, первоначальный цвет шерсти (которым жеребенок обладал до поседения). Чтобы безошибочно отличить кровавую отметину, нужно искать чисто-белую или светло-серую «в гречку» лошадь, на теле которой есть контрастная, хаотичная цветная зона, состоящая либо из плотного скопления мелких цветных крупинок, либо из сплошного несмываемого пигментного пятна, которое никогда не седеет с возрастом и не является следствием ранения или травмы.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-03",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/03.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Павлиньи пятна"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Отметины Бёрдкэтчера (англ. Birdcatcher spots) — это редкие, нестандартные мелкие округлые белые пятнышки с четко очерченными краями, которые хаотично появляются на корпусе лошади любой породы (чаще у Чистокровных верховых) из-за неизвестной генетической мутации (предположительно, лейкотрихии), могут спонтанно возникать и исчезать в течение жизни и обычно не затрагивают голову животного. Главное отличие этих отметин от похожей чубарой масти типа «снежные хлопья» заключается в том, что у лошади с отметинами Бёрдкэтчера полностью отсутствуют другие признаки чубарости (у нее нет полосатых копыт, пятнистой кожи на морде и видимой белой склеры глаза), а сами пятна не имеют отношения к травмам и могут собираться в небольшие группы или оставаться одиночными «хлопьями» на базовом темном фоне.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-04",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/04.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Жирафовые отметины (или мраморность, англ. Giraffe markings) — это редчайшее, малоизученное и проявляющееся с возрастом мастное явление, которое выражается в виде характерной белой сетки поверх более темного волоса, покрывающей спину, шею, плечи, бока и круп лошади и напоминающей узор на шкуре жирафа. Чтобы безошибочно отличить жирафовые отметины от чубарой или серой масти, нужно искать четкий сетчатый или паутинообразный рисунок из светлых линий, который медленно проступает на теле взрослого животного любой породы, при этом у лошади полностью отсутствуют чубарые признаки (полосатые копыта, пятнистая кожа) и типичное для серой масти равномерное забеливание «в гречку» или «яблоки», так как генетика этого феномена уникальна, не связана с травмами и иногда является лишь специфическим, локальным сбоем пигментации.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-05",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/05.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Павлиньи пятна"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Чернильные (мастные) пятна (англ. Ink spots или Paw prints) — это небольшие цветные пятнышки в цвет основного окраса лошади, которые располагаются строго поверх белых отметин или пежин (чаще всего у пегостей типа тобиано и фрейм оверо) и имеют четкие либо слегка размытые края, иногда окруженные темной каймой. Главное отличие чернильных пятен от чубарой масти или обычного крапа заключается в том, что они находятся исключительно внутри белых полей пегости, дублируя базовый пигмент лошади, а если такое пятно заходит на венчик ноги, то оно дает локальные полосы на копыте, при этом у животного полностью отсутствуют другие системные признаки чубарости (такие как сплошь полосатые копыта, розовая пятнистая кожа на морде или видимая белая склера глаза).",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-06",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/06.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Павлиньи пятна"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Тетрарковы отметины (англ. Tetrarch spots или Chubari spots) — это уникальные врожденные овальные или круглые белые пятна размером примерно с яйцо и с размытыми краями, которые встречаются исключительно у серых лошадей любой породы и наиболее ярко проступают на фоне темно-серой или серой в яблоках шерсти. Главное отличие тетрарковых отметин заключается в том, что они появляются с рождения, не меняют свой размер и полностью исчезают по мере взросления лошади, когда животное окончательно светлеет и становится светло-серым, что отличает их от похожих стабильных белых отметин (например, Бёрдкэтчера) или шрамов. Кроме того, они не связаны с чубарой мастью, могут сливаться в крупные асимметричные зоны и передаются по наследству как редкая фенотипическая особенность процесса раннего поседения.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-07",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/07.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Жирафовые отметины (или мраморность, англ. Giraffe markings) — это редчайшее, малоизученное и проявляющееся с возрастом мастное явление, которое выражается в виде характерной белой сетки поверх более темного волоса, покрывающей спину, шею, плечи, бока и круп лошади и напоминающей узор на шкуре жирафа. Чтобы безошибочно отличить жирафовые отметины от чубарой или серой масти, нужно искать четкий сетчатый или паутинообразный рисунок из светлых линий, который медленно проступает на теле взрослого животного любой породы, при этом у лошади полностью отсутствуют чубарые признаки (полосатые копыта, пятнистая кожа) и типичное для серой масти равномерное забеливание «в гречку» или «яблоки», так как генетика этого феномена уникальна, не связана с травмами и иногда является лишь специфическим, локальным сбоем пигментации.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-08",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/08.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Павлиньи пятнышки (или «павлиньи глазки», англ. Peacock spots) — это условное название особого типа цветных пятен у лошадей чубарой масти, вокруг которых образуется характерная светлая кайма из белого волоса или зона, где белый и темный волос равномерно перемешаны, напоминая по форме «глазки» на перьях павлиньего хвоста. Главное отличие павлиньих пятен от обычного чубарого крапа или чернильных пятен заключается в том, что они встречаются строго у чубарых лошадей и наиболее отчетливо видны на «чалом» (смешанном) фоне корпуса, при этом кайма может быть разной ширины, а само явление не связано со шрамами или болезнями кожи, не является отдельным типом масти и представляет собой редкую, малоизученную генетическую особенность распределения пигмента внутри чубарого комплекса.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-09",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/09.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Отметины Бёрдкэтчера (англ. Birdcatcher spots) — это редкие, нестандартные мелкие округлые белые пятнышки с четко очерченными краями, которые хаотично появляются на корпусе лошади любой породы (чаще у Чистокровных верховых) из-за неизвестной генетической мутации (предположительно, лейкотрихии), могут спонтанно возникать и исчезать в течение жизни и обычно не затрагивают голову животного. Главное отличие этих отметин от похожей чубарой масти типа «снежные хлопья» заключается в том, что у лошади с отметинами Бёрдкэтчера полностью отсутствуют другие признаки чубарости (у нее нет полосатых копыт, пятнистой кожи на морде и видимой белой склеры глаза), а сами пятна не имеют отношения к травмам и могут собираться в небольшие группы или оставаться одиночными «хлопьями» на базовом темном фоне.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-10",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/10.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рабикано"
+          },
+          {
+            "id": "answer-03",
+            "text": "Тигровость"
+          },
+          {
+            "id": "answer-04",
+            "text": "Бронзинг"
+          },
+          {
+            "id": "answer-05",
+            "text": "Мозаицизм"
+          },
+          {
+            "id": "answer-06",
+            "text": "Тетрарковы отметины"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Тигровость (англ. Brindle) — это редчайшая пигментная аномалия, не являющаяся самостоятельной мастью, которая выражается в виде неровных вертикальных полос разной ширины и интенсивности, проступающих поверх любого базового окраса лошади, мула или осла. Главное отличие тигровости от других отметин заключается в том, что ее полосы выделяются не только цветом, но и уникальной текстурой шерсти, ощутимой тактильно, при этом природа феномена разделяется на три независимых типа: наследуемую мутацию в гене Brindle1 на Х-хромосоме (проявляется у кобыл, а у жеребцов без полос дает жидкие гриву и хвост), спонтанный нетипичный химеризм из-за слияния двух эмбрионов, а также локальные частные сбои в генах саврасости, чалости или серой масти, которые важно не путать с обычными «дикими» зеброидными полосами на ногах.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-11",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/11.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Чернильные (мастные) пятна (англ. Ink spots или Paw prints) — это небольшие цветные пятнышки в цвет основного окраса лошади, которые располагаются строго поверх белых отметин или пежин (чаще всего у пегостей типа тобиано и фрейм оверо) и имеют четкие либо слегка размытые края, иногда окруженные темной каймой. Главное отличие чернильных пятен от чубарой масти или обычного крапа заключается в том, что они находятся исключительно внутри белых полей пегости, дублируя базовый пигмент лошади, а если такое пятно заходит на венчик ноги, то оно дает локальные полосы на копыте, при этом у животного полностью отсутствуют другие системные признаки чубарости (такие как сплошь полосатые копыта, розовая пятнистая кожа на морде или видимая белая склера глаза).",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-12",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/12.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-06",
+            "text": "Павлиньи пятна"
+          }
+        ],
+        "correct_answer_id": "answer-05",
+        "explanation": "Пятна Массауда (в англоязычной традиции — «обратные кровавые отметины», reverse bloodmarks) — это крайне редкие врожденные белые или белесые пятна неправильной формы, возникающие на теле лошади (чаще на плечах или крупе) в результате соматической мутации или как скрытое проявление пегости типа сабино или тобиано. Главное отличие этих уникальных отметин заключается в том, что они проявляются с рождения, не имеют отношения к шрамам, травмам или лишаю, а с возрастом и после линек не исчезают, а могут становиться только контрастнее, больше и ярче на фоне основной, обычно темной или рыжей, масти.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-13",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/13.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кровавые отметины"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Кровавые отметины (англ. Bloody Shoulder или Blood Marks) — это редкое врожденное мастное явление, присущее исключительно лошадям серой масти (чаще всего арабской породы), при котором на плечах, холке или боках взрослого животного красуется крупное, яркое красно-рыжее, бурое или черное пятно. Генетически этот феномен объясняется соматической мутацией, из-за которой ген серой масти «отключается» на определенном участке тела, сохраняя там исходный, первоначальный цвет шерсти (которым жеребенок обладал до поседения). Чтобы безошибочно отличить кровавую отметину, нужно искать чисто-белую или светло-серую «в гречку» лошадь, на теле которой есть контрастная, хаотичная цветная зона, состоящая либо из плотного скопления мелких цветных крупинок, либо из сплошного несмываемого пигментного пятна, которое никогда не седеет с возрастом и не является следствием ранения или травмы.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-14",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/14.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рабикано"
+          },
+          {
+            "id": "answer-03",
+            "text": "Тигровость"
+          },
+          {
+            "id": "answer-04",
+            "text": "Бронзинг"
+          },
+          {
+            "id": "answer-05",
+            "text": "Мозаицизм"
+          },
+          {
+            "id": "answer-06",
+            "text": "Тетрарковы отметины"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Тигровость (англ. Brindle) — это редчайшая пигментная аномалия, не являющаяся самостоятельной мастью, которая выражается в виде неровных вертикальных полос разной ширины и интенсивности, проступающих поверх любого базового окраса лошади, мула или осла. Главное отличие тигровости от других отметин заключается в том, что ее полосы выделяются не только цветом, но и уникальной текстурой шерсти, ощутимой тактильно, при этом природа феномена разделяется на три независимых типа: наследуемую мутацию в гене Brindle1 на Х-хромосоме (проявляется у кобыл, а у жеребцов без полос дает жидкие гриву и хвост), спонтанный нетипичный химеризм из-за слияния двух эмбрионов, а также локальные частные сбои в генах саврасости, чалости или серой масти, которые важно не путать с обычными «дикими» зеброидными полосами на ногах.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-15",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/15.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-06",
+            "text": "Тетрарковы отметины"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Кукурузные пятна (англ. Corn spots) — это уникальное и частое явление, характерное исключительно для чалой масти, которое представляет собой небольшие асимметричные темные пятна в цвет базовой основы, по форме напоминающие зерна индейской кукурузы. Главное отличие кукурузных пятен от любых других отметин или «возвратных яблок» заключается в том, что они состоят из чистого цветного волоса вообще без примеси белых волосков и появляются на корпусе чалой лошади в местах бывших мелких царапин, укусов или потертостей, где поврежденная кожа регенерирует шерсть первоначального темного окраса.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-16",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/16.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рабикано"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рабикано"
+          },
+          {
+            "id": "answer-04",
+            "text": "Бронзинг"
+          },
+          {
+            "id": "answer-05",
+            "text": "Мозаицизм"
+          },
+          {
+            "id": "answer-06",
+            "text": "Тетрарковы отметины"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Подласость (англ. Pangaré или Mealy) — это распространенное мастное явление, не являющееся самостоятельной мастью, которое выражается в характерном побелении или бледно-желтом осветлении шерсти в паху, под локтями, на животе, груди, а также вокруг глаз («очки») и ноздрей («морда в толокне») у лошадей на любой основе с рыжим пигментом (гнедая, рыжая, игреневая, саврасая). Главное отличие подласости от других типов осветления или пегости заключается в том, что она никогда не встречается на вороной масти, так как гипотетический ген Pa+ разрушает только рыжий пигмент, а сами зоны подпалин располагаются строго в анатомических низах и естественных складках тела, плавно переходя в основной цвет и иногда затрагивая защитный волос гривы и хвоста.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-17",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/17.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-06",
+            "text": "Подласость"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Феномен Кэтч Э Бёрда (англ. Catch A Bird anomaly) — это редчайшее аномальное мастевое явление, названное в честь чистокровного верхового жеребца из Австралии, которое выражается в появлении хаотичных неровных вертикальных полос исключительно белого цвета («обратное тигровое окрашивание» или reverse brindling) поверх любой базовой темной масти. Главное отличие этого феномена от обычной тигровости заключается в том, что его полосы никогда не бывают темными или цветными, а состоят строго из примеси белого волоса, при этом явление генетически уникально: сам феномен полосатости потомству напрямую не передается, однако его носители неожиданно рождают жеребят классической чалой масти (что крайне нетипично для чистокровной верховой породы), из-за чего ученые считают данный узор редчайшей формой мозаицизма или спонтанной мутацией гена чалости (Rn) с нестандартным визуальным проявлением.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-18",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/18.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-06",
+            "text": "Тетрарковы отметины"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Павлиньи пятнышки (или «павлиньи глазки», англ. Peacock spots) — это условное название особого типа цветных пятен у лошадей чубарой масти, вокруг которых образуется характерная светлая кайма из белого волоса или зона, где белый и темный волос равномерно перемешаны, напоминая по форме «глазки» на перьях павлиньего хвоста. Главное отличие павлиньих пятен от обычного чубарого крапа или чернильных пятен заключается в том, что они встречаются строго у чубарых лошадей и наиболее отчетливо видны на «чалом» (смешанном) фоне корпуса, при этом кайма может быть разной ширины, а само явление не связано со шрамами или болезнями кожи, не является отдельным типом масти и представляет собой редкую, малоизученную генетическую особенность распределения пигмента внутри чубарого комплекса.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-19",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/19.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-05",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Жирафовые отметины (или мраморность, англ. Giraffe markings) — это редчайшее, малоизученное и проявляющееся с возрастом мастное явление, которое выражается в виде характерной белой сетки поверх более темного волоса, покрывающей спину, шею, плечи, бока и круп лошади и напоминающей узор на шкуре жирафа. Чтобы безошибочно отличить жирафовые отметины от чубарой или серой масти, нужно искать четкий сетчатый или паутинообразный рисунок из светлых линий, который медленно проступает на теле взрослого животного любой породы, при этом у лошади полностью отсутствуют чубарые признаки (полосатые копыта, пятнистая кожа) и типичное для серой масти равномерное забеливание «в гречку» или «яблоки», так как генетика этого феномена уникальна, не связана с травмами и иногда является лишь специфическим, локальным сбоем пигментации.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-20",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/20.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Барсучьи отметины"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Барсучья отметина (англ. Badger face) — это эффектная разновидность нестандартных отметин на голове лошади, которая представляет собой крупное темное пигментное пятно в цвет основной масти, расположенное прямо поверх широкой белой проточины или лысины и визуально напоминающее характерный окрас морды барсука. Главное отличие барсучьей отметины от обычных темных зон на морде заключается в том, что она всегда указывает на скрытое наличие пегости типа сабино или сплешед уайт, из-за чего у таких лошадей часто бывают «нереально» пронзительные голубые глаза, а сам узор выглядит как «отметина наоборот» — словно на белоснежную морду животного хаотично наложили широкие цветные полосы или полностью темную маску, оставляющую белыми лишь боковые части щек и ганашей.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-21",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/21.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-05",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Тетрарковы отметины (англ. Tetrarch spots или Chubari spots) — это уникальные врожденные овальные или круглые белые пятна размером примерно с яйцо и с размытыми краями, которые встречаются исключительно у серых лошадей любой породы и наиболее ярко проступают на фоне темно-серой или серой в яблоках шерсти. Главное отличие тетрарковых отметин заключается в том, что они появляются с рождения, не меняют свой размер и полностью исчезают по мере взросления лошади, когда животное окончательно светлеет и становится светло-серым, что отличает их от похожих стабильных белых отметин (например, Бёрдкэтчера) или шрамов. Кроме того, они не связаны с чубарой мастью, могут сливаться в крупные асимметричные зоны и передаются по наследству как редкая фенотипическая особенность процесса раннего поседения.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-22",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/22.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-05",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Тетрарковы отметины (англ. Tetrarch spots или Chubari spots) — это уникальные врожденные овальные или круглые белые пятна размером примерно с яйцо и с размытыми краями, которые встречаются исключительно у серых лошадей любой породы и наиболее ярко проступают на фоне темно-серой или серой в яблоках шерсти. Главное отличие тетрарковых отметин заключается в том, что они появляются с рождения, не меняют свой размер и полностью исчезают по мере взросления лошади, когда животное окончательно светлеет и становится светло-серым, что отличает их от похожих стабильных белых отметин (например, Бёрдкэтчера) или шрамов. Кроме того, они не связаны с чубарой мастью, могут сливаться в крупные асимметричные зоны и передаются по наследству как редкая фенотипическая особенность процесса раннего поседения.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-23",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/23.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мозаицизм"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кровавые отметины"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Мозаицизм у лошади (англ. Mosaicism) — это редкое генетическое явление, при котором организм животного развивается из одной-единственной оплодотворенной яйцеклетки, но из-за спонтанной (соматической) мутации на ранней стадии деления эмбриона приобретает две или более генетически различающиеся группы клеток. Визуально пигментный мозаицизм проявляется в виде хаотичных, асимметричных цветных пятен или полос, которые резко контрастируют с основным окрасом (например, вороные зоны на рыжем корпусе). Главное отличие мозаицизма от очень похожего химеризма заключается в том, что мозаичная лошадь изначально была одним эмбрионом с локальным сбоем ДНК, а не слиянием двух разных близнецов, при этом мозаичные пятна никогда не передаются по наследству потомству. Кроме того, такие отметины легко отличить от пегости или чубарости по полному отсутствию их системных признаков (вроде сорочьих глаз или полосатых копыт) и по уникальным границам пятен, которые часто следуют так называемым эмбриональным линиям Блашко.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-24",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/24.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-05",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Магомедовы пятна (англ. Prophet's thumbprints или Mohammad's spots) — это редкие врожденные небольшие овальные пятнышки бурого или черного цвета, которые хаотично располагаются на крупе и бедрах лошади и, согласно арабским поверьям, приносят владельцу счастье. Главное отличие Магомедовых пятен от чубарого крапа заключается в том, что они проявляются преимущественно на светлом фоне рыжей или соловой масти и полностью лишены чубарых признаков (у лошади нет полосатых копыт, белой склеры или розовой кожи), встречаясь даже в тех породах, где чубарая масть генетически отсутствует (например, у арабских чистокровных лошадей). Эти отметины не связаны со шрамами, могут сливаться в более крупные пигментные зоны и сохраняют свой контрастный темный цвет неизменным на протяжении всей жизни животного.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-25",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/25.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-05",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Жирафовые отметины (или мраморность, англ. Giraffe markings) — это редчайшее, малоизученное и проявляющееся с возрастом мастное явление, которое выражается в виде характерной белой сетки поверх более темного волоса, покрывающей спину, шею, плечи, бока и круп лошади и напоминающей узор на шкуре жирафа. Чтобы безошибочно отличить жирафовые отметины от чубарой или серой масти, нужно искать четкий сетчатый или паутинообразный рисунок из светлых линий, который медленно проступает на теле взрослого животного любой породы, при этом у лошади полностью отсутствуют чубарые признаки (полосатые копыта, пятнистая кожа) и типичное для серой масти равномерное забеливание «в гречку» или «яблоки», так как генетика этого феномена уникальна, не связана с травмами и иногда является лишь специфическим, локальным сбоем пигментации.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-26",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/26.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мозаицизм"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кровавые отметины"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Мозаицизм у лошади (англ. Mosaicism) — это редкое генетическое явление, при котором организм животного развивается из одной-единственной оплодотворенной яйцеклетки, но из-за спонтанной (соматической) мутации на ранней стадии деления эмбриона приобретает две или более генетически различающиеся группы клеток. Визуально пигментный мозаицизм проявляется в виде хаотичных, асимметричных цветных пятен или полос, которые резко контрастируют с основным окрасом (например, вороные зоны на рыжем корпусе). Главное отличие мозаицизма от очень похожего химеризма заключается в том, что мозаичная лошадь изначально была одним эмбрионом с локальным сбоем ДНК, а не слиянием двух разных близнецов, при этом мозаичные пятна никогда не передаются по наследству потомству. Кроме того, такие отметины легко отличить от пегости или чубарости по полному отсутствию их системных признаков (вроде сорочьих глаз или полосатых копыт) и по уникальным границам пятен, которые часто следуют так называемым эмбриональным линиям Блашко.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-27",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/27.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мозаицизм"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кровавые отметины"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Тетрарковы отметины (англ. Tetrarch spots или Chubari spots) — это уникальные врожденные овальные или круглые белые пятна размером примерно с яйцо и с размытыми краями, которые встречаются исключительно у серых лошадей любой породы и наиболее ярко проступают на фоне темно-серой или серой в яблоках шерсти. Главное отличие тетрарковых отметин заключается в том, что они появляются с рождения, не меняют свой размер и полностью исчезают по мере взросления лошади, когда животное окончательно светлеет и становится светло-серым, что отличает их от похожих стабильных белых отметин (например, Бёрдкэтчера) или шрамов. Кроме того, они не связаны с чубарой мастью, могут сливаться в крупные асимметричные зоны и передаются по наследству как редкая фенотипическая особенность процесса раннего поседения.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-28",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/28.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мозаицизм"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-06",
+            "text": "Просто пегая лошадь, без мастевых явлений"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Мозаицизм у лошади (англ. Mosaicism) — это редкое генетическое явление, при котором организм животного развивается из одной-единственной оплодотворенной яйцеклетки, но из-за спонтанной (соматической) мутации на ранней стадии деления эмбриона приобретает две или более генетически различающиеся группы клеток. Визуально пигментный мозаицизм проявляется в виде хаотичных, асимметричных цветных пятен или полос, которые резко контрастируют с основным окрасом (например, вороные зоны на рыжем корпусе). Главное отличие мозаицизма от очень похожего химеризма заключается в том, что мозаичная лошадь изначально была одним эмбрионом с локальным сбоем ДНК, а не слиянием двух разных близнецов, при этом мозаичные пятна никогда не передаются по наследству потомству. Кроме того, такие отметины легко отличить от пегости или чубарости по полному отсутствию их системных признаков (вроде сорочьих глаз или полосатых копыт) и по уникальным границам пятен, которые часто следуют так называемым эмбриональным линиям Блашко.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-29",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/29.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-06",
+            "text": "Подласость"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Феномен Кэтч Э Бёрда (англ. Catch A Bird anomaly) — это редчайшее аномальное мастевое явление, названное в честь чистокровного верхового жеребца из Австралии, которое выражается в появлении хаотичных неровных вертикальных полос исключительно белого цвета («обратное тигровое окрашивание» или reverse brindling) поверх любой базовой темной масти. Главное отличие этого феномена от обычной тигровости заключается в том, что его полосы никогда не бывают темными или цветными, а состоят строго из примеси белого волоса, при этом явление генетически уникально: сам феномен полосатости потомству напрямую не передается, однако его носители неожиданно рождают жеребят классической чалой масти (что крайне нетипично для чистокровной верховой породы), из-за чего ученые считают данный узор редчайшей формой мозаицизма или спонтанной мутацией гена чалости (Rn) с нестандартным визуальным проявлением.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-30",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/30.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Барсучьи отметины"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Магомедовы пятна"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Барсучья отметина (англ. Badger face) — это эффектная разновидность нестандартных отметин на голове лошади, которая представляет собой крупное темное пигментное пятно в цвет основной масти, расположенное прямо поверх широкой белой проточины или лысины и визуально напоминающее характерный окрас морды барсука. Главное отличие барсучьей отметины от обычных темных зон на морде заключается в том, что она всегда указывает на скрытое наличие пегости типа сабино или сплешед уайт, из-за чего у таких лошадей часто бывают «нереально» пронзительные голубые глаза, а сам узор выглядит как «отметина наоборот» — словно на белоснежную морду животного хаотично наложили широкие цветные полосы или полностью темную маску, оставляющую белыми лишь боковые части щек и ганашей.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-31",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/31.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-06",
+            "text": "Подласость"
+          }
+        ],
+        "correct_answer_id": "answer-05",
+        "explanation": "Пятна Массауда (в англоязычной традиции — «обратные кровавые отметины», reverse bloodmarks) — это крайне редкие врожденные белые или белесые пятна неправильной формы, возникающие на теле лошади (чаще на плечах или крупе) в результате соматической мутации или как скрытое проявление пегости типа сабино или тобиано. Главное отличие этих уникальных отметин заключается в том, что они проявляются с рождения, не имеют отношения к шрамам, травмам или лишаю, а с возрастом и после линек не исчезают, а могут становиться только контрастнее, больше и ярче на фоне основной, обычно темной или рыжей, масти.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-32",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/32.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Отметины Бёрдкэтчера"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Павлиньи пятна"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Отметины Бёрдкэтчера (англ. Birdcatcher spots) — это редкие, нестандартные мелкие округлые белые пятнышки с четко очерченными краями, которые хаотично появляются на корпусе лошади любой породы (чаще у Чистокровных верховых) из-за неизвестной генетической мутации (предположительно, лейкотрихии), могут спонтанно возникать и исчезать в течение жизни и обычно не затрагивают голову животного. Главное отличие этих отметин от похожей чубарой масти типа «снежные хлопья» заключается в том, что у лошади с отметинами Бёрдкэтчера полностью отсутствуют другие признаки чубарости (у нее нет полосатых копыт, пятнистой кожи на морде и видимой белой склеры глаза), а сами пятна не имеют отношения к травмам и могут собираться в небольшие группы или оставаться одиночными «хлопьями» на базовом темном фоне.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-33",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/33.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кровавые отметины"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Кровавые отметины (англ. Bloody Shoulder или Blood Marks) — это редкое врожденное мастное явление, присущее исключительно лошадям серой масти (чаще всего арабской породы), при котором на плечах, холке или боках взрослого животного красуется крупное, яркое красно-рыжее, бурое или черное пятно. Генетически этот феномен объясняется соматической мутацией, из-за которой ген серой масти «отключается» на определенном участке тела, сохраняя там исходный, первоначальный цвет шерсти (которым жеребенок обладал до поседения). Чтобы безошибочно отличить кровавую отметину, нужно искать чисто-белую или светло-серую «в гречку» лошадь, на теле которой есть контрастная, хаотичная цветная зона, состоящая либо из плотного скопления мелких цветных крупинок, либо из сплошного несмываемого пигментного пятна, которое никогда не седеет с возрастом и не является следствием ранения или травмы.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-34",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/34.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-05",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-06",
+            "text": "Рабикано"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Кукурузные пятна (англ. Corn spots) — это уникальное и частое явление, характерное исключительно для чалой масти, которое представляет собой небольшие асимметричные темные пятна в цвет базовой основы, по форме напоминающие зерна индейской кукурузы. Главное отличие кукурузных пятен от любых других отметин или «возвратных яблок» заключается в том, что они состоят из чистого цветного волоса вообще без примеси белых волосков и появляются на корпусе чалой лошади в местах бывших мелких царапин, укусов или потертостей, где поврежденная кожа регенерирует шерсть первоначального темного окраса.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-35",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/35.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-05",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-06",
+            "text": "Рабикано"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Рабикано (или «белый тикинг», англ. Rabicano) — это наследуемое мастевое явление, характеризующееся локальной примесью белого волоса, который распространяется снизу вверх от паха вдоль ребер в виде тонких вертикальных полос, а также обязательно присутствует у основания хвоста в виде поперечных полосок, называемых «скунсовым хвостом» (skunk tail). Главное отличие рабикано от обычной чалой масти заключается в строгой зональности и направлении рисунка: чалость покрывает корпус равномерно сверху вниз, оставляя голову и ноги темными, в то время как рабикано всегда идет от паха и живота вверх в виде рваного узора, никогда не затрагивает голову лошади и не имеет отношения к шрамам, являясь самостоятельным генетическим признаком «белохвостости».",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-36",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/36.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мозаицизм"
+          },
+          {
+            "id": "answer-05",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кровавые отметины"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Мозаицизм у лошади (англ. Mosaicism) — это редкое генетическое явление, при котором организм животного развивается из одной-единственной оплодотворенной яйцеклетки, но из-за спонтанной (соматической) мутации на ранней стадии деления эмбриона приобретает две или более генетически различающиеся группы клеток. Визуально пигментный мозаицизм проявляется в виде хаотичных, асимметричных цветных пятен или полос, которые резко контрастируют с основным окрасом (например, вороные зоны на рыжем корпусе). Главное отличие мозаицизма от очень похожего химеризма заключается в том, что мозаичная лошадь изначально была одним эмбрионом с локальным сбоем ДНК, а не слиянием двух разных близнецов, при этом мозаичные пятна никогда не передаются по наследству потомству. Кроме того, такие отметины легко отличить от пегости или чубарости по полному отсутствию их системных признаков (вроде сорочьих глаз или полосатых копыт) и по уникальным границам пятен, которые часто следуют так называемым эмбриональным линиям Блашко.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-37",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/37.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-05",
+            "text": "Подласость"
+          },
+          {
+            "id": "answer-06",
+            "text": "Рабикано"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Кукурузные пятна (англ. Corn spots) — это уникальное и частое явление, характерное исключительно для чалой масти, которое представляет собой небольшие асимметричные темные пятна в цвет базовой основы, по форме напоминающие зерна индейской кукурузы. Главное отличие кукурузных пятен от любых других отметин или «возвратных яблок» заключается в том, что они состоят из чистого цветного волоса вообще без примеси белых волосков и появляются на корпусе чалой лошади в местах бывших мелких царапин, укусов или потертостей, где поврежденная кожа регенерирует шерсть первоначального темного окраса.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-38",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/38.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кэтч Э Бёрд"
+          },
+          {
+            "id": "answer-02",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Пятна Массауда"
+          },
+          {
+            "id": "answer-06",
+            "text": "Подласость"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Феномен Кэтч Э Бёрда (англ. Catch A Bird anomaly) — это редчайшее аномальное мастевое явление, названное в честь чистокровного верхового жеребца из Австралии, которое выражается в появлении хаотичных неровных вертикальных полос исключительно белого цвета («обратное тигровое окрашивание» или reverse brindling) поверх любой базовой темной масти. Главное отличие этого феномена от обычной тигровости заключается в том, что его полосы никогда не бывают темными или цветными, а состоят строго из примеси белого волоса, при этом явление генетически уникально: сам феномен полосатости потомству напрямую не передается, однако его носители неожиданно рождают жеребят классической чалой масти (что крайне нетипично для чистокровной верховой породы), из-за чего ученые считают данный узор редчайшей формой мозаицизма или спонтанной мутацией гена чалости (Rn) с нестандартным визуальным проявлением.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-39",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/39.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-02",
+            "text": "Кукурузные пятна"
+          },
+          {
+            "id": "answer-03",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-04",
+            "text": "Чернильные пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кровавые отметины"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Кровавые отметины (англ. Bloody Shoulder или Blood Marks) — это редкое врожденное мастное явление, присущее исключительно лошадям серой масти (чаще всего арабской породы), при котором на плечах, холке или боках взрослого животного красуется крупное, яркое красно-рыжее, бурое или черное пятно. Генетически этот феномен объясняется соматической мутацией, из-за которой ген серой масти «отключается» на определенном участке тела, сохраняя там исходный, первоначальный цвет шерсти (которым жеребенок обладал до поседения). Чтобы безошибочно отличить кровавую отметину, нужно искать чисто-белую или светло-серую «в гречку» лошадь, на теле которой есть контрастная, хаотичная цветная зона, состоящая либо из плотного скопления мелких цветных крупинок, либо из сплошного несмываемого пигментного пятна, которое никогда не седеет с возрастом и не является следствием ранения или травмы.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-40",
+        "question": "Что это за мастевое явление?",
+        "image": "img/quiz/coat-phenomena/40.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Жирафовые отметины"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тетрарковы отметины"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кровавые отметины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Магомедовы пятна"
+          },
+          {
+            "id": "answer-05",
+            "text": "Павлиньи пятна"
+          },
+          {
+            "id": "answer-06",
+            "text": "Пятна Массауда"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Магомедовы пятна (англ. Prophet's thumbprints или Mohammad's spots) — это редкие врожденные небольшие овальные пятнышки бурого или черного цвета, которые хаотично располагаются на крупе и бедрах лошади. Согласно арабским поверьям, они приносят владельцу счастье. Главное отличие Магомедовых пятен от чубарого крапа заключается в том, что они проявляются преимущественно на светлом фоне рыжей или соловой масти и полностью лишены чубарых признаков (у лошади нет полосатых копыт, белой склеры или розовой кожи), встречаясь даже в тех породах, где чубарая масть генетически отсутствует (например, у арабских чистокровных лошадей). Эти отметины не связаны со шрамами, могут сливаться в более крупные пигментные зоны и сохраняют свой контрастный темный цвет неизменным на протяжении всей жизни животного.",
+        "image_author": "Неизвестен"
+      }
+    ]
   },
-  "_translation_source": {}
+  "source_content_hash": "ff8fa391d3beeb774a65e8cd28c3fcaa43df8cd9668cee1bcb1b226859c9cc81"
 }
