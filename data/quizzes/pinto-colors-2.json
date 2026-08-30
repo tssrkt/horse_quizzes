@@ -1213,5 +1213,6 @@
     }
   ],
   "questionImagesAlt": "Фотография лошади для определения масти",
-  "previous_quiz": "pinto-colors"
+  "previous_quiz": "pinto-colors",
+  "english_quiz": "pinto-colors-2-en"
 }
