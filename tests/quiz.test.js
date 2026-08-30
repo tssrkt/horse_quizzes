@@ -248,6 +248,24 @@ assert.equal(core.resultRecommendation(100), 'Вы правильно ответ
 for (const percent of [0, 49, 50, 74, 75, 90, 99, 100]) assert.equal(typeof core.resultRecommendation(percent), 'string');
 assert.doesNotMatch(core.resultRecommendation(90), /^Отличный результат! Хороший результат!/);
 
+const quizSource = fs.readFileSync(path.join(__dirname, '../js/quiz.js'), 'utf8');
+const englishRecommendation = quizSource.split('const recommendation = englishSite ?', 2)[1].split(': core.resultRecommendation(percent);', 1)[0];
+assert.match(englishRecommendation, /^ \(percent === 100 \?/);
+assert.match(englishRecommendation, /: percent >= 75 \?/);
+assert.match(englishRecommendation, /: percent >= 50 \?/);
+for (const approved of [
+  'Well, some of the questions turned out to be quite challenging — and that’s a great reason to learn more! If you’d like to explore the topic in greater depth, take a look at the collection of articles about horses and then try the quiz again. Chances are, your result will pleasantly surprise you next time.',
+  'Not a bad result! You already know quite a lot about horses, although some of the questions still proved challenging. If you’d like to explore the topic in greater depth, take a look at the collection of articles and then try the quiz again. Chances are, your result will be even better next time.',
+  'Great result! You know the subject well and are already very close to perfection. The collection of articles about horses contains plenty of other interesting facts that can help fill in the remaining gaps and perhaps help you answer every question correctly next time.',
+  'You answered every question correctly and clearly know this subject extremely well. You’re not so easy to fool! And there’s sure to be plenty more interesting information waiting for you in the collection of articles about horses.',
+]) assert.equal(quizSource.includes(approved), true);
+for (const obsolete of [
+  'Some questions were challenging. Review the explanations and give it another try.',
+  'Good start. Review the explanations and try again.',
+  'Great result! You know this topic well.',
+  'Perfect score! You have an excellent command of this topic.',
+]) assert.equal(quizSource.includes(obsolete), false);
+
 const saved = JSON.stringify(moved.state);
 const restored = core.restoreState(saved, quiz);
 assert.equal(restored.current_index, 1); assert.equal(restored.answers['question-01'].answer_id, 'a-02', '14: сохранение восстановлено');

@@ -22,7 +22,10 @@ def run():
                 permissions=["clipboard-read", "clipboard-write"],
             )
             page = desktop_context.new_page()
-            desktop_paths = ("/", "/quizzes.html", "/contacts.html", "/en/", "/en/quizzes.html", "/v/horse-breeds/", "/en/v/horse-breeds/")
+            not_found_path = ROOT / "_site" / "404.html"
+            page.route(f"{BASE}/abracadabra", lambda route: route.fulfill(path=not_found_path, content_type="text/html"))
+            page.route(f"{BASE}/en/abracadabra", lambda route: route.fulfill(path=not_found_path, content_type="text/html"))
+            desktop_paths = ("/", "/quizzes.html", "/contacts.html", "/en/", "/en/quizzes.html", "/v/horse-breeds/", "/en/v/horse-breeds/", "/abracadabra", "/en/abracadabra")
             header_heights = []
             for path in desktop_paths:
                 page.goto(f"{BASE}{path}")
@@ -32,6 +35,17 @@ def run():
                 assert max(centers) - min(centers) <= 2, (path, centers)
                 header_heights.append(page.locator(".site-header").bounding_box()["height"])
             assert max(header_heights) - min(header_heights) <= 1
+            page.goto(f"{BASE}/abracadabra")
+            russian_navigation = page.get_by_role("navigation", name="Основная навигация").locator("a").all_inner_texts()
+            assert russian_navigation == ["ГЛАВНАЯ", "ВИКТОРИНЫ", "КОНТАКТЫ"], russian_navigation
+            assert page.get_by_role("link", name="RU", exact=True).get_attribute("aria-current") == "page"
+            assert page.get_by_role("link", name="EN", exact=True).get_attribute("href") == "/en/"
+            page.goto(f"{BASE}/en/abracadabra")
+            assert page.get_by_role("navigation", name="Main navigation").locator("a").all_inner_texts() == ["HOME", "QUIZZES", "CONTACTS"]
+            assert page.get_by_role("navigation", name="Main navigation").locator("a").evaluate_all("links => links.map(link => link.getAttribute('href'))") == ["/en/", "/en/quizzes.html", "/en/contacts.html"]
+            assert page.get_by_role("link", name="EN", exact=True).get_attribute("aria-current") == "page"
+            assert page.get_by_role("link", name="RU", exact=True).get_attribute("href") == "/"
+            assert page.get_by_role("link", name="Horse Quizzes — Home").get_attribute("href") == "/en/"
             page.goto(f"{BASE}/en/")
             assert page.locator("html").get_attribute("lang") == "en"
             assert page.get_by_role("link", name="EN", exact=True).is_visible()
@@ -55,6 +69,7 @@ def run():
             page.get_by_role("button", name="Start quiz").click()
             page.get_by_text("Question 1 of", exact=False).wait_for()
             mobile = browser.new_page(viewport={"width": 390, "height": 844})
+            mobile.route(f"{BASE}/en/abracadabra", lambda route: route.fulfill(path=not_found_path, content_type="text/html"))
             for width in (768, 520, 390):
                 mobile.set_viewport_size({"width": width, "height": 844})
                 mobile.goto(f"{BASE}/en/")
@@ -64,6 +79,10 @@ def run():
                 assert mobile.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
                 mobile.goto(f"{BASE}/en/contacts.html")
                 assert mobile.locator('[data-copy="4100116004998786"]').is_visible()
+                assert mobile.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+                mobile.goto(f"{BASE}/en/abracadabra")
+                assert mobile.get_by_role("navigation", name="Language").is_visible()
+                assert mobile.get_by_role("button", name="Open menu").is_visible()
                 assert mobile.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
             mobile.get_by_role("button", name="Open menu").click()
             assert mobile.get_by_role("button", name="Close menu").get_attribute("aria-expanded") == "true"

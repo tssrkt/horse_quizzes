@@ -27,9 +27,9 @@
   <link rel="apple-touch-icon" href="{{SITE_PATH}}img/icons/apple-touch-icon.png">
 
   <link rel="stylesheet" href="{{SITE_PATH}}css/style.css">
-  <script src="{{SITE_PATH}}js/common.js" defer></script>
   <script src="{{SITE_PATH}}js/site-config.js" defer></script>
   <script src="{{SITE_PATH}}js/not-found.js" defer></script>
+  <script src="{{SITE_PATH}}js/common.js" defer></script>
 </head>
 
 <body class="error-page">
@@ -38,6 +38,12 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="{{SITE_PATH}}index.html" aria-label="Quiz — главная"><img class="brand-logo" src="{{SITE_PATH}}img/icons/logo-60x180.png" alt="" width="180" height="60"></a>
+
+      <nav class="language-switch" aria-label="Выбор языка">
+        <a href="{{SITE_PATH}}" aria-current="page">RU</a>
+        <span aria-hidden="true">|</span>
+        <a href="{{SITE_PATH}}en/" lang="en">EN</a>
+      </nav>
 
       <button
         class="menu-toggle"

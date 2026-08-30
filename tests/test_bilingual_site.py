@@ -34,7 +34,12 @@ class BilingualSiteTests(unittest.TestCase):
             "LiveLib": "https://www.livelib.ru/reader/ada_king",
         }
         for label, href in links.items():
-            self.assertIn(f'<a href="{href}">{label}</a>', page)
+            self.assertIn(
+                f'<a href="{href}" target="_blank" rel="noopener noreferrer">'
+                f'{label} <span class="external-mark" aria-hidden="true">↗</span></a>',
+                page,
+            )
+        self.assertEqual(page.count('<span class="external-mark" aria-hidden="true">↗</span>'), 4)
         common = (build_site.ROOT / "js/common.js").read_text(encoding="utf-8")
         self.assertIn("'YooMoney number copied.'", common)
         self.assertIn("event.key === 'Enter' || event.key === ' '", common)
@@ -90,7 +95,28 @@ class BilingualSiteTests(unittest.TestCase):
         untranslated = next(quiz for quiz in json.loads((output / "data/catalog.json").read_text(encoding="utf-8"))["quizzes"] if quiz.get("type") not in {"english", "vocabulary"} and not (output / "en/v" / quiz["slug"]).exists())
         no_translation_page = (output / "v" / untranslated["slug"] / "index.html").read_text(encoding="utf-8")
         self.assertIn('../../en/quizzes.html', no_translation_page)
+        not_found = (output / "404.html").read_text(encoding="utf-8")
+        self.assertIn(
+            f'<nav class="language-switch" aria-label="Выбор языка">\n'
+            f'        <a href="{base_path}" aria-current="page">RU</a>',
+            not_found,
+        )
+        self.assertIn(f'<a href="{base_path}en/" lang="en">EN</a>', not_found)
+        self.assertIn(f'<a href="{base_path}index.html">Главная</a>', not_found)
+        self.assertIn(f'<a href="{base_path}quizzes.html">Викторины</a>', not_found)
+        self.assertIn(f'<a href="{base_path}contacts.html">Контакты</a>', not_found)
         return output
+
+    def test_not_found_localizer_updates_the_complete_english_header(self):
+        javascript = (build_site.ROOT / "js/not-found.js").read_text(encoding="utf-8")
+        for text in ("Home", "Quizzes", "Contacts", "Main navigation", "Language", "Horse Quizzes — Home", "Open menu"):
+            self.assertIn(repr(text), javascript)
+        for path in ("en/", "en/quizzes.html", "en/contacts.html"):
+            self.assertIn(f"`${{basePath}}{path}`", javascript)
+        self.assertIn("switchLinks[0]?.removeAttribute('aria-current')", javascript)
+        self.assertIn("switchLinks[1]?.setAttribute('aria-current', 'page')", javascript)
+        template = (build_site.ROOT / "404.html").read_text(encoding="utf-8")
+        self.assertLess(template.index('js/not-found.js'), template.index('js/common.js'))
 
     def test_github_pages_base_path(self):
         self.assert_build("/horse_quizzes/")
