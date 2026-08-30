@@ -20,6 +20,7 @@ from xml.etree import ElementTree as ET
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from generate_share_pages import SharePageError, generate as generate_share_pages
 from generate_sitemap import generate as generate_sitemap
+from inject_yandex_metrika import inject_all as inject_yandex_metrika
 from site_config import load_site_config
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -701,6 +702,7 @@ def build(output: Path = OUTPUT) -> dict:
     except SharePageError as error:
         raise ContentError(str(error)) from error
     generate_sitemap(output, catalog["quizzes"], site_config["public_url"])
+    inject_yandex_metrika(output)
     return catalog
 
 
