@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "pinto-colors-3",
   "target_quiz": "pinto-colors-3-en",
   "source_revision": "c84ad1f9d9e1647a98e3b99c70ba22819226fdad2182ed248db3b12fa43ae9e8",
