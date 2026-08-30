@@ -389,14 +389,10 @@
         },
         {
           "id": "answer-05",
-          "text": "Лошади гетерозиготы по локусам Agouti и Dun (дикий локус)"
-        },
-        {
-          "id": "answer-06",
           "text": "Лошади гомозиготы по Extension, Agouti и Dun (дикий локус)"
         }
       ],
-      "correct_answer_id": "answer-05",
+      "correct_answer_id": "answer-04",
       "explanation": "У вороного в Agouti и в Dun рецессивные гены, у саврасых должен быть хоть один доминантный и в Dun и в Agouti, значит они гетерозиготы по Agouti и Dun."
     },
     {
