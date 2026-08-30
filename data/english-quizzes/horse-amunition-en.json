@@ -11,1248 +11,2491 @@
     "images"
   ],
   "published": false,
-  "title": "Конная амуниция",
-  "short_description": "Это очень простая викторина, в ней вам предстоит по фотографиям узнавать различные элементы конного снаряжения и выбирать правильный ответ из предоставленного списка вариантов.",
-  "intro": "Это очень простая викторина, в ней вам предстоит по фотографиям узнавать различные элементы конного снаряжения и выбирать правильный ответ из предоставленного списка вариантов.",
-  "questionImagesAlt": "Фотография лошади для определения амуниции",
+  "title": "Horse Tack",
+  "short_description": "This is a very simple quiz: identify different pieces of horse tack from the photos and choose the correct answer from the options provided.",
+  "intro": "This is a very simple quiz: identify different pieces of horse tack from the photos and choose the correct answer from the options provided.",
+  "questionImagesAlt": "Photo for identifying horse tack",
   "questions": [
     {
       "id": "question-01",
-      "question": "Что это за амуниция?",
-      "explanation": "Недоуздок — это уздечка без удил, которая используется для вывода лошади из левады или денника, привязывания, проведения гигиенических процедур и ветеринарного осмотра. Он состоит из капсюльного (носового), щечных, затылочного и подбородочного ремней, которые мягко обхватывают голову животного, не причиняя ему дискомфорта и позволяя спокойно открывать рот. Чаще всего недоуздки изготавливают из прочной нейлоновой стропы, кожи или мягкой тесьмы, а крепится к ним специальный веревочный повод — чомбур. ",
+      "question": "What piece of tack is this?",
+      "explanation": "A halter is bitless headgear used for leading a horse from a paddock or stall, tying it up, grooming, and veterinary examinations. It consists of a noseband, cheekpieces, crownpiece, and throat or chin straps that fit around the horse's head without interfering with the mouth. Halters are commonly made from nylon webbing, leather, or soft braid, and a lead rope is clipped to them for handling the horse.",
       "image": "img/quiz/horse-amunition/01.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-02",
-      "question": "Что это за амуниция?",
-      "explanation": "Уздечка (узда) — это базовый элемент конного снаряжения, надеваемый на голову лошади для контроля и управления ею во время езды. Она состоит из оголовья (системы ремней: затылочного, нащечных, налобного, подбородочного и часто капсюля), повода и удил. ",
+      "question": "What piece of tack is this?",
+      "explanation": "A bridle is a basic piece of horse tack worn on the head to control and guide the horse while riding. It consists of the headstall—the system of straps including the crownpiece, cheekpieces, browband, throatlatch, and often a noseband—together with the reins and bit.",
       "image": "img/quiz/horse-amunition/02.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-03",
-      "question": "Что это за амуниция?",
-      "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+      "question": "What piece of tack is this?",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
       "image": "img/quiz/horse-amunition/03.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-04",
-      "question": "Как называется эта розовая ткань под седлом?",
-      "explanation": "Вальтрап — это плотное текстильное покрывало, которое подкладывается под седло для защиты спины лошади и сохранения амуниции. Он изготавливается из хлопковых, стеганых или современных синтетических тканей, хорошо впитывает пот животного, предотвращает появление потертостей от седла и обеспечивает дополнительную вентиляцию.",
+      "question": "What is the pink fabric under the saddle called?",
+      "explanation": "A saddle pad is a thick textile layer placed beneath the saddle to protect the horse's back and the saddle itself. It is commonly made from cotton, quilted fabric, or modern synthetic materials, absorbs sweat, helps prevent rubbing, and can improve ventilation beneath the saddle.",
       "image": "img/quiz/horse-amunition/04.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Потник"
+          "text": "Sweat pad"
         },
         {
           "id": "answer-02",
-          "text": "Меховушка"
+          "text": "Sheepskin pad"
         },
         {
           "id": "answer-03",
-          "text": "Амортизатор"
+          "text": "Half pad"
         },
         {
           "id": "answer-04",
-          "text": "Вальтрап"
+          "text": "Saddle pad"
         },
         {
           "id": "answer-05",
-          "text": "Подседельник"
+          "text": "Saddle blanket"
         },
         {
           "id": "answer-06",
-          "text": "Попона"
+          "text": "Horse blanket"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-05",
-      "question": "Что это за амуниция?",
-      "explanation": "Оголовье — это ременная часть уздечки (без повода), которая надевается на голову лошади и служит основой для крепления остальных элементов управления. Оно представляет собой анатомическую систему из затылочного, нащечных, налобного и подбородочного ремней, к которым также часто добавляется капсюль для фиксации челюсти. \nТрензель — это распространенный вид удил, который состоит из грызла (оно может быть цельным или сочлененным из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья и поводья. Трензель считается классическим и относительно мягким средством управления.",
+      "question": "What piece of tack is this?",
+      "explanation": "A headstall is the strap framework of a bridle, without the reins, that supports the other pieces of tack on the horse's head. A snaffle is a common direct-action bit with a straight or jointed mouthpiece and rings or cheeks to which the cheekpieces and reins attach. It is one of the standard and generally milder types of bitting.",
       "image": "img/quiz/horse-amunition/05.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Оголовье и трензель"
+          "text": "Headstall and snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Оголовье и мундштук"
+          "text": "Headstall and curb bit"
         },
         {
           "id": "answer-03",
-          "text": "Оголовье и пелям"
+          "text": "Headstall and Pelham bit"
         },
         {
           "id": "answer-04",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-06",
-      "question": "Что это за амуниция?",
-      "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+      "question": "What piece of tack is this?",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
       "image": "img/quiz/horse-amunition/06.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-07",
-      "question": "Что это за амуниция?",
-      "explanation": "Барочная уздечка — это парадный элемент конной амуниции, выполненный в историческом стиле эпохи Ренессанса и Барокко. Она отличается от классического спортивного снаряжения обилием декоративных элементов: фигурной португальской или испанской фурнитурой, массивными пряжками, изящным тиснением на коже, а также свисающими кожаными кистями (москеро) на налобном ремне. Конструктивно такая уздечка часто сочетается с рычажным железом (барочным мундштуком) и используется в традиционных португальских и испанских портретных съемках, национальных шоу, конной корриде, а также в дисциплине Working Equitation (рабочая выездка).",
+      "question": "What piece of tack is this?",
+      "explanation": "A Baroque bridle is ornate horse headgear styled after Renaissance and Baroque tack. It differs from modern sport bridles through decorative Portuguese or Spanish fittings, substantial buckles, embossed leather, and sometimes hanging leather tassels or a mosquero on the browband. It is often paired with a curb bit and is seen in traditional Portuguese and Spanish presentations, shows, mounted bullfighting, and Working Equitation.",
       "image": "img/quiz/horse-amunition/07.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Уздечка Кука"
+          "text": "Dr. Cook's Bitless Bridle"
         },
         {
           "id": "answer-02",
-          "text": "Ковбойская уздечка"
+          "text": "Western bridle"
         },
         {
           "id": "answer-03",
-          "text": "Барочная уздечка"
+          "text": "Baroque bridle"
         },
         {
           "id": "answer-04",
-          "text": "Скаковая уздечка"
+          "text": "Racing bridle"
         },
         {
           "id": "answer-05",
-          "text": "Мексиканская уздечка"
+          "text": "Mexican bridle"
         },
         {
           "id": "answer-06",
-          "text": "Кавессон"
+          "text": "Cavesson"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-08",
-      "question": "Как называется ремень, который не позволяет коню открывать рот?",
-      "explanation": "Сопля (официально — капсюльный ремень, или сопливчик) — это тонкий вспомогательный кожаный ремешок, который является частью комбинированного (ирландского) капсюля. Он крепится к верхней петле носового ремня, проходит перед трензелем и застегивается под подбородком лошади. Главная задача этого элемента — мягко удерживать рот животного закрытым, чтобы оно не могло перекинуть язык через железо, уйти от контакта с поводом или широко открыть челюсть для игнорирования команд всадника.",
+      "question": "What is the strap that helps prevent a horse from opening its mouth called?",
+      "explanation": "A flash strap is the narrow auxiliary strap used with a flash, or combined, noseband. It passes in front of the snaffle bit and fastens under the horse's chin. Its purpose is to limit excessive opening of the mouth and help prevent the horse from evading the bit by crossing the jaw or putting the tongue over the bit.",
       "image": "img/quiz/horse-amunition/08.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Капсуль"
+          "text": "Capsule"
         },
         {
           "id": "answer-02",
-          "text": "Сопля"
+          "text": "Flash strap"
         },
         {
           "id": "answer-03",
-          "text": "Намордник"
+          "text": "Muzzle"
         },
         {
           "id": "answer-04",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-05",
-          "text": "Начелюстник"
+          "text": "Jaw strap"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-09",
-      "question": "Что это за амуниция?",
-      "explanation": "Недоуздок — это уздечка без удил, которая используется для вывода лошади из левады или денника, привязывания, проведения гигиенических процедур и ветеринарного осмотра. Он состоит из капсюльного (носового), щечных, затылочного и подбородочного ремней, которые мягко обхватывают голову животного, не причиняя ему дискомфорта и позволяя спокойно открывать рот. Чаще всего недоуздки изготавливают из прочной нейлоновой стропы, кожи или мягкой тесьмы, а крепится к ним специальный веревочный повод — чомбур. ",
+      "question": "What piece of tack is this?",
+      "explanation": "A halter is bitless headgear used for leading a horse from a paddock or stall, tying it up, grooming, and veterinary examinations. It consists of a noseband, cheekpieces, crownpiece, and throat or chin straps that fit around the horse's head without interfering with the mouth. Halters are commonly made from nylon webbing, leather, or soft braid, and a lead rope is clipped to them for handling the horse.",
       "image": "img/quiz/horse-amunition/09.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-10",
-      "question": "Что это за амуниция?",
-      "explanation": "Одноушная вестерн-уздечка (One-ear bridle) — это минималистичная разновидность уздечки, характерная для стиля вестерн и предназначенная для работы со взрослыми, хорошо обученными лошадьми. Ее ключевая особенность — полное отсутствие капсюля, подбородочного и классического налобного ремней. Вместо этого конструкция удерживается на голове животного за счет одной кожаной петли (или ремешка), которая надевается строго на одно ухо. Такая уздечка используется в комплекте с рычажным железом (мундштуком) и длинными раздельными поводьями, обеспечивая всаднику легкий контакт, а лошади — максимальную свободу движений и комфорт без лишнего давления ремней.",
+      "question": "What piece of tack is this?",
+      "explanation": "A one-ear Western bridle is a minimalist headstall used on mature, well-trained Western horses. Instead of a traditional browband, it is held in place by a single leather loop that fits around one ear. It is normally used without a noseband and is commonly paired with a curb bit and long split reins.",
       "image": "img/quiz/horse-amunition/10.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Одноушная вестерн-уздечка"
+          "text": "One-ear Western bridle"
         },
         {
           "id": "answer-02",
-          "text": "Двухушная вестерн-уздечка"
+          "text": "Two-ear Western bridle"
         },
         {
           "id": "answer-03",
-          "text": "Безушная вестерн-уздечка"
+          "text": "Earless Western bridle"
         },
         {
           "id": "answer-04",
-          "text": "Ушастая вестерн-уздечка"
+          "text": "Eared Western bridle"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-11",
-      "question": "Как называется ремень, охватывающий храп лошади?",
-      "explanation": "Капсюль — это ременная петля, которая охватывает морду лошади в области храпа и служит для ограничения чрезмерного открывания рта, фиксации челюсти и стабилизации удил. Он крепится к нащечным ремням или имеет собственный суголовный ремень, проходящий под затылочным. Капсюль не позволяет животному уходить от контакта с поводом, перекидывать язык или перекрещивать челюсти, чтобы проигнорировать команды всадника. В зависимости от конструкции (английский, ганноверский, шведский, мексиканский) он застегивается выше или ниже трензеля, оказывая разную степень давления на чувствительную переносицу и подбородок.",
+      "question": "What is the strap encircling the horse's nose called?",
+      "explanation": "A noseband is the strap that encircles the horse's muzzle and is used to limit excessive opening of the mouth, stabilize the bit, and discourage evasions such as crossing the jaw. Depending on the design—cavesson, drop, crank, or figure-eight—it fastens at different heights and applies pressure in different ways.",
       "image": "img/quiz/horse-amunition/11.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Нахрапник"
+          "text": "Nose guard"
         },
         {
           "id": "answer-02",
-          "text": "Храповик"
+          "text": "Ratchet strap"
         },
         {
           "id": "answer-03",
-          "text": "Капсюль"
+          "text": "Noseband"
         },
         {
           "id": "answer-04",
-          "text": "Кринет"
+          "text": "Crinet"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-12",
-      "question": "Как называется ремень, который крепится к седлу и охватывает грудь лошади, предотвращая сползание седла назад?",
-      "explanation": "Подперсье — это элемент конной амуниции, который крепится к седлу и охватывает грудь лошади, предотвращая сползание седла назад во время езды. Оно крепится к передней луке и подпруге, удерживая всю конструкцию на месте при езде в гору, прыжках через барьеры или активном галопе. Подперсья изготавливаются из кожи, прочных эластичных лент или синтетических материалов и часто оснащаются мягкими подложками, чтобы ремни не натирали плечи и грудь животного при движении. Этот аксессуар является обязательной частью экипировки в конкуре, троеборье и пробегах, а также часто совмещается с мартингалом для дополнительного контроля за положением головы лошади.",
+      "question": "What is the strap arrangement that attaches to the saddle and crosses the horse's chest to keep the saddle from sliding backward called?",
+      "explanation": "A breastplate attaches to the saddle and passes around the horse's chest to help prevent the saddle from slipping backward. It is particularly useful when riding uphill, jumping, galloping, or working over varied terrain. Breastplates are commonly made of leather, elastic webbing, or synthetic materials and are often combined with a martingale.",
       "image": "img/quiz/horse-amunition/12.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Подпруга"
+          "text": "Girth"
         },
         {
           "id": "answer-02",
-          "text": "Подперсье"
+          "text": "Breastplate"
         },
         {
           "id": "answer-03",
-          "text": "Мартингал"
+          "text": "Martingale"
         },
         {
           "id": "answer-04",
-          "text": "Путлище"
+          "text": "Stirrup leather"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-13",
-      "question": "Что это за амуниция?",
-      "explanation": "Уздечка (узда) — это базовый элемент конного снаряжения, надеваемый на голову лошади для контроля и управления ею во время езды. Она состоит из оголовья (системы ремней: затылочного, нащечных, налобного, подбородочного и часто капсюля), повода и удил. ",
+      "question": "What piece of tack is this?",
+      "explanation": "A bridle is a basic piece of horse tack worn on the head to control and guide the horse while riding. It consists of the headstall—the system of straps including the crownpiece, cheekpieces, browband, throatlatch, and often a noseband—together with the reins and bit.",
       "image": "img/quiz/horse-amunition/13.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-14",
-      "question": "Что это за амуниция?",
-      "explanation": "Недоуздок — это уздечка без удил, которая используется для вывода лошади из левады или денника, привязывания, проведения гигиенических процедур и ветеринарного осмотра. Он состоит из капсюльного (носового), щечных, затылочного и подбородочного ремней, которые мягко обхватывают голову животного, не причиняя ему дискомфорта и позволяя спокойно открывать рот. Чаще всего недоуздки изготавливают из прочной нейлоновой стропы, кожи или мягкой тесьмы, а крепится к ним специальный веревочный повод — чомбур. ",
+      "question": "What piece of tack is this?",
+      "explanation": "A halter is bitless headgear used for leading a horse from a paddock or stall, tying it up, grooming, and veterinary examinations. It consists of a noseband, cheekpieces, crownpiece, and throat or chin straps that fit around the horse's head without interfering with the mouth. Halters are commonly made from nylon webbing, leather, or soft braid, and a lead rope is clipped to them for handling the horse.",
       "image": "img/quiz/horse-amunition/14.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-15",
-      "question": "Что это за амуниция?",
-      "explanation": "Оголовье — это ременная часть уздечки (без повода), которая надевается на голову лошади и служит основой для крепления остальных элементов управления. Оно представляет собой анатомическую систему из затылочного, нащечных, налобного и подбородочного ремней, к которым также часто добавляется капсюль для фиксации челюсти. \nТрензель — это распространенный вид удил, состоящий из грызла (цельного или сочлененного из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья, а также поводья. Трензель считается классическим и относительно мягким средством управления.",
+      "question": "What piece of tack is this?",
+      "explanation": "A headstall is the strap framework of a bridle, without the reins, that supports the other pieces of tack on the horse's head. A snaffle is a common direct-action bit with a straight or jointed mouthpiece and rings or cheeks to which the cheekpieces and reins attach. It is one of the standard and generally milder types of bitting.",
       "image": "img/quiz/horse-amunition/15.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Оголовье и трензель"
+          "text": "Headstall and snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Оголовье и мундштук"
+          "text": "Headstall and curb bit"
         },
         {
           "id": "answer-03",
-          "text": "Оголовье и пелям"
+          "text": "Headstall and Pelham bit"
         },
         {
           "id": "answer-04",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-16",
-      "question": "Что это за седло?",
-      "explanation": "Ковбойское седло (или вестерн-седло) — это глубокое и массивное седло, разработанное для длительного пребывания ковбоя в конном переходе и работы с лассо. Его ключевыми отличительными чертами являются высокая передняя лука с деревянным или металлическим рожком для фиксации веревки, глубокое сиденье и широкие плоские полки (ленчик), которые равномерно распределяют вес всадника по большой площади спины лошади. Конструкция ковбойского седла также включает широкие кожаные стремена (фендеры) с массивными деревянными или металлическими основаниями, а также длинные кожаные завязки (конопатые ремни) для крепления груза. Это тяжелое, но чрезвычайно прочное и комфортное седло обеспечивает всаднику максимальную безопасность и устойчивость, что делает его незаменимым в вестерн-спорте и при полевой езде на любые расстояния.",
+      "question": "What type of saddle is this?",
+      "explanation": "A Western saddle is a deep, substantial saddle developed for long hours of ranch work and the use of a lariat. Its most recognizable feature is the horn on the pommel. It also has a deep seat, broad weight-bearing surfaces, wide fenders, and large stirrups, giving the rider stability and distributing weight over a broad area of the horse's back.",
       "image": "img/quiz/horse-amunition/16.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Конкурное"
+          "text": "Jumping saddle"
         },
         {
           "id": "answer-02",
-          "text": "Выездковое"
+          "text": "Dressage saddle"
         },
         {
           "id": "answer-03",
-          "text": "Ковбойское"
+          "text": "Western saddle"
         },
         {
           "id": "answer-04",
-          "text": "Казачье"
+          "text": "Cossack saddle"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-17",
-      "question": "Что это за амуниция?",
-      "explanation": "Сайдпул (sidepull) — это мягкая безжелезная уздечка, предназначенная для управления лошадью без использования удил за счет давления на переносицу. Конструктивно она похожа на недоуздок, но имеет усиленный, плотно прилегающий кожаный или веревочный носовой ремень, по бокам которого расположены два металлических кольца для крепления поводьев. Механизм действия сайд-пула основан на прямой подсказке: при натяжении правого повода кольцо тянет морду лошади направо, а левая сторона ремня мягко подталкивает ее в ту же сторону. Этот инструмент идеально подходит для заездки молодых лошадей, полевых прогулок, работы с травмированным ртом или обучения начинающих всадников, так как он полностью исключает риск травмировать челюсть животного.",
+      "question": "What piece of tack is this?",
+      "explanation": "A sidepull is a mild bitless bridle that works through direct pressure on the bridge of the nose. It resembles a halter but has a firmer, close-fitting leather or rope nosepiece with rings at the sides for the reins. Rein pressure gives a direct lateral cue, making sidepulls useful for young horses, trail riding, horses with mouth injuries, or riders who want to work without a bit.",
       "image": "img/quiz/horse-amunition/17.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-05"
     },
     {
       "id": "question-18",
-      "question": "Какой это тип капсюля?",
-      "explanation": "Английский капсюль — это классический и самый мягкий вид носового ремня, который застегивается на храпе лошади примерно на два пальца ниже скуловой кости и обязательно проходит выше трензельного железа и поводьев. Он мягко ограничивает возможность лошади широко открывать рот и уходить от команд всадника, при этом не блокируя полностью движения нижней челюсти и позволяя животному свободно отжевывать железо. Английский капсюль является базовым элементом в классических дисциплинах конного спорта (выездка, конкур), используется на простых трензельных уздечках и часто служит основой для крепления вспомогательного ремешка — «сопли».",
+      "question": "What type of noseband is this?",
+      "explanation": "The cavesson, sometimes called the English noseband in Russian terminology, is a classic and relatively mild noseband fitted about two fingers below the cheekbone and above the bit. It limits excessive opening of the mouth without completely restricting movement of the lower jaw and is widely used in dressage, jumping, and general riding.",
       "image": "img/quiz/horse-amunition/18.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Английский"
+          "text": "Cavesson (English)"
         },
         {
           "id": "answer-02",
-          "text": "Мексиканский"
+          "text": "Figure-eight (Mexican)"
         },
         {
           "id": "answer-03",
-          "text": "Исландский"
+          "text": "Icelandic"
         },
         {
           "id": "answer-04",
-          "text": "Ганноверский"
+          "text": "Drop (Hanoverian)"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-19",
-      "question": "Что это за амуниция?",
-      "explanation": "Кавессон (или капцунг) — это специализированное безжелезное оголовье, предназначенное для гимнастической работы с лошадью на корде, в руках, на вожжах или под верхом. Его главной конструктивной особенностью является плотный, анатомически подогнанный носовой ремень (капсюль), внутрь которого обычно встроена гибкая многозвенная металлическая цепь или пластина для точного прилегания к храпу. На переносье кавессона жестко закреплены три металлических кольца: центральное служит для пристегивания корды, а два боковых — для поводьев. Механизм действия кавессона основан на мягком, но строгом давлении на носовую кость: в отличие от обычного недоуздка, он не перекручивается на морде и позволяет всаднику давать лошади четкую команду на правильное боковое сгибание и постановление без заваливания затылка или травмирования чувствительного рта.",
+      "question": "What piece of tack is this?",
+      "explanation": "A cavesson, or cavesson bridle, is specialized bitless headgear used for gymnastic work on the longe, in hand, on long reins, or under saddle. Its close-fitting nosepiece often contains a flexible chain or reinforced structure, and it normally has three rings on the nose: a central ring for the longe line and two side rings for reins. Because it stays stable on the face, it can give precise cues for flexion without acting on the horse's mouth.",
       "image": "img/quiz/horse-amunition/19.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-20",
-      "question": "Что это за удила?",
-      "explanation": "Мундштук — это строгое рычажное железо, которое вставляется в рот лошади и используется для тонкого, высокоточного управления, преимущественно в высшей школе выездки или вестерн-дисциплинах. Он состоит из цельного или изогнутого грызла (часто с портом/дужкой для языка) и двух боковых металлических щечек (рычагов), к нижней части которых крепится мундштучный повод, а к верхней — цепочка, проходящая под нижней челюстью. Механизм действия мундштука основан на законе рычага: при натяжении повода давление многократно усиливается и одновременно передается на беззубый край челюсти, язык, подбородок (через цепочку) и затылок лошади (через нащечные ремни). Этот инструмент требует от всадника исключительного мастерства и мягкости рук, так как он служит не для торможения, а для деликатного сбора, округления рамки и идеального баланса лошади.",
+      "question": "What type of bit is this?",
+      "explanation": "A curb bit is a leverage bit used for refined control, particularly in advanced dressage and Western riding. It has a solid or shaped mouthpiece, often with a port, and shanks to which the reins attach, together with a curb chain or strap under the jaw. Rein pressure applies leverage to the bars of the mouth, tongue, chin, and poll. Because its action can be strong, it requires skilled, sensitive hands.",
       "image": "img/quiz/horse-amunition/20.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Трензель"
+          "text": "Snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Мундштук"
+          "text": "Curb bit"
         },
         {
           "id": "answer-03",
-          "text": "Пелям"
+          "text": "Pelham bit"
         },
         {
           "id": "answer-04",
-          "text": "Олимпийка"
+          "text": "Olympic bit"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-21",
-      "question": "Что это за амуниция?",
-      "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+      "question": "What piece of tack is this?",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
       "image": "img/quiz/horse-amunition/21.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-22",
-      "question": "Что это за амуниция?",
-      "explanation": "Недоуздок — это уздечка без удил, которая используется для вывода лошади из левады или денника, привязывания, проведения гигиенических процедур и ветеринарного осмотра. Он состоит из капсюльного (носового), щечных, затылочного и подбородочного ремней, которые мягко обхватывают голову животного, не причиняя ему дискомфорта и позволяя спокойно открывать рот. Чаще всего недоуздки изготавливают из прочной нейлоновой стропы, кожи или мягкой тесьмы, а крепится к ним специальный веревочный повод — чомбур. ",
+      "question": "What piece of tack is this?",
+      "explanation": "A halter is bitless headgear used for leading a horse from a paddock or stall, tying it up, grooming, and veterinary examinations. It consists of a noseband, cheekpieces, crownpiece, and throat or chin straps that fit around the horse's head without interfering with the mouth. Halters are commonly made from nylon webbing, leather, or soft braid, and a lead rope is clipped to them for handling the horse.",
       "image": "img/quiz/horse-amunition/22.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-23",
-      "question": "Что это за амуниция?",
-      "explanation": "Барочная уздечка — это парадный элемент конной амуниции, выполненный в историческом стиле эпохи Ренессанса и Барокко. Она отличается от классического спортивного снаряжения обилием декоративных элементов: фигурной португальской или испанской фурнитурой, массивными пряжками, изящным тиснением на коже, а также свисающими кожаными кистями (москеро) на налобном ремне. Конструктивно такая уздечка часто сочетается с рычажным железом (барочным мундштуком) и используется в традиционных португальских и испанских портретных съемках, национальных шоу, конной корриде, а также в дисциплине Working Equitation (рабочая выездка).",
+      "question": "What piece of tack is this?",
+      "explanation": "A Baroque bridle is ornate horse headgear styled after Renaissance and Baroque tack. It differs from modern sport bridles through decorative Portuguese or Spanish fittings, substantial buckles, embossed leather, and sometimes hanging leather tassels or a mosquero on the browband. It is often paired with a curb bit and is seen in traditional Portuguese and Spanish presentations, shows, mounted bullfighting, and Working Equitation.",
       "image": "img/quiz/horse-amunition/23.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Уздечка Кука"
+          "text": "Dr. Cook's Bitless Bridle"
         },
         {
           "id": "answer-02",
-          "text": "Барочная уздечка"
+          "text": "Baroque bridle"
         },
         {
           "id": "answer-03",
-          "text": "Ковбойская уздечка"
+          "text": "Western bridle"
         },
         {
           "id": "answer-04",
-          "text": "Скаковая уздечка"
+          "text": "Racing bridle"
         },
         {
           "id": "answer-05",
-          "text": "Мексиканская уздечка"
+          "text": "Mexican bridle"
         },
         {
           "id": "answer-06",
-          "text": "Кавессон"
+          "text": "Cavesson"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-24",
-      "question": "Что это за амуниция?",
-      "explanation": "Босал (bosal) — это жесткое безжелезное кольцо, которое используется для начального этапа обучения вестерн-лошадей. Он изготавливается из сплетенных полосок сыромятной кожи (раухайда) и имеет овальную форму, которая охватывает нос лошади. В нижней части босала, под подбородком животного, расположен массивный узел (heel knot), к которому особым образом привязывается тяжелый плетеный повод — мекати. Механизм действия босала основан не на натяжении, а на легком балансирующем давлении и покачивании: при переносе повода жесткое кольцо воздействует на боковые стороны морды и переносицу лошади, указывая ей направление поворота и помогая мягко уходить от давления без использования железа во рту.",
+      "question": "What piece of tack is this?",
+      "explanation": "A bosal is a firm, oval nosepiece used in traditional Western hackamore training. It is usually braided from rawhide and encircles the horse's nose. At the bottom is a prominent heel knot, to which a braided mecate is tied. Rather than acting through a bit, the bosal uses balanced pressure and movement against the nose and sides of the face to guide the horse.",
       "image": "img/quiz/horse-amunition/24.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-25",
-      "question": "Что это за седло?",
-      "explanation": "Английское седло — это общее название группы классических спортивных седел, разработанных для олимпийских конных дисциплин, таких как конкур, выездка и троеборье. Его главная особенность — легкий вес, минималистичный дизайн и отсутствие рожка, что отличает его от массивного вестерн-седла. Основой конструкции служит гибкий или жесткий каркас (ленчик), на который крепятся мягкие кожаные подушки, набитые шерстью или пеной, а также сиденье, передняя и задняя луки. Английское седло обеспечивает всаднику максимально близкий, плотный контакт с лошадью через крылья и стремена, позволяя чутко управлять корпусом и шлюсом.",
+      "question": "What type of saddle is this?",
+      "explanation": "An English saddle is the general family of lightweight saddles used in classical riding and Olympic disciplines such as jumping, dressage, and eventing. Unlike a Western saddle, it has no horn and has a relatively minimalist design. Its tree supports the seat and panels, while the flaps and stirrups allow close contact between rider and horse.",
       "image": "img/quiz/horse-amunition/25.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кавалерийское"
+          "text": "Cavalry saddle"
         },
         {
           "id": "answer-02",
-          "text": "Ковбойское"
+          "text": "Western saddle"
         },
         {
           "id": "answer-03",
-          "text": "Английское"
+          "text": "English saddle"
         },
         {
           "id": "answer-04",
-          "text": "Испанское"
+          "text": "Spanish saddle"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-26",
-      "question": "Что это за удила?",
-      "explanation": "Мундштук — это строгое рычажное железо, которое вставляется в рот лошади и используется для тонкого, высокоточного управления, преимущественно в высшей школе выездки или вестерн-дисциплинах. Он состоит из цельного или изогнутого грызла (часто с портом/дужкой для языка) и двух боковых металлических щечек (рычагов), к нижней части которых крепится мундштучный повод, а к верхней — цепочка, проходящая под нижней челюстью. Механизм действия мундштука основан на законе рычага: при натяжении повода давление многократно усиливается и одновременно передается на беззубый край челюсти, язык, подбородок (через цепочку) и затылок лошади (через нащечные ремни). Этот инструмент требует от всадника исключительного мастерства и мягкости рук, так как он служит не для торможения, а для деликатного сбора, округления рамки и идеального баланса лошади.",
+      "question": "What type of bit is this?",
+      "explanation": "A curb bit is a leverage bit used for refined control, particularly in advanced dressage and Western riding. It has a solid or shaped mouthpiece, often with a port, and shanks to which the reins attach, together with a curb chain or strap under the jaw. Rein pressure applies leverage to the bars of the mouth, tongue, chin, and poll. Because its action can be strong, it requires skilled, sensitive hands.",
       "image": "img/quiz/horse-amunition/26.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Трензель"
+          "text": "Snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Мундштук"
+          "text": "Curb bit"
         },
         {
           "id": "answer-03",
-          "text": "Пелям"
+          "text": "Pelham bit"
         },
         {
           "id": "answer-04",
-          "text": "Олимпийка"
+          "text": "Olympic bit"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-27",
-      "question": "Что это за удила?",
-      "explanation": "Трензель — это распространенный вид удил, состоящий из грызла (цельного или сочлененного из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья, а также поводья. Трензель считается классическим и относительно мягким средством управления.",
+      "question": "What type of bit is this?",
+      "explanation": "A snaffle is a common direct-action bit consisting of a straight or jointed mouthpiece and two side rings or cheeks to which the bridle cheekpieces and reins attach. It is a classic and generally relatively mild form of bitting.",
       "image": "img/quiz/horse-amunition/27.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Трензель"
+          "text": "Snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Мундштук"
+          "text": "Curb bit"
         },
         {
           "id": "answer-03",
-          "text": "Пелям"
+          "text": "Pelham bit"
         },
         {
           "id": "answer-04",
-          "text": "Олимпийка"
+          "text": "Olympic bit"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-28",
-      "question": "Что это за амуниция?",
-      "explanation": "Кавессон (или капцунг) — это специализированное безжелезное оголовье, предназначенное для гимнастической работы с лошадью на корде, в руках, на вожжах или под верхом. Его главной конструктивной особенностью является плотный, анатомически подогнанный носовой ремень (капсюль), внутрь которого обычно встроена гибкая многозвенная металлическая цепь или пластина для точного прилегания к храпу. На переносье кавессона жестко закреплены три металлических кольца: центральное служит для пристегивания корды, а два боковых — для поводьев. Механизм действия кавессона основан на мягком, но строгом давлении на носовую кость: в отличие от обычного недоуздка, он не перекручивается на морде и позволяет всаднику давать лошади четкую команду на правильное боковое сгибание и постановление без заваливания затылка или травмирования чувствительного рта.",
+      "question": "What piece of tack is this?",
+      "explanation": "A cavesson, or cavesson bridle, is specialized bitless headgear used for gymnastic work on the longe, in hand, on long reins, or under saddle. Its close-fitting nosepiece often contains a flexible chain or reinforced structure, and it normally has three rings on the nose: a central ring for the longe line and two side rings for reins. Because it stays stable on the face, it can give precise cues for flexion without acting on the horse's mouth.",
       "image": "img/quiz/horse-amunition/28.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-29",
-      "question": "Что это за амуниция?",
-      "explanation": "Одноушная вестерн-уздечка (One-ear bridle) — это минималистичная разновидность уздечки, характерная для стиля вестерн и предназначенная для работы со взрослыми, хорошо обученными лошадьми. Ее ключевая особенность — полное отсутствие капсюля, подбородочного и классического налобного ремней. Вместо этого конструкция удерживается на голове животного за счет одной кожаной петли (или ремешка), которая надевается строго на одно ухо. Такая уздечка используется в комплекте с рычажным железом (мундштуком) и длинными раздельными поводьями, обеспечивая всаднику легкий контакт, а лошади — максимальную свободу движений и комфорт без лишнего давления ремней.",
+      "question": "What piece of tack is this?",
+      "explanation": "A one-ear Western bridle is a minimalist headstall used on mature, well-trained Western horses. Instead of a traditional browband, it is held in place by a single leather loop that fits around one ear. It is normally used without a noseband and is commonly paired with a curb bit and long split reins.",
       "image": "img/quiz/horse-amunition/29.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Одноушная вестерн-уздечка"
+          "text": "One-ear Western bridle"
         },
         {
           "id": "answer-02",
-          "text": "Двухушная вестерн-уздечка"
+          "text": "Two-ear Western bridle"
         },
         {
           "id": "answer-03",
-          "text": "Безушная вестерн-уздечка"
+          "text": "Earless Western bridle"
         },
         {
           "id": "answer-04",
-          "text": "Кавессон"
+          "text": "Cavesson"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-30",
-      "question": "Что это за амуниция?",
-      "explanation": "Босал (bosal) — это жесткое безжелезное кольцо, которое используется для начального этапа обучения вестерн-лошадей. Он изготавливается из сплетенных полосок сыромятной кожи (раухайда) и имеет овальную форму, которая охватывает нос лошади. В нижней части босала, под подбородком животного, расположен массивный узел (heel knot), к которому особым образом привязывается тяжелый плетеный повод — мекати. Механизм действия босала основан не на натяжении, а на легком балансирующем давлении и покачивании: при переносе повода жесткое кольцо воздействует на боковые стороны морды и переносицу лошади, указывая ей направление поворота и помогая мягко уходить от давления без использования железа во рту.",
+      "question": "What piece of tack is this?",
+      "explanation": "A bosal is a firm, oval nosepiece used in traditional Western hackamore training. It is usually braided from rawhide and encircles the horse's nose. At the bottom is a prominent heel knot, to which a braided mecate is tied. Rather than acting through a bit, the bosal uses balanced pressure and movement against the nose and sides of the face to guide the horse.",
       "image": "img/quiz/horse-amunition/30.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-06"
     },
     {
       "id": "question-31",
-      "question": "Что это за амуниция?",
-      "explanation": "Анатомическое оголовье — это современная высокотехнологичная разновидность уздечки, разработанная с учетом сложного строения черепа, расположения нервных окончаний и кровеносных сосудов на голове лошади. Его ключевое отличие от классического оголовья заключается в изогнутой форме затылочного ремня, который освобождает от давления чувствительную зону за ушами, и в особой геометрии нащечных ремней и капсюля, которые проходят в обход скуловых костей и крупных лицевых нервов. Такое снаряжение предотвращает защемление тканей, не мешает свободному дыханию, минимизирует дискомфорт и позволяет животному максимально расслабиться, улучшая его проводимость и контакт с рукой всадника.\nТрензель — это распространенный вид удил, состоящий из грызла (цельного или сочлененного из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья, а также поводья. Трензель считается классическим и относительно мягким средством управления.",
+      "question": "What piece of tack is this?",
+      "explanation": "An anatomical headstall is designed around the structure of the horse's skull, nerves, and blood vessels. Its shaped crownpiece reduces pressure behind the ears, while the cheekpieces and noseband are positioned to avoid sensitive facial structures. The snaffle bit shown with it is a common direct-action bit with a straight or jointed mouthpiece and side rings or cheeks.",
       "image": "img/quiz/horse-amunition/31.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Анатомическое оголовье с трензелем"
+          "text": "Anatomical headstall with snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Барочное оголовье с трензелем"
+          "text": "Baroque headstall with snaffle bit"
         },
         {
           "id": "answer-03",
-          "text": "Анатомическое оголовье с мундштуком"
+          "text": "Anatomical headstall with curb bit"
         },
         {
           "id": "answer-04",
-          "text": "Барочное оголовье с мундштуком"
+          "text": "Baroque headstall with curb bit"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-32",
-      "question": "Что это за амуниция?",
-      "explanation": "Кавессон (или капцунг) — это специализированное безжелезное оголовье, предназначенное для гимнастической работы с лошадью на корде, в руках, на вожжах или под верхом. Его главной конструктивной особенностью является плотный, анатомически подогнанный носовой ремень (капсюль), внутрь которого обычно встроена гибкая многозвенная металлическая цепь или пластина для точного прилегания к храпу. На переносье кавессона жестко закреплены три металлических кольца: центральное служит для пристегивания корды, а два боковых — для поводьев. Механизм действия кавессона основан на мягком, но строгом давлении на носовую кость: в отличие от обычного недоуздка, он не перекручивается на морде и позволяет всаднику давать лошади четкую команду на правильное боковое сгибание и постановление без заваливания затылка или травмирования чувствительного рта.",
+      "question": "What piece of tack is this?",
+      "explanation": "A cavesson, or cavesson bridle, is specialized bitless headgear used for gymnastic work on the longe, in hand, on long reins, or under saddle. Its close-fitting nosepiece often contains a flexible chain or reinforced structure, and it normally has three rings on the nose: a central ring for the longe line and two side rings for reins. Because it stays stable on the face, it can give precise cues for flexion without acting on the horse's mouth.",
       "image": "img/quiz/horse-amunition/32.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Садпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-33",
-      "question": "Что это за амуниция?",
-      "explanation": "Барочная хакамора — это парадный элемент безжелезной амуниции, выполненный в пышном историческом стиле эпохи Ренессанса и Барокко. Ее главным отличием от спортивных аналогов являются массивные, фигурные металлические рычаги (щеки), украшенные изящной ковкой, орнаментами или литьем под золото и серебро. Переносица такой хакаморы часто изготавливается из широкой качественной кожи с тиснением, а крепится она к декоративному барочному оголовью с характерными пряжками и кожаными кистями (москеро). Механизм действия барочной хакаморы остается традиционным — строгое рычажное давление на переносицу и подбородок, однако используется она в основном для исторических шоу, португальской и испанской выездки, конных выставок и тематических фотосессий.",
+      "question": "What piece of tack is this?",
+      "explanation": "A Baroque hackamore is an ornate bitless bridle in Renaissance or Baroque style. It typically has large decorative metal shanks, embossed leather over the nose, and an elaborate headstall with decorative buckles or a mosquero. Its mechanical action remains that of a leverage hackamore, applying pressure to the nose and chin, but it is used mainly in historical shows, Portuguese and Spanish riding traditions, exhibitions, and themed presentations.",
       "image": "img/quiz/horse-amunition/33.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Калифорнийская хакамора"
+          "text": "Californian hackamore"
         },
         {
           "id": "answer-02",
-          "text": "Австралийская хакамора"
+          "text": "Australian hackamore"
         },
         {
           "id": "answer-03",
-          "text": "Барочная хакамора"
+          "text": "Baroque hackamore"
         },
         {
           "id": "answer-04",
-          "text": "Русская хакамора"
+          "text": "Russian hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Грузинская хакамора"
+          "text": "Georgian hackamore"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-34",
-      "question": "Что это за амуниция?",
-      "explanation": "Оголовье — это ременная часть уздечки (без повода), которая надевается на голову лошади и служит основой для крепления остальных элементов управления. Оно представляет собой анатомическую систему из затылочного, нащечных, налобного и подбородочного ремней, к которым также часто добавляется капсюль для фиксации челюсти. \nТрензель — это распространенный вид удил, состоящий из грызла (цельного или сочлененного из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья, а также поводья. Трензель считается классическим и относительно мягким средством управления.",
+      "question": "What piece of tack is this?",
+      "explanation": "A headstall is the strap framework of a bridle, without the reins, that supports the other pieces of tack on the horse's head. A snaffle is a common direct-action bit with a straight or jointed mouthpiece and rings or cheeks to which the cheekpieces and reins attach. It is one of the standard and generally milder types of bitting.",
       "image": "img/quiz/horse-amunition/34.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Оголовье с трензелем"
+          "text": "Headstall with snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Оголовье с мундштуком"
+          "text": "Headstall with curb bit"
         },
         {
           "id": "answer-03",
-          "text": "Оголовье с пелямом"
+          "text": "Headstall with Pelham bit"
         },
         {
           "id": "answer-04",
-          "text": "Уздечка"
+          "text": "Bridle"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-35",
-      "question": "Что это за амуниция?",
-      "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+      "question": "What piece of tack is this?",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
       "image": "img/quiz/horse-amunition/35.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-36",
-      "question": "Что это за амуниция?",
-      "explanation": "Уздечка (узда) — это базовый элемент конного снаряжения, надеваемый на голову лошади для контроля и управления ею во время езды. Она состоит из оголовья (системы ремней: затылочного, нащечных, налобного, подбородочного и часто капсюля), повода и удил. ",
+      "question": "What piece of tack is this?",
+      "explanation": "A bridle is a basic piece of horse tack worn on the head to control and guide the horse while riding. It consists of the headstall—the system of straps including the crownpiece, cheekpieces, browband, throatlatch, and often a noseband—together with the reins and bit.",
       "image": "img/quiz/horse-amunition/36.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-37",
-      "question": "Что это за удила?",
-      "explanation": "Пелям — это комбинированный вид удил рычажного типа, который совмещает в себе свойства простого трензеля и строгого мундштука. Конструктивно он состоит из грызла и двух боковых металлических щечек с кольцами на разных уровнях: верхние кольца служат для крепления нащечных ремней уздечки и подбородной цепочки, а нижние и средние — для пристегивания поводьев. При работе с пелямом всадник может использовать либо два комплекта поводьев (один дает мягкое прямое воздействие на углы рта, а второй включает рычаг и давит на затылок и подбородок), либо один повод через специальный соединительный ремешок-перемычку. Этот инструмент часто применяется в конкуре и троеборье для контроля сильных, импульсивных лошадей, так как позволяет мгновенно переходить от мягкой подсказки к строгому сдерживанию.",
+      "question": "What type of bit is this?",
+      "explanation": "A Pelham is a leverage bit that combines features of a snaffle and a curb. It has a mouthpiece and cheeks with rings at different levels: the upper fittings attach to the bridle and curb chain, while the lower rings take the reins. It may be ridden with two reins for separate direct and curb actions, or with one rein attached through roundings. Pelhams are often used on strong horses in jumping and eventing.",
       "image": "img/quiz/horse-amunition/37.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Трензель"
+          "text": "Snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Мундштук"
+          "text": "Curb bit"
         },
         {
           "id": "answer-03",
-          "text": "Пелям"
+          "text": "Pelham bit"
         },
         {
           "id": "answer-04",
-          "text": "Олимпийка"
+          "text": "Olympic bit"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-38",
-      "question": "Что это за амуниция?",
-      "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+      "question": "What piece of tack is this?",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
       "image": "img/quiz/horse-amunition/38.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-39",
-      "question": "Что это за удила?",
-      "explanation": "Пелям — это комбинированный вид удил рычажного типа, который совмещает в себе свойства простого трензеля и строгого мундштука. Конструктивно он состоит из грызла и двух боковых металлических щечек с кольцами на разных уровнях: верхние кольца служат для крепления нащечных ремней уздечки и подбородной цепочки, а нижние и средние — для пристегивания поводьев. При работе с пелямом всадник может использовать либо два комплекта поводьев (один дает мягкое прямое воздействие на углы рта, а второй включает рычаг и давит на затылок и подбородок), либо один повод через специальный соединительный ремешок-перемычку. Этот инструмент часто применяется в конкуре и троеборье для контроля сильных, импульсивных лошадей, так как позволяет мгновенно переходить от мягкой подсказки к строгому сдерживанию.",
+      "question": "What type of bit is this?",
+      "explanation": "A Pelham is a leverage bit that combines features of a snaffle and a curb. It has a mouthpiece and cheeks with rings at different levels: the upper fittings attach to the bridle and curb chain, while the lower rings take the reins. It may be ridden with two reins for separate direct and curb actions, or with one rein attached through roundings. Pelhams are often used on strong horses in jumping and eventing.",
       "image": "img/quiz/horse-amunition/39.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Трензель"
+          "text": "Snaffle bit"
         },
         {
           "id": "answer-02",
-          "text": "Мундштук"
+          "text": "Curb bit"
         },
         {
           "id": "answer-03",
-          "text": "Пелям"
+          "text": "Pelham bit"
         },
         {
           "id": "answer-04",
-          "text": "Олимпийка"
+          "text": "Olympic bit"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-40",
-      "question": "Что это за амуниция?",
-      "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+      "question": "What piece of tack is this?",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
       "image": "img/quiz/horse-amunition/40.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Недоуздок"
+          "text": "Halter"
         },
         {
           "id": "answer-02",
-          "text": "Уздечка"
+          "text": "Bridle"
         },
         {
           "id": "answer-03",
-          "text": "Кавессон"
+          "text": "Cavesson"
         },
         {
           "id": "answer-04",
-          "text": "Хакамора"
+          "text": "Mechanical hackamore"
         },
         {
           "id": "answer-05",
-          "text": "Сайдпул"
+          "text": "Sidepull"
         },
         {
           "id": "answer-06",
-          "text": "Босал"
+          "text": "Bosal"
         }
       ],
       "correct_answer_id": "answer-04"
     }
   ],
-  "translation_status": "outdated",
-  "_pending_translation": {
-    "source_revision": "15a6b3cd8ae0b1ee51d63f4bc7de4b6bc37754eadf7af03d99c02f534a049f23",
-    "package": "horse-amunition-en.json"
+  "translation_status": "current",
+  "_translation_source": {
+    "title": "Конная амуниция",
+    "short_description": "Это очень простая викторина, в ней вам предстоит по фотографиям узнавать различные элементы конного снаряжения и выбирать правильный ответ из предоставленного списка вариантов.",
+    "intro": "Это очень простая викторина, в ней вам предстоит по фотографиям узнавать различные элементы конного снаряжения и выбирать правильный ответ из предоставленного списка вариантов.",
+    "questionImagesAlt": "Фотография лошади для определения амуниции",
+    "difficulty": "low",
+    "cover": "img/covers/Portrait_01_Ammunition_01.webp",
+    "publication_date": "2026-08-03T14:14:00+00:00",
+    "tags": [
+      "amunition",
+      "images"
+    ],
+    "questions": [
+      {
+        "id": "question-01",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/01.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Недоуздок — это уздечка без удил, которая используется для вывода лошади из левады или денника, привязывания, проведения гигиенических процедур и ветеринарного осмотра. Он состоит из капсюльного (носового), щечных, затылочного и подбородочного ремней, которые мягко обхватывают голову животного, не причиняя ему дискомфорта и позволяя спокойно открывать рот. Чаще всего недоуздки изготавливают из прочной нейлоновой стропы, кожи или мягкой тесьмы, а крепится к ним специальный веревочный повод — чомбур. ",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-02",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/02.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Уздечка (узда) — это базовый элемент конного снаряжения, надеваемый на голову лошади для контроля и управления ею во время езды. Она состоит из оголовья (системы ремней: затылочного, нащечных, налобного, подбородочного и часто капсюля), повода и удил. ",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-03",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/03.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-04",
+        "question": "Как называется эта розовая ткань под седлом?",
+        "image": "img/quiz/horse-amunition/04.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Потник"
+          },
+          {
+            "id": "answer-02",
+            "text": "Меховушка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Амортизатор"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вальтрап"
+          },
+          {
+            "id": "answer-05",
+            "text": "Подседельник"
+          },
+          {
+            "id": "answer-06",
+            "text": "Попона"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Вальтрап — это плотное текстильное покрывало, которое подкладывается под седло для защиты спины лошади и сохранения амуниции. Он изготавливается из хлопковых, стеганых или современных синтетических тканей, хорошо впитывает пот животного, предотвращает появление потертостей от седла и обеспечивает дополнительную вентиляцию.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-05",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/05.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Оголовье и трензель"
+          },
+          {
+            "id": "answer-02",
+            "text": "Оголовье и мундштук"
+          },
+          {
+            "id": "answer-03",
+            "text": "Оголовье и пелям"
+          },
+          {
+            "id": "answer-04",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Оголовье — это ременная часть уздечки (без повода), которая надевается на голову лошади и служит основой для крепления остальных элементов управления. Оно представляет собой анатомическую систему из затылочного, нащечных, налобного и подбородочного ремней, к которым также часто добавляется капсюль для фиксации челюсти. \nТрензель — это распространенный вид удил, который состоит из грызла (оно может быть цельным или сочлененным из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья и поводья. Трензель считается классическим и относительно мягким средством управления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-06",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/06.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-07",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/07.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Уздечка Кука"
+          },
+          {
+            "id": "answer-02",
+            "text": "Ковбойская уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Барочная уздечка"
+          },
+          {
+            "id": "answer-04",
+            "text": "Скаковая уздечка"
+          },
+          {
+            "id": "answer-05",
+            "text": "Мексиканская уздечка"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кавессон"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Барочная уздечка — это парадный элемент конной амуниции, выполненный в историческом стиле эпохи Ренессанса и Барокко. Она отличается от классического спортивного снаряжения обилием декоративных элементов: фигурной португальской или испанской фурнитурой, массивными пряжками, изящным тиснением на коже, а также свисающими кожаными кистями (москеро) на налобном ремне. Конструктивно такая уздечка часто сочетается с рычажным железом (барочным мундштуком) и используется в традиционных португальских и испанских портретных съемках, национальных шоу, конной корриде, а также в дисциплине Working Equitation (рабочая выездка).",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-08",
+        "question": "Как называется ремень, который не позволяет коню открывать рот?",
+        "image": "img/quiz/horse-amunition/08.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Капсуль"
+          },
+          {
+            "id": "answer-02",
+            "text": "Сопля"
+          },
+          {
+            "id": "answer-03",
+            "text": "Намордник"
+          },
+          {
+            "id": "answer-04",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-05",
+            "text": "Начелюстник"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Сопля (официально — капсюльный ремень, или сопливчик) — это тонкий вспомогательный кожаный ремешок, который является частью комбинированного (ирландского) капсюля. Он крепится к верхней петле носового ремня, проходит перед трензелем и застегивается под подбородком лошади. Главная задача этого элемента — мягко удерживать рот животного закрытым, чтобы оно не могло перекинуть язык через железо, уйти от контакта с поводом или широко открыть челюсть для игнорирования команд всадника.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-09",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/09.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Недоуздок — это уздечка без удил, которая используется для вывода лошади из левады или денника, привязывания, проведения гигиенических процедур и ветеринарного осмотра. Он состоит из капсюльного (носового), щечных, затылочного и подбородочного ремней, которые мягко обхватывают голову животного, не причиняя ему дискомфорта и позволяя спокойно открывать рот. Чаще всего недоуздки изготавливают из прочной нейлоновой стропы, кожи или мягкой тесьмы, а крепится к ним специальный веревочный повод — чомбур. ",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-10",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/10.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Одноушная вестерн-уздечка"
+          },
+          {
+            "id": "answer-02",
+            "text": "Двухушная вестерн-уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Безушная вестерн-уздечка"
+          },
+          {
+            "id": "answer-04",
+            "text": "Ушастая вестерн-уздечка"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Одноушная вестерн-уздечка (One-ear bridle) — это минималистичная разновидность уздечки, характерная для стиля вестерн и предназначенная для работы со взрослыми, хорошо обученными лошадьми. Ее ключевая особенность — полное отсутствие капсюля, подбородочного и классического налобного ремней. Вместо этого конструкция удерживается на голове животного за счет одной кожаной петли (или ремешка), которая надевается строго на одно ухо. Такая уздечка используется в комплекте с рычажным железом (мундштуком) и длинными раздельными поводьями, обеспечивая всаднику легкий контакт, а лошади — максимальную свободу движений и комфорт без лишнего давления ремней.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-11",
+        "question": "Как называется ремень, охватывающий храп лошади?",
+        "image": "img/quiz/horse-amunition/11.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Нахрапник"
+          },
+          {
+            "id": "answer-02",
+            "text": "Храповик"
+          },
+          {
+            "id": "answer-03",
+            "text": "Капсюль"
+          },
+          {
+            "id": "answer-04",
+            "text": "Кринет"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Капсюль — это ременная петля, которая охватывает морду лошади в области храпа и служит для ограничения чрезмерного открывания рта, фиксации челюсти и стабилизации удил. Он крепится к нащечным ремням или имеет собственный суголовный ремень, проходящий под затылочным. Капсюль не позволяет животному уходить от контакта с поводом, перекидывать язык или перекрещивать челюсти, чтобы проигнорировать команды всадника. В зависимости от конструкции (английский, ганноверский, шведский, мексиканский) он застегивается выше или ниже трензеля, оказывая разную степень давления на чувствительную переносицу и подбородок.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-12",
+        "question": "Как называется ремень, который крепится к седлу и охватывает грудь лошади, предотвращая сползание седла назад?",
+        "image": "img/quiz/horse-amunition/12.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Подпруга"
+          },
+          {
+            "id": "answer-02",
+            "text": "Подперсье"
+          },
+          {
+            "id": "answer-03",
+            "text": "Мартингал"
+          },
+          {
+            "id": "answer-04",
+            "text": "Путлище"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Подперсье — это элемент конной амуниции, который крепится к седлу и охватывает грудь лошади, предотвращая сползание седла назад во время езды. Оно крепится к передней луке и подпруге, удерживая всю конструкцию на месте при езде в гору, прыжках через барьеры или активном галопе. Подперсья изготавливаются из кожи, прочных эластичных лент или синтетических материалов и часто оснащаются мягкими подложками, чтобы ремни не натирали плечи и грудь животного при движении. Этот аксессуар является обязательной частью экипировки в конкуре, троеборье и пробегах, а также часто совмещается с мартингалом для дополнительного контроля за положением головы лошади.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-13",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/13.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Уздечка (узда) — это базовый элемент конного снаряжения, надеваемый на голову лошади для контроля и управления ею во время езды. Она состоит из оголовья (системы ремней: затылочного, нащечных, налобного, подбородочного и часто капсюля), повода и удил. ",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-14",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/14.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Недоуздок — это уздечка без удил, которая используется для вывода лошади из левады или денника, привязывания, проведения гигиенических процедур и ветеринарного осмотра. Он состоит из капсюльного (носового), щечных, затылочного и подбородочного ремней, которые мягко обхватывают голову животного, не причиняя ему дискомфорта и позволяя спокойно открывать рот. Чаще всего недоуздки изготавливают из прочной нейлоновой стропы, кожи или мягкой тесьмы, а крепится к ним специальный веревочный повод — чомбур. ",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-15",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/15.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Оголовье и трензель"
+          },
+          {
+            "id": "answer-02",
+            "text": "Оголовье и мундштук"
+          },
+          {
+            "id": "answer-03",
+            "text": "Оголовье и пелям"
+          },
+          {
+            "id": "answer-04",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Оголовье — это ременная часть уздечки (без повода), которая надевается на голову лошади и служит основой для крепления остальных элементов управления. Оно представляет собой анатомическую систему из затылочного, нащечных, налобного и подбородочного ремней, к которым также часто добавляется капсюль для фиксации челюсти. \nТрензель — это распространенный вид удил, состоящий из грызла (цельного или сочлененного из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья, а также поводья. Трензель считается классическим и относительно мягким средством управления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-16",
+        "question": "Что это за седло?",
+        "image": "img/quiz/horse-amunition/16.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Конкурное"
+          },
+          {
+            "id": "answer-02",
+            "text": "Выездковое"
+          },
+          {
+            "id": "answer-03",
+            "text": "Ковбойское"
+          },
+          {
+            "id": "answer-04",
+            "text": "Казачье"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Ковбойское седло (или вестерн-седло) — это глубокое и массивное седло, разработанное для длительного пребывания ковбоя в конном переходе и работы с лассо. Его ключевыми отличительными чертами являются высокая передняя лука с деревянным или металлическим рожком для фиксации веревки, глубокое сиденье и широкие плоские полки (ленчик), которые равномерно распределяют вес всадника по большой площади спины лошади. Конструкция ковбойского седла также включает широкие кожаные стремена (фендеры) с массивными деревянными или металлическими основаниями, а также длинные кожаные завязки (конопатые ремни) для крепления груза. Это тяжелое, но чрезвычайно прочное и комфортное седло обеспечивает всаднику максимальную безопасность и устойчивость, что делает его незаменимым в вестерн-спорте и при полевой езде на любые расстояния.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-17",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/17.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-05",
+        "explanation": "Сайдпул (sidepull) — это мягкая безжелезная уздечка, предназначенная для управления лошадью без использования удил за счет давления на переносицу. Конструктивно она похожа на недоуздок, но имеет усиленный, плотно прилегающий кожаный или веревочный носовой ремень, по бокам которого расположены два металлических кольца для крепления поводьев. Механизм действия сайд-пула основан на прямой подсказке: при натяжении правого повода кольцо тянет морду лошади направо, а левая сторона ремня мягко подталкивает ее в ту же сторону. Этот инструмент идеально подходит для заездки молодых лошадей, полевых прогулок, работы с травмированным ртом или обучения начинающих всадников, так как он полностью исключает риск травмировать челюсть животного.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-18",
+        "question": "Какой это тип капсюля?",
+        "image": "img/quiz/horse-amunition/18.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Английский"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мексиканский"
+          },
+          {
+            "id": "answer-03",
+            "text": "Исландский"
+          },
+          {
+            "id": "answer-04",
+            "text": "Ганноверский"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Английский капсюль — это классический и самый мягкий вид носового ремня, который застегивается на храпе лошади примерно на два пальца ниже скуловой кости и обязательно проходит выше трензельного железа и поводьев. Он мягко ограничивает возможность лошади широко открывать рот и уходить от команд всадника, при этом не блокируя полностью движения нижней челюсти и позволяя животному свободно отжевывать железо. Английский капсюль является базовым элементом в классических дисциплинах конного спорта (выездка, конкур), используется на простых трензельных уздечках и часто служит основой для крепления вспомогательного ремешка — «сопли».",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-19",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/19.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Кавессон (или капцунг) — это специализированное безжелезное оголовье, предназначенное для гимнастической работы с лошадью на корде, в руках, на вожжах или под верхом. Его главной конструктивной особенностью является плотный, анатомически подогнанный носовой ремень (капсюль), внутрь которого обычно встроена гибкая многозвенная металлическая цепь или пластина для точного прилегания к храпу. На переносье кавессона жестко закреплены три металлических кольца: центральное служит для пристегивания корды, а два боковых — для поводьев. Механизм действия кавессона основан на мягком, но строгом давлении на носовую кость: в отличие от обычного недоуздка, он не перекручивается на морде и позволяет всаднику давать лошади четкую команду на правильное боковое сгибание и постановление без заваливания затылка или травмирования чувствительного рта.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-20",
+        "question": "Что это за удила?",
+        "image": "img/quiz/horse-amunition/20.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Трензель"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мундштук"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пелям"
+          },
+          {
+            "id": "answer-04",
+            "text": "Олимпийка"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Мундштук — это строгое рычажное железо, которое вставляется в рот лошади и используется для тонкого, высокоточного управления, преимущественно в высшей школе выездки или вестерн-дисциплинах. Он состоит из цельного или изогнутого грызла (часто с портом/дужкой для языка) и двух боковых металлических щечек (рычагов), к нижней части которых крепится мундштучный повод, а к верхней — цепочка, проходящая под нижней челюстью. Механизм действия мундштука основан на законе рычага: при натяжении повода давление многократно усиливается и одновременно передается на беззубый край челюсти, язык, подбородок (через цепочку) и затылок лошади (через нащечные ремни). Этот инструмент требует от всадника исключительного мастерства и мягкости рук, так как он служит не для торможения, а для деликатного сбора, округления рамки и идеального баланса лошади.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-21",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/21.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-22",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/22.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Недоуздок — это уздечка без удил, которая используется для вывода лошади из левады или денника, привязывания, проведения гигиенических процедур и ветеринарного осмотра. Он состоит из капсюльного (носового), щечных, затылочного и подбородочного ремней, которые мягко обхватывают голову животного, не причиняя ему дискомфорта и позволяя спокойно открывать рот. Чаще всего недоуздки изготавливают из прочной нейлоновой стропы, кожи или мягкой тесьмы, а крепится к ним специальный веревочный повод — чомбур. ",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-23",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/23.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Уздечка Кука"
+          },
+          {
+            "id": "answer-02",
+            "text": "Барочная уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Ковбойская уздечка"
+          },
+          {
+            "id": "answer-04",
+            "text": "Скаковая уздечка"
+          },
+          {
+            "id": "answer-05",
+            "text": "Мексиканская уздечка"
+          },
+          {
+            "id": "answer-06",
+            "text": "Кавессон"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Барочная уздечка — это парадный элемент конной амуниции, выполненный в историческом стиле эпохи Ренессанса и Барокко. Она отличается от классического спортивного снаряжения обилием декоративных элементов: фигурной португальской или испанской фурнитурой, массивными пряжками, изящным тиснением на коже, а также свисающими кожаными кистями (москеро) на налобном ремне. Конструктивно такая уздечка часто сочетается с рычажным железом (барочным мундштуком) и используется в традиционных португальских и испанских портретных съемках, национальных шоу, конной корриде, а также в дисциплине Working Equitation (рабочая выездка).",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-24",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/24.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Босал (bosal) — это жесткое безжелезное кольцо, которое используется для начального этапа обучения вестерн-лошадей. Он изготавливается из сплетенных полосок сыромятной кожи (раухайда) и имеет овальную форму, которая охватывает нос лошади. В нижней части босала, под подбородком животного, расположен массивный узел (heel knot), к которому особым образом привязывается тяжелый плетеный повод — мекати. Механизм действия босала основан не на натяжении, а на легком балансирующем давлении и покачивании: при переносе повода жесткое кольцо воздействует на боковые стороны морды и переносицу лошади, указывая ей направление поворота и помогая мягко уходить от давления без использования железа во рту.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-25",
+        "question": "Что это за седло?",
+        "image": "img/quiz/horse-amunition/25.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кавалерийское"
+          },
+          {
+            "id": "answer-02",
+            "text": "Ковбойское"
+          },
+          {
+            "id": "answer-03",
+            "text": "Английское"
+          },
+          {
+            "id": "answer-04",
+            "text": "Испанское"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Английское седло — это общее название группы классических спортивных седел, разработанных для олимпийских конных дисциплин, таких как конкур, выездка и троеборье. Его главная особенность — легкий вес, минималистичный дизайн и отсутствие рожка, что отличает его от массивного вестерн-седла. Основой конструкции служит гибкий или жесткий каркас (ленчик), на который крепятся мягкие кожаные подушки, набитые шерстью или пеной, а также сиденье, передняя и задняя луки. Английское седло обеспечивает всаднику максимально близкий, плотный контакт с лошадью через крылья и стремена, позволяя чутко управлять корпусом и шлюсом.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-26",
+        "question": "Что это за удила?",
+        "image": "img/quiz/horse-amunition/26.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Трензель"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мундштук"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пелям"
+          },
+          {
+            "id": "answer-04",
+            "text": "Олимпийка"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Мундштук — это строгое рычажное железо, которое вставляется в рот лошади и используется для тонкого, высокоточного управления, преимущественно в высшей школе выездки или вестерн-дисциплинах. Он состоит из цельного или изогнутого грызла (часто с портом/дужкой для языка) и двух боковых металлических щечек (рычагов), к нижней части которых крепится мундштучный повод, а к верхней — цепочка, проходящая под нижней челюстью. Механизм действия мундштука основан на законе рычага: при натяжении повода давление многократно усиливается и одновременно передается на беззубый край челюсти, язык, подбородок (через цепочку) и затылок лошади (через нащечные ремни). Этот инструмент требует от всадника исключительного мастерства и мягкости рук, так как он служит не для торможения, а для деликатного сбора, округления рамки и идеального баланса лошади.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-27",
+        "question": "Что это за удила?",
+        "image": "img/quiz/horse-amunition/27.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Трензель"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мундштук"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пелям"
+          },
+          {
+            "id": "answer-04",
+            "text": "Олимпийка"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Трензель — это распространенный вид удил, состоящий из грызла (цельного или сочлененного из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья, а также поводья. Трензель считается классическим и относительно мягким средством управления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-28",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/28.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Кавессон (или капцунг) — это специализированное безжелезное оголовье, предназначенное для гимнастической работы с лошадью на корде, в руках, на вожжах или под верхом. Его главной конструктивной особенностью является плотный, анатомически подогнанный носовой ремень (капсюль), внутрь которого обычно встроена гибкая многозвенная металлическая цепь или пластина для точного прилегания к храпу. На переносье кавессона жестко закреплены три металлических кольца: центральное служит для пристегивания корды, а два боковых — для поводьев. Механизм действия кавессона основан на мягком, но строгом давлении на носовую кость: в отличие от обычного недоуздка, он не перекручивается на морде и позволяет всаднику давать лошади четкую команду на правильное боковое сгибание и постановление без заваливания затылка или травмирования чувствительного рта.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-29",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/29.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Одноушная вестерн-уздечка"
+          },
+          {
+            "id": "answer-02",
+            "text": "Двухушная вестерн-уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Безушная вестерн-уздечка"
+          },
+          {
+            "id": "answer-04",
+            "text": "Кавессон"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Одноушная вестерн-уздечка (One-ear bridle) — это минималистичная разновидность уздечки, характерная для стиля вестерн и предназначенная для работы со взрослыми, хорошо обученными лошадьми. Ее ключевая особенность — полное отсутствие капсюля, подбородочного и классического налобного ремней. Вместо этого конструкция удерживается на голове животного за счет одной кожаной петли (или ремешка), которая надевается строго на одно ухо. Такая уздечка используется в комплекте с рычажным железом (мундштуком) и длинными раздельными поводьями, обеспечивая всаднику легкий контакт, а лошади — максимальную свободу движений и комфорт без лишнего давления ремней.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-30",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/30.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-06",
+        "explanation": "Босал (bosal) — это жесткое безжелезное кольцо, которое используется для начального этапа обучения вестерн-лошадей. Он изготавливается из сплетенных полосок сыромятной кожи (раухайда) и имеет овальную форму, которая охватывает нос лошади. В нижней части босала, под подбородком животного, расположен массивный узел (heel knot), к которому особым образом привязывается тяжелый плетеный повод — мекати. Механизм действия босала основан не на натяжении, а на легком балансирующем давлении и покачивании: при переносе повода жесткое кольцо воздействует на боковые стороны морды и переносицу лошади, указывая ей направление поворота и помогая мягко уходить от давления без использования железа во рту.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-31",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/31.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Анатомическое оголовье с трензелем"
+          },
+          {
+            "id": "answer-02",
+            "text": "Барочное оголовье с трензелем"
+          },
+          {
+            "id": "answer-03",
+            "text": "Анатомическое оголовье с мундштуком"
+          },
+          {
+            "id": "answer-04",
+            "text": "Барочное оголовье с мундштуком"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Анатомическое оголовье — это современная высокотехнологичная разновидность уздечки, разработанная с учетом сложного строения черепа, расположения нервных окончаний и кровеносных сосудов на голове лошади. Его ключевое отличие от классического оголовья заключается в изогнутой форме затылочного ремня, который освобождает от давления чувствительную зону за ушами, и в особой геометрии нащечных ремней и капсюля, которые проходят в обход скуловых костей и крупных лицевых нервов. Такое снаряжение предотвращает защемление тканей, не мешает свободному дыханию, минимизирует дискомфорт и позволяет животному максимально расслабиться, улучшая его проводимость и контакт с рукой всадника.\nТрензель — это распространенный вид удил, состоящий из грызла (цельного или сочлененного из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья, а также поводья. Трензель считается классическим и относительно мягким средством управления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-32",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/32.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Садпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Кавессон (или капцунг) — это специализированное безжелезное оголовье, предназначенное для гимнастической работы с лошадью на корде, в руках, на вожжах или под верхом. Его главной конструктивной особенностью является плотный, анатомически подогнанный носовой ремень (капсюль), внутрь которого обычно встроена гибкая многозвенная металлическая цепь или пластина для точного прилегания к храпу. На переносье кавессона жестко закреплены три металлических кольца: центральное служит для пристегивания корды, а два боковых — для поводьев. Механизм действия кавессона основан на мягком, но строгом давлении на носовую кость: в отличие от обычного недоуздка, он не перекручивается на морде и позволяет всаднику давать лошади четкую команду на правильное боковое сгибание и постановление без заваливания затылка или травмирования чувствительного рта.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-33",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/33.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Калифорнийская хакамора"
+          },
+          {
+            "id": "answer-02",
+            "text": "Австралийская хакамора"
+          },
+          {
+            "id": "answer-03",
+            "text": "Барочная хакамора"
+          },
+          {
+            "id": "answer-04",
+            "text": "Русская хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Грузинская хакамора"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Барочная хакамора — это парадный элемент безжелезной амуниции, выполненный в пышном историческом стиле эпохи Ренессанса и Барокко. Ее главным отличием от спортивных аналогов являются массивные, фигурные металлические рычаги (щеки), украшенные изящной ковкой, орнаментами или литьем под золото и серебро. Переносица такой хакаморы часто изготавливается из широкой качественной кожи с тиснением, а крепится она к декоративному барочному оголовью с характерными пряжками и кожаными кистями (москеро). Механизм действия барочной хакаморы остается традиционным — строгое рычажное давление на переносицу и подбородок, однако используется она в основном для исторических шоу, португальской и испанской выездки, конных выставок и тематических фотосессий.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-34",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/34.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Оголовье с трензелем"
+          },
+          {
+            "id": "answer-02",
+            "text": "Оголовье с мундштуком"
+          },
+          {
+            "id": "answer-03",
+            "text": "Оголовье с пелямом"
+          },
+          {
+            "id": "answer-04",
+            "text": "Уздечка"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Оголовье — это ременная часть уздечки (без повода), которая надевается на голову лошади и служит основой для крепления остальных элементов управления. Оно представляет собой анатомическую систему из затылочного, нащечных, налобного и подбородочного ремней, к которым также часто добавляется капсюль для фиксации челюсти. \nТрензель — это распространенный вид удил, состоящий из грызла (цельного или сочлененного из двух-трех подвижных частей) и двух боковых колец, к которым крепятся нащечные ремни оголовья, а также поводья. Трензель считается классическим и относительно мягким средством управления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-35",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/35.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-36",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/36.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Уздечка (узда) — это базовый элемент конного снаряжения, надеваемый на голову лошади для контроля и управления ею во время езды. Она состоит из оголовья (системы ремней: затылочного, нащечных, налобного, подбородочного и часто капсюля), повода и удил. ",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-37",
+        "question": "Что это за удила?",
+        "image": "img/quiz/horse-amunition/37.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Трензель"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мундштук"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пелям"
+          },
+          {
+            "id": "answer-04",
+            "text": "Олимпийка"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Пелям — это комбинированный вид удил рычажного типа, который совмещает в себе свойства простого трензеля и строгого мундштука. Конструктивно он состоит из грызла и двух боковых металлических щечек с кольцами на разных уровнях: верхние кольца служат для крепления нащечных ремней уздечки и подбородной цепочки, а нижние и средние — для пристегивания поводьев. При работе с пелямом всадник может использовать либо два комплекта поводьев (один дает мягкое прямое воздействие на углы рта, а второй включает рычаг и давит на затылок и подбородок), либо один повод через специальный соединительный ремешок-перемычку. Этот инструмент часто применяется в конкуре и троеборье для контроля сильных, импульсивных лошадей, так как позволяет мгновенно переходить от мягкой подсказки к строгому сдерживанию.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-38",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/38.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-39",
+        "question": "Что это за удила?",
+        "image": "img/quiz/horse-amunition/39.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Трензель"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мундштук"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пелям"
+          },
+          {
+            "id": "answer-04",
+            "text": "Олимпийка"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Пелям — это комбинированный вид удил рычажного типа, который совмещает в себе свойства простого трензеля и строгого мундштука. Конструктивно он состоит из грызла и двух боковых металлических щечек с кольцами на разных уровнях: верхние кольца служат для крепления нащечных ремней уздечки и подбородной цепочки, а нижние и средние — для пристегивания поводьев. При работе с пелямом всадник может использовать либо два комплекта поводьев (один дает мягкое прямое воздействие на углы рта, а второй включает рычаг и давит на затылок и подбородок), либо один повод через специальный соединительный ремешок-перемычку. Этот инструмент часто применяется в конкуре и троеборье для контроля сильных, импульсивных лошадей, так как позволяет мгновенно переходить от мягкой подсказки к строгому сдерживанию.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-40",
+        "question": "Что это за амуниция?",
+        "image": "img/quiz/horse-amunition/40.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Недоуздок"
+          },
+          {
+            "id": "answer-02",
+            "text": "Уздечка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кавессон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хакамора"
+          },
+          {
+            "id": "answer-05",
+            "text": "Сайдпул"
+          },
+          {
+            "id": "answer-06",
+            "text": "Босал"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Хакамора — это безжелезная разновидность уздечки, предназначенная для управления лошадью без использования удил во рту. Она состоит из специального носового ремня (капсюля), металлических рычагов (щек), подбородного ремня или цепочки, а также поводьев. Механизм действия хакаморы основан на принципе рычага: при натяжении повода давление переносится на чувствительную переносицу, подбородок и затылок лошади. Этот инструмент часто применяется для работы с молодыми животными, лошадьми со стоматологическими проблемами или травмами рта, однако из-за строгости рычажного воздействия он требует от всадника очень мягких и профессиональных рук.",
+        "image_author": "Неизвестен"
+      }
+    ]
   },
-  "_translation_source": {}
+  "source_content_hash": "15a6b3cd8ae0b1ee51d63f4bc7de4b6bc37754eadf7af03d99c02f534a049f23"
 }

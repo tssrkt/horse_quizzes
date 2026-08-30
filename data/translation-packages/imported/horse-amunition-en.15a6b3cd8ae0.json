@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "horse-amunition",
   "target_quiz": "horse-amunition-en",
   "source_revision": "15a6b3cd8ae0b1ee51d63f4bc7de4b6bc37754eadf7af03d99c02f534a049f23",
