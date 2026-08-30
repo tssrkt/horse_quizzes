@@ -18,6 +18,16 @@ def run():
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch(headless=True)
             page = browser.new_page(viewport={"width": 1280, "height": 800})
+            desktop_paths = ("/", "/quizzes.html", "/contacts.html", "/en/", "/en/quizzes.html", "/v/horse-breeds/", "/en/v/horse-breeds/")
+            header_heights = []
+            for path in desktop_paths:
+                page.goto(f"{BASE}{path}")
+                boxes = [page.locator(selector).bounding_box() for selector in (".brand", ".site-nav", ".language-switch")]
+                assert all(boxes)
+                centers = [box["y"] + box["height"] / 2 for box in boxes]
+                assert max(centers) - min(centers) <= 2, (path, centers)
+                header_heights.append(page.locator(".site-header").bounding_box()["height"])
+            assert max(header_heights) - min(header_heights) <= 1
             page.goto(f"{BASE}/en/")
             assert page.locator("html").get_attribute("lang") == "en"
             assert page.get_by_role("link", name="EN", exact=True).is_visible()
@@ -33,10 +43,13 @@ def run():
             page.get_by_role("button", name="Start quiz").click()
             page.get_by_text("Question 1 of", exact=False).wait_for()
             mobile = browser.new_page(viewport={"width": 390, "height": 844})
-            mobile.goto(f"{BASE}/en/")
-            assert mobile.get_by_role("navigation", name="Language").is_visible()
-            assert mobile.get_by_role("button", name="Open menu").is_visible()
-            assert mobile.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+            for width in (768, 520, 390):
+                mobile.set_viewport_size({"width": width, "height": 844})
+                mobile.goto(f"{BASE}/en/")
+                assert mobile.get_by_role("navigation", name="Language").is_visible()
+                assert mobile.get_by_role("button", name="Open menu").is_visible()
+                assert mobile.locator(".brand-logo").bounding_box()["width"] == 180
+                assert mobile.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
             mobile.get_by_role("button", name="Open menu").click()
             assert mobile.get_by_role("button", name="Close menu").get_attribute("aria-expanded") == "true"
             browser.close()
