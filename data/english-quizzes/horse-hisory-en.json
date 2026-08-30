@@ -12,983 +12,1964 @@
     "amunition"
   ],
   "published": false,
-  "title": "Лошадь в истории",
-  "short_description": "Эта викторина посвящена истории взаимоотношений человека и лошади. Вас ждут вопросы о легендарных конях, древней конной амуниции и других интересных страницах прошлого.",
-  "intro": "Эта викторина посвящена истории взаимоотношений человека и лошади. Вас ждут вопросы о легендарных конях, древней конной амуниции и других интересных страницах прошлого.",
+  "title": "The Horse in History",
+  "short_description": "This quiz explores the history of the relationship between humans and horses. Expect questions about legendary horses, ancient equestrian equipment, and other fascinating pages from the past.",
+  "intro": "This quiz explores the history of the relationship between humans and horses. Expect questions about legendary horses, ancient equestrian equipment, and other fascinating pages from the past.",
   "questions": [
     {
       "id": "question-01",
-      "question": "Что такое аргамак?",
-      "explanation": "Аргамак — это старинное восточное слово, которым на Руси и в странах Восточной Европы в XVI–XVIII веках называли породистых, элитных верховых лошадей восточного происхождения. Чаще всего под этим термином скрывались предки современных ахалтекинцев, арабских, персидских и туркменских скакунов. Эти кони ценились на вес золота за свою невероятную резвость, выносливость в дальних походах, тонкую сухую кожу и грациозный, поджарый экстерьер. Владение аргамаком считалось признаком высочайшего статуса, богатства и знатности, поэтому таких лошадей содержали исключительно в царских конюшнях и конюшнях богатых бояр, используя для торжественных выездов, царской охоты и военных походов.",
+      "question": "What is an argamak?",
+      "explanation": "Argamak is an old Eastern term used in Rus' and other parts of Eastern Europe in the 16th–18th centuries for high-quality, elite riding horses of Oriental origin. The name was often applied to horses related to the ancestors of modern Akhal-Tekes, Arabians, Persian horses, and Turkmen horses. They were prized for speed, endurance on long journeys, fine skin, and a graceful, lean build. Owning an argamak was a sign of wealth and high status, so such horses were kept in royal and aristocratic stables and used for ceremonial riding, hunting, and military campaigns.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Металлический инструмент для расчистки копыт"
+          "text": "A metal tool for trimming hooves"
         },
         {
           "id": "answer-02",
-          "text": "Старинное название породистых восточных коней"
+          "text": "An old name for elite Eastern riding horses"
         },
         {
           "id": "answer-03",
-          "text": "Специальное зимнее седло для тяжеловозов"
+          "text": "A special winter saddle for draft horses"
         },
         {
           "id": "answer-04",
-          "text": "Порода диких лесных пони из Азии"
+          "text": "A breed of wild forest pony from Asia"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-02",
-      "question": "Что такое азиль (асиль)?",
-      "explanation": "Азиль (асиль) — это особый иппологический термин арабского происхождения, переводящийся как «благородный», «чистокровный» или «истинный», который используется для обозначения чистокровных арабских лошадей древнейшего происхождения, чья родословная не имеет ни единой чужеродной примеси. Традиция жесткого отбора таких животных зародилась у кочевых племен бедуинов Аравийского полуострова, которые веками устно передавали из поколения в поколение родословные своих коней, гарантируя их абсолютную генетическую чистоту. Лошади типа азиль отличались не только эталонным восточным экстерьером, сухим типом сложения и огненным темпераментом, но и феноменальной выносливостью, способностью выживать в суровых пустынных условиях и безграничной преданностью человеку. В современном коннозаводстве этот термин подчеркивает уникальный статус лошади, все предки которой без исключения зарегистрированы в племенных книгах как истинно пустынные арабские скакуны.",
+      "question": "What does “asil” mean in Arabian horse breeding?",
+      "explanation": "Asil, also spelled asıl or asil, is a term of Arabic origin meaning “noble,” “pure,” or “authentic.” In horse breeding it is used for Arabian horses regarded as being of pure desert-bred ancestry without outside blood. The tradition is associated with Bedouin tribes of the Arabian Peninsula, who preserved and passed down the pedigrees of their horses for generations. Asil Arabians were valued for their refined type, endurance, hardiness in desert conditions, and close relationship with people. In modern breeding, the term emphasizes an Arabian pedigree traced entirely to recognized desert-bred stock.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Дикий степной жеребец из Центральной Азии"
+          "text": "A wild steppe stallion from Central Asia"
         },
         {
           "id": "answer-02",
-          "text": "Традиционное восточное покрывало под тяжелое седло"
+          "text": "A traditional Eastern cloth placed beneath a heavy saddle"
         },
         {
           "id": "answer-03",
-          "text": "Истинно чистокровная арабская лошадь без примесей"
+          "text": "A purebred Arabian horse of recognized unmixed desert ancestry"
         },
         {
           "id": "answer-04",
-          "text": "Деревянная кормушка для сена в деннике"
+          "text": "A wooden hay feeder in a stall"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-03",
-      "question": "Что такое дестриэ?",
-      "explanation": "Дестриэ (Destrier) — это самый известный тип средневекового боевого коня, который являлся главным оружием и символом статуса тяжеловооруженного рыцаря в Западной Европе XII–XIV веков. Название происходит от латинского слова dextarius («правый»), так как на марше оруженосец вел этого ценнейшего коня справа от рыцаря, который ехал на более легкой верховой лошади. Дестриэ не были гигантскими тяжеловозами, какими их часто изображают, но обладали мощным костяком, широкой грудью, сильным крупом и взрывным темпераментом. Эти кони обучались сокрушительному натиску в плотном строю, умели драться в ближнем бою и были способны нести на себе рыцаря в полных стальных доспехах, вес которых вместе с седлом порой превышал 100 килограммов.",
+      "question": "What is a destrier?",
+      "explanation": "A destrier was the most famous type of medieval warhorse associated with heavily armed knights in Western Europe during the 12th–14th centuries. The name is linked to the Latin dextrarius, meaning “right-hand,” because on the march a squire could lead this valuable horse on the knight’s right while the knight rode another mount. Destriers were not necessarily gigantic draft horses, as they are sometimes portrayed, but they were powerful, well-built, athletic animals trained for combat and the shock of mounted warfare.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Древняя порода пони из Шотландии"
+          "text": "An ancient pony breed from Scotland"
         },
         {
           "id": "answer-02",
-          "text": "Легкая повозка для перевозки раненых солдат"
+          "text": "A light cart for transporting wounded soldiers"
         },
         {
           "id": "answer-03",
-          "text": "Древняя кожаная накидка для лошади"
+          "text": "An old leather covering for a horse"
         },
         {
           "id": "answer-04",
-          "text": "Средневековый боевой рыцарский конь"
+          "text": "A medieval knight’s warhorse"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-04",
-      "question": "Что такое кринет?",
-      "explanation": "Кринет (crinet) — это элемент средневекового конского доспеха (барда), предназначенный для защиты шеи боевой лошади рыцаря. Изначально, в XIV веке, он представлял собой гибкое кольчужное полотно в виде трубы, а к XV–XVI векам трансформировался в прочную конструкцию из сегментированных металлических пластин (ламелей) U-образной формы, заходивших одна на другую. Пластины соединялись скользящими заклепками или кожаными ремнями изнутри, что позволяло доспеху изгибаться и не стесняло движений головы лошади. Назначение кринета заключалось в защите верхней зоны шеи и гривы коня от коварных рубящих ударов мечей, пик соперников и, что особенно важно, от падающих сверху вражеских стрел.",
+      "question": "What is a crinet?",
+      "explanation": "A crinet is a part of medieval horse armor, or barding, designed to protect the neck of a warhorse. Early versions could be made from flexible mail, while later examples used overlapping articulated metal plates. The construction allowed the armor to bend so that the horse could still move its head and neck. Its purpose was to protect the upper neck and mane area from sword blows, lances, and falling arrows.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Металлическая накладка на копыто тяжелого коня"
+          "text": "A metal plate fitted to the hoof of a heavy horse"
         },
         {
           "id": "answer-02",
-          "text": "Элемент средневекового доспеха для защиты шеи лошади"
+          "text": "A piece of medieval armor protecting the horse’s neck"
         },
         {
           "id": "answer-03",
-          "text": "Специальная мягкая подкладка под рыцарское седло"
+          "text": "A soft pad placed beneath a knight’s saddle"
         },
         {
           "id": "answer-04",
-          "text": "Специальная маска для защиты морды коня"
+          "text": "A special mask protecting the horse’s face"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-05",
-      "question": "Что такое круппер в барде?",
-      "explanation": "Круппер (в доспешном барде) — это ключевой элемент полного средневекового конского доспеха, разработанный в XV веке для надежной защиты задней части туловища (крупа) боевой лошади рыцаря. Он изготавливался из прочных, анатомически изогнутых стальных пластин, кожи или плотной простеганной ткани, которые полностью закрывали бедра и спину коня позади седла. К крупперу с помощью ремней и пряжек прикреплялись боковые защитные пластины (фланшарды), а в районе хвоста выполнялся специальный вырез, чтобы доспех не мешал движениям животного. Главной задачей этой брони была защита уязвимого тыла коня от коварных рубящих ударов вражеской пехоты, кавалерийских пик и падающих сверху стрел во время массированного штурма.",
+      "question": "What is a crupper in horse armor?",
+      "explanation": "In full medieval horse armor, the crupper was the section protecting the horse’s hindquarters and croup behind the saddle. It could be made from shaped steel plates, leather, or heavy quilted material. Side armor such as flanchards could be attached around it, while an opening at the tail allowed the horse to move freely. Its main purpose was to protect the vulnerable rear of the horse from weapons and missiles in battle.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Самый крупный элемент конского доспеха"
+          "text": "The largest single part of horse armor"
         },
         {
           "id": "answer-02",
-          "text": "Элемент конского доспеха, защищающий круп лошади"
+          "text": "The part of horse armor protecting the croup"
         },
         {
           "id": "answer-03",
-          "text": "Элемент конского доспеха, защищающий грудь лошади"
+          "text": "The part of horse armor protecting the chest"
         },
         {
           "id": "answer-04",
-          "text": "Элемент конского доспеха, защищающий бок лошади"
+          "text": "The part of horse armor protecting the flank"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-06",
-      "question": "Что такое шанфрон?",
-      "explanation": "Шанфрон (шаффрон) — это один из ключевых элементов средневекового конского доспеха (барда), представляющий собой защитную маску для морды боевого коня. Изготавливался шанфрон из цельного листа кованой стали, кожи или плотной кипяченой кожи и анатомически повторял контуры лошадиной головы от ушей до ноздрей. В броне обязательно делались отверстия для глаз и ушей, которые для дополнительной безопасности нередко защищались выпуклыми металлическими решетками или пластинами. Главная функция шанфрона заключалась в защите черепа коня от прямых ударов вражеских копий во время рыцарских сшибок, а также от стрел и рубящих ударов пехоты в ближнем бою. На турнирах шанфроны часто богато украшались чеканкой, гербами владельцев, а в центре лба крепился длинный стальной шип, который визуально превращал скакуна в грозного мифического единорога.",
+      "question": "What is a chanfron?",
+      "explanation": "A chanfron, also spelled chamfron or shaffron, is a protective faceplate forming part of medieval horse armor. It covered the front of the horse’s head, generally from the ears toward the muzzle, and could be made from forged steel, leather, or hardened leather. Openings were left for the eyes and ears, and some examples were richly decorated with engraving, heraldic devices, or ornamental spikes. Its purpose was to protect the horse’s head from lances, arrows, and blows in combat.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Пластинчатый доспех для защиты шеи лошади"
+          "text": "Plate armor protecting the horse’s neck"
         },
         {
           "id": "answer-02",
-          "text": "Пластинчатый набочник для прикрытия боков коня"
+          "text": "Side armor protecting the horse’s flanks"
         },
         {
           "id": "answer-03",
-          "text": "Защитная маска для головы коня"
+          "text": "A protective mask for the horse’s head"
         },
         {
           "id": "answer-04",
-          "text": "Нагрудник для защиты груди лошади"
+          "text": "Armor protecting the horse’s chest"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-07",
-      "question": "Что такое торочный ремень?",
-      "explanation": "Торочный ремень — это элемент конского снаряжения (обычно кавалерийского или казачьего седла), предназначенный для приторачивания (привязывания) различных вещей к луке седла. С его помощью всадники закрепляли шинели, скатки, вещевые мешки, спальные принадлежности или другое походное снаряжение, чтобы оно надежно держалось во время скачки и не мешало движению. Такие ремни изготавливаются из прочной кожи и располагаются парами как на передней, так и на задней луке седла.",
+      "question": "What is a saddle tie strap?",
+      "explanation": "A saddle tie strap is a strong leather strap used on cavalry, Cossack, hunting, or other traditional saddles to secure equipment to the pommel or cantle. Riders used such straps to fasten rolled coats, bags, bedding, and other travel gear so that it stayed secure while riding and did not interfere with the horse’s movement.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ремень для пристегивания груза к седлу"
+          "text": "A strap for fastening baggage to the saddle"
         },
         {
           "id": "answer-02",
-          "text": "Ремень для защиты ног лошади от травм"
+          "text": "A strap protecting the horse’s legs from injury"
         },
         {
           "id": "answer-03",
-          "text": " Ремень для регулировки длины стремян"
+          "text": "A strap for adjusting stirrup length"
         },
         {
           "id": "answer-04",
-          "text": "Часть древней уздечки"
+          "text": "Part of an ancient bridle"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-08",
-      "question": "Что такое палефруа?",
-      "explanation": "Палефруа (или пэлфри) — это престижный тип верховой лошади, высоко ценившийся в эпоху Средневековья. В отличие от дестриэ (крупных и тяжелых боевых коней рыцарей), палефруа были более легкими, изящными и славились очень мягким аллюром, часто иноходью. На таких лошадях совершали длительные путешествия, выезжали на соколиную охоту, парады и торжественные церемонии. Из-за плавного шага и послушного нрава палефруа считались идеальным и роскошным средством передвижения для знатных дам, королей и высшего духовенства.",
+      "question": "What is a palfrey?",
+      "explanation": "A palfrey was a prestigious riding horse highly valued in the Middle Ages. Unlike the heavier warhorse used for battle, the palfrey was lighter, more elegant, and especially prized for a smooth, comfortable gait, often an ambling gait. Palfreys were used for long journeys, falconry, processions, and ceremonial riding. Their comfortable movement and tractable temperament made them particularly desirable mounts for noblewomen, royalty, and high-ranking clergy.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент старинного парадного оголовья"
+          "text": "A piece of ceremonial headgear"
         },
         {
           "id": "answer-02",
-          "text": "Специальная попона для боевых лошадей"
+          "text": "A special covering for warhorses"
         },
         {
           "id": "answer-03",
-          "text": "Средневековая престижная верховая лошадь"
+          "text": "A prestigious medieval riding horse"
         },
         {
           "id": "answer-04",
-          "text": "Французский вьючный конь"
+          "text": "A French packhorse"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-09",
-      "question": "Что такое курсер?",
-      "explanation": "Курсер — это легкий, быстрый и маневренный боевой конь, который широко использовался рыцарями и воинами в Средние века. Они были дешевле и доступнее, чем массивные дестриэ, но ценились выше обычных ездовых лошадей благодаря своей скорости и выносливости. Курсеров часто выбирали для затяжных военных кампаний, быстрых кавалерийских рейдов, разведки и гонок, так как они могли долго бежать галопом и отлично подходили для динамичного боя без тяжелых доспехов.",
+      "question": "What is a courser?",
+      "explanation": "A courser was a fast, agile medieval riding and warhorse. It was generally less expensive than a destrier but more highly valued than an ordinary riding or working horse because of its speed and stamina. Coursers were well suited to military campaigns, rapid cavalry movement, reconnaissance, hunting, and other situations that required a swift, maneuverable mount.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Средневековая упряжная лошадь"
+          "text": "A medieval harness horse"
         },
         {
           "id": "answer-02",
-          "text": "Средневековая быстрая боевая лошадь"
+          "text": "A fast medieval warhorse"
         },
         {
           "id": "answer-03",
-          "text": "Средневековая спокойная походная лошадь"
+          "text": "A calm medieval travel horse"
         },
         {
           "id": "answer-04",
-          "text": "Элитный иноходец в Средневековье"
+          "text": "An elite medieval ambling horse"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-10",
-      "question": "Что такое геннет?",
-      "explanation": "Геннет (или дженнет) — это средневековая легкая и быстрая верховая лошадь, выведенная в Испании. Они отличались небольшим ростом, невероятной грацией, выносливостью и природным мягким аллюром. Геннеты пользовались огромной популярностью среди европейской знати, особенно в качестве верховых коней для дам и легкой кавалерии, так как их ход был плавным, а характер — послушным. Именно эти лошади оказали решающее влияние на формирование современных иноходцев Америки и многих других верховых пород.",
+      "question": "What is a jennet?",
+      "explanation": "A jennet was a light, elegant riding horse associated particularly with medieval and Renaissance Spain. Jennets were valued for their small to medium size, endurance, graceful appearance, and naturally smooth gaits. They became popular among European nobility, especially as comfortable mounts for ladies and for light cavalry. Iberian jennets also influenced the development of several later gaited horse populations in the Americas.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ремень для фиксации седла снизу"
+          "text": "A strap securing the saddle from underneath"
         },
         {
           "id": "answer-02",
-          "text": "Инструмент для расчистки копыт ковалем"
+          "text": "A farrier’s hoof-trimming tool"
         },
         {
           "id": "answer-03",
-          "text": "Историческая легкая порода верховых лошадей"
+          "text": "A historical type of light riding horse"
         },
         {
           "id": "answer-04",
-          "text": "Специальный загон для новорожденных жеребят"
+          "text": "A special enclosure for newborn foals"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-11",
-      "question": "Что такое ронсен?",
-      "explanation": "Ронсен (или ронси) — это распространенный в Средние века тип лошади, который выполнял роль универсального и доступного рабочего животного. В отличие от дорогих рыцарских дестриэ или элитных палефруа, ронсены стоили недорого, поэтому их использовали обычные оруженосцы, небогатые всадники, торговцы и крестьяне. Эти кони отличались выносливостью, неприхотливостью и силой, что позволяло применять их как для верховой езды в походах, так и в качестве вьючного или легкого упряжного транспорта.",
+      "question": "What is a rouncey?",
+      "explanation": "A rouncey, or rounsey, was a common and relatively inexpensive horse in the Middle Ages. Unlike costly destriers or prestigious palfreys, rounceys were practical all-purpose animals used by squires, less wealthy riders, merchants, and farmers. Their stamina and versatility made them useful for ordinary riding, travel, pack work, and light harness work.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Средневековый иноходец"
+          "text": "A medieval ambling horse"
         },
         {
           "id": "answer-02",
-          "text": "Средневековая боевая лошадь"
+          "text": "A medieval warhorse"
         },
         {
           "id": "answer-03",
-          "text": "Средневековая элитная верховая лошадь"
+          "text": "An elite medieval riding horse"
         },
         {
           "id": "answer-04",
-          "text": "Средневековая недорогая рабочая лошадь"
+          "text": "An inexpensive medieval working horse"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-12",
-      "question": "Что такое охлябь?",
-      "explanation": "Охлябь — это старинное русское слово, которое означает верховую езду на лошади без седла. При такой езде всадник не использует ни седло, ни попону, ни стремена, полагаясь исключительно на свой баланс. Термин часто встречается в исторической литературе и этнографических описаниях крестьянского быта, где езда «охлябью» или «в охлябку» была обычным делом для деревенских мальчишек, перегонявших коней на пастбище.",
+      "question": "What does the old Russian term “okhlyab” mean?",
+      "explanation": "The old Russian term okhlyab referred to riding a horse bareback. The rider used no saddle or stirrups and depended mainly on balance and seat. The expression appears in historical and ethnographic descriptions of rural life, where bareback riding was common when children or workers moved horses to and from pasture.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Специальная зимняя попона для жеребят"
+          "text": "A special winter blanket for foals"
         },
         {
           "id": "answer-02",
-          "text": "Езда на лошади без седла"
+          "text": "Riding a horse without a saddle"
         },
         {
           "id": "answer-03",
-          "text": "Кожаный ремень для фиксации рыцарского седла"
+          "text": "A leather strap securing a medieval saddle"
         },
         {
           "id": "answer-04",
-          "text": "Часть средневековой упряжи"
+          "text": "Part of medieval harness"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-13",
-      "question": "Что такое пейтраль?",
-      "explanation": "Пейтраль — это нагрудный элемент средневекового конского доспеха (барда), предназначенный для защиты груди лошади от копий, стрел и встречных ударов в бою. Он изготавливался из металлических пластин, реже из прочной вареной кожи, и крепился к седлу и шее животного с помощью кожаных ремней. Пейтраль часто украшался чеканкой, гербами или гравировкой, подчеркивая статус рыцаря, и был важнейшей частью тяжелого защитного снаряжения боевого коня.",
+      "question": "What is a peytral?",
+      "explanation": "A peytral is the breastplate section of medieval horse armor, or barding, designed to protect the horse’s chest from lances, arrows, and frontal blows. It could be made from metal plates or, less commonly, hardened leather and was secured with straps. Peytrals were sometimes richly decorated with heraldic designs and formed an important part of the protective equipment of a warhorse.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Часть конского доспеха, защищающая шею лошади"
+          "text": "The part of horse armor protecting the neck"
         },
         {
           "id": "answer-02",
-          "text": "Часть конского доспеха, защищающая бок лошади"
+          "text": "The part of horse armor protecting the flank"
         },
         {
           "id": "answer-03",
-          "text": "Часть конского доспеха, защищающая круп лошади"
+          "text": "The part of horse armor protecting the croup"
         },
         {
           "id": "answer-04",
-          "text": "Часть конского доспеха, защищающая грудь лошади"
+          "text": "The part of horse armor protecting the chest"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-14",
-      "question": "Что такое фланшар?",
-      "explanation": "Фланшар — это элемент средневекового конского доспеха (барда), который закрывал и защищал бока (фланги) боевого коня. Изготавливались фланшары из металлических пластин или плотной вареной кожи, подвешивались по обеим сторонам седла и спускались вниз, прикрывая бока животного от ударов пехоты или вражеской кавалерии. В конструкции предусматривались специальные вырезы, чтобы всадник мог свободно использовать шпоры для управления лошадью во время боя.",
+      "question": "What is a flanchard?",
+      "explanation": "A flanchard is a side piece of medieval horse armor designed to protect the horse’s flanks. Flanchards were made from metal plates or hardened leather and hung on either side of the saddle. They shielded the horse from blows delivered by infantry or enemy cavalry while leaving enough freedom for the rider’s legs and spurs.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Разновидность боевого построения кавалерии"
+          "text": "A type of cavalry formation"
         },
         {
           "id": "answer-02",
-          "text": "Боковая часть конского рыцарского доспеха"
+          "text": "The side section of a knight’s horse armor"
         },
         {
           "id": "answer-03",
-          "text": "Элитный боевой конь средневековья"
+          "text": "An elite medieval warhorse"
         },
         {
           "id": "answer-04",
-          "text": "Кожаная сумка для походного корма"
+          "text": "A leather bag for carrying feed on campaign"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-15",
-      "question": "Что такое бард?",
-      "explanation": "Бард — это полный комплект защитного доспеха, который надевали на боевого коня в эпоху Средневековья и Ренессанса. Такой доспех защищал самые уязвимые части тела лошади: голову, шею, грудь, бока и круп. Изготавливали его из металлических пластин, кольчуги или прочной вареной кожи. Конский доспех стоил очень дорого, весил немало и использовался в основном тяжелой рыцарской кавалерией на полях сражений и на парадных рыцарских турнирах.",
+      "question": "What is barding?",
+      "explanation": "Barding is the complete defensive armor worn by a warhorse in the Middle Ages and Renaissance. A full set could protect the head, neck, chest, flanks, and hindquarters. It was made from combinations of plate metal, mail, leather, and padded textile. Because horse armor was expensive and heavy, it was mainly associated with heavily equipped cavalry and with ceremonial or tournament display.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Полный комплект конского рыцарского доспеха"
+          "text": "A complete set of medieval horse armor"
         },
         {
           "id": "answer-02",
-          "text": "Старинный вид зимней шерстяной попоны"
+          "text": "An old type of warm wool horse blanket"
         },
         {
           "id": "answer-03",
-          "text": "Деревянная кормушка для нескольких лошадей"
+          "text": "A wooden feeder for several horses"
         },
         {
           "id": "answer-04",
-          "text": "Седельная сумка, для перевозки музыкальных инструментов"
+          "text": "A saddlebag for carrying musical instruments"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-16",
-      "question": "Что такое бардинг?",
-      "explanation": "Бардинг — это исторический термин, обозначающий процесс облачения боевого коня в защитные доспехи (бард), а также само искусство создания конской брони. Это слово происходит от старофранцузского названия конского доспеха и описывает традицию защиты кавалерийских лошадей в Средние века. Бардинг включал в себя точную подгонку металлических, кожаных или кольчужных элементов под анатомию конкретного животного, чтобы максимально защитить коня в бою, не лишая его подвижности и обзора.",
+      "question": "What does “barding” refer to as a craft or practice?",
+      "explanation": "In a broader historical sense, barding can refer to fitting a warhorse with protective armor and to the craft associated with making and adapting such equipment. Horse armor had to be shaped to the anatomy of the individual animal so that it provided protection without unnecessarily restricting movement or vision. Medieval barding could include articulated metal plates, leather defenses, mail, and padded elements.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Починка конского доспеха"
+          "text": "Repairing horse armor"
         },
         {
           "id": "answer-02",
-          "text": "Турнир с участием рыцарей на лошадях в полном доспехе"
+          "text": "A tournament for knights mounted on fully armored horses"
         },
         {
           "id": "answer-03",
-          "text": "Искусство создания конского доспеха, и его надевание на коня"
+          "text": "The craft of making horse armor and fitting it to a horse"
         },
         {
           "id": "answer-04",
-          "text": "Проверка конских доспехов на прочность"
+          "text": "Testing horse armor for strength"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-17",
-      "question": "Что такое капарисон?",
-      "explanation": "Капарисон — это роскошная тканевая накидка или декоративная попона, которую надевали на лошадей в Средние века и эпоху Возрождения. Она полностью закрывала тело животного от ушей до копыт и использовалась на рыцарских турнирах, парадах и торжественных церемониях. Капарисон шили из дорогих материалов вроде бархата или шелка, украшали вышивкой, фамильными гербами и геральдическими цветами владельца. Помимо эстетической функции, на поле боя такая накидка защищала металлический конский доспех от грязи и перегрева на солнце.",
+      "question": "What is a caparison?",
+      "explanation": "A caparison is a rich decorative cloth or horse covering used in the Middle Ages and Renaissance. It could cover much of the horse’s body and was especially associated with tournaments, parades, and ceremonial appearances. Caparisons were often made from expensive fabrics such as velvet or silk and decorated with embroidery, coats of arms, and heraldic colors. In some military contexts, cloth coverings could also help shield armor from dirt and direct sunlight.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кожаное оголовье с двойным набором поводов"
+          "text": "A leather headstall with two sets of reins"
         },
         {
           "id": "answer-02",
-          "text": "Парадная уздечка с роскошными перьями на голове коня"
+          "text": "A ceremonial bridle decorated with large feathers"
         },
         {
           "id": "answer-03",
-          "text": "Парадная карета, запряженная четверкой элитных лошадей"
+          "text": "A ceremonial carriage drawn by four elite horses"
         },
         {
           "id": "answer-04",
-          "text": "Парадная накидка или попона для коня"
+          "text": "A ceremonial cloth or covering for a horse"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-18",
-      "question": "Что такое шамброн?",
-      "explanation": "Шамброн (чаще упоминается в исторической литературе как шанфрон или шафрон, от французского chanfrein) — это элемент средневекового конского доспеха, представляющий собой защитную маску или наголовник для лошади. Он закрывал самую уязвимую переднюю часть головы животного от ушей до ноздрей и часто снабжался специальными отбортовками для защиты глаз, а иногда и заменяемыми пластинами для щек. Шамброны изготавливались из прочной формованной кожи или кованого металла, а на лбу нередко имели декоративный элемент — металлический рондель с острым шипом или геральдический султан из перьев.",
+      "question": "What is a chamfron?",
+      "explanation": "Chamfron is another historical spelling of chanfron, a protective faceplate for a horse forming part of medieval barding. It covered the vulnerable front of the head and was made from shaped metal or hardened leather. Some examples included raised protection around the eyes, cheek pieces, heraldic decoration, or an ornamental spike or plume on the forehead.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитная пластина для головы боевого коня"
+          "text": "A protective plate for a warhorse’s head"
         },
         {
           "id": "answer-02",
-          "text": "Защитная пластина для груди боевого коня"
+          "text": "A protective plate for a warhorse’s chest"
         },
         {
           "id": "answer-03",
-          "text": "Защитная пластина для боков боевого коня"
+          "text": "A protective plate for a warhorse’s flanks"
         },
         {
           "id": "answer-04",
-          "text": "Защитная пластина для шеи боевого коня"
+          "text": "A protective plate for a warhorse’s neck"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-19",
-      "question": "Что такое арчак?",
-      "explanation": "Арчак — это деревянный каркас (основа) конского седла, определяющий его форму, размер и прочность. Исторически его изготавливали из крепких пород дерева (березы, дуба, карагача), скрепляя детали клеем, жилами или металлическими пластинами, а затем обтягивали сыромятной кожей. Арчак являлся важнейшим элементом казачьих, кавалерийских и пастушьих седел: он правильно распределял вес всадника по спине лошади, защищал ее позвоночник от травм и служил основой для крепления всех остальных частей седла.",
+      "question": "What is an archak?",
+      "explanation": "Archak is a traditional term for the rigid wooden tree or frame of a saddle. Historically it was made from strong woods and then reinforced or covered with rawhide and other materials. The saddle tree determines the saddle’s basic shape and strength, helps distribute the rider’s weight across the horse’s back, keeps pressure off the spine, and provides the foundation to which the other parts of the saddle are attached.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Деревянный каркас седла"
+          "text": "The wooden tree of a saddle"
         },
         {
           "id": "answer-02",
-          "text": "Мягкая подушка под средневековым седлом"
+          "text": "A soft pad beneath a medieval saddle"
         },
         {
           "id": "answer-03",
-          "text": "Широкий кожаный ремень под хвостом"
+          "text": "A broad leather strap beneath the tail"
         },
         {
           "id": "answer-04",
-          "text": "Железное кольцо для крепления стремени"
+          "text": "An iron ring used to attach a stirrup"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-20",
-      "question": "Что такое чепрак?",
-      "explanation": "Чепрак — это широкая плотная подстилка из сукна, войлока или кожи, которую кладут на спину лошади под седло. В отличие от небольшого вальтрапа, классический чепрак имеет прямоугольную форму и полностью закрывает спину и бока животного под седлом и за ним. Он выполняет важные защитные функции: впитывает пот, смягчает давление тяжелого седла на спину лошади и предохраняет ее кожу от болезненных потертостей. В кавалерии и на парадах чепраки часто шили из ярких тканей с золотой вышивкой и вензелями, подчеркивая статус полка или всадника.",
+      "question": "What is a cheprak?",
+      "explanation": "A cheprak is a broad, dense saddle cloth or pad traditionally made from woolen cloth, felt, or leather and placed on the horse’s back beneath the saddle. Classical chepraks could be large and rectangular, extending beyond the saddle over the horse’s back and sides. They helped absorb sweat, cushion pressure, and protect the skin from rubbing. Military and ceremonial versions were often brightly colored and richly decorated.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кожаный ремень для фиксации средневекового седла"
+          "text": "A leather strap securing a medieval saddle"
         },
         {
           "id": "answer-02",
-          "text": "Плотная подстилка под конское седло"
+          "text": "A thick pad placed beneath a horse’s saddle"
         },
         {
           "id": "answer-03",
-          "text": "Защитная пластина на груди лошади"
+          "text": "A protective plate on the horse’s chest"
         },
         {
           "id": "answer-04",
-          "text": "Защитная пластина на лбу лошади"
+          "text": "A protective plate on the horse’s forehead"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-21",
-      "question": "Что такое торока?",
-      "explanation": "Торока — это приспособление в виде прочных кожаных ремней, расположенных у передней или задней луки седла (чаще всего казачьего, охотничьего или кавалерийского). Слово также используется для обозначения самого места на седле, куда привязывается походный багаж. С помощью торок всадники надежно закрепляли шинельные скатки, спальные мешки, переметные сумы, добытую на охоте дичь или другое снаряжение. От этого термина произошло известное выражение «приторочить», то есть привязать вещи к седлу для дальнейшей транспортировки.",
+      "question": "What are toroka?",
+      "explanation": "Toroka are strong leather straps attached near the front or rear of a traditional saddle, especially Cossack, hunting, or cavalry saddles. The term can also refer to the part of the saddle where baggage is secured. Riders used these straps to fasten rolled coats, sleeping gear, saddlebags, game, and other equipment for transport.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Часть средневековой упряжи"
+          "text": "Part of medieval harness"
         },
         {
           "id": "answer-02",
-          "text": "Металлические застежки на кавалерийской уздечке"
+          "text": "Metal fasteners on a cavalry bridle"
         },
         {
           "id": "answer-03",
-          "text": "Ремни у луки седла для привязывания груза"
+          "text": "Straps near the saddle bow used to secure baggage"
         },
         {
           "id": "answer-04",
-          "text": "Ремни для фиксации средневекового седла"
+          "text": "Straps used to fasten a medieval saddle"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-22",
-      "question": "Что такое тарпан?",
-      "explanation": "Тарпан — это вымерший дикий предок современной домашней лошади, который обитал в лесостепях и степях Европы, а также на территории Западной Сибири. Это были небольшие, коренастые животные мышастой масти с характерной темной полосой («ремнем») вдоль хребта и жесткой стоячей гривой. Тарпаны отличались невероятной выносливостью, осторожностью и диким нравом, из-за чего практически не поддавались приручению. К сожалению, в результате распашки степей и активной охоты со стороны человека, этот уникальный вид диких лошадей полностью исчез к началу XX века.",
+      "question": "What was the tarpan?",
+      "explanation": "The tarpan was an extinct wild horse that lived in the forest-steppe and steppe regions of Europe and western Siberia. It was generally described as small and sturdy, with a grullo or mouse-gray coat, a dark dorsal stripe, and a short upright mane. Tarpans were noted for their hardiness and wary temperament. Habitat loss, persecution, and hunting contributed to their disappearance by the beginning of the 20th century.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Старинная теплая попона"
+          "text": "An old warm horse blanket"
         },
         {
           "id": "answer-02",
-          "text": "Старинный тип кавалерийской уздечки"
+          "text": "An old type of cavalry bridle"
         },
         {
           "id": "answer-03",
-          "text": "Вымерший предок современных домашних лошадей"
+          "text": "An extinct wild horse related to domestic horses"
         },
         {
           "id": "answer-04",
-          "text": "Старинный тип деревянного кавалерийского седла"
+          "text": "An old type of wooden cavalry saddle"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-23",
-      "question": "Что такое битюг?",
-      "explanation": "Битюг — это старинная русская порода крупных и сильных тяжеловозных лошадей, выведенная в XVIII веке в Воронежской губернии на реке Битюг. Порода создавалась путем скрещивания местных кобыл с голландскими и датскими жеребцами, присланными по приказу Петра I, а позже — с орловскими рысаками. Битюги отличались спокойным нравом, массивным телосложением, густыми щетками на ногах и невероятной выносливостью в тяжелой работе, из-за чего их массово использовали как надежных ломовых и крестьянских коней. Сегодня в чистом виде порода считается утраченной, но слово «битюг» прочно вошло в русский язык как синоним любого крепкого, сильного и крупного человека или коня.",
+      "question": "What was the Bityug?",
+      "explanation": "The Bityug was a historical Russian breed of large, powerful draft horse developed in the 18th century in the Voronezh region near the Bityug River. It was created from local mares crossed with imported European stallions and later influenced by other Russian stock. Bityugs were valued for strength, calm temperaments, substantial build, feathering on the legs, and endurance in heavy work. The breed is considered extinct in its pure form, while the word bityug survived in Russian as a figurative term for a large, strong person or horse.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Древняя упряжь"
+          "text": "An ancient harness"
         },
         {
           "id": "answer-02",
-          "text": "Повозка, запряженная двумя лошадьми"
+          "text": "A carriage drawn by two horses"
         },
         {
           "id": "answer-03",
-          "text": "Крупная русская порода тяжеловозных лошадей"
+          "text": "A large historical Russian draft-horse breed"
         },
         {
           "id": "answer-04",
-          "text": "То же что и батуг (кнут)"
+          "text": "The same thing as a batog, or whip"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-24",
-      "question": "Что такое гунтер?",
-      "explanation": "Гунтер (от английского hunter — охотник) — это особый тип крупной, сильной и выносливой полукровной лошади, выведенный в Великобритании и Ирландии специально для традиционной парфорсной охоты. Гунтеры не являются породой в строгом биологическом смысле, а представляют собой результат скрещивания чистокровных верховых жеребцов с крепкими местными упряжными кобылами. От тяжелых матерей они наследуют мощный костяк, уравновешенный темперамент и крепкое здоровье, а от породистых отцов — резвость, изящество и отличный прыжок. Благодаря способности часами скакать по пересеченной местности и легко перепрыгивать через любые препятствия, современные гунтеры пользуются огромной популярностью в конном спорте, особенно в конкуре и троеборье.",
+      "question": "What is a hunter?",
+      "explanation": "A hunter is a type of strong, athletic riding horse traditionally developed in Britain and Ireland for hunting across country, especially foxhunting. Hunters are not a single breed; historically they were often produced by crossing Thoroughbred stallions with sturdy local or draft-type mares. The goal was to combine bone, soundness, stamina, and an even temperament with speed, refinement, and jumping ability. Modern hunter-type horses are also widely used in equestrian sport.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Немецкий тип крупной вьючной лошади"
+          "text": "A German type of large packhorse"
         },
         {
           "id": "answer-02",
-          "text": "Испанский тип крупной упряжной лошади"
+          "text": "A Spanish type of large harness horse"
         },
         {
           "id": "answer-03",
-          "text": "Английский тип крупной охотничьей лошади"
+          "text": "A British type of large hunting horse"
         },
         {
           "id": "answer-04",
-          "text": "Французский тип крупной боевой лошади"
+          "text": "A French type of large warhorse"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-25",
-      "question": "Что такое крэк?",
-      "explanation": "Крэк — это старинный ипподромный термин (заимствованный из английского языка), которым называют выдающуюся, первоклассную скаковую или рысистую лошадь, превосходящую по своим результатам большинство сверстников. Такой конь регулярно выигрывает престижные призы, демонстрирует выдающуюся резвость и становится знаменитостью в мире конного спорта. Слово чаще всего употребляется в среде коневодов, наездников и любителей бегов или скачек для выделения абсолютного лидера поколения, способного устанавливать рекорды.",
+      "question": "What is a “crack” horse?",
+      "explanation": "In older racing terminology, a “crack” was an outstanding first-class racehorse or trotter that clearly surpassed most of its contemporaries. Such a horse regularly won important races, showed exceptional speed, and became a celebrated performer. The term was used by breeders, trainers, drivers, jockeys, and racing enthusiasts for a recognized leader of its generation.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Средневековая упряжная лошадь"
+          "text": "A medieval harness horse"
         },
         {
           "id": "answer-02",
-          "text": "Выдающаяся скаковая или беговая лошадь"
+          "text": "An outstanding racehorse or trotter"
         },
         {
           "id": "answer-03",
-          "text": "Специальный состав для полировки копыт"
+          "text": "A special compound for polishing hooves"
         },
         {
           "id": "answer-04",
-          "text": "Длинный хлыст для цирковой дрессировки"
+          "text": "A long whip used for circus training"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-26",
-      "question": "Что такое ломовая лошадь?",
-      "explanation": "Ломовая лошадь — это крупное, массивное и сильное животное, предназначенное для тяжелой физической работы, в первую очередь для перевозки больших грузов в телегах или санях. Название происходит от слова «лом» (в значении тяжелого груза или ломового извоза). В отличие от легких верховых коней, ломовые лошади (тяжеловозы) обладают мощным скелетом, развитой мускулатурой, широкой грудью и спокойным, терпеливым характером. До появления грузовых автомобилей они были главной тягловой силой в городах и деревнях: на них возили бревна, камни, бочки с водой и другие сверхтяжелые предметы, из-за чего само выражение стало нарицательным для обозначения очень трудолюбивого человека.",
+      "question": "What is a heavy dray horse?",
+      "explanation": "A heavy dray or draft horse is a large, massive, powerful horse used for strenuous pulling work, especially the transport of heavy loads in carts or wagons. Compared with light riding horses, such animals have substantial bone, strong musculature, broad chests, and calm, patient temperaments. Before motor vehicles became common, heavy horses provided much of the pulling power in towns and rural areas, hauling timber, stone, barrels, and many other heavy goods.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Молодая лошадь, проходящая первичную объездку"
+          "text": "A young horse undergoing its first training under saddle"
         },
         {
           "id": "answer-02",
-          "text": "Дикая лошадь, обитающая в горных районах"
+          "text": "A wild horse living in mountainous regions"
         },
         {
           "id": "answer-03",
-          "text": "Сильная лошадь для перевозки тяжелых грузов"
+          "text": "A strong horse used to haul heavy loads"
         },
         {
           "id": "answer-04",
-          "text": "Породистая лошадь для скоростных бегов на ипподроме"
+          "text": "A pedigreed horse used for racing"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-27",
-      "question": "Что такое неспряга?",
-      "explanation": "Неспряга (или неспряжь) — это старинное русское конно-заводское слово, зафиксированное в словаре Владимира Даля, которое обозначает лошадь, способную или приученную ходить в упряжке только в одиночку. Такое животное не обучено работать в паре, тройке или многолошадной повозке, из-за чего оно пугается соседних коней или сбивается с шага. Кроме того, в крестьянском быту «неспрягой» часто называли непарную лошадь, которая по своему росту, силе, масти или темпераменту никак не подходила к другим коням в хозяйстве и не могла составить с ними гармоничный рабочий дуэт («дружку» или «ровню»).",
+      "question": "What is a nespryaga?",
+      "explanation": "Nespryaga, or nespryazh, is an old Russian horsekeeping term recorded in Vladimir Dal’s dictionary for a horse accustomed or suited to working in harness only by itself rather than in a pair or team. Such a horse might be unable to settle beside another horse or might simply have no suitable match in height, strength, color, or temperament for paired work.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ни на что не пригодная лошадь"
+          "text": "A horse that is good for nothing"
         },
         {
           "id": "answer-02",
-          "text": "Лошадь, не приученная к упряжи"
+          "text": "A horse not trained to harness"
         },
         {
           "id": "answer-03",
-          "text": "Верховая лошадь, не пригодная к упряжи вообще"
+          "text": "A riding horse completely unsuitable for harness"
         },
         {
           "id": "answer-04",
-          "text": "Лошадь, не приученная к упряжи в паре"
+          "text": "A horse not accustomed to working in paired harness"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-28",
-      "question": "Что такое стиплер?",
-      "explanation": "Стиплер (от английского steeplechaser) — это специализированная скаковая лошадь, подготовленная для участия в стипль-чезах — самых сложных и опасных скачках по пересеченной местности с массивными неподвижными препятствиями. В отличие от обычных гладких скакунов, от стиплера требуется не только феноменальная скорость, но и мощный, точный прыжок, а также исключительная выносливость и координация. Чаще всего в этой роли выступают чистокровные верховые лошади или их помеси (полукровные), обладающие крепким костяком и способные выдерживать колоссальные нагрузки на дистанциях до 6–7 километров.",
+      "question": "What is a steeplechaser?",
+      "explanation": "A steeplechaser is a racehorse trained specifically for steeplechase racing over fixed obstacles. Unlike a flat racehorse, it must combine speed with jumping ability, stamina, and coordination. Thoroughbreds and Thoroughbred crosses are commonly used for this demanding form of racing, in which horses may cover long distances while negotiating solid fences and other obstacles.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элитная верховая лошадь"
+          "text": "An elite riding horse"
         },
         {
           "id": "answer-02",
-          "text": "Элитная упряжная лошадь"
+          "text": "An elite harness horse"
         },
         {
           "id": "answer-03",
-          "text": "Лошадь для скачек с препятствиями"
+          "text": "A horse used for obstacle racing"
         },
         {
           "id": "answer-04",
-          "text": "Лошадь для охоты"
+          "text": "A horse used for hunting"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-29",
-      "question": "Что такое одр?",
-      "explanation": "Одр — это старинное русское слово, которое в конном контексте использовалось для обозначения старой, изнуренной, худой и немощной рабочей лошади (клячи). Первоначально в русском языке слово означало постель, ложе или носилки для покойников, но со временем в народной речи и литературе закрепилось как пренебрежительное название измученного тяжелым трудом или болезнью животного. Такое образное сравнение подчеркивало крайнюю степень истощения коня, который едва держался на ногах и метафорически был близок к своему смертному одру.",
+      "question": "What did the old Russian word “odr” mean when applied to a horse?",
+      "explanation": "In older Russian usage, odr could be a contemptuous term for an old, exhausted, thin, and feeble workhorse—a worn-out nag. The word originally referred to a bed, bier, or deathbed, and later acquired a figurative sense for an animal so worn down by age, illness, or labor that it seemed barely able to stand.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Молодая резвая лошадь"
+          "text": "A young, spirited horse"
         },
         {
           "id": "answer-02",
-          "text": "Старая изнуренная рабочая лошадь"
+          "text": "An old, exhausted working horse"
         },
         {
           "id": "answer-03",
-          "text": "Чистокровный жеребец-производитель"
+          "text": "A purebred breeding stallion"
         },
         {
           "id": "answer-04",
-          "text": "Хорошо объезженный конь"
+          "text": "A well-schooled riding horse"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-30",
-      "question": "Что такое коренник?",
-      "explanation": "Коренник — это центральная, самая сильная и крупная лошадь в многолошадной упряжке (например, в знаменитой русской тройке), которую запрягают непосредственно в оглобли под дугу. В отличие от боковых лошадей (пристяжных), которые бегут галопом и задают упряжке красивый изгиб, коренник идет четкой, размашистой рысью и берет на себя основную тяжесть повозки, а также выполняет роль тормоза при остановке. Для этой роли традиционно выбирают рослых, выносливых и уравновешенных лошадей, чаще всего орловских рысаков, способных подолгу удерживать высокий темп движения и четко подчиняться командам кучера.",
+      "question": "What is the shaft horse in a Russian troika?",
+      "explanation": "The shaft horse is the central and strongest horse in a multi-horse Russian harness such as the traditional troika. It is harnessed directly between the shafts beneath the characteristic arch. While the side horses help provide speed, the central horse traditionally trots and bears much of the load, while also helping control and brake the carriage. Large, steady, enduring horses such as Orlov Trotters were often favored for this role.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Конь атамана"
+          "text": "The ataman’s personal horse"
         },
         {
           "id": "answer-02",
-          "text": "Специально отобранный жеребец, для племенной работы"
+          "text": "A specially selected breeding stallion"
         },
         {
           "id": "answer-03",
-          "text": "Главный жеребец в диком табуне"
+          "text": "The dominant stallion in a wild herd"
         },
         {
           "id": "answer-04",
-          "text": "Центральная лошадь в тройной упряжке"
+          "text": "The central horse in a three-horse harness"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-31",
-      "question": "Кто такой пристяжной?",
-      "explanation": "Пристяжной (или пристяжная лошадь) — это боковая лошадь в многолошадиной упряжке, которая работает в паре с центральным коренником (в паре, тройке или тачанке). В отличие от коренника, идущего рысью в оглоблях, пристяжная лошадь крепится сбоку с помощью гибких ремней (поняг). При правильной запряжке голова пристяжной красиво повернута в сторону, что не только эстетично смотрится, но и помогает ей координировать движение. Основная задача пристяжных лошадей — помогать кореннику везти повозку на поворотах и развивать максимальную скорость на прямых участках дороги.",
+      "question": "What is an outrunner in a Russian troika?",
+      "explanation": "An outrunner is one of the side horses in a multi-horse Russian harness, working beside the central shaft horse. Unlike the shaft horse between the shafts, the outrunners are attached at the sides by flexible traces. In the classic troika they often canter while the central horse trots. Their main role is to help pull the carriage, assist on turns, and increase speed.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Лошадь пристегнутая за повод к седлу другой лошади"
+          "text": "A horse led by the reins from another rider’s saddle"
         },
         {
           "id": "answer-02",
-          "text": "Запасная лошадь в военном походе"
+          "text": "A spare horse taken on a military campaign"
         },
         {
           "id": "answer-03",
-          "text": "Лошадь, запряженная сбоку от коренника"
+          "text": "A horse harnessed beside the central shaft horse"
         },
         {
           "id": "answer-04",
-          "text": "Лошадь, бегущая за повозкой и привязанная к ней"
+          "text": "A horse tied behind a carriage"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-32",
-      "question": "Каких лошадей в Древнем Китае называли «небесными»?",
-      "explanation": "«Небесными конями» (или Тяньма) в Древнем Китае времен династии Хань называли благородных, быстрых и выносливых лошадей из Ферганской долины (государство Давань, территория современного Узбекистана, Таджикистана и Кыргызстана). Согласно легендам, эти скакуны происходили от божественных предков и обладали уникальной особенностью — они «потели кровью» (что современные ученые объясняют действием подкожных паразитов). Китайский император У-ди был настолько очарован их изяществом, скоростью и силой, что даже развязал против Давани кровопролитную войну, чтобы заполучить жеребцов для своей кавалерии и за заоблачную резвость официально прозвал их «небесными». Считается, что именно эти легендарные кони стали прямыми предками знаменитой современной ахалтекинской породы лошадей.",
+      "question": "Which horses were called “Heavenly Horses” in ancient China?",
+      "explanation": "During the Han dynasty, the term “Heavenly Horses,” or Tianma, became associated with the prized horses of the Ferghana Valley and the state known to the Chinese as Dayuan in Central Asia. These horses were celebrated for speed, endurance, and prestige, and stories described them as “sweating blood,” a phenomenon often linked in later explanations to parasites or skin lesions. Emperor Wu of Han valued them so highly that Chinese campaigns were launched against Dayuan in an effort to obtain superior breeding stock for the imperial cavalry.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Лучших лошадей из южных регионов Китая"
+          "text": "The best horses from southern China"
         },
         {
           "id": "answer-02",
-          "text": "Чистокровных лошадей из северных регионов Китая"
+          "text": "Purebred horses from northern China"
         },
         {
           "id": "answer-03",
-          "text": "Элитных лошадей из Манчжурской долины"
+          "text": "Elite horses from the Manchurian valley"
         },
         {
           "id": "answer-04",
-          "text": "Среднеазиатских лошадей из Ферганской долины"
+          "text": "Central Asian horses from the Ferghana Valley"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-33",
-      "question": "Как назывался конь, который как ошибочно считалось, умел считать?",
-      "explanation": "Умный Ганс (Clever Hans) — это знаменитый орловский рысак, живший в Германии в начале XX века, который обрел всемирную известность благодаря своим мнимым интеллектуальным способностям. Его владелец, Вильгельм фон Остен, утверждал, что конь умеет производить математические вычисления, читать, определять время и даже понимать немецкий язык, выстукивая ответы копытом. Проведенное в 1904 году научное расследование показало, что Ганс не умел считать, а обладал феноменальной наблюдательностью. Он безошибочно считывал едва заметные изменения в мимике, позе и дыхании задающего вопрос человека, который непроизвольно напрягался во время счета и расслаблялся, когда конь доходил до правильного ответа, что и служило для животного сигналом прекратить стучать. Данный феномен вошел в психологию под названием «эффект Умного Ганса».",
+      "question": "What was the name of the horse once believed to be able to do arithmetic?",
+      "explanation": "Clever Hans was a famous horse in Germany in the early 20th century whose owner, Wilhelm von Osten, claimed that he could perform arithmetic, read, tell the time, and understand German by tapping answers with his hoof. Scientific investigation showed that Hans was not actually calculating. Instead, he was extraordinarily sensitive to subtle, unconscious changes in the posture, expression, and behavior of the people questioning him. The phenomenon became known in psychology as the “Clever Hans effect.”",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Умный Жак"
+          "text": "Clever Jacques"
         },
         {
           "id": "answer-02",
-          "text": "Умный Ганс"
+          "text": "Clever Hans"
         },
         {
           "id": "answer-03",
-          "text": "Умный Оливер"
+          "text": "Clever Oliver"
         },
         {
           "id": "answer-04",
-          "text": "Умный Джон"
+          "text": "Clever John"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-34",
-      "question": "Как называлась любимая лошадь Петра Первого?",
-      "explanation": "Лизетта — легендарная любимая лошадь бурой масти, которая прошла с Петром I всю Северную войну и практически спасла ему жизнь во время Полтавской битвы, вынеся государя из-под прицельного вражеского огня. Согласно преданиям, она отличалась невероятной верностью, признавала исключительно своего венценосного хозяина, отказывалась принимать пищу от чужих людей и горько «плакала», если царь долго не навещал её. Петр Великий так сильно ценил преданность своего четвероногого друга, что после смерти Лизетты приказал изготовить её чучело. Увидеть этот уникальный исторический экспонат, а также рассмотреть Лизетту на старинных парадных портретах императора можно и сегодня в музеях Санкт-Петербурга.",
+      "question": "What was the name of Peter the Great’s favorite horse?",
+      "explanation": "Lizetta was a famous favorite horse associated with Peter the Great and with the Great Northern War. Later stories describe her as exceptionally loyal to the tsar and credit her with carrying him through dangerous moments in battle. Peter valued the horse highly, and after her death her preserved remains became part of the historical collections connected with the emperor. Lizetta can still be encountered in museum exhibits and historical depictions of Peter I.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Луиза"
+          "text": "Louise"
         },
         {
           "id": "answer-02",
-          "text": "Луизитана"
+          "text": "Luisitana"
         },
         {
           "id": "answer-03",
-          "text": "Лизонька"
+          "text": "Lizonka"
         },
         {
           "id": "answer-04",
-          "text": "Лизетта"
+          "text": "Lizetta"
         },
         {
           "id": "answer-05",
-          "text": "Либретта"
+          "text": "Libretta"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-35",
-      "question": "Как назывался конь, ставший римским сенатором?",
-      "explanation": "Инцитат (в переводе с латыни — «быстроногий» или «борзой») — любимый светло-серый жеребец римского императора Калигулы, который, согласно античным преданиям, был введен своим хозяином в состав Сената. Жизнь коня была окружена невероятной роскошью: он имел собственное мраморное стойло, позолоченные ясли, пурпурные попоны и ожерелья из драгоценных камней, а овес ему подавали с золотыми хлопьями на серебряном блюде. Историки считают, что Калигула сделал своего коня сенатором (а также обещал сделать консулом) не из-за безумия, а в качестве злой политической насмешки, чтобы показать полное презрение к трусливым сенаторам и доказать, что с их обязанностями может справиться даже животное. После убийства императора Инцитата не смогли сразу уволить из Сената из-за бюрократических законов, поэтому новый правитель Клавдий просто урезал коню жалование, после чего тот автоматически лишился должности из-за «недостатка денежного ценза».",
+      "question": "What was the name of the horse said to have become a Roman senator?",
+      "explanation": "Incitatus was the favorite horse of the Roman emperor Caligula. Ancient writers describe the animal as living in extraordinary luxury, with a marble stable, an ivory manger, rich blankets, and other lavish furnishings. According to the famous story, Caligula planned to make Incitatus consul, and later tradition often says he made the horse a senator. Historians generally interpret the episode as a political insult or satire aimed at Rome’s elite rather than simply proof of madness.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Калигула"
+          "text": "Caligula"
         },
         {
           "id": "answer-02",
-          "text": "Иполит"
+          "text": "Hippolytus"
         },
         {
           "id": "answer-03",
-          "text": "Инцитат"
+          "text": "Incitatus"
         },
         {
           "id": "answer-04",
-          "text": "Буцефал"
+          "text": "Bucephalus"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-36",
-      "question": "Как называлась римская колесница, запряженная четверкой лошадей?",
-      "explanation": "Квадрига — это античная двухколесная колесница, в которую запрягали четырех лошадей в один ряд. В Древнем Риме она имела огромное символическое значение и ассоциировалась с триумфом, военной победой и славой. Именно на квадриге в город въезжали императоры и полководцы-победители во время триумфальных шествий, а изображения этой повозки чеканились на монетах и украшали арки. Кроме того, квадриги были главными участницами опасных и невероятно популярных гонок на ипподромах, таких как Большой цирк (Circus Maximus) в Риме.",
+      "question": "What was a Roman chariot drawn by four horses called?",
+      "explanation": "A quadriga was an ancient two-wheeled chariot drawn by four horses abreast. In ancient Rome it became a powerful symbol of triumph, victory, and glory. Victorious commanders and emperors could appear in triumphal processions in quadrigae, while images of four-horse chariots appeared on coins, monuments, and triumphal arches. Quadrigae were also used in the spectacular and dangerous chariot races held in venues such as the Circus Maximus.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Квадрига"
+          "text": "Quadriga"
         },
         {
           "id": "answer-02",
-          "text": "Квадрила"
+          "text": "Quadrille"
         },
         {
           "id": "answer-03",
-          "text": "Квадрицепс"
+          "text": "Quadriceps"
         },
         {
           "id": "answer-04",
-          "text": "Квадроцикл"
+          "text": "Quad bike"
         },
         {
           "id": "answer-05",
-          "text": "Квадрулька"
+          "text": "Quadrulka"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-37",
-      "question": "Как называется самый древний известный предок лошадиных?",
-      "explanation": "Самым древним известным предком современных лошадей считается эогиппус (также известный как гиракотерий), обитавший на Земле около 50-55 миллионов лет назад в эпоху эоцена. Это было миниатюрное существо размером с небольшую собаку или лисицу (около 20–30 сантиметров в холке), которое весило всего несколько килограммов. В отличие от современных однокопытных лошадей, у эогиппуса были четырехпалые передние и трехпалые задние конечности с небольшими копытцами на каждом пальце. Он обитал в густых тропических лесах Северной Америки и Евразии, питаясь мягкими листьями и сочными побегами растений, а его пятнистая или полосатая окраска помогала прятаться от хищников в зарослях.",
+      "question": "What is one of the earliest known ancestors of modern horses traditionally called?",
+      "explanation": "Eohippus, a name historically applied to early horse relatives such as Hyracotherium, lived roughly 50–55 million years ago during the Eocene. These were very small forest-dwelling mammals, about the size of a small dog or fox. Unlike modern one-toed horses, early equids had several functional toes: typically four on the forefeet and three on the hind feet. They lived in woodland environments and browsed on soft vegetation.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Индрикотерий"
+          "text": "Indricotherium"
         },
         {
           "id": "answer-02",
-          "text": "Гиракотерий"
+          "text": "Hyracotherium"
         },
         {
           "id": "answer-03",
-          "text": "Мезогиппус"
+          "text": "Mesohippus"
         },
         {
           "id": "answer-04",
-          "text": "Плиогиппус"
+          "text": "Pliohippus"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-38",
-      "question": "Как звали любимого коня Александра Македонского?",
-      "explanation": "Буцефал — легендарный конь Александра Македонского, ставший одним из самых известных скакунов в истории человечества. Согласно историческим хроникам, юный Александр смог укротить этого своенравного и дикого жеребца, заметив, что тот просто боится собственной тени. Кличка коня переводится как «бычьеголовый», что указывало на его массивный лоб или широкую морду. Буцефал преданно служил царю на протяжении многих лет и прошел с ним через большинство главных сражений азиатского похода. Когда верный конь погиб от ран или старости после битвы на реке Гидасп (на территории современного Пакистана), безутешный Александр основал и назвал в его честь город Буцефала.",
+      "question": "What was the name of Alexander the Great’s favorite horse?",
+      "explanation": "Bucephalus was the legendary horse of Alexander the Great and one of the most famous horses in history. According to ancient tradition, the young Alexander succeeded in taming the difficult stallion after realizing that it was frightened by its own shadow. The name Bucephalus is commonly interpreted as “ox-head,” perhaps referring to the horse’s broad forehead or a marking. Bucephalus accompanied Alexander through many campaigns and died after the Battle of the Hydaspes. Alexander founded a city, Bucephala, in his honor.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Инцитат"
+          "text": "Incitatus"
         },
         {
           "id": "answer-02",
-          "text": "Маренго"
+          "text": "Marengo"
         },
         {
           "id": "answer-03",
-          "text": "Иполлит"
+          "text": "Hippolytus"
         },
         {
           "id": "answer-04",
-          "text": "Буцефал"
+          "text": "Bucephalus"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-39",
-      "question": "Как звали любимого коня Наполеона Бонапарта?",
-      "explanation": "Маренго — знаменитый чистокровный арабский жеребец серой масти, ставший самым известным боевым конем французского императора Наполеона Бонапарта. Кличку скакун получил в честь блестящей победы Наполеона в битве при Маренго в 1800 году, откуда и начался их долгий совместный боевой путь. Этот конь отличался невероятной выносливостью, бесстрашием в бою и за свою карьеру был ранен восемь раз. В решающей битве при Ватерлоо в 1815 году Маренго был захвачен в плен англичанами и увезен в Великобританию, где прожил долгую жизнь, а его скелет до сих пор хранится в лондонском Национальном музее армии.",
+      "question": "What was the name of Napoleon Bonaparte’s famous horse?",
+      "explanation": "Marengo was a famous gray Arabian associated with Napoleon Bonaparte and named after the French victory at the Battle of Marengo in 1800. Tradition portrays him as a hardy and courageous campaign horse that carried Napoleon on several occasions. After the Battle of Waterloo in 1815, Marengo was captured by the British and taken to Britain. His skeleton is preserved in the collection of the National Army Museum in London.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Маренго"
+          "text": "Marengo"
         },
         {
           "id": "answer-02",
-          "text": "Айвенго"
+          "text": "Ivanhoe"
         },
         {
           "id": "answer-03",
-          "text": "Либренго"
+          "text": "Librengo"
         },
         {
           "id": "answer-04",
-          "text": "Ривьенго"
+          "text": "Riviengo"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-40",
-      "question": "Как звали коня Дон Кихота в знаменитом романе Мигеля де Сервантеса?",
-      "explanation": "Росинант — знаменитая кляча бедного идальго Дон Кихота Ламанчского, чье имя стало нарицательным для обозначения худых, изможденных и старых лошадей. Свое гордое имя, которое переводится как «прежняя кляча», конь получил после четырех дней долгих размышлений его хозяина, решившего, что у благородного рыцаря скакун должен носить самое громкое и звучное имя в мире. Несмотря на свою худобу, слабость и почтенный возраст, Росинант преданно делил со своим сумасбродным владельцем все невзгоды и странствия, став полноценным и незаменимым персонажем великого литературного произведения.",
+      "question": "What was the name of Don Quixote’s horse in Miguel de Cervantes’s famous novel?",
+      "explanation": "Rocinante is the famous horse of Don Quixote de la Mancha. The name has become associated with a thin, worn-out, elderly nag, yet Don Quixote chose it with great pride after days of deliberation because he believed a noble knight required a suitably grand name for his mount. Despite his poor condition and age, Rocinante faithfully accompanies his eccentric master through his adventures and is one of the novel’s most recognizable characters.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Артагнан"
+          "text": "Artagnan"
         },
         {
           "id": "answer-02",
-          "text": "Росинант"
+          "text": "Rocinante"
         },
         {
           "id": "answer-03",
-          "text": "Бабьека"
+          "text": "Babieca"
         },
         {
           "id": "answer-04",
-          "text": "Джолли Джампер"
+          "text": "Jolly Jumper"
         }
       ],
       "correct_answer_id": "answer-02"
     }
   ],
-  "translation_status": "outdated",
-  "_pending_translation": {
-    "source_revision": "07e82c47e9cecc59d8661538a2f9811878f377c635c7c0e8803a3316f94d1713",
-    "package": "horse-hisory-en.json"
+  "translation_status": "current",
+  "_translation_source": {
+    "title": "Лошадь в истории",
+    "short_description": "Эта викторина посвящена истории взаимоотношений человека и лошади. Вас ждут вопросы о легендарных конях, древней конной амуниции и других интересных страницах прошлого.",
+    "intro": "Эта викторина посвящена истории взаимоотношений человека и лошади. Вас ждут вопросы о легендарных конях, древней конной амуниции и других интересных страницах прошлого.",
+    "questionImagesAlt": "",
+    "difficulty": "high",
+    "cover": "img/covers/horse-hisory.webp",
+    "publication_date": "2026-07-27T15:55:00+00:00",
+    "tags": [
+      "words",
+      "history",
+      "amunition"
+    ],
+    "questions": [
+      {
+        "id": "question-01",
+        "question": "Что такое аргамак?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Металлический инструмент для расчистки копыт"
+          },
+          {
+            "id": "answer-02",
+            "text": "Старинное название породистых восточных коней"
+          },
+          {
+            "id": "answer-03",
+            "text": "Специальное зимнее седло для тяжеловозов"
+          },
+          {
+            "id": "answer-04",
+            "text": "Порода диких лесных пони из Азии"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Аргамак — это старинное восточное слово, которым на Руси и в странах Восточной Европы в XVI–XVIII веках называли породистых, элитных верховых лошадей восточного происхождения. Чаще всего под этим термином скрывались предки современных ахалтекинцев, арабских, персидских и туркменских скакунов. Эти кони ценились на вес золота за свою невероятную резвость, выносливость в дальних походах, тонкую сухую кожу и грациозный, поджарый экстерьер. Владение аргамаком считалось признаком высочайшего статуса, богатства и знатности, поэтому таких лошадей содержали исключительно в царских конюшнях и конюшнях богатых бояр, используя для торжественных выездов, царской охоты и военных походов."
+      },
+      {
+        "id": "question-02",
+        "question": "Что такое азиль (асиль)?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Дикий степной жеребец из Центральной Азии"
+          },
+          {
+            "id": "answer-02",
+            "text": "Традиционное восточное покрывало под тяжелое седло"
+          },
+          {
+            "id": "answer-03",
+            "text": "Истинно чистокровная арабская лошадь без примесей"
+          },
+          {
+            "id": "answer-04",
+            "text": "Деревянная кормушка для сена в деннике"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Азиль (асиль) — это особый иппологический термин арабского происхождения, переводящийся как «благородный», «чистокровный» или «истинный», который используется для обозначения чистокровных арабских лошадей древнейшего происхождения, чья родословная не имеет ни единой чужеродной примеси. Традиция жесткого отбора таких животных зародилась у кочевых племен бедуинов Аравийского полуострова, которые веками устно передавали из поколения в поколение родословные своих коней, гарантируя их абсолютную генетическую чистоту. Лошади типа азиль отличались не только эталонным восточным экстерьером, сухим типом сложения и огненным темпераментом, но и феноменальной выносливостью, способностью выживать в суровых пустынных условиях и безграничной преданностью человеку. В современном коннозаводстве этот термин подчеркивает уникальный статус лошади, все предки которой без исключения зарегистрированы в племенных книгах как истинно пустынные арабские скакуны."
+      },
+      {
+        "id": "question-03",
+        "question": "Что такое дестриэ?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Древняя порода пони из Шотландии"
+          },
+          {
+            "id": "answer-02",
+            "text": "Легкая повозка для перевозки раненых солдат"
+          },
+          {
+            "id": "answer-03",
+            "text": "Древняя кожаная накидка для лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Средневековый боевой рыцарский конь"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Дестриэ (Destrier) — это самый известный тип средневекового боевого коня, который являлся главным оружием и символом статуса тяжеловооруженного рыцаря в Западной Европе XII–XIV веков. Название происходит от латинского слова dextarius («правый»), так как на марше оруженосец вел этого ценнейшего коня справа от рыцаря, который ехал на более легкой верховой лошади. Дестриэ не были гигантскими тяжеловозами, какими их часто изображают, но обладали мощным костяком, широкой грудью, сильным крупом и взрывным темпераментом. Эти кони обучались сокрушительному натиску в плотном строю, умели драться в ближнем бою и были способны нести на себе рыцаря в полных стальных доспехах, вес которых вместе с седлом порой превышал 100 килограммов."
+      },
+      {
+        "id": "question-04",
+        "question": "Что такое кринет?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Металлическая накладка на копыто тяжелого коня"
+          },
+          {
+            "id": "answer-02",
+            "text": "Элемент средневекового доспеха для защиты шеи лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Специальная мягкая подкладка под рыцарское седло"
+          },
+          {
+            "id": "answer-04",
+            "text": "Специальная маска для защиты морды коня"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Кринет (crinet) — это элемент средневекового конского доспеха (барда), предназначенный для защиты шеи боевой лошади рыцаря. Изначально, в XIV веке, он представлял собой гибкое кольчужное полотно в виде трубы, а к XV–XVI векам трансформировался в прочную конструкцию из сегментированных металлических пластин (ламелей) U-образной формы, заходивших одна на другую. Пластины соединялись скользящими заклепками или кожаными ремнями изнутри, что позволяло доспеху изгибаться и не стесняло движений головы лошади. Назначение кринета заключалось в защите верхней зоны шеи и гривы коня от коварных рубящих ударов мечей, пик соперников и, что особенно важно, от падающих сверху вражеских стрел."
+      },
+      {
+        "id": "question-05",
+        "question": "Что такое круппер в барде?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Самый крупный элемент конского доспеха"
+          },
+          {
+            "id": "answer-02",
+            "text": "Элемент конского доспеха, защищающий круп лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Элемент конского доспеха, защищающий грудь лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Элемент конского доспеха, защищающий бок лошади"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Круппер (в доспешном барде) — это ключевой элемент полного средневекового конского доспеха, разработанный в XV веке для надежной защиты задней части туловища (крупа) боевой лошади рыцаря. Он изготавливался из прочных, анатомически изогнутых стальных пластин, кожи или плотной простеганной ткани, которые полностью закрывали бедра и спину коня позади седла. К крупперу с помощью ремней и пряжек прикреплялись боковые защитные пластины (фланшарды), а в районе хвоста выполнялся специальный вырез, чтобы доспех не мешал движениям животного. Главной задачей этой брони была защита уязвимого тыла коня от коварных рубящих ударов вражеской пехоты, кавалерийских пик и падающих сверху стрел во время массированного штурма."
+      },
+      {
+        "id": "question-06",
+        "question": "Что такое шанфрон?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Пластинчатый доспех для защиты шеи лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Пластинчатый набочник для прикрытия боков коня"
+          },
+          {
+            "id": "answer-03",
+            "text": "Защитная маска для головы коня"
+          },
+          {
+            "id": "answer-04",
+            "text": "Нагрудник для защиты груди лошади"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Шанфрон (шаффрон) — это один из ключевых элементов средневекового конского доспеха (барда), представляющий собой защитную маску для морды боевого коня. Изготавливался шанфрон из цельного листа кованой стали, кожи или плотной кипяченой кожи и анатомически повторял контуры лошадиной головы от ушей до ноздрей. В броне обязательно делались отверстия для глаз и ушей, которые для дополнительной безопасности нередко защищались выпуклыми металлическими решетками или пластинами. Главная функция шанфрона заключалась в защите черепа коня от прямых ударов вражеских копий во время рыцарских сшибок, а также от стрел и рубящих ударов пехоты в ближнем бою. На турнирах шанфроны часто богато украшались чеканкой, гербами владельцев, а в центре лба крепился длинный стальной шип, который визуально превращал скакуна в грозного мифического единорога."
+      },
+      {
+        "id": "question-07",
+        "question": "Что такое торочный ремень?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Ремень для пристегивания груза к седлу"
+          },
+          {
+            "id": "answer-02",
+            "text": "Ремень для защиты ног лошади от травм"
+          },
+          {
+            "id": "answer-03",
+            "text": " Ремень для регулировки длины стремян"
+          },
+          {
+            "id": "answer-04",
+            "text": "Часть древней уздечки"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Торочный ремень — это элемент конского снаряжения (обычно кавалерийского или казачьего седла), предназначенный для приторачивания (привязывания) различных вещей к луке седла. С его помощью всадники закрепляли шинели, скатки, вещевые мешки, спальные принадлежности или другое походное снаряжение, чтобы оно надежно держалось во время скачки и не мешало движению. Такие ремни изготавливаются из прочной кожи и располагаются парами как на передней, так и на задней луке седла."
+      },
+      {
+        "id": "question-08",
+        "question": "Что такое палефруа?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Элемент старинного парадного оголовья"
+          },
+          {
+            "id": "answer-02",
+            "text": "Специальная попона для боевых лошадей"
+          },
+          {
+            "id": "answer-03",
+            "text": "Средневековая престижная верховая лошадь"
+          },
+          {
+            "id": "answer-04",
+            "text": "Французский вьючный конь"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Палефруа (или пэлфри) — это престижный тип верховой лошади, высоко ценившийся в эпоху Средневековья. В отличие от дестриэ (крупных и тяжелых боевых коней рыцарей), палефруа были более легкими, изящными и славились очень мягким аллюром, часто иноходью. На таких лошадях совершали длительные путешествия, выезжали на соколиную охоту, парады и торжественные церемонии. Из-за плавного шага и послушного нрава палефруа считались идеальным и роскошным средством передвижения для знатных дам, королей и высшего духовенства."
+      },
+      {
+        "id": "question-09",
+        "question": "Что такое курсер?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Средневековая упряжная лошадь"
+          },
+          {
+            "id": "answer-02",
+            "text": "Средневековая быстрая боевая лошадь"
+          },
+          {
+            "id": "answer-03",
+            "text": "Средневековая спокойная походная лошадь"
+          },
+          {
+            "id": "answer-04",
+            "text": "Элитный иноходец в Средневековье"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Курсер — это легкий, быстрый и маневренный боевой конь, который широко использовался рыцарями и воинами в Средние века. Они были дешевле и доступнее, чем массивные дестриэ, но ценились выше обычных ездовых лошадей благодаря своей скорости и выносливости. Курсеров часто выбирали для затяжных военных кампаний, быстрых кавалерийских рейдов, разведки и гонок, так как они могли долго бежать галопом и отлично подходили для динамичного боя без тяжелых доспехов."
+      },
+      {
+        "id": "question-10",
+        "question": "Что такое геннет?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Ремень для фиксации седла снизу"
+          },
+          {
+            "id": "answer-02",
+            "text": "Инструмент для расчистки копыт ковалем"
+          },
+          {
+            "id": "answer-03",
+            "text": "Историческая легкая порода верховых лошадей"
+          },
+          {
+            "id": "answer-04",
+            "text": "Специальный загон для новорожденных жеребят"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Геннет (или дженнет) — это средневековая легкая и быстрая верховая лошадь, выведенная в Испании. Они отличались небольшим ростом, невероятной грацией, выносливостью и природным мягким аллюром. Геннеты пользовались огромной популярностью среди европейской знати, особенно в качестве верховых коней для дам и легкой кавалерии, так как их ход был плавным, а характер — послушным. Именно эти лошади оказали решающее влияние на формирование современных иноходцев Америки и многих других верховых пород."
+      },
+      {
+        "id": "question-11",
+        "question": "Что такое ронсен?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Средневековый иноходец"
+          },
+          {
+            "id": "answer-02",
+            "text": "Средневековая боевая лошадь"
+          },
+          {
+            "id": "answer-03",
+            "text": "Средневековая элитная верховая лошадь"
+          },
+          {
+            "id": "answer-04",
+            "text": "Средневековая недорогая рабочая лошадь"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Ронсен (или ронси) — это распространенный в Средние века тип лошади, который выполнял роль универсального и доступного рабочего животного. В отличие от дорогих рыцарских дестриэ или элитных палефруа, ронсены стоили недорого, поэтому их использовали обычные оруженосцы, небогатые всадники, торговцы и крестьяне. Эти кони отличались выносливостью, неприхотливостью и силой, что позволяло применять их как для верховой езды в походах, так и в качестве вьючного или легкого упряжного транспорта."
+      },
+      {
+        "id": "question-12",
+        "question": "Что такое охлябь?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Специальная зимняя попона для жеребят"
+          },
+          {
+            "id": "answer-02",
+            "text": "Езда на лошади без седла"
+          },
+          {
+            "id": "answer-03",
+            "text": "Кожаный ремень для фиксации рыцарского седла"
+          },
+          {
+            "id": "answer-04",
+            "text": "Часть средневековой упряжи"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Охлябь — это старинное русское слово, которое означает верховую езду на лошади без седла. При такой езде всадник не использует ни седло, ни попону, ни стремена, полагаясь исключительно на свой баланс. Термин часто встречается в исторической литературе и этнографических описаниях крестьянского быта, где езда «охлябью» или «в охлябку» была обычным делом для деревенских мальчишек, перегонявших коней на пастбище."
+      },
+      {
+        "id": "question-13",
+        "question": "Что такое пейтраль?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Часть конского доспеха, защищающая шею лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Часть конского доспеха, защищающая бок лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Часть конского доспеха, защищающая круп лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Часть конского доспеха, защищающая грудь лошади"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Пейтраль — это нагрудный элемент средневекового конского доспеха (барда), предназначенный для защиты груди лошади от копий, стрел и встречных ударов в бою. Он изготавливался из металлических пластин, реже из прочной вареной кожи, и крепился к седлу и шее животного с помощью кожаных ремней. Пейтраль часто украшался чеканкой, гербами или гравировкой, подчеркивая статус рыцаря, и был важнейшей частью тяжелого защитного снаряжения боевого коня."
+      },
+      {
+        "id": "question-14",
+        "question": "Что такое фланшар?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Разновидность боевого построения кавалерии"
+          },
+          {
+            "id": "answer-02",
+            "text": "Боковая часть конского рыцарского доспеха"
+          },
+          {
+            "id": "answer-03",
+            "text": "Элитный боевой конь средневековья"
+          },
+          {
+            "id": "answer-04",
+            "text": "Кожаная сумка для походного корма"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Фланшар — это элемент средневекового конского доспеха (барда), который закрывал и защищал бока (фланги) боевого коня. Изготавливались фланшары из металлических пластин или плотной вареной кожи, подвешивались по обеим сторонам седла и спускались вниз, прикрывая бока животного от ударов пехоты или вражеской кавалерии. В конструкции предусматривались специальные вырезы, чтобы всадник мог свободно использовать шпоры для управления лошадью во время боя."
+      },
+      {
+        "id": "question-15",
+        "question": "Что такое бард?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Полный комплект конского рыцарского доспеха"
+          },
+          {
+            "id": "answer-02",
+            "text": "Старинный вид зимней шерстяной попоны"
+          },
+          {
+            "id": "answer-03",
+            "text": "Деревянная кормушка для нескольких лошадей"
+          },
+          {
+            "id": "answer-04",
+            "text": "Седельная сумка, для перевозки музыкальных инструментов"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Бард — это полный комплект защитного доспеха, который надевали на боевого коня в эпоху Средневековья и Ренессанса. Такой доспех защищал самые уязвимые части тела лошади: голову, шею, грудь, бока и круп. Изготавливали его из металлических пластин, кольчуги или прочной вареной кожи. Конский доспех стоил очень дорого, весил немало и использовался в основном тяжелой рыцарской кавалерией на полях сражений и на парадных рыцарских турнирах."
+      },
+      {
+        "id": "question-16",
+        "question": "Что такое бардинг?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Починка конского доспеха"
+          },
+          {
+            "id": "answer-02",
+            "text": "Турнир с участием рыцарей на лошадях в полном доспехе"
+          },
+          {
+            "id": "answer-03",
+            "text": "Искусство создания конского доспеха, и его надевание на коня"
+          },
+          {
+            "id": "answer-04",
+            "text": "Проверка конских доспехов на прочность"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Бардинг — это исторический термин, обозначающий процесс облачения боевого коня в защитные доспехи (бард), а также само искусство создания конской брони. Это слово происходит от старофранцузского названия конского доспеха и описывает традицию защиты кавалерийских лошадей в Средние века. Бардинг включал в себя точную подгонку металлических, кожаных или кольчужных элементов под анатомию конкретного животного, чтобы максимально защитить коня в бою, не лишая его подвижности и обзора."
+      },
+      {
+        "id": "question-17",
+        "question": "Что такое капарисон?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кожаное оголовье с двойным набором поводов"
+          },
+          {
+            "id": "answer-02",
+            "text": "Парадная уздечка с роскошными перьями на голове коня"
+          },
+          {
+            "id": "answer-03",
+            "text": "Парадная карета, запряженная четверкой элитных лошадей"
+          },
+          {
+            "id": "answer-04",
+            "text": "Парадная накидка или попона для коня"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Капарисон — это роскошная тканевая накидка или декоративная попона, которую надевали на лошадей в Средние века и эпоху Возрождения. Она полностью закрывала тело животного от ушей до копыт и использовалась на рыцарских турнирах, парадах и торжественных церемониях. Капарисон шили из дорогих материалов вроде бархата или шелка, украшали вышивкой, фамильными гербами и геральдическими цветами владельца. Помимо эстетической функции, на поле боя такая накидка защищала металлический конский доспех от грязи и перегрева на солнце."
+      },
+      {
+        "id": "question-18",
+        "question": "Что такое шамброн?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Защитная пластина для головы боевого коня"
+          },
+          {
+            "id": "answer-02",
+            "text": "Защитная пластина для груди боевого коня"
+          },
+          {
+            "id": "answer-03",
+            "text": "Защитная пластина для боков боевого коня"
+          },
+          {
+            "id": "answer-04",
+            "text": "Защитная пластина для шеи боевого коня"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Шамброн (чаще упоминается в исторической литературе как шанфрон или шафрон, от французского chanfrein) — это элемент средневекового конского доспеха, представляющий собой защитную маску или наголовник для лошади. Он закрывал самую уязвимую переднюю часть головы животного от ушей до ноздрей и часто снабжался специальными отбортовками для защиты глаз, а иногда и заменяемыми пластинами для щек. Шамброны изготавливались из прочной формованной кожи или кованого металла, а на лбу нередко имели декоративный элемент — металлический рондель с острым шипом или геральдический султан из перьев."
+      },
+      {
+        "id": "question-19",
+        "question": "Что такое арчак?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Деревянный каркас седла"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мягкая подушка под средневековым седлом"
+          },
+          {
+            "id": "answer-03",
+            "text": "Широкий кожаный ремень под хвостом"
+          },
+          {
+            "id": "answer-04",
+            "text": "Железное кольцо для крепления стремени"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Арчак — это деревянный каркас (основа) конского седла, определяющий его форму, размер и прочность. Исторически его изготавливали из крепких пород дерева (березы, дуба, карагача), скрепляя детали клеем, жилами или металлическими пластинами, а затем обтягивали сыромятной кожей. Арчак являлся важнейшим элементом казачьих, кавалерийских и пастушьих седел: он правильно распределял вес всадника по спине лошади, защищал ее позвоночник от травм и служил основой для крепления всех остальных частей седла."
+      },
+      {
+        "id": "question-20",
+        "question": "Что такое чепрак?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кожаный ремень для фиксации средневекового седла"
+          },
+          {
+            "id": "answer-02",
+            "text": "Плотная подстилка под конское седло"
+          },
+          {
+            "id": "answer-03",
+            "text": "Защитная пластина на груди лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Защитная пластина на лбу лошади"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Чепрак — это широкая плотная подстилка из сукна, войлока или кожи, которую кладут на спину лошади под седло. В отличие от небольшого вальтрапа, классический чепрак имеет прямоугольную форму и полностью закрывает спину и бока животного под седлом и за ним. Он выполняет важные защитные функции: впитывает пот, смягчает давление тяжелого седла на спину лошади и предохраняет ее кожу от болезненных потертостей. В кавалерии и на парадах чепраки часто шили из ярких тканей с золотой вышивкой и вензелями, подчеркивая статус полка или всадника."
+      },
+      {
+        "id": "question-21",
+        "question": "Что такое торока?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Часть средневековой упряжи"
+          },
+          {
+            "id": "answer-02",
+            "text": "Металлические застежки на кавалерийской уздечке"
+          },
+          {
+            "id": "answer-03",
+            "text": "Ремни у луки седла для привязывания груза"
+          },
+          {
+            "id": "answer-04",
+            "text": "Ремни для фиксации средневекового седла"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Торока — это приспособление в виде прочных кожаных ремней, расположенных у передней или задней луки седла (чаще всего казачьего, охотничьего или кавалерийского). Слово также используется для обозначения самого места на седле, куда привязывается походный багаж. С помощью торок всадники надежно закрепляли шинельные скатки, спальные мешки, переметные сумы, добытую на охоте дичь или другое снаряжение. От этого термина произошло известное выражение «приторочить», то есть привязать вещи к седлу для дальнейшей транспортировки."
+      },
+      {
+        "id": "question-22",
+        "question": "Что такое тарпан?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Старинная теплая попона"
+          },
+          {
+            "id": "answer-02",
+            "text": "Старинный тип кавалерийской уздечки"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вымерший предок современных домашних лошадей"
+          },
+          {
+            "id": "answer-04",
+            "text": "Старинный тип деревянного кавалерийского седла"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Тарпан — это вымерший дикий предок современной домашней лошади, который обитал в лесостепях и степях Европы, а также на территории Западной Сибири. Это были небольшие, коренастые животные мышастой масти с характерной темной полосой («ремнем») вдоль хребта и жесткой стоячей гривой. Тарпаны отличались невероятной выносливостью, осторожностью и диким нравом, из-за чего практически не поддавались приручению. К сожалению, в результате распашки степей и активной охоты со стороны человека, этот уникальный вид диких лошадей полностью исчез к началу XX века."
+      },
+      {
+        "id": "question-23",
+        "question": "Что такое битюг?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Древняя упряжь"
+          },
+          {
+            "id": "answer-02",
+            "text": "Повозка, запряженная двумя лошадьми"
+          },
+          {
+            "id": "answer-03",
+            "text": "Крупная русская порода тяжеловозных лошадей"
+          },
+          {
+            "id": "answer-04",
+            "text": "То же что и батуг (кнут)"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Битюг — это старинная русская порода крупных и сильных тяжеловозных лошадей, выведенная в XVIII веке в Воронежской губернии на реке Битюг. Порода создавалась путем скрещивания местных кобыл с голландскими и датскими жеребцами, присланными по приказу Петра I, а позже — с орловскими рысаками. Битюги отличались спокойным нравом, массивным телосложением, густыми щетками на ногах и невероятной выносливостью в тяжелой работе, из-за чего их массово использовали как надежных ломовых и крестьянских коней. Сегодня в чистом виде порода считается утраченной, но слово «битюг» прочно вошло в русский язык как синоним любого крепкого, сильного и крупного человека или коня."
+      },
+      {
+        "id": "question-24",
+        "question": "Что такое гунтер?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Немецкий тип крупной вьючной лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Испанский тип крупной упряжной лошади"
+          },
+          {
+            "id": "answer-03",
+            "text": "Английский тип крупной охотничьей лошади"
+          },
+          {
+            "id": "answer-04",
+            "text": "Французский тип крупной боевой лошади"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Гунтер (от английского hunter — охотник) — это особый тип крупной, сильной и выносливой полукровной лошади, выведенный в Великобритании и Ирландии специально для традиционной парфорсной охоты. Гунтеры не являются породой в строгом биологическом смысле, а представляют собой результат скрещивания чистокровных верховых жеребцов с крепкими местными упряжными кобылами. От тяжелых матерей они наследуют мощный костяк, уравновешенный темперамент и крепкое здоровье, а от породистых отцов — резвость, изящество и отличный прыжок. Благодаря способности часами скакать по пересеченной местности и легко перепрыгивать через любые препятствия, современные гунтеры пользуются огромной популярностью в конном спорте, особенно в конкуре и троеборье."
+      },
+      {
+        "id": "question-25",
+        "question": "Что такое крэк?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Средневековая упряжная лошадь"
+          },
+          {
+            "id": "answer-02",
+            "text": "Выдающаяся скаковая или беговая лошадь"
+          },
+          {
+            "id": "answer-03",
+            "text": "Специальный состав для полировки копыт"
+          },
+          {
+            "id": "answer-04",
+            "text": "Длинный хлыст для цирковой дрессировки"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Крэк — это старинный ипподромный термин (заимствованный из английского языка), которым называют выдающуюся, первоклассную скаковую или рысистую лошадь, превосходящую по своим результатам большинство сверстников. Такой конь регулярно выигрывает престижные призы, демонстрирует выдающуюся резвость и становится знаменитостью в мире конного спорта. Слово чаще всего употребляется в среде коневодов, наездников и любителей бегов или скачек для выделения абсолютного лидера поколения, способного устанавливать рекорды."
+      },
+      {
+        "id": "question-26",
+        "question": "Что такое ломовая лошадь?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Молодая лошадь, проходящая первичную объездку"
+          },
+          {
+            "id": "answer-02",
+            "text": "Дикая лошадь, обитающая в горных районах"
+          },
+          {
+            "id": "answer-03",
+            "text": "Сильная лошадь для перевозки тяжелых грузов"
+          },
+          {
+            "id": "answer-04",
+            "text": "Породистая лошадь для скоростных бегов на ипподроме"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Ломовая лошадь — это крупное, массивное и сильное животное, предназначенное для тяжелой физической работы, в первую очередь для перевозки больших грузов в телегах или санях. Название происходит от слова «лом» (в значении тяжелого груза или ломового извоза). В отличие от легких верховых коней, ломовые лошади (тяжеловозы) обладают мощным скелетом, развитой мускулатурой, широкой грудью и спокойным, терпеливым характером. До появления грузовых автомобилей они были главной тягловой силой в городах и деревнях: на них возили бревна, камни, бочки с водой и другие сверхтяжелые предметы, из-за чего само выражение стало нарицательным для обозначения очень трудолюбивого человека."
+      },
+      {
+        "id": "question-27",
+        "question": "Что такое неспряга?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Ни на что не пригодная лошадь"
+          },
+          {
+            "id": "answer-02",
+            "text": "Лошадь, не приученная к упряжи"
+          },
+          {
+            "id": "answer-03",
+            "text": "Верховая лошадь, не пригодная к упряжи вообще"
+          },
+          {
+            "id": "answer-04",
+            "text": "Лошадь, не приученная к упряжи в паре"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Неспряга (или неспряжь) — это старинное русское конно-заводское слово, зафиксированное в словаре Владимира Даля, которое обозначает лошадь, способную или приученную ходить в упряжке только в одиночку. Такое животное не обучено работать в паре, тройке или многолошадной повозке, из-за чего оно пугается соседних коней или сбивается с шага. Кроме того, в крестьянском быту «неспрягой» часто называли непарную лошадь, которая по своему росту, силе, масти или темпераменту никак не подходила к другим коням в хозяйстве и не могла составить с ними гармоничный рабочий дуэт («дружку» или «ровню»)."
+      },
+      {
+        "id": "question-28",
+        "question": "Что такое стиплер?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Элитная верховая лошадь"
+          },
+          {
+            "id": "answer-02",
+            "text": "Элитная упряжная лошадь"
+          },
+          {
+            "id": "answer-03",
+            "text": "Лошадь для скачек с препятствиями"
+          },
+          {
+            "id": "answer-04",
+            "text": "Лошадь для охоты"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Стиплер (от английского steeplechaser) — это специализированная скаковая лошадь, подготовленная для участия в стипль-чезах — самых сложных и опасных скачках по пересеченной местности с массивными неподвижными препятствиями. В отличие от обычных гладких скакунов, от стиплера требуется не только феноменальная скорость, но и мощный, точный прыжок, а также исключительная выносливость и координация. Чаще всего в этой роли выступают чистокровные верховые лошади или их помеси (полукровные), обладающие крепким костяком и способные выдерживать колоссальные нагрузки на дистанциях до 6–7 километров."
+      },
+      {
+        "id": "question-29",
+        "question": "Что такое одр?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Молодая резвая лошадь"
+          },
+          {
+            "id": "answer-02",
+            "text": "Старая изнуренная рабочая лошадь"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чистокровный жеребец-производитель"
+          },
+          {
+            "id": "answer-04",
+            "text": "Хорошо объезженный конь"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Одр — это старинное русское слово, которое в конном контексте использовалось для обозначения старой, изнуренной, худой и немощной рабочей лошади (клячи). Первоначально в русском языке слово означало постель, ложе или носилки для покойников, но со временем в народной речи и литературе закрепилось как пренебрежительное название измученного тяжелым трудом или болезнью животного. Такое образное сравнение подчеркивало крайнюю степень истощения коня, который едва держался на ногах и метафорически был близок к своему смертному одру."
+      },
+      {
+        "id": "question-30",
+        "question": "Что такое коренник?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Конь атамана"
+          },
+          {
+            "id": "answer-02",
+            "text": "Специально отобранный жеребец, для племенной работы"
+          },
+          {
+            "id": "answer-03",
+            "text": "Главный жеребец в диком табуне"
+          },
+          {
+            "id": "answer-04",
+            "text": "Центральная лошадь в тройной упряжке"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Коренник — это центральная, самая сильная и крупная лошадь в многолошадной упряжке (например, в знаменитой русской тройке), которую запрягают непосредственно в оглобли под дугу. В отличие от боковых лошадей (пристяжных), которые бегут галопом и задают упряжке красивый изгиб, коренник идет четкой, размашистой рысью и берет на себя основную тяжесть повозки, а также выполняет роль тормоза при остановке. Для этой роли традиционно выбирают рослых, выносливых и уравновешенных лошадей, чаще всего орловских рысаков, способных подолгу удерживать высокий темп движения и четко подчиняться командам кучера."
+      },
+      {
+        "id": "question-31",
+        "question": "Кто такой пристяжной?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Лошадь пристегнутая за повод к седлу другой лошади"
+          },
+          {
+            "id": "answer-02",
+            "text": "Запасная лошадь в военном походе"
+          },
+          {
+            "id": "answer-03",
+            "text": "Лошадь, запряженная сбоку от коренника"
+          },
+          {
+            "id": "answer-04",
+            "text": "Лошадь, бегущая за повозкой и привязанная к ней"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Пристяжной (или пристяжная лошадь) — это боковая лошадь в многолошадиной упряжке, которая работает в паре с центральным коренником (в паре, тройке или тачанке). В отличие от коренника, идущего рысью в оглоблях, пристяжная лошадь крепится сбоку с помощью гибких ремней (поняг). При правильной запряжке голова пристяжной красиво повернута в сторону, что не только эстетично смотрится, но и помогает ей координировать движение. Основная задача пристяжных лошадей — помогать кореннику везти повозку на поворотах и развивать максимальную скорость на прямых участках дороги."
+      },
+      {
+        "id": "question-32",
+        "question": "Каких лошадей в Древнем Китае называли «небесными»?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Лучших лошадей из южных регионов Китая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Чистокровных лошадей из северных регионов Китая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Элитных лошадей из Манчжурской долины"
+          },
+          {
+            "id": "answer-04",
+            "text": "Среднеазиатских лошадей из Ферганской долины"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "«Небесными конями» (или Тяньма) в Древнем Китае времен династии Хань называли благородных, быстрых и выносливых лошадей из Ферганской долины (государство Давань, территория современного Узбекистана, Таджикистана и Кыргызстана). Согласно легендам, эти скакуны происходили от божественных предков и обладали уникальной особенностью — они «потели кровью» (что современные ученые объясняют действием подкожных паразитов). Китайский император У-ди был настолько очарован их изяществом, скоростью и силой, что даже развязал против Давани кровопролитную войну, чтобы заполучить жеребцов для своей кавалерии и за заоблачную резвость официально прозвал их «небесными». Считается, что именно эти легендарные кони стали прямыми предками знаменитой современной ахалтекинской породы лошадей."
+      },
+      {
+        "id": "question-33",
+        "question": "Как назывался конь, который как ошибочно считалось, умел считать?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Умный Жак"
+          },
+          {
+            "id": "answer-02",
+            "text": "Умный Ганс"
+          },
+          {
+            "id": "answer-03",
+            "text": "Умный Оливер"
+          },
+          {
+            "id": "answer-04",
+            "text": "Умный Джон"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Умный Ганс (Clever Hans) — это знаменитый орловский рысак, живший в Германии в начале XX века, который обрел всемирную известность благодаря своим мнимым интеллектуальным способностям. Его владелец, Вильгельм фон Остен, утверждал, что конь умеет производить математические вычисления, читать, определять время и даже понимать немецкий язык, выстукивая ответы копытом. Проведенное в 1904 году научное расследование показало, что Ганс не умел считать, а обладал феноменальной наблюдательностью. Он безошибочно считывал едва заметные изменения в мимике, позе и дыхании задающего вопрос человека, который непроизвольно напрягался во время счета и расслаблялся, когда конь доходил до правильного ответа, что и служило для животного сигналом прекратить стучать. Данный феномен вошел в психологию под названием «эффект Умного Ганса»."
+      },
+      {
+        "id": "question-34",
+        "question": "Как называлась любимая лошадь Петра Первого?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Луиза"
+          },
+          {
+            "id": "answer-02",
+            "text": "Луизитана"
+          },
+          {
+            "id": "answer-03",
+            "text": "Лизонька"
+          },
+          {
+            "id": "answer-04",
+            "text": "Лизетта"
+          },
+          {
+            "id": "answer-05",
+            "text": "Либретта"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Лизетта — легендарная любимая лошадь бурой масти, которая прошла с Петром I всю Северную войну и практически спасла ему жизнь во время Полтавской битвы, вынеся государя из-под прицельного вражеского огня. Согласно преданиям, она отличалась невероятной верностью, признавала исключительно своего венценосного хозяина, отказывалась принимать пищу от чужих людей и горько «плакала», если царь долго не навещал её. Петр Великий так сильно ценил преданность своего четвероногого друга, что после смерти Лизетты приказал изготовить её чучело. Увидеть этот уникальный исторический экспонат, а также рассмотреть Лизетту на старинных парадных портретах императора можно и сегодня в музеях Санкт-Петербурга."
+      },
+      {
+        "id": "question-35",
+        "question": "Как назывался конь, ставший римским сенатором?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Калигула"
+          },
+          {
+            "id": "answer-02",
+            "text": "Иполит"
+          },
+          {
+            "id": "answer-03",
+            "text": "Инцитат"
+          },
+          {
+            "id": "answer-04",
+            "text": "Буцефал"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Инцитат (в переводе с латыни — «быстроногий» или «борзой») — любимый светло-серый жеребец римского императора Калигулы, который, согласно античным преданиям, был введен своим хозяином в состав Сената. Жизнь коня была окружена невероятной роскошью: он имел собственное мраморное стойло, позолоченные ясли, пурпурные попоны и ожерелья из драгоценных камней, а овес ему подавали с золотыми хлопьями на серебряном блюде. Историки считают, что Калигула сделал своего коня сенатором (а также обещал сделать консулом) не из-за безумия, а в качестве злой политической насмешки, чтобы показать полное презрение к трусливым сенаторам и доказать, что с их обязанностями может справиться даже животное. После убийства императора Инцитата не смогли сразу уволить из Сената из-за бюрократических законов, поэтому новый правитель Клавдий просто урезал коню жалование, после чего тот автоматически лишился должности из-за «недостатка денежного ценза»."
+      },
+      {
+        "id": "question-36",
+        "question": "Как называлась римская колесница, запряженная четверкой лошадей?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Квадрига"
+          },
+          {
+            "id": "answer-02",
+            "text": "Квадрила"
+          },
+          {
+            "id": "answer-03",
+            "text": "Квадрицепс"
+          },
+          {
+            "id": "answer-04",
+            "text": "Квадроцикл"
+          },
+          {
+            "id": "answer-05",
+            "text": "Квадрулька"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Квадрига — это античная двухколесная колесница, в которую запрягали четырех лошадей в один ряд. В Древнем Риме она имела огромное символическое значение и ассоциировалась с триумфом, военной победой и славой. Именно на квадриге в город въезжали императоры и полководцы-победители во время триумфальных шествий, а изображения этой повозки чеканились на монетах и украшали арки. Кроме того, квадриги были главными участницами опасных и невероятно популярных гонок на ипподромах, таких как Большой цирк (Circus Maximus) в Риме."
+      },
+      {
+        "id": "question-37",
+        "question": "Как называется самый древний известный предок лошадиных?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Индрикотерий"
+          },
+          {
+            "id": "answer-02",
+            "text": "Гиракотерий"
+          },
+          {
+            "id": "answer-03",
+            "text": "Мезогиппус"
+          },
+          {
+            "id": "answer-04",
+            "text": "Плиогиппус"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Самым древним известным предком современных лошадей считается эогиппус (также известный как гиракотерий), обитавший на Земле около 50-55 миллионов лет назад в эпоху эоцена. Это было миниатюрное существо размером с небольшую собаку или лисицу (около 20–30 сантиметров в холке), которое весило всего несколько килограммов. В отличие от современных однокопытных лошадей, у эогиппуса были четырехпалые передние и трехпалые задние конечности с небольшими копытцами на каждом пальце. Он обитал в густых тропических лесах Северной Америки и Евразии, питаясь мягкими листьями и сочными побегами растений, а его пятнистая или полосатая окраска помогала прятаться от хищников в зарослях."
+      },
+      {
+        "id": "question-38",
+        "question": "Как звали любимого коня Александра Македонского?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Инцитат"
+          },
+          {
+            "id": "answer-02",
+            "text": "Маренго"
+          },
+          {
+            "id": "answer-03",
+            "text": "Иполлит"
+          },
+          {
+            "id": "answer-04",
+            "text": "Буцефал"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Буцефал — легендарный конь Александра Македонского, ставший одним из самых известных скакунов в истории человечества. Согласно историческим хроникам, юный Александр смог укротить этого своенравного и дикого жеребца, заметив, что тот просто боится собственной тени. Кличка коня переводится как «бычьеголовый», что указывало на его массивный лоб или широкую морду. Буцефал преданно служил царю на протяжении многих лет и прошел с ним через большинство главных сражений азиатского похода. Когда верный конь погиб от ран или старости после битвы на реке Гидасп (на территории современного Пакистана), безутешный Александр основал и назвал в его честь город Буцефала."
+      },
+      {
+        "id": "question-39",
+        "question": "Как звали любимого коня Наполеона Бонапарта?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Маренго"
+          },
+          {
+            "id": "answer-02",
+            "text": "Айвенго"
+          },
+          {
+            "id": "answer-03",
+            "text": "Либренго"
+          },
+          {
+            "id": "answer-04",
+            "text": "Ривьенго"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Маренго — знаменитый чистокровный арабский жеребец серой масти, ставший самым известным боевым конем французского императора Наполеона Бонапарта. Кличку скакун получил в честь блестящей победы Наполеона в битве при Маренго в 1800 году, откуда и начался их долгий совместный боевой путь. Этот конь отличался невероятной выносливостью, бесстрашием в бою и за свою карьеру был ранен восемь раз. В решающей битве при Ватерлоо в 1815 году Маренго был захвачен в плен англичанами и увезен в Великобританию, где прожил долгую жизнь, а его скелет до сих пор хранится в лондонском Национальном музее армии."
+      },
+      {
+        "id": "question-40",
+        "question": "Как звали коня Дон Кихота в знаменитом романе Мигеля де Сервантеса?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Артагнан"
+          },
+          {
+            "id": "answer-02",
+            "text": "Росинант"
+          },
+          {
+            "id": "answer-03",
+            "text": "Бабьека"
+          },
+          {
+            "id": "answer-04",
+            "text": "Джолли Джампер"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Росинант — знаменитая кляча бедного идальго Дон Кихота Ламанчского, чье имя стало нарицательным для обозначения худых, изможденных и старых лошадей. Свое гордое имя, которое переводится как «прежняя кляча», конь получил после четырех дней долгих размышлений его хозяина, решившего, что у благородного рыцаря скакун должен носить самое громкое и звучное имя в мире. Несмотря на свою худобу, слабость и почтенный возраст, Росинант преданно делил со своим сумасбродным владельцем все невзгоды и странствия, став полноценным и незаменимым персонажем великого литературного произведения."
+      }
+    ]
   },
-  "_translation_source": {}
+  "questionImagesAlt": "",
+  "source_content_hash": "07e82c47e9cecc59d8661538a2f9811878f377c635c7c0e8803a3316f94d1713"
 }

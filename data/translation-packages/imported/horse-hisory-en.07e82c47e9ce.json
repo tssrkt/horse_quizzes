@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "horse-hisory",
   "target_quiz": "horse-hisory-en",
   "source_revision": "07e82c47e9cecc59d8661538a2f9811878f377c635c7c0e8803a3316f94d1713",
