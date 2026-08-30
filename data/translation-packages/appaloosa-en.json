@@ -7,1009 +7,1009 @@
   "source_revision": "7e0a658d05189fcd7b92d04b96f4db114a649f14f99fd72262a0c98796cbc440",
   "mode": "created",
   "fields": {
-    "title": "Чубарые масти",
-    "short_description": "Чубарые масти поражают разнообразием пятен и узоров. Леопардовые, чепрачные, снежные и другие варианты — проверьте, насколько хорошо вы различаете типы чубарости и их особенности.",
-    "intro": "Чубарые масти поражают разнообразием пятен и узоров. Леопардовые, чепрачные, снежные и другие варианты — проверьте, насколько хорошо вы различаете типы чубарости и их особенности.",
-    "questionImagesAlt": "Фотография лошади для определения масти"
+    "title": "Leopard Complex Coat Patterns",
+    "short_description": "Leopard Complex patterns come in an amazing variety of spots and markings. Leopard, blanket, snowflake, and other patterns—test how well you can tell them apart and recognize their features.",
+    "intro": "Leopard Complex patterns come in an amazing variety of spots and markings. Leopard, blanket, snowflake, and other patterns—test how well you can tell them apart and recognize their features.",
+    "questionImagesAlt": "Photo of a horse for identifying its Leopard Complex pattern"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Дроздовый"
+          "text": "Speckled"
         },
         {
           "id": "answer-03",
-          "text": "Мраморный"
+          "text": "Marble"
         },
         {
           "id": "answer-04",
-          "text": "Глянцевый"
+          "text": "Varnish roan"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Белочепрачный тип чубарости (snowcap / white blanket) характеризуется темным базовым окрасом головы, шеи, груди и конечностей, в то время как на крупе и пояснице располагается четко очерченное сплошное белое пятно («чепрак» или «попона»). В отличие от классического чепрачного типа, это белое поле остается абсолютно чистым и не содержит внутри себя темных пятен или крапин основного окраса. Граница между темной передней частью тела и белым крупом может быть как резко очерченной, так и слегка размытой за счет отдельных белых волосков."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Snowcap, also called a white blanket, has a dark base color over the head, neck, chest, and legs, while a clearly defined solid white blanket covers the croup and loin. Unlike a spotted blanket, this white area contains no dark spots of the base color. The boundary between the dark forehand and white hindquarters may be sharply defined or slightly softened by scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         },
         {
           "id": "answer-03",
-          "text": "Мраморный"
+          "text": "Marble"
         },
         {
           "id": "answer-04",
-          "text": "Глянцевый"
+          "text": "Varnish roan"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Дроздовый"
+          "text": "Speckled"
         },
         {
           "id": "answer-03",
-          "text": "Глянцевый"
+          "text": "Varnish roan"
         },
         {
           "id": "answer-04",
-          "text": "Крапчатый"
+          "text": "Mottled"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Инеистый чепрак (frost blanket) представляет собой комбинацию белого поля на крупе с эффектом «седины». В отличие от сплошного белого «снежного» чепрака, эта зона заполнена смесью белых и окрашенных волосков, что создает визуальное ощущение легкого налета инея или изморози на пояснице и бедрах лошади."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "A frost blanket combines a lighter blanket over the hindquarters with a frosted or roaned effect. Instead of forming a solid white snowcap, the blanket contains a mixture of white and colored hairs, creating the appearance of a light coating of frost over the loin and hindquarters."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         },
         {
           "id": "answer-03",
-          "text": "Инеистый чепрак"
+          "text": "Frost blanket"
         },
         {
           "id": "answer-04",
-          "text": "Крапчатый"
+          "text": "Mottled"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Чепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "A spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Тип чубарости «снежные хлопья» (snowflake) визуально противоположен чепрачным вариантам: лошадь имеет темный базовый окрас по всему телу, на котором хаотично разбросаны мелкие белые пятнышки. Эти отметины напоминают крупные хлопья падающего снега и чаще всего концентрируются в области крупа и бедер, хотя могут распространяться на спину и шею. С возрастом количество и размер таких «снежинок» обычно увеличиваются, из-за чего лошадь постепенно становится все более светлой."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The snowflake pattern has a dark base coat scattered with small white spots that resemble falling snowflakes. They are usually most concentrated over the croup and hindquarters, although they may spread onto the back and neck. The number and size of these white spots often increase with age, so the horse may become progressively lighter."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         },
         {
           "id": "answer-03",
-          "text": "Снежные хлопья"
+          "text": "Snowflake"
         },
         {
           "id": "answer-04",
-          "text": "Крапчатый"
+          "text": "Mottled"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Тип чубарости «в инее» (frost) характеризуется диффузным распределением белых волосков по темному фону основной масти, преимущественно в области крупа, спины и поясницы. В отличие от чепрачных типов, здесь нет выраженного сплошного белого пятна — белые волоски растут вперемешку с окрашенными, создавая визуальный эффект легкой изморози или налета пушистого снега. Этот рисунок часто путают с обычной чалостью, однако для него характерно обязательное наличие других признаков чубарости, таких как полосатые копыта, пятнистая кожа и выраженная белая склера глаз."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The frost pattern is characterized by a diffuse scattering of white hairs over a darker base coat, especially across the croup, back, and loin. There is no sharply defined solid white blanket; instead, white and colored hairs are intermingled, creating a lightly frosted appearance. It can resemble ordinary roaning, but Leopard Complex horses also show characteristic features such as striped hooves, mottled skin, and visible white sclera."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Крапчатый"
+          "text": "Mottled"
         },
         {
           "id": "answer-02",
-          "text": "Дроздовый"
+          "text": "Speckled"
         },
         {
           "id": "answer-03",
-          "text": "Мраморный"
+          "text": "Marble"
         },
         {
           "id": "answer-04",
-          "text": "В инее"
+          "text": "Frost"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Малопятнистый леопардовый тип чубарости (few-spot leopard) представляет собой гомозиготный вариант классического леопарда (Lp/Lp в сочетании с PATN1/PATN1), при котором лошадь выглядит почти полностью белой. На белоснежном фоне корпуса остаются лишь единичные, слабо выраженные цветные пятнышки базовой масти, которые чаще всего локализуются на ногах, в паху, вокруг глаз, на шее или у основания хвоста. Кожа под белой шерстью имеет характерный розовый цвет с темными крапинами, копыта всегда вертикально полосатые, а белок глаза четко виден, что выдает чубарную природу этой визуально «белой» лошади."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Few-spot leopard is the homozygous form of the leopard pattern, typically associated with Lp/Lp and extensive PATN1 patterning. The horse appears almost completely white, with only a few faint spots of the base color, often on the legs, groin, around the eyes, neck, or tailhead. Beneath the white hair, the skin is characteristically pink with dark mottling; the hooves are vertically striped and the white sclera is visible, revealing the horse's Leopard Complex phenotype."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Чепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "A spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Чепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "A spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Белочепрачный тип чубарости (snowcap / white blanket) характеризуется темным базовым окрасом головы, шеи, груди и конечностей, в то время как на крупе и пояснице располагается четко очерченное сплошное белое пятно («чепрак» или «попона»). В отличие от классического чепрачного типа, это белое поле остается абсолютно чистым и не содержит внутри себя темных пятен или крапин основного окраса. Граница между темной передней частью тела и белым крупом может быть как резко очерченной, так и слегка размытой за счет отдельных белых волосков."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Snowcap, also called a white blanket, has a dark base color over the head, neck, chest, and legs, while a clearly defined solid white blanket covers the croup and loin. Unlike a spotted blanket, this white area contains no dark spots of the base color. The boundary between the dark forehand and white hindquarters may be sharply defined or slightly softened by scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Глянцевый тип, также известный как глянцевая чалость (varnish roan), характеризуется постепенным и неравномерным посветлением шерсти с возрастом из-за нарастающей примеси белых волосков. При этом базовый темный окрас («глянец») долго сохраняется на костных выступах и участках, где кожа ближе всего прилегает к кости: на скулах и морде (в виде характерной темной маски в форме буквы V), на плечах, локтях, маклоках, коленях и скакательных суставах. В отличие от обычной чалой масти, глянцевая чалость динамична и меняется с годами, а также обязательно сопровождается полосатыми копытами, контрастной пятнистой кожей и видимым белком глаз.\nЧепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Varnish roan is a progressive, uneven lightening of the coat caused by increasing intermixture of white hairs with age. Dark pigment tends to remain over bony prominences and areas where the skin lies close to bone, especially the face and cheekbones, shoulders, elbows, hips, knees, and hocks. The face often retains a characteristic dark V-shaped area. Unlike classic roan, varnish roan changes progressively over the years and is accompanied by Leopard Complex features such as striped hooves, mottled skin, and visible white sclera.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мраморный + чепрак"
+          "text": "Marble + Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Мраморный + иней"
+          "text": "Marble + Frost"
         },
         {
           "id": "answer-03",
-          "text": "Глянцевый + чепрак"
+          "text": "Varnish roan + Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Глянцевый + иней"
+          "text": "Varnish roan + Frost"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Малопятнистый леопардовый тип чубарости (few-spot leopard) представляет собой гомозиготный вариант классического леопарда (Lp/Lp в сочетании с PATN1/PATN1), при котором лошадь выглядит почти полностью белой. На белоснежном фоне корпуса остаются лишь единичные, слабо выраженные цветные пятнышки базовой масти, которые чаще всего локализуются на ногах, в паху, вокруг глаз, на шее или у основания хвоста. Кожа под белой шерстью имеет характерный розовый цвет с темными крапинами, копыта всегда вертикально полосатые, а белок глаза четко виден, что выдает чубарную природу этой визуально «белой» лошади."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Few-spot leopard is the homozygous form of the leopard pattern, typically associated with Lp/Lp and extensive PATN1 patterning. The horse appears almost completely white, with only a few faint spots of the base color, often on the legs, groin, around the eyes, neck, or tailhead. Beneath the white hair, the skin is characteristically pink with dark mottling; the hooves are vertically striped and the white sclera is visible, revealing the horse's Leopard Complex phenotype."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Дроздовый"
+          "text": "Speckled"
         },
         {
           "id": "answer-04",
-          "text": "Мраморный"
+          "text": "Marble"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Чепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "A spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Тип чубарости «в инее» (frost) характеризуется диффузным распределением белых волосков по темному фону основной масти, преимущественно в области крупа, спины и поясницы. В отличие от чепрачных типов, здесь нет выраженного сплошного белого пятна — белые волоски растут вперемешку с окрашенными, создавая визуальный эффект легкой изморози или налета пушистого снега. Этот рисунок часто путают с обычной чалостью, однако для него характерно обязательное наличие других признаков чубарости, таких как полосатые копыта, пятнистая кожа и выраженная белая склера глаз."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The frost pattern is characterized by a diffuse scattering of white hairs over a darker base coat, especially across the croup, back, and loin. There is no sharply defined solid white blanket; instead, white and colored hairs are intermingled, creating a lightly frosted appearance. It can resemble ordinary roaning, but Leopard Complex horses also show characteristic features such as striped hooves, mottled skin, and visible white sclera."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мраморный"
+          "text": "Marble"
         },
         {
           "id": "answer-02",
-          "text": "Дроздовый"
+          "text": "Speckled"
         },
         {
           "id": "answer-03",
-          "text": "Снежные хлопья"
+          "text": "Snowflake"
         },
         {
           "id": "answer-04",
-          "text": "В инее"
+          "text": "Frost"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Дроздовый тип чубарости (speckled) — один из самых редких и визуально нетипичных вариантов, который внешне легко перепутать с серой мастью «в гречку». Лошадь выглядит почти полностью белой, но по всему её корпусу равномерно разбросаны очень мелкие, частые и густые крапинки (а не крупные пятна, как у леопардов) в цвет базовой масти. Генетически этот фенотип часто формируется с возрастом: жеребята могут рождаться в типе «снежные хлопья», после чего белые пятна разрастаются и сливаются, оставляя цветную шерсть только в виде крошечных «остаточных» штрихов. Главным отличием от серой масти остаются обязательные чубарные маркеры: розовая крапчатая кожа (а не темно-серая), полосатые копыта и белая склера."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The speckled pattern is a rare and visually unusual Leopard Complex expression that can resemble flea-bitten gray. The horse appears nearly white, but very small, dense flecks of the base color are distributed across the body rather than the larger spots seen in leopard patterns. This phenotype may develop with age as expanding white areas leave only tiny remnants of colored hair. Mottled pink-and-dark skin, vertically striped hooves, and visible white sclera distinguish it from ordinary gray."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Дроздовый"
+          "text": "Speckled"
         },
         {
           "id": "answer-04",
-          "text": "Крапчатый"
+          "text": "Mottled"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Мраморный тип чубарости (marble) представляет собой визуально хаотичное, сетчатое переплетение темных и белых волосков по всему телу, напоминающее текстуру природного мрамора со сложными прожилками. Белая «седина» распределяется по корпусу рваными, ветвящимися узорами, которые лишены четких границ и могут плавно менять свои очертания после сезонных линек. От глянцевой чалости (varnish roan) мраморный тип отличается отсутствием строгой фиксации темного пигмента исключительно на костных выступах — темные «мраморные» участки и прожилки могут сохраняться в любых зонах корпуса, создавая уникальный, контрастный и асимметричный рисунок камня."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The marble pattern is a chaotic, reticulated mixture of dark and white hairs across the body, producing a veined appearance reminiscent of natural marble. White hairs form irregular branching patterns without clear borders and may change subtly after seasonal shedding. Unlike varnish roan, dark pigment is not restricted mainly to bony prominences; darker marbled areas and veins may remain anywhere on the body, creating an asymmetric, high-contrast pattern."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Крапчатый"
+          "text": "Mottled"
         },
         {
           "id": "answer-02",
-          "text": "Мраморный"
+          "text": "Marble"
         },
         {
           "id": "answer-03",
-          "text": "Глянцевая чалость"
+          "text": "Varnish roan"
         },
         {
           "id": "answer-04",
-          "text": "В инее"
+          "text": "Frost"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Мраморный тип чубарости (marble) представляет собой визуально хаотичное, сетчатое переплетение темных и белых волосков по всему телу, напоминающее текстуру природного мрамора со сложными прожилками. Белая «седина» распределяется по корпусу рваными, ветвящимися узорами, которые лишены четких границ и могут плавно менять свои очертания после сезонных линек. От глянцевой чалости (varnish roan) мраморный тип отличается отсутствием строгой фиксации темного пигмента исключительно на костных выступах — темные «мраморные» участки и прожилки могут сохраняться в любых зонах корпуса, создавая уникальный, контрастный и асимметричный рисунок камня.\nЧепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The marble pattern is a chaotic, reticulated mixture of dark and white hairs across the body, producing a veined appearance reminiscent of natural marble. White hairs form irregular branching patterns without clear borders and may change subtly after seasonal shedding. Unlike varnish roan, dark pigment is not restricted mainly to bony prominences; darker marbled areas and veins may remain anywhere on the body, creating an asymmetric, high-contrast pattern.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Крапчатый + чепрак"
+          "text": "Mottled + Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Дроздовый + чепрак"
+          "text": "Speckled + Spotted blanket"
         },
         {
           "id": "answer-03",
-          "text": "Мраморный + чепрак"
+          "text": "Marble + Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Глянцевый + чепрак"
+          "text": "Varnish roan + Spotted blanket"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Тип чубарости «снежные хлопья» (snowflake) визуально противоположен чепрачным вариантам: лошадь имеет темный базовый окрас по всему телу, на котором хаотично разбросаны мелкие белые пятнышки. Эти отметины напоминают крупные хлопья падающего снега и чаще всего концентрируются в области крупа и бедер, хотя могут распространяться на спину и шею. С возрастом количество и размер таких «снежинок» обычно увеличиваются, из-за чего лошадь постепенно становится все более светлой.\nИнеистый чепрак (frost blanket) представляет собой комбинацию белого поля на крупе с эффектом «седины». В отличие от сплошного белого «снежного» чепрака, эта зона заполнена смесью белых и окрашенных волосков, что создает визуальное ощущение легкого налета инея или изморози на пояснице и бедрах лошади."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The snowflake pattern has a dark base coat scattered with small white spots that resemble falling snowflakes. They are usually most concentrated over the croup and hindquarters, although they may spread onto the back and neck. The number and size of these white spots often increase with age, so the horse may become progressively lighter.\nA frost blanket combines a lighter blanket over the hindquarters with a frosted or roaned effect. Instead of forming a solid white snowcap, the blanket contains a mixture of white and colored hairs, creating the appearance of a light coating of frost over the loin and hindquarters."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Крапчатый + инеистый чепрак"
+          "text": "Mottled + Frost blanket"
         },
         {
           "id": "answer-02",
-          "text": "Дроздовый + инеистый чепрак"
+          "text": "Speckled + Frost blanket"
         },
         {
           "id": "answer-03",
-          "text": "Снежные хлопья + инеистый чепрак"
+          "text": "Snowflake + Frost blanket"
         },
         {
           "id": "answer-04",
-          "text": "В инее + инеистый чепрак"
+          "text": "Frost + Frost blanket"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Мраморный тип чубарости (marble) представляет собой визуально хаотичное, сетчатое переплетение темных и белых волосков по всему телу, напоминающее текстуру природного мрамора со сложными прожилками. Белая «седина» распределяется по корпусу рваными, ветвящимися узорами, которые лишены четких границ и могут плавно менять свои очертания после сезонных линек. От глянцевой чалости (varnish roan) мраморный тип отличается отсутствием строгой фиксации темного пигмента исключительно на костных выступах — темные «мраморные» участки и прожилки могут сохраняться в любых зонах корпуса, создавая уникальный, контрастный и асимметричный рисунок камня.\nТип чубарости «снежные хлопья» (snowflake) визуально противоположен чепрачным вариантам: лошадь имеет темный базовый окрас по всему телу, на котором хаотично разбросаны мелкие белые пятнышки. Эти отметины напоминают крупные хлопья падающего снега и чаще всего концентрируются в области крупа и бедер, хотя могут распространяться на спину и шею. С возрастом количество и размер таких «снежинок» обычно увеличиваются, из-за чего лошадь постепенно становится все более светлой."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The marble pattern is a chaotic, reticulated mixture of dark and white hairs across the body, producing a veined appearance reminiscent of natural marble. White hairs form irregular branching patterns without clear borders and may change subtly after seasonal shedding. Unlike varnish roan, dark pigment is not restricted mainly to bony prominences; darker marbled areas and veins may remain anywhere on the body, creating an asymmetric, high-contrast pattern.\nThe snowflake pattern has a dark base coat scattered with small white spots that resemble falling snowflakes. They are usually most concentrated over the croup and hindquarters, although they may spread onto the back and neck. The number and size of these white spots often increase with age, so the horse may become progressively lighter."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Глянцевый + снежные хлопья"
+          "text": "Varnish roan + Snowflake"
         },
         {
           "id": "answer-02",
-          "text": "Мраморный + снежные хлопья"
+          "text": "Marble + Snowflake"
         },
         {
           "id": "answer-03",
-          "text": "Крапчатый + снежные хлопья"
+          "text": "Mottled + Snowflake"
         },
         {
           "id": "answer-04",
-          "text": "В инее + снежные хлопья"
+          "text": "Frost + Snowflake"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Крапчатый тип чубарости (mottled) визуально характеризуется полным отсутствием крупных белых попон или четких цветных пятен на шерсти, из-за чего лошадь сохраняет ровный базовый окрас по всему телу. Главной отличительной чертой этого типа является сильное, мозаичное проявление вторичных чубарных признаков на коже. Лошадь имеет густую, контрастную розово-черную крапчатость (веснушки) на мочке носа, вокруг глаз, на губах и в паху, которая сочетается с выраженной белой склерой глаз и яркими вертикальными полосами на копытах."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The mottled type has no large white blanket or clearly defined colored spots in the coat, so the horse may appear largely solid-colored. Its defining feature is the strong expression of secondary Leopard Complex characteristics, especially dense pink-and-dark mottling of the skin around the muzzle, eyes, lips, and groin, together with prominent white sclera and vertically striped hooves."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мраморный"
+          "text": "Marble"
         },
         {
           "id": "answer-02",
-          "text": "Крапчатый"
+          "text": "Mottled"
         },
         {
           "id": "answer-03",
-          "text": "В инее"
+          "text": "Frost"
         },
         {
           "id": "answer-04",
-          "text": "Здесь нет чубарости"
+          "text": "No Leopard Complex pattern"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Дроздовый"
+          "text": "Speckled"
         },
         {
           "id": "answer-04",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Малопятнистый леопардовый тип чубарости (few-spot leopard) представляет собой гомозиготный вариант классического леопарда (Lp/Lp в сочетании с PATN1/PATN1), при котором лошадь выглядит почти полностью белой. На белоснежном фоне корпуса остаются лишь единичные, слабо выраженные цветные пятнышки базовой масти, которые чаще всего локализуются на ногах, в паху, вокруг глаз, на шее или у основания хвоста. Кожа под белой шерстью имеет характерный розовый цвет с темными крапинами, копыта всегда вертикально полосатые, а белок глаза четко виден, что выдает чубарную природу этой визуально «белой» лошади."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Few-spot leopard is the homozygous form of the leopard pattern, typically associated with Lp/Lp and extensive PATN1 patterning. The horse appears almost completely white, with only a few faint spots of the base color, often on the legs, groin, around the eyes, neck, or tailhead. Beneath the white hair, the skin is characteristically pink with dark mottling; the hooves are vertically striped and the white sclera is visible, revealing the horse's Leopard Complex phenotype."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Тип чубарости «снежные хлопья» (snowflake) визуально противоположен чепрачным вариантам: лошадь имеет темный базовый окрас по всему телу, на котором хаотично разбросаны мелкие белые пятнышки. Эти отметины напоминают крупные хлопья падающего снега и чаще всего концентрируются в области крупа и бедер, хотя могут распространяться на спину и шею. С возрастом количество и размер таких «снежинок» обычно увеличиваются, из-за чего лошадь постепенно становится все более светлой.\nЧепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The snowflake pattern has a dark base coat scattered with small white spots that resemble falling snowflakes. They are usually most concentrated over the croup and hindquarters, although they may spread onto the back and neck. The number and size of these white spots often increase with age, so the horse may become progressively lighter.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Снежные хлопья + чепрак"
+          "text": "Snowflake + Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Павлиньи отметины + чепрак"
+          "text": "Peacock spots + Spotted blanket"
         },
         {
           "id": "answer-03",
-          "text": "Иней + чепрак"
+          "text": "Frost + Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Глянец + чепрак"
+          "text": "Varnish roan + Spotted blanket"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Глянцевый тип, также известный как глянцевая чалость (varnish roan), характеризуется постепенным и неравномерным посветлением шерсти с возрастом из-за нарастающей примеси белых волосков. При этом базовый темный окрас («глянец») долго сохраняется на костных выступах и участках, где кожа ближе всего прилегает к кости: на скулах и морде (в виде характерной темной маски в форме буквы V), на плечах, локтях, маклоках, коленях и скакательных суставах. В отличие от обычной чалой масти, глянцевая чалость динамична и меняется с годами, а также обязательно сопровождается полосатыми копытами, контрастной пятнистой кожей и видимым белком глаз."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Varnish roan is a progressive, uneven lightening of the coat caused by increasing intermixture of white hairs with age. Dark pigment tends to remain over bony prominences and areas where the skin lies close to bone, especially the face and cheekbones, shoulders, elbows, hips, knees, and hocks. The face often retains a characteristic dark V-shaped area. Unlike classic roan, varnish roan changes progressively over the years and is accompanied by Leopard Complex features such as striped hooves, mottled skin, and visible white sclera."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Глянец + чепрак"
+          "text": "Varnish roan + Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Мрамор + чепрак"
+          "text": "Marble + Spotted blanket"
         },
         {
           "id": "answer-03",
-          "text": "Иней + чепрак"
+          "text": "Frost + Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Снежные хлопья + чепрак"
+          "text": "Snowflake + Spotted blanket"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Малопятнистый леопардовый тип чубарости (few-spot leopard) представляет собой гомозиготный вариант классического леопарда (Lp/Lp в сочетании с PATN1/PATN1), при котором лошадь выглядит почти полностью белой. На белоснежном фоне корпуса остаются лишь единичные, слабо выраженные цветные пятнышки базовой масти, которые чаще всего локализуются на ногах, в паху, вокруг глаз, на шее или у основания хвоста. Кожа под белой шерстью имеет характерный розовый цвет с темными крапинами, копыта всегда вертикально полосатые, а белок глаза четко виден, что выдает чубарную природу этой визуально «белой» лошади."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Few-spot leopard is the homozygous form of the leopard pattern, typically associated with Lp/Lp and extensive PATN1 patterning. The horse appears almost completely white, with only a few faint spots of the base color, often on the legs, groin, around the eyes, neck, or tailhead. Beneath the white hair, the skin is characteristically pink with dark mottling; the hooves are vertically striped and the white sclera is visible, revealing the horse's Leopard Complex phenotype."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Белочепрачный тип чубарости (snowcap / white blanket) характеризуется темным базовым окрасом головы, шеи, груди и конечностей, в то время как на крупе и пояснице располагается четко очерченное сплошное белое пятно («чепрак» или «попона»). В отличие от классического чепрачного типа, это белое поле остается абсолютно чистым и не содержит внутри себя темных пятен или крапин основного окраса. Граница между темной передней частью тела и белым крупом может быть как резко очерченной, так и слегка размытой за счет отдельных белых волосков."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Snowcap, also called a white blanket, has a dark base color over the head, neck, chest, and legs, while a clearly defined solid white blanket covers the croup and loin. Unlike a spotted blanket, this white area contains no dark spots of the base color. The boundary between the dark forehand and white hindquarters may be sharply defined or slightly softened by scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый"
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Глянцевый тип, также известный как глянцевая чалость (varnish roan), характеризуется постепенным и неравномерным посветлением шерсти с возрастом из-за нарастающей примеси белых волосков. При этом базовый темный окрас («глянец») долго сохраняется на костных выступах и участках, где кожа ближе всего прилегает к кости: на скулах и морде (в виде характерной темной маски в форме буквы V), на плечах, локтях, маклоках, коленях и скакательных суставах. В отличие от обычной чалой масти, глянцевая чалость динамична и меняется с годами, а также обязательно сопровождается полосатыми копытами, контрастной пятнистой кожей и видимым белком глаз.\nЧепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Varnish roan is a progressive, uneven lightening of the coat caused by increasing intermixture of white hairs with age. Dark pigment tends to remain over bony prominences and areas where the skin lies close to bone, especially the face and cheekbones, shoulders, elbows, hips, knees, and hocks. The face often retains a characteristic dark V-shaped area. Unlike classic roan, varnish roan changes progressively over the years and is accompanied by Leopard Complex features such as striped hooves, mottled skin, and visible white sclera.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мрамор + чепрак"
+          "text": "Marble + Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Глянец + чепрак"
+          "text": "Varnish roan + Spotted blanket"
         },
         {
           "id": "answer-03",
-          "text": "Иней + чепрак"
+          "text": "Frost + Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Снежные хлопья + чепрак"
+          "text": "Snowflake + Spotted blanket"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Леопардовый тип чубарости (leopard) характеризуется преимущественно белым фоном туловища, по которому разбросаны четкие темные пятна основного окраса (вороного, гнедого, рыжего и так далее). Голова, шея и ноги могут сохранять больше базовой масти, плавно переходящей в светлый корпус. Как и при других типах чубарости, у таких лошадей вдоль копытных швов обычно заметна вертикальная полосатость, хорошо выражена белая склера глаз, а кожа вокруг губ, глаз и половых органов имеет характерную пятнистую пигментацию — розовые участки перемежаются с темными."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Леопардовый "
+          "text": "Leopard"
         },
         {
           "id": "answer-02",
-          "text": "Леопардовый малопятнистый"
+          "text": "Few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Чепрачный"
+          "text": "Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Белочепрачный"
+          "text": "Snowcap"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Глянцевый тип, также известный как глянцевая чалость (varnish roan), характеризуется постепенным и неравномерным посветлением шерсти с возрастом из-за нарастающей примеси белых волосков. При этом базовый темный окрас («глянец») долго сохраняется на костных выступах и участках, где кожа ближе всего прилегает к кости: на скулах и морде (в виде характерной темной маски в форме буквы V), на плечах, локтях, маклоках, коленях и скакательных суставах. В отличие от обычной чалой масти, глянцевая чалость динамична и меняется с годами, а также обязательно сопровождается полосатыми копытами, контрастной пятнистой кожей и видимым белком глаз.\nЧепрачный тип чубарости (spotted blanket / blanket with spots) характеризуется темным базовым окрасом передней части тела (головы, шеи, плеч) и наличием белого пятна («чепрака») в области крупа и поясницы, на котором густо разбросаны мелкие или крупные цветные отметины. Эти отметины всегда соответствуют основному цвету масти лошади. В отличие от белочепрачного типа, здесь белое поле никогда не бывает чистым, а границы чепрака могут быть как четкими, так и плавно переходящими в базовый окрас через одиночные белые волоски."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "Varnish roan is a progressive, uneven lightening of the coat caused by increasing intermixture of white hairs with age. Dark pigment tends to remain over bony prominences and areas where the skin lies close to bone, especially the face and cheekbones, shoulders, elbows, hips, knees, and hocks. The face often retains a characteristic dark V-shaped area. Unlike classic roan, varnish roan changes progressively over the years and is accompanied by Leopard Complex features such as striped hooves, mottled skin, and visible white sclera.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Глянец + чепрак"
+          "text": "Varnish roan + Spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Мрамор + чепрак"
+          "text": "Marble + Spotted blanket"
         },
         {
           "id": "answer-03",
-          "text": "Иней + чепрак"
+          "text": "Frost + Spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Снежные хлопья + чепрак"
+          "text": "Snowflake + Spotted blanket"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Какой это тип чубарости?",
-        "explanation": "Павлиний леопард с чепраком (peacock leopard blanket) — это редчайшее и визуально эффектное проявление чубарой масти, сочетающее в себе зональное распределение рисунка и уникальную форму самих пятен. Передняя часть тела лошади (голова, шея, плечи) сохраняет базовый темный окрас, на котором располагаются фантастические «павлиньи» пятна — округлые цветные отметины, окруженные более светлым ореолом шерсти (гало), из-за чего они напоминают глазки на перьях павлина или розетки. При этом в области крупа и поясницы четко выделяется классическое белое поле (чепрак), по которому хаотично рассыпаны как обычные темные крапины, так и сложные концентрические «павлиньи» розетки базового цвета, создавая неповторимый контраст между плотно пигментированной передней частью тела и ярким пятнистым крупом."
+        "question": "What Leopard Complex pattern is this?",
+        "explanation": "A peacock leopard blanket is a rare and striking Leopard Complex expression combining a blanket distribution with unusual haloed spots. The forehand retains more of the dark base color and carries rounded 'peacock' spots surrounded by lighter halos, giving them an eye-like or rosette appearance. Over the croup and loin, a distinct white blanket contains both ordinary dark spots and more complex concentric peacock-like rosettes, producing a strong contrast between the darker forehand and the elaborately spotted hindquarters."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мраморный леопард с чепраком"
+          "text": "Marble leopard blanket"
         },
         {
           "id": "answer-02",
-          "text": "Павлиний леопард с чепраком"
+          "text": "Peacock leopard blanket"
         },
         {
           "id": "answer-03",
-          "text": "Инеистый леопард с чепраком"
+          "text": "Frost leopard blanket"
         },
         {
           "id": "answer-04",
-          "text": "Глянцевый леопард с чепраком"
+          "text": "Varnish roan leopard blanket"
         }
       ]
     }
