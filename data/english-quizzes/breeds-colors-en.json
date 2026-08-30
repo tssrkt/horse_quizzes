@@ -10,7 +10,7 @@
     "breed",
     "horses"
   ],
-  "published": false,
+  "published": true,
   "title": "Breeds and Coat Colors",
   "short_description": "Test how well you know the characteristic features of different horse breeds: which coat colors occur in them, which never do, and the reasons behind these patterns.",
   "intro": "Test how well you know the characteristic features of different horse breeds: which coat colors occur in them, which never do, and the reasons behind these patterns.",
@@ -18,7 +18,6 @@
     {
       "id": "question-01",
       "question": "If an Akhal-Teke has a distinct dorsal stripe, it is:",
-      "explanation": "Akhal-Tekes do not carry the Dun allele, but they can show non-dun primitive markings, sometimes described as pseudo-dun.",
       "answers": [
         {
           "id": "answer-01",
@@ -37,12 +36,12 @@
           "text": "Bay"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Akhal-Tekes do not carry the Dun allele, but they can show non-dun primitive markings, sometimes described as pseudo-dun."
     },
     {
       "id": "question-02",
       "question": "All Haflingers are:",
-      "explanation": "Haflingers are chestnut with a light or flaxen mane and tail. In Russian coat-color terminology, this is often described using the traditional term for flaxen chestnut, although terminology differs between sources and coat-color systems.",
       "answers": [
         {
           "id": "answer-01",
@@ -65,12 +64,12 @@
           "text": "Red dun"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Haflingers are chestnut with a light or flaxen mane and tail. In Russian coat-color terminology, this is often described using the traditional term for flaxen chestnut, although terminology differs between sources and coat-color systems."
     },
     {
       "id": "question-03",
       "question": "All Polish Koniks are:",
-      "explanation": "A few red-dun individuals have been reported, but the breed is generally regarded as characteristically black dun (grullo).",
       "answers": [
         {
           "id": "answer-01",
@@ -89,12 +88,12 @@
           "text": "Pangaré"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A few red-dun individuals have been reported, but the breed is generally regarded as characteristically black dun (grullo)."
     },
     {
       "id": "question-04",
       "question": "All Friesian horses are:",
-      "explanation": "Chestnut foals can occasionally be born, but they are not accepted into the main Friesian studbook and therefore are not officially registered as Friesians. In practice, black is the required breed color.",
       "answers": [
         {
           "id": "answer-01",
@@ -113,12 +112,12 @@
           "text": "Dark bay"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Chestnut foals can occasionally be born, but they are not accepted into the main Friesian studbook and therefore are not officially registered as Friesians. In practice, black is the required breed color."
     },
     {
       "id": "question-05",
       "question": "In which type of horses is flaxen chestnut especially common?",
-      "explanation": "In specialized riding breeds such as the Arabian and Thoroughbred, chestnuts with lighter manes and tails can occur, but the classic flaxen phenotype is especially associated with many draft and harness breeds.",
       "answers": [
         {
           "id": "answer-01",
@@ -137,12 +136,12 @@
           "text": "Only ponies"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "In specialized riding breeds such as the Arabian and Thoroughbred, chestnuts with lighter manes and tails can occur, but the classic flaxen phenotype is especially associated with many draft and harness breeds."
     },
     {
       "id": "question-06",
       "question": "If a palomino horse has a dished profile and a high-carried tail, it is most likely:",
-      "explanation": "Purebred Arabians do not carry the Cream allele, although a dished profile and a high-carried tail are characteristic Arabian traits. A horse showing all of these features at once is therefore most likely a partbred.",
       "answers": [
         {
           "id": "answer-01",
@@ -161,12 +160,12 @@
           "text": "A Marwari"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Purebred Arabians do not carry the Cream allele, although a dished profile and a high-carried tail are characteristic Arabian traits. A horse showing all of these features at once is therefore most likely a partbred."
     },
     {
       "id": "question-07",
       "question": "All Camarillo White Horses are:",
-      "explanation": "The Camarillo White Horse was founded by a dominant-white stallion and was bred from the beginning to preserve this distinctive white phenotype.",
       "answers": [
         {
           "id": "answer-01",
@@ -189,12 +188,12 @@
           "text": "Cremello"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Camarillo White Horse was founded by a dominant-white stallion and was bred from the beginning to preserve this distinctive white phenotype."
     },
     {
       "id": "question-08",
       "question": "Which group of breeds does not carry the Dun allele?",
-      "explanation": "The founders of the traditionally recognized pure breeds did not carry the Dun allele, and their studbooks are closed, preventing introgression from other breeds. Interestingly, this absence is characteristic of breeds whose origins are linked to the Middle East. By contrast, Dun is common in many northern and indigenous breeds of Europe and Asia, such as the Polish Konik, Norwegian Fjord, Yakutian Horse, and Przewalski's horse.",
       "answers": [
         {
           "id": "answer-01",
@@ -213,12 +212,12 @@
           "text": "Riding breeds"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The founders of the traditionally recognized pure breeds did not carry the Dun allele, and their studbooks are closed, preventing introgression from other breeds. Interestingly, this absence is characteristic of breeds whose origins are linked to the Middle East. By contrast, Dun is common in many northern and indigenous breeds of Europe and Asia, such as the Polish Konik, Norwegian Fjord, Yakutian Horse, and Przewalski's horse."
     },
     {
       "id": "question-09",
       "question": "Can purebred Arabians be dun?",
-      "explanation": "No. Purebred Arabians do not carry the Dun allele, so they cannot be genetically dun.",
       "answers": [
         {
           "id": "answer-01",
@@ -229,12 +228,12 @@
           "text": "No"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "No. Purebred Arabians do not carry the Dun allele, so they cannot be genetically dun."
     },
     {
       "id": "question-10",
       "question": "In which of these breeds is the leopard complex common?",
-      "explanation": "The leopard complex was deliberately preserved in the Appaloosa by the Nez Perce, who highly valued spotted horses. Andalusians, by contrast, were selected for other traits such as conformation, movement, and working ability, and the Leopard Complex (LP) allele is not part of the breed's gene pool.",
       "answers": [
         {
           "id": "answer-01",
@@ -257,12 +256,12 @@
           "text": "Andalusian"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The leopard complex was deliberately preserved in the Appaloosa by the Nez Perce, who highly valued spotted horses. Andalusians, by contrast, were selected for other traits such as conformation, movement, and working ability, and the Leopard Complex (LP) allele is not part of the breed's gene pool."
     },
     {
       "id": "question-11",
       "question": "Why are black purebred Arabians relatively rare?",
-      "explanation": "Historically, the birth of a black foal was regarded in some traditions as a bad omen, and such foals were reportedly killed before sunrise. Today, black Arabians are comparatively uncommon and can be highly prized.",
       "answers": [
         {
           "id": "answer-01",
@@ -281,12 +280,12 @@
           "text": "Black was considered unattractive, so black stallions were always gelded and black mares sold"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Historically, the birth of a black foal was regarded in some traditions as a bad omen, and such foals were reportedly killed before sunrise. Today, black Arabians are comparatively uncommon and can be highly prized."
     },
     {
       "id": "question-12",
       "question": "A dished profile and a high-carried tail are characteristic of the:",
-      "explanation": "The Arabian's dished facial profile is one of the breed's best-known features. Arabians are also famous for carrying the tail high, sometimes almost vertically, especially when excited or moving freely.",
       "answers": [
         {
           "id": "answer-01",
@@ -305,12 +304,12 @@
           "text": "A sign that it's time to lay off the drugs"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The Arabian's dished facial profile is one of the breed's best-known features. Arabians are also famous for carrying the tail high, sometimes almost vertically, especially when excited or moving freely."
     },
     {
       "id": "question-13",
       "question": "How many horse breeds are traditionally classified as “purebred” in Russian hippology?",
-      "explanation": "Traditionally, three are recognized in this classification: the Thoroughbred, Arabian, and Akhal-Teke. They are described as purebred because their studbooks are closed to outside blood.",
       "answers": [
         {
           "id": "answer-01",
@@ -329,12 +328,12 @@
           "text": "5"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Traditionally, three are recognized in this classification: the Thoroughbred, Arabian, and Akhal-Teke. They are described as purebred because their studbooks are closed to outside blood."
     },
     {
       "id": "question-14",
       "question": "Which horse breed most closely resembles the Arabian?",
-      "explanation": "The Tersk Horse was developed specifically as a domestic riding horse of Arabian type. After the Russian Civil War, only a small number of purebred Arabians remained in the Soviet Union, and they became an important foundation for the new breed. They were crossed mainly with Strelets horses, which were themselves strongly influenced by Arabian blood, and the best descendants were later crossed back to purebred Arabians.",
       "answers": [
         {
           "id": "answer-01",
@@ -353,12 +352,12 @@
           "text": "Orlov Trotter"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Tersk Horse was developed specifically as a domestic riding horse of Arabian type. After the Russian Civil War, only a small number of purebred Arabians remained in the Soviet Union, and they became an important foundation for the new breed. They were crossed mainly with Strelets horses, which were themselves strongly influenced by Arabian blood, and the best descendants were later crossed back to purebred Arabians."
     },
     {
       "id": "question-15",
       "question": "Which pinto pattern does not occur in the Thoroughbred?",
-      "explanation": "Tobiano was never part of the Thoroughbred gene pool. Since the breed's studbook has remained essentially closed since its establishment, the allele could not enter the population. Other white-spotting patterns arose or persisted within the breed itself and can occasionally occur in Thoroughbreds.",
       "answers": [
         {
           "id": "answer-01",
@@ -377,12 +376,12 @@
           "text": "Frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano was never part of the Thoroughbred gene pool. Since the breed's studbook has remained essentially closed since its establishment, the allele could not enter the population. Other white-spotting patterns arose or persisted within the breed itself and can occasionally occur in Thoroughbreds."
     },
     {
       "id": "question-16",
       "question": "All Nukra horses are:",
-      "explanation": "White horses did not meet the traditional Marwari breed standard and were excluded from breeding. However, they were visually striking and often used for weddings, ceremonies, and parades, so they began to be bred separately. Over time this white line became known as the Nukra. Some specialists do not regard the Nukra as a separate breed, instead treating it as a white variety of Marwari or related Indian horses.",
       "answers": [
         {
           "id": "answer-01",
@@ -401,12 +400,12 @@
           "text": "Black"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "White horses did not meet the traditional Marwari breed standard and were excluded from breeding. However, they were visually striking and often used for weddings, ceremonies, and parades, so they began to be bred separately. Over time this white line became known as the Nukra. Some specialists do not regard the Nukra as a separate breed, instead treating it as a white variety of Marwari or related Indian horses."
     },
     {
       "id": "question-17",
       "question": "All Murgese horses are:",
-      "explanation": "When the Murgese breed was restored in the 20th century, only black horses were selected for breeding. Over time, black became a defining breed characteristic, and horses of other colors are not considered Murgese.",
       "answers": [
         {
           "id": "answer-01",
@@ -425,12 +424,12 @@
           "text": "Black"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "When the Murgese breed was restored in the 20th century, only black horses were selected for breeding. Over time, black became a defining breed characteristic, and horses of other colors are not considered Murgese."
     },
     {
       "id": "question-18",
       "question": "All Black Forest Horses are:",
-      "explanation": "For generations, breeders selected the breed for its characteristic dark chestnut coat with a light flaxen mane and tail. Horses that do not meet the accepted color requirements are not admitted to the studbook.",
       "answers": [
         {
           "id": "answer-01",
@@ -449,12 +448,12 @@
           "text": "White"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "For generations, breeders selected the breed for its characteristic dark chestnut coat with a light flaxen mane and tail. Horses that do not meet the accepted color requirements are not admitted to the studbook."
     },
     {
       "id": "question-19",
       "question": "All Camargue horses are:",
-      "explanation": "Centuries of selection made gray a defining characteristic of the Camargue breed, and horses of other colors are not accepted for breeding.",
       "answers": [
         {
           "id": "answer-01",
@@ -473,12 +472,12 @@
           "text": "Black"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Centuries of selection made gray a defining characteristic of the Camargue breed, and horses of other colors are not accepted for breeding."
     },
     {
       "id": "question-20",
       "question": "Which coat color does not occur in the Marwari?",
-      "explanation": "White is not a recognized Marwari coat color because such horses were traditionally excluded from breeding. A separate white line later became known as the Nukra. Gray Marwaris, by contrast, are common.",
       "answers": [
         {
           "id": "answer-01",
@@ -497,12 +496,12 @@
           "text": "Chestnut"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "White is not a recognized Marwari coat color because such horses were traditionally excluded from breeding. A separate white line later became known as the Nukra. Gray Marwaris, by contrast, are common."
     },
     {
       "id": "question-21",
       "question": "Which coat-color allele is absent from the Andalusian breed?",
-      "explanation": "The Dun allele was probably widespread among ancient wild ancestors of domestic horses. During the development of the Andalusian, however, Spanish breeders favored solid colors—especially gray, black, bay, and chestnut. Horses showing true dun dilution and primitive markings were rarely or never used for breeding, and Dun gradually disappeared from the breed's gene pool.",
       "answers": [
         {
           "id": "answer-01",
@@ -521,12 +520,12 @@
           "text": "Pearl (prl)"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The Dun allele was probably widespread among ancient wild ancestors of domestic horses. During the development of the Andalusian, however, Spanish breeders favored solid colors—especially gray, black, bay, and chestnut. Horses showing true dun dilution and primitive markings were rarely or never used for breeding, and Dun gradually disappeared from the breed's gene pool."
     },
     {
       "id": "question-22",
       "question": "Which breed is especially associated with the Silver allele?",
-      "explanation": "The Silver allele is particularly common in the Rocky Mountain Horse because it was present in the breed's foundation stock and was deliberately retained through generations of selection. Silver became one of the breed's best-known color traits.",
       "answers": [
         {
           "id": "answer-01",
@@ -545,12 +544,12 @@
           "text": "Rocky Mountain Horse"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The Silver allele is particularly common in the Rocky Mountain Horse because it was present in the breed's foundation stock and was deliberately retained through generations of selection. Silver became one of the breed's best-known color traits."
     },
     {
       "id": "question-23",
       "question": "All Menorquín horses are:",
-      "explanation": "All Menorquín horses are black because the breed standard permits only this color. Breeders selected exclusively for black horses over many generations, so horses of other colors do not meet the breed standard.",
       "answers": [
         {
           "id": "answer-01",
@@ -569,12 +568,12 @@
           "text": "Black"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "All Menorquín horses are black because the breed standard permits only this color. Breeders selected exclusively for black horses over many generations, so horses of other colors do not meet the breed standard."
     },
     {
       "id": "question-24",
       "question": "Why are pinto horses so common among Gypsy Cobs?",
-      "explanation": "Pinto horses became common in the breed because, during its formation, conspicuously spotted horses were often undervalued by wider society and even rejected for military use. Romani breeders did not share this prejudice and could acquire such horses cheaply, helping pinto patterns become strongly associated with the developing Gypsy Cob type.",
       "answers": [
         {
           "id": "answer-01",
@@ -593,12 +592,12 @@
           "text": "People once believed pinto horses had special powers"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Pinto horses became common in the breed because, during its formation, conspicuously spotted horses were often undervalued by wider society and even rejected for military use. Romani breeders did not share this prejudice and could acquire such horses cheaply, helping pinto patterns become strongly associated with the developing Gypsy Cob type."
     },
     {
       "id": "question-25",
       "question": "Which breed lacks both the Cream and Dun alleles?",
-      "explanation": "The purebred Arabian lacks both the Cream and Dun alleles. As a result, true palomino, buckskin, cremello, dun, red dun, grullo, and other colors produced by these alleles do not occur in purebred Arabians. Their absence reflects the breed's historical foundation and centuries of breeding within a closed studbook.",
       "answers": [
         {
           "id": "answer-01",
@@ -617,12 +616,12 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The purebred Arabian lacks both the Cream and Dun alleles. As a result, true palomino, buckskin, cremello, dun, red dun, grullo, and other colors produced by these alleles do not occur in purebred Arabians. Their absence reflects the breed's historical foundation and centuries of breeding within a closed studbook."
     },
     {
       "id": "question-26",
       "question": "All Suffolk Punch horses are:",
-      "explanation": "All Suffolk Punch horses are chestnut. The breed developed from a relatively small number of chestnut foundation animals, and for centuries only chestnut horses were selected for breeding. Because chestnut is recessive, this strict selection ultimately eliminated other base colors from the breed.",
       "answers": [
         {
           "id": "answer-01",
@@ -641,12 +640,12 @@
           "text": "Gray"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "All Suffolk Punch horses are chestnut. The breed developed from a relatively small number of chestnut foundation animals, and for centuries only chestnut horses were selected for breeding. Because chestnut is recessive, this strict selection ultimately eliminated other base colors from the breed."
     },
     {
       "id": "question-27",
       "question": "All Cleveland Bay horses are:",
-      "explanation": "All Cleveland Bays are bay because breeders selected for a uniform appearance throughout the breed's development. For many generations only bay horses were retained for breeding, making the color a defining breed characteristic.",
       "answers": [
         {
           "id": "answer-01",
@@ -665,12 +664,12 @@
           "text": "Gray"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "All Cleveland Bays are bay because breeders selected for a uniform appearance throughout the breed's development. For many generations only bay horses were retained for breeding, making the color a defining breed characteristic."
     },
     {
       "id": "question-28",
       "question": "All Kladruber horses are:",
-      "explanation": "Kladrubers were developed as carriage horses for the ceremonial coaches of the Habsburg imperial court. Gray and black horses were considered the most striking and formal, so breeders selected only these colors for centuries and excluded other colors from the breed.",
       "answers": [
         {
           "id": "answer-01",
@@ -689,12 +688,12 @@
           "text": "Gray and black"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Kladrubers were developed as carriage horses for the ceremonial coaches of the Habsburg imperial court. Gray and black horses were considered the most striking and formal, so breeders selected only these colors for centuries and excluded other colors from the breed."
     },
     {
       "id": "question-29",
       "question": "Which breed is known for inward-curving, sickle-shaped ears?",
-      "explanation": "Inward-curving, sickle-shaped ears are characteristic of the Marwari and Kathiawari. This distinctive trait was preserved through centuries of selective breeding in the arid regions of India and became one of the most recognizable features of these breeds.",
       "answers": [
         {
           "id": "answer-01",
@@ -713,12 +712,12 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Inward-curving, sickle-shaped ears are characteristic of the Marwari and Kathiawari. This distinctive trait was preserved through centuries of selective breeding in the arid regions of India and became one of the most recognizable features of these breeds."
     },
     {
       "id": "question-30",
       "question": "Which draft breed can be dun?",
-      "explanation": "The French Poitevin Mulassier was bred not only for agricultural and harness work but also for producing large mules, so selection emphasized strength, stamina, and working ability more than coat color. Unlike many other draft breeds in which Dun was lost or deliberately excluded, the allele remained in the Poitevin Mulassier and can still occur today.",
       "answers": [
         {
           "id": "answer-01",
@@ -745,12 +744,12 @@
           "text": "Alexandrian Draft"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The French Poitevin Mulassier was bred not only for agricultural and harness work but also for producing large mules, so selection emphasized strength, stamina, and working ability more than coat color. Unlike many other draft breeds in which Dun was lost or deliberately excluded, the allele remained in the Poitevin Mulassier and can still occur today."
     },
     {
       "id": "question-31",
       "question": "Which pinto pattern is characteristic of Shires and Clydesdales?",
-      "explanation": "Sabino-type white markings are especially characteristic of Shires and Clydesdales. Breeders long favored horses with high white stockings, broad blazes, and small white belly spots because this flashy pattern became strongly associated with both breeds. Other pinto patterns such as tobiano, frame overo, and splashed white are not characteristic of them.",
       "answers": [
         {
           "id": "answer-01",
@@ -769,12 +768,12 @@
           "text": "Frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino-type white markings are especially characteristic of Shires and Clydesdales. Breeders long favored horses with high white stockings, broad blazes, and small white belly spots because this flashy pattern became strongly associated with both breeds. Other pinto patterns such as tobiano, frame overo, and splashed white are not characteristic of them."
     },
     {
       "id": "question-32",
       "question": "A long, elegant neck and almond-shaped eyes are characteristic of the:",
-      "explanation": "A long, refined neck and almond-shaped eyes are characteristic of the Akhal-Teke. Centuries of selection under the harsh conditions of Central Asia produced a lean, refined riding horse with a long, high-set neck and distinctive almond-shaped eyes.",
       "answers": [
         {
           "id": "answer-01",
@@ -793,12 +792,12 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A long, refined neck and almond-shaped eyes are characteristic of the Akhal-Teke. Centuries of selection under the harsh conditions of Central Asia produced a lean, refined riding horse with a long, high-set neck and distinctive almond-shaped eyes."
     },
     {
       "id": "question-33",
       "question": "If an Andalusian has a distinct dorsal stripe, it is:",
-      "explanation": "Andalusians do not carry the true Dun allele because centuries of selection favored solid, saturated colors such as gray, black, and bay. However, many Andalusians can carry the nd1 (non-dun1) allele, which may produce a dorsal stripe and other primitive markings without true dun dilution.",
       "answers": [
         {
           "id": "answer-01",
@@ -821,12 +820,12 @@
           "text": "A partbred or not actually an Andalusian"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Andalusians do not carry the true Dun allele because centuries of selection favored solid, saturated colors such as gray, black, and bay. However, many Andalusians can carry the nd1 (non-dun1) allele, which may produce a dorsal stripe and other primitive markings without true dun dilution."
     },
     {
       "id": "question-34",
       "question": "Which breed is especially known for a persistent metallic sheen to the coat?",
-      "explanation": "The pronounced metallic sheen of the Akhal-Teke is associated not with a particular coat color but with the structure of the hair itself. The opaque core of the hair is reduced or partly absent, while the translucent portion is proportionally larger and can refract and reflect light, producing the characteristic golden or silvery sheen. This makes metallic luster a breed-associated feature of the Akhal-Teke across several coat colors.",
       "answers": [
         {
           "id": "answer-01",
@@ -845,12 +844,12 @@
           "text": "Marwari"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The pronounced metallic sheen of the Akhal-Teke is associated not with a particular coat color but with the structure of the hair itself. The opaque core of the hair is reduced or partly absent, while the translucent portion is proportionally larger and can refract and reflect light, producing the characteristic golden or silvery sheen. This makes metallic luster a breed-associated feature of the Akhal-Teke across several coat colors."
     },
     {
       "id": "question-35",
       "question": "In which coat pattern does bronzing occur?",
-      "explanation": "Bronzing is associated with leopard-complex horses because it is linked to the Leopard Complex (LP) allele. LP affects pigment distribution in the coat, and dark areas can develop a characteristic bronze-brown cast. This effect does not occur in horses lacking LP.",
       "answers": [
         {
           "id": "answer-01",
@@ -869,12 +868,12 @@
           "text": "Brown"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Bronzing is associated with leopard-complex horses because it is linked to the Leopard Complex (LP) allele. LP affects pigment distribution in the coat, and dark areas can develop a characteristic bronze-brown cast. This effect does not occur in horses lacking LP."
     },
     {
       "id": "question-36",
       "question": "All horses of which breed carry the Dun allele?",
-      "explanation": "All modern Norwegian Fjord Horses carry Dun because breeders preserved dun horses with primitive markings over many generations and treated this coloration as a hallmark of breed type.",
       "answers": [
         {
           "id": "answer-01",
@@ -893,12 +892,12 @@
           "text": "Exmoor Pony"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "All modern Norwegian Fjord Horses carry Dun because breeders preserved dun horses with primitive markings over many generations and treated this coloration as a hallmark of breed type."
     },
     {
       "id": "question-37",
       "question": "Which pinto pattern occurs in the Orlov Trotter?",
-      "explanation": "The Orlov Trotter was developed as an elegant light-harness breed emphasizing speed, harmonious conformation, and traditional solid colors. Horses with tobiano, frame overo, and other conspicuous pinto patterns were not retained for breeding. Sabino-type white markings, however, were compatible with the desired overall appearance and persisted in the breed.",
       "answers": [
         {
           "id": "answer-01",
@@ -917,12 +916,12 @@
           "text": "Frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The Orlov Trotter was developed as an elegant light-harness breed emphasizing speed, harmonious conformation, and traditional solid colors. Horses with tobiano, frame overo, and other conspicuous pinto patterns were not retained for breeding. Sabino-type white markings, however, were compatible with the desired overall appearance and persisted in the breed."
     },
     {
       "id": "question-38",
       "question": "Which pinto pattern does not occur in the American Quarter Horse?",
-      "explanation": "Tobiano is absent from the American Quarter Horse because it was not part of the breed's original gene pool. Horses carrying tobiano were subsequently bred within the American Paint Horse population, so the pattern became established in Paint Horses rather than Quarter Horses.",
       "answers": [
         {
           "id": "answer-01",
@@ -941,12 +940,12 @@
           "text": "Frame overo"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is absent from the American Quarter Horse because it was not part of the breed's original gene pool. Horses carrying tobiano were subsequently bred within the American Paint Horse population, so the pattern became established in Paint Horses rather than Quarter Horses."
     },
     {
       "id": "question-39",
       "question": "Which pinto patterns do not occur in the Appaloosa?",
-      "explanation": "Tobiano and frame overo were not established in the Appaloosa because breeders aimed to preserve the characteristic Leopard Complex pattern produced by LP. Horses with large tobiano or frame-overo patches were not used in breeding because these patterns could obscure the characteristic leopard-complex phenotype and blur breed type.",
       "answers": [
         {
           "id": "answer-01",
@@ -965,12 +964,12 @@
           "text": "Tobiano, sabino, and frame overo"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Tobiano and frame overo were not established in the Appaloosa because breeders aimed to preserve the characteristic Leopard Complex pattern produced by LP. Horses with large tobiano or frame-overo patches were not used in breeding because these patterns could obscure the characteristic leopard-complex phenotype and blur breed type."
     },
     {
       "id": "question-40",
       "question": "Which pinto pattern does not occur in the Shetland Pony?",
-      "explanation": "Frame overo is absent from the Shetland Pony because the breed developed for centuries in relative isolation on the Shetland Islands and had little or no introgression from populations carrying the allele. Selection focused on preserving hardy, characteristic ponies rather than unusual spotting patterns. As a result, frame overo never became established in the breeding population.",
       "answers": [
         {
           "id": "answer-01",
@@ -989,7 +988,8 @@
           "text": "Frame overo"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is absent from the Shetland Pony because the breed developed for centuries in relative isolation on the Shetland Islands and had little or no introgression from populations carrying the allele. Selection focused on preserving hardy, characteristic ponies rather than unusual spotting patterns. As a result, frame overo never became established in the breeding population."
     }
   ],
   "translation_status": "current",
@@ -997,7 +997,6 @@
     "title": "Породы и масти",
     "short_description": "Проверьте, насколько хорошо вы знаете характерные особенности некоторых пород лошадей, какие масти в них встречаются, каких не бывает вообще, а также причины всех этих закономерностей.",
     "intro": "Проверьте, насколько хорошо вы знаете характерные особенности некоторых пород лошадей, какие масти в них встречаются, каких не бывает вообще, а также причины всех этих закономерностей.",
-    "questionImagesAlt": "",
     "difficulty": "high",
     "cover": "img/covers/breeds-colors.webp",
     "publication_date": "2026-08-02T14:24:00+00:00",
@@ -1984,6 +1983,6 @@
       }
     ]
   },
-  "questionImagesAlt": "",
-  "source_content_hash": "c47b9e4562fe2a408318fb27a34b8667cdf2e6454bdcf17bc8f1beff29c1df08"
+  "source_content_hash": "c47b9e4562fe2a408318fb27a34b8667cdf2e6454bdcf17bc8f1beff29c1df08",
+  "english_quiz": "breeds-colors-en"
 }
