@@ -19,7 +19,6 @@
     {
       "id": "question-01",
       "question": "What should you never feed a horse?",
-      "explanation": "Horses should not be fed foods that cause severe fermentation, gas production, or gastrointestinal stasis. Fresh soft bread, cabbage, potatoes, as well as moldy, rotten, or dew-covered feed can be deadly for these animals. Anatomically, horses cannot regurgitate or vomit, so gas and fermentation in their long, sensitive digestive tract can cause severe abdominal pain — colic. Without urgent veterinary care and, when necessary, surgery, colic caused by improper feeding can lead to gastric rupture and death within a matter of hours.",
       "answers": [
         {
           "id": "answer-01",
@@ -38,12 +37,12 @@
           "text": "Horse muesli"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Horses should not be fed foods that cause severe fermentation, gas production, or gastrointestinal stasis. Fresh soft bread, cabbage, potatoes, as well as moldy, rotten, or dew-covered feed can be deadly for these animals. Anatomically, horses cannot regurgitate or vomit, so gas and fermentation in their long, sensitive digestive tract can cause severe abdominal pain — colic. Without urgent veterinary care and, when necessary, surgery, colic caused by improper feeding can lead to gastric rupture and death within a matter of hours."
     },
     {
       "id": "question-02",
       "question": "Which plants are poisonous to horses?",
-      "explanation": "Poisonous plants pose a serious hidden threat in pastures and hay. Plants such as hemlock, water hemlock, ragwort, buttercup, horsetail, and foxglove contain dangerous alkaloids and glycosides that can damage a horse's liver, heart, and nervous system. On fresh pasture, horses usually avoid them because of their bitter taste or strong smell. Once dried in hay, however, the plants lose much of their repellent odor while retaining their toxins, which can lead to accidental ingestion, severe systemic poisoning, and death.",
       "answers": [
         {
           "id": "answer-01",
@@ -62,12 +61,12 @@
           "text": "Timothy grass, brome grass, cocksfoot, and alfalfa"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Poisonous plants pose a serious hidden threat in pastures and hay. Plants such as hemlock, water hemlock, ragwort, buttercup, horsetail, and foxglove contain dangerous alkaloids and glycosides that can damage a horse's liver, heart, and nervous system. On fresh pasture, horses usually avoid them because of their bitter taste or strong smell. Once dried in hay, however, the plants lose much of their repellent odor while retaining their toxins, which can lead to accidental ingestion, severe systemic poisoning, and death."
     },
     {
       "id": "question-03",
       "question": "What can cause colic?",
-      "explanation": "Colic in horses is not a single disease but a group of signs indicating acute abdominal pain. Common causes include major feeding and management errors: spoiled, moldy, or fermented feed, abrupt dietary changes without a gradual transition, giving ice-cold water immediately after hard work, or grazing on dew-covered grass. Colic can also result from a heavy parasite burden, ingesting sand from the ground, transport stress, or even sudden weather changes. Because of the unique anatomy of the equine gastrointestinal tract, trapped gas or fecal material can rapidly cause life-threatening intestinal distension requiring emergency veterinary care.",
       "answers": [
         {
           "id": "answer-01",
@@ -86,12 +85,12 @@
           "text": "Well-stored oats"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Colic in horses is not a single disease but a group of signs indicating acute abdominal pain. Common causes include major feeding and management errors: spoiled, moldy, or fermented feed, abrupt dietary changes without a gradual transition, giving ice-cold water immediately after hard work, or grazing on dew-covered grass. Colic can also result from a heavy parasite burden, ingesting sand from the ground, transport stress, or even sudden weather changes. Because of the unique anatomy of the equine gastrointestinal tract, trapped gas or fecal material can rapidly cause life-threatening intestinal distension requiring emergency veterinary care."
     },
     {
       "id": "question-04",
       "question": "Which symptom is most characteristic of colic?",
-      "explanation": "A major sign of colic is a sudden change in behavior caused by severe abdominal pain. The horse may become restless, repeatedly paw the ground with a forefoot, look back at its flanks, try to bite its belly, or kick at the abdomen with a hind leg. Another characteristic sign is repeatedly lying down, rolling from side to side, getting up abruptly, and assuming unusual postures — such as a dog-sitting position — in an attempt to relieve abdominal pressure. At the first appearance of this behavior, horse owners should call a veterinarian immediately, as delay can put the horse's life at risk.",
       "answers": [
         {
           "id": "answer-01",
@@ -110,12 +109,12 @@
           "text": "Stretching the neck far forward while running fast"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "A major sign of colic is a sudden change in behavior caused by severe abdominal pain. The horse may become restless, repeatedly paw the ground with a forefoot, look back at its flanks, try to bite its belly, or kick at the abdomen with a hind leg. Another characteristic sign is repeatedly lying down, rolling from side to side, getting up abruptly, and assuming unusual postures — such as a dog-sitting position — in an attempt to relieve abdominal pressure. At the first appearance of this behavior, horse owners should call a veterinarian immediately, as delay can put the horse's life at risk."
     },
     {
       "id": "question-05",
       "question": "What first aid should be given if colic is suspected?",
-      "explanation": "First aid for colic requires prompt, clear action until the veterinarian arrives. First, remove hay, oats, and all other feed from the stall, and restrict access to water so the gastrointestinal tract is not further overloaded. The horse should be walked quietly and steadily; this can stimulate intestinal motility, help gas pass, and discourage the horse from lying down and rolling dangerously. Painkillers should not be given without veterinary guidance, because they may mask clinical signs and make it harder for the veterinarian to assess the severity of the condition.",
       "answers": [
         {
           "id": "answer-01",
@@ -134,12 +133,12 @@
           "text": "Give a serving of oats and plenty of water"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "First aid for colic requires prompt, clear action until the veterinarian arrives. First, remove hay, oats, and all other feed from the stall, and restrict access to water so the gastrointestinal tract is not further overloaded. The horse should be walked quietly and steadily; this can stimulate intestinal motility, help gas pass, and discourage the horse from lying down and rolling dangerously. Painkillers should not be given without veterinary guidance, because they may mask clinical signs and make it harder for the veterinarian to assess the severity of the condition."
     },
     {
       "id": "question-06",
       "question": "What should you not do for colic without a veterinarian's instructions?",
-      "explanation": "Without veterinary instructions, you should not independently give a horse painkillers, antispasmodics, or laxatives for colic, nor administer enemas or pour oils into its mouth. Strong analgesics such as flunixin or metamizole can quickly relieve pain but may mask the true severity of the condition, causing the owner or veterinarian to miss the critical window in which emergency intestinal surgery is required. An inappropriate laxative given in the presence of a mechanical obstruction can contribute to rupture of the stomach or intestine, so medication should be selected by a veterinarian after appropriate examination, including rectal examination and nasogastric intubation when indicated.",
       "answers": [
         {
           "id": "answer-01",
@@ -158,12 +157,12 @@
           "text": "Remove hay from the stall"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Without veterinary instructions, you should not independently give a horse painkillers, antispasmodics, or laxatives for colic, nor administer enemas or pour oils into its mouth. Strong analgesics such as flunixin or metamizole can quickly relieve pain but may mask the true severity of the condition, causing the owner or veterinarian to miss the critical window in which emergency intestinal surgery is required. An inappropriate laxative given in the presence of a mechanical obstruction can contribute to rupture of the stomach or intestine, so medication should be selected by a veterinarian after appropriate examination, including rectal examination and nasogastric intubation when indicated."
     },
     {
       "id": "question-07",
       "question": "Which symptom requires urgent veterinary attention?",
-      "explanation": "Critical signs requiring an immediate emergency veterinary call include evidence of developing shock, severe dehydration, or intestinal torsion. These may include pale, bluish, or dark burgundy gums instead of healthy pink gums, cold clammy sweat over the body, persistent labored breathing, and a complete absence of gut sounds on auscultation. If the horse does not respond to walking, repeatedly throws itself to the ground in pain, and its pulse rises above 60–80 beats per minute, the situation may be life-threatening and urgent surgery may be the only way to save the animal.",
       "answers": [
         {
           "id": "answer-01",
@@ -182,12 +181,12 @@
           "text": "Rubbing the dock of the tail against a wall"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Critical signs requiring an immediate emergency veterinary call include evidence of developing shock, severe dehydration, or intestinal torsion. These may include pale, bluish, or dark burgundy gums instead of healthy pink gums, cold clammy sweat over the body, persistent labored breathing, and a complete absence of gut sounds on auscultation. If the horse does not respond to walking, repeatedly throws itself to the ground in pain, and its pulse rises above 60–80 beats per minute, the situation may be life-threatening and urgent surgery may be the only way to save the animal."
     },
     {
       "id": "question-08",
       "question": "Why should a deeply embedded object not be removed before the veterinarian arrives?",
-      "explanation": "A deeply embedded object — such as a large nail, branch, or piece of rebar — should not be removed before a veterinarian arrives because of the risk of catastrophic blood loss. The object may act like a natural plug, compressing major blood vessels that it has damaged and limiting internal and external bleeding. Once it is pulled out, that pressure disappears and massive, uncontrollable hemorrhage may begin. The veterinarian also needs to see the exact direction and depth of the wound tract to assess possible damage to internal structures, ligaments, or joints and to remove the object as safely as possible.",
       "answers": [
         {
           "id": "answer-01",
@@ -206,12 +205,12 @@
           "text": "It helps control bleeding from damaged blood vessels"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "A deeply embedded object — such as a large nail, branch, or piece of rebar — should not be removed before a veterinarian arrives because of the risk of catastrophic blood loss. The object may act like a natural plug, compressing major blood vessels that it has damaged and limiting internal and external bleeding. Once it is pulled out, that pressure disappears and massive, uncontrollable hemorrhage may begin. The veterinarian also needs to see the exact direction and depth of the wound tract to assess possible damage to internal structures, ligaments, or joints and to remove the object as safely as possible."
     },
     {
       "id": "question-09",
       "question": "Which symptom is characteristic of heatstroke?",
-      "explanation": "Heatstroke in a horse is a critical condition caused by overheating during strenuous work in hot, humid weather or by being kept in a stuffy, poorly ventilated stable. Body temperature can rise rapidly to a dangerous 40–42 °C, and sweating may stop completely, leaving the skin dry and extremely hot. The horse becomes lethargic, breathes very rapidly and heavily — sometimes with its mouth open — loses coordination, and develops an unsteady gait. Without immediate cooling with cold water and emergency veterinary care, heatstroke can lead to cerebral edema, heart failure, and death.",
       "answers": [
         {
           "id": "answer-01",
@@ -230,12 +229,12 @@
           "text": "Severe shivering and frequent loud neighing"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Heatstroke in a horse is a critical condition caused by overheating during strenuous work in hot, humid weather or by being kept in a stuffy, poorly ventilated stable. Body temperature can rise rapidly to a dangerous 40–42 °C, and sweating may stop completely, leaving the skin dry and extremely hot. The horse becomes lethargic, breathes very rapidly and heavily — sometimes with its mouth open — loses coordination, and develops an unsteady gait. Without immediate cooling with cold water and emergency veterinary care, heatstroke can lead to cerebral edema, heart failure, and death."
     },
     {
       "id": "question-10",
       "question": "What should you do if a horse has heatstroke?",
-      "explanation": "With heatstroke, it is critical to lower the horse's body temperature as quickly as possible. Move the horse immediately into deep shade, a cool well-ventilated area, or in front of a fan. Continuously and generously hose the body with cool or cold water, paying particular attention to areas over large blood vessels, such as the neck and inner thighs, as well as the head. Heated water should be scraped off the coat promptly with a sweat scraper so it does not remain against the body as a warm layer. Until the veterinarian arrives, the horse may be offered small amounts of cool water, but antipyretic drugs should not be given without veterinary instructions.",
       "answers": [
         {
           "id": "answer-01",
@@ -254,12 +253,12 @@
           "text": "Feed a large portion of oats"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "With heatstroke, it is critical to lower the horse's body temperature as quickly as possible. Move the horse immediately into deep shade, a cool well-ventilated area, or in front of a fan. Continuously and generously hose the body with cool or cold water, paying particular attention to areas over large blood vessels, such as the neck and inner thighs, as well as the head. Heated water should be scraped off the coat promptly with a sweat scraper so it does not remain against the body as a warm layer. Until the veterinarian arrives, the horse may be offered small amounts of cool water, but antipyretic drugs should not be given without veterinary instructions."
     },
     {
       "id": "question-11",
       "question": "What is laminitis?",
-      "explanation": "Laminitis is a severe systemic condition in which the sensitive laminae that attach the coffin bone to the outer hoof capsule become inflamed. Impaired circulation and severe swelling within the rigid hoof can damage the laminae until they can no longer support the skeletal structures. In severe cases, under the horse's weight, the coffin bone may displace or rotate downward and can eventually penetrate the sole. Major causes include excessive dietary sugars, such as grain overload or lush young grass, severe colic, serious infections, and uneven weight-bearing between limbs. Laminitis causes intense pain, often making the horse stand with its forelegs stretched forward, and can result in permanent lameness.",
       "answers": [
         {
           "id": "answer-01",
@@ -278,12 +277,12 @@
           "text": "A parasitic disease of the stomach and small intestine"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Laminitis is a severe systemic condition in which the sensitive laminae that attach the coffin bone to the outer hoof capsule become inflamed. Impaired circulation and severe swelling within the rigid hoof can damage the laminae until they can no longer support the skeletal structures. In severe cases, under the horse's weight, the coffin bone may displace or rotate downward and can eventually penetrate the sole. Major causes include excessive dietary sugars, such as grain overload or lush young grass, severe colic, serious infections, and uneven weight-bearing between limbs. Laminitis causes intense pain, often making the horse stand with its forelegs stretched forward, and can result in permanent lameness."
     },
     {
       "id": "question-12",
       "question": "Which symptom is most characteristic of laminitis?",
-      "explanation": "The classic sign of laminitis is a characteristic posture adopted to relieve severe pain in the toe region of the hooves. The horse stretches the forelegs well forward and shifts its weight back onto the heels, while bringing the hind legs farther under the body. The hooves may feel very hot, and a strong, rapid, bounding digital pulse can be felt near the fetlock. The horse may be extremely reluctant to take even a single step, appear rooted to the spot, rock backward when asked to move, or spend long periods lying down and refusing to stand.",
       "answers": [
         {
           "id": "answer-01",
@@ -302,12 +301,12 @@
           "text": "Pawing the ground and looking at the abdomen"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The classic sign of laminitis is a characteristic posture adopted to relieve severe pain in the toe region of the hooves. The horse stretches the forelegs well forward and shifts its weight back onto the heels, while bringing the hind legs farther under the body. The hooves may feel very hot, and a strong, rapid, bounding digital pulse can be felt near the fetlock. The horse may be extremely reluctant to take even a single step, appear rooted to the spot, rock backward when asked to move, or spend long periods lying down and refusing to stand."
     },
     {
       "id": "question-13",
       "question": "What increases the risk of laminitis?",
-      "explanation": "Risk factors for laminitis are closely associated with metabolic disorders and management errors. A major driver is obesity combined with endocrine disorders such as equine metabolic syndrome (EMS) or pituitary pars intermedia dysfunction (PPID, commonly called Cushing's disease), both of which can be associated with dangerous insulin dysregulation. Sudden access to sugar-rich, fructan-rich spring grass or grain overload with feeds such as oats or barley can trigger major carbohydrate disturbances in the hindgut and inflammatory processes that damage the hoof laminae. Risk also increases when a sound limb is mechanically overloaded because the opposite limb is injured — supporting-limb laminitis — and after severe systemic infections, colic, or endometritis in mares.",
       "answers": [
         {
           "id": "answer-01",
@@ -326,12 +325,12 @@
           "text": "A diet based mainly on hay"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Risk factors for laminitis are closely associated with metabolic disorders and management errors. A major driver is obesity combined with endocrine disorders such as equine metabolic syndrome (EMS) or pituitary pars intermedia dysfunction (PPID, commonly called Cushing's disease), both of which can be associated with dangerous insulin dysregulation. Sudden access to sugar-rich, fructan-rich spring grass or grain overload with feeds such as oats or barley can trigger major carbohydrate disturbances in the hindgut and inflammatory processes that damage the hoof laminae. Risk also increases when a sound limb is mechanically overloaded because the opposite limb is injured — supporting-limb laminitis — and after severe systemic infections, colic, or endometritis in mares."
     },
     {
       "id": "question-14",
       "question": "How does a hoof abscess usually present?",
-      "explanation": "A hoof abscess is a localized collection of pus in the sensitive tissues beneath the hoof capsule. It most often causes sudden, severe lameness: a horse that was sound yesterday may suddenly refuse to bear weight on the affected limb and appear to walk on three legs. The hoof may feel very hot, and a strong, rapid digital pulse can be clearly felt around the fetlock. The pressure of pus trapped inside the rigid hoof capsule causes intense pain. When the sole is examined, a veterinarian or farrier may find a dark point marking a puncture by a nail or stone, or the abscess may drain on its own at the white line or coronary band.",
       "answers": [
         {
           "id": "answer-01",
@@ -350,12 +349,12 @@
           "text": "A gradual change in the color of hair around the coronary band"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A hoof abscess is a localized collection of pus in the sensitive tissues beneath the hoof capsule. It most often causes sudden, severe lameness: a horse that was sound yesterday may suddenly refuse to bear weight on the affected limb and appear to walk on three legs. The hoof may feel very hot, and a strong, rapid digital pulse can be clearly felt around the fetlock. The pressure of pus trapped inside the rigid hoof capsule causes intense pain. When the sole is examined, a veterinarian or farrier may find a dark point marking a puncture by a nail or stone, or the abscess may drain on its own at the white line or coronary band."
     },
     {
       "id": "question-15",
       "question": "What is thrush?",
-      "explanation": "Thrush is a bacterial infection of the hoof that affects the tissues of the frog and breaks down its horn. A major cause is prolonged exposure to wet, dirty conditions — such as soiled stall bedding or a muddy paddock — combined with poor hoof hygiene and a lack of regular picking out. Anaerobic bacteria thrive in the deep grooves of the frog and turn healthy horn into a black, moist material with a very unpleasant rotten odor. Advanced thrush can invade sensitive living tissues, causing marked pain, soreness, and persistent lameness.",
       "answers": [
         {
           "id": "answer-01",
@@ -374,12 +373,12 @@
           "text": "Inflammation of bony growths around the fetlock joint"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Thrush is a bacterial infection of the hoof that affects the tissues of the frog and breaks down its horn. A major cause is prolonged exposure to wet, dirty conditions — such as soiled stall bedding or a muddy paddock — combined with poor hoof hygiene and a lack of regular picking out. Anaerobic bacteria thrive in the deep grooves of the frog and turn healthy horn into a black, moist material with a very unpleasant rotten odor. Advanced thrush can invade sensitive living tissues, causing marked pain, soreness, and persistent lameness."
     },
     {
       "id": "question-16",
       "question": "What helps prevent hoof disease?",
-      "explanation": "Preventing hoof disease requires consistent, comprehensive care. A basic rule is regular shoeing or corrective maintenance trimming by an experienced farrier every 4–6 weeks to maintain proper hoof balance and help prevent cracks. Stall bedding should be kept clean and dry, and the soles should be picked out daily to remove packed mud and manure and reduce the risk of thrush. Horses also need daily turnout and movement over varied footing. This supports the hoof mechanism, promotes circulation through the limb, and encourages the growth of strong, healthy horn.",
       "answers": [
         {
           "id": "answer-01",
@@ -398,12 +397,12 @@
           "text": "Completely avoiding both shoeing and trimming"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Preventing hoof disease requires consistent, comprehensive care. A basic rule is regular shoeing or corrective maintenance trimming by an experienced farrier every 4–6 weeks to maintain proper hoof balance and help prevent cracks. Stall bedding should be kept clean and dry, and the soles should be picked out daily to remove packed mud and manure and reduce the risk of thrush. Horses also need daily turnout and movement over varied footing. This supports the hoof mechanism, promotes circulation through the limb, and encourages the growth of strong, healthy horn."
     },
     {
       "id": "question-17",
       "question": "What is strangles?",
-      "explanation": "Strangles (Lat. Adenitis equorum) is an acute, highly contagious bacterial disease of horses, especially younger animals, caused by Streptococcus equi. It affects the upper respiratory tract and is characterized by high fever of up to 40–41 °C, acute rhinitis with copious purulent nasal discharge, and severe inflammation of the submandibular lymph nodes, which can rapidly develop into painful abscesses. Infection spreads through respiratory secretions and contaminated shared water sources or equipment. It can spread through a large proportion of a herd within days and cause serious disruption in equine facilities.",
       "answers": [
         {
           "id": "answer-01",
@@ -422,12 +421,12 @@
           "text": "Routine spring treatment to clear the body of parasites"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Strangles (Lat. Adenitis equorum) is an acute, highly contagious bacterial disease of horses, especially younger animals, caused by Streptococcus equi. It affects the upper respiratory tract and is characterized by high fever of up to 40–41 °C, acute rhinitis with copious purulent nasal discharge, and severe inflammation of the submandibular lymph nodes, which can rapidly develop into painful abscesses. Infection spreads through respiratory secretions and contaminated shared water sources or equipment. It can spread through a large proportion of a herd within days and cause serious disruption in equine facilities."
     },
     {
       "id": "question-18",
       "question": "Which symptom is most characteristic of strangles?",
-      "explanation": "The most striking clinical sign of strangles is acute inflammation and abscess formation in the submandibular and retropharyngeal lymph nodes. They enlarge markedly, become hot and painful, and may make it difficult for the horse to swallow feed and water. Over time, the swellings develop into large abscesses that can rupture and discharge thick yellow pus. The disease is also accompanied by fever up to 41 °C, marked lethargy, and copious bilateral purulent rhinitis, with thick mucus continuously draining from both nostrils.",
       "answers": [
         {
           "id": "answer-01",
@@ -446,12 +445,12 @@
           "text": "Sudden severe lameness in both forelimbs"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The most striking clinical sign of strangles is acute inflammation and abscess formation in the submandibular and retropharyngeal lymph nodes. They enlarge markedly, become hot and painful, and may make it difficult for the horse to swallow feed and water. Over time, the swellings develop into large abscesses that can rupture and discharge thick yellow pus. The disease is also accompanied by fever up to 41 °C, marked lethargy, and copious bilateral purulent rhinitis, with thick mucus continuously draining from both nostrils."
     },
     {
       "id": "question-19",
       "question": "Why can untreated strangles be dangerous?",
-      "explanation": "If untreated, strangles can progress from the typical form to a much more dangerous metastatic form known as bastard strangles. Streptococcus equi may spread through the blood and lymphatic system and cause abscesses in internal organs, including the lungs, liver, kidneys, spleen, and mesenteric lymph nodes. Rupture of an internal abscess can lead to severe purulent pleuritis or peritonitis and may be fatal. Advanced strangles can also cause major complications such as asphyxia from swollen retropharyngeal lymph nodes obstructing the airway, septicemia, joint inflammation, or purpura hemorrhagica.",
       "answers": [
         {
           "id": "answer-01",
@@ -470,12 +469,12 @@
           "text": "Loss of the ability to chew dry oats and hay"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "If untreated, strangles can progress from the typical form to a much more dangerous metastatic form known as bastard strangles. Streptococcus equi may spread through the blood and lymphatic system and cause abscesses in internal organs, including the lungs, liver, kidneys, spleen, and mesenteric lymph nodes. Rupture of an internal abscess can lead to severe purulent pleuritis or peritonitis and may be fatal. Advanced strangles can also cause major complications such as asphyxia from swollen retropharyngeal lymph nodes obstructing the airway, septicemia, joint inflammation, or purpura hemorrhagica."
     },
     {
       "id": "question-20",
       "question": "Which disease is often accompanied by coughing, fever, and nasal discharge?",
-      "explanation": "Equine influenza and rhinopneumonitis caused by equine herpesvirus are among the most common contagious viral diseases affecting the equine respiratory tract worldwide. They often begin suddenly and acutely: body temperature can rapidly rise to 39.5–41 °C, the horse becomes lethargic, loses its appetite, and develops a frequent, dry, painful cough. Nasal discharge is initially clear and serous but may become thick, cloudy, and purulent if a secondary bacterial infection develops. Rhinopneumonitis is especially dangerous in pregnant mares because equine herpesvirus can cause outbreaks of abortion late in gestation.",
       "answers": [
         {
           "id": "answer-01",
@@ -494,12 +493,12 @@
           "text": "A heavy parasite burden in the small intestine"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Equine influenza and rhinopneumonitis caused by equine herpesvirus are among the most common contagious viral diseases affecting the equine respiratory tract worldwide. They often begin suddenly and acutely: body temperature can rapidly rise to 39.5–41 °C, the horse becomes lethargic, loses its appetite, and develops a frequent, dry, painful cough. Nasal discharge is initially clear and serous but may become thick, cloudy, and purulent if a secondary bacterial infection develops. Rhinopneumonitis is especially dangerous in pregnant mares because equine herpesvirus can cause outbreaks of abortion late in gestation."
     },
     {
       "id": "question-21",
       "question": "How can the spread of infections in a stable be prevented?",
-      "explanation": "Reliable infection control in a stable requires strict biosecurity and veterinary hygiene. A key measure is a 30-day quarantine for all newly arrived horses in a separate area, together with a planned vaccination program for diseases such as influenza, rhinopneumonitis, anthrax, and dermatophytosis where appropriate. Stalls, grooming equipment, and feeders should be disinfected regularly, good ventilation without drafts should be maintained, and horses should not share buckets or tack. At the first suspicion of a contagious disease, the sick horse should be isolated immediately, and staff caring for it should use dedicated clothing and footwear disinfection measures.",
       "answers": [
         {
           "id": "answer-01",
@@ -518,12 +517,12 @@
           "text": "Use one shared water source for all visiting horses"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Reliable infection control in a stable requires strict biosecurity and veterinary hygiene. A key measure is a 30-day quarantine for all newly arrived horses in a separate area, together with a planned vaccination program for diseases such as influenza, rhinopneumonitis, anthrax, and dermatophytosis where appropriate. Stalls, grooming equipment, and feeders should be disinfected regularly, good ventilation without drafts should be maintained, and horses should not share buckets or tack. At the first suspicion of a contagious disease, the sick horse should be isolated immediately, and staff caring for it should use dedicated clothing and footwear disinfection measures."
     },
     {
       "id": "question-22",
       "question": "Which diseases can cause a horse to refuse all feed?",
-      "explanation": "Complete refusal of feed — anorexia — is not a disease in itself but a broad and very concerning sign of a serious systemic problem. It is particularly common with acute gastrointestinal disease such as colic, intestinal torsion, or gastric ulcers, when eating can worsen abdominal pain. Horses may also lose all appetite during high fever caused by serious infections such as influenza, strangles, rhinopneumonitis, or piroplasmosis, as well as with severe intoxication, severe laminitis, or dental problems in which sharp enamel points injure the cheeks and tongue and make chewing painful or impossible. If a horse completely stops eating, its general condition should be assessed promptly and a veterinarian called.",
       "answers": [
         {
           "id": "answer-01",
@@ -542,12 +541,12 @@
           "text": "Routine dental floating"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Complete refusal of feed — anorexia — is not a disease in itself but a broad and very concerning sign of a serious systemic problem. It is particularly common with acute gastrointestinal disease such as colic, intestinal torsion, or gastric ulcers, when eating can worsen abdominal pain. Horses may also lose all appetite during high fever caused by serious infections such as influenza, strangles, rhinopneumonitis, or piroplasmosis, as well as with severe intoxication, severe laminitis, or dental problems in which sharp enamel points injure the cheeks and tongue and make chewing painful or impossible. If a horse completely stops eating, its general condition should be assessed promptly and a veterinarian called."
     },
     {
       "id": "question-23",
       "question": "What can an elevated body temperature indicate?",
-      "explanation": "An elevated body temperature — hyperthermia or fever — above the normal range of about 37.5–38.5 °C for an adult horse can indicate an active response to disease. Fever is commonly associated with serious viral or bacterial infections such as influenza, rhinopneumonitis, strangles, or piroplasmosis, as well as systemic inflammatory processes such as severe colic, peritonitis, or acute laminitis. A high temperature may also result from noninfectious overheating, including heatstroke or sunstroke, when the body cannot dissipate heat effectively. Taking the horse's temperature with a rectal thermometer is one of the basic first checks when the animal appears unwell and can help the veterinarian identify a developing problem.",
       "answers": [
         {
           "id": "answer-01",
@@ -566,12 +565,12 @@
           "text": "A normal condition in a mare immediately before foaling"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "An elevated body temperature — hyperthermia or fever — above the normal range of about 37.5–38.5 °C for an adult horse can indicate an active response to disease. Fever is commonly associated with serious viral or bacterial infections such as influenza, rhinopneumonitis, strangles, or piroplasmosis, as well as systemic inflammatory processes such as severe colic, peritonitis, or acute laminitis. A high temperature may also result from noninfectious overheating, including heatstroke or sunstroke, when the body cannot dissipate heat effectively. Taking the horse's temperature with a rectal thermometer is one of the basic first checks when the animal appears unwell and can help the veterinarian identify a developing problem."
     },
     {
       "id": "question-24",
       "question": "What are the signs of dehydration?",
-      "explanation": "Dehydration in a horse can be assessed with a simple skin-tent test: if the skin on the neck or shoulder is pinched, it should snap back quickly in a well-hydrated horse, whereas with dehydration the fold may remain tented for several seconds. The oral mucous membranes and gums may become dry, pale, or tacky, and capillary refill time may be prolonged — after pressing on the gum, pink color takes more than two seconds to return. The eyes may appear sunken, urine may become dark and concentrated, and marked lethargy may develop. Severe fluid loss can progress to hypovolemic shock requiring urgent intravenous fluid therapy by a veterinarian.",
       "answers": [
         {
           "id": "answer-01",
@@ -590,12 +589,12 @@
           "text": "Dry gums, lethargy, and skin that remains tented"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Dehydration in a horse can be assessed with a simple skin-tent test: if the skin on the neck or shoulder is pinched, it should snap back quickly in a well-hydrated horse, whereas with dehydration the fold may remain tented for several seconds. The oral mucous membranes and gums may become dry, pale, or tacky, and capillary refill time may be prolonged — after pressing on the gum, pink color takes more than two seconds to return. The eyes may appear sunken, urine may become dark and concentrated, and marked lethargy may develop. Severe fluid loss can progress to hypovolemic shock requiring urgent intravenous fluid therapy by a veterinarian."
     },
     {
       "id": "question-25",
       "question": "What can rapid breathing at rest indicate?",
-      "explanation": "Rapid breathing at rest — tachypnea — above the normal rate of about 8–16 breaths per minute in a healthy adult horse is an important sign of an underlying problem. It may be one of the first compensatory responses to acute internal pain, such as developing colic or laminitis. Rapid breathing combined with flared nostrils and pronounced abdominal effort is also seen with high fever, heatstroke, severe lung disease such as COPD/emphysema or pneumonia, and heart failure. If a horse is standing in its stall and breathing heavily and rapidly as though it has just finished a gallop, its pulse and temperature should be checked and a veterinarian called promptly.",
       "answers": [
         {
           "id": "answer-01",
@@ -614,12 +613,12 @@
           "text": "A sign of deep sleep and complete relaxation"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Rapid breathing at rest — tachypnea — above the normal rate of about 8–16 breaths per minute in a healthy adult horse is an important sign of an underlying problem. It may be one of the first compensatory responses to acute internal pain, such as developing colic or laminitis. Rapid breathing combined with flared nostrils and pronounced abdominal effort is also seen with high fever, heatstroke, severe lung disease such as COPD/emphysema or pneumonia, and heart failure. If a horse is standing in its stall and breathing heavily and rapidly as though it has just finished a gallop, its pulse and temperature should be checked and a veterinarian called promptly."
     },
     {
       "id": "question-26",
       "question": "What should you do if a horse is severely lame?",
-      "explanation": "If a horse suddenly becomes severely lame, the first and most important rule is to stop all work immediately, dismount the rider, and provide complete rest, ideally in a stall with clean, deep, soft bedding. Until the veterinarian arrives, the horse should not be forced to move, because if there is a bone fissure or fracture even a few steps may worsen the injury. The owner can carefully pick out the hoof, check for embedded nails or stones, feel the coronary band for heat, and assess the digital pulse around the fetlock. Painkillers should not be given before examination unless directed by a veterinarian, so the source of pain can be accurately localized and diagnosed.",
       "answers": [
         {
           "id": "answer-01",
@@ -638,12 +637,12 @@
           "text": "Wrap the painful leg in an extremely tight bandage"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "If a horse suddenly becomes severely lame, the first and most important rule is to stop all work immediately, dismount the rider, and provide complete rest, ideally in a stall with clean, deep, soft bedding. Until the veterinarian arrives, the horse should not be forced to move, because if there is a bone fissure or fracture even a few steps may worsen the injury. The owner can carefully pick out the hoof, check for embedded nails or stones, feel the coronary band for heat, and assess the digital pulse around the fetlock. Painkillers should not be given before examination unless directed by a veterinarian, so the source of pain can be accurately localized and diagnosed."
     },
     {
       "id": "question-27",
       "question": "How can subtle lameness present?",
-      "explanation": "Subtle or occult lameness may not be obvious as a clear limp, but it can markedly alter a horse's movement, behavior, and performance. It may appear as slight asymmetry in the gait, with the horse loading one shoulder or hip less than the other. A horse with subtle lameness may lose its usual impulsion, become reluctant to go forward, shorten its stride, brace its back, or drag the hind feet instead of stepping well underneath the body. Under saddle, this may look like disobedience: the horse may resist bending one way, cross-canter, stumble on level ground, or become resistant during saddling because it anticipates recurring pain in the joints, muscles, or hooves.",
       "answers": [
         {
           "id": "answer-01",
@@ -662,12 +661,12 @@
           "text": "Suddenly refusing to drink clean, cool water"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Subtle or occult lameness may not be obvious as a clear limp, but it can markedly alter a horse's movement, behavior, and performance. It may appear as slight asymmetry in the gait, with the horse loading one shoulder or hip less than the other. A horse with subtle lameness may lose its usual impulsion, become reluctant to go forward, shorten its stride, brace its back, or drag the hind feet instead of stepping well underneath the body. Under saddle, this may look like disobedience: the horse may resist bending one way, cross-canter, stumble on level ground, or become resistant during saddling because it anticipates recurring pain in the joints, muscles, or hooves."
     },
     {
       "id": "question-28",
       "question": "What is recommended for rinsing a fresh minor wound?",
-      "explanation": "For the initial cleaning of fresh wounds in horses, use clean running water or sterile saline — isotonic sodium chloride solution. This mechanically removes dirt, bacteria, and bedding debris without damaging living tissue. Unlike harsh antiseptics such as undiluted alcohol or strong iodine, which can cause chemical injury and delay healing, saline has an osmotic pressure similar to that of body tissues. Gentle irrigation reduces the risk of infection and prepares the wound for further treatment or bandaging.",
       "answers": [
         {
           "id": "answer-01",
@@ -686,12 +685,12 @@
           "text": "Undiluted household cleaning chemicals"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "For the initial cleaning of fresh wounds in horses, use clean running water or sterile saline — isotonic sodium chloride solution. This mechanically removes dirt, bacteria, and bedding debris without damaging living tissue. Unlike harsh antiseptics such as undiluted alcohol or strong iodine, which can cause chemical injury and delay healing, saline has an osmotic pressure similar to that of body tissues. Gentle irrigation reduces the risk of infection and prepares the wound for further treatment or bandaging."
     },
     {
       "id": "question-29",
       "question": "Why is a pressure bandage applied?",
-      "explanation": "A pressure bandage is used in veterinary first aid to apply controlled pressure to soft tissues. Its main purpose is to compress damaged blood vessels, helping to stop bleeding quickly and prevent dangerous blood loss. Moderate pressure can also limit the accumulation of interstitial fluid and reduce severe post-traumatic swelling around a wound. Such a bandage is applied with elastic bandaging and adequate soft padding, while the tension must be carefully controlled so circulation to the horse's limb is not compromised.",
       "answers": [
         {
           "id": "answer-01",
@@ -710,12 +709,12 @@
           "text": "To warm an injured joint"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A pressure bandage is used in veterinary first aid to apply controlled pressure to soft tissues. Its main purpose is to compress damaged blood vessels, helping to stop bleeding quickly and prevent dangerous blood loss. Moderate pressure can also limit the accumulation of interstitial fluid and reduce severe post-traumatic swelling around a wound. Such a bandage is applied with elastic bandaging and adequate soft padding, while the tension must be carefully controlled so circulation to the horse's limb is not compromised."
     },
     {
       "id": "question-30",
       "question": "What should every equine first-aid kit contain?",
-      "explanation": "A basic equine first-aid kit is intended for emergency care until the veterinarian arrives and for treating minor injuries. It should include a range of dressing materials such as sterile gauze pads, cotton wool or padding, and self-adherent elastic bandages to help control bleeding and protect wounds. Safe antiseptics such as chlorhexidine are useful for disinfecting skin injuries without causing chemical burns. A digital thermometer is a key diagnostic tool because a change in body temperature can be one of the earliest and most useful signs of inflammation, colic, or infection.",
       "answers": [
         {
           "id": "answer-01",
@@ -734,12 +733,12 @@
           "text": "Iodine, alcohol, antibiotics, and syringes"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A basic equine first-aid kit is intended for emergency care until the veterinarian arrives and for treating minor injuries. It should include a range of dressing materials such as sterile gauze pads, cotton wool or padding, and self-adherent elastic bandages to help control bleeding and protect wounds. Safe antiseptics such as chlorhexidine are useful for disinfecting skin injuries without causing chemical burns. A digital thermometer is a key diagnostic tool because a change in body temperature can be one of the earliest and most useful signs of inflammation, colic, or infection."
     },
     {
       "id": "question-31",
       "question": "Which action is a mistake when treating an open wound?",
-      "explanation": "Using harsh antiseptics such as undiluted iodine or alcohol, or packing an open wound with powders such as streptocide, is a serious first-aid mistake. Alcohol-based solutions can cause chemical injury to exposed tissues, kill healthy cells, increase pain, and delay healing. Powders can cake together with blood and wound fluid to form a hard crust, creating an enclosed environment that may favor the growth of dangerous anaerobic bacteria. The veterinarian may then have to remove this crust painfully in order to inspect and surgically clean the wound properly.",
       "answers": [
         {
           "id": "answer-01",
@@ -758,12 +757,12 @@
           "text": "Calling a veterinarian"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Using harsh antiseptics such as undiluted iodine or alcohol, or packing an open wound with powders such as streptocide, is a serious first-aid mistake. Alcohol-based solutions can cause chemical injury to exposed tissues, kill healthy cells, increase pain, and delay healing. Powders can cake together with blood and wound fluid to form a hard crust, creating an enclosed environment that may favor the growth of dangerous anaerobic bacteria. The veterinarian may then have to remove this crust painfully in order to inspect and surgically clean the wound properly."
     },
     {
       "id": "question-32",
       "question": "Can human medicines be given to a horse?",
-      "explanation": "Human medicines can sometimes be used in equine veterinary practice as off-label drugs, but only under veterinary supervision. Horses have distinctive physiology and sensitive gastrointestinal microflora, so many common human medicines can cause serious or even fatal complications. For example, some widely used human painkillers and NSAIDs can cause severe gastric ulceration and kidney toxicity in horses if used inappropriately. A veterinarian calculates dosage according to body weight, considers equine metabolism, and selects only medications whose use and safety in horses are sufficiently established.",
       "answers": [
         {
           "id": "answer-01",
@@ -782,12 +781,12 @@
           "text": "Any liquid medicine made for children is safe"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Human medicines can sometimes be used in equine veterinary practice as off-label drugs, but only under veterinary supervision. Horses have distinctive physiology and sensitive gastrointestinal microflora, so many common human medicines can cause serious or even fatal complications. For example, some widely used human painkillers and NSAIDs can cause severe gastric ulceration and kidney toxicity in horses if used inappropriately. A veterinarian calculates dosage according to body weight, considers equine metabolism, and selects only medications whose use and safety in horses are sufficiently established."
     },
     {
       "id": "question-33",
       "question": "Why is obesity dangerous for ponies?",
-      "explanation": "Obesity in ponies is a major risk factor for laminitis — a severely painful and potentially life-threatening inflammation of the sensitive tissues inside the hoof. Excess body fat is associated with equine metabolic syndrome and insulin dysregulation, which can directly contribute to laminar damage. In advanced cases, the coffin bone can displace or rotate downward and penetrate the sole, sometimes leaving euthanasia as the only humane option. Excess weight also places a major mechanical burden on the joints and cardiovascular system of small equids and can shorten their lifespan.",
       "answers": [
         {
           "id": "answer-01",
@@ -806,12 +805,12 @@
           "text": "Rapid wearing of healthy molar teeth"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Obesity in ponies is a major risk factor for laminitis — a severely painful and potentially life-threatening inflammation of the sensitive tissues inside the hoof. Excess body fat is associated with equine metabolic syndrome and insulin dysregulation, which can directly contribute to laminar damage. In advanced cases, the coffin bone can displace or rotate downward and penetrate the sole, sometimes leaving euthanasia as the only humane option. Excess weight also places a major mechanical burden on the joints and cardiovascular system of small equids and can shorten their lifespan."
     },
     {
       "id": "question-34",
       "question": "What particularly contributes to respiratory disease in a stable?",
-      "explanation": "A major cause of chronic respiratory disease in horses, including equine asthma — formerly often referred to as COPD or recurrent airway obstruction (RAO) — is inhalation of fine organic particles in enclosed environments. Dry dusty hay and poor-quality wood shavings can contain large quantities of mold spores, bacteria, and fine dust. When ventilation is poor, these allergens accumulate in the stable air together with ammonia from urine. Day after day, inhaling this mixture causes persistent irritation of the airways, bronchial swelling, and excessive mucus production, progressively impairing respiratory health and athletic performance.",
       "answers": [
         {
           "id": "answer-01",
@@ -830,12 +829,12 @@
           "text": "Regular active exercise outdoors"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "A major cause of chronic respiratory disease in horses, including equine asthma — formerly often referred to as COPD or recurrent airway obstruction (RAO) — is inhalation of fine organic particles in enclosed environments. Dry dusty hay and poor-quality wood shavings can contain large quantities of mold spores, bacteria, and fine dust. When ventilation is poor, these allergens accumulate in the stable air together with ammonia from urine. Day after day, inhaling this mixture causes persistent irritation of the airways, bronchial swelling, and excessive mucus production, progressively impairing respiratory health and athletic performance."
     },
     {
       "id": "question-35",
       "question": "What most often indicates severe pain?",
-      "explanation": "Major indicators of severe pain in horses include sudden behavioral changes, especially those associated with gastrointestinal disease such as colic. The horse may become restless, repeatedly look at its abdomen, paw the ground, lie down, and roll unusually often while trying to find a position that relieves the pain. Complete refusal of feed, rapid breathing, flared nostrils, heavy sweating, and a characteristic pain face with tense facial muscles and pinned ears can also indicate acute visceral or orthopedic pain. Ignoring these signs is dangerous because they warrant prompt veterinary attention.",
       "answers": [
         {
           "id": "answer-01",
@@ -854,12 +853,12 @@
           "text": "Frequent loud neighing when greeting someone"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Major indicators of severe pain in horses include sudden behavioral changes, especially those associated with gastrointestinal disease such as colic. The horse may become restless, repeatedly look at its abdomen, paw the ground, lie down, and roll unusually often while trying to find a position that relieves the pain. Complete refusal of feed, rapid breathing, flared nostrils, heavy sweating, and a characteristic pain face with tense facial muscles and pinned ears can also indicate acute visceral or orthopedic pain. Ignoring these signs is dangerous because they warrant prompt veterinary attention."
     },
     {
       "id": "question-36",
       "question": "What is the digital pulse?",
-      "explanation": "The digital pulse is the pulsation of the digital arteries, which run along the back and sides of the fetlock region and continue down toward the hoof. In a healthy horse at rest, the digital pulse is usually very faint or may be difficult to feel. When an acute inflammatory process develops inside the hoof capsule — for example with laminitis, pododermatitis, or a hoof abscess — local vascular pressure increases. The digital arteries may then feel firmer and the pulse becomes clearly palpable, rapid, and bounding, making it an important early warning sign of pain or inflammation in the foot.",
       "answers": [
         {
           "id": "answer-01",
@@ -878,12 +877,12 @@
           "text": "The horse's heart rate"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The digital pulse is the pulsation of the digital arteries, which run along the back and sides of the fetlock region and continue down toward the hoof. In a healthy horse at rest, the digital pulse is usually very faint or may be difficult to feel. When an acute inflammatory process develops inside the hoof capsule — for example with laminitis, pododermatitis, or a hoof abscess — local vascular pressure increases. The digital arteries may then feel firmer and the pulse becomes clearly palpable, rapid, and bounding, making it an important early warning sign of pain or inflammation in the foot."
     },
     {
       "id": "question-37",
       "question": "What type of digital pulse at rest suggests pathology?",
-      "explanation": "In a healthy horse at rest, the digital pulse is usually very faint because blood flows through the hoof without marked resistance. A bounding, pounding, or tense digital pulse that is easy to feel can indicate acute pathology such as laminitis, a hoof abscess, or a severe bruise. Inflammation and swelling inside the rigid hoof capsule increase tissue pressure and make the arterial pulse more prominent. Finding a pronounced digital pulse is a reason to stop exercise and seek veterinary evaluation to determine the cause.",
       "answers": [
         {
           "id": "answer-01",
@@ -902,12 +901,12 @@
           "text": "A pulse of forty beats per minute"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "In a healthy horse at rest, the digital pulse is usually very faint because blood flows through the hoof without marked resistance. A bounding, pounding, or tense digital pulse that is easy to feel can indicate acute pathology such as laminitis, a hoof abscess, or a severe bruise. Inflammation and swelling inside the rigid hoof capsule increase tissue pressure and make the arterial pulse more prominent. Finding a pronounced digital pulse is a reason to stop exercise and seek veterinary evaluation to determine the cause."
     },
     {
       "id": "question-38",
       "question": "Which conditions can an increased digital pulse indicate?",
-      "explanation": "A distinct, strong digital pulse can indicate acute inflammation within the hoof capsule or tissues of the lower limb. Most commonly, it is associated with laminitis, a hoof abscess, or pododermatitis involving bruising and inflammation of the hoof corium. Because the hoof capsule is rigid and cannot expand, swelling within it increases pressure on tissues and blood vessels and causes severe pain, which is reflected in the prominent digital pulse. An increased digital pulse may also occur with fractures of the coffin or navicular bone, deep sole wounds, or acute arthritis of the fetlock joint.",
       "answers": [
         {
           "id": "answer-01",
@@ -926,12 +925,12 @@
           "text": "A worm burden and parasitic infection"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "A distinct, strong digital pulse can indicate acute inflammation within the hoof capsule or tissues of the lower limb. Most commonly, it is associated with laminitis, a hoof abscess, or pododermatitis involving bruising and inflammation of the hoof corium. Because the hoof capsule is rigid and cannot expand, swelling within it increases pressure on tissues and blood vessels and causes severe pain, which is reflected in the prominent digital pulse. An increased digital pulse may also occur with fractures of the coffin or navicular bone, deep sole wounds, or acute arthritis of the fetlock joint."
     },
     {
       "id": "question-39",
       "question": "How can pain in a horse's lower back present?",
-      "explanation": "Pain in the loin and back often appears as defensive behavior and changes in movement biomechanics. Brushing, finger pressure, or placing the saddle over a painful area may cause the horse to hollow its back sharply, pin its ears, shift its feet, or try to bite. Under saddle, the horse may brace the muscles of the hindquarters, refuse to bring the hind legs underneath the body, become reluctant to go forward, round or hump the back, or buck. Chronic lumbar discomfort caused by poor saddle fit or excessive loading can lead to back-muscle atrophy and may contribute to persistent lameness.",
       "answers": [
         {
           "id": "answer-01",
@@ -950,12 +949,12 @@
           "text": "Changes in hoof shape and size"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Pain in the loin and back often appears as defensive behavior and changes in movement biomechanics. Brushing, finger pressure, or placing the saddle over a painful area may cause the horse to hollow its back sharply, pin its ears, shift its feet, or try to bite. Under saddle, the horse may brace the muscles of the hindquarters, refuse to bring the hind legs underneath the body, become reluctant to go forward, round or hump the back, or buck. Chronic lumbar discomfort caused by poor saddle fit or excessive loading can lead to back-muscle atrophy and may contribute to persistent lameness."
     },
     {
       "id": "question-40",
       "question": "What can happen if a hot horse is given cold water?",
-      "explanation": "Giving a hot horse cold water immediately after intense exercise can cause a sudden temperature shock to the internal organs. Cold liquid entering the stomach causes spasm of blood vessels and smooth muscle in the gastrointestinal tract, which can provoke severe, potentially fatal colic. In addition, abrupt cooling disrupts metabolism and microcirculation in peripheral blood vessels, triggering inflammatory reactions that can lead to laminitis (founder) — irreversible damage to the sensitive tissues inside the hooves. It is considered safer to offer water only after the horse's breathing has fully recovered, the coat has dried, and the muscles have cooled, or to give moderately warm water in very small amounts.",
       "answers": [
         {
           "id": "answer-01",
@@ -974,7 +973,8 @@
           "text": "The leg joints will become much more flexible and stronger"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Giving a hot horse cold water immediately after intense exercise can cause a sudden temperature shock to the internal organs. Cold liquid entering the stomach causes spasm of blood vessels and smooth muscle in the gastrointestinal tract, which can provoke severe, potentially fatal colic. In addition, abrupt cooling disrupts metabolism and microcirculation in peripheral blood vessels, triggering inflammatory reactions that can lead to laminitis (founder) — irreversible damage to the sensitive tissues inside the hooves. It is considered safer to offer water only after the horse's breathing has fully recovered, the coat has dried, and the muscles have cooled, or to give moderately warm water in very small amounts."
     }
   ],
   "translation_status": "current",
@@ -982,7 +982,6 @@
     "title": "Здоровье коня",
     "short_description": "Эта викторина поможет проверить знания о симптомах наиболее распространенных заболеваний и опасных состояний у лошадей, а также о первой помощи до приезда ветеринара.",
     "intro": "Эта викторина поможет проверить знания о симптомах наиболее распространенных заболеваний и опасных состояний у лошадей, а также о первой помощи до приезда ветеринара.",
-    "questionImagesAlt": "",
     "difficulty": "medium",
     "cover": "img/covers/horse-health.webp",
     "publication_date": "2026-07-26T10:54:00+00:00",
@@ -1955,5 +1954,6 @@
     ]
   },
   "questionImagesAlt": "Horse health question image",
-  "source_content_hash": "cd0f7bd7111675df16a1ca72fedc5326ec6093b672e056fd0a837ec7f72722fa"
+  "source_content_hash": "cd0f7bd7111675df16a1ca72fedc5326ec6093b672e056fd0a837ec7f72722fa",
+  "english_quiz": "horse-health-en"
 }
