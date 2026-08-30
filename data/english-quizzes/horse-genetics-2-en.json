@@ -392,15 +392,11 @@
           "text": "The horses are heterozygous at Agouti and Dun"
         },
         {
-          "id": "answer-05",
-          "text": "The horses are heterozygous at Agouti and Dun"
-        },
-        {
           "id": "answer-06",
           "text": "The horses are homozygous at Extension, Agouti, and Dun"
         }
       ],
-      "correct_answer_id": "answer-05",
+      "correct_answer_id": "answer-04",
       "explanation": "A black foal has recessive alleles at both Agouti and Dun. Bay dun parents must each have at least one dominant allele at both loci, so they must be heterozygous at Agouti and Dun."
     },
     {
