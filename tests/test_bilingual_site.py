@@ -95,6 +95,15 @@ class BilingualSiteTests(unittest.TestCase):
         untranslated = next(quiz for quiz in json.loads((output / "data/catalog.json").read_text(encoding="utf-8"))["quizzes"] if quiz.get("type") not in {"english", "vocabulary"} and not (output / "en/v" / quiz["slug"]).exists())
         no_translation_page = (output / "v" / untranslated["slug"] / "index.html").read_text(encoding="utf-8")
         self.assertIn('../../en/quizzes.html', no_translation_page)
+        for filename, counterpart in (("quizzes.html", "quizzes.html"), ("contacts.html", "contacts.html")):
+            metadata_page = (output / "en" / filename).read_text(encoding="utf-8")
+            root = f"https://example.test{base_path}"
+            self.assertIn(f'<link rel="canonical" href="{root}en/{filename}">', metadata_page)
+            self.assertIn(f'<link rel="alternate" hreflang="ru" href="{root}{counterpart}">', metadata_page)
+            self.assertIn(f'<link rel="alternate" hreflang="en" href="{root}en/{filename}">', metadata_page)
+            self.assertIn(f'<link rel="alternate" hreflang="x-default" href="{root}{counterpart}">', metadata_page)
+            self.assertIn(f'<meta property="og:image" content="{root}img/site-preview.webp">', metadata_page)
+            self.assertIn(f'<meta name="twitter:image" content="{root}img/site-preview.webp">', metadata_page)
         not_found = (output / "404.html").read_text(encoding="utf-8")
         self.assertIn(
             f'<nav class="language-switch" aria-label="Выбор языка">\n'
