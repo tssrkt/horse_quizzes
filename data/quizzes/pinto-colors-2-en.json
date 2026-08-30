@@ -1,0 +1,1224 @@
+{
+  "difficulty": "medium",
+  "cover": "img/covers/pinto-colors-2.webp",
+  "publication_date": "2026-07-29T08:46:00+00:00",
+  "type": "english",
+  "slug": "pinto-colors-2-en",
+  "source_quiz": "pinto-colors-2",
+  "tags": [
+    "english",
+    "horses",
+    "images"
+  ],
+  "published": true,
+  "title": "Pinto Coat Colors 2",
+  "short_description": "This quiz continues the topic of pinto coat colors. If you've finished Part 1 and are ready to test your knowledge on some trickier examples, go ahead and move on to Part 2.",
+  "intro": "This quiz continues the topic of pinto coat colors. If you've finished Part 1 and are ready to test your knowledge on some trickier examples, go ahead and move on to Part 2.",
+  "questionImagesAlt": "Photo of a horse for identifying its pinto pattern",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/01.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-02",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/02.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-03",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/03.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible."
+    },
+    {
+      "id": "question-04",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/04.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-05",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/05.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-06",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/06.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-07",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/07.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tovero"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-08",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/08.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-09",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/09.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-10",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/10.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-11",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/11.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-12",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/12.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-13",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/13.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-14",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/14.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-15",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/15.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-16",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/16.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-17",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/17.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-18",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/18.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-19",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/19.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-20",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/20.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-21",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/21.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-22",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/22.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-23",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/23.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-24",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/24.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-25",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/25.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-26",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/26.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-27",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/27.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-28",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/28.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-29",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/29.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-30",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/30.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-31",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/31.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-32",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/32.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-33",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/33.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-34",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/34.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "Tovero is a mixed pinto pattern. Horses described as tovero carry more than one white-spotting gene. Most often, this involves a combination of two different pinto genes, such as tobiano + sabino, sabino + splashed white, tobiano + frame overo, and so on. Very rarely, a horse may carry three different pinto patterns. Horses carrying all four pinto genes listed here—tobiano, sabino, splashed white, and frame overo—have not yet been documented, but such a combination is theoretically possible.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-35",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/35.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Frame overo is a pinto pattern in which white patches with crisp, irregular edges appear mainly on the sides of the body and usually do not cross the topline, creating the impression that the dark color is enclosed by a white “frame.” The face often has broad white markings, while the legs frequently remain dark.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-36",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/36.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-37",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/37.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Splashed white is a pinto pattern that makes the horse look as though its lower body has been dipped in white paint. It features large white markings with crisp, smooth edges that begin on the legs and underside, extend onto the head, and are often accompanied by blue eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-38",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/38.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-39",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/39.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tobiano is a pinto pattern in which large white patches with crisp, usually smooth edges cross the topline and extend down the sides. The legs are usually white, the head generally remains dark with ordinary facial markings such as a blaze, and the tail is often two-colored.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-40",
+      "question": "What pinto pattern is this?",
+      "image": "img/quiz/pinto-colors-2-en/40.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sabino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tobiano"
+        },
+        {
+          "id": "answer-03",
+          "text": "Splashed white"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frame overo"
+        },
+        {
+          "id": "answer-05",
+          "text": "Tovero"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Sabino is a pinto pattern in which white markings begin on the legs and face—a blaze may extend from the forelock to the lower jaw—and spread onto the belly and sides. Sabino markings typically have irregular, ragged, or roaned edges, with numerous white hairs mixed into the base coat.",
+      "image_author": "Неизвестен"
+    }
+  ],
+  "source_content_hash": "fe8048028f09245e9ce28326e4a0b25161692211d68371fd8496caebc0cc6345",
+  "english_quiz": "pinto-colors-2-en",
+  "previous_quiz": "pinto-colors-en",
+  "next_quiz": "pinto-colors-3-en",
+  "content_version": "0f30475efedf83631626f7f810b0f3318c95db47b40b595b1b1f0a52f7628f33"
+}

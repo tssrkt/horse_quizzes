@@ -1,0 +1,477 @@
+{
+  "type": "vocabulary",
+  "title": "Разведение лошадей",
+  "slug": "english-2",
+  "published": true,
+  "publication_date": "2026-08-04T19:17:00+00:00",
+  "difficulty": "medium",
+  "short_description": "Эта викторина посвящена английской терминологии, связанной с разведением лошадей. Здесь собраны названия, которые используются при описании жеребцов, кобыл, жеребят, беременности и т.д.",
+  "intro": "Эта викторина посвящена английской терминологии, связанной с разведением лошадей. Здесь собраны названия, которые используются при описании жеребцов, кобыл, жеребят, беременности и т.д.",
+  "cover": "img/covers/English_02.webp",
+  "tags": [
+    "dictionary",
+    "breeding"
+  ],
+  "previous_quiz": "english",
+  "parts": [
+    {
+      "id": "3d6829c1-df17-4b8e-a9da-6fc11bb85692",
+      "title": "Часть 1",
+      "word_count": 33,
+      "vocabulary": [
+        {
+          "english": "Breeding (breeding industry)",
+          "russian": "разведение",
+          "category": "Breeding"
+        },
+        {
+          "english": "Stallion",
+          "russian": "жеребец",
+          "category": "Breeding"
+        },
+        {
+          "english": "Mare",
+          "russian": "кобыла",
+          "category": "Breeding"
+        },
+        {
+          "english": "Colt",
+          "russian": "жеребчик",
+          "category": "Breeding"
+        },
+        {
+          "english": "Filly",
+          "russian": "кобылка",
+          "category": "Breeding"
+        },
+        {
+          "english": "Stud",
+          "russian": "производитель",
+          "category": "Breeding"
+        },
+        {
+          "english": "Foal",
+          "russian": "жеребенок",
+          "category": "Breeding"
+        },
+        {
+          "english": "Weanling",
+          "russian": "отъемыш",
+          "category": "Breeding"
+        },
+        {
+          "english": "Yearling",
+          "russian": "годовик",
+          "category": "Breeding"
+        },
+        {
+          "english": "Gelding",
+          "russian": "мерин",
+          "category": "Breeding"
+        },
+        {
+          "english": "Rearing (raising)",
+          "russian": "выращивание",
+          "category": "Breeding"
+        },
+        {
+          "english": "Breeder",
+          "russian": "заводчик",
+          "category": "Breeding"
+        },
+        {
+          "english": "Rearer (raiser)",
+          "russian": "заводчик, доращивающий жеребят",
+          "category": "Breeding"
+        },
+        {
+          "english": "Specie",
+          "russian": "род",
+          "category": "Breeding"
+        },
+        {
+          "english": "Variety",
+          "russian": "вид",
+          "category": "Breeding"
+        },
+        {
+          "english": "Breed",
+          "russian": "порода",
+          "category": "Breeding"
+        },
+        {
+          "english": "Family",
+          "russian": "семейство",
+          "category": "Breeding"
+        },
+        {
+          "english": "Stud farm",
+          "russian": "конный завод, племенное хозяйство",
+          "category": "Breeding"
+        },
+        {
+          "english": "Dam",
+          "russian": "мать (о кобыле)",
+          "category": "Breeding"
+        },
+        {
+          "english": "Granddam",
+          "russian": "бабка (мать матери)",
+          "category": "Breeding"
+        },
+        {
+          "english": "Tap-root mare",
+          "russian": "основательница семейства",
+          "category": "Breeding"
+        },
+        {
+          "english": "Sire",
+          "russian": "отец (о коне)",
+          "category": "Breeding"
+        },
+        {
+          "english": "Grandsire",
+          "russian": "дед (о коне)",
+          "category": "Breeding"
+        },
+        {
+          "english": "Foundation sire",
+          "russian": "основатель породы, линии",
+          "category": "Breeding"
+        },
+        {
+          "english": "Full brother (full sister)",
+          "russian": "полнородный брат, полнородная сестра",
+          "category": "Breeding"
+        },
+        {
+          "english": "Half brother (half sister)",
+          "russian": "полубрат, полусестра",
+          "category": "Breeding"
+        },
+        {
+          "english": "Foundation stock",
+          "russian": "племенная основа",
+          "category": "Breeding"
+        },
+        {
+          "english": "Line",
+          "russian": "отродье",
+          "category": "Breeding"
+        },
+        {
+          "english": "Individual",
+          "russian": "индивид, особь",
+          "category": "Breeding"
+        },
+        {
+          "english": "Produce (offspring)",
+          "russian": "приплод",
+          "category": "Breeding"
+        },
+        {
+          "english": "Origin",
+          "russian": "происхождение",
+          "category": "Breeding"
+        },
+        {
+          "english": "Ancestors (ancestry)",
+          "russian": "предки",
+          "category": "Breeding"
+        },
+        {
+          "english": "Descendants (offspring)",
+          "russian": "потомство",
+          "category": "Breeding"
+        }
+      ]
+    },
+    {
+      "id": "90cfe9ae-376a-4386-ba5f-3b05d0bf6c09",
+      "title": "Часть 2",
+      "word_count": 30,
+      "vocabulary": [
+        {
+          "english": "Not true to type",
+          "russian": "нетипичный, беспородный",
+          "category": "Breeding"
+        },
+        {
+          "english": "Potency",
+          "russian": "потенция, способность к воспроизводству",
+          "category": "Breeding"
+        },
+        {
+          "english": "Heredity",
+          "russian": "наследственность",
+          "category": "Breeding"
+        },
+        {
+          "english": "Inheritance",
+          "russian": "наследственные задатки",
+          "category": "Breeding"
+        },
+        {
+          "english": "Prepotency",
+          "russian": "препотентность",
+          "category": "Breeding"
+        },
+        {
+          "english": "Innate defect",
+          "russian": "аномалия, генетическая ошибка, наследственный порок",
+          "category": "Breeding"
+        },
+        {
+          "english": "Throw-back",
+          "russian": "исходная порода",
+          "category": "Breeding"
+        },
+        {
+          "english": "Retrogressive",
+          "russian": "регрессивный, похожий на исходных предков",
+          "category": "Breeding"
+        },
+        {
+          "english": "Degenerate",
+          "russian": "дегенеративный, выродившийся",
+          "category": "Breeding"
+        },
+        {
+          "english": "Constancy (stability)",
+          "russian": "устойчивость, константность",
+          "category": "Breeding"
+        },
+        {
+          "english": "Breeding selection",
+          "russian": "выбор, отбор, селекция",
+          "category": "Breeding"
+        },
+        {
+          "english": "Crossing",
+          "russian": "скрещивание",
+          "category": "Breeding"
+        },
+        {
+          "english": "Intermediary produce",
+          "russian": "промежуточный продукт",
+          "category": "Breeding"
+        },
+        {
+          "english": "Utility cross-breeding",
+          "russian": "пользовательное скрещивание",
+          "category": "Breeding"
+        },
+        {
+          "english": "Mixed breed",
+          "russian": "помесь",
+          "category": "Breeding"
+        },
+        {
+          "english": "Pure breeding",
+          "russian": "чистопородное разведение",
+          "category": "Breeding"
+        },
+        {
+          "english": "Inbreeding (Close breeding)",
+          "russian": "инбридинг, родственное скрещивание",
+          "category": "Breeding"
+        },
+        {
+          "english": "Free generation",
+          "russian": "ряды предков в родословной, свободные от инбридинга",
+          "category": "Breeding"
+        },
+        {
+          "english": "Outbreeding (outcrossing)",
+          "russian": "прилитие чужой крови, бессистемное скрещивание",
+          "category": "Breeding"
+        },
+        {
+          "english": "Line breeding",
+          "russian": "разведение по линиям",
+          "category": "Breeding"
+        },
+        {
+          "english": "Admixture of new blood",
+          "russian": "освежение крови, вводное скрещивание",
+          "category": "Breeding"
+        },
+        {
+          "english": "Prototype of the species",
+          "russian": "прототип вида",
+          "category": "Breeding"
+        },
+        {
+          "english": "Tap-root strain",
+          "russian": "основной род, исходная линия, порода",
+          "category": "Breeding"
+        },
+        {
+          "english": "Brood mare",
+          "russian": "матка",
+          "category": "Breeding"
+        },
+        {
+          "english": "Mating (serving, covering)",
+          "russian": "покрытие, случка",
+          "category": "Breeding"
+        },
+        {
+          "english": "To beget (procreate, engender)",
+          "russian": "покрывать, оплодотворять",
+          "category": "Breeding"
+        },
+        {
+          "english": "To inseminate",
+          "russian": "осеменять",
+          "category": "Breeding"
+        },
+        {
+          "english": "Artificial insemination",
+          "russian": "искусственное осеменение",
+          "category": "Breeding"
+        },
+        {
+          "english": "Prolific (productive)",
+          "russian": "плодовитый",
+          "category": "Breeding"
+        },
+        {
+          "english": "Sterile",
+          "russian": "стерильный, бесплодный",
+          "category": "Breeding"
+        }
+      ]
+    },
+    {
+      "id": "94c62e45-0612-47cc-a532-0a49a083e852",
+      "title": "Часть 3",
+      "word_count": 24,
+      "vocabulary": [
+        {
+          "english": "To breed a stallion to a dam",
+          "russian": "случать жеребца с кобылой",
+          "category": "Breeding"
+        },
+        {
+          "english": "Strain (lineage)",
+          "russian": "линия",
+          "category": "Breeding"
+        },
+        {
+          "english": "Bloodline",
+          "russian": "мужская линия",
+          "category": "Breeding"
+        },
+        {
+          "english": "Tail line",
+          "russian": "маточное семейство",
+          "category": "Breeding"
+        },
+        {
+          "english": "Consanguinity",
+          "russian": "родство, единокровность",
+          "category": "Breeding"
+        },
+        {
+          "english": "Affinity",
+          "russian": "родство, родственность",
+          "category": "Breeding"
+        },
+        {
+          "english": "Pedigree",
+          "russian": "происхождение, родословная, свидетельство о рождении",
+          "category": "Breeding"
+        },
+        {
+          "english": "Hybrid",
+          "russian": "гибридный",
+          "category": "Breeding"
+        },
+        {
+          "english": "Stud manager",
+          "russian": "начкон",
+          "category": "Breeding"
+        },
+        {
+          "english": "Owner",
+          "russian": "владелец",
+          "category": "Breeding"
+        },
+        {
+          "english": "Maiden mare",
+          "russian": "не рожавшая кобыла",
+          "category": "Breeding"
+        },
+        {
+          "english": "Mare in heat",
+          "russian": "кобыла в охоте",
+          "category": "Breeding"
+        },
+        {
+          "english": "To be in foal",
+          "russian": "быть жеребой",
+          "category": "Breeding"
+        },
+        {
+          "english": "To foal",
+          "russian": "родить, ожеребиться",
+          "category": "Breeding"
+        },
+        {
+          "english": "Barren mare",
+          "russian": "прохолостевшая кобыла",
+          "category": "Breeding"
+        },
+        {
+          "english": "Covering fee (stallion nomination)",
+          "russian": "плата за случку",
+          "category": "Breeding"
+        },
+        {
+          "english": "Sire of sires",
+          "russian": "производитель, давший жеребцов-производителей",
+          "category": "Breeding"
+        },
+        {
+          "english": "Sire of dams",
+          "russian": "производитель, давший племенных маток",
+          "category": "Breeding"
+        },
+        {
+          "english": "Sire of stake winners",
+          "russian": "производитель, давший победителей традиционных призов",
+          "category": "Breeding"
+        },
+        {
+          "english": "Sire of dressage horses",
+          "russian": "производитель, давший выездковых лошадей",
+          "category": "Breeding"
+        },
+        {
+          "english": "To sire",
+          "russian": "приносить жеребят (о жеребце)",
+          "category": "Breeding"
+        },
+        {
+          "english": "To be a stud",
+          "russian": "быть производителем",
+          "category": "Breeding"
+        },
+        {
+          "english": "Bred",
+          "russian": "выращенный, разведенный, выведенный",
+          "category": "Breeding"
+        },
+        {
+          "english": "Russia-bred",
+          "russian": "выведенный в России",
+          "category": "Breeding"
+        }
+      ]
+    }
+  ],
+  "word_count": 87,
+  "next_quiz": "english-3",
+  "content_version": "442347ecddbb5e2d1c54586beee5e6258ffe9c2d6fd5ca7ebf31c71dade543ae"
+}

@@ -1,0 +1,615 @@
+{
+  "locale": "en",
+  "tags": [
+    {
+      "slug": "gaits",
+      "name": "Gaits"
+    },
+    {
+      "slug": "amunition",
+      "name": "Tack"
+    },
+    {
+      "slug": "anatomy",
+      "name": "Anatomy"
+    },
+    {
+      "slug": "genetics",
+      "name": "Genetics"
+    },
+    {
+      "slug": "riding",
+      "name": "Riding"
+    },
+    {
+      "slug": "health",
+      "name": "Health"
+    },
+    {
+      "slug": "history",
+      "name": "History"
+    },
+    {
+      "slug": "images",
+      "name": "Images"
+    },
+    {
+      "slug": "horses",
+      "name": "Coat colors"
+    },
+    {
+      "slug": "behavior",
+      "name": "Behavior"
+    },
+    {
+      "slug": "breed",
+      "name": "Breeds"
+    },
+    {
+      "slug": "sport",
+      "name": "Sport"
+    },
+    {
+      "slug": "words",
+      "name": "Terminology"
+    },
+    {
+      "slug": "treating",
+      "name": "Care"
+    },
+    {
+      "slug": "exterior",
+      "name": "Conformation"
+    }
+  ],
+  "quizzes": [
+    {
+      "slug": "amunition-words-en",
+      "locale": "en",
+      "public_slug": "amunition-words",
+      "title": "Horse Tack Terms",
+      "published": true,
+      "publication_date": "2026-07-24T11:22:00+00:00",
+      "short_description": "Horse tack is more than just straps and metal: it is a complex system designed to keep the rider safe and the horse comfortable. How well do you know it?",
+      "difficulty": "low",
+      "cover": "img/covers/amunition-words.webp",
+      "tags": [
+        "english",
+        "words",
+        "amunition"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "amunition-words",
+      "content_version": "a639ffc52b489dbf955eaf6952fb5933ad213467edfb8c40f082b4bf73bd0f1a"
+    },
+    {
+      "slug": "anatomy-en",
+      "locale": "en",
+      "public_slug": "anatomy",
+      "title": "Horse Anatomy",
+      "published": true,
+      "publication_date": "2026-07-24T15:13:00+00:00",
+      "short_description": "This quiz covers the parts of a horse’s body, some conformation features, and a little about equine health. Let’s see how well you know horse anatomy.",
+      "difficulty": "medium",
+      "cover": "img/covers/anatomy.webp",
+      "tags": [
+        "english",
+        "words",
+        "anatomy",
+        "health"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "anatomy",
+      "content_version": "d47a8395b21fb1edba60fdca36ff30cecff0c55394aa196d80a1e70c9aeeb007"
+    },
+    {
+      "slug": "appaloosa-en",
+      "locale": "en",
+      "public_slug": "appaloosa",
+      "title": "Appaloosa Patterns",
+      "published": true,
+      "publication_date": "2026-08-26T09:25:00+00:00",
+      "short_description": "Leopard Complex patterns come in an amazing variety of spots and markings. Leopard, blanket, snowflake, and other patterns—test how well you can tell them apart and recognize their features.",
+      "difficulty": "high",
+      "cover": "img/covers/Portrait_05_Spotted.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "appaloosa",
+      "content_version": "152f261feaba100ef0989c4dacd4475686b833c3aa33e6494e683581fe3b744a"
+    },
+    {
+      "slug": "breeds-colors-en",
+      "locale": "en",
+      "public_slug": "breeds-colors",
+      "title": "Breeds and Coat Colors",
+      "published": true,
+      "publication_date": "2026-08-02T14:24:00+00:00",
+      "short_description": "Test how well you know the characteristic features of different horse breeds: which coat colors occur in them, which never do, and the reasons behind these patterns.",
+      "difficulty": "high",
+      "cover": "img/covers/breeds-colors.webp",
+      "tags": [
+        "english",
+        "breed",
+        "horses"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "breeds-colors",
+      "content_version": "8caadbd63d9ef86a6b69a3ed345851ccb9d4032bfc507360275481e89927ee9c"
+    },
+    {
+      "slug": "coat-phenomena-en",
+      "locale": "en",
+      "public_slug": "coat-phenomena",
+      "title": "Coat Color Phenomena",
+      "published": true,
+      "publication_date": "2026-08-06T09:58:00+00:00",
+      "short_description": "How well do you know unusual coat-color phenomena? Brindle, giraffe markings, mosaicism, and other rare features of a horse's appearance—see if you can recognize them.",
+      "difficulty": "high",
+      "cover": "img/covers/Portrait_03_Color-1.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "coat-phenomena",
+      "content_version": "939b6a39089247856646b3c280711727ef5e08a3e10496581158f3dd34b4abaa"
+    },
+    {
+      "slug": "complicated-colors-en",
+      "locale": "en",
+      "public_slug": "complicated-colors",
+      "title": "Complex Coat Colors",
+      "published": true,
+      "publication_date": "2026-08-28T10:56:00+00:00",
+      "short_description": "A collection of complex and combined coat colors, plus rare equine color variants not covered in the other quizzes. Challenging even for experienced coat-color enthusiasts.",
+      "difficulty": "high",
+      "cover": "img/covers/Portrait_07_Complicated.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "complicated-colors",
+      "content_version": "6bebdf595d88b093be0503e229059ab93567db0dc0307d02963c2b204be645a8"
+    },
+    {
+      "slug": "horse-amunition-en",
+      "locale": "en",
+      "public_slug": "horse-amunition",
+      "title": "Horse Tack",
+      "published": true,
+      "publication_date": "2026-08-03T14:14:00+00:00",
+      "short_description": "This is a very simple quiz: identify different pieces of horse tack from the photos and choose the correct answer from the options provided.",
+      "difficulty": "low",
+      "cover": "img/covers/Portrait_01_Ammunition_01.webp",
+      "tags": [
+        "english",
+        "amunition",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-amunition",
+      "content_version": "598ba4a5c4a27ecffaa5d9882c5244df6abe2e11e0532ed1e8260ad47b6f6f0d"
+    },
+    {
+      "slug": "horse-breeds-2-en",
+      "locale": "en",
+      "public_slug": "horse-breeds-2",
+      "title": "Horse Breeds 2",
+      "published": true,
+      "publication_date": "2026-08-03T16:44:00+00:00",
+      "short_description": "A continuation of the Horse Breeds quiz. This time you'll identify both familiar breeds from Part 1 and some new ones that are a little harder to tell apart.",
+      "difficulty": "low",
+      "cover": "img/covers/horse-breeds-2.webp",
+      "tags": [
+        "english",
+        "breed",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-breeds-2",
+      "content_version": "6715c79e5d573291b25657f6b453741f1b18529fd4a65ddd3ad246c9f071bcd4"
+    },
+    {
+      "slug": "horse-breeds-en",
+      "locale": "en",
+      "public_slug": "horse-breeds",
+      "title": "Horse Breeds",
+      "published": true,
+      "publication_date": "2026-07-23T13:14:00+00:00",
+      "short_description": "This is probably the easiest quiz on the site and an ideal choice for anyone who does not know where to start. It also features some of the best photos of the most recognizable horse breeds.",
+      "difficulty": "low",
+      "cover": "img/covers/horse-breeds.webp",
+      "tags": [
+        "english",
+        "images",
+        "breed"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-breeds",
+      "content_version": "a8319f832cd4754556bb2da0306736a58907544931673d2705b8209d00877909"
+    },
+    {
+      "slug": "horse-colors-en",
+      "locale": "en",
+      "public_slug": "horse-colors",
+      "title": "Horse Coat Colors",
+      "published": true,
+      "publication_date": "2026-07-18T09:00:00+00:00",
+      "short_description": "Look at photos of horses and choose the correct coat color from the list. A great quiz to start with, especially if you’re new to the subject.",
+      "difficulty": "low",
+      "cover": "img/covers/horse-colors.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-colors",
+      "content_version": "71b8b787f2fe18a931dbd9c35d0aeed2194dc27ebd42cec12df898aafc219b17"
+    },
+    {
+      "slug": "horse-exterior-en",
+      "locale": "en",
+      "public_slug": "horse-exterior",
+      "title": "Horse Conformation",
+      "published": true,
+      "publication_date": "2026-07-26T13:25:00+00:00",
+      "short_description": "Horse conformation is more than just the names of body parts: it is an entire system for assessing an animal’s build, proportions, and structural features.",
+      "difficulty": "medium",
+      "cover": "img/covers/horse-exterior.webp",
+      "tags": [
+        "english",
+        "words",
+        "exterior",
+        "health"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-exterior",
+      "content_version": "2463b65e2fc657e53cf4ac4d292ea8594c61d8b090c019dee2da2802ef94e063"
+    },
+    {
+      "slug": "horse-gaits-en",
+      "locale": "en",
+      "public_slug": "horse-gaits",
+      "title": "Horse Gaits",
+      "published": true,
+      "publication_date": "2026-08-07T09:50:00+00:00",
+      "short_description": "Walk, trot, and canter are far from the only ways a horse can move. Test how well you know gaits, their mechanics, and other characteristic equine movements.",
+      "difficulty": "low",
+      "cover": "img/covers/Portrait_01_Ammunition.webp",
+      "tags": [
+        "english",
+        "gaits",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-gaits",
+      "content_version": "c152da06d8a787c4924b95ea32e1f838cfeb4c9aa601eed140033b124a409f89"
+    },
+    {
+      "slug": "horse-genetics-2-en",
+      "locale": "en",
+      "public_slug": "horse-genetics-2",
+      "title": "Horse Genetics 2",
+      "published": true,
+      "publication_date": "2026-07-20T09:00:00+00:00",
+      "short_description": "If Horse Genetics left you wanting more, continue your journey through the science here. The difficulty is about the same as in the previous quiz.",
+      "difficulty": "high",
+      "cover": "img/covers/horse-genetics-2.webp",
+      "tags": [
+        "english",
+        "genetics",
+        "horses"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-genetics-2",
+      "content_version": "c8740d7d81b81f63a682a919b1eb005d94c0f4c5d714e007efae37121daf1832"
+    },
+    {
+      "slug": "horse-genetics-3-en",
+      "locale": "en",
+      "public_slug": "horse-genetics-3",
+      "title": "Horse Genetics 3",
+      "published": true,
+      "publication_date": "2026-07-28T18:13:00+00:00",
+      "short_description": "This quiz focuses on coat-color inheritance, genetic patterns, and unexpected breeding outcomes. We recommend taking it after the first two genetics quizzes.",
+      "difficulty": "high",
+      "cover": "img/covers/horse-genetics-3.webp",
+      "tags": [
+        "english",
+        "genetics",
+        "horses"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-genetics-3",
+      "content_version": "0057323d5bb9c9aaa5035d25977a8947aeee8184f9ba6aa8d60d11701bf17268"
+    },
+    {
+      "slug": "horse-genetics-en",
+      "locale": "en",
+      "public_slug": "horse-genetics",
+      "title": "Horse Genetics",
+      "published": true,
+      "publication_date": "2026-07-19T12:00:00+00:00",
+      "short_description": "No photos—just genetics, no compromises. A quiz for horse lovers who enjoy short genetics problems and want to understand the inheritance behind equine coat colors.",
+      "difficulty": "high",
+      "cover": "img/covers/horse-genetics.webp",
+      "tags": [
+        "english",
+        "genetics",
+        "horses"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-genetics",
+      "content_version": "814bc82980555876f160721dffccdb82cb8bab7798d763a325bf8bbfc9f26a03"
+    },
+    {
+      "slug": "horse-health-en",
+      "locale": "en",
+      "public_slug": "horse-health",
+      "title": "Horse Health",
+      "published": true,
+      "publication_date": "2026-07-26T10:54:00+00:00",
+      "short_description": "This quiz will test your knowledge of the symptoms of the most common diseases and dangerous conditions in horses, as well as first aid before the veterinarian arrives.",
+      "difficulty": "medium",
+      "cover": "img/covers/horse-health.webp",
+      "tags": [
+        "english",
+        "health",
+        "treating",
+        "words"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-health",
+      "content_version": "591573bffd5e19e2e05de56ec1a91e2063dd83b2288b89797b8255cc0abf307d"
+    },
+    {
+      "slug": "horse-hisory-en",
+      "locale": "en",
+      "public_slug": "horse-hisory",
+      "title": "The Horse in History",
+      "published": true,
+      "publication_date": "2026-07-27T15:55:00+00:00",
+      "short_description": "This quiz explores the history of the relationship between humans and horses. Expect questions about legendary horses, ancient equestrian equipment, and other fascinating pages from the past.",
+      "difficulty": "high",
+      "cover": "img/covers/horse-hisory.webp",
+      "tags": [
+        "english",
+        "words",
+        "history",
+        "amunition"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-hisory",
+      "content_version": "c92e00c0be49270677361ba1769ccd258c834fff9003867b84534b0c29ac9a40"
+    },
+    {
+      "slug": "horse-words-en",
+      "locale": "en",
+      "public_slug": "horse-words",
+      "title": "Horse Terms",
+      "published": true,
+      "publication_date": "2026-07-22T07:00:00+00:00",
+      "short_description": "Ready to test your knowledge of horses? This quiz covers horse care, breeding, behavior, gaits, physical traits, age-related changes, and much more.",
+      "difficulty": "low",
+      "cover": "img/covers/horse-words.webp",
+      "tags": [
+        "english",
+        "words",
+        "behavior",
+        "gaits"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horse-words",
+      "content_version": "ebdc6e5adfbb2e0032877168ef11e2855aee0c31b1ad42d664aa0fae8693b3d3"
+    },
+    {
+      "slug": "horseman-words-en",
+      "locale": "en",
+      "public_slug": "horseman-words",
+      "title": "Equestrian Glossary",
+      "published": true,
+      "publication_date": "2026-07-22T12:00:00+00:00",
+      "short_description": "Essential terms for riders, horse owners, and anyone who works with horses—from tack and farriery to training, dressage, and equine behavior.",
+      "difficulty": "low",
+      "cover": "img/covers/horseman-words.webp",
+      "tags": [
+        "english",
+        "words",
+        "gaits",
+        "riding"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "horseman-words",
+      "content_version": "4b20c9ce7a361c0df3661c8af7f928ac4cd5ebeefa91c79ab4a4e48283e6ae82"
+    },
+    {
+      "slug": "pinto-colors-2-en",
+      "locale": "en",
+      "public_slug": "pinto-colors-2",
+      "title": "Pinto Coat Colors 2",
+      "published": true,
+      "publication_date": "2026-07-29T08:46:00+00:00",
+      "short_description": "This quiz continues the topic of pinto coat colors. If you've finished Part 1 and are ready to test your knowledge on some trickier examples, go ahead and move on to Part 2.",
+      "difficulty": "medium",
+      "cover": "img/covers/pinto-colors-2.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "pinto-colors-2",
+      "content_version": "0f30475efedf83631626f7f810b0f3318c95db47b40b595b1b1f0a52f7628f33"
+    },
+    {
+      "slug": "pinto-colors-3-en",
+      "locale": "en",
+      "public_slug": "pinto-colors-3",
+      "title": "Pinto Coat Colors 3",
+      "published": true,
+      "publication_date": "2026-07-31T14:31:00+00:00",
+      "short_description": "This quiz concludes the series on pinto horses. It will help reinforce what you've learned, make you more confident at telling pinto patterns apart, and test you with the most challenging examples.",
+      "difficulty": "high",
+      "cover": "img/covers/pinto-colors-3.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "pinto-colors-3",
+      "content_version": "49af8aa1c9ef99e7b526cf377d35e44f24d8fa51dd375b6e794b5bdd7fa621ec"
+    },
+    {
+      "slug": "pinto-colors-en",
+      "locale": "en",
+      "public_slug": "pinto-colors",
+      "title": "Pinto Coat Colors",
+      "published": true,
+      "publication_date": "2026-07-21T07:00:00+00:00",
+      "short_description": "Let's sort out the different pinto patterns. As in the other quizzes, the idea is simple: look at the photo and choose the correct answer. Even if you learn nothing, at least you'll see some beautiful horses.",
+      "difficulty": "medium",
+      "cover": "img/covers/pinto-colors.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "pinto-colors",
+      "content_version": "e4a013db8cd74bcff7b7283e4f2c07f00b1c2e05530fe891e9d61b2674717c99"
+    },
+    {
+      "slug": "rare-horse-colors-en",
+      "locale": "en",
+      "public_slug": "rare-horse-colors",
+      "title": "Rare Horse Coat Colors",
+      "published": true,
+      "publication_date": "2026-07-19T07:00:00+00:00",
+      "short_description": "Already completed “Horse Coat Colors”? This quiz is a natural next step, with the same photo-based multiple-choice format. It is ideal for anyone beginning to explore the remarkable variety of equine coat colors.",
+      "difficulty": "medium",
+      "cover": "img/covers/rare-horse-colors.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "rare-horse-colors",
+      "content_version": "1b432b53281bbd33fc865760138ab407d13b994c88917b97805ec9de6045168f"
+    },
+    {
+      "slug": "rarest-colors-en",
+      "locale": "en",
+      "public_slug": "rarest-colors",
+      "title": "Rarest Coat Colors",
+      "published": true,
+      "publication_date": "2026-08-27T09:05:00+00:00",
+      "short_description": "One of the hardest quizzes, devoted to rare Champagne and Pearl dilutions, including pseudo-double-cream phenotypes. Designed for the most experienced coat-color enthusiasts.",
+      "difficulty": "high",
+      "cover": "img/covers/Portrait_06_Rare.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "rarest-colors",
+      "content_version": "9ff88c7c28142a00b5d94be1feb30e1d4f00820169d901bced82dca7d7dd79e5"
+    },
+    {
+      "slug": "sport-en",
+      "locale": "en",
+      "public_slug": "sport",
+      "title": "Equestrian Sport",
+      "published": true,
+      "publication_date": "2026-07-27T10:45:00+00:00",
+      "short_description": "Do you love equestrian sport, or are you just getting into it? This quiz will test your knowledge of disciplines, rules, equipment, and much more.",
+      "difficulty": "medium",
+      "cover": "img/covers/sport.webp",
+      "tags": [
+        "english",
+        "words",
+        "sport",
+        "riding"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "sport",
+      "content_version": "74956962266738d82f598620130d37cfda1f323591db1618dcab1d6b0f5101e9"
+    },
+    {
+      "slug": "taking-care-horse-en",
+      "locale": "en",
+      "public_slug": "taking-care-horse",
+      "title": "Horse Care",
+      "published": true,
+      "publication_date": "2026-07-23T10:50:00+00:00",
+      "short_description": "An essential quiz for horse owners and anyone planning to become one, covering everyday care, health, feeding, hoof care, and behavior.",
+      "difficulty": "low",
+      "cover": "img/covers/taking-care-horse.webp",
+      "tags": [
+        "english",
+        "treating",
+        "health",
+        "behavior"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "taking-care-horse",
+      "content_version": "37ca7b8577647ef15a29c53f695663fcb3bac7fb7f20c3ae7c130483ba9e8af0"
+    },
+    {
+      "slug": "very-rare-colors-en",
+      "locale": "en",
+      "public_slug": "very-rare-colors",
+      "title": "Very Rare Coat Colors",
+      "published": true,
+      "publication_date": "2026-07-21T12:00:00+00:00",
+      "short_description": "This quiz uses the same photo-and-answer format, but it is a little harder than the previous one. If you have not taken Rare Coat Colors yet, we recommend starting there before moving on to this quiz.",
+      "difficulty": "medium",
+      "cover": "img/covers/very-rare-colors.webp",
+      "tags": [
+        "english",
+        "horses",
+        "images"
+      ],
+      "question_count": 40,
+      "type": "english",
+      "source_quiz": "very-rare-colors",
+      "content_version": "2dd4db901339deea913573630fa148de2b6f59f7fb1f13a676d5460e6e0517da"
+    }
+  ]
+}

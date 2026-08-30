@@ -1,0 +1,1257 @@
+{
+  "difficulty": "low",
+  "cover": "img/covers/Portrait_01_Ammunition_01.webp",
+  "publication_date": "2026-08-03T14:14:00+00:00",
+  "type": "english",
+  "slug": "horse-amunition-en",
+  "source_quiz": "horse-amunition",
+  "tags": [
+    "english",
+    "amunition",
+    "images"
+  ],
+  "published": true,
+  "title": "Horse Tack",
+  "short_description": "This is a very simple quiz: identify different pieces of horse tack from the photos and choose the correct answer from the options provided.",
+  "intro": "This is a very simple quiz: identify different pieces of horse tack from the photos and choose the correct answer from the options provided.",
+  "questionImagesAlt": "Photo for identifying horse tack",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/01.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A halter is bitless headgear used for leading a horse from a paddock or stall, tying it up, grooming, and veterinary examinations. It consists of a noseband, cheekpieces, crownpiece, and throat or chin straps that fit around the horse's head without interfering with the mouth. Halters are commonly made from nylon webbing, leather, or soft braid, and a lead rope is clipped to them for handling the horse.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-02",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/02.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A bridle is a basic piece of horse tack worn on the head to control and guide the horse while riding. It consists of the headstall—the system of straps including the crownpiece, cheekpieces, browband, throatlatch, and often a noseband—together with the reins and bit.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-03",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/03.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-04",
+      "question": "What is the pink fabric under the saddle called?",
+      "image": "img/quiz/horse-amunition-en/04.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sweat pad"
+        },
+        {
+          "id": "answer-02",
+          "text": "Sheepskin pad"
+        },
+        {
+          "id": "answer-03",
+          "text": "Half pad"
+        },
+        {
+          "id": "answer-04",
+          "text": "Saddle pad"
+        },
+        {
+          "id": "answer-05",
+          "text": "Saddle blanket"
+        },
+        {
+          "id": "answer-06",
+          "text": "Horse blanket"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A saddle pad is a thick textile layer placed beneath the saddle to protect the horse's back and the saddle itself. It is commonly made from cotton, quilted fabric, or modern synthetic materials, absorbs sweat, helps prevent rubbing, and can improve ventilation beneath the saddle.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-05",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/05.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Headstall and snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Headstall and curb bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Headstall and Pelham bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A headstall is the strap framework of a bridle, without the reins, that supports the other pieces of tack on the horse's head. A snaffle is a common direct-action bit with a straight or jointed mouthpiece and rings or cheeks to which the cheekpieces and reins attach. It is one of the standard and generally milder types of bitting.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-06",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/06.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-07",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/07.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dr. Cook's Bitless Bridle"
+        },
+        {
+          "id": "answer-02",
+          "text": "Western bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Baroque bridle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Racing bridle"
+        },
+        {
+          "id": "answer-05",
+          "text": "Mexican bridle"
+        },
+        {
+          "id": "answer-06",
+          "text": "Cavesson"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A Baroque bridle is ornate horse headgear styled after Renaissance and Baroque tack. It differs from modern sport bridles through decorative Portuguese or Spanish fittings, substantial buckles, embossed leather, and sometimes hanging leather tassels or a mosquero on the browband. It is often paired with a curb bit and is seen in traditional Portuguese and Spanish presentations, shows, mounted bullfighting, and Working Equitation.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-08",
+      "question": "What is the strap that helps prevent a horse from opening its mouth called?",
+      "image": "img/quiz/horse-amunition-en/08.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Capsule"
+        },
+        {
+          "id": "answer-02",
+          "text": "Flash strap"
+        },
+        {
+          "id": "answer-03",
+          "text": "Muzzle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-05",
+          "text": "Jaw strap"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A flash strap is the narrow auxiliary strap used with a flash, or combined, noseband. It passes in front of the snaffle bit and fastens under the horse's chin. Its purpose is to limit excessive opening of the mouth and help prevent the horse from evading the bit by crossing the jaw or putting the tongue over the bit.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-09",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/09.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A halter is bitless headgear used for leading a horse from a paddock or stall, tying it up, grooming, and veterinary examinations. It consists of a noseband, cheekpieces, crownpiece, and throat or chin straps that fit around the horse's head without interfering with the mouth. Halters are commonly made from nylon webbing, leather, or soft braid, and a lead rope is clipped to them for handling the horse.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-10",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/10.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "One-ear Western bridle"
+        },
+        {
+          "id": "answer-02",
+          "text": "Two-ear Western bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Earless Western bridle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Eared Western bridle"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A one-ear Western bridle is a minimalist headstall used on mature, well-trained Western horses. Instead of a traditional browband, it is held in place by a single leather loop that fits around one ear. It is normally used without a noseband and is commonly paired with a curb bit and long split reins.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-11",
+      "question": "What is the strap encircling the horse's nose called?",
+      "image": "img/quiz/horse-amunition-en/11.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Nose guard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Ratchet strap"
+        },
+        {
+          "id": "answer-03",
+          "text": "Noseband"
+        },
+        {
+          "id": "answer-04",
+          "text": "Crinet"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A noseband is the strap that encircles the horse's muzzle and is used to limit excessive opening of the mouth, stabilize the bit, and discourage evasions such as crossing the jaw. Depending on the design—cavesson, drop, crank, or figure-eight—it fastens at different heights and applies pressure in different ways.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-12",
+      "question": "What is the strap arrangement that attaches to the saddle and crosses the horse's chest to keep the saddle from sliding backward called?",
+      "image": "img/quiz/horse-amunition-en/12.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Girth"
+        },
+        {
+          "id": "answer-02",
+          "text": "Breastplate"
+        },
+        {
+          "id": "answer-03",
+          "text": "Martingale"
+        },
+        {
+          "id": "answer-04",
+          "text": "Stirrup leather"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A breastplate attaches to the saddle and passes around the horse's chest to help prevent the saddle from slipping backward. It is particularly useful when riding uphill, jumping, galloping, or working over varied terrain. Breastplates are commonly made of leather, elastic webbing, or synthetic materials and are often combined with a martingale.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-13",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/13.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A bridle is a basic piece of horse tack worn on the head to control and guide the horse while riding. It consists of the headstall—the system of straps including the crownpiece, cheekpieces, browband, throatlatch, and often a noseband—together with the reins and bit.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-14",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/14.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A halter is bitless headgear used for leading a horse from a paddock or stall, tying it up, grooming, and veterinary examinations. It consists of a noseband, cheekpieces, crownpiece, and throat or chin straps that fit around the horse's head without interfering with the mouth. Halters are commonly made from nylon webbing, leather, or soft braid, and a lead rope is clipped to them for handling the horse.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-15",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/15.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Headstall and snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Headstall and curb bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Headstall and Pelham bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A headstall is the strap framework of a bridle, without the reins, that supports the other pieces of tack on the horse's head. A snaffle is a common direct-action bit with a straight or jointed mouthpiece and rings or cheeks to which the cheekpieces and reins attach. It is one of the standard and generally milder types of bitting.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-16",
+      "question": "What type of saddle is this?",
+      "image": "img/quiz/horse-amunition-en/16.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Jumping saddle"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dressage saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Western saddle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cossack saddle"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A Western saddle is a deep, substantial saddle developed for long hours of ranch work and the use of a lariat. Its most recognizable feature is the horn on the pommel. It also has a deep seat, broad weight-bearing surfaces, wide fenders, and large stirrups, giving the rider stability and distributing weight over a broad area of the horse's back.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-17",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/17.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "A sidepull is a mild bitless bridle that works through direct pressure on the bridge of the nose. It resembles a halter but has a firmer, close-fitting leather or rope nosepiece with rings at the sides for the reins. Rein pressure gives a direct lateral cue, making sidepulls useful for young horses, trail riding, horses with mouth injuries, or riders who want to work without a bit.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-18",
+      "question": "What type of noseband is this?",
+      "image": "img/quiz/horse-amunition-en/18.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Cavesson (English)"
+        },
+        {
+          "id": "answer-02",
+          "text": "Figure-eight (Mexican)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Icelandic"
+        },
+        {
+          "id": "answer-04",
+          "text": "Drop (Hanoverian)"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The cavesson, sometimes called the English noseband in Russian terminology, is a classic and relatively mild noseband fitted about two fingers below the cheekbone and above the bit. It limits excessive opening of the mouth without completely restricting movement of the lower jaw and is widely used in dressage, jumping, and general riding.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-19",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/19.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A cavesson, or cavesson bridle, is specialized bitless headgear used for gymnastic work on the longe, in hand, on long reins, or under saddle. Its close-fitting nosepiece often contains a flexible chain or reinforced structure, and it normally has three rings on the nose: a central ring for the longe line and two side rings for reins. Because it stays stable on the face, it can give precise cues for flexion without acting on the horse's mouth.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-20",
+      "question": "What type of bit is this?",
+      "image": "img/quiz/horse-amunition-en/20.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Curb bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Pelham bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Olympic bit"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A curb bit is a leverage bit used for refined control, particularly in advanced dressage and Western riding. It has a solid or shaped mouthpiece, often with a port, and shanks to which the reins attach, together with a curb chain or strap under the jaw. Rein pressure applies leverage to the bars of the mouth, tongue, chin, and poll. Because its action can be strong, it requires skilled, sensitive hands.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-21",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/21.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-22",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/22.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A halter is bitless headgear used for leading a horse from a paddock or stall, tying it up, grooming, and veterinary examinations. It consists of a noseband, cheekpieces, crownpiece, and throat or chin straps that fit around the horse's head without interfering with the mouth. Halters are commonly made from nylon webbing, leather, or soft braid, and a lead rope is clipped to them for handling the horse.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-23",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/23.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dr. Cook's Bitless Bridle"
+        },
+        {
+          "id": "answer-02",
+          "text": "Baroque bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Western bridle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Racing bridle"
+        },
+        {
+          "id": "answer-05",
+          "text": "Mexican bridle"
+        },
+        {
+          "id": "answer-06",
+          "text": "Cavesson"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A Baroque bridle is ornate horse headgear styled after Renaissance and Baroque tack. It differs from modern sport bridles through decorative Portuguese or Spanish fittings, substantial buckles, embossed leather, and sometimes hanging leather tassels or a mosquero on the browband. It is often paired with a curb bit and is seen in traditional Portuguese and Spanish presentations, shows, mounted bullfighting, and Working Equitation.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-24",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/24.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-06",
+      "explanation": "A bosal is a firm, oval nosepiece used in traditional Western hackamore training. It is usually braided from rawhide and encircles the horse's nose. At the bottom is a prominent heel knot, to which a braided mecate is tied. Rather than acting through a bit, the bosal uses balanced pressure and movement against the nose and sides of the face to guide the horse.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-25",
+      "question": "What type of saddle is this?",
+      "image": "img/quiz/horse-amunition-en/25.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Cavalry saddle"
+        },
+        {
+          "id": "answer-02",
+          "text": "Western saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "English saddle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Spanish saddle"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "An English saddle is the general family of lightweight saddles used in classical riding and Olympic disciplines such as jumping, dressage, and eventing. Unlike a Western saddle, it has no horn and has a relatively minimalist design. Its tree supports the seat and panels, while the flaps and stirrups allow close contact between rider and horse.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-26",
+      "question": "What type of bit is this?",
+      "image": "img/quiz/horse-amunition-en/26.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Curb bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Pelham bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Olympic bit"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A curb bit is a leverage bit used for refined control, particularly in advanced dressage and Western riding. It has a solid or shaped mouthpiece, often with a port, and shanks to which the reins attach, together with a curb chain or strap under the jaw. Rein pressure applies leverage to the bars of the mouth, tongue, chin, and poll. Because its action can be strong, it requires skilled, sensitive hands.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-27",
+      "question": "What type of bit is this?",
+      "image": "img/quiz/horse-amunition-en/27.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Curb bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Pelham bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Olympic bit"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A snaffle is a common direct-action bit consisting of a straight or jointed mouthpiece and two side rings or cheeks to which the bridle cheekpieces and reins attach. It is a classic and generally relatively mild form of bitting.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-28",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/28.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A cavesson, or cavesson bridle, is specialized bitless headgear used for gymnastic work on the longe, in hand, on long reins, or under saddle. Its close-fitting nosepiece often contains a flexible chain or reinforced structure, and it normally has three rings on the nose: a central ring for the longe line and two side rings for reins. Because it stays stable on the face, it can give precise cues for flexion without acting on the horse's mouth.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-29",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/29.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "One-ear Western bridle"
+        },
+        {
+          "id": "answer-02",
+          "text": "Two-ear Western bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Earless Western bridle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cavesson"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A one-ear Western bridle is a minimalist headstall used on mature, well-trained Western horses. Instead of a traditional browband, it is held in place by a single leather loop that fits around one ear. It is normally used without a noseband and is commonly paired with a curb bit and long split reins.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-30",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/30.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-06",
+      "explanation": "A bosal is a firm, oval nosepiece used in traditional Western hackamore training. It is usually braided from rawhide and encircles the horse's nose. At the bottom is a prominent heel knot, to which a braided mecate is tied. Rather than acting through a bit, the bosal uses balanced pressure and movement against the nose and sides of the face to guide the horse.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-31",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/31.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Anatomical headstall with snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Baroque headstall with snaffle bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Anatomical headstall with curb bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Baroque headstall with curb bit"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "An anatomical headstall is designed around the structure of the horse's skull, nerves, and blood vessels. Its shaped crownpiece reduces pressure behind the ears, while the cheekpieces and noseband are positioned to avoid sensitive facial structures. The snaffle bit shown with it is a common direct-action bit with a straight or jointed mouthpiece and side rings or cheeks.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-32",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/32.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A cavesson, or cavesson bridle, is specialized bitless headgear used for gymnastic work on the longe, in hand, on long reins, or under saddle. Its close-fitting nosepiece often contains a flexible chain or reinforced structure, and it normally has three rings on the nose: a central ring for the longe line and two side rings for reins. Because it stays stable on the face, it can give precise cues for flexion without acting on the horse's mouth.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-33",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/33.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Californian hackamore"
+        },
+        {
+          "id": "answer-02",
+          "text": "Australian hackamore"
+        },
+        {
+          "id": "answer-03",
+          "text": "Baroque hackamore"
+        },
+        {
+          "id": "answer-04",
+          "text": "Russian hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Georgian hackamore"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A Baroque hackamore is an ornate bitless bridle in Renaissance or Baroque style. It typically has large decorative metal shanks, embossed leather over the nose, and an elaborate headstall with decorative buckles or a mosquero. Its mechanical action remains that of a leverage hackamore, applying pressure to the nose and chin, but it is used mainly in historical shows, Portuguese and Spanish riding traditions, exhibitions, and themed presentations.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-34",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/34.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Headstall with snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Headstall with curb bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Headstall with Pelham bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bridle"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A headstall is the strap framework of a bridle, without the reins, that supports the other pieces of tack on the horse's head. A snaffle is a common direct-action bit with a straight or jointed mouthpiece and rings or cheeks to which the cheekpieces and reins attach. It is one of the standard and generally milder types of bitting.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-35",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/35.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-36",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/36.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A bridle is a basic piece of horse tack worn on the head to control and guide the horse while riding. It consists of the headstall—the system of straps including the crownpiece, cheekpieces, browband, throatlatch, and often a noseband—together with the reins and bit.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-37",
+      "question": "What type of bit is this?",
+      "image": "img/quiz/horse-amunition-en/37.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Curb bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Pelham bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Olympic bit"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A Pelham is a leverage bit that combines features of a snaffle and a curb. It has a mouthpiece and cheeks with rings at different levels: the upper fittings attach to the bridle and curb chain, while the lower rings take the reins. It may be ridden with two reins for separate direct and curb actions, or with one rein attached through roundings. Pelhams are often used on strong horses in jumping and eventing.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-38",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/38.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-39",
+      "question": "What type of bit is this?",
+      "image": "img/quiz/horse-amunition-en/39.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Snaffle bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "Curb bit"
+        },
+        {
+          "id": "answer-03",
+          "text": "Pelham bit"
+        },
+        {
+          "id": "answer-04",
+          "text": "Olympic bit"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A Pelham is a leverage bit that combines features of a snaffle and a curb. It has a mouthpiece and cheeks with rings at different levels: the upper fittings attach to the bridle and curb chain, while the lower rings take the reins. It may be ridden with two reins for separate direct and curb actions, or with one rein attached through roundings. Pelhams are often used on strong horses in jumping and eventing.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-40",
+      "question": "What piece of tack is this?",
+      "image": "img/quiz/horse-amunition-en/40.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Halter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cavesson"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mechanical hackamore"
+        },
+        {
+          "id": "answer-05",
+          "text": "Sidepull"
+        },
+        {
+          "id": "answer-06",
+          "text": "Bosal"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A mechanical hackamore is a bitless form of headgear that controls the horse without placing a bit in the mouth. It has a nosepiece, metal shanks, a curb strap or chain, and reins. Its action is based on leverage: when the reins are taken up, pressure is applied to the bridge of the nose, chin, and poll. Because leverage can make it severe, it requires sensitive, experienced hands.",
+      "image_author": "Неизвестен"
+    }
+  ],
+  "source_content_hash": "15a6b3cd8ae0b1ee51d63f4bc7de4b6bc37754eadf7af03d99c02f534a049f23",
+  "english_quiz": "horse-amunition-en",
+  "previous_quiz": "horse-gaits-en",
+  "next_quiz": "breeds-colors-en",
+  "content_version": "598ba4a5c4a27ecffaa5d9882c5244df6abe2e11e0532ed1e8260ad47b6f6f0d"
+}

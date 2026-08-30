@@ -1,0 +1,1002 @@
+{
+  "difficulty": "low",
+  "cover": "img/covers/horseman-words.webp",
+  "publication_date": "2026-07-22T12:00:00+00:00",
+  "type": "english",
+  "slug": "horseman-words-en",
+  "source_quiz": "horseman-words",
+  "tags": [
+    "english",
+    "words",
+    "gaits",
+    "riding"
+  ],
+  "published": true,
+  "title": "Equestrian Glossary",
+  "short_description": "Essential terms for riders, horse owners, and anyone who works with horses—from tack and farriery to training, dressage, and equine behavior.",
+  "intro": "This quiz covers essential terms every horseperson should know, whether you compete, keep a horse for pleasure, or work with these remarkable animals.",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What is a horseshoe nail?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A piece of horse tack"
+        },
+        {
+          "id": "answer-02",
+          "text": "An item of riding apparel"
+        },
+        {
+          "id": "answer-03",
+          "text": "A nail used to fasten a horseshoe to the hoof"
+        },
+        {
+          "id": "answer-04",
+          "text": "A badly trained horse"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A horseshoe nail is a specially shaped, forged nail used to fasten a shoe to the insensitive horn of a horse’s hoof wall. Its rectangular shank, substantial head, and beveled point help the farrier guide it outward through the hoof wall without touching the sensitive structures inside."
+    },
+    {
+      "id": "question-02",
+      "question": "What is seating out a horseshoe?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A piece of horse tack"
+        },
+        {
+          "id": "answer-02",
+          "text": "An item of riding apparel"
+        },
+        {
+          "id": "answer-03",
+          "text": "The process of securing saddlebags"
+        },
+        {
+          "id": "answer-04",
+          "text": "Creating a recessed area on the inner edge of a horseshoe"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Seating out is the shallow bevel or hollow made along the inner edge of the upper surface of a horseshoe. It keeps the rigid shoe from pressing on the sensitive sole, which is especially important for flat-footed horses. A deeper seated-out area may also provide room for a therapeutic dressing or packing."
+    },
+    {
+      "id": "question-03",
+      "question": "What is a nail prick?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The process of shoeing a horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A hoof injury caused by a misplaced horseshoe nail"
+        },
+        {
+          "id": "answer-03",
+          "text": "A disease caused by an unsuitable horseshoe"
+        },
+        {
+          "id": "answer-04",
+          "text": "An unwanted stable behavior"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A nail prick is a shoeing injury in which a horseshoe nail penetrates sensitive tissue inside the hoof. A nail driven very close to the sensitive structures may instead cause a nail bind. Either can cause pain and lameness; an undetected puncture can lead to infection and requires prompt attention from a farrier or veterinarian."
+    },
+    {
+      "id": "question-04",
+      "question": "What are riding gaiters?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A piece of horse tack"
+        },
+        {
+          "id": "answer-02",
+          "text": "An item of riding apparel"
+        },
+        {
+          "id": "answer-03",
+          "text": "Young, excitable horses"
+        },
+        {
+          "id": "answer-04",
+          "text": "Another name for worn-out horses"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Riding gaiters are close-fitting leather or synthetic leg coverings worn over short riding boots. Fastened at the side or back and usually secured beneath the heel, they provide an affordable alternative to tall boots, protect the rider’s calf from rubbing and pinching, and help maintain steady contact with the horse’s side."
+    },
+    {
+      "id": "question-05",
+      "question": "What is the rider’s lower leg?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A part of the horse’s tack"
+        },
+        {
+          "id": "answer-02",
+          "text": "A part of the rider’s equipment"
+        },
+        {
+          "id": "answer-03",
+          "text": "The inside of the rider’s leg from knee to ankle"
+        },
+        {
+          "id": "answer-04",
+          "text": "The inside of the rider’s arm from elbow to hand"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "In riding, the lower leg—from the knee to the ankle—is one of the rider’s principal natural aids. By applying, closing, or pulsing the calf against the horse’s side, the rider asks the horse to move forward, regulates energy and tempo, and influences bend and lateral movement."
+    },
+    {
+      "id": "question-06",
+      "question": "What is show jumping?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A horse auction"
+        },
+        {
+          "id": "answer-02",
+          "text": "A horse beauty contest"
+        },
+        {
+          "id": "answer-03",
+          "text": "An equestrian sport"
+        },
+        {
+          "id": "answer-04",
+          "text": "A competition for draft horses"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Show jumping is an Olympic equestrian discipline in which horse-and-rider combinations negotiate a set course of obstacles in a prescribed order. Faults are awarded for knocking down rails, refusals, and exceeding the time allowed; the winner completes the course with the fewest faults, with time often deciding ties."
+    },
+    {
+      "id": "question-07",
+      "question": "What is the rider’s inner-thigh contact?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A horse disease"
+        },
+        {
+          "id": "answer-02",
+          "text": "An item of riding apparel"
+        },
+        {
+          "id": "answer-03",
+          "text": "A piece of horse tack"
+        },
+        {
+          "id": "answer-04",
+          "text": "The inside of the rider’s thigh from groin to knee"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The rider’s inner thigh, from groin to knee, helps create a deep, secure, independent seat. Soft, consistent contact supports balance without gripping the reins or stirrups. Together with the seat, weight, and lower-leg aids, it can subtly influence the horse’s tempo, balance, and preparation for collection."
+    },
+    {
+      "id": "question-08",
+      "question": "What is impulsion?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A dressage figure"
+        },
+        {
+          "id": "answer-02",
+          "text": "An item of riding apparel"
+        },
+        {
+          "id": "answer-03",
+          "text": "A piece of horse tack"
+        },
+        {
+          "id": "answer-04",
+          "text": "Energetic forward thrust generated by the hindquarters"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "In dressage, impulsion is the controlled, energetic thrust generated by the horse’s engaged hindquarters. It is not simply speed: the energy should travel through a supple, swinging back into an elastic contact, producing expressive, cadenced movement with a clear moment of suspension in trot and canter."
+    },
+    {
+      "id": "question-09",
+      "question": "Who is a schooling rider?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A head groom"
+        },
+        {
+          "id": "answer-02",
+          "text": "A riding instructor"
+        },
+        {
+          "id": "answer-03",
+          "text": "A person who starts and trains horses"
+        },
+        {
+          "id": "answer-04",
+          "text": "A trick-riding coach"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A schooling rider is a professional who starts, educates, and develops horses. The work may range from backing young horses to preparing them for dressage, show jumping, other competitions, or performances. Unlike a groom, a schooling rider trains the horse under saddle and may also work it in hand or on the lunge."
+    },
+    {
+      "id": "question-10",
+      "question": "What does it mean to hobble a horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "To tie it to a hitching rail"
+        },
+        {
+          "id": "answer-02",
+          "text": "To stop it at full gallop"
+        },
+        {
+          "id": "answer-03",
+          "text": "To restrict its legs before turning it out to graze"
+        },
+        {
+          "id": "answer-04",
+          "text": "To apply a special ointment to its legs"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "To hobble a horse means to fit straps or ropes that restrict the movement of its legs, commonly by linking the forelegs. Hobbles shorten the horse’s stride so it can graze without being tied while being less able to travel far or fast. They should be introduced and used only by an experienced handler."
+    },
+    {
+      "id": "question-11",
+      "question": "What is a free-jumping chute?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A hoof trimmer’s tool"
+        },
+        {
+          "id": "answer-02",
+          "text": "An item of riding apparel"
+        },
+        {
+          "id": "answer-03",
+          "text": "A piece of horse tack"
+        },
+        {
+          "id": "answer-04",
+          "text": "A fenced lane used for free jumping"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A free-jumping chute, or jumping lane, is a fenced corridor containing a sequence of obstacles that a horse negotiates without a rider. It is used to introduce young horses to jumping and to develop technique, confidence, judgment, and athletic ability without the additional weight of a rider."
+    },
+    {
+      "id": "question-12",
+      "question": "What does it mean to put a horse on a volte?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "To make it travel on a small circle"
+        },
+        {
+          "id": "answer-02",
+          "text": "To tie it to a hitching rail in a special way"
+        },
+        {
+          "id": "answer-03",
+          "text": "To restrain it for a veterinary procedure"
+        },
+        {
+          "id": "answer-04",
+          "text": "The same as hobbling it"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A volte is a small, even circle ridden as a school figure, traditionally about six to ten meters in diameter. Riding a volte develops suppleness and bend. Turning a forward-going horse onto a progressively smaller circle can also reduce its speed, provided there is enough safe space and suitable footing."
+    },
+    {
+      "id": "question-13",
+      "question": "What does it mean when a horse refuses a jump?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "It has rolled over"
+        },
+        {
+          "id": "answer-02",
+          "text": "It has reared"
+        },
+        {
+          "id": "answer-03",
+          "text": "It has declined to jump the obstacle"
+        },
+        {
+          "id": "answer-04",
+          "text": "It has refused to canter"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A refusal occurs when a horse stops in front of an obstacle instead of jumping it. The horse may plant its feet, step back, turn away, or evade because of fear, uncertainty, pain, or rider error. In competition a refusal is penalized, and repeated refusals may eliminate the combination."
+    },
+    {
+      "id": "question-14",
+      "question": "What does it mean when a horse bucks?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "It acts aggressively and tries to bite"
+        },
+        {
+          "id": "answer-02",
+          "text": "It jumps sharply upward with its head lowered"
+        },
+        {
+          "id": "answer-03",
+          "text": "It rises onto its hind legs"
+        },
+        {
+          "id": "answer-04",
+          "text": "It tosses its head at nearby people"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "When bucking, a horse lowers its head, rounds its back, and springs upward while kicking out with the hind legs. Horses may buck from excitement or excess energy, but also because of fear, protest, pain, or poorly fitting tack. Persistent bucking warrants a careful tack, health, and training assessment."
+    },
+    {
+      "id": "question-15",
+      "question": "What does it mean when a horse rears?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "It acts aggressively and tries to bite"
+        },
+        {
+          "id": "answer-02",
+          "text": "It jumps sharply upward with its head lowered"
+        },
+        {
+          "id": "answer-03",
+          "text": "It rises onto its hind legs"
+        },
+        {
+          "id": "answer-04",
+          "text": "It kicks out with its hind legs"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A rearing horse rises upright on its hind legs with both forelegs off the ground. Rearing may result from fear, pain, resistance, aggression, or excess energy; controlled movements such as the levade belong to advanced classical training. Uncommanded rearing is dangerous because the horse can lose its balance and fall backward."
+    },
+    {
+      "id": "question-16",
+      "question": "What does it mean when a horse shuts down?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The horse has a dangerous infectious disease"
+        },
+        {
+          "id": "answer-02",
+          "text": "The horse is too fresh and needs less feed and more work"
+        },
+        {
+          "id": "answer-03",
+          "text": "The horse stops obeying the aids and may try to unseat the rider"
+        },
+        {
+          "id": "answer-04",
+          "text": "The horse avoids all contact with both people and horses"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A horse that shuts down becomes mentally disengaged and stops responding normally to the rider’s aids. It may freeze or resist by backing, rearing, or kicking out. Fear, pain, excessive pressure, or mental overload can trigger this defensive state; restoring calm, reducing demands, and rebuilding trust are essential."
+    },
+    {
+      "id": "question-17",
+      "question": "What is the flehmen response?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Pinning the ears and raising the head"
+        },
+        {
+          "id": "answer-02",
+          "text": "Pinning the ears and tightening the lower lip"
+        },
+        {
+          "id": "answer-03",
+          "text": "Pinning the ears and baring the teeth"
+        },
+        {
+          "id": "answer-04",
+          "text": "Curling the upper lip and exposing the teeth"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The flehmen response is a characteristic behavior in which a horse raises its head, extends its neck, and curls back the upper lip, exposing the teeth. This can look like a grin, but it is a specialized way of investigating a scent."
+    },
+    {
+      "id": "question-18",
+      "question": "What does the flehmen response mean?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The horse is laughing"
+        },
+        {
+          "id": "answer-02",
+          "text": "The horse is angry"
+        },
+        {
+          "id": "answer-03",
+          "text": "The horse is pleased"
+        },
+        {
+          "id": "answer-04",
+          "text": "The horse is investigating a scent"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "During the flehmen response, the horse directs scent molecules toward the vomeronasal, or Jacobson’s, organ in the roof of the mouth. This allows closer analysis of unusual odors and chemical signals, especially pheromones from other horses."
+    },
+    {
+      "id": "question-19",
+      "question": "What is collection?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Tacking up a horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "Preparing a horse for a competition"
+        },
+        {
+          "id": "answer-03",
+          "text": "A balanced posture with greater engagement of the hindquarters"
+        },
+        {
+          "id": "answer-04",
+          "text": "The initial training of a young horse"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Collection is a state of increased balance and readiness in which the horse engages the hindquarters, carries more weight behind, lightens the forehand, and moves with shorter, more elevated strides. It develops through correct training and strength; it is not created by forcibly pulling the head toward the chest."
+    },
+    {
+      "id": "question-20",
+      "question": "What are cross-ties?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Two ties attached on opposite sides of an aisle"
+        },
+        {
+          "id": "answer-02",
+          "text": "An item of riding apparel"
+        },
+        {
+          "id": "answer-03",
+          "text": "A piece of horse tack used while riding"
+        },
+        {
+          "id": "answer-04",
+          "text": "The same as a lead rope"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Cross-ties are two ropes, straps, or chains attached on opposite sides of an aisle or grooming area and clipped to the horse’s halter. They limit forward, backward, and sideways movement so the horse can be groomed or tacked up safely. A horse should be trained to cross-tie, and quick-release safety features are advisable."
+    },
+    {
+      "id": "question-21",
+      "question": "What is a work interval in horse training?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A dressage movement"
+        },
+        {
+          "id": "answer-02",
+          "text": "A period in which the horse performs one task"
+        },
+        {
+          "id": "answer-03",
+          "text": "A circus trick"
+        },
+        {
+          "id": "answer-04",
+          "text": "A horse’s gait"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A work interval is an uninterrupted period spent in one gait or on one task during a schooling session—for example, several minutes of trot followed by a walk break. Alternating planned work and recovery intervals helps distribute the workload, build fitness, and reduce fatigue."
+    },
+    {
+      "id": "question-22",
+      "question": "What is half-pass?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A dressage movement"
+        },
+        {
+          "id": "answer-02",
+          "text": "A period in which the horse performs one task"
+        },
+        {
+          "id": "answer-03",
+          "text": "A circus trick"
+        },
+        {
+          "id": "answer-04",
+          "text": "A horse’s gait"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Half-pass is an advanced lateral dressage movement in which the horse travels both forward and sideways on a diagonal line while remaining slightly bent in the direction of travel. The legs cross, and the horse maintains rhythm, balance, and collection throughout the movement."
+    },
+    {
+      "id": "question-23",
+      "question": "What is counter-canter?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Cantering deliberately on the outside lead"
+        },
+        {
+          "id": "answer-02",
+          "text": "A very slow canter"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cantering on three legs"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cantering backward"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Counter-canter is a deliberate exercise in which the horse canters on the lead opposite to the direction of the curve—for example, remaining on the right lead while traveling on a left-hand circle. It develops balance, suppleness, straightness, and obedience to the rider’s aids."
+    },
+    {
+      "id": "question-24",
+      "question": "What is rein-back?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The same as teaching a young horse to lead"
+        },
+        {
+          "id": "answer-02",
+          "text": "A sudden change of direction"
+        },
+        {
+          "id": "answer-03",
+          "text": "A controlled backward movement"
+        },
+        {
+          "id": "answer-04",
+          "text": "A flying change of canter lead"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Rein-back is a dressage movement in which the horse steps backward in a straight line, moving the legs in diagonal pairs without a moment of suspension. Correctly performed, the horse remains calm, attentive, and engaged rather than simply retreating from pressure."
+    },
+    {
+      "id": "question-25",
+      "question": "What is extended walk?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A faster walk without longer steps"
+        },
+        {
+          "id": "answer-02",
+          "text": "A ground-covering walk with lengthened steps"
+        },
+        {
+          "id": "answer-03",
+          "text": "A gait between walk and trot"
+        },
+        {
+          "id": "answer-04",
+          "text": "The same as an irregular ambling gait"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In extended walk, the horse lengthens its steps to cover as much ground as possible without hurrying or breaking into trot. The neck stretches forward and downward, the back swings freely, and the hind feet clearly overtrack the prints of the forefeet."
+    },
+    {
+      "id": "question-26",
+      "question": "What is collected trot?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Trot with shorter strides, maintained rhythm, and greater engagement"
+        },
+        {
+          "id": "answer-02",
+          "text": "Trot with longer strides and a slower tempo"
+        },
+        {
+          "id": "answer-03",
+          "text": "Simply a very slow trot"
+        },
+        {
+          "id": "answer-04",
+          "text": "Trot on the wrong diagonal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "In collected trot, the horse takes shorter, more elevated strides while maintaining clear rhythm, impulsion, and activity. Greater engagement of the hindquarters shifts more weight behind, improves balance, and lightens the forehand; collection is not merely a very slow trot."
+    },
+    {
+      "id": "question-27",
+      "question": "What is a correct canter depart?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Any transition from trot to canter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Any transition from walk to canter"
+        },
+        {
+          "id": "answer-03",
+          "text": "A gradual transition into canter"
+        },
+        {
+          "id": "answer-04",
+          "text": "A transition into canter on the lead requested by the rider"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A correct canter depart is a prompt, balanced transition from walk or trot into canter on the lead requested by the rider. The horse should not rush; it should strike off cleanly while staying straight, responsive, and in balance."
+    },
+    {
+      "id": "question-28",
+      "question": "What is straightness in a horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Alignment of the horse’s body with its line of travel, with the hind feet tracking the forefeet"
+        },
+        {
+          "id": "answer-02",
+          "text": "Galloping at top speed in a straight line without stopping"
+        },
+        {
+          "id": "answer-03",
+          "text": "Keeping the head perfectly straight without turning the neck"
+        },
+        {
+          "id": "answer-04",
+          "text": "An inborn inability to turn"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Straightness means that the horse’s body is aligned with its line of travel, whether that line is straight or curved, with the hind feet following the tracks of the forefeet. Correct gymnastic training helps overcome natural asymmetry, improves balance and thrust, and distributes the workload more evenly."
+    },
+    {
+      "id": "question-29",
+      "question": "What is a show jacket?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A protective body vest for falls"
+        },
+        {
+          "id": "answer-02",
+          "text": "A wool cooler for a horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "A tailored jacket for equestrian competition"
+        },
+        {
+          "id": "answer-04",
+          "text": "A leather strap that secures the saddle"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A show jacket is a tailored riding coat worn in equestrian competition. Its close-fitting cut, rear vents, and rider-friendly sleeves allow freedom of movement and keep the jacket lying neatly while the rider is seated or jumping."
+    },
+    {
+      "id": "question-30",
+      "question": "What are half chaps?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Horseshoes designed for slippery ground"
+        },
+        {
+          "id": "answer-02",
+          "text": "Protective coverings worn over a rider’s lower legs"
+        },
+        {
+          "id": "answer-03",
+          "text": "Straps used to secure a horse rug"
+        },
+        {
+          "id": "answer-04",
+          "text": "Dried-apple horse treats"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Half chaps are fitted leather, suede, or synthetic coverings worn over short riding boots. Derived from the protective legwear of vaqueros and cowboys, modern half chaps protect the rider’s lower leg from rubbing, improve grip, and provide a feel similar to tall boots."
+    },
+    {
+      "id": "question-31",
+      "question": "What is a half-halt?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "An exercise used only to build muscle"
+        },
+        {
+          "id": "answer-02",
+          "text": "A way to restrain a young horse for shoeing"
+        },
+        {
+          "id": "answer-03",
+          "text": "A punishment for refusing a jump"
+        },
+        {
+          "id": "answer-04",
+          "text": "A brief aid that restores attention and balance"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A half-halt is a brief, coordinated aid from the rider’s seat, legs, and hands. It asks the horse to rebalance, engage the hindquarters, and pay attention in preparation for a transition, turn, movement, or jump. It is not a partial stop."
+    },
+    {
+      "id": "question-32",
+      "question": "What is a serpentine?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A thin leather whip"
+        },
+        {
+          "id": "answer-02",
+          "text": "A school figure formed by a flowing series of loops"
+        },
+        {
+          "id": "answer-03",
+          "text": "A hoof disease caused by damp bedding"
+        },
+        {
+          "id": "answer-04",
+          "text": "A decorative way of braiding a mane"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A serpentine is a school figure made up of smooth, connected loops that carry the horse from one side of the arena to the other. It develops suppleness, balance, accuracy, and responsiveness through repeated changes of bend and direction."
+    },
+    {
+      "id": "question-33",
+      "question": "What is teaching a young horse to lead?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Accustoming a young horse to a halter and to walking beside a handler"
+        },
+        {
+          "id": "answer-02",
+          "text": "Teaching a horse to drink from an automatic waterer"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cleaning the hooves before entering the arena"
+        },
+        {
+          "id": "answer-04",
+          "text": "Massaging a horse’s back after hard work"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Teaching a young horse to lead is the process of accustoming it to a handler, a halter, and a lead rope. The horse learns to walk beside the handler, halt, turn, yield to light pressure, and remain calm when the rope becomes taut."
+    },
+    {
+      "id": "question-34",
+      "question": "What is piaffe?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A leap with a kick of the hind legs"
+        },
+        {
+          "id": "answer-02",
+          "text": "Decorative leg wraps"
+        },
+        {
+          "id": "answer-03",
+          "text": "A fast Spanish trot"
+        },
+        {
+          "id": "answer-04",
+          "text": "A highly collected trot nearly in place"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Piaffe is a highly collected, elevated, cadenced diagonal movement performed nearly in place. The horse lowers the hindquarters, engages the hind legs deeply beneath the body, and alternately lifts diagonal pairs with clear rhythm and balance."
+    },
+    {
+      "id": "question-35",
+      "question": "Why should a rider change diagonal in rising trot?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "It is only a dressage flourish and serves no purpose"
+        },
+        {
+          "id": "answer-02",
+          "text": "To distribute the workload more evenly"
+        },
+        {
+          "id": "answer-03",
+          "text": "To signal the judges that the exercise is finished"
+        },
+        {
+          "id": "answer-04",
+          "text": "To warn the horse of an upcoming change of direction"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In rising trot, the rider rises and sits in rhythm with one diagonal pair of the horse’s legs. Changing diagonal by sitting for an extra beat alternates which diagonal bears the rider’s weight. In the arena, riders normally rise as the outside shoulder moves forward and change diagonal when they change rein, helping distribute the workload evenly."
+    },
+    {
+      "id": "question-36",
+      "question": "What should you do if you are falling from a horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Wrap your arms around yourself and curl into a tight ball"
+        },
+        {
+          "id": "answer-02",
+          "text": "Free your feet from the stirrups, avoid getting dragged, and release the reins as you separate from the horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "Close your eyes and scream for help"
+        },
+        {
+          "id": "answer-04",
+          "text": "Close your eyes and go completely limp"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "If a fall is unavoidable, freeing both feet from the stirrups reduces the risk of being dragged. Try to protect your head, avoid reaching out with a straight arm, and release the reins rather than remain attached to a moving horse. Fall training with a qualified coach can help riders learn safer reactions."
+    },
+    {
+      "id": "question-37",
+      "question": "What should you do if a horse bolts in an open field?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Take out your phone and call emergency services"
+        },
+        {
+          "id": "answer-02",
+          "text": "Shout, swear, and call for help"
+        },
+        {
+          "id": "answer-03",
+          "text": "Sit deep, use one rein to guide the horse onto a safe circle, and reduce the circle as it slows"
+        },
+        {
+          "id": "answer-04",
+          "text": "Pull hard on both reins with repeated jerks"
+        },
+        {
+          "id": "answer-05",
+          "text": "Bail out immediately with a double somersault"
+        },
+        {
+          "id": "answer-06",
+          "text": "Hug the horse’s neck, close your eyes, and scream"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A bolting horse can brace against an even pull on both reins. If terrain, space, and balance allow, sit deeply, avoid panic, use one rein to create gradual bend, and guide the horse onto a large circle that can be reduced only as speed comes down. Do not make a sharp turn at high speed; prioritize safe footing and professional instruction for emergency-control techniques."
+    },
+    {
+      "id": "question-38",
+      "question": "Apart from purpose-made riding boots, which footwear is most suitable for riding?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Running shoes"
+        },
+        {
+          "id": "answer-02",
+          "text": "Flip-flops"
+        },
+        {
+          "id": "answer-03",
+          "text": "Stiletto heels"
+        },
+        {
+          "id": "answer-04",
+          "text": "Chelsea boots"
+        },
+        {
+          "id": "answer-05",
+          "text": "Canvas sneakers"
+        },
+        {
+          "id": "answer-06",
+          "text": "Rubber boots"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Chelsea boots can be suitable because they have no laces or buckles to catch, and many models have a smooth sole and a small, defined heel. The heel helps prevent the foot from sliding through the stirrup, while a smooth sole reduces the risk of becoming trapped. The boot and stirrup must fit each other safely."
+    },
+    {
+      "id": "question-39",
+      "question": "What is halter-breaking?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Initially teaching a young horse to accept a halter, grooming, and tying"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tightening the girth as much as possible before jumping"
+        },
+        {
+          "id": "answer-03",
+          "text": "Wrapping the horse’s legs tightly with elastic bandages"
+        },
+        {
+          "id": "answer-04",
+          "text": "Stretching new leather over a saddle tree"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Halter-breaking is the first stage of teaching a young or previously unhandled horse to accept human contact, wear a halter, stand tied, be groomed, and yield to light pressure on a lead rope. It establishes the foundation for safe handling and later training."
+    },
+    {
+      "id": "question-40",
+      "question": "What is a run-out?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chafing beneath the girth"
+        },
+        {
+          "id": "answer-02",
+          "text": "When a horse goes around a fence instead of jumping it"
+        },
+        {
+          "id": "answer-03",
+          "text": "Teaching a foal to wear a rug"
+        },
+        {
+          "id": "answer-04",
+          "text": "When a horse circles around its rider"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In show jumping and eventing, a run-out occurs when a horse avoids an obstacle by deviating sideways and passing it instead of jumping. Unlike a refusal, where the horse stops in front of the fence, a run-out usually preserves forward movement but leaves the intended line."
+    }
+  ],
+  "questionImagesAlt": "Illustrations for the Equestrian Glossary quiz",
+  "source_content_hash": "3eaf1c6b28facb0eb96b8533bb8f48be6099cd2fa2012c367f1ab9ac7ab43fd1",
+  "english_quiz": "horseman-words-en",
+  "previous_quiz": "horse-words-en",
+  "next_quiz": "taking-care-horse-en",
+  "content_version": "4b20c9ce7a361c0df3661c8af7f928ac4cd5ebeefa91c79ab4a4e48283e6ae82"
+}

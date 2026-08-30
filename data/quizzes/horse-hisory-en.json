@@ -1,0 +1,992 @@
+{
+  "difficulty": "high",
+  "cover": "img/covers/horse-hisory.webp",
+  "publication_date": "2026-07-27T15:55:00+00:00",
+  "type": "english",
+  "slug": "horse-hisory-en",
+  "source_quiz": "horse-hisory",
+  "tags": [
+    "english",
+    "words",
+    "history",
+    "amunition"
+  ],
+  "published": true,
+  "title": "The Horse in History",
+  "short_description": "This quiz explores the history of the relationship between humans and horses. Expect questions about legendary horses, ancient equestrian equipment, and other fascinating pages from the past.",
+  "intro": "This quiz explores the history of the relationship between humans and horses. Expect questions about legendary horses, ancient equestrian equipment, and other fascinating pages from the past.",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What is an argamak?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A metal tool for trimming hooves"
+        },
+        {
+          "id": "answer-02",
+          "text": "An old name for elite Eastern riding horses"
+        },
+        {
+          "id": "answer-03",
+          "text": "A special winter saddle for draft horses"
+        },
+        {
+          "id": "answer-04",
+          "text": "A breed of wild forest pony from Asia"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Argamak is an old Eastern term used in Rus' and other parts of Eastern Europe in the 16th–18th centuries for high-quality, elite riding horses of Oriental origin. The name was often applied to horses related to the ancestors of modern Akhal-Tekes, Arabians, Persian horses, and Turkmen horses. They were prized for speed, endurance on long journeys, fine skin, and a graceful, lean build. Owning an argamak was a sign of wealth and high status, so such horses were kept in royal and aristocratic stables and used for ceremonial riding, hunting, and military campaigns."
+    },
+    {
+      "id": "question-02",
+      "question": "What does “asil” mean in Arabian horse breeding?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A wild steppe stallion from Central Asia"
+        },
+        {
+          "id": "answer-02",
+          "text": "A traditional Eastern cloth placed beneath a heavy saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A purebred Arabian horse of recognized unmixed desert ancestry"
+        },
+        {
+          "id": "answer-04",
+          "text": "A wooden hay feeder in a stall"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Asil, also spelled asıl or asil, is a term of Arabic origin meaning “noble,” “pure,” or “authentic.” In horse breeding it is used for Arabian horses regarded as being of pure desert-bred ancestry without outside blood. The tradition is associated with Bedouin tribes of the Arabian Peninsula, who preserved and passed down the pedigrees of their horses for generations. Asil Arabians were valued for their refined type, endurance, hardiness in desert conditions, and close relationship with people. In modern breeding, the term emphasizes an Arabian pedigree traced entirely to recognized desert-bred stock."
+    },
+    {
+      "id": "question-03",
+      "question": "What is a destrier?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "An ancient pony breed from Scotland"
+        },
+        {
+          "id": "answer-02",
+          "text": "A light cart for transporting wounded soldiers"
+        },
+        {
+          "id": "answer-03",
+          "text": "An old leather covering for a horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "A medieval knight’s warhorse"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A destrier was the most famous type of medieval warhorse associated with heavily armed knights in Western Europe during the 12th–14th centuries. The name is linked to the Latin dextrarius, meaning “right-hand,” because on the march a squire could lead this valuable horse on the knight’s right while the knight rode another mount. Destriers were not necessarily gigantic draft horses, as they are sometimes portrayed, but they were powerful, well-built, athletic animals trained for combat and the shock of mounted warfare."
+    },
+    {
+      "id": "question-04",
+      "question": "What is a crinet?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A metal plate fitted to the hoof of a heavy horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A piece of medieval armor protecting the horse’s neck"
+        },
+        {
+          "id": "answer-03",
+          "text": "A soft pad placed beneath a knight’s saddle"
+        },
+        {
+          "id": "answer-04",
+          "text": "A special mask protecting the horse’s face"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A crinet is a part of medieval horse armor, or barding, designed to protect the neck of a warhorse. Early versions could be made from flexible mail, while later examples used overlapping articulated metal plates. The construction allowed the armor to bend so that the horse could still move its head and neck. Its purpose was to protect the upper neck and mane area from sword blows, lances, and falling arrows."
+    },
+    {
+      "id": "question-05",
+      "question": "What is a crupper in horse armor?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The largest single part of horse armor"
+        },
+        {
+          "id": "answer-02",
+          "text": "The part of horse armor protecting the croup"
+        },
+        {
+          "id": "answer-03",
+          "text": "The part of horse armor protecting the chest"
+        },
+        {
+          "id": "answer-04",
+          "text": "The part of horse armor protecting the flank"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In full medieval horse armor, the crupper was the section protecting the horse’s hindquarters and croup behind the saddle. It could be made from shaped steel plates, leather, or heavy quilted material. Side armor such as flanchards could be attached around it, while an opening at the tail allowed the horse to move freely. Its main purpose was to protect the vulnerable rear of the horse from weapons and missiles in battle."
+    },
+    {
+      "id": "question-06",
+      "question": "What is a chanfron?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Plate armor protecting the horse’s neck"
+        },
+        {
+          "id": "answer-02",
+          "text": "Side armor protecting the horse’s flanks"
+        },
+        {
+          "id": "answer-03",
+          "text": "A protective mask for the horse’s head"
+        },
+        {
+          "id": "answer-04",
+          "text": "Armor protecting the horse’s chest"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A chanfron, also spelled chamfron or shaffron, is a protective faceplate forming part of medieval horse armor. It covered the front of the horse’s head, generally from the ears toward the muzzle, and could be made from forged steel, leather, or hardened leather. Openings were left for the eyes and ears, and some examples were richly decorated with engraving, heraldic devices, or ornamental spikes. Its purpose was to protect the horse’s head from lances, arrows, and blows in combat."
+    },
+    {
+      "id": "question-07",
+      "question": "What is a saddle tie strap?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A strap for fastening baggage to the saddle"
+        },
+        {
+          "id": "answer-02",
+          "text": "A strap protecting the horse’s legs from injury"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap for adjusting stirrup length"
+        },
+        {
+          "id": "answer-04",
+          "text": "Part of an ancient bridle"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A saddle tie strap is a strong leather strap used on cavalry, Cossack, hunting, or other traditional saddles to secure equipment to the pommel or cantle. Riders used such straps to fasten rolled coats, bags, bedding, and other travel gear so that it stayed secure while riding and did not interfere with the horse’s movement."
+    },
+    {
+      "id": "question-08",
+      "question": "What is a palfrey?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A piece of ceremonial headgear"
+        },
+        {
+          "id": "answer-02",
+          "text": "A special covering for warhorses"
+        },
+        {
+          "id": "answer-03",
+          "text": "A prestigious medieval riding horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "A French packhorse"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A palfrey was a prestigious riding horse highly valued in the Middle Ages. Unlike the heavier warhorse used for battle, the palfrey was lighter, more elegant, and especially prized for a smooth, comfortable gait, often an ambling gait. Palfreys were used for long journeys, falconry, processions, and ceremonial riding. Their comfortable movement and tractable temperament made them particularly desirable mounts for noblewomen, royalty, and high-ranking clergy."
+    },
+    {
+      "id": "question-09",
+      "question": "What is a courser?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A medieval harness horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A fast medieval warhorse"
+        },
+        {
+          "id": "answer-03",
+          "text": "A calm medieval travel horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "An elite medieval ambling horse"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A courser was a fast, agile medieval riding and warhorse. It was generally less expensive than a destrier but more highly valued than an ordinary riding or working horse because of its speed and stamina. Coursers were well suited to military campaigns, rapid cavalry movement, reconnaissance, hunting, and other situations that required a swift, maneuverable mount."
+    },
+    {
+      "id": "question-10",
+      "question": "What is a jennet?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A strap securing the saddle from underneath"
+        },
+        {
+          "id": "answer-02",
+          "text": "A farrier’s hoof-trimming tool"
+        },
+        {
+          "id": "answer-03",
+          "text": "A historical type of light riding horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "A special enclosure for newborn foals"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A jennet was a light, elegant riding horse associated particularly with medieval and Renaissance Spain. Jennets were valued for their small to medium size, endurance, graceful appearance, and naturally smooth gaits. They became popular among European nobility, especially as comfortable mounts for ladies and for light cavalry. Iberian jennets also influenced the development of several later gaited horse populations in the Americas."
+    },
+    {
+      "id": "question-11",
+      "question": "What is a rouncey?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A medieval ambling horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A medieval warhorse"
+        },
+        {
+          "id": "answer-03",
+          "text": "An elite medieval riding horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "An inexpensive medieval working horse"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A rouncey, or rounsey, was a common and relatively inexpensive horse in the Middle Ages. Unlike costly destriers or prestigious palfreys, rounceys were practical all-purpose animals used by squires, less wealthy riders, merchants, and farmers. Their stamina and versatility made them useful for ordinary riding, travel, pack work, and light harness work."
+    },
+    {
+      "id": "question-12",
+      "question": "What does the old Russian term “okhlyab” mean?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A special winter blanket for foals"
+        },
+        {
+          "id": "answer-02",
+          "text": "Riding a horse without a saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A leather strap securing a medieval saddle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Part of medieval harness"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The old Russian term okhlyab referred to riding a horse bareback. The rider used no saddle or stirrups and depended mainly on balance and seat. The expression appears in historical and ethnographic descriptions of rural life, where bareback riding was common when children or workers moved horses to and from pasture."
+    },
+    {
+      "id": "question-13",
+      "question": "What is a peytral?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The part of horse armor protecting the neck"
+        },
+        {
+          "id": "answer-02",
+          "text": "The part of horse armor protecting the flank"
+        },
+        {
+          "id": "answer-03",
+          "text": "The part of horse armor protecting the croup"
+        },
+        {
+          "id": "answer-04",
+          "text": "The part of horse armor protecting the chest"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A peytral is the breastplate section of medieval horse armor, or barding, designed to protect the horse’s chest from lances, arrows, and frontal blows. It could be made from metal plates or, less commonly, hardened leather and was secured with straps. Peytrals were sometimes richly decorated with heraldic designs and formed an important part of the protective equipment of a warhorse."
+    },
+    {
+      "id": "question-14",
+      "question": "What is a flanchard?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A type of cavalry formation"
+        },
+        {
+          "id": "answer-02",
+          "text": "The side section of a knight’s horse armor"
+        },
+        {
+          "id": "answer-03",
+          "text": "An elite medieval warhorse"
+        },
+        {
+          "id": "answer-04",
+          "text": "A leather bag for carrying feed on campaign"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A flanchard is a side piece of medieval horse armor designed to protect the horse’s flanks. Flanchards were made from metal plates or hardened leather and hung on either side of the saddle. They shielded the horse from blows delivered by infantry or enemy cavalry while leaving enough freedom for the rider’s legs and spurs."
+    },
+    {
+      "id": "question-15",
+      "question": "What is barding?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A complete set of medieval horse armor"
+        },
+        {
+          "id": "answer-02",
+          "text": "An old type of warm wool horse blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "A wooden feeder for several horses"
+        },
+        {
+          "id": "answer-04",
+          "text": "A saddlebag for carrying musical instruments"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Barding is the complete defensive armor worn by a warhorse in the Middle Ages and Renaissance. A full set could protect the head, neck, chest, flanks, and hindquarters. It was made from combinations of plate metal, mail, leather, and padded textile. Because horse armor was expensive and heavy, it was mainly associated with heavily equipped cavalry and with ceremonial or tournament display."
+    },
+    {
+      "id": "question-16",
+      "question": "What does “barding” refer to as a craft or practice?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Repairing horse armor"
+        },
+        {
+          "id": "answer-02",
+          "text": "A tournament for knights mounted on fully armored horses"
+        },
+        {
+          "id": "answer-03",
+          "text": "The craft of making horse armor and fitting it to a horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Testing horse armor for strength"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "In a broader historical sense, barding can refer to fitting a warhorse with protective armor and to the craft associated with making and adapting such equipment. Horse armor had to be shaped to the anatomy of the individual animal so that it provided protection without unnecessarily restricting movement or vision. Medieval barding could include articulated metal plates, leather defenses, mail, and padded elements."
+    },
+    {
+      "id": "question-17",
+      "question": "What is a caparison?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A leather headstall with two sets of reins"
+        },
+        {
+          "id": "answer-02",
+          "text": "A ceremonial bridle decorated with large feathers"
+        },
+        {
+          "id": "answer-03",
+          "text": "A ceremonial carriage drawn by four elite horses"
+        },
+        {
+          "id": "answer-04",
+          "text": "A ceremonial cloth or covering for a horse"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A caparison is a rich decorative cloth or horse covering used in the Middle Ages and Renaissance. It could cover much of the horse’s body and was especially associated with tournaments, parades, and ceremonial appearances. Caparisons were often made from expensive fabrics such as velvet or silk and decorated with embroidery, coats of arms, and heraldic colors. In some military contexts, cloth coverings could also help shield armor from dirt and direct sunlight."
+    },
+    {
+      "id": "question-18",
+      "question": "What is a chamfron?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A protective plate for a warhorse’s head"
+        },
+        {
+          "id": "answer-02",
+          "text": "A protective plate for a warhorse’s chest"
+        },
+        {
+          "id": "answer-03",
+          "text": "A protective plate for a warhorse’s flanks"
+        },
+        {
+          "id": "answer-04",
+          "text": "A protective plate for a warhorse’s neck"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Chamfron is another historical spelling of chanfron, a protective faceplate for a horse forming part of medieval barding. It covered the vulnerable front of the head and was made from shaped metal or hardened leather. Some examples included raised protection around the eyes, cheek pieces, heraldic decoration, or an ornamental spike or plume on the forehead."
+    },
+    {
+      "id": "question-19",
+      "question": "What is an archak?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The wooden tree of a saddle"
+        },
+        {
+          "id": "answer-02",
+          "text": "A soft pad beneath a medieval saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A broad leather strap beneath the tail"
+        },
+        {
+          "id": "answer-04",
+          "text": "An iron ring used to attach a stirrup"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Archak is a traditional term for the rigid wooden tree or frame of a saddle. Historically it was made from strong woods and then reinforced or covered with rawhide and other materials. The saddle tree determines the saddle’s basic shape and strength, helps distribute the rider’s weight across the horse’s back, keeps pressure off the spine, and provides the foundation to which the other parts of the saddle are attached."
+    },
+    {
+      "id": "question-20",
+      "question": "What is a cheprak?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A leather strap securing a medieval saddle"
+        },
+        {
+          "id": "answer-02",
+          "text": "A thick pad placed beneath a horse’s saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A protective plate on the horse’s chest"
+        },
+        {
+          "id": "answer-04",
+          "text": "A protective plate on the horse’s forehead"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A cheprak is a broad, dense saddle cloth or pad traditionally made from woolen cloth, felt, or leather and placed on the horse’s back beneath the saddle. Classical chepraks could be large and rectangular, extending beyond the saddle over the horse’s back and sides. They helped absorb sweat, cushion pressure, and protect the skin from rubbing. Military and ceremonial versions were often brightly colored and richly decorated."
+    },
+    {
+      "id": "question-21",
+      "question": "What are toroka?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Part of medieval harness"
+        },
+        {
+          "id": "answer-02",
+          "text": "Metal fasteners on a cavalry bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Straps near the saddle bow used to secure baggage"
+        },
+        {
+          "id": "answer-04",
+          "text": "Straps used to fasten a medieval saddle"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Toroka are strong leather straps attached near the front or rear of a traditional saddle, especially Cossack, hunting, or cavalry saddles. The term can also refer to the part of the saddle where baggage is secured. Riders used these straps to fasten rolled coats, sleeping gear, saddlebags, game, and other equipment for transport."
+    },
+    {
+      "id": "question-22",
+      "question": "What was the tarpan?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "An old warm horse blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "An old type of cavalry bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "An extinct wild horse related to domestic horses"
+        },
+        {
+          "id": "answer-04",
+          "text": "An old type of wooden cavalry saddle"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The tarpan was an extinct wild horse that lived in the forest-steppe and steppe regions of Europe and western Siberia. It was generally described as small and sturdy, with a grullo or mouse-gray coat, a dark dorsal stripe, and a short upright mane. Tarpans were noted for their hardiness and wary temperament. Habitat loss, persecution, and hunting contributed to their disappearance by the beginning of the 20th century."
+    },
+    {
+      "id": "question-23",
+      "question": "What was the Bityug?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "An ancient harness"
+        },
+        {
+          "id": "answer-02",
+          "text": "A carriage drawn by two horses"
+        },
+        {
+          "id": "answer-03",
+          "text": "A large historical Russian draft-horse breed"
+        },
+        {
+          "id": "answer-04",
+          "text": "The same thing as a batog, or whip"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Bityug was a historical Russian breed of large, powerful draft horse developed in the 18th century in the Voronezh region near the Bityug River. It was created from local mares crossed with imported European stallions and later influenced by other Russian stock. Bityugs were valued for strength, calm temperaments, substantial build, feathering on the legs, and endurance in heavy work. The breed is considered extinct in its pure form, while the word bityug survived in Russian as a figurative term for a large, strong person or horse."
+    },
+    {
+      "id": "question-24",
+      "question": "What is a hunter?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A German type of large packhorse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A Spanish type of large harness horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "A British type of large hunting horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "A French type of large warhorse"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A hunter is a type of strong, athletic riding horse traditionally developed in Britain and Ireland for hunting across country, especially foxhunting. Hunters are not a single breed; historically they were often produced by crossing Thoroughbred stallions with sturdy local or draft-type mares. The goal was to combine bone, soundness, stamina, and an even temperament with speed, refinement, and jumping ability. Modern hunter-type horses are also widely used in equestrian sport."
+    },
+    {
+      "id": "question-25",
+      "question": "What is a “crack” horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A medieval harness horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "An outstanding racehorse or trotter"
+        },
+        {
+          "id": "answer-03",
+          "text": "A special compound for polishing hooves"
+        },
+        {
+          "id": "answer-04",
+          "text": "A long whip used for circus training"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In older racing terminology, a “crack” was an outstanding first-class racehorse or trotter that clearly surpassed most of its contemporaries. Such a horse regularly won important races, showed exceptional speed, and became a celebrated performer. The term was used by breeders, trainers, drivers, jockeys, and racing enthusiasts for a recognized leader of its generation."
+    },
+    {
+      "id": "question-26",
+      "question": "What is a heavy dray horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A young horse undergoing its first training under saddle"
+        },
+        {
+          "id": "answer-02",
+          "text": "A wild horse living in mountainous regions"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strong horse used to haul heavy loads"
+        },
+        {
+          "id": "answer-04",
+          "text": "A pedigreed horse used for racing"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A heavy dray or draft horse is a large, massive, powerful horse used for strenuous pulling work, especially the transport of heavy loads in carts or wagons. Compared with light riding horses, such animals have substantial bone, strong musculature, broad chests, and calm, patient temperaments. Before motor vehicles became common, heavy horses provided much of the pulling power in towns and rural areas, hauling timber, stone, barrels, and many other heavy goods."
+    },
+    {
+      "id": "question-27",
+      "question": "What is a nespryaga?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A horse that is good for nothing"
+        },
+        {
+          "id": "answer-02",
+          "text": "A horse not trained to harness"
+        },
+        {
+          "id": "answer-03",
+          "text": "A riding horse completely unsuitable for harness"
+        },
+        {
+          "id": "answer-04",
+          "text": "A horse not accustomed to working in paired harness"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Nespryaga, or nespryazh, is an old Russian horsekeeping term recorded in Vladimir Dal’s dictionary for a horse accustomed or suited to working in harness only by itself rather than in a pair or team. Such a horse might be unable to settle beside another horse or might simply have no suitable match in height, strength, color, or temperament for paired work."
+    },
+    {
+      "id": "question-28",
+      "question": "What is a steeplechaser?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "An elite riding horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "An elite harness horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "A horse used for obstacle racing"
+        },
+        {
+          "id": "answer-04",
+          "text": "A horse used for hunting"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A steeplechaser is a racehorse trained specifically for steeplechase racing over fixed obstacles. Unlike a flat racehorse, it must combine speed with jumping ability, stamina, and coordination. Thoroughbreds and Thoroughbred crosses are commonly used for this demanding form of racing, in which horses may cover long distances while negotiating solid fences and other obstacles."
+    },
+    {
+      "id": "question-29",
+      "question": "What did the old Russian word “odr” mean when applied to a horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A young, spirited horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "An old, exhausted working horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "A purebred breeding stallion"
+        },
+        {
+          "id": "answer-04",
+          "text": "A well-schooled riding horse"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In older Russian usage, odr could be a contemptuous term for an old, exhausted, thin, and feeble workhorse—a worn-out nag. The word originally referred to a bed, bier, or deathbed, and later acquired a figurative sense for an animal so worn down by age, illness, or labor that it seemed barely able to stand."
+    },
+    {
+      "id": "question-30",
+      "question": "What is the shaft horse in a Russian troika?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The ataman’s personal horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A specially selected breeding stallion"
+        },
+        {
+          "id": "answer-03",
+          "text": "The dominant stallion in a wild herd"
+        },
+        {
+          "id": "answer-04",
+          "text": "The central horse in a three-horse harness"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The shaft horse is the central and strongest horse in a multi-horse Russian harness such as the traditional troika. It is harnessed directly between the shafts beneath the characteristic arch. While the side horses help provide speed, the central horse traditionally trots and bears much of the load, while also helping control and brake the carriage. Large, steady, enduring horses such as Orlov Trotters were often favored for this role."
+    },
+    {
+      "id": "question-31",
+      "question": "What is an outrunner in a Russian troika?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A horse led by the reins from another rider’s saddle"
+        },
+        {
+          "id": "answer-02",
+          "text": "A spare horse taken on a military campaign"
+        },
+        {
+          "id": "answer-03",
+          "text": "A horse harnessed beside the central shaft horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "A horse tied behind a carriage"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "An outrunner is one of the side horses in a multi-horse Russian harness, working beside the central shaft horse. Unlike the shaft horse between the shafts, the outrunners are attached at the sides by flexible traces. In the classic troika they often canter while the central horse trots. Their main role is to help pull the carriage, assist on turns, and increase speed."
+    },
+    {
+      "id": "question-32",
+      "question": "Which horses were called “Heavenly Horses” in ancient China?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The best horses from southern China"
+        },
+        {
+          "id": "answer-02",
+          "text": "Purebred horses from northern China"
+        },
+        {
+          "id": "answer-03",
+          "text": "Elite horses from the Manchurian valley"
+        },
+        {
+          "id": "answer-04",
+          "text": "Central Asian horses from the Ferghana Valley"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "During the Han dynasty, the term “Heavenly Horses,” or Tianma, became associated with the prized horses of the Ferghana Valley and the state known to the Chinese as Dayuan in Central Asia. These horses were celebrated for speed, endurance, and prestige, and stories described them as “sweating blood,” a phenomenon often linked in later explanations to parasites or skin lesions. Emperor Wu of Han valued them so highly that Chinese campaigns were launched against Dayuan in an effort to obtain superior breeding stock for the imperial cavalry."
+    },
+    {
+      "id": "question-33",
+      "question": "What was the name of the horse once believed to be able to do arithmetic?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clever Jacques"
+        },
+        {
+          "id": "answer-02",
+          "text": "Clever Hans"
+        },
+        {
+          "id": "answer-03",
+          "text": "Clever Oliver"
+        },
+        {
+          "id": "answer-04",
+          "text": "Clever John"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Clever Hans was a famous horse in Germany in the early 20th century whose owner, Wilhelm von Osten, claimed that he could perform arithmetic, read, tell the time, and understand German by tapping answers with his hoof. Scientific investigation showed that Hans was not actually calculating. Instead, he was extraordinarily sensitive to subtle, unconscious changes in the posture, expression, and behavior of the people questioning him. The phenomenon became known in psychology as the “Clever Hans effect.”"
+    },
+    {
+      "id": "question-34",
+      "question": "What was the name of Peter the Great’s favorite horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Louise"
+        },
+        {
+          "id": "answer-02",
+          "text": "Luisitana"
+        },
+        {
+          "id": "answer-03",
+          "text": "Lizonka"
+        },
+        {
+          "id": "answer-04",
+          "text": "Lizetta"
+        },
+        {
+          "id": "answer-05",
+          "text": "Libretta"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Lizetta was a famous favorite horse associated with Peter the Great and with the Great Northern War. Later stories describe her as exceptionally loyal to the tsar and credit her with carrying him through dangerous moments in battle. Peter valued the horse highly, and after her death her preserved remains became part of the historical collections connected with the emperor. Lizetta can still be encountered in museum exhibits and historical depictions of Peter I."
+    },
+    {
+      "id": "question-35",
+      "question": "What was the name of the horse said to have become a Roman senator?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Caligula"
+        },
+        {
+          "id": "answer-02",
+          "text": "Hippolytus"
+        },
+        {
+          "id": "answer-03",
+          "text": "Incitatus"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bucephalus"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Incitatus was the favorite horse of the Roman emperor Caligula. Ancient writers describe the animal as living in extraordinary luxury, with a marble stable, an ivory manger, rich blankets, and other lavish furnishings. According to the famous story, Caligula planned to make Incitatus consul, and later tradition often says he made the horse a senator. Historians generally interpret the episode as a political insult or satire aimed at Rome’s elite rather than simply proof of madness."
+    },
+    {
+      "id": "question-36",
+      "question": "What was a Roman chariot drawn by four horses called?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Quadriga"
+        },
+        {
+          "id": "answer-02",
+          "text": "Quadrille"
+        },
+        {
+          "id": "answer-03",
+          "text": "Quadriceps"
+        },
+        {
+          "id": "answer-04",
+          "text": "Quad bike"
+        },
+        {
+          "id": "answer-05",
+          "text": "Quadrulka"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A quadriga was an ancient two-wheeled chariot drawn by four horses abreast. In ancient Rome it became a powerful symbol of triumph, victory, and glory. Victorious commanders and emperors could appear in triumphal processions in quadrigae, while images of four-horse chariots appeared on coins, monuments, and triumphal arches. Quadrigae were also used in the spectacular and dangerous chariot races held in venues such as the Circus Maximus."
+    },
+    {
+      "id": "question-37",
+      "question": "What is one of the earliest known ancestors of modern horses traditionally called?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Indricotherium"
+        },
+        {
+          "id": "answer-02",
+          "text": "Hyracotherium"
+        },
+        {
+          "id": "answer-03",
+          "text": "Mesohippus"
+        },
+        {
+          "id": "answer-04",
+          "text": "Pliohippus"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Eohippus, a name historically applied to early horse relatives such as Hyracotherium, lived roughly 50–55 million years ago during the Eocene. These were very small forest-dwelling mammals, about the size of a small dog or fox. Unlike modern one-toed horses, early equids had several functional toes: typically four on the forefeet and three on the hind feet. They lived in woodland environments and browsed on soft vegetation."
+    },
+    {
+      "id": "question-38",
+      "question": "What was the name of Alexander the Great’s favorite horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Incitatus"
+        },
+        {
+          "id": "answer-02",
+          "text": "Marengo"
+        },
+        {
+          "id": "answer-03",
+          "text": "Hippolytus"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bucephalus"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Bucephalus was the legendary horse of Alexander the Great and one of the most famous horses in history. According to ancient tradition, the young Alexander succeeded in taming the difficult stallion after realizing that it was frightened by its own shadow. The name Bucephalus is commonly interpreted as “ox-head,” perhaps referring to the horse’s broad forehead or a marking. Bucephalus accompanied Alexander through many campaigns and died after the Battle of the Hydaspes. Alexander founded a city, Bucephala, in his honor."
+    },
+    {
+      "id": "question-39",
+      "question": "What was the name of Napoleon Bonaparte’s famous horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Marengo"
+        },
+        {
+          "id": "answer-02",
+          "text": "Ivanhoe"
+        },
+        {
+          "id": "answer-03",
+          "text": "Librengo"
+        },
+        {
+          "id": "answer-04",
+          "text": "Riviengo"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Marengo was a famous gray Arabian associated with Napoleon Bonaparte and named after the French victory at the Battle of Marengo in 1800. Tradition portrays him as a hardy and courageous campaign horse that carried Napoleon on several occasions. After the Battle of Waterloo in 1815, Marengo was captured by the British and taken to Britain. His skeleton is preserved in the collection of the National Army Museum in London."
+    },
+    {
+      "id": "question-40",
+      "question": "What was the name of Don Quixote’s horse in Miguel de Cervantes’s famous novel?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Artagnan"
+        },
+        {
+          "id": "answer-02",
+          "text": "Rocinante"
+        },
+        {
+          "id": "answer-03",
+          "text": "Babieca"
+        },
+        {
+          "id": "answer-04",
+          "text": "Jolly Jumper"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Rocinante is the famous horse of Don Quixote de la Mancha. The name has become associated with a thin, worn-out, elderly nag, yet Don Quixote chose it with great pride after days of deliberation because he believed a noble knight required a suitably grand name for his mount. Despite his poor condition and age, Rocinante faithfully accompanies his eccentric master through his adventures and is one of the novel’s most recognizable characters."
+    }
+  ],
+  "source_content_hash": "07e82c47e9cecc59d8661538a2f9811878f377c635c7c0e8803a3316f94d1713",
+  "english_quiz": "horse-hisory-en",
+  "previous_quiz": "sport-en",
+  "content_version": "c92e00c0be49270677361ba1769ccd258c834fff9003867b84534b0c29ac9a40"
+}

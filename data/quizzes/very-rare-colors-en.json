@@ -1,0 +1,1065 @@
+{
+  "difficulty": "medium",
+  "cover": "img/covers/very-rare-colors.webp",
+  "publication_date": "2026-07-21T12:00:00+00:00",
+  "type": "english",
+  "slug": "very-rare-colors-en",
+  "source_quiz": "very-rare-colors",
+  "tags": [
+    "english",
+    "horses",
+    "images"
+  ],
+  "published": true,
+  "title": "Very Rare Coat Colors",
+  "short_description": "This quiz uses the same photo-and-answer format, but it is a little harder than the previous one. If you have not taken Rare Coat Colors yet, we recommend starting there before moving on to this quiz.",
+  "intro": "This quiz uses the same photo-and-answer format, but it is a little harder than the previous one. If you have not taken Rare Coat Colors yet, we recommend starting there before moving on to this quiz.",
+  "questionImagesAlt": "Photo of a horse for identifying its coat color",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/01.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dunalino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Silver bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Palomino"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "This horse shows all the features of bay dun: a black dorsal stripe, dark ear rims, and a darker muzzle. At the same time, the mane is strongly lightened, which indicates silver, although it still contains black hairs that a palomino cannot have.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-02",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/02.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello horses have pink skin and blue eyes, while their coat can range from cream to nearly snow-white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-03",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/03.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut with a lightened mane and tail"
+        },
+        {
+          "id": "answer-02",
+          "text": "Red roan"
+        },
+        {
+          "id": "answer-03",
+          "text": "Chestnut rabicano"
+        },
+        {
+          "id": "answer-04",
+          "text": "Light chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Rabicano is a coat pattern in which white hairs appear at the tailhead, over the croup, in the groin, and on the belly. The roaning may extend upward along the sides and form characteristic white barring over the ribs. Rabicano is often confused with true roan, but it is not a type of roan.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-04",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/04.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dappled dark flaxen chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dappled dark chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dappled dark palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Dappled silver black"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A dappled silver black horse has a lightened mane and tail and a dark coat with distinctive pale dapples whose shape differs from dappling seen in other coat colors.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-05",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/05.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello horses have pink skin and blue eyes, while their coat can range from cream to nearly snow-white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-06",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/06.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Dunskin"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Buckskin can be distinguished by its yellow or golden coat and lighter hairs in the mane and tail. The head may be slightly lighter than the body, whereas a bay's head is the same shade or a little darker. There is no crisp black dorsal stripe; if a stripe-like area is present, it is broad and diffuse, indicating countershading.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-07",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/07.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "White horses have pink skin like cremellos, but the two can be distinguished by eye color: white horses have dark brown or hazel eyes.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-08",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/08.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Rose gray"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Flea-bitten gray"
+        },
+        {
+          "id": "answer-04",
+          "text": "Light gray"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Flea-bitten gray is a shade of gray in which numerous small dark flecks are scattered over the body. It usually develops in older gray horses as a late stage of graying and is especially common in Arabians.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-09",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/09.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dark buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Seal brown"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Seal brown is very rare, and the Russian term used here is now considered outdated. It differs from dark bay in having vivid reddish tan points on an otherwise black coat around the eyes and nostrils, under the elbows, and in the groin. Dark bays have duller tan areas that may also occur behind the ears, along the lower belly, and on the sides, and they may have considerable brown hair on the body; seal brown horses do not.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-10",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/10.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Silver black"
+        },
+        {
+          "id": "answer-02",
+          "text": "Silver dark bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Silver dark buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Silver seal brown"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Seal brown is very rare, and the Russian term used here is now considered outdated. It differs from dark bay in having vivid reddish tan points on an otherwise black coat around the eyes and nostrils, under the elbows, and in the groin. Dark bays have duller tan areas and may have considerable brown hair on the body. Silver seal brown differs from seal brown in its strongly lightened mane and tail.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-11",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/11.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Countershaded chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Wild bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bay"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Wild bay is extremely rare and is considered one of the oldest coat-color variants. It has more red hair than ordinary bay: black on the legs may extend only to the fetlock, though it can reach slightly higher, and light hairs may occur in the mane and tail.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-12",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/12.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dark palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Silver bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Silver black"
+        },
+        {
+          "id": "answer-04",
+          "text": "Silver bay"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A silver black horse has a strongly lightened mane and tail and a black coat that may also be somewhat diluted, with characteristic marbling on the legs. Foals may be born with a sandy yellow coat resembling palomino, but they always shed into their adult color.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-13",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/13.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello horses have pink skin and blue eyes, while their coat can range from cream to nearly snow-white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-14",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/14.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Countershaded bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Countershaded buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Countershaded chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "Countershaded bay dun"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "This is countershading. Buckskin can be distinguished from the other options by its yellow coat, the absence of a crisp dorsal stripe, and lighter hairs mixed into the black mane and tail. The head may be slightly lighter than the body, while a bay's head is usually the same shade or a little darker.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-15",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/15.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dunskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Pseudo-dun buckskin"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Buckskin can be distinguished by its yellow coat, the absence of a true dorsal stripe, and lighter hairs mixed into the black mane and tail. The head may be slightly lighter than the body, while a bay's head is usually the same shade or a little darker.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-16",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/16.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Countershaded bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Pangaré bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay rabicano"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bay roan"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Pangaré is a coat modifier that lightens the hair around the eyes and nostrils, under the elbows, in the groin, on the insides of the legs, and along the lower belly. It can occur on any base color, although it is visible mainly on darker coats.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-17",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/17.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black dun (grullo)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Blue roan"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Black dun is easily recognized by its cool gray or ash-gray body combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, its pale appearance comes from the color of each hair rather than an admixture of white hairs, so the body looks uniform. It differs from smoky black in having primitive markings, and from dark buckskin in having a dorsal stripe and no yellow or sandy cast.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-18",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/18.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black dun (grullo)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Buckskin"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The main difference between bay dun and buckskin is the black dorsal stripe; the muzzle is also often darker than the body, whereas a buckskin's is usually lighter. Bay dun differs from red dun in having a black mane and tail, and from black dun in its sandy yellow coat.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-19",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/19.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black dun (grullo)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Buckskin"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A black dun horse has a uniform slate-gray or ash-gray body resembling the coat of a wild mouse. The head and lower legs are noticeably darker, and a distinct dorsal stripe always runs along the back.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-20",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/20.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dunskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Pseudo-dun buckskin"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Akhal-Tekes do not carry the Dun allele, so they cannot be true bay duns. A dorsal stripe on an Akhal-Teke therefore indicates a dun mimic or pseudo-dun appearance.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-21",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/21.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dappled dark flaxen chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dappled dark palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dappled liver chestnut with a lightened mane and tail"
+        },
+        {
+          "id": "answer-04",
+          "text": "Dappled silver black"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Dappled silver black is easy to recognize by the characteristic marbling on the legs and the dapples on the body. Dark flaxen chestnut, dark palomino, and dark chestnut with a lightened mane and tail lack leg marbling, while any dapples are absent, differently shaped, or much less pronounced.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-22",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/22.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Red dun"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The main difference between bay dun and buckskin is the black dorsal stripe; the muzzle is also often darker than the body, whereas a buckskin's is usually lighter. Bay dun differs from red dun in having a black mane and tail, and from bay in its sandy yellow coat.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-23",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/23.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Flaxen chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Buckskin can be distinguished by its yellow coat and lighter hairs mixed into the mane and tail. The head may be slightly lighter than the body, whereas a bay's is the same shade or slightly darker. There is no crisp black dorsal stripe; if a stripe-like area is present, it is broad and diffuse, indicating countershading.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-24",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/24.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dappled countershaded bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dappled countershaded buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dapple gray"
+        },
+        {
+          "id": "answer-04",
+          "text": "Dappled bay dun"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Buckskin can be distinguished by its yellow coat and lighter hairs mixed into the mane and tail. The head may be slightly lighter than the body, whereas a bay's is the same shade or slightly darker. There is no crisp black dorsal stripe; a broad, diffuse stripe-like area is countershading.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-25",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/25.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black dun (grullo)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Blue roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Smoky black"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Black dun is easily recognized by its cool gray or ash-gray body combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, its pale appearance comes from the color of each hair rather than an admixture of white hairs, so the body looks uniform. It differs from smoky black in having primitive markings and from bay dun in lacking a yellow or sandy cast.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-26",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/26.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dunalino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Silver bay dun"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The reddish dorsal stripe indicates Dun on a chestnut base, while the lightened mane and tail indicate one Cream allele on that same chestnut base.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-27",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/27.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello horses have blue eyes and pink skin, while their coat can range from cream to nearly snow-white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-28",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/28.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Liver chestnut with a lightened mane and tail"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Silver black"
+        },
+        {
+          "id": "answer-04",
+          "text": "Sun-bleached black"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "This reddish mane and tail can occur only on a liver chestnut with lightened long hair. A black horse's mane and tail would not bleach this extensively, especially in winter. Silver black has cooler-toned long hair that may contain black strands, which chestnut horses lack. A dark palomino's mane and tail may be darker than white or yellow, but not red.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-29",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/29.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Countershaded chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bay dun"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Red dun closely resembles chestnut, but it is easily distinguished by its dark reddish dorsal stripe, darker mane and tail, and darker legs that may show faint barring.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-30",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/30.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut with a lightened mane and tail"
+        },
+        {
+          "id": "answer-02",
+          "text": "Flaxen chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dark palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Silver bay"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Silver bay looks like bay with a lightened mane and tail and characteristic marbling on the black lower legs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-31",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/31.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black dun (grullo)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mealy bay"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Red dun differs from the other dun colors in the warm reddish-brown shade of its dorsal stripe and other darkest areas: the mane and tail, leg barring, and lower legs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-32",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/32.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dark flaxen chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Liver chestnut with a lightened mane and tail"
+        },
+        {
+          "id": "answer-04",
+          "text": "Silver black"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "On a black base, silver strongly lightens the mane and tail and produces characteristic marbling on the legs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-33",
+      "question": "What coat-color phenomenon is this?",
+      "image": "img/quiz/very-rare-colors-en/33.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Flea-bitten spots"
+        },
+        {
+          "id": "answer-02",
+          "text": "Blood marks"
+        },
+        {
+          "id": "answer-03",
+          "text": "Countershading"
+        },
+        {
+          "id": "answer-04",
+          "text": "Rabicano"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Blood marks are reddish patches on the coats of gray horses, most often on the shoulders, sides, and croup. They are considered a distinct form of pigmentation associated with flea-bitten gray and are unrelated to injury or actual blood.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-34",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/34.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black dun (grullo)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mealy bay"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Red dun differs from the other dun colors in the warm reddish-brown shade of its dorsal stripe and other darkest areas: the mane and tail, leg barring, and lower legs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-35",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/35.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black dun (grullo)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Blue roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Smoky black"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Black dun is easily recognized by its cool gray or ash-gray body combined with primitive markings: a dark dorsal stripe, leg barring, and dark ear rims. Unlike blue roan, its pale appearance comes from the color of each hair rather than an admixture of white hairs, so the body looks uniform. It differs from smoky black in having primitive markings and from bay dun in lacking a yellow or sandy cast.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-36",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/36.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black dun (grullo)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Blue roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Smoky black"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Blue roan differs from dun colors in lacking a dorsal stripe and other primitive markings, and from smoky black in having an obvious admixture of white hairs across the body. Smoky black is more evenly colored and has a softer, sometimes brownish shade of black.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-37",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/37.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dark flaxen chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Silver black"
+        },
+        {
+          "id": "answer-04",
+          "text": "Silver seal brown"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Seal brown is very rare, and the Russian term used here is now considered outdated. It differs from dark bay in having vivid reddish tan points on an otherwise black coat around the eyes and nostrils, under the elbows, and in the groin. Dark bays have duller tan areas and may have considerable brown hair on the body. Silver seal brown differs from seal brown in its strongly lightened mane and tail.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-38",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/38.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Liver chestnut with a lightened mane and tail"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark flaxen chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Silver bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Dark palomino"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The lower legs are not black and show no marbling, so silver bay can be ruled out. The mane and tail contain black hairs, which are impossible in flaxen chestnut and chestnut with a lightened mane and tail. By elimination, this is dark palomino—and yes, it is one of the hardest questions in the quiz.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-39",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/39.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay roan"
+        },
+        {
+          "id": "answer-02",
+          "text": "Rose gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Silver bay roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Red roan with a lightened mane and tail"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The black lower legs with marbling and the lightened mane and tail indicate silver bay, while the characteristically lightened body indicates roan.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-40",
+      "question": "What coat color is this?",
+      "image": "img/quiz/very-rare-colors-en/40.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello horses have pink skin and blue eyes, while their coat can range from cream to nearly snow-white.",
+      "image_author": "Неизвестен"
+    }
+  ],
+  "source_content_hash": "3c823b726cbcc305accef47a7eeef6ba5c80aaac63fa36b169d0767da14dd508",
+  "english_quiz": "very-rare-colors-en",
+  "previous_quiz": "rare-horse-colors-en",
+  "next_quiz": "pinto-colors-en",
+  "content_version": "2dd4db901339deea913573630fa148de2b6f59f7fb1f13a676d5460e6e0517da"
+}

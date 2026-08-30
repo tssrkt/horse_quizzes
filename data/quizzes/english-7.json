@@ -1,0 +1,491 @@
+{
+  "type": "vocabulary",
+  "title": "Лошадиные масти",
+  "slug": "english-7",
+  "published": true,
+  "publication_date": "2026-08-06T16:22:00+00:00",
+  "difficulty": "medium",
+  "short_description": "Эта викторина поможет выучить названия мастей, мастевых явлений и отметин лошадей. Проверяйте знания в обоих направлениях — с английского на русский и наоборот, а также через ввод с клавиатуры.",
+  "intro": "Эта викторина поможет выучить названия мастей, мастевых явлений и отметин лошадей. Проверяйте знания в обоих направлениях — с английского на русский и наоборот, а также через ввод с клавиатуры. ",
+  "cover": "img/covers/English_07.webp",
+  "tags": [
+    "dictionary",
+    "horses"
+  ],
+  "previous_quiz": "english-6",
+  "parts": [
+    {
+      "id": "2c9c0539-4321-4df1-9889-a07977c0dea5",
+      "title": "Масти",
+      "word_count": 43,
+      "vocabulary": [
+        {
+          "english": "Foundation",
+          "russian": "основная (основа)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Simple",
+          "russian": "простая (масть)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Composite",
+          "russian": "составная (масть)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Mixed",
+          "russian": "смешанная (масть)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Derived",
+          "russian": "производная (масть)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Shade",
+          "russian": "оттенок",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Bay",
+          "russian": "гнедая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Black",
+          "russian": "вороная",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Chestnut",
+          "russian": "рыжая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Liver chestnut",
+          "russian": "бурая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Flaxen chestnut (Flaxen)",
+          "russian": "рыжая с ОЗВ",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Gray (Grey)",
+          "russian": "серая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "White",
+          "russian": "белая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Bay dun",
+          "russian": "саврасая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Red dun",
+          "russian": "каурая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Grullo (Grulla, Blue dun)",
+          "russian": "мышастая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Roan",
+          "russian": "чалая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Red roan",
+          "russian": "рыже-чалая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Bay roan",
+          "russian": "гнедо-чалая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Blue roan",
+          "russian": "вороно-чалая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Cremello (Perlino, Smoky cream)",
+          "russian": "изабелловая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Palomino",
+          "russian": "соловая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Buckskin",
+          "russian": "буланая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Smoky black",
+          "russian": "пепельно-вороная",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Silver black",
+          "russian": "серебристо-вороная",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Silver bay",
+          "russian": "серебристо-гнедая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Pinto",
+          "russian": "пегая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Gold champagne",
+          "russian": "золотая шампанская",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Amber champagne",
+          "russian": "янтарная шампанская",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Classic champagne",
+          "russian": "классическая шампанская",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Appaloosa pattern (Leopard complex)",
+          "russian": "чубарая",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Leopard",
+          "russian": "леопардовый (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Few-spot Leopard",
+          "russian": "леопардовый малопятнистый (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Blanket",
+          "russian": "чепрачный (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Snowcap Blanket",
+          "russian": "белочепрачный (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Mottled",
+          "russian": "крапчатый (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Speckled",
+          "russian": "дроздовый (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Frost",
+          "russian": "в инее (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Snowflake",
+          "russian": "снежные хлопья (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Varnish Roan",
+          "russian": "глянцевая чалость (тип чубарости)",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Red Pearl",
+          "russian": "рыже-жемчужная",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Black Pearl",
+          "russian": "вороно-жемчужная",
+          "category": "Coat colors"
+        },
+        {
+          "english": "Bay Pearl",
+          "russian": "гнедо-жемчужная",
+          "category": "Coat colors"
+        }
+      ]
+    },
+    {
+      "id": "c2b8ed43-e2b7-4b5d-aedc-a75d425aede4",
+      "title": "Мастевые явления",
+      "word_count": 25,
+      "vocabulary": [
+        {
+          "english": "False dun",
+          "russian": "псевдосаврасость",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Pangare (mealy)",
+          "russian": "подласость",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Giraffe markings",
+          "russian": "жирафовы отметины",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Bronzing",
+          "russian": "бронзинг",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Gray hairs",
+          "russian": "седина",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Rabicano",
+          "russian": "рабикано",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Brindle",
+          "russian": "тигровость",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Catch A Bird",
+          "russian": "феномен Кэтч Э Бёрд",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Dapples",
+          "russian": "яблоки",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Badger face",
+          "russian": "барсучья отметина",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Mohammedan spots",
+          "russian": "Магомедовы пятна",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Peacock spots",
+          "russian": "павлиньи пятна",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Birdcatcher spots",
+          "russian": "отметины Бёрдкэтчера",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Blood markings",
+          "russian": "кровавые отметины",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Tetrarch spots",
+          "russian": "Тетрарковы отметины",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Ink spots",
+          "russian": "чернильные пятна",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Massaud spots",
+          "russian": "пятна Массауда",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Corn spots",
+          "russian": "«кукурузные» пятна",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Chimerism",
+          "russian": "химеризм",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Somatic mutation",
+          "russian": "соматические мутации",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Vitiligo",
+          "russian": "витилиго",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Leukotrichia",
+          "russian": "лейкотрихия",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Persistent coat gloss",
+          "russian": "стойкий блеск покровного волоса",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Curly coat",
+          "russian": "кучерявость волоса",
+          "category": "Coat phenomena"
+        },
+        {
+          "english": "Mosaicism",
+          "russian": "мозаицизм",
+          "category": "Coat phenomena"
+        }
+      ]
+    },
+    {
+      "id": "832dc9d3-c245-4d3b-a1b4-092bedc8c64f",
+      "title": "Отметины",
+      "word_count": 22,
+      "vocabulary": [
+        {
+          "english": "White markings",
+          "russian": "белые отметины",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Small Star",
+          "russian": "маленькая звездочка",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Large Star",
+          "russian": "большая звездочка",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Snip",
+          "russian": "носовое пятно",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Star and Snip",
+          "russian": "звездочка с носовым пятном",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Stripe",
+          "russian": "проточина",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Blaze",
+          "russian": "широкая проточина",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Interrupted Blaze",
+          "russian": "прерывистая проточина",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Bonnet",
+          "russian": "шапочка",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Thick Bonnet",
+          "russian": "широкая шапочка",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Thin Bonnet",
+          "russian": "узкая шапочка",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Bald Face",
+          "russian": "лысина",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Sabino cat-tracks",
+          "russian": "следы кошачьих лап (сабино)",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Badger Face",
+          "russian": "барсучья отметина",
+          "category": "Facial markings"
+        },
+        {
+          "english": "Reverse Badger Face",
+          "russian": "обратная барсучья отметина",
+          "category": "Facial markings"
+        },
+        {
+          "english": "White coronet",
+          "russian": "венчик",
+          "category": "Leg markings"
+        },
+        {
+          "english": "Small pastern",
+          "russian": "малый путовый беляк",
+          "category": "Leg markings"
+        },
+        {
+          "english": "Pastern",
+          "russian": "путовый беляк",
+          "category": "Leg markings"
+        },
+        {
+          "english": "Sock",
+          "russian": "носок",
+          "category": "Leg markings"
+        },
+        {
+          "english": "Stocking",
+          "russian": "чулок",
+          "category": "Leg markings"
+        },
+        {
+          "english": "Partial pastern marking",
+          "russian": "неполный путовый беляк",
+          "category": "Leg markings"
+        },
+        {
+          "english": "Irregular sock",
+          "russian": "неправильный носок",
+          "category": "Leg markings"
+        }
+      ]
+    }
+  ],
+  "word_count": 90,
+  "content_version": "881fbee9c8a458069b5f1ad78e714d375d3746ab79af2886650eb69d0b440c96"
+}

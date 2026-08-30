@@ -1,0 +1,986 @@
+{
+  "difficulty": "medium",
+  "cover": "img/covers/anatomy.webp",
+  "publication_date": "2026-07-24T15:13:00+00:00",
+  "type": "english",
+  "slug": "anatomy-en",
+  "source_quiz": "anatomy",
+  "tags": [
+    "english",
+    "words",
+    "anatomy",
+    "health"
+  ],
+  "published": true,
+  "title": "Horse Anatomy",
+  "short_description": "This quiz covers the parts of a horse’s body, some conformation features, and a little about equine health. Let’s see how well you know horse anatomy.",
+  "intro": "This quiz covers the parts of a horse’s body, some conformation features, and a little about equine health. Let’s see how well you know horse anatomy.",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What are the points of the hip?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Curves of the lower jaw"
+        },
+        {
+          "id": "answer-02",
+          "text": "Muscles of the horse’s neck"
+        },
+        {
+          "id": "answer-03",
+          "text": "Prominences of the pelvic bones"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cartilages above the hooves"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The points of the hip are the large, symmetrical bony prominences on the horse’s croup formed by the tubera coxae of the pelvis. They are clearly visible on either side of the upper hindquarters and play an important role in locomotion because powerful muscles of the hind limbs and croup attach in this region. Their symmetry, width, and shape are also used when assessing conformation, musculoskeletal soundness, and overall athletic ability."
+    },
+    {
+      "id": "question-02",
+      "question": "What is the diastema?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A prominence of a leg joint"
+        },
+        {
+          "id": "answer-02",
+          "text": "A hollow above the eyes"
+        },
+        {
+          "id": "answer-03",
+          "text": "The opening of the nostrils"
+        },
+        {
+          "id": "answer-04",
+          "text": "The toothless space of the jaw"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The diastema, also called the interdental space or the bars of the mouth, is the natural gap in the horse’s tooth row between the incisors and the cheek teeth. In mares this space usually contains no teeth, although small canine teeth may occasionally occur; stallions commonly develop canines there. The mouthpiece of a snaffle or curb bit lies in this toothless space, allowing the rider to use a bit without placing it directly against the chewing teeth."
+    },
+    {
+      "id": "question-03",
+      "question": "What is a wolf tooth?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A movable cartilage in the ear"
+        },
+        {
+          "id": "answer-02",
+          "text": "A spiral whorl of hair"
+        },
+        {
+          "id": "answer-03",
+          "text": "A vestigial tooth in the mouth"
+        },
+        {
+          "id": "answer-04",
+          "text": "A soft growth on the hoof"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A wolf tooth is a small, nonfunctional vestigial premolar that may erupt between about six months and three years of age, immediately in front of the first large cheek tooth. It is found more often in the upper jaw than the lower and has no deciduous predecessor. Wolf teeth do not contribute to chewing, but they can cause pain or discomfort if a bit presses against them, which is why equine veterinarians or dentists may recommend removing them before a young horse begins serious ridden work."
+    },
+    {
+      "id": "question-04",
+      "question": "What is feathering?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Hair whorls on the forehead"
+        },
+        {
+          "id": "answer-02",
+          "text": "Long hair on the lower legs"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light spots on the croup"
+        },
+        {
+          "id": "answer-04",
+          "text": "Growths on the inner sides of the legs"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Feathering is the long, dense protective hair growing on the back of the lower limbs around the fetlocks and hooves. It is especially pronounced in many draft breeds, Friesians, and Gypsy Cobs. This hair helps protect the delicate skin around the pastern and coronary band from grass, stones, cold, and moisture, while directing rainwater down toward the hoof. Heavy feathering is also a characteristic breed feature in several types of horse."
+    },
+    {
+      "id": "question-05",
+      "question": "What are the angles of the jaw?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The horse’s cheeks"
+        },
+        {
+          "id": "answer-02",
+          "text": "Cartilaginous prominences around the eyes"
+        },
+        {
+          "id": "answer-03",
+          "text": "The soft inner edges of the nostrils"
+        },
+        {
+          "id": "answer-04",
+          "text": "The rear angles of the lower jaw"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The angles of the jaw are the broad, rounded rear portions of the horse’s mandible, located on either side of the head below the ears and adjoining the throat area. Powerful chewing muscles attach here. The space between the two sides of the lower jaw is important in conformation because it affects how freely the horse can flex at the poll. If this space is too narrow, the jaw may crowd the throat and salivary structures and make comfortable flexion more difficult. The angles of the jaw should not be confused with the soft tissues of the cheeks."
+    },
+    {
+      "id": "question-06",
+      "question": "What is a narrow intermandibular space?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A small distance between the branches of the lower jaw"
+        },
+        {
+          "id": "answer-02",
+          "text": "Very thin branches of the lower jaw"
+        },
+        {
+          "id": "answer-03",
+          "text": "A special type of narrow leather rein"
+        },
+        {
+          "id": "answer-04",
+          "text": "A characteristic jaw shape found only in purebred horses"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The rear angle of the mandible forms part of the horse’s jaw. The distance between the left and right branches of the lower jaw—the intermandibular space—is important for the comfort and performance of a riding horse. If it is too narrow, the horse may have difficulty flexing correctly at the poll. Excessive narrowing can crowd the throat, parotid glands, and major blood vessels, potentially interfering with breathing, circulation, and the horse’s ability to work comfortably in collection."
+    },
+    {
+      "id": "question-07",
+      "question": "What is the pastern?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A tendon of the hind leg"
+        },
+        {
+          "id": "answer-02",
+          "text": "A conformation trait of difficult horses"
+        },
+        {
+          "id": "answer-03",
+          "text": "The part of the leg between the fetlock and the hoof"
+        },
+        {
+          "id": "answer-04",
+          "text": "The part of the leg between the knee and the fetlock"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The pastern is the part of the horse’s lower limb between the fetlock joint and the hoof. It acts as a natural shock absorber: during movement, especially at the gallop or when jumping, the pastern flexes and helps dissipate impact forces from the ground. The length and angle of the pastern affect the smoothness of the horse’s gait, endurance, and the long-term health of its joints, tendons, and ligaments."
+    },
+    {
+      "id": "question-08",
+      "question": "What are the pasterns?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The same as the points of the hip"
+        },
+        {
+          "id": "answer-02",
+          "text": "The same region as the pastern"
+        },
+        {
+          "id": "answer-03",
+          "text": "The heels of the hooves"
+        },
+        {
+          "id": "answer-04",
+          "text": "The feathering on the horse’s legs"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In traditional horse terminology, the pastern region includes the area around the fetlock and the segment between the cannon bone and the hoof. This region plays a major role in distributing weight and absorbing concussion. Long, sloping pasterns tend to produce a smoother ride but may place greater strain on soft tissues, whereas short, upright pasterns can make the gait harsher and increase concussion on the joints."
+    },
+    {
+      "id": "question-09",
+      "question": "What is the dock of the tail?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The narrow part of the muzzle"
+        },
+        {
+          "id": "answer-02",
+          "text": "The upper edge of the hoof next to the hair"
+        },
+        {
+          "id": "answer-03",
+          "text": "A growth on the inner side of the leg"
+        },
+        {
+          "id": "answer-04",
+          "text": "The bony and muscular base of the tail"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The dock is the firm bony and muscular base of the horse’s tail and is a direct continuation of the vertebral column, consisting of coccygeal vertebrae covered by muscles and skin. The long tail hairs grow from the skin surrounding this mobile structure. Horse people may assess body condition and health around the dock, and the horse also uses the tail actively for communication and insect control."
+    },
+    {
+      "id": "question-10",
+      "question": "What is feathering on a horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Hair on the lower legs"
+        },
+        {
+          "id": "answer-02",
+          "text": "A bony growth on the knee"
+        },
+        {
+          "id": "answer-03",
+          "text": "A bony growth on the pasterns"
+        },
+        {
+          "id": "answer-04",
+          "text": "A bony growth on the hock"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Feathering is the protective growth of long, coarse hair on the back of the lower legs around the fetlocks. It helps direct rainwater and mud away from the delicate skin and toward the hoof, reducing prolonged wetting. Heavy feathering is a characteristic feature of many draft breeds, Friesians, and Gypsy Cobs, while sport and riding horses usually have much less and it may be trimmed for hygiene."
+    },
+    {
+      "id": "question-11",
+      "question": "What are chestnuts on a horse?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bony prominences of the knees"
+        },
+        {
+          "id": "answer-02",
+          "text": "Vestigial teeth"
+        },
+        {
+          "id": "answer-03",
+          "text": "Horny growths on the inner sides of the legs"
+        },
+        {
+          "id": "answer-04",
+          "text": "Round spots on the croup of purebred horses"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Chestnuts are flat, hairless, horn-like callosities on the inner sides of a horse’s legs, located above the knees on the forelimbs and below the hocks on the hind limbs. They are generally regarded as vestigial structures inherited from the horse’s multi-toed ancestors. Their shape and size vary greatly between individuals, and the outer keratin layer may naturally flake or peel without causing discomfort."
+    },
+    {
+      "id": "question-12",
+      "question": "What is the coronary band?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A white marking around the eye of a pinto horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "The upper edge of the hoof where it meets the hair"
+        },
+        {
+          "id": "answer-03",
+          "text": "The narrowest part of the horse’s neck"
+        },
+        {
+          "id": "answer-04",
+          "text": "The base of the tail"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The coronary band, or coronet, is the narrow band of tissue at the junction between the haired skin of the lower leg and the top of the hoof capsule. It is vital to hoof growth because the underlying coronary corium contains the structures that produce the tubular horn of the hoof wall. Serious cuts, overreach injuries, or inflammation in this area can disrupt hoof-wall growth, cause deformity, and lead to persistent lameness."
+    },
+    {
+      "id": "question-13",
+      "question": "What is the manubrium of the sternum?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The upper part of the nasal bridge"
+        },
+        {
+          "id": "answer-02",
+          "text": "The lower part of the tail near the dock"
+        },
+        {
+          "id": "answer-03",
+          "text": "A thin cartilage inside the hoof joint"
+        },
+        {
+          "id": "answer-04",
+          "text": "The prominence at the front end of the sternum"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The manubrium is the cranial, forward-projecting part of the sternum. In the horse it can be felt at the front of the chest between the bases of the forelimbs and provides attachment for powerful pectoral muscles involved in moving and stabilizing the forelimbs. In traditional conformation assessment, the development of the front of the sternum and chest contributes to evaluating chest width, strength, and overall working capacity."
+    },
+    {
+      "id": "question-14",
+      "question": "What does the term “toe” refer to in horse anatomy?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The front central part of the hoof or the central incisors"
+        },
+        {
+          "id": "answer-02",
+          "text": "The rear central part of the hoof or the central incisors"
+        },
+        {
+          "id": "answer-03",
+          "text": "The outer side of the hoof or the lateral incisors"
+        },
+        {
+          "id": "answer-04",
+          "text": "The inner side of the hoof or the lateral incisors"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "In horse terminology, the toe can refer to the front portion of the hoof. In traditional dental terminology, the central incisors may also be referred to as the central or nipper incisors. The hoof toe bears substantial loading and friction during breakover, so correct trimming and shoeing are essential for limb balance. The wear and shape of the central incisors have also traditionally been used as part of estimating a horse’s age."
+    },
+    {
+      "id": "question-15",
+      "question": "Where is the horse’s hock?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "On the foreleg between the elbow and fetlock"
+        },
+        {
+          "id": "answer-02",
+          "text": "On the foreleg between the fetlock and hoof"
+        },
+        {
+          "id": "answer-03",
+          "text": "On the hind leg between the stifle and fetlock"
+        },
+        {
+          "id": "answer-04",
+          "text": "On the hind leg between the fetlock and hoof"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The hock is one of the largest and most complex joints of the hind limb, located between the lower leg and the metatarsus. Functionally it corresponds roughly to the human ankle and heel region, with the prominent point directed backward. The hock is a major source of propulsion: powerful extension helps the horse push off the ground, jump, gallop, and carry weight. Because of these high loads, the hock is prone to injuries and conditions such as bone spavin and synovial swellings."
+    },
+    {
+      "id": "question-16",
+      "question": "What is the flank hollow?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The soft lower part of the neck beneath the throat"
+        },
+        {
+          "id": "answer-02",
+          "text": "The hollow on the side between the ribs and point of the hip"
+        },
+        {
+          "id": "answer-03",
+          "text": "The area between the point of the hip and the dock"
+        },
+        {
+          "id": "answer-04",
+          "text": "The area between the point of the hip and the stifle"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The flank hollow is the soft triangular depression on the side of the horse bordered by the last rib, lumbar region, and point of the hip. Its appearance can provide useful clues about condition and health: markedly sunken flanks may accompany dehydration or poor intake, while abnormal distension can occur with gastrointestinal problems. Movement of the flank is also commonly observed when assessing respiratory rate and effort."
+    },
+    {
+      "id": "question-17",
+      "question": "What is the lower rear pastern region?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The hollows between the points of the hip and ribs"
+        },
+        {
+          "id": "answer-02",
+          "text": "Delicate skin around the eyes"
+        },
+        {
+          "id": "answer-03",
+          "text": "Soft pockets inside the nostrils"
+        },
+        {
+          "id": "answer-04",
+          "text": "The lower rear portions of the pastern above the hoof"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "This traditional anatomical term refers to the lowest rear part of the pastern region immediately above the coronary band and heel of the hoof. Tendons and associated soft tissues lie close to the surface here, so the area requires attention during grooming and management. The old term comes from hunting vocabulary in which it referred to the lower portions of the limbs of certain animals."
+    },
+    {
+      "id": "question-18",
+      "question": "What is good tendon definition?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A ligament strain caused by poor shoeing"
+        },
+        {
+          "id": "answer-02",
+          "text": "A sweeping reach of the hind legs at the gallop"
+        },
+        {
+          "id": "answer-03",
+          "text": "A sweeping reach of the forelegs at the gallop"
+        },
+        {
+          "id": "answer-04",
+          "text": "Clear separation of the tendons from the cannon bone"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Good tendon definition is a desirable conformation feature assessed from the side of the cannon region. The flexor tendons should appear strong, clearly outlined, and distinctly separated from the cannon bone rather than seeming pressed tightly against it. This gives the lower limb a broad, clean profile and is traditionally associated with efficient leverage, reduced fatigue, and greater durability of the tendon and ligament apparatus during hard work."
+    },
+    {
+      "id": "question-19",
+      "question": "What are the bars of the hoof?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Internal cartilaginous partitions of the hoof joint"
+        },
+        {
+          "id": "answer-02",
+          "text": "Parts of the sole where the hoof wall turns inward"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bony growths on the poll"
+        },
+        {
+          "id": "answer-04",
+          "text": "The outer side edges of the hoof"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The bars are inward folds of the hoof wall at the heels that continue forward along the sole on either side of the frog. They act as structural supports, helping reinforce the hoof capsule, support the heel region, and resist excessive contraction. In a healthy hoof they should remain well defined and not become excessively overgrown. Overgrown bars can fold onto the sole, distort hoof shape, compress internal tissues, and contribute to pain and lameness."
+    },
+    {
+      "id": "question-20",
+      "question": "What are windgalls?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Painful cracks at the back of the hooves"
+        },
+        {
+          "id": "answer-02",
+          "text": "Nasal discharge caused by a respiratory cold"
+        },
+        {
+          "id": "answer-03",
+          "text": "Soft swellings on the girth area of the chest"
+        },
+        {
+          "id": "answer-04",
+          "text": "Soft swellings around joints and tendon sheaths"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Windgalls, or windpuffs, are soft, fluid-filled swellings around joints or tendon sheaths, most commonly on the lower limbs. They result from distension of synovial structures with excess fluid and may appear after heavy work, repeated concussion, or chronic strain. Many longstanding, cool, painless windgalls are mainly a cosmetic finding, but new, hot, painful, or enlarging swellings can indicate active inflammation and should be assessed carefully."
+    },
+    {
+      "id": "question-21",
+      "question": "Do horses have canine teeth?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "They occur only in the lower jaw"
+        },
+        {
+          "id": "answer-02",
+          "text": "They occur only in the upper jaw"
+        },
+        {
+          "id": "answer-03",
+          "text": "They are usually present in adult males and only rarely in mares"
+        },
+        {
+          "id": "answer-04",
+          "text": "They are completely absent because horses are herbivores"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Canine teeth are strongly associated with sex in horses. Most adult stallions and geldings develop canines, usually erupting at around four to five years of age, in the interdental space between the incisors and cheek teeth. Mares usually lack canines, although small canines can occur rarely. They do not play an important role in chewing forage and are considered remnants of teeth that were more useful in fighting and defense."
+    },
+    {
+      "id": "question-22",
+      "question": "What is ringbone?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A soft fatty pad on the chest of draft horses"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bony enlargement around joints of the lower limb"
+        },
+        {
+          "id": "answer-03",
+          "text": "A disease of the oral mucosa"
+        },
+        {
+          "id": "answer-04",
+          "text": "Thickening of the tendons"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Ringbone is osteoarthritis involving the pastern or coffin joint, accompanied by abnormal new bone formation around the affected joint. It may appear externally as a hard thickening around the pastern or just above the coronary band and can progressively restrict joint movement and cause persistent lameness. Predisposing factors include previous ligament or joint injury, poor limb conformation, repeated concussion on hard ground, and hereditary susceptibility."
+    },
+    {
+      "id": "question-23",
+      "question": "What is bone spavin?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A serious disease of the elbow joint"
+        },
+        {
+          "id": "answer-02",
+          "text": "A serious disease of the stifle joint"
+        },
+        {
+          "id": "answer-03",
+          "text": "A serious disease of the fetlock joint"
+        },
+        {
+          "id": "answer-04",
+          "text": "A serious disease of the hock"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Bone spavin is chronic osteoarthritis of the lower hock joints, usually affecting the medial and distal part of the hock. Inflammation, cartilage degeneration, and new bone formation may eventually lead to partial or complete fusion of the affected joints. The condition can cause hind-limb lameness and stiffness and is associated with heavy workload, repeated concussion, and unfavorable hind-limb conformation."
+    },
+    {
+      "id": "question-24",
+      "question": "What is a capped hock?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A swelling around the knee"
+        },
+        {
+          "id": "answer-02",
+          "text": "A swelling around the stifle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A swelling over the point of the hock"
+        },
+        {
+          "id": "answer-04",
+          "text": "Chronic inflammation of the inner hoof wall"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A capped hock is a soft or firm swelling over the point of the hock caused by inflammation and fluid accumulation in the subcutaneous bursa over the tuber calcanei. It usually develops after repeated trauma such as kicking stall walls, striking trailer partitions, or falling on a hard surface. In many cases it is mainly a cosmetic blemish and does not cause lameness, although chronic cases may become firm and persistent."
+    },
+    {
+      "id": "question-25",
+      "question": "What is a curb?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Deformation of the back of the fetlock"
+        },
+        {
+          "id": "answer-02",
+          "text": "Deformation of the back of the elbow"
+        },
+        {
+          "id": "answer-03",
+          "text": "Deformation of the back of the stifle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Deformation of the back of the hock"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A curb is an enlargement or bowing of the back of the lower hock region caused by strain and thickening of structures such as the long plantar ligament and nearby tendons. It is commonly associated with excessive jumping, hard stops, trauma, or conformation such as sickle hocks. In the acute stage it may be painful and cause lameness; after the inflammation subsides, a firm swelling can remain and may reduce the horse’s athletic value."
+    },
+    {
+      "id": "question-26",
+      "question": "What is the bridge of the nose?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The horse’s lower jaw"
+        },
+        {
+          "id": "answer-02",
+          "text": "The side walls of the nostrils"
+        },
+        {
+          "id": "answer-03",
+          "text": "The nasal bones and bridge of the nose"
+        },
+        {
+          "id": "answer-04",
+          "text": "A lung disease of old horses"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "In equine anatomy, the bridge of the nose is the front facial region between the nostrils and the eyes, supported mainly by the nasal bones and associated cartilage. Its profile is an important conformation feature and may be straight, concave or dished, as in many Arabians, or convex or Roman-nosed in some other breeds. The shape of this region contributes strongly to the appearance of the head."
+    },
+    {
+      "id": "question-27",
+      "question": "What is the carpal joint?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A movable joint of the lower jaw near the ears"
+        },
+        {
+          "id": "answer-02",
+          "text": "A cartilaginous junction between the ribs and sternum"
+        },
+        {
+          "id": "answer-03",
+          "text": "The wrist joint on the horse’s foreleg"
+        },
+        {
+          "id": "answer-04",
+          "text": "The hip joint of the hind limb"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The carpal joint, commonly called the knee in horse terminology, is the large complex joint of the forelimb between the forearm and cannon bone. Anatomically it corresponds to the human wrist rather than the knee. It contains several small carpal bones arranged in rows and is essential for shock absorption and flexion of the forelimb. Athletic loading can predispose it to inflammation, arthritis, fractures, and other injuries."
+    },
+    {
+      "id": "question-28",
+      "question": "What is the point of the hock?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The lower prominence of the ilium"
+        },
+        {
+          "id": "answer-02",
+          "text": "A rounded bony prominence on the forehead"
+        },
+        {
+          "id": "answer-03",
+          "text": "The bony prominence at the back of the hock"
+        },
+        {
+          "id": "answer-04",
+          "text": "The upper crest of the shoulder blade"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The point of the hock is formed by the tuber calcanei, the prominent bony projection at the back of the horse’s hock. It acts as a powerful lever for the muscles and tendons that extend the hind limb. The common calcaneal tendon attaches in this region, helping generate propulsion for jumping, galloping, and acceleration. The size and projection of the point of the hock influence the mechanical leverage of the hind limb."
+    },
+    {
+      "id": "question-29",
+      "question": "What is the fetlock joint?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The joint between the lower leg and the hock"
+        },
+        {
+          "id": "answer-02",
+          "text": "The joint between the cannon bone and proximal phalanx"
+        },
+        {
+          "id": "answer-03",
+          "text": "The joint between the middle and proximal phalanges"
+        },
+        {
+          "id": "answer-04",
+          "text": "The joint between the middle phalanx and the hoof"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The fetlock joint is the large, mobile joint between the cannon bone and the proximal phalanx. It functions as a major shock-absorbing structure: during each stride it extends downward under load, helping dissipate impact forces and protect structures higher in the limb. Because it carries very high loads, the fetlock is vulnerable to ligament and tendon injuries, synovial swellings, and degenerative joint disease."
+    },
+    {
+      "id": "question-30",
+      "question": "What is the frog of the hoof?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The angle of the pastern"
+        },
+        {
+          "id": "answer-02",
+          "text": "The soft elastic structure on the underside of the hoof"
+        },
+        {
+          "id": "answer-03",
+          "text": "The same as the dock of the tail"
+        },
+        {
+          "id": "answer-04",
+          "text": "A line behind the front of the sternum"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The frog is the elastic, wedge-shaped structure of softer horn on the underside of the hoof. It contributes to shock absorption, traction, and normal hoof mechanics. When it contacts the ground and deforms under load, it helps the hoof expand and supports circulation within the foot. Proper trimming and hygiene are important because a diseased or poorly functioning frog can contribute to discomfort and hoof problems."
+    },
+    {
+      "id": "question-31",
+      "question": "What are bucked shins?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Inflammation of the periosteum of the ilium"
+        },
+        {
+          "id": "answer-02",
+          "text": "Inflammation of the periosteum of the ulna"
+        },
+        {
+          "id": "answer-03",
+          "text": "Inflammation of the periosteum of the cannon bone"
+        },
+        {
+          "id": "answer-04",
+          "text": "Inflammation of the periosteum of the proximal phalanx"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Bucked shins are inflammation and stress injury of the periosteum and superficial cortex of the cannon bone, most often seen in young horses subjected to intense training on hard surfaces. They usually develop on the front of the cannon region and may cause heat, pain, swelling, a shortened stride, and lameness. Rest and appropriate management often allow recovery, but continued overloading can lead to more serious bone injury."
+    },
+    {
+      "id": "question-32",
+      "question": "What is a screw action of the hoof?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dislocation of the hock"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dislocation of the fetlock"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dislocation of the stifle"
+        },
+        {
+          "id": "answer-04",
+          "text": "A rotational movement of the hoof during breakover"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A screw action is a gait fault in which the hoof rotates or twists inward or outward as the limb leaves the ground. It is often most obvious from behind at the walk or trot and may be associated with limb conformation or imbalanced hoof trimming. Repeated rotational motion can produce uneven hoof wear and increase twisting forces on joints, ligaments, and tendons."
+    },
+    {
+      "id": "question-33",
+      "question": "What is a hoof corn?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A saddle rub on the withers"
+        },
+        {
+          "id": "answer-02",
+          "text": "Inflammation and bruising of the hoof sole"
+        },
+        {
+          "id": "answer-03",
+          "text": "A disease of the oral mucosa"
+        },
+        {
+          "id": "answer-04",
+          "text": "A growth on a joint of riding horses"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A hoof corn is a localized bruise and aseptic inflammation of the sensitive tissues of the sole, usually caused by mechanical pressure or trauma. Common causes include hard or stony ground, trapped stones, poor shoeing, or excessive removal of protective sole during trimming. The affected area may show yellow-red or dark bruising and can be very painful, causing acute lameness. Severe cases may progress to an abscess."
+    },
+    {
+      "id": "question-34",
+      "question": "What is a club foot?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A hoof with a rotting frog"
+        },
+        {
+          "id": "answer-02",
+          "text": "A naturally rounded hoof of wild horses"
+        },
+        {
+          "id": "answer-03",
+          "text": "A hoof with an abnormally steep front wall"
+        },
+        {
+          "id": "answer-04",
+          "text": "A hoof with a severely cracked lower edge"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A club foot is an abnormally upright hoof in which the toe wall is very steep and the heels are excessively high. This changes the hoof-pastern axis and alters loading throughout the limb. It may be associated with congenital or developmental flexural deformity, shortened flexor structures, or long-term trimming imbalance. The condition can produce a short, jarring gait, abnormal stress on the joints and soft tissues, and chronic lameness in severe cases."
+    },
+    {
+      "id": "question-35",
+      "question": "What are the heel bulbs?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Rounded elastic pads at the heel of the hoof"
+        },
+        {
+          "id": "answer-02",
+          "text": "Soft folds of skin inside the nostrils"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fat deposits on the neck of draft horses"
+        },
+        {
+          "id": "answer-04",
+          "text": "Special areas of gum without cheek teeth"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The heel bulbs are the rounded, elastic structures at the back of the hoof above and beside the frog. They contain modified skin and underlying fibrous and fatty tissues and form part of the hoof’s shock-absorbing apparatus. During loading, the heel region helps absorb concussion and deform elastically. Healthy heel bulbs should be resilient and symmetrical; injuries or inflammation in this area can be painful and cause lameness."
+    },
+    {
+      "id": "question-36",
+      "question": "What is the white line of the hoof?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A pale stripe of hair along the spine"
+        },
+        {
+          "id": "answer-02",
+          "text": "The narrow junction between the sole and hoof wall"
+        },
+        {
+          "id": "answer-03",
+          "text": "The border where haired skin becomes the coronary band"
+        },
+        {
+          "id": "answer-04",
+          "text": "A blaze on the horse’s forehead"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The white line is the narrow, elastic junction visible on the solar surface of the hoof between the hoof wall and the sole. It follows the contour of the hoof and is an important landmark for farriers when placing horseshoe nails because nails must remain outside the sensitive structures. Its porous horn can be invaded by dirt and microorganisms, and deterioration of this area is associated with white line disease and separation of the hoof wall."
+    },
+    {
+      "id": "question-37",
+      "question": "What is the coronary corium?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A leather roll on the horse’s poll"
+        },
+        {
+          "id": "answer-02",
+          "text": "The thickened living tissue beneath the coronary band"
+        },
+        {
+          "id": "answer-03",
+          "text": "A soft tuft of hair above the eyebrows"
+        },
+        {
+          "id": "answer-04",
+          "text": "A prominent cartilage on the inner side of the hock"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The coronary corium is the thick, highly vascular tissue beneath the coronary band that produces the tubular horn forming the hoof wall. Its papillae continuously generate and nourish new horn, so the health of this area directly determines normal downward growth of the hoof wall. Deep cuts, overreach injuries, inflammation, or crushing damage to the coronary region can cause permanent defects in hoof growth and persistent lameness."
+    },
+    {
+      "id": "question-38",
+      "question": "What is the ilium?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The first vertebra at the base of the tail"
+        },
+        {
+          "id": "answer-02",
+          "text": "The lower jaw near the throatlatch"
+        },
+        {
+          "id": "answer-03",
+          "text": "The largest paired bone of the horse’s pelvis"
+        },
+        {
+          "id": "answer-04",
+          "text": "A thin bone within the carpal joint"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The ilium is the largest paired bone of the horse’s pelvis and forms a major connection between the axial skeleton and hind limbs. Its broad wing extends forward and upward, and its lateral prominence forms the point of the hip. The ilium transmits powerful forces generated by the hindquarters to the trunk and provides attachment for major muscles of the croup and thigh. Its shape and orientation contribute to propulsion, speed, and jumping ability."
+    },
+    {
+      "id": "question-39",
+      "question": "What is the navicular bone?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A thin cartilaginous plate on the bridge of the nose"
+        },
+        {
+          "id": "answer-02",
+          "text": "A small sesamoid bone inside the hoof capsule"
+        },
+        {
+          "id": "answer-03",
+          "text": "A bone deep within the larynx"
+        },
+        {
+          "id": "answer-04",
+          "text": "A small paired bone inside the ear"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The navicular bone, or distal sesamoid bone, is a small elongated bone located inside the hoof behind the coffin joint. The deep digital flexor tendon passes over its surface, allowing the bone to act like a pulley and helping the tendon function efficiently during flexion and weight bearing. Degenerative or inflammatory disease affecting this region is commonly referred to as navicular syndrome and is an important cause of chronic forelimb lameness."
+    },
+    {
+      "id": "question-40",
+      "question": "What are the splint bones?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Small teeth in front of the first cheek teeth"
+        },
+        {
+          "id": "answer-02",
+          "text": "Cartilaginous processes at the base of the ears"
+        },
+        {
+          "id": "answer-03",
+          "text": "Sharp horseshoe studs for icy ground"
+        },
+        {
+          "id": "answer-04",
+          "text": "Slender vestigial bones along the horse’s lower limbs"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The splint bones are the two slender bones that run along the back and sides of the main cannon bone in each limb and taper toward their lower ends. Evolutionarily, they are vestiges of the second and fourth metacarpal or metatarsal bones of the horse’s multi-toed ancestors. They help support the carpus or hock and provide attachment for ligaments. In young athletic horses, trauma or heavy work can cause inflammation around these bones, producing the condition commonly called splints."
+    }
+  ],
+  "questionImagesAlt": "Horse anatomy detail for identification",
+  "source_content_hash": "c29440159573e6ebd421db9f5187cb1b8ed572ee7a1345e3cf75630eab229cfd",
+  "english_quiz": "anatomy-en",
+  "previous_quiz": "amunition-words-en",
+  "next_quiz": "horse-exterior-en",
+  "content_version": "d47a8395b21fb1edba60fdca36ff30cecff0c55394aa196d80a1e70c9aeeb007"
+}

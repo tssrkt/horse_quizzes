@@ -1,0 +1,1063 @@
+{
+  "difficulty": "low",
+  "cover": "img/covers/horse-colors.webp",
+  "publication_date": "2026-07-18T09:00:00+00:00",
+  "type": "english",
+  "slug": "horse-colors-en",
+  "source_quiz": "horse-colors",
+  "tags": [
+    "english",
+    "horses",
+    "images"
+  ],
+  "published": true,
+  "title": "Horse Coat Colors",
+  "short_description": "Look at photos of horses and choose the correct coat color from the list. A great quiz to start with, especially if you’re new to the subject.",
+  "intro": "Look at photos of horses and choose the correct coat color from the list. A great quiz to start with, especially if you’re new to the subject.",
+  "questionImagesAlt": "Photo of a horse for coat color identification",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/01.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Flaxen chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black. They have no black ear rims, and the hair around the coronet bands is lighter.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-02",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/02.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Flaxen chestnut (non-draft type)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Flaxen chestnut (traditional draft type)"
+        },
+        {
+          "id": "answer-04",
+          "text": "Palomino"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Under the traditional Russian classification, igrénevaya is used only for draft horses, and the term itself is now outdated. The horse in the photo is a purebred Arabian. It cannot be palomino either, because Arabians do not carry the cream allele. Bays have a black mane and black ear rims. Here, “flaxen” refers to lightening of the mane and tail, and sometimes the legs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-03",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/03.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Liver chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Gray"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "More precisely, this is dapple gray. The horse’s base coat is still visible, and the body has lighter circular areas known as dapples. They are traditionally believed to reflect the pattern of the underlying blood vessels.",
+      "image_source": "Неизвестен",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-04",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/04.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bay dun"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-05",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/05.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Sooty chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "Sooty bay dun"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "This horse’s mane and tail are dark because of sooty shading, so it could be mistaken for a bay. However, it lacks black ear rims and has chestnut-colored legs, whereas a bay’s lower legs are black.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-06",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/06.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Gray"
+        },
+        {
+          "id": "answer-02",
+          "text": "White"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "Palomino"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "More precisely, this is light gray. It is easy to distinguish from cremello and white by the gray or black skin, which is clearly visible on the face.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-07",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/07.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Seal brown"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-08",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/08.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Palomino"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black. They have no black ear rims, and the hair around the coronet bands is lighter.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-09",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/09.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Sooty bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Sooty buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Seal brown"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Buckskins have black lower legs, mane, tail, and ear rims, like bays, although these areas may be slightly lighter. The body, neck, and face are sandy yellow. The skin is dark, as in bays, but may be somewhat lighter. The eyes are brown or amber. The darker shading is the sooty effect."
+    },
+    {
+      "id": "question-10",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/10.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "White"
+        },
+        {
+          "id": "answer-02",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-03",
+          "text": "Grullo (black dun)"
+        },
+        {
+          "id": "answer-04",
+          "text": "Gray"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "More precisely, this is dapple gray. The base coat may still be visible, while lighter circular areas known as dapples appear on the body. They are traditionally believed to reflect the pattern of the underlying blood vessels."
+    },
+    {
+      "id": "question-11",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/11.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Red dun"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black. They have no black ear rims, and the hair around the coronet bands is lighter.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-12",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/12.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Dark buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Liver chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Liver chestnut, also known as dark chestnut, can have a very dark coat like a dark bay or an almost black coat. However, the lighter lower legs—and especially the lighter hair around the coronet bands—distinguish it from bay and black horses, which do not have light coronet bands.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-13",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/13.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sooty bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Sooty buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Sooty red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Sooty palomino"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-14",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/14.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello horses have blue eyes and pink skin, and their coat color ranges from cream to nearly pure white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-15",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/15.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Seal brown"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-16",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/16.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "White"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cremello"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Cremello horses have blue eyes and pink skin, and their coat color ranges from cream to nearly pure white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-17",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/17.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light flaxen chestnut (non-draft type)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light flaxen chestnut (traditional draft type)"
+        },
+        {
+          "id": "answer-04",
+          "text": "Red dun"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Palominos have dark skin, although it may be lighter than a chestnut’s. Their eyes are brown, hazel, or amber; their eyelashes are yellow or pale chestnut; their body coat is sandy yellow; and their mane and tail are white or pale yellow.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-18",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/18.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Cremello horses have pink skin and blue eyes, and their coat color ranges from cream to nearly pure white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-19",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/19.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Liver chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Buckskin"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-20",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/20.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Gray"
+        },
+        {
+          "id": "answer-02",
+          "text": "Blue roan"
+        },
+        {
+          "id": "answer-03",
+          "text": "Grullo (black dun)"
+        },
+        {
+          "id": "answer-04",
+          "text": "Silver black"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "More precisely, the horse in the photo is dark gray—the earliest stage of progressive graying, when the horse has only just begun to turn gray. The process always starts around the face.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-21",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/21.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black"
+        },
+        {
+          "id": "answer-02",
+          "text": "Dark bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Seal brown"
+        },
+        {
+          "id": "answer-04",
+          "text": "Liver chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A black horse has a coat of entirely black hair, although white facial and leg markings may of course be present. Prolonged exposure to strong sunlight can bleach the black coat to a reddish shade; this is known as sun-bleached or fading black.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-22",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/22.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Red dun"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Red dun closely resembles chestnut, but it is easy to distinguish by the darker dorsal stripe, the darker mane and tail, and the darker legs, which may show faint zebra striping.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-23",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/23.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dark buckskin"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-24",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/24.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mealy bay (pangaré)"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-25",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/25.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Grullo (black dun)"
+        },
+        {
+          "id": "answer-02",
+          "text": "Smoky black"
+        },
+        {
+          "id": "answer-03",
+          "text": "Blue roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mealy bay (pangaré)"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A blue roan has a smoky or bluish body because white hairs are evenly mixed through the black coat. The head, lower legs, mane, and tail remain black.",
+      "image_author": "Неизвестный"
+    },
+    {
+      "id": "question-26",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/26.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Liver chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "Flaxen chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-27",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/27.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black"
+        },
+        {
+          "id": "answer-02",
+          "text": "Smoky black"
+        },
+        {
+          "id": "answer-03",
+          "text": "Blue roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Silver black"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A black horse has a coat of entirely black hair, although white facial and leg markings may of course be present.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-28",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/28.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Flaxen chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mealy bay (pangaré)"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Chestnut horses have gray skin, and their coat color ranges from pale reddish gold to very dark reddish brown, almost black. They have no black ear rims, and the hair around the coronet bands is lighter.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-29",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/29.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Sooty chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Sooty buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Flaxen chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The sooty effect darkens this horse’s mane and tail. Its chestnut-colored legs reveal the chestnut base coat; a bay has black lower legs below the hocks and knees (carpi).",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-30",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/30.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "White"
+        },
+        {
+          "id": "answer-02",
+          "text": "Gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "Light palomino"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Gray is easy to distinguish from cremello and white by the gray or black skin, which is clearly visible on the face.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-31",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/31.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Grullo (black dun)"
+        },
+        {
+          "id": "answer-02",
+          "text": "Blue roan"
+        },
+        {
+          "id": "answer-03",
+          "text": "Smoky black"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mealy bay (pangaré)"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A grullo has an even slate-gray or ash-gray body coat resembling the fur of a wild mouse. The head and lower legs are noticeably darker, and a sharply defined dorsal stripe always runs along the back.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-32",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/32.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "White"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello horses have blue eyes and pink skin, and their coat color ranges from cream to nearly pure white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-33",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/33.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Red dun"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Bay dun differs from buckskin by its black dorsal stripe. Its face is often darker than the body or the same shade, whereas a buckskin’s face is usually lighter.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-34",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/34.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "White"
+        },
+        {
+          "id": "answer-02",
+          "text": "Light gray"
+        },
+        {
+          "id": "answer-03",
+          "text": "Light palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cremello"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Cremello horses have blue eyes and pink skin, and their coat color ranges from cream to nearly pure white.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-35",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/35.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bay"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The main feature distinguishing bay dun from buckskin is the black dorsal stripe. The face is also often darker than the body, whereas a buckskin’s face is usually lighter. Bay dun differs from red dun by its black mane and tail, and from bay by its sandy-yellow body coat.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-36",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/36.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Bay is one of the most common coat colors. It is easy to recognize by the black lower legs, mane, and tail combined with a reddish, brown, or dark brown body and face.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-37",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/37.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Sooty bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Sooty buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Sooty bay dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Sooty chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Akhal-Tekes do not come in dun because the breed does not carry the dun allele. Buckskin is easy to distinguish from bay by its sandy-yellow body coat and from chestnut by its black mane, tail, lower legs, and ear rims.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-38",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/38.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Light chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Palominos have dark skin, although it may be lighter than a chestnut’s. Their eyes are brown, hazel, or amber; their eyelashes are yellow or pale chestnut; their body coat is sandy yellow; and their mane and tail are white or pale yellow.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-39",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/39.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Light bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-03",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Red dun"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A buckskin can be distinguished from similar colors by its yellow coat and the light hairs in its black mane and tail. The head may be slightly lighter than the body, whereas a bay’s head is usually the same shade as the body or slightly darker. There is no true black dorsal stripe; if a dark stripe is present, it is broad and diffuse, with no clear edges, and is caused by sooty countershading.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-40",
+      "question": "What coat color is this?",
+      "image": "img/quiz/horse-colors-en/40.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Bay dun"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Red dun"
+        },
+        {
+          "id": "answer-04",
+          "text": "Light bay"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The main feature distinguishing bay dun from buckskin is the black dorsal stripe. The face is also often darker than the body, whereas a buckskin’s face is usually lighter. Bay dun differs from red dun by its black mane and tail, and from bay by its sandy-yellow body coat.",
+      "image_author": "Неизвестен"
+    }
+  ],
+  "source_content_hash": "fceb23181755d5ff98eef9992dc5a8365c0170482906f722d9f01d77b04a5f94",
+  "english_quiz": "horse-colors-en",
+  "next_quiz": "rare-horse-colors-en",
+  "content_version": "71b8b787f2fe18a931dbd9c35d0aeed2194dc27ebd42cec12df898aafc219b17"
+}

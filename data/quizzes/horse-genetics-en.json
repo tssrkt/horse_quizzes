@@ -1,0 +1,1029 @@
+{
+  "difficulty": "high",
+  "cover": "img/covers/horse-genetics.webp",
+  "publication_date": "2026-07-19T12:00:00+00:00",
+  "type": "english",
+  "slug": "horse-genetics-en",
+  "source_quiz": "horse-genetics",
+  "tags": [
+    "english",
+    "genetics",
+    "horses"
+  ],
+  "published": true,
+  "title": "Horse Genetics",
+  "short_description": "No photos—just genetics, no compromises. A quiz for horse lovers who enjoy short genetics problems and want to understand the inheritance behind equine coat colors.",
+  "intro": "No photos—just genetics, no compromises. A quiz for horse lovers who enjoy short genetics problems and want to understand the inheritance behind equine coat colors.",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What coat colors can the foals of a cremello horse have?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "All cremello"
+        },
+        {
+          "id": "answer-02",
+          "text": "All cream dilutes"
+        },
+        {
+          "id": "answer-03",
+          "text": "All pearl dilutes"
+        },
+        {
+          "id": "answer-04",
+          "text": "All champagne dilutes"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Cremello results from two Cream alleles at the cream locus, regardless of the base color. Therefore, every offspring of such a horse will inherit a Cream allele and have a cream-dilute coat color."
+    },
+    {
+      "id": "question-02",
+      "question": "What coat colors can two black horses produce?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black only"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black and chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Black and bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Black, chestnut, and bay"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A black horse can carry the recessive chestnut allele, so in addition to black foals, the pair can also produce chestnut offspring.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-03",
+      "question": "Can two buckskin horses produce a cremello foal?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Yes, 75% probability"
+        },
+        {
+          "id": "answer-02",
+          "text": "Yes, 50% probability"
+        },
+        {
+          "id": "answer-03",
+          "text": "Yes, 25% probability"
+        },
+        {
+          "id": "answer-04",
+          "text": "No, it is impossible"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Buckskin horses are heterozygous at the cream locus, while cremellos are homozygous: Cn + Cn → CC, Cn, Cn, nn. The probability is 25%."
+    },
+    {
+      "id": "question-04",
+      "question": "What coat color does one Cream allele produce on a chestnut base?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Red dun"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cremello results from two Cream alleles on any base color; buckskin is one Cream allele on a bay base; palomino is one Cream allele on a chestnut base; and red dun does not involve the Cream allele at all."
+    },
+    {
+      "id": "question-05",
+      "question": "What coat colors will the foals of two cremello horses have?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Cremello only"
+        },
+        {
+          "id": "answer-02",
+          "text": "Cremello and palomino"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello and buckskin"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cremello, buckskin, and palomino"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Both parents have two Cream alleles, so they can produce only offspring with the same genotype: CC + CC → CC."
+    },
+    {
+      "id": "question-06",
+      "question": "Can a frame overo stallion be bred to a frame overo mare?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Yes"
+        },
+        {
+          "id": "answer-02",
+          "text": "No, there is a 25% risk that the foal will die"
+        },
+        {
+          "id": "answer-03",
+          "text": "No, there is a 50% risk that the foal will die"
+        },
+        {
+          "id": "answer-04",
+          "text": "No, there is a 75% risk that the foal will die"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A frame overo horse is always heterozygous at the frame overo locus, because homozygosity causes lethal white overo syndrome. Affected foals are completely white and die within hours or days of birth because of intestinal obstruction."
+    },
+    {
+      "id": "question-07",
+      "question": "Buckskin is produced by one Cream allele on a:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black base"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay base"
+        },
+        {
+          "id": "answer-03",
+          "text": "Chestnut base"
+        },
+        {
+          "id": "answer-04",
+          "text": "Dun base"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Buckskin is essentially a diluted bay: the brown coat becomes sandy yellow through the expression of one Cream allele."
+    },
+    {
+      "id": "question-08",
+      "question": "Which of these breeds carries the Cream allele?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-02",
+          "text": "Akhal-Teke"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Kladruber"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Arabian is a very old breed with a closed studbook, as are other purebred breeds. Friesians are registered only as black (chestnuts are not admitted to the studbook), while Kladrubers are black or gray."
+    },
+    {
+      "id": "question-09",
+      "question": "What is the coat color of a horse with genotype EeAaCn?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Smoky black"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A dominant allele at the Extension locus allows black pigment; a dominant allele at the Agouti locus restricts that pigment to the points, producing bay; and one Cream allele dilutes bay to buckskin."
+    },
+    {
+      "id": "question-10",
+      "question": "What is the coat color of a horse with genotype eeAaCn?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-04",
+          "text": "Smoky black"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Two recessive alleles at the Extension locus produce chestnut, regardless of the Agouti genotype, and one Cream allele dilutes chestnut to palomino."
+    },
+    {
+      "id": "question-11",
+      "question": "Can a black mare produce a bay foal by a black stallion?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Yes"
+        },
+        {
+          "id": "answer-02",
+          "text": "No"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Black horses do not have a dominant allele at the Agouti locus; if they did, they would be bay. Since neither parent has the dominant bay-producing allele, they cannot produce a bay foal."
+    },
+    {
+      "id": "question-12",
+      "question": "What is the coat color of a horse with genotype EeAACC?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "Smoky black"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Two Cream alleles at the cream locus (CC) produce cremello in this quiz's simplified model, regardless of the base color."
+    },
+    {
+      "id": "question-13",
+      "question": "What is the coat color of a horse with genotype EEaaCn?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Palomino"
+        },
+        {
+          "id": "answer-02",
+          "text": "Buckskin"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "Smoky black"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Dominant alleles at Extension (EE) together with recessive alleles at Agouti (aa) produce black, and one Cream allele (Cn) dilutes it to smoky black."
+    },
+    {
+      "id": "question-14",
+      "question": "What is the coat color of a horse with genotype eeAa?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Gray"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Two recessive alleles at the Extension locus (ee) produce chestnut, regardless of the alleles at the Agouti locus."
+    },
+    {
+      "id": "question-15",
+      "question": "What offspring can two black horses produce if both are heterozygous at the Extension locus (Ee)?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "All black"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black and bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Black and chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "Black, chestnut, and bay"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Ee + Ee → EE, Ee, Ee, ee: 75% black and 25% chestnut."
+    },
+    {
+      "id": "question-16",
+      "question": "A black stallion and a chestnut mare have a chestnut foal. This means:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The mare is heterozygous at the Extension locus"
+        },
+        {
+          "id": "answer-02",
+          "text": "The stallion is heterozygous at the Extension locus"
+        },
+        {
+          "id": "answer-03",
+          "text": "The mare is heterozygous at the Agouti locus"
+        },
+        {
+          "id": "answer-04",
+          "text": "The stallion is heterozygous at the Agouti locus"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A chestnut foal must inherit one recessive Extension allele from each parent. Therefore, the stallion is heterozygous at Extension (Ee), while the chestnut mare has two recessive alleles (ee)."
+    },
+    {
+      "id": "question-17",
+      "question": "What is the coat color of a horse with genotype EeAa?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Black"
+        },
+        {
+          "id": "answer-04",
+          "text": "Gray"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A dominant allele at Extension (Ee) allows black pigment, while a dominant allele at Agouti (Aa) restricts it to the points, producing bay."
+    },
+    {
+      "id": "question-18",
+      "question": "Two bay parents have a black foal. This means:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The parents are heterozygous at the Extension locus"
+        },
+        {
+          "id": "answer-02",
+          "text": "The parents are heterozygous at the Agouti locus"
+        },
+        {
+          "id": "answer-03",
+          "text": "The parents are homozygous at the Extension locus"
+        },
+        {
+          "id": "answer-04",
+          "text": "The parents are homozygous at the Agouti locus"
+        },
+        {
+          "id": "answer-05",
+          "text": "The mare cheated on him!"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "If both parents are heterozygous at the Agouti locus, the probability of a black foal is 25%, because the dominant allele at this locus turns a black base into bay."
+    },
+    {
+      "id": "question-19",
+      "question": "Which of these genotypes produce a chestnut coat?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "EeAa, EEAA"
+        },
+        {
+          "id": "answer-02",
+          "text": "eeAa, eeAA, eeaa"
+        },
+        {
+          "id": "answer-03",
+          "text": "Eeaa, EEaa"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Chestnut is caused by recessive alleles at the Extension locus, so every horse with two recessive alleles at this locus will be chestnut."
+    },
+    {
+      "id": "question-20",
+      "question": "Which of these genotypes produce a black coat?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "EeAa, EEAA, EeAA, EEAa"
+        },
+        {
+          "id": "answer-02",
+          "text": "eeAa, eeAA, eeaa"
+        },
+        {
+          "id": "answer-03",
+          "text": "Eeaa, EEaa"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A black coat requires at least one dominant allele at the Extension locus and two recessive alleles at the Agouti locus."
+    },
+    {
+      "id": "question-21",
+      "question": "We have a black stallion, EEaa, and a chestnut mare, eeAA. What coat color will their foals have?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "All black"
+        },
+        {
+          "id": "answer-02",
+          "text": "All chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "All bay"
+        },
+        {
+          "id": "answer-04",
+          "text": "Black and chestnut"
+        },
+        {
+          "id": "answer-05",
+          "text": "Black, chestnut, and bay"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "EEaa + eeAA → EeAa: all offspring will be bay."
+    },
+    {
+      "id": "question-22",
+      "question": "Which genotypes produce a bay coat?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "EeAa, EEAA, EeAA, EEAa"
+        },
+        {
+          "id": "answer-02",
+          "text": "eeAa, eeAA, eeaa"
+        },
+        {
+          "id": "answer-03",
+          "text": "Eeaa, EEaa"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A bay coat requires at least one dominant allele at both the Extension and Agouti loci."
+    },
+    {
+      "id": "question-23",
+      "question": "Which genotypes produce a palomino coat?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "EeAaCn, EeAACn, EEAaCn"
+        },
+        {
+          "id": "answer-02",
+          "text": "eeAaCn, eeAACn, eeaaCn"
+        },
+        {
+          "id": "answer-03",
+          "text": "EeaaCn, EEaaCn"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Palomino is one Cream allele (Cn) on a chestnut base (ee). The Agouti genotype does not matter because Agouti does not affect chestnut."
+    },
+    {
+      "id": "question-24",
+      "question": "Which genotypes produce a smoky black coat?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "EeAaCn, EEAaCn, EeAACn, EEAACn"
+        },
+        {
+          "id": "answer-02",
+          "text": "eeAaCn, eeAACn, eeaaCn"
+        },
+        {
+          "id": "answer-03",
+          "text": "EeaaCn, EEaaCn"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Smoky black is one Cream allele on a black base. It therefore requires at least one dominant Extension allele, two recessive Agouti alleles, and one Cream allele."
+    },
+    {
+      "id": "question-25",
+      "question": "Which genotypes produce a buckskin coat?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "EeAaCn, EeAACn, EEAaCn, EEAACn"
+        },
+        {
+          "id": "answer-02",
+          "text": "eeAaCn, eeAACn, eeaaCn"
+        },
+        {
+          "id": "answer-03",
+          "text": "EEaaCn, EeaaCn"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Buckskin is one Cream allele on a bay base. It therefore requires at least one dominant allele at both Extension and Agouti, plus one Cream allele."
+    },
+    {
+      "id": "question-26",
+      "question": "What coat colors will the foals of a gray horse have if it is homozygous at the gray locus (GG)?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Gray 25%, non-gray 75%"
+        },
+        {
+          "id": "answer-02",
+          "text": "Gray 50%, non-gray 50%"
+        },
+        {
+          "id": "answer-03",
+          "text": "Gray 75%, non-gray 25%"
+        },
+        {
+          "id": "answer-04",
+          "text": "All gray"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Because the horse is homozygous at the gray locus (GG), every foal will inherit a dominant gray allele (G), so all of them will turn gray."
+    },
+    {
+      "id": "question-27",
+      "question": "If a buckskin stallion is bred to a palomino mare, what is the probability of a cremello foal?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "100% (all foals cremello)"
+        },
+        {
+          "id": "answer-02",
+          "text": "75% (three quarters)"
+        },
+        {
+          "id": "answer-03",
+          "text": "50% (one half)"
+        },
+        {
+          "id": "answer-04",
+          "text": "25% (one quarter)"
+        },
+        {
+          "id": "answer-05",
+          "text": "0%—these horses cannot produce a cremello foal"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Both the buckskin stallion and the palomino mare carry one Cream allele. Cremello requires two Cream alleles, so Cn + Cn → CC, Cn, Cn, nn. The probability of a cremello foal is 25%."
+    },
+    {
+      "id": "question-28",
+      "question": "If EeAA is crossed with EeAA, the offspring will be:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black and chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black and bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay and chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "Bay only"
+        },
+        {
+          "id": "answer-05",
+          "text": "Black only"
+        },
+        {
+          "id": "answer-06",
+          "text": "Chestnut only"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Because every foal receives at least one dominant Agouti allele, no black foals are possible. However, the recessive Extension allele carried by both parents makes chestnut offspring possible."
+    },
+    {
+      "id": "question-29",
+      "question": "Two bay parents have a chestnut foal. What does this mean?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "She cheated on him—mares cause all the trouble!"
+        },
+        {
+          "id": "answer-02",
+          "text": "The parents are heterozygous at the Extension locus"
+        },
+        {
+          "id": "answer-03",
+          "text": "The parents are heterozygous at the Agouti locus"
+        },
+        {
+          "id": "answer-04",
+          "text": "The parents are homozygous at the Extension locus"
+        },
+        {
+          "id": "answer-05",
+          "text": "The parents are homozygous at the Agouti locus"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "When both parents carry a recessive allele at the Extension locus, there is a chance that they will produce a chestnut foal."
+    },
+    {
+      "id": "question-30",
+      "question": "If EEAA is crossed with eeaa, the offspring will be:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black and chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black and bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay and chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "All black"
+        },
+        {
+          "id": "answer-05",
+          "text": "All bay"
+        },
+        {
+          "id": "answer-06",
+          "text": "All chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-05",
+      "explanation": "EEAA + eeaa → EeAa: all offspring will be bay because they have one dominant allele at both the Extension and Agouti loci."
+    },
+    {
+      "id": "question-31",
+      "question": "If eeAa is crossed with eeAA, the offspring will be:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black and bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black and chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay and chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "All bay"
+        },
+        {
+          "id": "answer-05",
+          "text": "All bay"
+        },
+        {
+          "id": "answer-06",
+          "text": "All chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-06",
+      "explanation": "If the Extension locus contains only recessive alleles, all offspring must be chestnut regardless of their Agouti genotype."
+    },
+    {
+      "id": "question-32",
+      "question": "If Eeaa is crossed with Eeaa, the offspring will be:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black and bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black and chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay and chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "Black only"
+        },
+        {
+          "id": "answer-05",
+          "text": "Bay only"
+        },
+        {
+          "id": "answer-06",
+          "text": "Chestnut only"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Because the Agouti locus contains only recessive alleles, it can be ignored here: Ee + Ee → EE, Ee, Ee, ee, producing black and chestnut offspring."
+    },
+    {
+      "id": "question-33",
+      "question": "If EEaa is crossed with eeaa, the offspring will be:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black and chestnut"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black and bay"
+        },
+        {
+          "id": "answer-03",
+          "text": "Bay and chestnut"
+        },
+        {
+          "id": "answer-04",
+          "text": "All black"
+        },
+        {
+          "id": "answer-05",
+          "text": "All bay"
+        },
+        {
+          "id": "answer-06",
+          "text": "All chestnut"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Because the Agouti locus contains only recessive alleles, it can be ignored here: EE + ee → Ee, so all offspring will be black."
+    },
+    {
+      "id": "question-34",
+      "question": "Two black horses have a black foal that later turns gray. This means:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The mare cheated on him!"
+        },
+        {
+          "id": "answer-02",
+          "text": "Both parents are heterozygous at the gray locus"
+        },
+        {
+          "id": "answer-03",
+          "text": "Both parents are heterozygous at the Extension locus"
+        },
+        {
+          "id": "answer-04",
+          "text": "Both parents are heterozygous at the Agouti locus"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Because gray is dominant, every gray horse must have at least one gray parent."
+    },
+    {
+      "id": "question-35",
+      "question": "A black mare produces a bay foal by a chestnut stallion. This means:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "That is impossible—the mare cheated on him!"
+        },
+        {
+          "id": "answer-02",
+          "text": "The mare has at least one dominant A allele at the Agouti locus"
+        },
+        {
+          "id": "answer-03",
+          "text": "The stallion has at least one dominant A allele at the Agouti locus"
+        },
+        {
+          "id": "answer-04",
+          "text": "Both parents have at least one dominant A allele at the Agouti locus"
+        },
+        {
+          "id": "answer-05",
+          "text": "The mare had bay ancestors"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The stallion carries a dominant Agouti allele—the allele that can produce bay. It is not visible in his phenotype because Agouti does not affect a chestnut coat."
+    },
+    {
+      "id": "question-36",
+      "question": "A black mare produces a chestnut foal by a bay stallion. This means:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "That is impossible—the mare cheated on him!"
+        },
+        {
+          "id": "answer-02",
+          "text": "The parents are heterozygous at the Extension locus (Ee)"
+        },
+        {
+          "id": "answer-03",
+          "text": "The parents are heterozygous at the Agouti locus (Aa)"
+        },
+        {
+          "id": "answer-04",
+          "text": "The parents are homozygous at the Extension locus (EE)"
+        },
+        {
+          "id": "answer-05",
+          "text": "The parents are homozygous at the Agouti locus (AA)"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Chestnut requires two recessive alleles at Extension, so the foal must inherit one from each parent. Because neither parent is chestnut, both must be heterozygous at Extension (Ee) and carry the recessive chestnut allele."
+    },
+    {
+      "id": "question-37",
+      "question": "If a palomino stallion is bred to a palomino mare, what coat colors can their foals have?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Palomino and bay"
+        },
+        {
+          "id": "answer-02",
+          "text": "Palomino and chestnut"
+        },
+        {
+          "id": "answer-03",
+          "text": "Palomino and cremello"
+        },
+        {
+          "id": "answer-04",
+          "text": "Palomino, cremello, and chestnut"
+        },
+        {
+          "id": "answer-05",
+          "text": "Palomino only"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "eeCn + eeCn → eeCC, eeCn, eeCn, eenn: 25% cremello, 50% palomino, and 25% chestnut."
+    },
+    {
+      "id": "question-38",
+      "question": "Which allele can a black horse carry without showing it?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dun (D)"
+        },
+        {
+          "id": "answer-02",
+          "text": "Agouti (A)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Chestnut (e)"
+        },
+        {
+          "id": "answer-04",
+          "text": "Gray (G)"
+        },
+        {
+          "id": "answer-05",
+          "text": "Silver (Z)"
+        },
+        {
+          "id": "answer-06",
+          "text": "White (W)"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The dominant Agouti allele (A) would make a black horse bay; dun (D) would make it grullo; gray (G) would make it turn gray; and silver (Z) would produce silver black. The chestnut allele (e), however, is recessive and can remain hidden in the presence of the dominant Extension allele (E) responsible for a black base."
+    },
+    {
+      "id": "question-39",
+      "question": "Two gray horses have a non-gray foal with foal pangaré markings that does not turn gray with age. What does this mean?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The mare cheated on him!"
+        },
+        {
+          "id": "answer-02",
+          "text": "The parents are homozygous at the gray locus"
+        },
+        {
+          "id": "answer-03",
+          "text": "The parents are heterozygous at the gray locus"
+        },
+        {
+          "id": "answer-04",
+          "text": "One parent is homozygous and the other is heterozygous"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Because gray is dominant, two gray parents can produce a non-gray foal only if both are heterozygous: Gg + Gg → GG, Gg, Gg, gg. The probability of a non-gray foal is 25%."
+    },
+    {
+      "id": "question-40",
+      "question": "We have a black stallion and a black mare, and each has one chestnut parent. What offspring can this black pair produce?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Black 25%, chestnut 75%"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black 50%, chestnut 50%"
+        },
+        {
+          "id": "answer-03",
+          "text": "Black 75%, chestnut 25%"
+        },
+        {
+          "id": "answer-04",
+          "text": "All black"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Because each black parent has a chestnut parent, both must be heterozygous at Extension: Ee + Ee → EE, Ee, Ee, ee, producing 75% black and 25% chestnut offspring."
+    }
+  ],
+  "questionImagesAlt": "Horse genetics quiz question",
+  "source_content_hash": "c65880507138f9c06e0868c6fa863251fac1c9e413deb1000afada13ab990c0a",
+  "english_quiz": "horse-genetics-en",
+  "next_quiz": "horse-genetics-2-en",
+  "content_version": "814bc82980555876f160721dffccdb82cb8bab7798d763a325bf8bbfc9f26a03"
+}

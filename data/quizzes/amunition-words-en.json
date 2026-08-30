@@ -1,0 +1,985 @@
+{
+  "difficulty": "low",
+  "cover": "img/covers/amunition-words.webp",
+  "publication_date": "2026-07-24T11:22:00+00:00",
+  "type": "english",
+  "slug": "amunition-words-en",
+  "source_quiz": "amunition-words",
+  "tags": [
+    "english",
+    "words",
+    "amunition"
+  ],
+  "published": true,
+  "title": "Horse Tack Terms",
+  "short_description": "Horse tack is more than just straps and metal: it is a complex system designed to keep the rider safe and the horse comfortable. How well do you know it?",
+  "intro": "Horse tack is more than just straps and metal: it is a complex system designed to keep the rider safe and the horse comfortable. How well do you know it?",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "A bridle consists of:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Headstall, bit, and reins"
+        },
+        {
+          "id": "answer-02",
+          "text": "Halter, bit, and reins"
+        },
+        {
+          "id": "answer-03",
+          "text": "Breastplate, bit, and martingale"
+        },
+        {
+          "id": "answer-04",
+          "text": "Carriage, snaffle, and driving reins"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A bridle is the complete working set of tack used to control a horse. It consists of three separate elements: the headstall (the system of straps fitted around the horse’s head), the bit (such as a snaffle or curb bit in the mouth), and the reins attached to it and held by the rider. In equestrian sport these components are treated separately because the leatherwork, bit, and reins are selected individually to suit a particular horse’s size and anatomy, but together they form a complete bridle."
+    },
+    {
+      "id": "question-02",
+      "question": "What are protective boots?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Part of the rider’s equipment that protects the legs"
+        },
+        {
+          "id": "answer-02",
+          "text": "Part of the horse’s tack that protects its legs"
+        },
+        {
+          "id": "answer-03",
+          "text": "Conformation defects of the horse’s legs"
+        },
+        {
+          "id": "answer-04",
+          "text": "Conformation faults of the horse’s legs"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Protective boots are pieces of horse tack fitted to the lower limbs—around the cannon bones, fetlocks, and associated structures—to protect tendons and bones from mechanical injury during training or transport. They may be made from tough plastic, leather, neoprene, or carbon fiber and help protect the legs from interference injuries caused by the horse’s own hooves, knocks against jumping obstacles, and high mechanical loads. Unlike bandages, boots can be fitted and secured within seconds using hook-and-loop straps or quick-release fastenings."
+    },
+    {
+      "id": "question-03",
+      "question": "What is a lead rope?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A long line used for lunging"
+        },
+        {
+          "id": "answer-02",
+          "text": "A metal device placed in the horse’s mouth"
+        },
+        {
+          "id": "answer-03",
+          "text": "A lead used with a halter"
+        },
+        {
+          "id": "answer-04",
+          "text": "A strap used to tighten the saddle"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A lead rope is a strong rope, strap, or chain, usually around two meters long, that clips to a halter for leading a horse or tying it up. It is used for everyday handling, such as taking a horse from its stall to a paddock or securing it in cross-ties for grooming, farriery, or veterinary procedures. Unlike reins, a lead rope attaches to the lower ring of the halter beneath the horse’s chin and is never used for riding."
+    },
+    {
+      "id": "question-04",
+      "question": "What is a martingale?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Protective footwear for the hooves"
+        },
+        {
+          "id": "answer-02",
+          "text": "A strap that limits excessive head raising"
+        },
+        {
+          "id": "answer-03",
+          "text": "A soft pad placed under the saddle"
+        },
+        {
+          "id": "answer-04",
+          "text": "Metal spurs worn on riding boots"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A martingale is a piece of tack designed to prevent a horse from raising its head excessively while being ridden. A running martingale attaches to the girth, passes between the horse’s front legs, and divides into two straps ending in rings through which the reins run."
+    },
+    {
+      "id": "question-05",
+      "question": "What are bell boots?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Protective rubber boots worn around the hooves"
+        },
+        {
+          "id": "answer-02",
+          "text": "Jingling bells attached to a harness bow"
+        },
+        {
+          "id": "answer-03",
+          "text": "Special brushes used for grooming the coat"
+        },
+        {
+          "id": "answer-04",
+          "text": "Metal fasteners on a horse blanket"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Bell boots, also known as overreach boots, are protective rubber or neoprene boots shaped like a bell and worn around the horse’s hoof. They protect the coronary band and heel from injury when a hind hoof overreaches and strikes or steps on a front hoof. They also help prevent the horse from stepping on the heels of its front shoes and pulling them off."
+    },
+    {
+      "id": "question-06",
+      "question": "What is a stirrup bar?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A metal connector on the reins"
+        },
+        {
+          "id": "answer-02",
+          "text": "A sharp spur fitted to a riding boot"
+        },
+        {
+          "id": "answer-03",
+          "text": "A safety fitting for the stirrup leather"
+        },
+        {
+          "id": "answer-04",
+          "text": "A long dressage whip"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A stirrup bar is a metal fitting on the saddle tree from which the stirrup leather and stirrup are suspended. Its main purpose is safety: on a correctly designed safety stirrup bar, the leather can release if the rider falls and a foot becomes trapped in the stirrup, reducing the risk of the rider being dragged by the horse."
+    },
+    {
+      "id": "question-07",
+      "question": "What is a whip wrist loop?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A loop on the handle of a riding whip"
+        },
+        {
+          "id": "answer-02",
+          "text": "A buckle on the saddle girth"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap used to attach spurs"
+        },
+        {
+          "id": "answer-04",
+          "text": "A soft fleece pad under the noseband"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A whip wrist loop is a strong leather or fabric loop fitted to the end of a riding whip’s handle. It is slipped over the rider’s wrist to help prevent the whip from being dropped or lost while riding and allows the fingers to work the reins without letting go of the whip."
+    },
+    {
+      "id": "question-08",
+      "question": "What is a chambon?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A metal fitting used to secure a stirrup"
+        },
+        {
+          "id": "answer-02",
+          "text": "A leather insert on hind protective boots"
+        },
+        {
+          "id": "answer-03",
+          "text": "A training aid used for lunging"
+        },
+        {
+          "id": "answer-04",
+          "text": "A protective rain sheet"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A chambon is a training aid, usually made from leather or cord with elastic sections, used mainly when lunging to encourage correct development of the horse’s back and neck muscles. It attaches to the girth between the front legs, runs up toward the poll, and connects to the bit rings, encouraging the horse to lower its head and relax the neck."
+    },
+    {
+      "id": "question-09",
+      "question": "What is a gogue?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A protective fly mask"
+        },
+        {
+          "id": "answer-02",
+          "text": "A training aid that encourages the horse to round its neck"
+        },
+        {
+          "id": "answer-03",
+          "text": "An attachment for saddle bags"
+        },
+        {
+          "id": "answer-04",
+          "text": "A winter hoof warmer"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A gogue is a training aid that, unlike a classic chambon, can be used both for lunging and, in certain configurations, under saddle. It encourages the horse not only to lower its head but also to round the neck and flex correctly at the poll, using a system of straps or cords running from the girth through the poll area to the bit."
+    },
+    {
+      "id": "question-10",
+      "question": "What is a crupper?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A soft pad under the cantle"
+        },
+        {
+          "id": "answer-02",
+          "text": "A fastener for the rear of a horse blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap that prevents the saddle from sliding forward"
+        },
+        {
+          "id": "answer-04",
+          "text": "A protective cover for the horse’s tail"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A crupper is a strap attached to the back of the saddle that runs along the horse’s back and forms a padded loop under the tail. Its purpose is to prevent the saddle from sliding forward toward the withers and neck. It is especially useful on horses with low or flat withers, round backs, ponies, and when riding down steep slopes."
+    },
+    {
+      "id": "question-11",
+      "question": "What is a saddle blanket?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A cloth used to wipe the horse’s face"
+        },
+        {
+          "id": "answer-02",
+          "text": "A rubber mat for the stall floor"
+        },
+        {
+          "id": "answer-03",
+          "text": "A special cooler used to dry the coat"
+        },
+        {
+          "id": "answer-04",
+          "text": "A thick cushioning pad placed under the saddle"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A saddle blanket is a thick felt, leather, or fleece pad placed beneath the saddle to protect the horse’s back from rubbing, injury, and excessive pressure. Compared with a thin decorative saddle cloth, it provides more cushioning, helps distribute the rider’s weight, and absorbs sweat during work."
+    },
+    {
+      "id": "question-12",
+      "question": "What is a saddle cloth?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A warm winter blanket with a neck cover"
+        },
+        {
+          "id": "answer-02",
+          "text": "A quilted cloth placed under the saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A protective cover for storing a bridle"
+        },
+        {
+          "id": "answer-04",
+          "text": "A strap used to secure the horse’s tail"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A saddle cloth is a quilted textile pad placed under the saddle, either over another underpad or on its own, to protect the horse’s back from rubbing and absorb excess sweat. It also helps protect an expensive leather saddle from sweat and dirt and, in modern equestrian sport, is often chosen to coordinate with the rest of the horse’s equipment."
+    },
+    {
+      "id": "question-13",
+      "question": "What is a noseband?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A metal fastener on the reins"
+        },
+        {
+          "id": "answer-02",
+          "text": "A strap around the muzzle that limits excessive mouth opening"
+        },
+        {
+          "id": "answer-03",
+          "text": "A protective plastic cap for the hoof"
+        },
+        {
+          "id": "answer-04",
+          "text": "A soft fleece pad under the girth"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A noseband is a strap on the bridle that fastens around the horse’s muzzle. Depending on its design, it helps limit excessive opening of the mouth so the horse cannot evade the action of the bit and the rider’s aids. It can also help stabilize the bit. It must be fitted correctly and never overtightened so that it does not interfere with breathing or cause discomfort."
+    },
+    {
+      "id": "question-14",
+      "question": "What is a hackamore?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A bridle that works without a bit in the mouth"
+        },
+        {
+          "id": "answer-02",
+          "text": "A long dressage whip"
+        },
+        {
+          "id": "answer-03",
+          "text": "A leather cover for the tail"
+        },
+        {
+          "id": "answer-04",
+          "text": "A metal fitting on the saddle"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A hackamore is a type of bitless bridle that allows the rider to control the horse without a metal bit in the mouth. Mechanical hackamores use leverage to apply pressure to sensitive areas of the head, especially the nose, chin groove, and poll, when the reins are engaged."
+    },
+    {
+      "id": "question-15",
+      "question": "What is a snaffle bit?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A protective cap for the hoof"
+        },
+        {
+          "id": "answer-02",
+          "text": "A strap used to tighten the girth"
+        },
+        {
+          "id": "answer-03",
+          "text": "A type of bit placed in the horse’s mouth"
+        },
+        {
+          "id": "answer-04",
+          "text": "A fitting used to attach a stirrup leather"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A snaffle is a common type of metal or rubber bit whose mouthpiece lies in the toothless bars of the horse’s mouth and is attached to rings or similar cheek pieces. It is a basic component of many bridles and transmits the rider’s rein aids to the lips, tongue, and lower jaw, helping control direction and speed."
+    },
+    {
+      "id": "question-16",
+      "question": "What is a curb bit?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A fastener for securing a horse blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "A stronger leverage bit with shanks"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap used to attach spurs"
+        },
+        {
+          "id": "answer-04",
+          "text": "A soft leather halter"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A curb bit is a leverage bit with shanks, placed in the horse’s mouth on the toothless bars of the jaw. It may be used together with a bradoon in a double bridle or, depending on the design and discipline, on its own. Through leverage it can apply stronger pressure to the lower jaw, tongue, chin groove, and poll, allowing very precise rein aids in advanced riding."
+    },
+    {
+      "id": "question-17",
+      "question": "What is a blanket surcingle?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A metal part of the bridle"
+        },
+        {
+          "id": "answer-02",
+          "text": "A leather loop on a whip"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap used to secure a horse blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "A long line used for lunging"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A blanket surcingle is a broad, strong strap—usually made of sturdy webbing or leather—that fastens around the horse’s body over a blanket to keep it securely in place and prevent it from slipping or twisting in the stall or during turnout. Unlike a girth, it does not attach to a saddle and is used as an independent blanket fastener."
+    },
+    {
+      "id": "question-18",
+      "question": "What is a stirrup leather?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A soft pad under the girth"
+        },
+        {
+          "id": "answer-02",
+          "text": "A wide belt used to secure a blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap around the horse’s muzzle"
+        },
+        {
+          "id": "answer-04",
+          "text": "A strap from which a stirrup hangs"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A stirrup leather is a strong leather or synthetic strap that connects the saddle to the stirrup. It runs over the stirrup bar and allows the rider to adjust the stirrup length to suit their height and leg length for a correct and secure riding position."
+    },
+    {
+      "id": "question-19",
+      "question": "What are the pommel and cantle?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A long strap used to lead a horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "The raised front and rear edges of a saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A protective cap for the hoof"
+        },
+        {
+          "id": "answer-04",
+          "text": "A soft fleece horse blanket"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The pommel and cantle are the raised front and rear parts of a saddle. The pommel forms the front of the saddle above the horse’s withers, while the cantle forms the raised rear boundary of the seat and helps support the rider’s position."
+    },
+    {
+      "id": "question-20",
+      "question": "What is a cordeo?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A soft pad under the saddle pommel"
+        },
+        {
+          "id": "answer-02",
+          "text": "A protective fly sheet"
+        },
+        {
+          "id": "answer-03",
+          "text": "A long line used for lunging"
+        },
+        {
+          "id": "answer-04",
+          "text": "A neck rope used for control"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A cordeo, or neck rope, is a thin leather or rope loop placed around the base of the horse’s neck to allow riding without a bridle, halter, or bit. It is used in liberty work and some Natural Horsemanship methods, with the rider relying primarily on seat, balance, body cues, and light pressure from the neck rope to direct and stop the horse."
+    },
+    {
+      "id": "question-21",
+      "question": "What is a side-pull?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A soft wool pad under the girth"
+        },
+        {
+          "id": "answer-02",
+          "text": "A safety fitting on the saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A bitless bridle with side rings"
+        },
+        {
+          "id": "answer-04",
+          "text": "A strap used to secure a winter blanket"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A side-pull is a simple bitless bridle that controls the horse without a bit by applying direct pressure to the nose. The reins attach to rings on the sides of the noseband, making the rein aids straightforward and gentle on the mouth. Side-pulls are often used when starting young horses."
+    },
+    {
+      "id": "question-22",
+      "question": "What is a bosal?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A long leather dressage whip"
+        },
+        {
+          "id": "answer-02",
+          "text": "A braided nosepiece used in a traditional bitless bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A safety release for the stirrup"
+        },
+        {
+          "id": "answer-04",
+          "text": "A metal curb chain under the jaw"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A bosal is a stiff, usually rawhide-braided nosepiece that forms the main part of a traditional Californian-style hackamore. It controls the horse without a bit by applying pressure to the nose and jaw. The mecate rein is tied around the bosal’s large heel knot beneath the horse’s chin."
+    },
+    {
+      "id": "question-23",
+      "question": "What is a cavesson?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A protective rubber hoof boot"
+        },
+        {
+          "id": "answer-02",
+          "text": "A strap that prevents the saddle from sliding forward"
+        },
+        {
+          "id": "answer-03",
+          "text": "A nosepiece with rings used for lunging"
+        },
+        {
+          "id": "answer-04",
+          "text": "A soft fleece pad under the saddle"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A lunging cavesson is a sturdy bitless nosepiece, often reinforced internally, used for lunging, in-hand schooling, and gymnastic work. Its key feature is a set of metal rings on the noseband, with the lunge line usually attached to the central ring. This allows the handler to influence the horse’s head and balance without pulling the bit sideways in the mouth."
+    },
+    {
+      "id": "question-24",
+      "question": "What is a Pelham bit?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A combined leverage bit"
+        },
+        {
+          "id": "answer-02",
+          "text": "A safety fitting that releases a stirrup leather"
+        },
+        {
+          "id": "answer-03",
+          "text": "A wide strap used to secure a blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "A protective neoprene hoof boot"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A Pelham is a hybrid leverage bit that combines some features of a snaffle and a curb bit. Its shanks allow both direct and leverage action, and it may be ridden with two reins or, with roundings, one rein. This lets the rider use a milder direct action while retaining access to stronger curb leverage when needed."
+    },
+    {
+      "id": "question-25",
+      "question": "What is a Kimberwicke (Kimblewick)?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A strap used to pull the saddle flaps together"
+        },
+        {
+          "id": "answer-02",
+          "text": "A D-shaped leverage bit used with a curb chain"
+        },
+        {
+          "id": "answer-03",
+          "text": "A warm protective horse blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "A brush for gentle hoof care"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A Kimberwicke, also called a Kimblewick, is a leverage bit that sits between a simple snaffle and a stronger curb-type bit such as a Pelham. It has characteristic D-shaped cheek pieces, often with slots that alter the amount of leverage, and is used with a curb chain. It is normally ridden with one rein and can provide extra control for strong horses, including in jumping."
+    },
+    {
+      "id": "question-26",
+      "question": "What are draw reins?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A metal fitting used to secure a stirrup"
+        },
+        {
+          "id": "answer-02",
+          "text": "Protective rubber bell boots"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap that prevents the saddle from sliding backward"
+        },
+        {
+          "id": "answer-04",
+          "text": "Long auxiliary reins running from the girth through the bit rings"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Draw reins are long auxiliary reins that run from the girth, pass between the horse’s front legs and through the bit rings, and then continue to the rider’s hands. When engaged, they increase downward and backward leverage if the horse raises its head or pushes its nose forward. When the horse lowers the neck, rounds correctly, and yields at the poll, the draw reins should become slack. Because they can exert considerable leverage, they require skilled and restrained use."
+    },
+    {
+      "id": "question-27",
+      "question": "What is a jaw twitch?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A protective sheet for strong wind"
+        },
+        {
+          "id": "answer-02",
+          "text": "A metal ring used to attach a rein"
+        },
+        {
+          "id": "answer-03",
+          "text": "A loop tightened around the lower jaw for restraint"
+        },
+        {
+          "id": "answer-04",
+          "text": "A soft fleece pad under the noseband"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A jaw twitch is a restraining loop or strap tightened around the horse’s lower jaw, over the toothless bars, to control a difficult or aggressive animal during necessary procedures. It works by causing significant discomfort that distracts the horse and may allow a veterinarian or farrier to work more safely. Because it can injure the mouth and is a severe restraint, it should be used only in exceptional circumstances and for the shortest possible time when safer methods are inadequate."
+    },
+    {
+      "id": "question-28",
+      "question": "What is a lunge whip?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A protective rain sheet"
+        },
+        {
+          "id": "answer-02",
+          "text": "A long whip used for lunging"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap used to pull the saddle flaps together"
+        },
+        {
+          "id": "answer-04",
+          "text": "A metal stirrup-leather fitting"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A lunge whip is a long training whip with a flexible shaft, used by a trainer when working a horse on the lunge or at liberty. It typically has a lightweight shaft around 1.5–2 meters long and a long lash with a fine cracker at the end. It is used as an aid to send the horse forward and to influence tempo and rhythm from a distance, effectively replacing the rider’s leg and whip aids."
+    },
+    {
+      "id": "question-29",
+      "question": "What is a stirrup connecting strap?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A strap under the belly connecting the stirrups"
+        },
+        {
+          "id": "answer-02",
+          "text": "A long elastic lunge line"
+        },
+        {
+          "id": "answer-03",
+          "text": "A protective fly sheet"
+        },
+        {
+          "id": "answer-04",
+          "text": "A metal curb chain under a curb bit"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A stirrup connecting strap is a special strap that passes beneath the horse’s belly and firmly links the right and left stirrups. It is used with some Cossack and trick-riding saddles to prevent the stirrups from swinging or spreading apart, giving the rider a secure support when performing acrobatic maneuvers, jumps, low hangs, and other mounted tricks at speed."
+    },
+    {
+      "id": "question-30",
+      "question": "What are saddle billets?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Metal buckles on the bridle"
+        },
+        {
+          "id": "answer-02",
+          "text": "Reins used to fix the head position"
+        },
+        {
+          "id": "answer-03",
+          "text": "Straps used to attach the girth"
+        },
+        {
+          "id": "answer-04",
+          "text": "Straps used to suspend the stirrups"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Saddle billets are strong leather or reinforced synthetic straps fixed securely to the saddle tree beneath the saddle flaps and hanging down on both sides of the horse. The girth buckles onto these billets, allowing it to encircle the horse just behind the front legs and hold the saddle firmly in place while distributing pressure safely."
+    },
+    {
+      "id": "question-31",
+      "question": "What is a sheepskin half pad?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A brush used for grooming"
+        },
+        {
+          "id": "answer-02",
+          "text": "An insulated blanket for the hindquarters"
+        },
+        {
+          "id": "answer-03",
+          "text": "A fleece cover for the bridle"
+        },
+        {
+          "id": "answer-04",
+          "text": "A cushioning pad placed under the saddle"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A sheepskin half pad is a soft cushioning pad made from natural sheepskin or dense synthetic fleece. It is placed over the saddle cloth directly beneath the saddle to absorb shock, distribute pressure across the horse’s back, reduce rubbing, and compensate for small imperfections in saddle fit, improving the horse’s comfort."
+    },
+    {
+      "id": "question-32",
+      "question": "What are fleece bandages?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Strips used for cleaning hooves"
+        },
+        {
+          "id": "answer-02",
+          "text": "Insulated straps for the saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Soft protective leg wraps"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cloth bandages for the tail"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Fleece bandages, also known as polo wraps, are long strips of soft, dense polyester fleece wrapped around the horse’s lower legs, usually from below the knee or hock down toward the fetlock. Depending on how they are used, they can provide warmth, light support, and protection from minor knocks or interference during exercise, stall rest, or transport. Correct application is essential to avoid uneven or excessive pressure."
+    },
+    {
+      "id": "question-33",
+      "question": "What is a breastplate?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A wide collar used for tying a horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A strap system that prevents the saddle from sliding backward"
+        },
+        {
+          "id": "answer-03",
+          "text": "Protective chest armor against stones"
+        },
+        {
+          "id": "answer-04",
+          "text": "A decorative chest ornament"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A breastplate is a piece of tack made from leather or synthetic straps that attaches to the front of the saddle and passes across the horse’s chest, with part of the system often connecting to the girth between the front legs. Its main purpose is to prevent the saddle from sliding backward, especially when riding uphill, jumping large fences, or accelerating sharply."
+    },
+    {
+      "id": "question-34",
+      "question": "What is a saddle tree?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A leather knee pad"
+        },
+        {
+          "id": "answer-02",
+          "text": "The rigid internal framework of a saddle"
+        },
+        {
+          "id": "answer-03",
+          "text": "A metal ring used for attaching a rein"
+        },
+        {
+          "id": "answer-04",
+          "text": "A strap used to secure the tail"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The saddle tree is the rigid internal framework that determines the saddle’s shape, size, and curvature. It may be made from wood, laminated materials, plastic, fiberglass, or carbon fiber and may include metal reinforcement. Its fundamental role is to carry and distribute the rider’s weight over the horse’s back while keeping pressure away from the spine and withers, helping prevent injury and allowing freedom of movement."
+    },
+    {
+      "id": "question-35",
+      "question": "What are overreach boots?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leather knee pads"
+        },
+        {
+          "id": "answer-02",
+          "text": "Bags attached to the saddle pommel"
+        },
+        {
+          "id": "answer-03",
+          "text": "Holsters for carrying pistols"
+        },
+        {
+          "id": "answer-04",
+          "text": "Protective boots worn around the hooves"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Overreach boots, also called bell boots, are cone-shaped protective boots made from durable rubber, neoprene, or leather. They fit around the lower pastern and hoof area, covering the coronary band and heels, and protect against overreaching and interference injuries when a hind hoof strikes or steps on a front hoof or when one leg knocks another."
+    },
+    {
+      "id": "question-36",
+      "question": "What is a flash strap?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A hoof pick"
+        },
+        {
+          "id": "answer-02",
+          "text": "A soft rein for beginners"
+        },
+        {
+          "id": "answer-03",
+          "text": "A strap that limits excessive mouth opening"
+        },
+        {
+          "id": "answer-04",
+          "text": "Leather saddle conditioner"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A flash strap is the narrow removable lower strap of a flash noseband. It fastens below the bit around the horse’s muzzle and helps limit excessive opening of the mouth, crossing of the jaw, or attempts to evade the bit, allowing the rider to maintain a steadier contact. Like any noseband component, it must be fitted correctly and not overtightened."
+    },
+    {
+      "id": "question-37",
+      "question": "What is a crupper?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A soft pad under the girth"
+        },
+        {
+          "id": "answer-02",
+          "text": "A strap that prevents the saddle from sliding forward"
+        },
+        {
+          "id": "answer-03",
+          "text": "A metal ring on the bridle"
+        },
+        {
+          "id": "answer-04",
+          "text": "A protective joint bandage"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A crupper is a long, strong leather strap attached to the rear of the saddle and ending in a padded loop that passes beneath the horse’s tail. Its purpose is to keep the saddle from sliding forward onto the withers and neck, particularly on steep descents, on horses with low withers, or in situations where the saddle tends to move forward."
+    },
+    {
+      "id": "question-38",
+      "question": "What is a training surcingle?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A feed bag for a horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A metal link in a chain"
+        },
+        {
+          "id": "answer-03",
+          "text": "Leather hoof protection"
+        },
+        {
+          "id": "answer-04",
+          "text": "A training strap fitted with rings"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A training surcingle is a broad, strong strap that encircles the horse’s body just behind the withers and fastens beneath the belly without carrying a saddle. It has multiple rings positioned along the top and sides for attaching training aids such as side reins, a chambon, or a gogue during lunging. Surcingles may also be fitted with handles for vaulting or trick-riding practice."
+    },
+    {
+      "id": "question-39",
+      "question": "What is a bit mouthpiece?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A tool for filing teeth"
+        },
+        {
+          "id": "answer-02",
+          "text": "A strap under the horse’s chin"
+        },
+        {
+          "id": "answer-03",
+          "text": "The part of the bit that lies in the mouth"
+        },
+        {
+          "id": "answer-04",
+          "text": "A dental scraper for cleaning hooves"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The mouthpiece is the working metal, plastic, or rubber part of a snaffle, curb, or other bit that lies inside the horse’s mouth on the toothless bars of the lower jaw between the incisors and cheek teeth. It receives the rider’s rein signals and transmits pressure to the tongue, bars, and corners of the mouth, helping control direction, speed, and stopping."
+    },
+    {
+      "id": "question-40",
+      "question": "The thinner the bit mouthpiece, the bit is generally:",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Harsher"
+        },
+        {
+          "id": "answer-02",
+          "text": "Softer"
+        },
+        {
+          "id": "answer-03",
+          "text": "Longer"
+        },
+        {
+          "id": "answer-04",
+          "text": "More elegant"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "As a general rule, a thinner mouthpiece is considered more severe because the same rein force is concentrated over a smaller contact area on the tongue and bars of the horse’s mouth, increasing localized pressure."
+    }
+  ],
+  "questionImagesAlt": "Horse tack item for identification",
+  "source_content_hash": "c89db8c51635d4be94a181fa08518cfcaba3bf31af81698040d21c0aeaeef47d",
+  "english_quiz": "amunition-words-en",
+  "previous_quiz": "taking-care-horse-en",
+  "next_quiz": "anatomy-en",
+  "content_version": "a639ffc52b489dbf955eaf6952fb5933ad213467edfb8c40f082b4bf73bd0f1a"
+}

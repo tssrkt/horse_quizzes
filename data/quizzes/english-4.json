@@ -1,0 +1,881 @@
+{
+  "type": "vocabulary",
+  "title": "Лошадиная амуниция",
+  "slug": "english-4",
+  "published": true,
+  "publication_date": "2026-08-05T09:58:00+00:00",
+  "difficulty": "medium",
+  "short_description": "Эта викторина посвящена английской терминологии, связанной с конной амуницией. Разберемся с названиями седел, уздечек, удил и всего прочего, необходимого для верховой езды.",
+  "intro": "Эта викторина посвящена английской терминологии, связанной с конной амуницией. Разберемся с названиями седел, уздечек, удил и всего прочего, необходимого для верховой езды.",
+  "cover": "img/covers/English_04-1.webp",
+  "tags": [
+    "dictionary",
+    "amunition"
+  ],
+  "previous_quiz": "english-3",
+  "parts": [
+    {
+      "id": "8fcb270d-4145-4247-92f5-9fc6441758c8",
+      "title": "Уздечка",
+      "word_count": 24,
+      "vocabulary": [
+        {
+          "english": "Bridle",
+          "russian": "оголовье, уздечка",
+          "category": "Bridle"
+        },
+        {
+          "english": "Snaffle bridle",
+          "russian": "трензельная уздечка",
+          "category": "Bridle"
+        },
+        {
+          "english": "Double bridle (Weymouth bridle)",
+          "russian": "мундштучная уздечка",
+          "category": "Bridle"
+        },
+        {
+          "english": "Show bridle",
+          "russian": "выставочная уздечка",
+          "category": "Bridle"
+        },
+        {
+          "english": "Bitless bridle",
+          "russian": "бестрензельная уздечка",
+          "category": "Bridle"
+        },
+        {
+          "english": "Western bridle",
+          "russian": "ковбойская уздечка",
+          "category": "Bridle"
+        },
+        {
+          "english": "Hackamore",
+          "russian": "хакамора",
+          "category": "Bridle"
+        },
+        {
+          "english": "Natural halter",
+          "russian": "естественный недоуздок",
+          "category": "Bridle"
+        },
+        {
+          "english": "To put the bridle on",
+          "russian": "взнуздать",
+          "category": "Bridle"
+        },
+        {
+          "english": "To put the bridle off",
+          "russian": "разнуздать",
+          "category": "Bridle"
+        },
+        {
+          "english": "Stitched bridle",
+          "russian": "уздечка с прикрепленным железом",
+          "category": "Bridle"
+        },
+        {
+          "english": "Buckled bridle",
+          "russian": "уздечка с железом на пряжках",
+          "category": "Bridle"
+        },
+        {
+          "english": "Bridle with studs",
+          "russian": "уздечка с железом на заклепках",
+          "category": "Bridle"
+        },
+        {
+          "english": "Reins",
+          "russian": "поводья",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Headpiece",
+          "russian": "затылочный ремень",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Cheekpiece",
+          "russian": "нащечный ремень",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Throatlash (throatpatch)",
+          "russian": "подбородный ремень",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Browband",
+          "russian": "налобный ремень",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Noseband",
+          "russian": "нахрапный ремень (капсюль)",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Snaffle rein",
+          "russian": "трензельный повод",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Curb rein",
+          "russian": "мундштучный повод",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Flash noseband",
+          "russian": "ирландский капсюль («сопля»)",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Drop noseband",
+          "russian": "ганноверский капсюль",
+          "category": "Bridle parts"
+        },
+        {
+          "english": "Grakle noseband",
+          "russian": "мексиканский капсюль",
+          "category": "Bridle parts"
+        }
+      ]
+    },
+    {
+      "id": "5cb11bb7-83c1-4fd8-a996-5ba485167680",
+      "title": "Железо",
+      "word_count": 26,
+      "vocabulary": [
+        {
+          "english": "Bit",
+          "russian": "железо",
+          "category": "Bits"
+        },
+        {
+          "english": "Plain mouthpiece",
+          "russian": "грызло без излома (сочленения)",
+          "category": "Bits"
+        },
+        {
+          "english": "Jointed mouthpiece",
+          "russian": "грызло с изломом (сочленением)",
+          "category": "Bits"
+        },
+        {
+          "english": "Half-moon mouthpiece",
+          "russian": "изогнутое грызло",
+          "category": "Bits"
+        },
+        {
+          "english": "Snaffle bit",
+          "russian": "трензель",
+          "category": "Bits"
+        },
+        {
+          "english": "Curb bit (Weymouth curb)",
+          "russian": "мундштук",
+          "category": "Bits"
+        },
+        {
+          "english": "Gag",
+          "russian": "гаг",
+          "category": "Bits"
+        },
+        {
+          "english": "Bridoon",
+          "russian": "трензелька",
+          "category": "Bits"
+        },
+        {
+          "english": "Snaffle with cheeks (cheek snaffle)",
+          "russian": "трензель с усиками",
+          "category": "Bits"
+        },
+        {
+          "english": "Eggbutt snaffle",
+          "russian": "трензель с округлыми кольцами («империал»)",
+          "category": "Bits"
+        },
+        {
+          "english": "Loose-ring snaffle",
+          "russian": "обычный трензель",
+          "category": "Bits"
+        },
+        {
+          "english": "Rubber snaffle",
+          "russian": "резиновый трензель",
+          "category": "Bits"
+        },
+        {
+          "english": "French-link snaffle",
+          "russian": "трензель с «восьмеркой»",
+          "category": "Bits"
+        },
+        {
+          "english": "D-ring snaffle",
+          "russian": "трензель с D-образными кольцами",
+          "category": "Bits"
+        },
+        {
+          "english": "Bar bit",
+          "russian": "трензелька, трензель без сочленений",
+          "category": "Bits"
+        },
+        {
+          "english": "Pelham",
+          "russian": "пелям",
+          "category": "Bits"
+        },
+        {
+          "english": "Liverpool bit",
+          "russian": "ливерпульский мундштук",
+          "category": "Bits"
+        },
+        {
+          "english": "Mouthpiece",
+          "russian": "грызло",
+          "category": "Bit parts"
+        },
+        {
+          "english": "Rings",
+          "russian": "кольца трензеля или мундштука",
+          "category": "Bit parts"
+        },
+        {
+          "english": "Slide-mouth curb",
+          "russian": "дутый трензель",
+          "category": "Bit parts"
+        },
+        {
+          "english": "Port",
+          "russian": "надъязычная дуга (железа, особенно мундштука)",
+          "category": "Bit parts"
+        },
+        {
+          "english": "Cheeks",
+          "russian": "рычаги (мундштука), щечки (трензеля)",
+          "category": "Bit parts"
+        },
+        {
+          "english": "Shanks",
+          "russian": "щечки мундштука",
+          "category": "Bit parts"
+        },
+        {
+          "english": "Hooks",
+          "russian": "кольца мундштука для пристегивания цепочки",
+          "category": "Bit parts"
+        },
+        {
+          "english": "Curb chain",
+          "russian": "подбородная цепочка",
+          "category": "Bit parts"
+        },
+        {
+          "english": "Lipstrap",
+          "russian": "подцепочник",
+          "category": "Bit parts"
+        }
+      ]
+    },
+    {
+      "id": "37512466-121a-477c-97f8-dc01b6464a41",
+      "title": "Седло",
+      "word_count": 42,
+      "vocabulary": [
+        {
+          "english": "Saddle",
+          "russian": "седло",
+          "category": "Saddles"
+        },
+        {
+          "english": "General purpose saddle",
+          "russian": "универсальное седло",
+          "category": "Saddles"
+        },
+        {
+          "english": "Dressage saddle",
+          "russian": "выездковое седло",
+          "category": "Saddles"
+        },
+        {
+          "english": "Jumping saddle",
+          "russian": "конкурное седло",
+          "category": "Saddles"
+        },
+        {
+          "english": "Hunting saddle",
+          "russian": "охотничье седло",
+          "category": "Saddles"
+        },
+        {
+          "english": "Polo saddle",
+          "russian": "седло для поло",
+          "category": "Saddles"
+        },
+        {
+          "english": "Racing saddle",
+          "russian": "скаковое седло («бабочка»)",
+          "category": "Saddles"
+        },
+        {
+          "english": "Side saddle",
+          "russian": "дамское седло",
+          "category": "Saddles"
+        },
+        {
+          "english": "Western saddle",
+          "russian": "ковбойское седло",
+          "category": "Saddles"
+        },
+        {
+          "english": "Portuguese saddle",
+          "russian": "португальское седло",
+          "category": "Saddles"
+        },
+        {
+          "english": "Endurance saddle",
+          "russian": "седло для пробегов",
+          "category": "Saddles"
+        },
+        {
+          "english": "Saddle seat (Lane Fox saddle)",
+          "russian": "американское седло для шоу",
+          "category": "Saddles"
+        },
+        {
+          "english": "Synthetic saddle",
+          "russian": "седло из искусственной кожи",
+          "category": "Saddles"
+        },
+        {
+          "english": "Tree",
+          "russian": "ленчик",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Seat",
+          "russian": "сидение седла",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Twist",
+          "russian": "линия подъема передней луки, самая узкая часть сидения",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Stirrup bar",
+          "russian": "шнеллер",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Flap (skin)",
+          "russian": "крыло седла",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Skirt (jockey)",
+          "russian": "крылышко, закрывающее шнеллер",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Knee roll",
+          "russian": "коленная подушка",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Panels",
+          "russian": "подушки, набивка",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Gullet",
+          "russian": "пространство между подушками седла, благодаря которому седло не касается позвоночника",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Girth straps (billets)",
+          "russian": "приструги",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Pommel (head)",
+          "russian": "передняя лука",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Cantle",
+          "russian": "задняя лука",
+          "category": "Saddle parts"
+        },
+        {
+          "english": "Accessories",
+          "russian": "принадлежности",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Stirrup leather",
+          "russian": "путлище",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Stirrup (stirrup iron)",
+          "russian": "стремя",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Stirrup leather keeper",
+          "russian": "петелька на крыле седла, в которую вправляется конец путлища",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Girth",
+          "russian": "подпруга",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Surcingle",
+          "russian": "верхняя подпруга",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Numnah",
+          "russian": "чепрак (вальтрап)",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Weight cloth",
+          "russian": "накладка для добавления веса (на скачках)",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Breast-plate (Aintree)",
+          "russian": "подперсье",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "Hunting breast-plate",
+          "russian": "охотничье подперсье",
+          "category": "Saddle accessories"
+        },
+        {
+          "english": "To adjust (to fit the saddle)",
+          "russian": "подгонять седло",
+          "category": "Saddling"
+        },
+        {
+          "english": "To saddle a horse",
+          "russian": "седлать лошадь",
+          "category": "Saddling"
+        },
+        {
+          "english": "To tighten the girth",
+          "russian": "затягивать подпруги",
+          "category": "Saddling"
+        },
+        {
+          "english": "To loosen a girth",
+          "russian": "ослаблять подпруги",
+          "category": "Saddling"
+        },
+        {
+          "english": "To unsaddle",
+          "russian": "расседлывать",
+          "category": "Saddling"
+        },
+        {
+          "english": "Harness-maker (Saddler)",
+          "russian": "седельный мастер (шорник)",
+          "category": "Saddlery"
+        },
+        {
+          "english": "Saddler's shop",
+          "russian": "шорная мастерская, магазин шорных изделий",
+          "category": "Saddlery"
+        }
+      ]
+    },
+    {
+      "id": "c597368c-300e-4c21-840f-74e49c428871",
+      "title": "Упряжь",
+      "word_count": 42,
+      "vocabulary": [
+        {
+          "english": "Breastcollar harness",
+          "russian": "шорная упряжь",
+          "category": "Harness"
+        },
+        {
+          "english": "Full collar harness",
+          "russian": "хомутная упряжь",
+          "category": "Harness"
+        },
+        {
+          "english": "Driving bridle",
+          "russian": "оголовье",
+          "category": "Harness"
+        },
+        {
+          "english": "Collar",
+          "russian": "хомут",
+          "category": "Harness"
+        },
+        {
+          "english": "Hames",
+          "russian": "клещи хомута",
+          "category": "Harness"
+        },
+        {
+          "english": "Chain",
+          "russian": "цепь, соединяющая нижние концы клещей хомута",
+          "category": "Harness"
+        },
+        {
+          "english": "Hame strap",
+          "russian": "ремень, соединяющий нижние концы клещей хомута",
+          "category": "Harness"
+        },
+        {
+          "english": "Metal link",
+          "russian": "металлическая петля, соединяющая нижние концы клещей хомута",
+          "category": "Harness"
+        },
+        {
+          "english": "Bow (shaft-bow)",
+          "russian": "дуга (в русской упряжи)",
+          "category": "Harness"
+        },
+        {
+          "english": "Reins (lines)",
+          "russian": "вожжи",
+          "category": "Harness"
+        },
+        {
+          "english": "Backstrap with crupper dock",
+          "russian": "нахвостник",
+          "category": "Harness"
+        },
+        {
+          "english": "Saddle (pad)",
+          "russian": "седелка",
+          "category": "Harness"
+        },
+        {
+          "english": "Britchen (breechen, breeching)",
+          "russian": "шлея",
+          "category": "Harness"
+        },
+        {
+          "english": "Breast collar",
+          "russian": "шорка",
+          "category": "Harness"
+        },
+        {
+          "english": "Shafts",
+          "russian": "оглобли",
+          "category": "Harness"
+        },
+        {
+          "english": "Tug",
+          "russian": "постромка, гуж",
+          "category": "Harness"
+        },
+        {
+          "english": "Belly strap",
+          "russian": "подпруга",
+          "category": "Harness"
+        },
+        {
+          "english": "Traces",
+          "russian": "постромки",
+          "category": "Harness"
+        },
+        {
+          "english": "Terrets",
+          "russian": "кольца для вожжей",
+          "category": "Harness"
+        },
+        {
+          "english": "Tenet",
+          "russian": "кольцо для вожжей",
+          "category": "Harness"
+        },
+        {
+          "english": "Winkers (blinders, blinkers)",
+          "russian": "шоры, наглазники",
+          "category": "Harness"
+        },
+        {
+          "english": "Pole strap",
+          "russian": "нашильник",
+          "category": "Harness"
+        },
+        {
+          "english": "Pole",
+          "russian": "дышло",
+          "category": "Harness"
+        },
+        {
+          "english": "Singletree",
+          "russian": "валёк",
+          "category": "Harness"
+        },
+        {
+          "english": "Crupper",
+          "russian": "ободочный ремень шлеи, подхвостник",
+          "category": "Harness"
+        },
+        {
+          "english": "Buckle",
+          "russian": "пряжка",
+          "category": "Harness"
+        },
+        {
+          "english": "Belly band",
+          "russian": "подбрюшник",
+          "category": "Harness"
+        },
+        {
+          "english": "Breeching strap",
+          "russian": "гуж",
+          "category": "Harness"
+        },
+        {
+          "english": "Wheels",
+          "russian": "колеса",
+          "category": "Harness"
+        },
+        {
+          "english": "Vehicle body",
+          "russian": "кузов",
+          "category": "Harness"
+        },
+        {
+          "english": "Springs",
+          "russian": "рессоры",
+          "category": "Harness"
+        },
+        {
+          "english": "Swingle tree",
+          "russian": "валёк",
+          "category": "Harness"
+        },
+        {
+          "english": "Seat",
+          "russian": "козлы",
+          "category": "Harness"
+        },
+        {
+          "english": "Footboard",
+          "russian": "подножка",
+          "category": "Harness"
+        },
+        {
+          "english": "Dashboard",
+          "russian": "крыло",
+          "category": "Harness"
+        },
+        {
+          "english": "Upholstery",
+          "russian": "обивка сиденья",
+          "category": "Harness"
+        },
+        {
+          "english": "Brake",
+          "russian": "тормоз",
+          "category": "Harness"
+        },
+        {
+          "english": "Carriage lamp",
+          "russian": "фонарь",
+          "category": "Harness"
+        },
+        {
+          "english": "Driving whip",
+          "russian": "бич",
+          "category": "Harness"
+        },
+        {
+          "english": "Apron",
+          "russian": "полость, покрывало",
+          "category": "Harness"
+        },
+        {
+          "english": "Harness horse",
+          "russian": "упряжная лошадь",
+          "category": "Harness"
+        },
+        {
+          "english": "Carriage horse",
+          "russian": "пристяжная лошадь",
+          "category": "Harness"
+        }
+      ]
+    },
+    {
+      "id": "6cab9554-5eaf-4558-982b-3fb7d369301c",
+      "title": "Остальное",
+      "word_count": 31,
+      "vocabulary": [
+        {
+          "english": "Martingales and lungeing gear",
+          "russian": "мартингалы и другие вспомогательные приспособления",
+          "category": "Martingales"
+        },
+        {
+          "english": "Running martingale",
+          "russian": "охотничий мартингал",
+          "category": "Martingales"
+        },
+        {
+          "english": "Standing martingale",
+          "russian": "мертвый мартингал",
+          "category": "Martingales"
+        },
+        {
+          "english": "Irish martingale",
+          "russian": "ирландский мартингал",
+          "category": "Martingales"
+        },
+        {
+          "english": "Draw-reins",
+          "russian": "скользящие поводья",
+          "category": "Martingales"
+        },
+        {
+          "english": "Side-reins",
+          "russian": "развязки, цирковой арнир",
+          "category": "Martingales"
+        },
+        {
+          "english": "Lungeing rein",
+          "russian": "корда",
+          "category": "Lunging"
+        },
+        {
+          "english": "Roller",
+          "russian": "гурта, кордовая подпруга",
+          "category": "Lunging"
+        },
+        {
+          "english": "Cavesson",
+          "russian": "капцунг, кавессон",
+          "category": "Lunging"
+        },
+        {
+          "english": "Crupper",
+          "russian": "хвостовой ремень, пахвы",
+          "category": "Lunging"
+        },
+        {
+          "english": "Pillars",
+          "russian": "пиляры",
+          "category": "Lunging"
+        },
+        {
+          "english": "Long reins",
+          "russian": "вожжи",
+          "category": "Lunging"
+        },
+        {
+          "english": "Chambon",
+          "russian": "шамбон",
+          "category": "Lunging"
+        },
+        {
+          "english": "Whips and spurs",
+          "russian": "бичи и шпоры",
+          "category": "Whips"
+        },
+        {
+          "english": "Cane",
+          "russian": "стек",
+          "category": "Whips"
+        },
+        {
+          "english": "Riding whip",
+          "russian": "хлыст",
+          "category": "Whips"
+        },
+        {
+          "english": "Hunting whip",
+          "russian": "плеть, кнут, нагайка, охотничий хлыст",
+          "category": "Whips"
+        },
+        {
+          "english": "Lungeing whip",
+          "russian": "бич, шамбарьер",
+          "category": "Whips"
+        },
+        {
+          "english": "Race whip",
+          "russian": "скаковой хлыст",
+          "category": "Whips"
+        },
+        {
+          "english": "Dressage whip",
+          "russian": "хлыст для выездки",
+          "category": "Whips"
+        },
+        {
+          "english": "Thong",
+          "russian": "ремень бича",
+          "category": "Whips"
+        },
+        {
+          "english": "Lash",
+          "russian": "кнут, хлыст",
+          "category": "Whips"
+        },
+        {
+          "english": "Spurs",
+          "russian": "шпоры",
+          "category": "Spurs"
+        },
+        {
+          "english": "Neck",
+          "russian": "шейка, шенкель (шпоры)",
+          "category": "Spurs"
+        },
+        {
+          "english": "Rowel",
+          "russian": "колесико",
+          "category": "Spurs"
+        },
+        {
+          "english": "Buckle",
+          "russian": "пряжка",
+          "category": "Spurs"
+        },
+        {
+          "english": "Dummy spur",
+          "russian": "тупая шпора, гаркрот",
+          "category": "Spurs"
+        },
+        {
+          "english": "Sharp spur",
+          "russian": "острая шпора",
+          "category": "Spurs"
+        },
+        {
+          "english": "Strapped spur",
+          "russian": "пристегивающаяся шпора",
+          "category": "Spurs"
+        },
+        {
+          "english": "Straps",
+          "russian": "ремни для пристегивания шпор",
+          "category": "Spurs"
+        },
+        {
+          "english": "Spur-maker",
+          "russian": "мастер, изготавливающий шпоры",
+          "category": "Spurs"
+        }
+      ]
+    }
+  ],
+  "word_count": 165,
+  "next_quiz": "english-5",
+  "content_version": "87b676337a46155c578a2cd911a95ba52b7bf7b4e4c07bb543debf802a93cbda"
+}

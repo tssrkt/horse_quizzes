@@ -1,0 +1,1065 @@
+{
+  "difficulty": "high",
+  "cover": "img/covers/Portrait_05_Spotted.webp",
+  "publication_date": "2026-08-26T09:25:00+00:00",
+  "type": "english",
+  "slug": "appaloosa-en",
+  "source_quiz": "appaloosa",
+  "tags": [
+    "english",
+    "horses",
+    "images"
+  ],
+  "published": true,
+  "title": "Appaloosa Patterns",
+  "short_description": "Leopard Complex patterns come in an amazing variety of spots and markings. Leopard, blanket, snowflake, and other patterns—test how well you can tell them apart and recognize their features.",
+  "intro": "Leopard Complex patterns come in an amazing variety of spots and markings. Leopard, blanket, snowflake, and other patterns—test how well you can tell them apart and recognize their features.",
+  "questionImagesAlt": "Photo of a horse for identifying its Leopard Complex pattern",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/01.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Speckled"
+        },
+        {
+          "id": "answer-03",
+          "text": "Marble"
+        },
+        {
+          "id": "answer-04",
+          "text": "Varnish roan"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-02",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/02.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Snowcap"
+        },
+        {
+          "id": "answer-03",
+          "text": "Marble"
+        },
+        {
+          "id": "answer-04",
+          "text": "Varnish roan"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Snowcap, also called a white blanket, has a dark base color over the head, neck, chest, and legs, while a clearly defined solid white blanket covers the croup and loin. Unlike a spotted blanket, this white area contains no dark spots of the base color. The boundary between the dark forehand and white hindquarters may be sharply defined or slightly softened by scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-03",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/03.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Speckled"
+        },
+        {
+          "id": "answer-03",
+          "text": "Varnish roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mottled"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-04",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/04.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Snowcap"
+        },
+        {
+          "id": "answer-03",
+          "text": "Frost blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mottled"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A frost blanket combines a lighter blanket over the hindquarters with a frosted or roaned effect. Instead of forming a solid white snowcap, the blanket contains a mixture of white and colored hairs, creating the appearance of a light coating of frost over the loin and hindquarters.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-05",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/05.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-06",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/06.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-07",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/07.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Snowcap"
+        },
+        {
+          "id": "answer-03",
+          "text": "Snowflake"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mottled"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The snowflake pattern has a dark base coat scattered with small white spots that resemble falling snowflakes. They are usually most concentrated over the croup and hindquarters, although they may spread onto the back and neck. The number and size of these white spots often increase with age, so the horse may become progressively lighter.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-08",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/08.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Mottled"
+        },
+        {
+          "id": "answer-02",
+          "text": "Speckled"
+        },
+        {
+          "id": "answer-03",
+          "text": "Marble"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frost"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The frost pattern is characterized by a diffuse scattering of white hairs over a darker base coat, especially across the croup, back, and loin. There is no sharply defined solid white blanket; instead, white and colored hairs are intermingled, creating a lightly frosted appearance. It can resemble ordinary roaning, but Leopard Complex horses also show characteristic features such as striped hooves, mottled skin, and visible white sclera.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-09",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/09.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-10",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/10.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Few-spot leopard is the homozygous form of the leopard pattern, typically associated with Lp/Lp and extensive PATN1 patterning. The horse appears almost completely white, with only a few faint spots of the base color, often on the legs, groin, around the eyes, neck, or tailhead. Beneath the white hair, the skin is characteristically pink with dark mottling; the hooves are vertically striped and the white sclera is visible, revealing the horse's Leopard Complex phenotype.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-11",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/11.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-12",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/12.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-13",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/13.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-14",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/14.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Snowcap, also called a white blanket, has a dark base color over the head, neck, chest, and legs, while a clearly defined solid white blanket covers the croup and loin. Unlike a spotted blanket, this white area contains no dark spots of the base color. The boundary between the dark forehand and white hindquarters may be sharply defined or slightly softened by scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-15",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/15.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Marble + Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Marble + Frost"
+        },
+        {
+          "id": "answer-03",
+          "text": "Varnish roan + Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Varnish roan + Frost"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Varnish roan is a progressive, uneven lightening of the coat caused by increasing intermixture of white hairs with age. Dark pigment tends to remain over bony prominences and areas where the skin lies close to bone, especially the face and cheekbones, shoulders, elbows, hips, knees, and hocks. The face often retains a characteristic dark V-shaped area. Unlike classic roan, varnish roan changes progressively over the years and is accompanied by Leopard Complex features such as striped hooves, mottled skin, and visible white sclera.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-16",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/16.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Speckled"
+        },
+        {
+          "id": "answer-04",
+          "text": "Marble"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Few-spot leopard is the homozygous form of the leopard pattern, typically associated with Lp/Lp and extensive PATN1 patterning. The horse appears almost completely white, with only a few faint spots of the base color, often on the legs, groin, around the eyes, neck, or tailhead. Beneath the white hair, the skin is characteristically pink with dark mottling; the hooves are vertically striped and the white sclera is visible, revealing the horse's Leopard Complex phenotype.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-17",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/17.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-18",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/18.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Marble"
+        },
+        {
+          "id": "answer-02",
+          "text": "Speckled"
+        },
+        {
+          "id": "answer-03",
+          "text": "Snowflake"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frost"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The frost pattern is characterized by a diffuse scattering of white hairs over a darker base coat, especially across the croup, back, and loin. There is no sharply defined solid white blanket; instead, white and colored hairs are intermingled, creating a lightly frosted appearance. It can resemble ordinary roaning, but Leopard Complex horses also show characteristic features such as striped hooves, mottled skin, and visible white sclera.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-19",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/19.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Speckled"
+        },
+        {
+          "id": "answer-04",
+          "text": "Mottled"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The speckled pattern is a rare and visually unusual Leopard Complex expression that can resemble flea-bitten gray. The horse appears nearly white, but very small, dense flecks of the base color are distributed across the body rather than the larger spots seen in leopard patterns. This phenotype may develop with age as expanding white areas leave only tiny remnants of colored hair. Mottled pink-and-dark skin, vertically striped hooves, and visible white sclera distinguish it from ordinary gray.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-20",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/20.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Mottled"
+        },
+        {
+          "id": "answer-02",
+          "text": "Marble"
+        },
+        {
+          "id": "answer-03",
+          "text": "Varnish roan"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frost"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The marble pattern is a chaotic, reticulated mixture of dark and white hairs across the body, producing a veined appearance reminiscent of natural marble. White hairs form irregular branching patterns without clear borders and may change subtly after seasonal shedding. Unlike varnish roan, dark pigment is not restricted mainly to bony prominences; darker marbled areas and veins may remain anywhere on the body, creating an asymmetric, high-contrast pattern.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-21",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/21.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Mottled + Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Speckled + Spotted blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "Marble + Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Varnish roan + Spotted blanket"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The marble pattern is a chaotic, reticulated mixture of dark and white hairs across the body, producing a veined appearance reminiscent of natural marble. White hairs form irregular branching patterns without clear borders and may change subtly after seasonal shedding. Unlike varnish roan, dark pigment is not restricted mainly to bony prominences; darker marbled areas and veins may remain anywhere on the body, creating an asymmetric, high-contrast pattern.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестный"
+    },
+    {
+      "id": "question-22",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/22.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-23",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/23.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Mottled + Frost blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Speckled + Frost blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "Snowflake + Frost blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frost + Frost blanket"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The snowflake pattern has a dark base coat scattered with small white spots that resemble falling snowflakes. They are usually most concentrated over the croup and hindquarters, although they may spread onto the back and neck. The number and size of these white spots often increase with age, so the horse may become progressively lighter.\nA frost blanket combines a lighter blanket over the hindquarters with a frosted or roaned effect. Instead of forming a solid white snowcap, the blanket contains a mixture of white and colored hairs, creating the appearance of a light coating of frost over the loin and hindquarters.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-24",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/24.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Varnish roan + Snowflake"
+        },
+        {
+          "id": "answer-02",
+          "text": "Marble + Snowflake"
+        },
+        {
+          "id": "answer-03",
+          "text": "Mottled + Snowflake"
+        },
+        {
+          "id": "answer-04",
+          "text": "Frost + Snowflake"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The marble pattern is a chaotic, reticulated mixture of dark and white hairs across the body, producing a veined appearance reminiscent of natural marble. White hairs form irregular branching patterns without clear borders and may change subtly after seasonal shedding. Unlike varnish roan, dark pigment is not restricted mainly to bony prominences; darker marbled areas and veins may remain anywhere on the body, creating an asymmetric, high-contrast pattern.\nThe snowflake pattern has a dark base coat scattered with small white spots that resemble falling snowflakes. They are usually most concentrated over the croup and hindquarters, although they may spread onto the back and neck. The number and size of these white spots often increase with age, so the horse may become progressively lighter.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-25",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/25.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-26",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/26.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-27",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/27.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Marble"
+        },
+        {
+          "id": "answer-02",
+          "text": "Mottled"
+        },
+        {
+          "id": "answer-03",
+          "text": "Frost"
+        },
+        {
+          "id": "answer-04",
+          "text": "No Leopard Complex pattern"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The mottled type has no large white blanket or clearly defined colored spots in the coat, so the horse may appear largely solid-colored. Its defining feature is the strong expression of secondary Leopard Complex characteristics, especially dense pink-and-dark mottling of the skin around the muzzle, eyes, lips, and groin, together with prominent white sclera and vertically striped hooves.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-28",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/28.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Speckled"
+        },
+        {
+          "id": "answer-04",
+          "text": "Spotted blanket"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-29",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/29.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Few-spot leopard is the homozygous form of the leopard pattern, typically associated with Lp/Lp and extensive PATN1 patterning. The horse appears almost completely white, with only a few faint spots of the base color, often on the legs, groin, around the eyes, neck, or tailhead. Beneath the white hair, the skin is characteristically pink with dark mottling; the hooves are vertically striped and the white sclera is visible, revealing the horse's Leopard Complex phenotype.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-30",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/30.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-31",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/31.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-32",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/32.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Snowflake + Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Peacock spots + Spotted blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "Frost + Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Varnish roan + Spotted blanket"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The snowflake pattern has a dark base coat scattered with small white spots that resemble falling snowflakes. They are usually most concentrated over the croup and hindquarters, although they may spread onto the back and neck. The number and size of these white spots often increase with age, so the horse may become progressively lighter.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-33",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/33.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестный"
+    },
+    {
+      "id": "question-34",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/34.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Varnish roan + Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Marble + Spotted blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "Frost + Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowflake + Spotted blanket"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Varnish roan is a progressive, uneven lightening of the coat caused by increasing intermixture of white hairs with age. Dark pigment tends to remain over bony prominences and areas where the skin lies close to bone, especially the face and cheekbones, shoulders, elbows, hips, knees, and hocks. The face often retains a characteristic dark V-shaped area. Unlike classic roan, varnish roan changes progressively over the years and is accompanied by Leopard Complex features such as striped hooves, mottled skin, and visible white sclera.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-35",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/35.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Few-spot leopard is the homozygous form of the leopard pattern, typically associated with Lp/Lp and extensive PATN1 patterning. The horse appears almost completely white, with only a few faint spots of the base color, often on the legs, groin, around the eyes, neck, or tailhead. Beneath the white hair, the skin is characteristically pink with dark mottling; the hooves are vertically striped and the white sclera is visible, revealing the horse's Leopard Complex phenotype.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-36",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/36.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Snowcap, also called a white blanket, has a dark base color over the head, neck, chest, and legs, while a clearly defined solid white blanket covers the croup and loin. Unlike a spotted blanket, this white area contains no dark spots of the base color. The boundary between the dark forehand and white hindquarters may be sharply defined or slightly softened by scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-37",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/37.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Marble + Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Varnish roan + Spotted blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "Frost + Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowflake + Spotted blanket"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Varnish roan is a progressive, uneven lightening of the coat caused by increasing intermixture of white hairs with age. Dark pigment tends to remain over bony prominences and areas where the skin lies close to bone, especially the face and cheekbones, shoulders, elbows, hips, knees, and hocks. The face often retains a characteristic dark V-shaped area. Unlike classic roan, varnish roan changes progressively over the years and is accompanied by Leopard Complex features such as striped hooves, mottled skin, and visible white sclera.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-38",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/38.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Leopard"
+        },
+        {
+          "id": "answer-02",
+          "text": "Few-spot leopard"
+        },
+        {
+          "id": "answer-03",
+          "text": "Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowcap"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The leopard pattern has a predominantly white body covered with distinct dark spots in the horse's base color, such as black, bay, or chestnut. The head, neck, and legs may retain more of the base color, blending into the lighter body. As with other Leopard Complex patterns, these horses commonly show vertically striped hooves, visible white sclera, and mottled skin around the lips, eyes, and genital area, where pink and dark pigmentation alternate.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-39",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/39.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Varnish roan + Spotted blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Marble + Spotted blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "Frost + Spotted blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Snowflake + Spotted blanket"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Varnish roan is a progressive, uneven lightening of the coat caused by increasing intermixture of white hairs with age. Dark pigment tends to remain over bony prominences and areas where the skin lies close to bone, especially the face and cheekbones, shoulders, elbows, hips, knees, and hocks. The face often retains a characteristic dark V-shaped area. Unlike classic roan, varnish roan changes progressively over the years and is accompanied by Leopard Complex features such as striped hooves, mottled skin, and visible white sclera.\nA spotted blanket, or blanket with spots, has a darker base color over the forehand—especially the head, neck, and shoulders—and a white blanket over the croup and loin containing small or large colored spots. The spots match the horse's base color. Unlike a snowcap, the white blanket is not completely clear, and its borders may be either sharply defined or blend gradually into the base coat through scattered white hairs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-40",
+      "question": "What Leopard Complex pattern is this?",
+      "image": "img/quiz/appaloosa-en/40.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Marble leopard blanket"
+        },
+        {
+          "id": "answer-02",
+          "text": "Peacock leopard blanket"
+        },
+        {
+          "id": "answer-03",
+          "text": "Frost leopard blanket"
+        },
+        {
+          "id": "answer-04",
+          "text": "Varnish roan leopard blanket"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A peacock leopard blanket is a rare and striking Leopard Complex expression combining a blanket distribution with unusual haloed spots. The forehand retains more of the dark base color and carries rounded 'peacock' spots surrounded by lighter halos, giving them an eye-like or rosette appearance. Over the croup and loin, a distinct white blanket contains both ordinary dark spots and more complex concentric peacock-like rosettes, producing a strong contrast between the darker forehand and the elaborately spotted hindquarters.",
+      "image_author": "Неизвестен"
+    }
+  ],
+  "source_content_hash": "7e0a658d05189fcd7b92d04b96f4db114a649f14f99fd72262a0c98796cbc440",
+  "english_quiz": "appaloosa-en",
+  "previous_quiz": "coat-phenomena-en",
+  "next_quiz": "rarest-colors-en",
+  "content_version": "152f261feaba100ef0989c4dacd4475686b833c3aa33e6494e683581fe3b744a"
+}

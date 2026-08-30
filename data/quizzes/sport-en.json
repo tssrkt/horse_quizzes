@@ -1,0 +1,985 @@
+{
+  "difficulty": "medium",
+  "cover": "img/covers/sport.webp",
+  "publication_date": "2026-07-27T10:45:00+00:00",
+  "type": "english",
+  "slug": "sport-en",
+  "source_quiz": "sport",
+  "tags": [
+    "english",
+    "words",
+    "sport",
+    "riding"
+  ],
+  "published": true,
+  "title": "Equestrian Sport",
+  "short_description": "Do you love equestrian sport, or are you just getting into it? This quiz will test your knowledge of disciplines, rules, equipment, and much more.",
+  "intro": "Do you love equestrian sport, or are you just getting into it? This quiz will test your knowledge of disciplines, rules, equipment, and much more.",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What is show jumping?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A team ball game played on horseback"
+        },
+        {
+          "id": "answer-02",
+          "text": "Figure skating on horseback in an arena"
+        },
+        {
+          "id": "answer-03",
+          "text": "Jumping a course of obstacles in an arena"
+        },
+        {
+          "id": "answer-04",
+          "text": "High-speed horse racing on a racetrack"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Show jumping is one of the most popular Olympic equestrian disciplines. Horse and rider must complete a set course of obstacles in the prescribed order and within the allowed time, while avoiding knocked rails and other faults. At top-level competitions, fences may reach about 160 centimeters in height. Penalties are given for faults such as knocking down an obstacle, exceeding the time allowed, or a refusal. The winner is the combination that completes the course with the fewest faults and, where time is decisive, the fastest time."
+    },
+    {
+      "id": "question-02",
+      "question": "What is dressage?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The process of taming a wild horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "Training a horse for draft work in the fields"
+        },
+        {
+          "id": "answer-03",
+          "text": "Advanced schooling and training under saddle"
+        },
+        {
+          "id": "answer-04",
+          "text": "A high-speed obstacle race across a field"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Dressage is an Olympic equestrian discipline often described as ballet on horseback. Horse and rider perform a prescribed test in an arena, including different movements, gaits, and figures such as pirouettes, passage, piaffe, and flying changes. Judges assess harmony, suppleness, obedience, and the subtlety of the rider’s aids, ideally creating the impression that the horse performs willingly and almost by itself. Dressage represents a highly refined form of horse training and riding that requires years of preparation and close cooperation between horse and rider."
+    },
+    {
+      "id": "question-03",
+      "question": "What is eventing?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "One horse ridden in dressage by three different athletes"
+        },
+        {
+          "id": "answer-02",
+          "text": "A competition over three types of obstacles"
+        },
+        {
+          "id": "answer-03",
+          "text": "A speed race between three riders"
+        },
+        {
+          "id": "answer-04",
+          "text": "An Olympic equestrian competition consisting of three phases"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Eventing is a demanding Olympic equestrian sport combining three separate phases that test the versatility of horse and rider. The pair performs dressage, then tackles a cross-country course over solid natural-style obstacles, and finally completes a show-jumping round that tests accuracy and remaining fitness. The same horse and rider compete throughout the event, and the final result is based on the penalties accumulated across all three phases."
+    },
+    {
+      "id": "question-04",
+      "question": "What is combined driving?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Guiding a horse through patterns with a single rein"
+        },
+        {
+          "id": "answer-02",
+          "text": "A competition in controlling horse-drawn carriages"
+        },
+        {
+          "id": "answer-03",
+          "text": "Extreme jumping into water on horseback"
+        },
+        {
+          "id": "answer-04",
+          "text": "High-speed racing of horses pulling sulkies"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Combined driving is an FEI equestrian discipline in which athletes compete with horse-drawn carriages. Depending on the class, the turnout may consist of a single horse, a pair, or a team of four. The competition is traditionally made up of three phases comparable to eventing: driven dressage, a cross-country marathon with obstacles, and cones driving for accuracy. The sport tests not only the horses’ speed and stamina, but also the driver’s precision, the teamwork of the entire turnout, and the presentation of the carriage and harness."
+    },
+    {
+      "id": "question-05",
+      "question": "What is endurance riding?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A team relay race in which riders pass a flag"
+        },
+        {
+          "id": "answer-02",
+          "text": "Jumping large natural obstacles in a forest"
+        },
+        {
+          "id": "answer-03",
+          "text": "A long-distance endurance competition over natural terrain"
+        },
+        {
+          "id": "answer-04",
+          "text": "Flat racing around a racetrack"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Endurance riding is an international equestrian discipline designed to test the horse’s stamina and the rider’s pace strategy over long distances, which may range from about 40 to 160 kilometers in a day. The route runs across natural terrain and is divided into several loops. A defining feature of endurance is strict veterinary control: after each loop, the horse must recover sufficiently and meet veterinary criteria before continuing. The winner is the first eligible combination to finish after successfully passing all required veterinary inspections."
+    },
+    {
+      "id": "question-06",
+      "question": "What is a levade?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A riding movement in which the horse kicks out with the hind legs"
+        },
+        {
+          "id": "answer-02",
+          "text": "A riding movement in which the horse raises the forehand and balances on the hind legs"
+        },
+        {
+          "id": "answer-03",
+          "text": "A high-speed race around a racetrack"
+        },
+        {
+          "id": "answer-04",
+          "text": "Performing difficult tricks in an arena"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In classical dressage and the airs above the ground, the levade is an advanced movement in which the horse raises the forehand and balances on deeply flexed hind legs, holding the body at roughly a 45-degree angle to the ground. Unlike an uncontrolled rear, the levade requires exceptional collection, strength through the back and hindquarters, balance, and precise control by the rider."
+    },
+    {
+      "id": "question-07",
+      "question": "What is equestrian vaulting?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Teaching a foal its first commands"
+        },
+        {
+          "id": "answer-02",
+          "text": "High-speed carriage driving"
+        },
+        {
+          "id": "answer-03",
+          "text": "Gymnastic exercises on a moving horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Jumping a series of high wooden fences"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Equestrian vaulting is a spectacular discipline in which one or more athletes perform gymnastic and acrobatic exercises on a moving horse. The horse travels on a circle while being controlled from the ground by a lunger. Vaulting demands exceptional balance, flexibility, strength, and coordination from the athlete, while the horse must be steady, obedient, and rhythmic. The discipline has historical roots in cavalry training and today is recognized by the FEI as a sport in its own right."
+    },
+    {
+      "id": "question-08",
+      "question": "What is reining?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Dancing with a horse to classical music"
+        },
+        {
+          "id": "answer-02",
+          "text": "A western discipline featuring sliding stops and spins"
+        },
+        {
+          "id": "answer-03",
+          "text": "Jumping large wooden fences"
+        },
+        {
+          "id": "answer-04",
+          "text": "Showing elegant gaits while pulling a carriage"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Reining is a western riding discipline sometimes described as western dressage. It developed from the practical riding skills of American cowboys. Riders perform a prescribed pattern, traditionally using one hand on the reins, and the horse must execute maneuvers such as the sliding stop and spin with speed, precision, and willingness. Judges assess accuracy, control, smoothness, and the horse’s responsiveness to subtle aids."
+    },
+    {
+      "id": "question-09",
+      "question": "What is Working Equitation?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Decorative sleigh driving in winter"
+        },
+        {
+          "id": "answer-02",
+          "text": "Therapeutic riding for people"
+        },
+        {
+          "id": "answer-03",
+          "text": "High-speed jumping over large triple fences"
+        },
+        {
+          "id": "answer-04",
+          "text": "Negotiating obstacles based on traditional livestock-working skills"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Working Equitation is an international discipline created to preserve traditional riding styles, clothing, and livestock-working skills from different countries. Competition combines dressage with obstacle work inspired by practical field tasks, such as opening a gate, crossing a bridge, negotiating logs, and handling a pole or garrocha. The horse must show trust, agility, courage, and quick responses. At advanced levels, riders may perform with one hand on the reins, demonstrating a high degree of communication between horse and rider."
+    },
+    {
+      "id": "question-10",
+      "question": "What is jigitovka, or Cossack trick riding?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Jumping water obstacles at speed"
+        },
+        {
+          "id": "answer-02",
+          "text": "Draft-horse pulling competitions"
+        },
+        {
+          "id": "answer-03",
+          "text": "A military-style riding sport featuring acrobatic tricks"
+        },
+        {
+          "id": "answer-04",
+          "text": "Pattern riding to classical music"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Jigitovka is a traditional military-style form of trick riding associated with Cossack and Caucasian horsemanship. At a fast gallop, the rider performs demanding acrobatic maneuvers such as dismounting and remounting at speed, riding backward, passing beneath the horse’s belly, and picking objects up from the ground. Traditional forms also include mounted weapons skills, such as saber work, lance work, and shooting. The discipline demands exceptional courage, balance, and coordination from the rider and a steady, fearless gallop from the horse."
+    },
+    {
+      "id": "question-11",
+      "question": "What is polo?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A synchronized dance by several riders in an arena"
+        },
+        {
+          "id": "answer-02",
+          "text": "A team game played with mallets and a ball"
+        },
+        {
+          "id": "answer-03",
+          "text": "Jumping natural obstacles in woodland"
+        },
+        {
+          "id": "answer-04",
+          "text": "High-speed racing without riders"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Polo is one of the oldest team sports played on horseback. Players use long-handled mallets to strike a ball and score through the opposing team’s goal. Outdoor polo is normally played by two teams of four on a very large grass field. The agile, fast horses used in the sport are traditionally called polo ponies even though most are full-sized horses. Because the game is extremely demanding, players change mounts between chukkas and may need several prepared horses for a single match."
+    },
+    {
+      "id": "question-12",
+      "question": "What is tent pegging?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Jumping into water on specially trained horses"
+        },
+        {
+          "id": "answer-02",
+          "text": "Spearing or lifting wooden pegs from the ground at the gallop"
+        },
+        {
+          "id": "answer-03",
+          "text": "Team roping of cattle with lassos"
+        },
+        {
+          "id": "answer-04",
+          "text": "Cleaning hooves with a metal hoof pick"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Tent pegging is an old cavalry sport in which a rider gallops at a ground target and strikes or lifts it with a weapon, usually a lance or sword. The competitor must spear, cut, or pick up a small wooden or cardboard peg set into the ground. The name refers to the traditional idea of pulling out tent pegs during cavalry raids. Modern tent pegging demands precise coordination, accuracy, nerve, and a horse that will maintain a fast, straight gallop without reacting to sudden weapon movements."
+    },
+    {
+      "id": "question-13",
+      "question": "What is roping?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Decorative carriage driving through city streets"
+        },
+        {
+          "id": "answer-02",
+          "text": "Training wild horses without a bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Racing through deep water obstacles"
+        },
+        {
+          "id": "answer-04",
+          "text": "Catching a calf quickly with a rope"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Roping is a western discipline derived from the practical cattle-handling work of American ranchers. Mounted on a specially trained stock horse, the rider must catch a running calf or steer with a rope. Different events include tie-down roping and team roping, in which one rider catches the animal around the horns or neck and another ropes the hind legs. The sport requires explosive acceleration, maneuverability, cow sense, and a horse trained to stop and hold the rope while the rider works."
+    },
+    {
+      "id": "question-14",
+      "question": "What is cutting?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Long-distance speed racing"
+        },
+        {
+          "id": "answer-02",
+          "text": "Synchronized riding by several riders to music"
+        },
+        {
+          "id": "answer-03",
+          "text": "Separating one cow and keeping it away from the herd"
+        },
+        {
+          "id": "answer-04",
+          "text": "Jumping massive triple wooden fences"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cutting is a western discipline in which horse and rider separate one cow from a herd and prevent it from returning. Once the cow has been selected, the rider loosens the reins and allows the horse to react independently to the animal’s movements. A good cutting horse uses strong cow sense to mirror the cow, make rapid lateral changes, drop low, and block every attempt to rejoin the herd. Quarter Horses are particularly famous for this work."
+    },
+    {
+      "id": "question-15",
+      "question": "What is barrel racing?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Catching a wild bull with a long lasso"
+        },
+        {
+          "id": "answer-02",
+          "text": "Slow pattern riding to classical music"
+        },
+        {
+          "id": "answer-03",
+          "text": "A timed race around three barrels"
+        },
+        {
+          "id": "answer-04",
+          "text": "Jumping obstacles made from fallen forest trees"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Barrel racing is a fast western event in which horse and rider race around three barrels arranged in a cloverleaf pattern. The result is decided by time, often down to hundredths of a second, so the pair needs both maximum speed and a very efficient line. The horse must accelerate hard, stay balanced, and make extremely tight turns around the barrels. Knocking over a barrel brings a time penalty, so precision is just as important as speed."
+    },
+    {
+      "id": "question-16",
+      "question": "What is a show-jumping derby?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Performing tricks on an unbroken horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "A long jumping course incorporating natural obstacles"
+        },
+        {
+          "id": "answer-03",
+          "text": "Flat racing on a racetrack"
+        },
+        {
+          "id": "answer-04",
+          "text": "Timed heavy-load pulling"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A show-jumping derby is an especially demanding type of jumping competition that combines ordinary knockable show-jumping fences with natural or natural-style obstacles. Derby courses are usually much longer than standard jumping rounds and may contain many more fences over varied terrain. Riders can face walls, hedges, water, banks, slopes, and other unusual questions. The format requires stamina, courage, versatility, and accurate control at speed."
+    },
+    {
+      "id": "question-17",
+      "question": "What is an oxer?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A spread fence made of two parallel sets of rails"
+        },
+        {
+          "id": "answer-02",
+          "text": "A high stone wall"
+        },
+        {
+          "id": "answer-03",
+          "text": "A single horizontal rail on two standards"
+        },
+        {
+          "id": "answer-04",
+          "text": "A steep earth bank used for a drop"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "An oxer is one of the most common spread fences in show jumping. It consists of two parallel sets of standards and rails, so the horse must jump both upward and across a certain width. The front rail is generally no higher than the back rail and may be slightly lower in an ascending oxer. Variations include square oxers and oxers filled with brush or other material. All require sufficient power from the hindquarters and good coordination in the air."
+    },
+    {
+      "id": "question-18",
+      "question": "What is a vertical fence?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A wide water-filled ditch"
+        },
+        {
+          "id": "answer-02",
+          "text": "An upright fence made from horizontal rails"
+        },
+        {
+          "id": "answer-03",
+          "text": "A massive obstacle made from heavy logs"
+        },
+        {
+          "id": "answer-04",
+          "text": "A steep downhill earth drop"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A vertical is a classic show-jumping fence made from rails or planks set one above another between two standards, with little or no spread. Unlike an oxer, it tests height rather than width. Because the fence has no depth, the rider must judge the takeoff point carefully; a poor distance can easily result in the horse touching the top rail. Fillers, gates, or decorative panels may be placed beneath the rails to make the obstacle more visually challenging."
+    },
+    {
+      "id": "question-19",
+      "question": "What is a bounce grid?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Protective plastic boots for a horse’s legs"
+        },
+        {
+          "id": "answer-02",
+          "text": "A tool for cleaning mud from hooves"
+        },
+        {
+          "id": "answer-03",
+          "text": "A row of fences jumped with no canter strides between them"
+        },
+        {
+          "id": "answer-04",
+          "text": "Special pedals used to control a carriage with the feet"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A bounce grid is a gymnastic jumping exercise consisting of several low fences placed at carefully measured distances. The spacing is set so that the horse lands after one fence and immediately takes off over the next without a canter stride in between. Bounce grids are widely used to develop balance, back suppleness, coordination, and hindquarter power. They also help riders improve their jumping position and rhythm without having to judge every distance individually."
+    },
+    {
+      "id": "question-20",
+      "question": "What is a triple combination?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A special hitch for three horses pulling a cart"
+        },
+        {
+          "id": "answer-02",
+          "text": "A combination of three closely spaced jumping elements"
+        },
+        {
+          "id": "answer-03",
+          "text": "A method for comparing the conformation of three breeds"
+        },
+        {
+          "id": "answer-04",
+          "text": "A protective rug made from three layers of fabric"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A triple combination is a complex show-jumping obstacle made up of three separate elements set close together, usually one or two canter strides apart. The elements are labeled A, B, and C and together form one numbered obstacle. If a horse refuses at a later element, the rules may require the combination to be approached again from the beginning. Triple combinations demand concentration, adjustability, and careful control of pace and distance."
+    },
+    {
+      "id": "question-21",
+      "question": "What is a bank?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "An iron ring used to tie a horse in a stall"
+        },
+        {
+          "id": "answer-02",
+          "text": "A plastic barrier around a sand arena"
+        },
+        {
+          "id": "answer-03",
+          "text": "A formal dinner held after a competition"
+        },
+        {
+          "id": "answer-04",
+          "text": "An earth step used for jumping up or dropping down"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "A bank is a solid natural or artificial step used mainly in eventing and some jumping derbies. The horse may be asked to jump up onto the raised surface, drop down from it, or negotiate a sequence of steps. Because the obstacle is solid and there are no rails to fall, it requires confidence, coordination, and trust. On a drop, the rider must allow the horse freedom to balance while keeping their own body appropriately positioned."
+    },
+    {
+      "id": "question-22",
+      "question": "What is a knockdown in show jumping?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Forcing a horse to lie down on the ground"
+        },
+        {
+          "id": "answer-02",
+          "text": "A rail falling after contact with the horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "A special leather halter for difficult horses"
+        },
+        {
+          "id": "answer-04",
+          "text": "A hoof disease caused by excessively wet bedding"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A knockdown occurs when the horse or rider dislodges a rail or another breakable part of an obstacle while completing the course. If contact causes a rail or the top element of a wall to fall, penalties are incurred under the competition rules. Simply touching a rail does not count if it remains supported in the cups. In standard show jumping, a knocked fence normally results in four faults."
+    },
+    {
+      "id": "question-23",
+      "question": "What is a refusal?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The horse stops in front of the obstacle and refuses to jump"
+        },
+        {
+          "id": "answer-02",
+          "text": "Horse and rider fall into water together"
+        },
+        {
+          "id": "answer-03",
+          "text": "A special knot used to secure the tail"
+        },
+        {
+          "id": "answer-04",
+          "text": "A sharp turn in the opposite direction at the gallop"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "A refusal is a form of disobedience in jumping in which the horse stops in front of an obstacle instead of jumping it. It may result from fear, hesitation, a poor approach, or an incorrect distance. A refusal is penalized under the rules, and repeated refusals can lead to elimination. After a refusal, the rider must regain control and represent the horse to the obstacle while the clock continues to run."
+    },
+    {
+      "id": "question-24",
+      "question": "What is a run-out?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Knocking a side standard without dropping a rail"
+        },
+        {
+          "id": "answer-02",
+          "text": "Breaking equipment rules before the competition"
+        },
+        {
+          "id": "answer-03",
+          "text": "Avoiding the jump and passing outside the obstacle line"
+        },
+        {
+          "id": "answer-04",
+          "text": "The rider falling after a jump"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A run-out is a jumping fault in which the horse avoids the obstacle by passing to one side of it rather than jumping. Unlike a refusal, where the horse stops in front of the fence, a run-out involves escaping around the obstacle line. It often happens when the rider loses control of the horse’s shoulder or line. It is penalized as disobedience and also costs time because the rider must circle and approach the obstacle again."
+    },
+    {
+      "id": "question-25",
+      "question": "What causes faults in show jumping?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Walking too slowly in the warm-up arena"
+        },
+        {
+          "id": "answer-02",
+          "text": "Knockdowns, disobedience, and exceeding the time allowed"
+        },
+        {
+          "id": "answer-03",
+          "text": "Failing to decorate the horse’s mane brightly"
+        },
+        {
+          "id": "answer-04",
+          "text": "A trainer shouting instructions from the spectator stands"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "In show jumping, faults are given for technical errors during the round and for exceeding the time allowed. The rider’s aim is to complete every obstacle cleanly and within the prescribed time. Typical penalties include four faults for knocking down a rail or landing in a water jump, four faults for the first disobedience such as a refusal or run-out, and time penalties according to the rules of the class. The combination with the fewest faults ranks highest, with time used where appropriate."
+    },
+    {
+      "id": "question-26",
+      "question": "What can lead to elimination in show jumping?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The rider failing to smile at the judges on entry"
+        },
+        {
+          "id": "answer-02",
+          "text": "Using a brown bridle instead of a black one"
+        },
+        {
+          "id": "answer-03",
+          "text": "Cantering too quietly on a straight line"
+        },
+        {
+          "id": "answer-04",
+          "text": "A fall, repeated refusal, or taking the course in the wrong order"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "Elimination in show jumping can result from serious technical errors, repeated disobedience, or breaches of safety and horse-welfare rules. Unlike ordinary faults, elimination ends the round immediately and the rider must leave the arena when instructed by the officials. Common causes include a fall of horse or rider, repeated refusal or run-out, and jumping obstacles in the wrong order. Excessive use of the whip or spurs, blood on the horse, or jumping before the official start signal can also result in elimination or disqualification under the applicable rules."
+    },
+    {
+      "id": "question-27",
+      "question": "What is passage?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A western maneuver involving a sliding stop"
+        },
+        {
+          "id": "answer-02",
+          "text": "A fast run around a racetrack"
+        },
+        {
+          "id": "answer-03",
+          "text": "An elevated, cadenced trot with pronounced suspension"
+        },
+        {
+          "id": "answer-04",
+          "text": "Jumping a series of very closely spaced fences"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Passage is an advanced dressage movement consisting of a very collected, elevated, and highly cadenced trot. The horse shows strong engagement of the hindquarters and a pronounced moment of suspension in each stride. The movement appears slow, springy, and expressive, with the forelegs lifting softly and rhythmically. Passage requires considerable strength, suppleness, balance, and extremely subtle aids from the rider."
+    },
+    {
+      "id": "question-28",
+      "question": "What is a jump-off?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Changing from a tired horse to a fresh one"
+        },
+        {
+          "id": "answer-02",
+          "text": "Warm-up jumps before the competition"
+        },
+        {
+          "id": "answer-03",
+          "text": "A shortened timed round used to determine the winner"
+        },
+        {
+          "id": "answer-04",
+          "text": "A compulsory repeat jump caused by a judging mistake"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A jump-off is the deciding round in show jumping used when two or more combinations finish the main round on equal faults and a winner must be determined. The jump-off normally uses a shortened course made from selected fences from the original round, and some obstacles may be raised or widened. Riders compete for both accuracy and speed: if faults are equal, the fastest time wins. This encourages tighter turns and more economical lines."
+    },
+    {
+      "id": "question-29",
+      "question": "What earns penalties on the cross-country phase?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The horse breathing too rapidly while galloping"
+        },
+        {
+          "id": "answer-02",
+          "text": "Using a saddle without special attachments"
+        },
+        {
+          "id": "answer-03",
+          "text": "Disobedience, activating a frangible device, and exceeding the time"
+        },
+        {
+          "id": "answer-04",
+          "text": "The rider not wearing protective equipment"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Cross-country penalties in eventing are given for errors at obstacles, disobedience, and time faults. The phase is ridden at speed over solid fences across varied terrain. Penalties may be incurred for a refusal or run-out, for activating a frangible safety device, and for exceeding the optimum time. Eventing rules also penalize riding that is excessively slow or dangerously fast when it compromises safety."
+    },
+    {
+      "id": "question-30",
+      "question": "What is a pirouette?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A high forward leap combined with striking out"
+        },
+        {
+          "id": "answer-02",
+          "text": "A complete 360-degree turn almost on the spot"
+        },
+        {
+          "id": "answer-03",
+          "text": "A fast sliding stop on the hind legs"
+        },
+        {
+          "id": "answer-04",
+          "text": "Running in a circle on a long line"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A pirouette is an advanced dressage movement in which the horse turns through 360 degrees, usually in canter or at walk, around a very small circle. The hindquarters remain strongly engaged and describe only a small circle while the forehand travels around them. The horse must maintain rhythm, balance, and collection throughout. The movement requires substantial strength and precise coordination of the rider’s weight, seat, and leg aids."
+    },
+    {
+      "id": "question-31",
+      "question": "What can lead to elimination on cross-country?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A fall, three refusals, or dangerous riding"
+        },
+        {
+          "id": "answer-02",
+          "text": "Losing a shoe on course, a fall, and one refusal"
+        },
+        {
+          "id": "answer-03",
+          "text": "A fall and one refusal"
+        },
+        {
+          "id": "answer-04",
+          "text": "Any disobedience, a fall, and one refusal"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Elimination on the cross-country phase of eventing can result from dangerous riding, falls, repeated disobedience, or serious breaches of horse-welfare rules. Because cross-country carries significant risk, officials and veterinarians monitor safety closely. A fall, repeated refusals or run-outs, missing an obstacle, taking the wrong direction, obvious lameness, excessive use of the whip or spurs, or riding at a dangerously inappropriate speed may all end the combination’s participation under the applicable rules."
+    },
+    {
+      "id": "question-32",
+      "question": "What is a dressage freestyle?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A special competition outfit for the rider"
+        },
+        {
+          "id": "answer-02",
+          "text": "A dressage program ridden to music with individual choreography"
+        },
+        {
+          "id": "answer-03",
+          "text": "A device for measuring a horse’s pulse at competitions"
+        },
+        {
+          "id": "answer-04",
+          "text": "The final speed race at a racetrack"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "A dressage freestyle is an artistic test in which the rider performs a required set of movements to self-selected music. Unlike a standard test, where the order of movements is fixed, the rider designs the choreography to highlight the horse’s strengths. Judges award both technical marks for the execution of required movements and artistic marks for factors such as music, harmony, choreography, and how well the horse’s movement matches the soundtrack."
+    },
+    {
+      "id": "question-33",
+      "question": "What is the Grand Prix in dressage?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "The name of a large gold trophy in show jumping"
+        },
+        {
+          "id": "answer-02",
+          "text": "A special prize for the best braided mane"
+        },
+        {
+          "id": "answer-03",
+          "text": "The highest international level of dressage competition"
+        },
+        {
+          "id": "answer-04",
+          "text": "The main award for the best jockey at a racetrack"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Grand Prix is the highest international level of dressage competition and represents the culmination of advanced horse training and partnership. The test requires the most demanding movements of upper-level dressage, including piaffe, passage, canter pirouettes, and one-tempi flying changes. Judges assess not only technical accuracy but also suppleness, athleticism, obedience, and harmony, with the rider’s aids expected to appear almost invisible."
+    },
+    {
+      "id": "question-34",
+      "question": "What is Prix St. Georges?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "An introductory international level of advanced dressage competition"
+        },
+        {
+          "id": "answer-02",
+          "text": "A special award for the youngest riders"
+        },
+        {
+          "id": "answer-03",
+          "text": "The name of a small gold medal in eventing"
+        },
+        {
+          "id": "answer-04",
+          "text": "A consolation trophy for last place"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "Prix St. Georges is an international dressage level that marks the beginning of the small-tour classes and serves as an important transition toward Grand Prix work. The test includes advanced movements such as walk pirouettes, canter half-pirouettes, half-pass in trot and canter, and sequences of flying changes. It allows judges to assess the correctness of the horse’s training, suppleness, obedience, ease of movement, and readiness for more physically demanding work."
+    },
+    {
+      "id": "question-35",
+      "question": "What is steeplechasing?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Pattern riding to music in an indoor arena"
+        },
+        {
+          "id": "answer-02",
+          "text": "High-speed racing over solid fixed obstacles"
+        },
+        {
+          "id": "answer-03",
+          "text": "A team game with a ball and mallets"
+        },
+        {
+          "id": "answer-04",
+          "text": "Training wild stallions to obey basic commands"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Steeplechasing is a form of horse racing over fixed obstacles on a racecourse or across country. Unlike flat racing, horses must jump solid fences such as hedges, rails, ditches, and water obstacles while maintaining racing speed over a considerable distance. The sport demands stamina, jumping ability, and courage from the horse, as well as experience and judgment from the jockey."
+    },
+    {
+      "id": "question-36",
+      "question": "What is TREC?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A large-team game played with wooden mallets"
+        },
+        {
+          "id": "answer-02",
+          "text": "Performing acrobatic and gymnastic tricks at the gallop"
+        },
+        {
+          "id": "answer-03",
+          "text": "A competition in trail-riding skills and orienteering"
+        },
+        {
+          "id": "answer-04",
+          "text": "Flat racing of Thoroughbreds around a track"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "TREC, from the French Techniques de Randonnée Équestre de Compétition, is a practical equestrian sport designed to test the skills of horse and rider during long-distance trail travel. It developed in France from the training and assessment of equestrian guides. Competitions typically include three phases: POR, an orienteering route using map and compass; MA, control of paces; and PTV, a course of natural or simulated trail obstacles such as bridges, low branches, steep slopes, and water crossings. Success depends less on breed or jumping height than on partnership, stamina, practical riding skills, and navigation."
+    },
+    {
+      "id": "question-37",
+      "question": "What is equestrian skijoring?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Jumping into water on horseback"
+        },
+        {
+          "id": "answer-02",
+          "text": "Towing a skier behind a galloping horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "Decorative sleigh driving through a city"
+        },
+        {
+          "id": "answer-04",
+          "text": "Removing winter ice from a horse’s hooves"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "Equestrian skijoring is a winter sport in which a skier is pulled along a snowy course by a horse. Historically, similar systems were used for winter transport in northern regions, but today skijoring is a competitive sport. The horse may be ridden by a separate rider or, in some formats, controlled by the skier with long reins while the skier holds a towline. Courses can include jumps, slalom gates, and rings that the skier must collect while traveling at speed."
+    },
+    {
+      "id": "question-38",
+      "question": "What can lead to elimination in dressage?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Disobedience by the horse"
+        },
+        {
+          "id": "answer-02",
+          "text": "The rider choosing not to use a whip and double bridle"
+        },
+        {
+          "id": "answer-03",
+          "text": "Blood, lameness, a fall, or leaving the arena"
+        },
+        {
+          "id": "answer-04",
+          "text": "Leaving the arena or the horse showing off"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "Elimination from a dressage competition can result from serious technical errors, lameness or other health concerns, horse abuse, or unsportsmanlike conduct. Dressage rules place strong emphasis on welfare and correct performance. Reasons may include visible blood on the horse under the applicable blood rule, clear lameness, leaving the arena with all four feet during the test, a fall of horse or rider, failing to enter within the required time after the bell, prohibited equipment, or prolonged resistance by the horse."
+    },
+    {
+      "id": "question-39",
+      "question": "What is a half-halt?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Punishing a horse for disobedience during training"
+        },
+        {
+          "id": "answer-02",
+          "text": "A special leather device used to fix the horse’s head"
+        },
+        {
+          "id": "answer-03",
+          "text": "A brief aid used to rebalance and prepare the horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "A complete forced stop from the gallop"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A half-halt is one of the most important and frequently used riding aids. It is a brief, subtle coordination of the rider’s rein, seat, core, and leg aids. Its purpose is not to stop the horse, but to rebalance it, bring its attention back to the rider, encourage more weight to shift toward the hindquarters, and prepare for the next movement, transition, turn, or jump. Experienced riders often compare a half-halt to a comma in a sentence: it organizes what comes next without bringing everything to a stop."
+    },
+    {
+      "id": "question-40",
+      "question": "What is a zigzag half-pass?",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "A hoof-trimming method based on a special pattern"
+        },
+        {
+          "id": "answer-02",
+          "text": "A zigzag jump over three parallel fences"
+        },
+        {
+          "id": "answer-03",
+          "text": "A series of alternating half-passes with flying changes"
+        },
+        {
+          "id": "answer-04",
+          "text": "A sharp turn on the spot at the gallop"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "A zigzag half-pass, also called a counter-change of hand in zigzag, is an advanced dressage exercise consisting of successive half-passes alternately to the left and right. In canter, the horse moves sideways for a prescribed number of strides before changing direction, with a flying change performed as required when the direction changes. The challenge is to preserve rhythm, bend, balance, and fluency throughout. Judges assess the symmetry of the left and right sections as well as the lightness and precision of the transitions."
+    }
+  ],
+  "source_content_hash": "db312197060ff91e3bbace764afd24fe7a391aef5298c3b3fb6cde5d1cd78e2f",
+  "english_quiz": "sport-en",
+  "previous_quiz": "horse-health-en",
+  "next_quiz": "horse-hisory-en",
+  "content_version": "74956962266738d82f598620130d37cfda1f323591db1618dcab1d6b0f5101e9"
+}

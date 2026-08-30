@@ -1,0 +1,1063 @@
+{
+  "difficulty": "low",
+  "cover": "img/covers/horse-breeds.webp",
+  "publication_date": "2026-07-23T13:14:00+00:00",
+  "type": "english",
+  "slug": "horse-breeds-en",
+  "source_quiz": "horse-breeds",
+  "tags": [
+    "english",
+    "images",
+    "breed"
+  ],
+  "published": true,
+  "title": "Horse Breeds",
+  "short_description": "This is probably the easiest quiz on the site and an ideal choice for anyone who does not know where to start. It also features some of the best photos of the most recognizable horse breeds.",
+  "intro": "This is probably the easiest quiz on the site and an ideal choice for anyone who does not know where to start. It also features some of the best photos of the most recognizable horse breeds.",
+  "questionImagesAlt": "Photograph of a horse for breed identification",
+  "questions": [
+    {
+      "id": "question-01",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/01.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Akhal-Teke"
+        },
+        {
+          "id": "answer-02",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-03",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-04",
+          "text": "Orlov Trotter"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-02",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/02.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Fjord Horse"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-03",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/03.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-04",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/04.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-05",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/05.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The Clydesdale is a Scottish breed of massive, tall draft horses, standing up to about 170–183 cm. Its hallmark is the combination of immense strength with surprisingly elegant, harmonious conformation and a long, arched neck set high on the shoulders. The breed commonly has extensive white markings on the head and legs, often associated with sabino patterning, as well as luxurious, very long, silky feathering. In motion, Clydesdales are notable for an unusually high, sweeping, energetic action for a draft breed, lifting their feet cleanly and distinctly to create an impressive, majestic gait.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-06",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/06.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-07",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/07.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-08",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/08.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Akhal-Teke is one of the oldest riding breeds and is virtually impossible to confuse with any other because of its distinctive metallic, satin-like coat sheen, especially noticeable in palomino, buckskin, and cremello horses, and its extremely lean, dry conformation. These horses have very long, refined body lines, a high-set elegant neck, a deep chest, and a fine head with large, almond-shaped eyes. Another hallmark of the Akhal-Teke is its very sparse mane; the hair is often so thin and short that the mane may be clipped off entirely.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-09",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/09.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Ukrainian Riding Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Konik"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Konik is a distinctive primitive Polish breed of small, semi-feral horses, usually standing about 130–140 cm, and is recognizable by its predominantly grullo coat; only a few red dun individuals have been recorded. Its defining features are primitive markings: a black dorsal stripe running the length of the back, a dark shoulder stripe, and transverse zebra-like bars on the legs. Compared with other ponies and small horses, the Konik has a stocky, barrel-shaped body, a very dense coat, a somewhat coarse head with a straight profile, and a dark, stiff mane. Its appearance closely resembles the historic European tarpan.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-10",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/10.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-11",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/11.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Fjord Horse"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-12",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/12.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Fjord Horse"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-13",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/13.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Fjord Horse"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-14",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/14.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Fjord Horse"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The Clydesdale is a Scottish breed of massive, tall draft horses, standing up to about 170–183 cm. Its hallmark is the combination of immense strength with surprisingly elegant, harmonious conformation and a long, arched neck set high on the shoulders. The breed commonly has extensive white markings on the head and legs, often associated with sabino patterning, as well as luxurious, very long, silky feathering. In motion, Clydesdales are notable for an unusually high, sweeping, energetic action for a draft breed, lifting their feet cleanly and distinctly to create an impressive, majestic gait.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-15",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/15.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-16",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/16.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Fjord Horse"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-17",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/17.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The Kladruber is one of the oldest Czech carriage breeds of the Baroque type. It is easily recognized by its unusually long head with a strongly convex Roman profile and large, gentle eyes. These majestic, tall horses, reaching about 175–180 cm at the withers, were bred specifically for the ceremonial carriages of the Habsburg court. Today the breed standard recognizes only two colors: gray and black, without white markings. Kladrubers combine a powerful, substantial body with a high-set, arched swan neck, and their hallmark in motion is an impressive, rhythmic carriage trot with pronounced high action of the forelegs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-18",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/18.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Fjord Horse"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-19",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/19.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Friesian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Fjord Horse"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-20",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/20.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-21",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/21.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-22",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/22.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-23",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/23.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Hucul Pony"
+        },
+        {
+          "id": "answer-02",
+          "text": "Mongolian Horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Konik"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Konik is a distinctive primitive Polish breed of small, semi-feral horses, usually standing about 130–140 cm, and is recognizable by its predominantly grullo coat; only a few red dun individuals have been recorded. Its defining features are primitive markings: a black dorsal stripe running the length of the back, a dark shoulder stripe, and transverse zebra-like bars on the legs. Compared with other ponies and small horses, the Konik has a stocky, barrel-shaped body, a very dense coat, a somewhat coarse head with a straight profile, and a dark, stiff mane. Its appearance closely resembles the historic European tarpan.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-24",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/24.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Haflinger"
+        },
+        {
+          "id": "answer-02",
+          "text": "Black Forest Horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-04",
+          "text": "Soviet Heavy Draft"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Black Forest Horse (Black Forest Draft) is a rare German light draft breed whose hallmark is a dark flaxen chestnut coat, ranging from dark chestnut to brownish shades with a flaxen mane and tail. These horses have thick, long, snow-white or flaxen manes and tails, and may also show a blaze with “cat tracks.” Bred in southern Germany for work in dense forests, they are relatively small for draft horses, around 147–160 cm, with a stocky rectangular body, short head, muscular neck, and no heavy feathering on the legs. Compared with the smaller Haflinger, the Black Forest Horse has heavier bone, a more pronounced draft type, and a much darker, sometimes nearly black, chocolate-colored body.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-25",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/25.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The Kladruber is one of the oldest Czech carriage breeds of the Baroque type. It is easily recognized by its unusually long head with a strongly convex Roman profile and large, gentle eyes. These majestic, tall horses, reaching about 175–180 cm at the withers, were bred specifically for the ceremonial carriages of the Habsburg court. Today the breed standard recognizes only two colors: gray and black, without white markings. Kladrubers combine a powerful, substantial body with a high-set, arched swan neck, and their hallmark in motion is an impressive, rhythmic carriage trot with pronounced high action of the forelegs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-26",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/26.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-27",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/27.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-28",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/28.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Akhal-Teke is one of the oldest riding breeds and is virtually impossible to confuse with any other because of its distinctive metallic, satin-like coat sheen, especially noticeable in palomino, buckskin, and cremello horses, and its extremely lean, dry conformation. These horses have very long, refined body lines, a high-set elegant neck, a deep chest, and a fine head with large, almond-shaped eyes. Another hallmark of the Akhal-Teke is its very sparse mane; the hair is often so thin and short that the mane may be clipped off entirely.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-29",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/29.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance."
+    },
+    {
+      "id": "question-30",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/30.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-31",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/31.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-32",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/32.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Akhal-Teke is one of the oldest riding breeds and is virtually impossible to confuse with any other because of its distinctive metallic, satin-like coat sheen, especially noticeable in palomino, buckskin, and cremello horses, and its extremely lean, dry conformation. These horses have very long, refined body lines, a high-set elegant neck, a deep chest, and a fine head with large, almond-shaped eyes. Another hallmark of the Akhal-Teke is its very sparse mane; the hair is often so thin and short that the mane may be clipped off entirely.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-33",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/33.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-34",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/34.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-01",
+      "explanation": "The Kladruber is one of the oldest Czech carriage breeds of the Baroque type. It is easily recognized by its unusually long head with a strongly convex Roman profile and large, gentle eyes. These majestic, tall horses, reaching about 175–180 cm at the withers, were bred specifically for the ceremonial carriages of the Habsburg court. Today the breed standard recognizes only two colors: gray and black, without white markings. Kladrubers combine a powerful, substantial body with a high-set, arched swan neck, and their hallmark in motion is an impressive, rhythmic carriage trot with pronounced high action of the forelegs.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-35",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/35.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Fjord Horse (Norwegian Fjord) is one of the world’s oldest and purest breeds and can be recognized instantly by its dun coat and unique two-toned mane. Dark hairs run along the center of the mane and tail, bordered on both sides by lighter, silvery-white hairs. Traditionally, the mane is clipped short in a crescent shape so that it stands upright, emphasizing both the color contrast and the powerful curve of the neck. Fjords, usually only 135–150 cm tall, are distinguished from other small breeds by their stocky, sturdy build, obligatory dorsal stripe, zebra-like leg barring, and hardy, even-tempered nature.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-36",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/36.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Akhal-Teke is one of the oldest riding breeds and is virtually impossible to confuse with any other because of its distinctive metallic, satin-like coat sheen, especially noticeable in palomino, buckskin, and cremello horses, and its extremely lean, dry conformation. These horses have very long, refined body lines, a high-set elegant neck, a deep chest, and a fine head with large, almond-shaped eyes. Another hallmark of the Akhal-Teke is its very sparse mane; the hair is often so thin and short that the mane may be clipped off entirely.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-37",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/37.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Kladruber"
+        },
+        {
+          "id": "answer-02",
+          "text": "Thoroughbred"
+        },
+        {
+          "id": "answer-03",
+          "text": "Arabian"
+        },
+        {
+          "id": "answer-04",
+          "text": "Akhal-Teke"
+        }
+      ],
+      "correct_answer_id": "answer-03",
+      "explanation": "The Arabian is one of the oldest and most recognizable horse breeds in the world. It can be identified instantly by its distinctive dished profile, large expressive eyes, wide nostrils, and high, proud neck carriage. Another hallmark of the breed is the tail, carried high like a flag, especially when the horse moves at its light, springy trot. Arabians have a refined, elegant build, slender legs, exceptional endurance, and a noble, spirited yet people-oriented temperament. Their silhouette is unmistakable.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-38",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/38.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Friesian is an old Dutch breed, easily recognized by its exclusively black coat and the absence of white markings. Its most characteristic features are a high, proud neck carriage with a pronounced arch and an exceptionally thick, long, often wavy mane and tail, together with abundant feathering on the lower legs. In motion, Friesians are distinguished by their showy carriage-horse action, with high, rhythmic, sweeping knee action at the trot, giving this powerful yet elegant horse a majestic and theatrical appearance.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-39",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/39.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Clydesdale"
+        },
+        {
+          "id": "answer-02",
+          "text": "Tinker (Gypsy Cob)"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Friesian"
+        }
+      ],
+      "correct_answer_id": "answer-02",
+      "explanation": "The Tinker (Gypsy Cob) is a compact, powerful draft-type horse, easily recognized by its extremely abundant feathering on the legs and its luxurious, often wavy mane and tail. Unlike giant draft breeds such as the Shire, Tinkers are relatively short, averaging about 135–155 cm, with a broad chest and the characteristic sturdy, low-set silhouette of a cob. They can be any color, from classic pinto patterns to black, bay, or gray. Along with their abundant hair, one of the breed’s hallmarks is an exceptionally calm, even-tempered, and friendly disposition.",
+      "image_author": "Неизвестен"
+    },
+    {
+      "id": "question-40",
+      "question": "What breed is this?",
+      "image": "img/quiz/horse-breeds-en/40.webp",
+      "answers": [
+        {
+          "id": "answer-01",
+          "text": "Hucul Pony"
+        },
+        {
+          "id": "answer-02",
+          "text": "Mongolian Horse"
+        },
+        {
+          "id": "answer-03",
+          "text": "Fjord Horse"
+        },
+        {
+          "id": "answer-04",
+          "text": "Konik"
+        }
+      ],
+      "correct_answer_id": "answer-04",
+      "explanation": "The Konik is a distinctive primitive Polish breed of small, semi-feral horses, usually standing about 130–140 cm, and is recognizable by its predominantly grullo coat; only a few red dun individuals have been recorded. Its defining features are primitive markings: a black dorsal stripe running the length of the back, a dark shoulder stripe, and transverse zebra-like bars on the legs. Compared with other ponies and small horses, the Konik has a stocky, barrel-shaped body, a very dense coat, a somewhat coarse head with a straight profile, and a dark, stiff mane. Its appearance closely resembles the historic European tarpan.",
+      "image_author": "Неизвестен"
+    }
+  ],
+  "source_content_hash": "42351ab6fa97093ce227083848f0d5d82da7218d138e859b02c3e6eafaa0f3f8",
+  "english_quiz": "horse-breeds-en",
+  "next_quiz": "horse-breeds-2-en",
+  "content_version": "a8319f832cd4754556bb2da0306736a58907544931673d2705b8209d00877909"
+}
