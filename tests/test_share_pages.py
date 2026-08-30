@@ -34,16 +34,21 @@ class MetadataParser(HTMLParser):
 class SharePageTests(unittest.TestCase):
     def test_generated_pages_match_every_published_quiz(self):
         quizzes = generate_share_pages.load_published_quizzes(ROOT)
-        expected = {quiz["slug"] for quiz in quizzes}
+        russian_quizzes = [quiz for quiz in quizzes if quiz.get("type") != "english"]
+        english_quizzes = [quiz for quiz in quizzes if quiz.get("type") == "english"]
+        expected = {quiz["slug"] for quiz in russian_quizzes}
+        expected_english = {quiz["source_quiz"] for quiz in english_quizzes}
+        self.assertEqual(len(expected_english), len(english_quizzes), "duplicate source_quiz")
+        russian_by_slug = {quiz["slug"]: quiz for quiz in russian_quizzes}
+        self.assertTrue(expected_english.issubset(russian_by_slug), "English quiz without a Russian source")
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "v"
             english_output = Path(directory) / "en/v"
             generate_share_pages.generate(ROOT, output, english_output)
             actual = {path.parent.name for path in output.glob("*/index.html")}
             self.assertEqual(actual, expected)
-            expected_english = {quiz["source_quiz"] for quiz in quizzes if quiz.get("type") == "english"}
             self.assertEqual({path.parent.name for path in english_output.glob("*/index.html")}, expected_english)
-            for quiz in quizzes:
+            for quiz in russian_quizzes:
                 slug = quiz["slug"]
                 source = (output / slug / "index.html").read_text(encoding="utf-8")
                 parser = MetadataParser()
@@ -63,6 +68,19 @@ class SharePageTests(unittest.TestCase):
                 self.assertIn('src="../../js/urls.js"', source)
                 self.assertIn('href="../../css/style.css"', source)
                 self.assertNotRegex(source, r'(?:href|src)="(?:css|js|img)/')
+            for quiz in english_quizzes:
+                source_slug = quiz["source_quiz"]
+                self.assertFalse((output / quiz["slug"] / "index.html").exists())
+                english_page = english_output / source_slug / "index.html"
+                self.assertTrue(english_page.is_file())
+                english_source = english_page.read_text(encoding="utf-8")
+                parser = MetadataParser()
+                parser.feed(english_source)
+                self.assertEqual(parser.canonical, f"{PUBLIC_URL}en/v/{source_slug}/")
+                self.assertIn(f'../../../v/{source_slug}/', parser.links)
+                russian_source = (output / source_slug / "index.html").read_text(encoding="utf-8")
+                self.assertIn(f'../../en/v/{source_slug}/', russian_source)
+                self.assertNotIn(f'/v/{quiz["slug"]}/', english_source)
 
     def test_render_escapes_metadata_and_visible_text(self):
         quiz = {

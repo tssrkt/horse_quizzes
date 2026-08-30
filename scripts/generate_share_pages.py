@@ -137,6 +137,7 @@ def generate(root: Path = ROOT, output: Path | None = None, english_output: Path
             directory = english_output / quiz["source_quiz"]
             directory.mkdir()
             (directory / "index.html").write_text(render_page(quiz, english_template, public_url, "en"), encoding="utf-8", newline="\n")
+            continue
         elif quiz.get("slug") in published_english:
             quiz = {**quiz, "_english_public_slug": quiz["slug"]}
         directory = output / quiz["slug"]
