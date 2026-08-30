@@ -7,1009 +7,1009 @@
   "source_revision": "d1edc11f471117a071dd596b88194cfae6e4f32adcd14b2ea2d590ee2dfc899c",
   "mode": "created",
   "fields": {
-    "title": "Сложные масти",
-    "short_description": "Здесь собраны сложные и комбинированные масти, а также редкие варианты лошадиного окраса, не вошедшие в другие викторины. Весьма непростые задания даже для опытных мастеведов.",
-    "intro": "Здесь собраны сложные и комбинированные масти, а также редкие варианты лошадиного окраса, не вошедшие в другие викторины. Весьма непростые задания даже для опытных мастеведов.",
-    "questionImagesAlt": "Фотография лошади для определения масти"
+    "title": "Complex Coat Colors",
+    "short_description": "A collection of complex and combined coat colors, plus rare equine color variants not covered in the other quizzes. Challenging even for experienced coat-color enthusiasts.",
+    "intro": "A collection of complex and combined coat colors, plus rare equine color variants not covered in the other quizzes. Challenging even for experienced coat-color enthusiasts.",
+    "questionImagesAlt": "Photo of a horse for identifying its coat color"
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороная в яблоках тобиано — это сочетание доминантного гена Silver, доминантного гена пегости Tobiano и фактора проявления «яблок» на вороной основе. Шерсть на туловище такого коня украшена крупными, округлыми белыми пятнами с четкими вертикальными границами, которые пересекают линию верха на спине или шее, а на участках темного пигмента проступает пепельно-серый, шоколадный или сепиевый оттенок с выразительным рисунком светлых «яблок». Грива и хвост сильно осветлены до серебристо-белого или дымчатого цвета, при этом ноги обычно остаются белыми из-за действия пегости. Маркерами масти служат розовая кожа под белыми пятнами и темная под цветными участками шерсти, а глаза остаются стандартными карими, если белые пятна пегости не затронули область вокруг них."
+        "question": "What coat color is this?",
+        "explanation": "Dappled silver black tobiano combines Silver with Tobiano on a black base, together with visible dappling. Large, rounded white tobiano patches with relatively smooth edges cross the topline, while the pigmented areas are diluted by Silver to ash-gray, sepia, or chocolate tones and may show distinct lighter dapples. The mane and tail can be strongly lightened to silver-white or smoky shades. Skin is pink beneath white markings and dark beneath colored areas; the eyes are usually brown unless facial white affects the eye area."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-гнедая в яблоках тобиано"
+          "text": "Dappled silver bay tobiano"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороная в яблоках тобиано"
+          "text": "Dappled silver black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Темно-игреневая в яблоках тобиано"
+          "text": "Dappled dark flaxen chestnut tobiano"
         },
         {
           "id": "answer-04",
-          "text": "Темно-соловая в яблоках тобиано"
+          "text": "Dappled dark palomino tobiano"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рыжая тобиано — это результат действия доминантного гена пегости Tobiano на рыжей основе. Шерсть на туловище такого коня разделена на крупные, округлые белые и рыжие пятна с четкими, ровными границами, которые обычно пересекают линию верха на спине, крупе или шее. Грива и хвост могут быть как полностью белыми или рыжими, так и двухцветными, а ноги, как правило, остаются белыми от копыт до запястных и скакательных суставов. Главными маркерами масти выступают сочетание розовой кожи под белыми участками и темной под рыжими, а голова обычно сохраняет базовый рыжий окрас, иногда с классическими белыми отметинами вроде проточины или звезды."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut tobiano is Tobiano on a chestnut base. The coat is divided into large white and chestnut patches with fairly smooth, well-defined edges, and the white commonly crosses the topline over the neck, back, or croup. The mane and tail may be white, chestnut, or two-colored, and the legs are commonly white. Skin is pink beneath white areas and pigmented beneath chestnut areas."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая тобиано"
+          "text": "Chestnut tobiano"
         },
         {
           "id": "answer-02",
-          "text": "Соловая тобиано"
+          "text": "Palomino tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Игреневая тобиано"
+          "text": "Flaxen chestnut tobiano"
         },
         {
           "id": "answer-04",
-          "text": "Буланая тобиано"
+          "text": "Buckskin tobiano"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Красно-серая масть (или розовая) — это не отдельный тип генетического окраса, а промежуточная стадия возрастного поседения доминантного гена Grey на гнедой основе. Шерсть на туловищах таких молодых лошадей представляет собой равномерную смесь отрастающих белых и базовых рыжих волосков, что визуально придает покрову мягкий розоватый, кирпичный или палево-коричневый оттенок. Ноги, уши, грива и хвост, будучи изначально черными по типу гнедой масти, накапливают седину гораздо медленнее и долго сохраняют свой контрастный темный цвет. Главными маркерами масти выступают неизменная темная кожа и карие глаза, которые не подвержены действию гена поседения, а также постепенное, с каждой линькой, выцветание корпуса до классического светло-серого состояния или масти «в яблоках»."
+        "question": "What coat color is this?",
+        "explanation": "Rose gray is a transitional stage of progressive graying, here on a bay base rather than a separate genetic color. As white hairs increasingly mix with the underlying reddish-brown coat, the body can appear pinkish, brick-red, or warm taupe. The darker points often retain more pigment for longer. The skin remains dark and the eyes brown while the horse continues to lighten with age."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Красно-серая"
+          "text": "Rose gray"
         },
         {
           "id": "answer-02",
-          "text": "Полово-серая"
+          "text": "Yellow-gray"
         },
         {
           "id": "answer-03",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-04",
-          "text": "Серая в гречку"
+          "text": "Flea-bitten gray"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Дикая гнедая масть — это результат действия доминантного аллеля дикой формы A+ в гене Agouti на вороной основе. Шерсть на туловище такого коня сохраняет привычный красно-коричневый или рыжевато-бурый окрас, однако черная пигментация на ногах сильно редуцирована. Вместо высоких черных «носков», как у классической гнедой, черный цвет присутствует только в области пута, бабок или едва доходит до скакательных и запястных суставов, плавно переходя в рыжий. Защитный волос в гриве и хвосте остается полностью черным, кожа сохраняет свой естественный темный пигмент, а глаза — стандартный карий цвет."
+        "question": "What coat color is this?",
+        "explanation": "Wild bay is a bay phenotype in which black pigment on the legs is greatly reduced, often remaining mainly around the fetlocks and pasterns rather than extending high up the limbs. The body remains reddish-brown, while the mane and tail stay black. The skin remains dark and the eyes brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедая"
+          "text": "Bay"
         },
         {
           "id": "answer-02",
-          "text": "Дикая гнедая"
+          "text": "Wild bay"
         },
         {
           "id": "answer-03",
-          "text": "Бурая"
+          "text": "Brown"
         },
         {
           "id": "answer-04",
-          "text": "Серая"
+          "text": "Gray"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рыжая сабино с отметинами Потека — это редкое и условное проявление доминантного типа пегости Sabino на базовой рыжей основе, названное в честь арабской чистокровной кобылы Lava Ridge Poteka. Шерсть на туловище такого коня сохраняет базовый рыжий окрас, который снизу вверх — обычно от задних конечностей на бедро и бок — перекрывается крупной, асимметричной белой пежиной с резко изломанными, «зубчатыми» краями. Внутри этого белого поля могут присутствовать маленькие рыжие пятнышки, при этом сам рисунок чаще всего локализован только на одной стороне крупа. Обязательными маркерами масти выступают белая проточина до нижней губы, высокие отметины на ногах и нежно-розовая кожа под белыми участками, при этом у лошади полностью отсутствуют признаки чубарого комплекса (полосатые копыта или пятнистая кожа)."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut sabino with Poteka markings is a rare, source-specific sabino variant named after the Arabian mare Lava Ridge Poteka. A large irregular white area rises from the lower body—often from a hind leg onto the thigh and flank—with sharply jagged borders and sometimes small chestnut spots within the white. Typical sabino features include extensive leg white, a broad facial marking that may reach the lower lip, and pink skin beneath the white areas, without Leopard Complex characteristics."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино с отметинами Потека"
+          "text": "Chestnut sabino with Poteka markings"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая сплешед уайт + чубарость чепрачного типа"
+          "text": "Chestnut splashed white + spotted blanket"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сабино + чубарость чепрачного типа"
+          "text": "Chestnut sabino + spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-чубарая чепрачного типа"
+          "text": "Chestnut spotted blanket"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Вороно-чалая сабино — это результат одновременного действия доминантного гена чалости Roan и гена пегости Sabino на вороной основе. Шерсть на туловище такого коня представляет собой уникальный сложный узор: на фоне равномерной смеси черных и белых «чалых» волосков, придающих корпусу дымчато-голубой или стальной оттенок, проступают крупные белые пежины с рваными, кружевными краями. Голова и нижняя часть ног сохраняют чистый черный цвет за счет гена чалости, однако на морде обязательно присутствует проточина, заходящая на нижнюю губу, а ноги украшены высокими «носками», поднимающимися вверх острыми углами. Обязательными маркерами масти выступают сочетание темных карих глаз, темной кожи на чалых участках и нежно-розовой кожи под белыми пятнами пегости сабино."
+        "question": "What coat color is this?",
+        "explanation": "Blue roan sabino combines true Roan and Sabino on a black base. The body has an even mixture of black and white hairs that produces a blue-gray or steel appearance, overlaid by irregular sabino white with ragged or lacy edges. The head and lower legs remain darker because of Roan, while sabino adds extensive facial and leg white. Skin stays dark under roaned areas and pink beneath depigmented sabino markings."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышастая сабино"
+          "text": "Grullo sabino"
         },
         {
           "id": "answer-02",
-          "text": "Вороно-чалая сабино"
+          "text": "Blue roan sabino"
         },
         {
           "id": "answer-03",
-          "text": "Мышастая сплешед уайт"
+          "text": "Grullo splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Вороно-чалая сплешед уайт"
+          "text": "Blue roan splashed white"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-пепельно-мышастая масть (Silver Smoky Grullo) — это редкий результат одновременного действия трех генов-модификаторов: доминантного «дикого» гена зонарности Dun, одного доминантного гена Cream и доминантного гена Silver на вороной основе. Шерсть на туловище такого коня приобретает уникальный, сложный и мягкий оттенок, который из-за наслоения осветлителей балансирует между палево-зольным, пепельно-кремовым и приглушенным серо-бежевым цветом. Из-за действия серебристого гена изначально черные ноги, уши и «маска» на морде выцветают до кофейного или шоколадного оттенка, а защитный волос в гриве и хвосте сильно осветляется, становясь дымчатым, пепельно-белым или серебристо-серым. Главными маркерами масти служат четко выраженные «дикие» отметины — темный кофейный ремень вдоль хребта и зебристость на ногах, а также неизменная темная кожа и выразительные глаза, которые из-за гена Cream могут иметь глубокий янтарный или необычный темно-ореховый цвет. "
+        "question": "What coat color is this?",
+        "explanation": "Silver smoky grullo combines Dun, one Cream allele, and Silver on a black base. Multiple dilution effects produce a soft ash-cream, muted gray-beige, or smoky buff body color. Silver lightens areas that would otherwise be black, including the mane, tail, legs, and facial points, toward chocolate, coffee, smoky gray, or silver-white. Dun primitive markings remain important identifiers, especially a darker dorsal stripe and leg barring. The skin remains pigmented."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышастый"
+          "text": "Grullo"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-мышастый"
+          "text": "Silver grullo"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-пепельно-мышастый"
+          "text": "Silver smoky grullo"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-жемчужно-мышастый"
+          "text": "Silver pearl grullo"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-гнедо-чалая масть — это результат одновременного действия доминантного гена чалости Roan и доминантного гена-осветлителя Silver на гнедой основе. Шерсть на туловище такого коня представляет собой равномерную смесь базовых красно-коричневых и белых волосков, что визуально придает корпусу нежный розовато-палевый или винный оттенок. В то время как голова и нижняя часть ног остаются нетронутыми чалостью, действие серебристого гена радикально меняет их цвет: изначально черные ноги гнедой основы выцветают до шоколадного или кофейного оттенка, а защитный волос в гриве и хвосте осветляется до эффектного серебристо-белого или дымчато-серого цвета. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также сохранение истинного темного окраса на морде, суставах и копытах."
+        "question": "What coat color is this?",
+        "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-гнедо-чалая"
+          "text": "Silver bay roan"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-серая"
+          "text": "Silver gray"
         },
         {
           "id": "answer-04",
-          "text": "Серая"
+          "text": "Gray"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Гнедо-чубарая масть леопардового малопятнистого типа (Bay Few-spot Leopard) — это результат гомозиготного состояния основного гена чубарости в сочетании с доминантным геном-модификатором рисунка (генотип Lp/Lp PATN1/-) на базовой гнедой основе. Шерсть такого коня практически полностью белая от рождения, а исходный гнедой пигмент сохраняется лишь в единичных мелких пятнышках на голове, шее, локтях или в паху, а также локально в волосах гривы и хвоста. Обязательными маркерами масти выступают специфические признаки чубарого комплекса: выразительная пятнистая (крапчатая) кожа, которая отчетливо просвечивает сквозь белую шерсть на веках, губах и зеркальце, вертикально полосатый копытный рог и белая склера вокруг карих глаз."
+        "question": "What coat color is this?",
+        "explanation": "Bay few-spot leopard is a near-white Leopard Complex phenotype on a bay base, associated with homozygous Lp and strong pattern expression. Only a few small remnants of bay pigment may remain on the head, neck, elbows, groin, mane, or tail. Typical Leopard Complex markers include mottled skin, vertically striped hooves, and visible white sclera."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Гнедо-чубарая леопардового типа"
+          "text": "Bay leopard"
         },
         {
           "id": "answer-02",
-          "text": "Гнедо-чубарая леопардового малопятнистого типа"
+          "text": "Bay few-spot leopard"
         },
         {
           "id": "answer-03",
-          "text": "Гнедо-чубарая чепрачного типа"
+          "text": "Bay spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-чубарая белочепрачного типа"
+          "text": "Bay snowcap"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-гнедо-чалая масть — это результат одновременного действия доминантного гена чалости Roan и доминантного гена-осветлителя Silver на гнедой основе. Шерсть на туловище такого коня представляет собой равномерную смесь базовых красно-коричневых и белых волосков, что визуально придает корпусу нежный розовато-палевый или винный оттенок. В то время как голова и нижняя часть ног остаются нетронутыми чалостью, действие серебристого гена радикально меняет их цвет: изначально черные ноги гнедой основы выцветают до шоколадного или кофейного оттенка, а защитный волос в гриве и хвосте осветляется до эффектного серебристо-белого или дымчато-серого цвета. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также сохранение истинного темного окраса на морде, суставах и копытах."
+        "question": "What coat color is this?",
+        "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-гнедо-чалая"
+          "text": "Silver bay roan"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедо-серая"
+          "text": "Silver bay gray"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-серая"
+          "text": "Silver gray"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-гнедая масть — это результат действия доминантного гена-осветлителя Silver на гнедой основе. Шерсть на туловище такого коня сохраняет свой привычный красно-коричневый, винный или бурый окрас, однако черная пигментация на других участках тела подвергается сильному осветлению. Защитный волос в гриве и хвосте выцветает до эффектного серебристо-белого, соломенного или дымчато-серого цвета, часто с более темными прядями у корней, а изначально черные ноги гнедой основы приобретают шоколадный, кофейный или пепельно-коричневый оттенок. Главными маркерами масти выступают неизменная темная кожа и карие глаза, при этом в зимнее время на ногах могут проступать характерные светлые «яблоки»."
+        "question": "What coat color is this?",
+        "explanation": "Silver bay is Silver dilution on a bay base. The reddish-brown body remains largely recognizable, while black pigment in the mane, tail, and lower legs is strongly diluted. The mane and tail may become silver-white, flaxen-looking, or smoky gray, and the legs shift toward chocolate or ash-brown. The skin remains dark and the eyes brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ОЗВ"
+          "text": "Chestnut with lightened mane and tail"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-04",
-          "text": "Игреневая"
+          "text": "Flaxen chestnut"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Каурая масть (рыже-саврасая) — это результат действия доминантного «дикого» гена зонарности Dun на рыжей основе. Шерсть на туловище такого коня приобретает блеклый, размытый светло-рыжий, палевый или персиково-кремовый оттенок. Защитный волос в гриве и хвосте, а также нижняя часть ног окрашены чуть темнее корпуса — в насыщенный рыже-бурый или красно-коричневый цвет. Главными маркерами масти выступают обязательные «дикие» отметины: четкий темно-рыжий или ремённо-бурый ремень вдоль хребта, зебристость на ногах, «крылья» на лопатках и паутинка на лбу, при этом кожа сохраняет естественный темный пигмент, а глаза — стандартный карий цвет."
+        "question": "What coat color is this?",
+        "explanation": "Red dun is Dun on a chestnut base. The body becomes a muted light red, peach, buff, or sandy shade, while the mane, tail, and lower legs may be somewhat darker. Primitive markings include a distinct darker red dorsal stripe and may also include leg barring, shoulder shading, and cobwebbing on the forehead. The skin remains dark and the eyes brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая"
+          "text": "Chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ОЗВ"
+          "text": "Chestnut with lightened mane and tail"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Пепельно-мышастая масть (Smoky Grullo) — это результат одновременного действия доминантного «дикого» гена зонарности Dun и одного доминантного гена Cream на вороной основе. Шерсть на туловище такого коня приобретает изысканный, очень мягкий серебристо-пепельный, дымчато-серый или палево-зольный оттенок, который из-за дополнительного кремового осветления выглядит светлее и нежнее классического мышастого окраса. Ноги, уши и «маска» на морде остаются контрастными темными, а защитный волос в гриве и хвосте имеет насыщенный черный или глубокий буро-пепельный цвет. Обязательными маркерами масти выступают четко выраженные «дикие» признаки — темный ремень вдоль хребта, возможная зебристость на ногах, а также естественная темная кожа и карие глаза, которые иногда под влиянием гена Cream могут приобретать более светлый, янтарно-ореховый оттенок."
+        "question": "What coat color is this?",
+        "explanation": "Smoky grullo combines Dun with one Cream allele on a black base. The body is lighter and softer than ordinary grullo, ranging from silvery ash and smoky gray to buff-gray, while the legs, mane, tail, ears, and facial mask remain comparatively dark. A clear dorsal stripe and possible leg barring identify Dun. The skin remains dark; the eyes are usually brown but may be somewhat lighter under Cream."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышастая"
+          "text": "Grullo"
         },
         {
           "id": "answer-02",
-          "text": "Пепельно-мышастая"
+          "text": "Smoky grullo"
         },
         {
           "id": "answer-03",
-          "text": "Мышасто-жемчужная"
+          "text": "Black dun pearl"
         },
         {
           "id": "answer-04",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Горностаевая — это редкая отмастка серой масти, представляющая собой особую фазу возрастного поседения под влиянием доминантного гена Grey на вороной или гнедой основе. Шерсть на корпусе, голове и конечностях выше скакательных и запястных суставов у такого коня выцветает до практически чистого светло-серого или свинцово-белого цвета. При этом защитный волос в гриве и хвосте, а также нижняя часть ног остаются контрастными темными, аспидно-серыми или почти черными, напоминая зимний окрас королевского горностая. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также временный характер фенотипа, так как с последующими линьками лошадь неизбежно продолжает светлеть до полностью белого состояния."
+        "question": "What coat color is this?",
+        "explanation": "Ermine gray is a rare traditional name for a stage of progressive graying in which the body has become very light while the mane, tail, and lower legs remain markedly darker. The contrast can resemble the winter coat of an ermine. The skin remains dark and the eyes brown, and the appearance may be temporary as the horse continues to gray with age."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Белая"
+          "text": "White"
         },
         {
           "id": "answer-02",
-          "text": "Светло-серая"
+          "text": "Light gray"
         },
         {
           "id": "answer-03",
-          "text": "Серая в яблоках"
+          "text": "Dapple gray"
         },
         {
           "id": "answer-04",
-          "text": "Горностаевая"
+          "text": "Ermine gray"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Солово-саврасая масть (дуналино или паломино-дан / Palomino Dun) — это результат одновременного действия одного доминантного гена Cream и доминантного «дикого» гена зонарности Dun на рыжей основе. Шерсть на туловище такого коня приобретает блеклый, палево-кремовый, песчаный или нежно-желтый оттенок, который выглядит матовым и лишен яркого золотистого блеска обычной соловой масти. Грива и хвост сильно осветлены до соломенного или почти белого цвета, на фоне которых отчетливо выделяются «дикие» маркеры: четкий рыжевато-бурый или чайный ремень вдоль хребта, а также зебристость на ногах. Главными маркерами масти выступают неизменная темная кожа и карие глаза, которые под влиянием гена Cream иногда могут иметь чуть более светлый, янтарно-ореховый оттенок."
+        "question": "What coat color is this?",
+        "explanation": "Dunalino, also called palomino dun, combines one Cream allele and Dun on a chestnut base. The body is a muted cream-gold, sandy, or pale yellow rather than the brighter gold of an ordinary palomino, while the mane and tail are strongly lightened. Dun adds primitive markings, especially a darker reddish-brown dorsal stripe and often leg barring."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Солово-саврасая"
+          "text": "Dunalino"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-саврасая"
+          "text": "Silver bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Светло-каурая"
+          "text": "Light red dun"
         },
         {
           "id": "answer-04",
-          "text": "Светло-игреневая"
+          "text": "Light flaxen chestnut"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороная тобиано — это результат одновременного действия доминантного гена-осветлителя Silver и доминантного гена пегости Tobiano на вороной основе. Шерсть на туловище такого коня разбита на крупные, округлые белые и темные пятна с четкими, ровными границами, которые пересекают линию верха на спине или шее. На участках темного пигмента шерсть имеет пепельно-серый, сепиевый или глубокий шоколадный оттенок, а защитный волос в гриве и хвосте сильно выцветает, приобретая эффектный серебристо-белый или дымчатый цвет. Главными маркерами масти выступают сочетание нежно-розовой кожи под белыми полями и темной кожи под цветными участками, полностью белые ноги и стандартные карие глаза, если белые пятна пегости не затронули область вокруг них."
+        "question": "What coat color is this?",
+        "explanation": "Silver black tobiano combines Silver and Tobiano on a black base. Large white tobiano patches cross the topline, while the pigmented areas are diluted from black to ash-gray, sepia, or chocolate. The mane and tail may be strongly lightened toward silver-white or smoky gray. Skin is pink under white areas and dark under pigmented areas."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная тобиано"
+          "text": "Black tobiano"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороная тобиано"
+          "text": "Silver black tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-чалая тобиано"
+          "text": "Blue roan tobiano"
         },
         {
           "id": "answer-04",
-          "text": "Пепельно-вороная тобиано"
+          "text": "Smoky black tobiano"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-пепельно-мышастая масть (Silver Smoky Grullo) — это редкий результат одновременного действия трех генов-модификаторов: доминантного «дикого» гена зонарности Dun, одного доминантного гена Cream и доминантного гена Silver на вороной основе. Шерсть на туловище такого коня приобретает уникальный, сложный и мягкий оттенок, который из-за наслоения осветлителей балансирует между палево-зольным, пепельно-кремовым и приглушенным серо-бежевым цветом. Из-за действия серебристого гена изначально черные ноги, уши и «маска» на морде выцветают до кофейного или шоколадного оттенка, а защитный волос в гриве и хвосте сильно осветляется, становясь дымчатым, пепельно-белым или серебристо-серым. Главными маркерами масти служат четко выраженные «дикие» отметины — темный кофейный ремень вдоль хребта и зебристость на ногах, а также неизменная темная кожа и выразительные глаза, которые из-за гена Cream могут иметь глубокий янтарный или необычный темно-ореховый цвет. "
+        "question": "What coat color is this?",
+        "explanation": "Silver smoky grullo combines Dun, one Cream allele, and Silver on a black base. Multiple dilution effects produce a soft ash-cream, muted gray-beige, or smoky buff body color. Silver lightens areas that would otherwise be black, including the mane, tail, legs, and facial points, toward chocolate, coffee, smoky gray, or silver-white. Dun primitive markings remain important identifiers, especially a darker dorsal stripe and leg barring. The skin remains pigmented."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороно-чалая"
+          "text": "Silver black roan"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-мышастая"
+          "text": "Silver grullo"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-пепельно-мышастая"
+          "text": "Silver smoky grullo"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороная масть — это результат действия доминантного гена-осветлителя Silver на вороной основе. Шерсть на туловище такого коня приобретает глубокий сепиевый, шоколадный, пепельно-серый или угольно-бурый оттенок, из-за чего масть часто ошибочно путают с караковой или темно-гнедой. Защитный волос в гриве и хвосте при этом подвергается максимальному осветлению, становясь эффектным серебристо-белым, дымчатым или платиновым, иногда с более темными прядями у корней. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также нижняя часть ног, которая обычно сохраняет чуть более темный, кофейно-пепельный оттенок, часто украшенный светлыми «яблоками» в зимнее время."
+        "question": "What coat color is this?",
+        "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-03",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-04",
-          "text": "Темно-игреневая"
+          "text": "Dark flaxen chestnut"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Булано-саврасая масть (гнедо-саврасо-кремовая / Dunskin) — это результат одновременного действия одного доминантного гена Cream и доминантного «дикого» гена зонарности Dun на гнедой основе. Шерсть на туловище такого коня приобретает матовый, блеклый палево-желтый, песочный или размытый золотисто-серый оттенок, лишенный яркого глянцевого блеска классической буланой масти. Нижняя часть ног, уши и «маска» на морде остаются контрастными черными или темно-коричневыми, а защитный волос в гриве и хвосте имеет преимущественно черный цвет, часто с примесью светлых прядей. Главными маркерами масти служат обязательные «дикие» признаки: четкий черный или темно-бурый ремень вдоль хребта, зебристость на ногах и темные «крылья» на лопатках, при этом кожа сохраняет естественный темный пигмент, а глаза — стандартный карий цвет."
+        "question": "What coat color is this?",
+        "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Булано-саврасая"
+          "text": "Dunskin"
         },
         {
           "id": "answer-04",
-          "text": "Булано-псевдосаврасая"
+          "text": "Pseudo-dun buckskin"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-мышастая масть (серебристо-вороно-саврасая / Silver Grullo) — это результат одновременного действия доминантного «дикого» гена зонарности Dun и доминантного гена-осветлителя Silver на вороной основе. Шерсть на туловище такого коня приобретает изысканный дымчато-кремовый, палево-зольный или мягкий серо-бежевый оттенок, полностью лишенный классического рыжего пигмента. Действие серебристого гена радикально меняет цвет зон, которые у обычной мышастой масти остаются черными: уши, «маска» на морде и нижняя часть ног выцветают до шоколадного или кофейно-пепельного оттенка, а защитный волос в гриве и хвосте сильно осветляется, становясь серебристо-белым или дымчато-серым. Главными маркерами масти служат обязательные «дикие» отметины — четкий темно-кофейный ремень вдоль хребта и зебристость на ногах, а также неизменная темная кожа и карие глаза."
+        "question": "What coat color is this?",
+        "explanation": "Silver grullo combines Dun and Silver on a black base. The body becomes smoky cream, ash-buff, or soft gray-beige, while Silver dilutes the normally black mane, tail, lower legs, ears, and facial points toward coffee, chocolate, or silver-gray. Dun primitive markings remain visible, especially the dorsal stripe and often leg barring."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороно-чалая"
+          "text": "Silver black roan"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-пепельно-вороная"
+          "text": "Silver smoky black"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-мышастая"
+          "text": "Silver grullo"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороная масть — это результат действия доминантного гена-осветлителя Silver на вороной основе. Шерсть на туловище такого коня приобретает глубокий сепиевый, шоколадный, пепельно-серый или угольно-бурый оттенок, из-за чего масть часто ошибочно путают с караковой или темно-гнедой. Защитный волос в гриве и хвосте при этом подвергается максимальному осветлению, становясь эффектным серебристо-белым, дымчатым или платиновым, иногда с более темными прядями у корней. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также нижняя часть ног, которая обычно сохраняет чуть более темный, кофейно-пепельный оттенок, часто украшенный светлыми «яблоками» в зимнее время."
+        "question": "What coat color is this?",
+        "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороно-чалая"
+          "text": "Silver black roan"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-пепельно-вороная"
+          "text": "Silver smoky black"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-мышастая"
+          "text": "Silver grullo"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Булано-саврасая масть (гнедо-саврасо-кремовая / Dunskin) — это результат одновременного действия одного доминантного гена Cream и доминантного «дикого» гена зонарности Dun на гнедой основе. Шерсть на туловище такого коня приобретает матовый, блеклый палево-желтый, песочный или размытый золотисто-серый оттенок, лишенный яркого глянцевого блеска классической буланой масти. Нижняя часть ног, уши и «маска» на морде остаются контрастными черными или темно-коричневыми, а защитный волос в гриве и хвосте имеет преимущественно черный цвет, часто с примесью светлых прядей. Главными маркерами масти служат обязательные «дикие» признаки: четкий черный или темно-бурый ремень вдоль хребта, зебристость на ногах и темные «крылья» на лопатках, при этом кожа сохраняет естественный темный пигмент, а глаза — стандартный карий цвет."
+        "question": "What coat color is this?",
+        "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Булано-саврасая"
+          "text": "Dunskin"
         },
         {
           "id": "answer-04",
-          "text": "Булано-псевдосаврасая"
+          "text": "Pseudo-dun buckskin"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-вороная масть — это результат действия доминантного гена-осветлителя Silver на вороной основе. Шерсть на туловище такого коня приобретает глубокий сепиевый, шоколадный, пепельно-серый или угольно-бурый оттенок, из-за чего масть часто ошибочно путают с караковой или темно-гнедой. Защитный волос в гриве и хвосте при этом подвергается максимальному осветлению, становясь эффектным серебристо-белым, дымчатым или платиновым, иногда с более темными прядями у корней. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также нижняя часть ног, которая обычно сохраняет чуть более темный, кофейно-пепельный оттенок, часто украшенный светлыми «яблоками» в зимнее время."
+        "question": "What coat color is this?",
+        "explanation": "Silver black is Silver dilution on a black base. The body may become sepia, chocolate, ash-gray, or charcoal-brown, while the mane and tail are usually much more strongly diluted to silver-white, smoky, or platinum shades. The skin remains dark and the eyes brown; the lower legs often remain somewhat darker and may show dappling."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-вороно-чалая"
+          "text": "Silver black roan"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-пепельно-вороная"
+          "text": "Silver smoky black"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-мышастая"
+          "text": "Silver grullo"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Булано-саврасая масть (гнедо-саврасо-кремовая / Dunskin) — это результат одновременного действия одного доминантного гена Cream и доминантного «дикого» гена зонарности Dun на гнедой основе. Шерсть на туловище такого коня приобретает матовый, блеклый палево-желтый, песочный или размытый золотисто-серый оттенок, лишенный яркого глянцевого блеска классической буланой масти. Нижняя часть ног, уши и «маска» на морде остаются контрастными черными или темно-коричневыми, а защитный волос в гриве и хвосте имеет преимущественно черный цвет, часто с примесью светлых прядей. Главными маркерами масти служат обязательные «дикие» признаки: четкий черный или темно-бурый ремень вдоль хребта, зебристость на ногах и темные «крылья» на лопатках, при этом кожа сохраняет естественный темный пигмент, а глаза — стандартный карий цвет."
+        "question": "What coat color is this?",
+        "explanation": "Dunskin combines one Cream allele and Dun on a bay base. The body is a muted yellow-tan, sandy, or washed golden-gray shade, while the legs, mane, tail, ears, and facial points remain dark. Dun contributes a clear dark dorsal stripe and may also produce leg barring and shoulder markings. The skin remains dark and the eyes are usually brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланая"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Булано-саврасая"
+          "text": "Dunskin"
         },
         {
           "id": "answer-04",
-          "text": "Булано-псевдосаврасая"
+          "text": "Pseudo-dun buckskin"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-темно-гнедая масть — это результат действия доминантного гена-осветлителя Silver на темно-гнедой основе. Шерсть на туловище такого коня сохраняет глубокий, насыщенный шоколадный, кофейно-бурый или почти черный окрас, при котором участки рыжеватого или палевого пигмента остаются заметными лишь в паху, вокруг глаз и на морде (в виде подласин). Главной особенностью масти становится радикальное осветление изначально черных зон: грива и хвост выцветают до эффектного серебристо-белого, платинового или дымчато-серого цвета, а нижняя часть ног приобретает пепельно-коричневый или кофейный оттенок. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также характерное проявление светлых «яблок» на корпусе и ногах, особенно заметное в зимнее время."
+        "question": "What coat color is this?",
+        "explanation": "Silver dark bay is Silver acting on a very dark bay base. The body remains deep chocolate, coffee-brown, or nearly black, while the originally black mane, tail, and lower legs are strongly diluted toward silver-white, platinum, smoky gray, or ash-brown. The skin stays dark and the eyes brown, and dappling may be especially visible in seasonal coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-02",
-          "text": "Серебристо-темно-гнедая"
+          "text": "Silver dark bay"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-каурая"
+          "text": "Silver red dun"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-бурая"
+          "text": "Silver brown"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Вороно-чубарая масть леопардового малопятнистого типа (Black Few-spot Leopard) — это результат гомозиготного состояния основного гена чубарости в сочетании с доминантным геном-модификатором рисунка (генотип Lp/Lp PATN1/-) на вороной основе. Шерсть такого коня практически полностью белая от рождения, а исходный черный пигмент сохраняется лишь в единичных мелких пятнышках на голове, шее, локтях или в паху, а также локально в волосах гривы и хвоста. Обязательными маркерами масти выступают специфические признаки чубарого комплекса: выразительная пятнистая (крапчатая) кожа, которая отчетливо просвечивает сквозь белую шерсть на веках, губах и зеркальце, вертикально полосатый копытный рог и белая склера вокруг карих глаз."
+        "question": "What coat color is this?",
+        "explanation": "Black few-spot leopard is a near-white Leopard Complex phenotype on a black base, associated with homozygous Lp and strong pattern expression. Only a few small remnants of black pigment may remain on the head, neck, elbows, groin, mane, or tail. Mottled skin, vertically striped hooves, and visible white sclera are characteristic Leopard Complex markers."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная товеро"
+          "text": "Black tovero"
         },
         {
           "id": "answer-02",
-          "text": "Вороно-чубарая леопардового типа"
+          "text": "Black leopard"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-чубарая леопардового малопятнистого типа"
+          "text": "Black few-spot leopard"
         },
         {
           "id": "answer-04",
-          "text": "Белая"
+          "text": "White"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-темно-гнедая масть — это результат действия доминантного гена-осветлителя Silver на темно-гнедой основе. Шерсть на туловище такого коня сохраняет глубокий, насыщенный шоколадный, кофейно-бурый или почти черный окрас, при котором участки рыжеватого или палевого пигмента остаются заметными лишь в паху, вокруг глаз и на морде (в виде подласин). Главной особенностью масти становится радикальное осветление изначально черных зон: грива и хвост выцветают до эффектного серебристо-белого, платинового или дымчато-серого цвета, а нижняя часть ног приобретает пепельно-коричневый или кофейный оттенок. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также характерное проявление светлых «яблок» на корпусе и ногах, особенно заметное в зимнее время."
+        "question": "What coat color is this?",
+        "explanation": "Silver dark bay is Silver acting on a very dark bay base. The body remains deep chocolate, coffee-brown, or nearly black, while the originally black mane, tail, and lower legs are strongly diluted toward silver-white, platinum, smoky gray, or ash-brown. The skin stays dark and the eyes brown, and dappling may be especially visible in seasonal coat."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Бурая с ОЗВ"
+          "text": "Brown with lightened mane and tail"
         },
         {
           "id": "answer-02",
-          "text": "Темно-соловая"
+          "text": "Dark palomino"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-вороная"
+          "text": "Silver black"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-темно-гнедая"
+          "text": "Silver dark bay"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Серебристо-гнедо-чалая масть — это результат одновременного действия доминантного гена чалости Roan и доминантного гена-осветлителя Silver на гнедой основе. Шерсть на туловище такого коня представляет собой равномерную смесь базовых красно-коричневых и белых волосков, что визуально придает корпусу нежный розовато-палевый или винный оттенок. В то время как голова и нижняя часть ног остаются нетронутыми чалостью, действие серебристого гена радикально меняет их цвет: изначально черные ноги гнедой основы выцветают до шоколадного или кофейного оттенка, а защитный волос в гриве и хвосте осветляется до эффектного серебристо-белого или дымчато-серого цвета. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также сохранение истинного темного окраса на морде, суставах и копытах."
+        "question": "What coat color is this?",
+        "explanation": "Silver bay roan combines Roan and Silver on a bay base. White hairs are evenly mixed through the reddish-brown body, giving a soft wine, pinkish-tan, or muted rose tone, while the head and lower legs remain less affected by Roan. Silver dilutes the originally black points to chocolate or coffee shades and lightens the mane and tail toward silver-white or smoky gray. The skin remains dark and the eyes brown."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Красно-серая"
+          "text": "Rose gray"
         },
         {
           "id": "answer-02",
-          "text": "Полово-серая"
+          "text": "Yellow-gray"
         },
         {
           "id": "answer-03",
-          "text": "Серебристо-гнедая"
+          "text": "Silver bay"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-гнедо-чалая"
+          "text": "Silver bay roan"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Солово-саврасая масть (дуналино или паломино-дан / Palomino Dun) — это результат одновременного действия одного доминантного гена Cream и доминантного «дикого» гена зонарности Dun на рыжей основе. Шерсть на туловище такого коня приобретает блеклый, палево-кремовый, песчаный или нежно-желтый оттенок, который выглядит матовым и лишен яркого золотистого блеска обычной соловой масти. Грива и хвост сильно осветлены до соломенного или почти белого цвета, на фоне которых отчетливо выделяются «дикие» маркеры: четкий рыжевато-бурый или чайный ремень вдоль хребта, а также зебристость на ногах. Главными маркерами масти выступают неизменная темная кожа и карие глаза, которые под влиянием гена Cream иногда могут иметь чуть более светлый, янтарно-ореховый оттенок."
+        "question": "What coat color is this?",
+        "explanation": "Dunalino, also called palomino dun, combines one Cream allele and Dun on a chestnut base. The body is a muted cream-gold, sandy, or pale yellow rather than the brighter gold of an ordinary palomino, while the mane and tail are strongly lightened. Dun adds primitive markings, especially a darker reddish-brown dorsal stripe and often leg barring."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Соловая"
+          "text": "Palomino"
         },
         {
           "id": "answer-02",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-03",
-          "text": "Солово-саврасая"
+          "text": "Dunalino"
         },
         {
           "id": "answer-04",
-          "text": "Серебристо-саврасая"
+          "text": "Silver bay dun"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рыже-чалая масть (в народе часто называемая розовой) — это результат действия доминантного гена чалости Roan на базовой рыжей основе. Шерсть на туловище такого коня представляет собой равномерную смесь базовых рыжих и белых волосков, что визуально придает корпусу нежный розоватый, палево-коричневый или клубничный оттенок. Голова, уши, грива, хвост и нижняя часть ног практически не содержат примеси белых волос и сохраняют свой первоначальный чистый и насыщенный рыжий цвет. Главными маркерами масти выступают неизменная темная кожа и карие глаза, а также уникальный «эффект чалости»: при повреждениях кожи (царапинах или шрамах) шерсть на их месте отрастает без белых волосков, образуя чистые рыжие пятна."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut roan, often called strawberry roan, is true Roan on a chestnut base. White hairs are evenly intermixed through the body, producing a pinkish, strawberry, or muted red appearance, while the head, mane, tail, and lower legs retain much more of the original chestnut color. The skin remains dark, and healed injuries may produce solid-colored 'corn spots' where white hairs do not regrow."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыже-чалая"
+          "text": "Chestnut roan"
         },
         {
           "id": "answer-02",
-          "text": "Красно-серая"
+          "text": "Rose gray"
         },
         {
           "id": "answer-03",
-          "text": "Полово-серая"
+          "text": "Yellow-gray"
         },
         {
           "id": "answer-04",
-          "text": "Каурая"
+          "text": "Red dun"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рыже-чало-чубарая масть чепрачного типа — это результат сложного генетического взаимодействия доминантного гена чалости Roan и гетерозиготного состояния основного гена чубарости в сочетании с модификатором рисунка (генотип Lp/lp PATN1/-) на рыжей основе. Внешний вид такого коня разделен на две контрастные зоны: передняя часть корпуса, голова и ноги представляют собой равномерную рыже-чалую смесь рыжих и белых волосков, создающую мягкий розовато-клубничный фон, в то время как на крупе и пояснице расположен четко очерченный белый «чепрак». По этому белому полю хаотично разбросаны небольшие овальные пятна базового рыжего цвета, а сам защитный волос в гриве и хвосте может быть как двухцветным, так и преимущественно рыжим. Обязательными маркерами масти выступают все классические признаки чубарого комплекса: вертикально полосатый копытный рог, выразительная белая склера вокруг карих глаз и пятнистая (крапчатая) кожа, особенно заметная на неокрашенных участках вокруг губ и век."
+        "question": "What coat color is this?",
+        "explanation": "Chestnut roan with a spotted blanket combines true Roan and Leopard Complex patterning on a chestnut base. The forebody shows the even red-and-white hair mixture of chestnut roan, while the croup and loin carry a distinct white blanket scattered with chestnut-colored spots. Leopard Complex markers include mottled skin, striped hooves, and visible white sclera."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыже-чубарая леопардового типа"
+          "text": "Chestnut leopard"
         },
         {
           "id": "answer-02",
-          "text": "Рыже-чало-чубарая леопардового типа"
+          "text": "Chestnut roan leopard"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-чубарая чепрачного типа"
+          "text": "Chestnut spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-чало-чубарая чепрачного типа"
+          "text": "Chestnut roan spotted blanket"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Какой тип пегости и чубарости у этого коня?",
-        "explanation": "Тобиано + чепрак (генетически классифицируемая как тип пинталуза / Pintaloosa) — это результат редкого одновременного сочетания доминантного гена пегости Tobiano и генов чубарого комплекса (генотип Lp/lp с модификатором рисунка) на любой основе. Шерсть на туловище такого коня представляет собой уникальное наложение двух крупных узоров: по корпусу распределены характерные для тобиано большие, округлые белые пятна с четкими границами, пересекающие линию спины, а область крупа и поясницы дополнительно перекрыта чубарым «чепраком». Внутри этого белого чепрачного поля, а также на стыках пегих пятен хаотично разбросаны мелкие овальные цветные крапинки базового окраса. Ноги у такой лошади обычно остаются полностью белыми благодаря гену тобиано. Обязательными маркерами масти выступают как признаки пегости (нежно-розовая кожа под большими белыми полями), так и полный набор чубарого комплекса: вертикально полосатый копытный рог, выразительная белая склера вокруг глаз и крапчатая кожа на неокрашенных участках морды. "
+        "question": "What pinto and Leopard Complex patterns does this horse have?",
+        "explanation": "Tobiano plus a spotted blanket is a pintaloosa-type combination of Tobiano and Leopard Complex patterning. Large smooth-edged tobiano white patches cross the topline, while the croup and loin also carry a Leopard Complex blanket with colored spots. The horse can show both pinto skin depigmentation and Leopard Complex markers such as mottled skin, vertically striped hooves, and visible white sclera."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Тобиано + чепрак"
+          "text": "Tobiano + spotted blanket"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано + снежные хлопья"
+          "text": "Tobiano + snowflake"
         },
         {
           "id": "answer-03",
-          "text": "Товеро + чепрак"
+          "text": "Tovero + spotted blanket"
         },
         {
           "id": "answer-04",
-          "text": "Товеро + снежные хлопья"
+          "text": "Tovero + snowflake"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Пепельно-караковая масть — это результат действия одного доминантного гена-осветлителя Cream на караковой основе. Шерсть на туловищах таких лошадей приобретает очень сложный и мягкий, слегка приглушенный оттенок темного какао, горького шоколада или глубокого цвета «кофе с молоком». В отличие от классической караковой масти, черная основа здесь заметно смягчена кремовым геном, однако характерные подпалины в паху, на морде и вокруг глаз остаются хорошо различимыми, приобретая нежный золотисто-бежевый, палевый или песочный цвет. Главными маркерами масти выступают неизменная темная кожа и карие глаза, которые под влиянием гена Cream иногда могут становиться чуть светлее, приобретая выразительный янтарно-ореховый оттенок."
+        "question": "What coat color is this?",
+        "explanation": "Smoky seal brown is one Cream allele on a seal-brown base. The dark body is softened toward cocoa, dark chocolate, or coffee-brown, while the characteristic lighter tan areas around the muzzle, eyes, groin, and flanks remain visible in warmer beige or sandy tones. The skin remains dark and the eyes are usually brown, though Cream can sometimes lighten them slightly."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-02",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         },
         {
           "id": "answer-03",
-          "text": "Пепельно-караковая"
+          "text": "Smoky seal brown"
         },
         {
           "id": "answer-04",
-          "text": "Пепельно-вороная"
+          "text": "Smoky black"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Мухортая масть — это старинное русское название отмастки, которая представляет собой караковую основу с выраженными «дикими» признаками под влиянием гена зонарности Dun. Шерсть на туловище такого коня имеет глубокий темно-коричневый, почти черный или грязно-бурый окрас, на фоне которого резко выделяются контрастные золотисто-рыжие, палевые или желтоватые подпалины на морде (вокруг губ и ноздрей), вокруг глаз, в паху и на внутренних сторонах бедер. Защитный волос в гриве и хвосте, а также нижняя часть ног остаются угольно-черными, а вдоль хребта обязательно тянется четкий темный ремень. Главными маркерами масти выступают неизменная темная кожа, карие глаза и характерный «двухцветный» контраст между темным корпусом и теплыми светлыми подпалинами."
+        "question": "What coat color is this?",
+        "explanation": "The source uses the old Russian term 'mukhortaya' for a seal-brown-type base with Dun primitive markings. The coat is very dark brown to nearly black with contrasting warm tan or reddish areas around the muzzle, eyes, groin, and inner thighs, together with a distinct dark dorsal stripe. In English genetic terminology, 'seal brown dun' is the clearest descriptive equivalent."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Grullo"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Мухортая"
+          "text": "Seal brown dun (mukhortaya)"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Гнедо-чалая масть — это результат действия доминантного гена чалости Roan на гнедой основе. Шерсть на туловище такого коня представляет собой равномерную смесь базовых коричневых и белых волосков, что визуально придает корпусу уникальный винный, розовато-серый или сиреневый оттенок. Голова, уши, грива, хвост и нижняя часть ног практически не содержат примеси белых волос: морда сохраняет чистый гнедой окрас, а ноги и защитный волос остаются насыщенного черного цвета. Главными маркерами масти выступают неизменная темная кожа, карие глаза и уникальный «эффект чалости», при котором на месте заживших царапин или шрамов шерсть всегда отрастает без белых волосков, образуя чистые темные пятна."
+        "question": "What coat color is this?",
+        "explanation": "Bay roan is true Roan on a bay base. White hairs are evenly intermixed through the reddish-brown body, giving a wine-red, pinkish-gray, or mauve cast, while the head, mane, tail, and lower legs remain much darker and retain the bay points. The skin remains dark and healed injuries can leave solid darker corn spots."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Темно-серая"
+          "text": "Dark gray"
         },
         {
           "id": "answer-02",
-          "text": "Гнедо-чалая"
+          "text": "Bay roan"
         },
         {
           "id": "answer-03",
-          "text": "Саврасая"
+          "text": "Bay dun"
         },
         {
           "id": "answer-04",
-          "text": "Темно-буланая"
+          "text": "Dark buckskin"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Что это за тип пегости?",
-        "explanation": "Черепаховый тобиано (Tortoiseshell Tobiano) — это редкий, малоизученный и визуально уникальный трехцветный тип окраса, который проявляется исключительно при одновременном действии доминантного гена пегости Tobiano и генов кремового комплекса Cream. Шерсть на туловище такого коня разделена на крупные белые поля и пигментированные зоны, которые из-за необычной мутации или наслоения аллелей приобретают хаотичный, пестрый рисунок из асимметричных рыжих, бурых, палево-желтых и темно-шоколадных пятен, напоминающих панцирь черепахи. Линия верха на спине традиционно для тобиано пересекается белым цветом, ноги обычно остаются высокими белыми, а защитный волос в гриве и хвосте выглядит пестрым и многоцветным. Главными маркерами этой наследственной масти выступают сочетание розовой кожи под белыми пежинами, частично осветленный пигмент кожи на цветных зонах и выразительные карие, янтарные или сорочьи (голубые) глаза, цвет которых зависит от распределения пегости на голове лошади. "
+        "question": "What type of pinto pattern is this?",
+        "explanation": "Tortoiseshell tobiano is a rare and poorly understood name used for a visually tricolored tobiano phenotype. The coat has large white tobiano areas plus irregular pigmented zones in contrasting red, brown, buff, and dark chocolate shades, creating a mottled 'tortoiseshell' appearance. Because the terminology and underlying mechanism are not standardized, the name is best treated as a descriptive phenotype rather than a single established genetic diagnosis."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-02",
-          "text": "Черепаховый тобиано"
+          "text": "Tortoiseshell tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Мозаичный тобиано"
+          "text": "Mosaic tobiano"
         },
         {
           "id": "answer-04",
-          "text": "Химерный тобиано"
+          "text": "Chimeric tobiano"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Вороная сабино blagdon (в зарубежной практике часто называемая Blue Blagdon) — это выраженный вариант пегости Sabino на базовой вороной основе, наиболее характерный для тинкеров и уэльских пони. Шерсть на туловище такого коня не имеет «чистых» белых пятен, а представляет собой обильную примесь белого волоса, которая распространяется строго снизу вверх — от полностью белых ног и живота на бока, иногда доходя до спины, шеи и ганашей. Этот рисунок с очень размытыми краями внешне сильно напоминает чалость, создавая на угольно-черном фоне эффектный сизый или «голубой» оттенок, при этом белые волоски нередко проникают также в гриву и хвост. Обязательными маркерами масти выступают большая белая отметина на голове, розовая кожа под осветленными зонами живота и конечностей, а также полное отсутствие четко очерченных пежин, что отличает blagdon от других типов сабино."
+        "question": "What coat color is this?",
+        "explanation": "In Gypsy Cob and some British usage, 'blagdon' is a traditional term for extensive sabino-like white patterning. On a black base it may be called blue blagdon: white ticking and irregular white spread upward from the legs and belly into the sides, often with a large facial marking, creating a blue-roan-like appearance without the sharply defined patches of tobiano."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороная сабино с эффектом Бельтон"
+          "text": "Black sabino with Belton effect"
         },
         {
           "id": "answer-02",
-          "text": "Вороная сабино с отметинами Потека"
+          "text": "Black sabino with Poteka markings"
         },
         {
           "id": "answer-03",
-          "text": "Вороная сабино blagdon"
+          "text": "Black blagdon sabino"
         },
         {
           "id": "answer-04",
-          "text": "Вороная сабино rount"
+          "text": "Black sabino rount"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рыжая сабино rount — это условная визуальная вариация пегости Sabino на базовой рыжей основе, которую из-за специфического распределения волос часто путают с истинной чалостью. Шерсть на туловище такого коня представляет собой равномерную смесь белых и базовых рыжих волосков, однако, в отличие от настоящей чалой масти, здесь полностью отсутствует четкая темная граница между окрасом корпуса, головы и ног — они светлеют одинаково интенсивно. Крупные рваные пежины на животе или боках при типе rount не образуются, но защитный волос в гриве и хвосте нередко содержит обильную примесь белых нитей. Обязательными маркерами масти выступают выраженные белые отметины на ногах, крупная отметина на голове (часто с захватом нижней губы) и неизменная темная кожа под цветными участками, что позволяет визуально идентифицировать этот тип сабино даже в тех породах, где ген чалости полностью отсутствует (например, у орловских рысаков или владимирских тяжеловозов)."
+        "question": "What coat color is this?",
+        "explanation": "The source uses the term 'rount' for a sabino-like chestnut phenotype with an even mixture of white and chestnut hairs across much of the body, but without the clear dark head-and-leg contrast typical of true Roan. Large jagged belly patches are absent, while extensive leg and facial white and white hairs in the mane or tail help identify the sabino-type pattern. The term is niche and not a standardized genetic designation."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая сабино с эффектом Бельтон"
+          "text": "Chestnut sabino with Belton effect"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая сабино с отметинами Потека"
+          "text": "Chestnut sabino with Poteka markings"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая сабино blagdon"
+          "text": "Chestnut blagdon sabino"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая сабино rount"
+          "text": "Chestnut sabino rount"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Рыжая масть с ОЗВ, сабино и отметинами Потека — это сочетание рыжей основы с осветленным защитным волосом (ОЗВ) и вариации пегости Sabino, названной в честь арабской кобылы Lava Ridge Poteka. Шерсть на туловище такого коня сохраняет рыжий окрас, при этом защитный волос в гриве и хвосте сильно осветлен до соломенного или почти белого цвета, но имеет темные корни или примесь рыжих нитей. Этот фон разбивается крупной, асимметричной белой пежиной, которая идет снизу вверх, обычно от задних ног, и заходит на бедро и бок лошади, отличаясь резко изломанными, «зубчатыми» краями с возможными мелкими рыжими пятнышками внутри. Обязательными маркерами масти выступают проточина до нижней губы, отметины на ногах и нежно-розовая кожа под белыми отметинами при полном отсутствии признаков чубарого комплекса."
+        "question": "What coat color is this?",
+        "explanation": "This phenotype combines a chestnut base with strongly lightened mane and tail, sabino white patterning, and Poteka markings. The large asymmetric white area rises from the lower body onto a hindquarter or flank with sharply jagged edges and may contain small chestnut spots. Typical sabino features include extensive leg white and a broad facial marking reaching toward the lower lip."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжая с ОЗВ сабино с эффектом Бельтон"
+          "text": "Chestnut with lightened mane and tail, sabino with Belton effect"
         },
         {
           "id": "answer-02",
-          "text": "Рыжая с ОЗВ сабино с отметинами Потека"
+          "text": "Chestnut with lightened mane and tail, sabino with Poteka markings"
         },
         {
           "id": "answer-03",
-          "text": "Рыжая с ОЗВ сабино blagdon"
+          "text": "Chestnut with lightened mane and tail, blagdon sabino"
         },
         {
           "id": "answer-04",
-          "text": "Рыжая с ОЗВ сабино rount"
+          "text": "Chestnut with lightened mane and tail, sabino rount"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Что это за масть?",
-        "explanation": "Мышастая сабино с эффектом Бельтон — это редкое сочетание доминантного «дикого» гена зонарности Dun на вороной основе, гена пегости Sabino и специфического феномена реколоризации (восстановления пигмента), известного как эффект Бельтон. Шерсть на туловище такого коня имеет дымчато-серый, зольный или палево-голубоватый мышастый оттенок, разбитый рваными, «чалыми» белыми пежинами сабино, которые обычно поднимаются с живота и ног на бока. Главной особенностью масти становится эффект Бельтон, названный по аналогии с окрасом английских сеттеров: все белые поля пегости на корпусе, ногах и морде покрываются обильным, частым крапом и круглыми пятнышками базового мышастого цвета. Обязательными маркерами масти выступают «дикие» признаки (четкий темный ремень вдоль хребта, черная маска на морде и зебристость на конечностях), широкая белая отметина на голове с частичным или полным перекрытием мышастым крапом, а также участки нежно-розовой кожи под белым фоном, усыпанные темными пигментными пятнами. "
+        "question": "What coat color is this?",
+        "explanation": "This source describes a grullo sabino with a 'Belton effect': Dun on a black base combined with sabino white, with the white areas densely flecked or spotted by the underlying grullo color in a pattern likened to Belton ticking in English Setters. Dun primitive markings such as a dark dorsal stripe, dark facial mask, and leg barring remain visible. 'Belton effect' here is a descriptive, nonstandard equine term rather than a recognized coat-color gene."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышастая сабино с эффектом Бельтон"
+          "text": "Grullo sabino with Belton effect"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая сабино с отметинами Потека"
+          "text": "Grullo sabino with Poteka markings"
         },
         {
           "id": "answer-03",
-          "text": "Мышастая сабино blagdon"
+          "text": "Grullo blagdon sabino"
         },
         {
           "id": "answer-04",
-          "text": "Мышастая сабино rount"
+          "text": "Grullo sabino rount"
         }
       ]
     }
