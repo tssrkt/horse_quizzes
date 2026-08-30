@@ -126,6 +126,36 @@ class EnglishPackageTests(unittest.TestCase):
         self.assertIn("breeds-en.", archived.name)
         self.assertEqual(json.loads(archived.read_text(encoding="utf-8"))["status"], "imported")
 
+    def test_delete_recreate_and_import_same_revision_preserves_both_archives(self):
+        source = russian_quiz()
+        source["title"] = "Здоровье коня"
+        target, first_package, first_mode, *_ = self.prepare(source)
+        first_translation = self.translate_package(first_package)
+        first_translation["fields"]["title"] = "Horse Health"
+        first_package.write_text(json.dumps(first_translation, ensure_ascii=False), encoding="utf-8")
+        _, first_archive, _ = import_package(first_package, self.root)
+        first_archive_bytes = first_archive.read_bytes()
+        first_revision = json.loads(first_archive_bytes.decode("utf-8"))["source_revision"]
+        target.unlink()
+
+        recreated, package, second_mode, *_ = self.prepare(source)
+        self.assertEqual(json.loads(recreated.read_text(encoding="utf-8"))["title"], "Здоровье коня")
+        translated = self.translate_package(package)
+        translated["fields"]["title"] = "Horse Health"
+        package.write_text(json.dumps(translated, ensure_ascii=False), encoding="utf-8")
+        imported_target, second_archive, _ = import_package(package, self.root)
+
+        self.assertEqual(first_mode, "created")
+        self.assertEqual(second_mode, "created")
+        self.assertEqual(translated["source_revision"], first_revision)
+        self.assertEqual(first_archive.read_bytes(), first_archive_bytes)
+        self.assertNotEqual(second_archive, first_archive)
+        self.assertEqual(second_archive.name, first_archive.stem + ".2.json")
+        self.assertTrue(second_archive.is_file())
+        self.assertEqual(json.loads(imported_target.read_text(encoding="utf-8"))["title"], "Horse Health")
+        self.assertFalse(package.exists())
+        self.assertNotIn("_pending_translation", json.loads(recreated.read_text(encoding="utf-8")))
+
     def test_incremental_package_contains_only_changed_text_and_preserves_manual_edits(self):
         target, _, *_ = self.create_and_import()
         english = json.loads(target.read_text(encoding="utf-8"))

@@ -93,6 +93,18 @@ def _serialized(data: dict) -> bytes:
     return (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
 
 
+def _available_archive_path(archive_dir: Path, package_path: Path, revision_token: str) -> Path:
+    base = archive_dir / f"{package_path.stem}.{revision_token}{package_path.suffix}"
+    if not base.exists():
+        return base
+    sequence = 2
+    while True:
+        candidate = archive_dir / f"{package_path.stem}.{revision_token}.{sequence}{package_path.suffix}"
+        if not candidate.exists():
+            return candidate
+        sequence += 1
+
+
 def import_package(package_path: Path, root: Path = ROOT) -> tuple[Path, Path, list[str]]:
     root = root.resolve()
     package_path = package_path.resolve()
@@ -107,9 +119,7 @@ def import_package(package_path: Path, root: Path = ROOT) -> tuple[Path, Path, l
     if package.get("status") == "imported":
         raise SyncError("This translation package has already been imported")
     revision_token = str(package.get("source_revision", ""))[:12] or "unknown"
-    archive_path = archive_dir / f"{package_path.stem}.{revision_token}{package_path.suffix}"
-    if archive_path.exists():
-        raise SyncError(f"Archived package already exists: {archive_path.relative_to(root).as_posix()}")
+    archive_path = _available_archive_path(archive_dir, package_path, revision_token)
     source_path = root / "data/quizzes" / f"{package.get('source_quiz')}.json"
     target_path = root / "data/english-quizzes" / f"{package.get('target_quiz')}.json"
     if not source_path.is_file():
