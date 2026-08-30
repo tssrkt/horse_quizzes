@@ -54,6 +54,7 @@ class SharePageTests(unittest.TestCase):
                 self.assertTrue(parser.meta["og:image"].startswith("https://"))
                 self.assertEqual(parser.meta["og:url"], share_url)
                 self.assertEqual(parser.canonical, share_url)
+                self.assertNotIn("robots", parser.meta)
                 self.assertNotIn("refresh", parser.meta)
                 self.assertNotIn("location.replace", source)
                 self.assertIn('id="quiz-app"', source)
@@ -89,6 +90,20 @@ class SharePageTests(unittest.TestCase):
             count = generate_share_pages.generate(ROOT, output)
             self.assertEqual(count, len(generate_share_pages.load_published_quizzes(ROOT)))
             self.assertFalse(stale.exists())
+
+    def test_vocabulary_pages_use_section_specific_seo_title(self):
+        quizzes = generate_share_pages.load_published_quizzes(ROOT)
+        vocabulary = next(quiz for quiz in quizzes if quiz["slug"] == "english")
+        ordinary = next(quiz for quiz in quizzes if quiz["slug"] == "horse-exterior")
+        vocabulary_page = generate_share_pages.render_page(vocabulary)
+        ordinary_page = generate_share_pages.render_page(ordinary)
+        self.assertIn("<title>Экстерьер лошади — Английский для конников</title>", vocabulary_page)
+        self.assertIn("<title>Экстерьер лошади — Викторины о лошадках</title>", ordinary_page)
+        self.assertNotEqual(
+            vocabulary_page.split("<title>", 1)[1].split("</title>", 1)[0],
+            ordinary_page.split("<title>", 1)[1].split("</title>", 1)[0],
+        )
+        self.assertIn('<meta property="og:site_name" content="Викторины о лошадках">', vocabulary_page)
 
     def test_sharing_changed_without_rewriting_internal_navigation(self):
         quiz_js = (ROOT / "js" / "quiz.js").read_text(encoding="utf-8")

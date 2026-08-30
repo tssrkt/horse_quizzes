@@ -73,7 +73,8 @@ def render_page(quiz: dict, template: str | None = None, public_url: str | None 
     image_url = f"{public_url}{quote(cover_url_path, safe='/-.')}"
     image_alt = html.escape((f"Quiz cover: {quiz['title'].strip()}" if english else f"Обложка викторины «{quiz['title'].strip()}»"), quote=True)
     site_name = "Horse Quizzes" if english else "Викторины о лошадках"
-    page_title = f"{title} — {site_name}"
+    title_suffix = "Английский для конников" if quiz.get("type") == "vocabulary" else site_name
+    page_title = f"{title} — {title_suffix}"
     metadata = f'''<meta name="description" content="{description}">
   <title>{page_title}</title>
   <meta property="og:type" content="website">
@@ -95,7 +96,7 @@ def render_page(quiz: dict, template: str | None = None, public_url: str | None 
   <link rel="alternate" hreflang="x-default" href="{alternate_url if english else share_url}">''' if english or alternate_url else "")
     template = template if template is not None else (ROOT / ("en/quiz.html" if english else "quiz.html")).read_text(encoding="utf-8")
     page, replacements = re.subn(
-        r'<meta name="description" content="[^"]*"><title>[^<]*</title>',
+        r'(?:<meta name="robots" content="noindex,follow">)?<meta name="description" content="[^"]*"><title>[^<]*</title>',
         metadata,
         template,
         count=1,

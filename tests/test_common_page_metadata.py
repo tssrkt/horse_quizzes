@@ -51,21 +51,29 @@ PAGES = {
         "Викторины о лошадках",
         GENERAL_DESCRIPTION,
         PUBLIC_URL,
-    ),
-    "quizzes.html": (
         "Викторины о лошадках",
         GENERAL_DESCRIPTION,
+    ),
+    "quizzes.html": (
+        "Выберите викторину — Викторины о лошадках",
+        "Выберите викторину о лошадях: породы, масти, генетика, анатомия, здоровье, конный спорт, терминология и другие темы.",
         f"{PUBLIC_URL}quizzes.html",
+        "Викторины о лошадках",
+        GENERAL_DESCRIPTION,
     ),
     "contacts.html": (
-        "Викторины о лошадках",
+        "Контакты — Викторины о лошадках",
         "Связаться с автором проекта «Викторины о лошадках» и поддержать развитие сайта.",
         f"{PUBLIC_URL}contacts.html",
+        "Викторины о лошадках",
+        "Связаться с автором проекта «Викторины о лошадках» и поддержать развитие сайта.",
     ),
     "404.html": (
         "Страница 404",
         "Страница не найдена.",
         f"{PUBLIC_URL}404.html",
+        "Страница 404",
+        "Страница не найдена.",
     ),
 }
 
@@ -76,20 +84,20 @@ class CommonPageMetadataTests(unittest.TestCase):
         parser.feed(path.read_text(encoding="utf-8"))
         return parser
 
-    def assert_metadata(self, parser, title, description, canonical):
+    def assert_metadata(self, parser, title, description, canonical, social_title, social_description):
         self.assertEqual(parser.title, title)
         self.assertEqual(parser.meta["description"], description)
         self.assertEqual(parser.meta["og:type"], "website")
         self.assertEqual(parser.meta["og:site_name"], "Викторины о лошадках")
         self.assertEqual(parser.meta["og:locale"], "ru_RU")
-        self.assertEqual(parser.meta["og:title"], title)
-        self.assertEqual(parser.meta["og:description"], description)
+        self.assertEqual(parser.meta["og:title"], social_title)
+        self.assertEqual(parser.meta["og:description"], social_description)
         self.assertEqual(parser.meta["og:url"], canonical)
         self.assertEqual(parser.meta["og:image"], IMAGE_URL)
         self.assertEqual(parser.meta["og:image:alt"], "Викторины о лошадках")
         self.assertEqual(parser.meta["twitter:card"], "summary")
-        self.assertEqual(parser.meta["twitter:title"], title)
-        self.assertEqual(parser.meta["twitter:description"], description)
+        self.assertEqual(parser.meta["twitter:title"], social_title)
+        self.assertEqual(parser.meta["twitter:description"], social_description)
         self.assertEqual(parser.meta["twitter:image"], IMAGE_URL)
         self.assertEqual(parser.canonical, canonical)
 
@@ -154,6 +162,16 @@ class CommonPageMetadataTests(unittest.TestCase):
                 parser = HeadParser()
                 parser.feed(source.replace("{{SITE_URL}}", PUBLIC_URL).replace("{{SITE_PATH}}", load_site_config(ROOT)["base_path"]))
                 self.assert_metadata(parser, *expected)
+
+    def test_ru_static_pages_have_english_open_graph_locale(self):
+        for filename in ("index.html", "quizzes.html", "contacts.html"):
+            with self.subTest(filename=filename):
+                parser = self.parse(ROOT / filename)
+                self.assertEqual(parser.meta.get("og:locale:alternate"), "en_US")
+
+    def test_technical_quiz_template_is_not_indexable(self):
+        parser = self.parse(ROOT / "quiz.html")
+        self.assertEqual(parser.meta.get("robots"), "noindex,follow")
 
     def test_quiz_share_pages_keep_individual_metadata(self):
         anatomy = self.parse(ROOT / "v" / "anatomy" / "index.html")
