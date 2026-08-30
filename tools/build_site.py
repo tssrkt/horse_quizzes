@@ -29,6 +29,7 @@ PUBLICATION_DATETIME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|
 ANSWER_ID_RE = re.compile(r"^answer-\d{2,}$")
 DIFFICULTIES = {"low", "medium", "high"}
 HTML_FILES = ("index.html", "quizzes.html", "quiz.html", "contacts.html", "404.html")
+EN_HTML_FILES = ("index.html", "quizzes.html", "contacts.html")
 ROOT_FILES = ("favicon.ico",)
 COPY_DIRS = ("css", "js")
 VOCABULARY_TYPE = "vocabulary"
@@ -536,6 +537,20 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
 
     for previous_slug, next_slug in computed_next.items():
         quiz_by_slug[previous_slug]["next_quiz"] = next_slug
+    # Derive EN navigation from the explicit RU relationships. English JSON
+    # keeps internal slugs, while the client resolves their public_slug from
+    # the locale catalog; unpublished/missing counterparts are omitted.
+    for quiz in quizzes:
+        if quiz.get("type") != ENGLISH_TYPE:
+            continue
+        source = quiz_by_slug.get(quiz.get("source_quiz"), {})
+        for field in ("previous_quiz", "next_quiz"):
+            counterpart_slug = english_sources.get(source.get(field))
+            counterpart = quiz_by_slug.get(counterpart_slug)
+            if counterpart and counterpart.get("published"):
+                quiz[field] = counterpart_slug
+            else:
+                quiz.pop(field, None)
     if errors:
         raise ContentError("\n".join(errors))
     return [normalize_quiz(quiz) for quiz in quizzes]
@@ -582,6 +597,8 @@ def make_catalog(tags: list[dict], quizzes: list[dict]) -> dict:
     published_quizzes = [
         {
             "slug": quiz["slug"],
+            "locale": "en" if quiz.get("type") == ENGLISH_TYPE else "ru",
+            "public_slug": quiz.get("source_quiz", quiz["slug"]),
             "title": quiz["title"],
             "published": True,
             "publication_date": quiz["publication_date"],
@@ -591,6 +608,7 @@ def make_catalog(tags: list[dict], quizzes: list[dict]) -> dict:
             "tags": quiz["tags"],
             "question_count": quiz.get("word_count", len(quiz.get("questions", quiz.get("vocabulary", [])))),
             **({"type": quiz["type"]} if quiz.get("type") in {VOCABULARY_TYPE, ENGLISH_TYPE} else {}),
+            **({"source_quiz": quiz["source_quiz"]} if quiz.get("type") == ENGLISH_TYPE else {}),
             "content_version": quiz["content_version"],
         }
         for quiz in quizzes if quiz["published"]
@@ -598,18 +616,51 @@ def make_catalog(tags: list[dict], quizzes: list[dict]) -> dict:
     return {"tags": list(published_tags), "quizzes": published_quizzes}
 
 
+EN_TAG_NAMES = {
+    "amunition": "Tack", "anatomy": "Anatomy", "behavior": "Behavior", "breed": "Breeds",
+    "breeding": "Breeding", "exterior": "Conformation", "gaits": "Gaits", "genetics": "Genetics",
+    "health": "Health", "history": "History", "horses": "Coat colors", "images": "Images",
+    "riding": "Riding", "sport": "Sport", "treating": "Care", "words": "Terminology",
+}
+
+
+def make_english_catalog(catalog: dict) -> dict:
+    quizzes = [quiz for quiz in catalog["quizzes"] if quiz.get("type") == ENGLISH_TYPE]
+    used = {slug for quiz in quizzes for slug in quiz["tags"] if slug != "english"}
+    tags = [{"slug": tag["slug"], "name": EN_TAG_NAMES.get(tag["slug"], tag["name"])} for tag in catalog["tags"] if tag["slug"] in used]
+    return {"locale": "en", "tags": tags, "quizzes": quizzes}
+
+
+def localize_russian_shell(source: str, filename: str, public_url: str) -> str:
+    english_target = {"index.html": "en/", "quizzes.html": "en/quizzes.html", "contacts.html": "en/contacts.html"}.get(filename, "en/quizzes.html")
+    switch = f'<nav class="language-switch" aria-label="Выбор языка"><a href="{filename if filename != "index.html" else "./"}" aria-current="page">RU</a><span aria-hidden="true">|</span><a href="{english_target}" lang="en">EN</a></nav>'
+    source = source.replace('<button class="menu-toggle"', switch + '<button class="menu-toggle"', 1)
+    if filename in {"index.html", "quizzes.html", "contacts.html"}:
+        ru_path = "" if filename == "index.html" else filename
+        source = source.replace("</head>", f'<link rel="alternate" hreflang="ru" href="{public_url}{ru_path}"><link rel="alternate" hreflang="en" href="{public_url}{english_target}"><link rel="alternate" hreflang="x-default" href="{public_url}{ru_path}"></head>', 1)
+    return source
+
+
 def build(output: Path = OUTPUT) -> dict:
     tags, known_tags = load_tags(ROOT / "data")
     quizzes = load_quizzes(ROOT / "data", known_tags)
     catalog = make_catalog(tags, quizzes)
+    english_catalog = make_english_catalog(catalog)
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True)
     site_config = load_site_config(ROOT)
     for filename in HTML_FILES:
         source = (ROOT / filename).read_text(encoding="utf-8")
+        source = localize_russian_shell(source, filename, site_config["public_url"])
         rendered = source.replace("{{SITE_URL}}", site_config["public_url"]).replace("{{SITE_PATH}}", site_config["base_path"])
         (output / filename).write_text(rendered, encoding="utf-8", newline="\n")
+    english_output = output / "en"
+    english_output.mkdir()
+    for filename in EN_HTML_FILES:
+        source = (ROOT / "en" / filename).read_text(encoding="utf-8")
+        rendered = source.replace("{{SITE_URL}}", site_config["public_url"]).replace("{{SITE_PATH}}", site_config["base_path"])
+        (english_output / filename).write_text(rendered, encoding="utf-8", newline="\n")
     for filename in ROOT_FILES:
         shutil.copy2(ROOT / filename, output / filename)
     for dirname in COPY_DIRS:
@@ -641,8 +692,11 @@ def build(output: Path = OUTPUT) -> dict:
     with (output / "data" / "catalog.json").open("w", encoding="utf-8", newline="\n") as stream:
         json.dump(catalog, stream, ensure_ascii=False, indent=2)
         stream.write("\n")
+    with (output / "data" / "catalog-en.json").open("w", encoding="utf-8", newline="\n") as stream:
+        json.dump(english_catalog, stream, ensure_ascii=False, indent=2)
+        stream.write("\n")
     try:
-        generate_share_pages(ROOT, output / "v")
+        generate_share_pages(ROOT, output / "v", output / "en" / "v")
     except SharePageError as error:
         raise ContentError(str(error)) from error
     return catalog

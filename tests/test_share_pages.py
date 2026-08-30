@@ -32,30 +32,36 @@ class MetadataParser(HTMLParser):
 
 
 class SharePageTests(unittest.TestCase):
-    def test_committed_pages_match_every_published_quiz(self):
+    def test_generated_pages_match_every_published_quiz(self):
         quizzes = generate_share_pages.load_published_quizzes(ROOT)
         expected = {quiz["slug"] for quiz in quizzes}
-        actual = {path.parent.name for path in (ROOT / "v").glob("*/index.html")}
-        self.assertEqual(actual, expected)
-        for quiz in quizzes:
-            slug = quiz["slug"]
-            source = (ROOT / "v" / slug / "index.html").read_text(encoding="utf-8")
-            parser = MetadataParser()
-            parser.feed(source)
-            share_url = f"{PUBLIC_URL}v/{slug}/"
-            self.assertEqual(parser.meta["og:title"], quiz["title"].strip())
-            self.assertEqual(parser.meta["og:description"], quiz["short_description"].strip())
-            self.assertTrue(parser.meta["og:image"].startswith("https://"))
-            self.assertEqual(parser.meta["og:url"], share_url)
-            self.assertEqual(parser.canonical, share_url)
-            self.assertNotIn("refresh", parser.meta)
-            self.assertNotIn("location.replace", source)
-            self.assertIn('id="quiz-app"', source)
-            self.assertIn('src="../../js/quiz.js"', source)
-            self.assertIn('src="../../js/site-config.js"', source)
-            self.assertIn('src="../../js/urls.js"', source)
-            self.assertIn('href="../../css/style.css"', source)
-            self.assertNotRegex(source, r'(?:href|src)="(?:css|js|img)/')
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "v"
+            english_output = Path(directory) / "en/v"
+            generate_share_pages.generate(ROOT, output, english_output)
+            actual = {path.parent.name for path in output.glob("*/index.html")}
+            self.assertEqual(actual, expected)
+            expected_english = {quiz["source_quiz"] for quiz in quizzes if quiz.get("type") == "english"}
+            self.assertEqual({path.parent.name for path in english_output.glob("*/index.html")}, expected_english)
+            for quiz in quizzes:
+                slug = quiz["slug"]
+                source = (output / slug / "index.html").read_text(encoding="utf-8")
+                parser = MetadataParser()
+                parser.feed(source)
+                share_url = f"{PUBLIC_URL}v/{slug}/"
+                self.assertEqual(parser.meta["og:title"], quiz["title"].strip())
+                self.assertEqual(parser.meta["og:description"], quiz["short_description"].strip())
+                self.assertTrue(parser.meta["og:image"].startswith("https://"))
+                self.assertEqual(parser.meta["og:url"], share_url)
+                self.assertEqual(parser.canonical, share_url)
+                self.assertNotIn("refresh", parser.meta)
+                self.assertNotIn("location.replace", source)
+                self.assertIn('id="quiz-app"', source)
+                self.assertIn('src="../../js/quiz.js"', source)
+                self.assertIn('src="../../js/site-config.js"', source)
+                self.assertIn('src="../../js/urls.js"', source)
+                self.assertIn('href="../../css/style.css"', source)
+                self.assertNotRegex(source, r'(?:href|src)="(?:css|js|img)/')
 
     def test_render_escapes_metadata_and_visible_text(self):
         quiz = {
@@ -87,9 +93,9 @@ class SharePageTests(unittest.TestCase):
     def test_sharing_changed_without_rewriting_internal_navigation(self):
         quiz_js = (ROOT / "js" / "quiz.js").read_text(encoding="utf-8")
         catalog_js = (ROOT / "js" / "quizzes.js").read_text(encoding="utf-8")
-        self.assertIn("core.shareQuizUrl(quiz.slug, location.href, window.SiteConfig?.publicUrl)", quiz_js)
-        self.assertIn("core.quizPath(nextQuiz.slug, location.href)", quiz_js)
-        self.assertIn("urlCore.quizPath(quiz.slug, location.href)", catalog_js)
+        self.assertIn("englishSite ? quiz.source_quiz : quiz.slug", quiz_js)
+        self.assertIn("nextQuiz.public_slug || nextQuiz.slug", quiz_js)
+        self.assertIn("quiz.public_slug || quiz.slug", catalog_js)
         self.assertNotIn("quiz.html?quiz=${encodeURIComponent(quiz.slug)}", catalog_js)
 
     def test_catalog_intro_uses_relative_share_urls(self):

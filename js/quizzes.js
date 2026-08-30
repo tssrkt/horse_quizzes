@@ -197,6 +197,7 @@
   }
 
   function init() {
+    const englishSite = document.documentElement.lang === 'en';
     const list = document.getElementById('quiz-list');
     const tagList = document.getElementById('tag-list');
     const sortControl = document.getElementById('sort-control');
@@ -219,7 +220,13 @@
     let state = { section: getStateFromUrl(location.search, new Set()).section, tag: 'all', sort: 'date', direction: 'down', page: 1 };
 
     function currentQuizzes(currentState = state) {
+      if (englishSite) return quizzes.filter((quiz) => quiz.type === 'english');
       return sectionQuizzes(quizzes, currentState.section);
+    }
+
+    function localizedVolume(quiz) {
+      if (!englishSite) return volumeLabel(quiz);
+      return `${quiz.question_count} ${quiz.question_count === 1 ? 'question' : 'questions'}`;
     }
 
     function currentTags(currentState = state) {
@@ -250,7 +257,7 @@
 
     function renderTags() {
       const scopedQuizzes = currentQuizzes();
-      const items = [{ slug: 'all', name: 'Все', count: scopedQuizzes.length }, ...currentTags()];
+      const items = [{ slug: 'all', name: englishSite ? 'All' : 'Все', count: scopedQuizzes.length }, ...currentTags()];
       tagList.innerHTML = items.map((tag) => `<button class="catalog-tag${state.tag === tag.slug ? ' is-active' : ''}" type="button" data-tag="${escapeHtml(tag.slug)}" aria-pressed="${state.tag === tag.slug}"><span>${escapeHtml(tag.name)}</span><small>${tag.count}</small></button>`).join('');
     }
 
@@ -268,7 +275,11 @@
     function renderSort() {
       sortCriterion.value = state.sort;
       sortDirection.textContent = state.direction === 'down' ? '↓' : '↑';
-      const tooltip = sortTooltip(state.sort, state.direction);
+      const tooltip = englishSite ? {
+        date: { down: 'Newest first', up: 'Oldest first' },
+        difficulty: { down: 'Easy first', up: 'Hard first' },
+        title: { down: 'A to Z', up: 'Z to A' }
+      }[state.sort][state.direction] : sortTooltip(state.sort, state.direction);
       sortDirection.title = tooltip;
       sortDirection.setAttribute('aria-label', tooltip);
     }
@@ -279,13 +290,15 @@
 
     function cardTemplate(quiz) {
       const count = quiz.question_count;
-      const title = `${quiz.title} (${volumeLabel(quiz)})`;
+      const title = `${quiz.title} (${localizedVolume(quiz)})`;
+      const coverPath = englishSite ? new URL(`../${quiz.cover}`, location.href).pathname : quiz.cover;
       const cover = quiz.cover
-        ? `<img src="${escapeHtml(quiz.cover)}" alt="Обложка викторины «${escapeHtml(quiz.title)}»" loading="lazy">`
+        ? `<img src="${escapeHtml(coverPath)}" alt="${englishSite ? 'Quiz cover: ' : 'Обложка викторины «'}${escapeHtml(quiz.title)}${englishSite ? '' : '»'}" loading="lazy">`
         : '<div class="cover-placeholder" aria-hidden="true"><span>?</span><small>Quiz</small></div>';
       const cardTags = visibleCardTags(quiz).map((slug) => `<button class="tag" type="button" data-card-tag="${escapeHtml(slug)}">${escapeHtml(tags.get(slug).name)}</button>`).join('');
-      const quizHref = urlCore.quizPath(quiz.slug, location.href);
-      return `<article class="quiz-card"><a class="quiz-card-link" href="${escapeHtml(quizHref)}" aria-label="Открыть викторину «${escapeHtml(quiz.title)}»"></a><div class="quiz-cover">${cover}</div><div class="quiz-card-body"><div><h3>${escapeHtml(title)}</h3><p class="quiz-card-description">${escapeHtml(quiz.short_description)}</p></div><div class="quiz-card-meta"><span class="quiz-card-difficulty">Сложность: ${DIFFICULTY_LABELS[quiz.difficulty]}</span><div class="quiz-tags" aria-label="Теги викторины">${cardTags}</div></div></div></article>`;
+      const quizHref = urlCore.quizPath(quiz.public_slug || quiz.slug, location.href);
+      const difficulty = englishSite ? { low: 'Easy', medium: 'Medium', high: 'Hard' }[quiz.difficulty] : DIFFICULTY_LABELS[quiz.difficulty];
+      return `<article class="quiz-card"><a class="quiz-card-link" href="${escapeHtml(quizHref)}" aria-label="${englishSite ? 'Open quiz' : 'Открыть викторину'} «${escapeHtml(quiz.title)}»"></a><div class="quiz-cover">${cover}</div><div class="quiz-card-body"><div><h3>${escapeHtml(title)}</h3><p class="quiz-card-description">${escapeHtml(quiz.short_description)}</p></div><div class="quiz-card-meta"><span class="quiz-card-difficulty">${englishSite ? 'Difficulty' : 'Сложность'}: ${difficulty}</span><div class="quiz-tags" aria-label="${englishSite ? 'Quiz tags' : 'Теги викторины'}">${cardTags}</div></div></div></article>`;
     }
 
     function renderPagination(totalPages) {
@@ -368,7 +381,7 @@
 
     (async function load() {
       try {
-        const catalog = await fetchJson('data/catalog.json');
+        const catalog = await fetchJson(englishSite ? '../data/catalog-en.json' : 'data/catalog.json');
         if (!Array.isArray(catalog?.tags) || !Array.isArray(catalog?.quizzes)) throw new Error('Некорректный формат каталога');
         visibleTags = catalog.tags.map((tag) => ({ ...tag, published: true }));
         visibleTags.forEach((tag) => tags.set(tag.slug, tag));

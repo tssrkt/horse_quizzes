@@ -284,6 +284,7 @@ function init(core) {
   const app = document.getElementById('quiz-app');
   const main = document.getElementById('main');
   const previewBanner = document.getElementById('preview-banner');
+  const englishSite = document.documentElement.lang === 'en';
   if (!app) return;
   const params = new URLSearchParams(location.search);
   const slug = core.slugFromUrl(location.href);
@@ -297,8 +298,9 @@ function init(core) {
   const clearState = () => { try { localStorage.removeItem(storageKey()); } catch (error) { console.warn('[Quiz] Не удалось очистить прогресс.', error); } };
   const saveVocabularySelection = () => { if (sourceQuiz?.type === 'vocabulary') try { localStorage.setItem(selectionKey(), JSON.stringify({ part_id: selectedPartId, modes: selectedModes })); } catch {} };
   const setWideLayout = (wide) => main?.classList.toggle('quiz-layout-wide', wide);
-  const pageUrl = (path) => core.siteUrl(path, location.href);
-  const errorScreen = (message) => { setWideLayout(false); app.setAttribute('aria-busy', 'false'); app.innerHTML = `<div class="error-state" role="alert"><strong>${escapeHtml(message)}</strong><p><a class="button" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></p></div>`; };
+  const pageUrl = (path) => new URL(englishSite && path === 'quizzes.html' ? 'en/quizzes.html' : path, window.SiteConfig?.publicUrl || core.siteRootUrl(location.href)).href;
+  const catalogPageUrl = () => pageUrl(englishSite ? 'en/quizzes.html' : 'quizzes.html');
+  const errorScreen = (message) => { setWideLayout(false); app.setAttribute('aria-busy', 'false'); app.innerHTML = `<div class="error-state" role="alert"><strong>${escapeHtml(message)}</strong><p><a class="button" href="${escapeHtml(catalogPageUrl())}">${englishSite ? 'Back to quizzes' : 'К списку викторин'}</a></p></div>`; };
 
   function confetti(count = 22) {
     if (reduceMotion) return;
@@ -313,7 +315,7 @@ function init(core) {
   function imageTemplate(question) {
     if (!question.image) return '';
     const source = question.image_source_url ? `<a href="${escapeHtml(question.image_source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(question.image_source || 'Источник изображения')}</a>` : escapeHtml(question.image_source || '');
-    const credit = [question.image_author ? `Автор: ${escapeHtml(question.image_author)}` : '', source].filter(Boolean).join(' · ');
+    const credit = [question.image_author ? `${englishSite ? 'Author' : 'Автор'}: ${escapeHtml(question.image_author)}` : '', source].filter(Boolean).join(' · ');
     return `<figure class="question-image"><img src="${escapeHtml(pageUrl(core.versionedUrl(question.image, quiz.content_version)))}" alt="${escapeHtml(core.questionImageAlt(quiz))}">${credit ? `<figcaption>${credit}</figcaption>` : ''}</figure>`;
   }
   function selectedSourceQuiz() { return { ...core.selectVocabularyPart(sourceQuiz, selectedPartId), selected_modes: selectedModes.slice() }; }
@@ -362,7 +364,8 @@ function init(core) {
     setWideLayout(false);
     const hasProgress = Object.keys(state.answers).length > 0 && !state.completed;
     const volume = quiz.type === 'vocabulary' ? core.totalVocabularyWordCount(sourceQuiz) : quiz.questions.length;
-    app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(core.formatQuestionCount(volume, quiz.type))}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p>${partControls()}${modeControls()}<div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? 'Продолжить' : 'Начать викторину'}</button>${hasProgress ? '<button class="button button-secondary" type="button" data-restart>Начать заново</button>' : ''}</div></section>`;
+    const volumeText = englishSite ? `${volume} ${volume === 1 ? 'question' : 'questions'}` : core.formatQuestionCount(volume, quiz.type);
+    app.innerHTML = `<section class="quiz-intro">${coverTemplate()}<p class="eyebrow">${escapeHtml(volumeText)}</p><h1 class="page-title">${escapeHtml(quiz.title)}</h1><p class="lead">${escapeHtml(quiz.intro)}</p>${partControls()}${modeControls()}<div class="quiz-intro-actions"><button class="button" type="button" data-start>${hasProgress ? (englishSite ? 'Continue' : 'Продолжить') : (englishSite ? 'Start quiz' : 'Начать викторину')}</button>${hasProgress ? `<button class="button button-secondary" type="button" data-restart>${englishSite ? 'Start over' : 'Начать заново'}</button>` : ''}</div></section>`;
     app.querySelector('[data-start]').addEventListener('click', renderQuestion);
     app.querySelector('[data-restart]')?.addEventListener('click', restart);
     app.querySelectorAll('.vocabulary-modes input').forEach((input) => input.addEventListener('change', selectModesFromIntro));
@@ -403,7 +406,8 @@ function init(core) {
     }).join('');
     const correct = record?.correct === true;
     const feedback = record ? `<div class="answer-feedback${correct ? ' is-success' : ' is-error'}" role="status" aria-live="polite"><strong>${correct ? 'Верно!' : 'Неверно'}</strong>${correct ? '' : `<p>${escapeHtml(question.explanation)}</p><button class="button" type="button" data-next>${state.current_index + 1 === quiz.questions.length ? 'Показать результат' : 'Следующий вопрос'}</button>`}</div>` : '<div class="answer-feedback-placeholder" aria-live="polite"></div>';
-    const questionContent = `<div class="question-content${quiz.type === 'vocabulary' ? ' vocabulary-question' : ''}"><p class="quiz-name">${escapeHtml(quiz.title)}</p><div class="quiz-progress"><span id="question-position">${quiz.type === 'vocabulary' ? 'Слово' : 'Вопрос'} ${state.current_index + 1} из ${quiz.questions.length}</span><progress aria-labelledby="question-position" value="${state.current_index + 1}" max="${quiz.questions.length}">${state.current_index + 1}/${quiz.questions.length}</progress></div><h1>${escapeHtml(quiz.type === 'vocabulary' ? question.question.toUpperCase() : question.question)}</h1><div class="answer-list" aria-label="Варианты ответа">${answers}</div>${feedback}</div>`;
+    const progressText = englishSite ? `Question ${state.current_index + 1} of ${quiz.questions.length}` : `${quiz.type === 'vocabulary' ? 'Слово' : 'Вопрос'} ${state.current_index + 1} из ${quiz.questions.length}`;
+    const questionContent = `<div class="question-content${quiz.type === 'vocabulary' ? ' vocabulary-question' : ''}"><p class="quiz-name">${escapeHtml(quiz.title)}</p><div class="quiz-progress"><span id="question-position">${progressText}</span><progress aria-labelledby="question-position" value="${state.current_index + 1}" max="${quiz.questions.length}">${state.current_index + 1}/${quiz.questions.length}</progress></div><h1>${escapeHtml(quiz.type === 'vocabulary' ? question.question.toUpperCase() : question.question)}</h1><div class="answer-list" aria-label="${englishSite ? 'Answer choices' : 'Варианты ответа'}">${answers}</div>${feedback}</div>`;
     app.innerHTML = withImage
       ? `<section class="question-card question-card--with-image"><div class="question-layout">${imageTemplate(question)}${questionContent}</div></section>`
       : `<section class="question-card">${questionContent}</section>`;
@@ -446,10 +450,10 @@ function init(core) {
   function renderResult() {
     setWideLayout(false);
     state = { ...state, completed: true, current_index: quiz.questions.length, saved_at: new Date().toISOString() }; saveState();
-    const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const url = core.shareQuizUrl(quiz.slug, location.href, window.SiteConfig?.publicUrl); const sharePayload = core.shareText(quiz, state.correct_count, total, url);
-    const recommendation = core.resultRecommendation(percent);
-    const resultDetails = `<p class="result-summary">Ваш результат: ${state.correct_count} из ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(recommendation)}</p><a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a></div>`;
-    const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">Следующая викторина</p><a class="next-quiz__link" href="${escapeHtml(core.quizPath(nextQuiz.slug, location.href))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
+    const total = quiz.questions.length; const percent = core.resultPercent(state.correct_count, total); const url = new URL(`${englishSite ? 'en/' : ''}v/${encodeURIComponent(englishSite ? quiz.source_quiz : quiz.slug)}/`, window.SiteConfig?.publicUrl || core.siteRootUrl(location.href)).href; const sharePayload = englishSite ? `My result: ${state.correct_count} out of ${total} (${percent}%) in “${quiz.title}”. Try it: ${url}` : core.shareText(quiz, state.correct_count, total, url);
+    const recommendation = englishSite ? (percent === 100 ? 'Perfect score! You have an excellent command of this topic.' : percent >= 75 ? 'Great result! You know this topic well.' : percent >= 50 ? 'Good start. Review the explanations and try again.' : 'Some questions were challenging. Review the explanations and give it another try.') : core.resultRecommendation(percent);
+    const resultDetails = `<p class="result-summary">${englishSite ? 'Your result' : 'Ваш результат'}: ${state.correct_count} ${englishSite ? 'out of' : 'из'} ${total} (${percent}%)</p><div class="result-recommendation"><p>${escapeHtml(recommendation)}</p>${englishSite ? '' : '<a class="result-recommendation__articles" href="https://author.today/work/439719" target="_blank" rel="noopener noreferrer"><span class="result-recommendation__articles-content">📖 СБОРНИК СТАТЕЙ О ЛОШАДКАХ</span></a>'}</div>`;
+    const nextQuizBlock = nextQuiz ? `<div class="next-quiz"><p class="next-quiz__label">${englishSite ? 'Next quiz' : 'Следующая викторина'}</p><a class="next-quiz__link" href="${escapeHtml(core.quizPath(nextQuiz.public_slug || nextQuiz.slug, location.href))}"><span>${escapeHtml(nextQuiz.title)}</span></a></div>` : '';
     app.innerHTML = `<section class="result-card"><p class="eyebrow">Викторина завершена</p><h1>${escapeHtml(quiz.title)}</h1>${resultDetails}<div class="share-actions"><button class="button" type="button" data-share>Поделиться результатом</button><button class="button button-secondary" type="button" data-copy>Скопировать результат</button></div><div class="result-actions"><button class="button" type="button" data-restart>Пройти еще раз</button>${quiz.type === 'vocabulary' ? '<button class="button button-secondary" type="button" data-choose-part>Выбрать часть</button>' : ''}<a class="button button-secondary" href="${escapeHtml(pageUrl('quizzes.html'))}">К списку викторин</a></div><p class="share-status" role="status" aria-live="polite"></p>${nextQuizBlock}</section>`;
     const status = app.querySelector('.share-status');
     app.querySelector('[data-share]').addEventListener('click', async () => { if (navigator.share) { try { await navigator.share({ title: quiz.title, text: sharePayload }); return; } catch (error) { if (error.name === 'AbortError') return; } } await copyResult(sharePayload, status); });
@@ -463,12 +467,13 @@ function init(core) {
     if (!slug) { errorScreen('Не указана викторина для открытия.'); return; }
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) { errorScreen('Викторина не найдена.'); return; }
     try {
-      const catalogResponse = await fetch(pageUrl(core.versionedUrl('data/catalog.json')), { cache: 'no-store' });
+      const catalogResponse = await fetch(pageUrl(core.versionedUrl(englishSite ? 'data/catalog-en.json' : 'data/catalog.json')), { cache: 'no-store' });
       if (!catalogResponse.ok) throw new Error(`Catalog HTTP ${catalogResponse.status}`);
       const catalog = await catalogResponse.json();
-      const catalogQuiz = Array.isArray(catalog?.quizzes) ? catalog.quizzes.find((item) => item?.slug === slug) : null;
+      const catalogQuiz = Array.isArray(catalog?.quizzes) ? catalog.quizzes.find((item) => (englishSite ? item?.public_slug : item?.slug) === slug) : null;
+      const internalSlug = catalogQuiz?.slug || slug;
       const contentVersion = catalogQuiz?.content_version || String(Date.now());
-      const response = await fetch(pageUrl(core.versionedUrl(`data/quizzes/${encodeURIComponent(slug)}.json`, contentVersion)), { cache: 'no-store' });
+      const response = await fetch(pageUrl(core.versionedUrl(`data/quizzes/${encodeURIComponent(internalSlug)}.json`, contentVersion)), { cache: 'no-store' });
       if (response.status === 404) { errorScreen('Викторина не найдена.'); return; }
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       sourceQuiz = await response.json();
@@ -476,7 +481,7 @@ function init(core) {
       nextQuiz = quiz.next_quiz && Array.isArray(catalog?.quizzes) ? catalog.quizzes.find((item) => item?.slug === quiz.next_quiz) || null : null;
       previousQuiz = quiz.type === 'vocabulary' && quiz.previous_quiz && Array.isArray(catalog?.quizzes) ? catalog.quizzes.find((item) => item?.slug === quiz.previous_quiz) || null : null;
       if (catalogQuiz && quiz.content_version !== catalogQuiz.content_version) throw new Error('Версия викторины не совпадает с каталогом');
-      if (!core.validateQuiz(quiz) || quiz.slug !== slug) { console.error('[Quiz] Повреждённый JSON или несовместимые данные викторины.'); errorScreen('Эту викторину сейчас невозможно открыть.'); return; }
+      if (!core.validateQuiz(quiz) || quiz.slug !== internalSlug || (englishSite && quiz.type !== 'english')) { console.error('[Quiz] Повреждённый JSON или несовместимые данные викторины.'); errorScreen(englishSite ? 'This quiz cannot be opened right now.' : 'Эту викторину сейчас невозможно открыть.'); return; }
       if (!core.canOpenQuiz(quiz, preview)) { errorScreen('Эта викторина пока не опубликована.'); return; }
       if (!quiz.published) previewBanner.hidden = false;
       if (sourceQuiz.type === 'vocabulary') {

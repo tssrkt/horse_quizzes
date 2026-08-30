@@ -2,10 +2,11 @@
   'use strict';
   const toggle = document.querySelector('.menu-toggle');
   const menu = document.querySelector('.site-nav');
+  const english = document.documentElement.lang === 'en';
   const closeMenu = (restoreFocus) => {
     if (!toggle || !menu) return;
     toggle.setAttribute('aria-expanded', 'false');
-    toggle.setAttribute('aria-label', 'Открыть меню');
+    toggle.setAttribute('aria-label', english ? 'Open menu' : 'Открыть меню');
     menu.classList.remove('is-open');
     if (restoreFocus) toggle.focus();
   };
@@ -15,7 +16,7 @@
       if (isOpen) closeMenu(false);
       else {
         toggle.setAttribute('aria-expanded', 'true');
-        toggle.setAttribute('aria-label', 'Закрыть меню');
+        toggle.setAttribute('aria-label', english ? 'Close menu' : 'Закрыть меню');
         menu.classList.add('is-open');
         menu.querySelector('a')?.focus();
       }
@@ -54,11 +55,11 @@
           if (!copied) throw new Error('Команда копирования недоступна');
         }
 
-        copyDonate.title = 'Скопировано!';
-        showStatus('Номер ЮMoney скопирован.');
-        window.setTimeout(() => { copyDonate.title = 'Нажмите, чтобы скопировать'; }, 2200);
+        copyDonate.title = english ? 'Copied!' : 'Скопировано!';
+        showStatus(english ? 'YooMoney number copied.' : 'Номер ЮMoney скопирован.');
+        window.setTimeout(() => { copyDonate.title = english ? 'Click to copy' : 'Нажмите, чтобы скопировать'; }, 2200);
       } catch (error) {
-        showStatus('Не удалось скопировать автоматически. Выделите номер вручную.');
+        showStatus(english ? 'Automatic copy failed. Select the number manually.' : 'Не удалось скопировать автоматически. Выделите номер вручную.');
         console.warn('[Quiz] Ошибка копирования:', error);
       }
     };

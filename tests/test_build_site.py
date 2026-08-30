@@ -45,6 +45,7 @@ class BuildSiteTests(unittest.TestCase):
         (self.data / "tags" / "history.json").write_text(json.dumps(tag, ensure_ascii=False), encoding="utf-8")
         draft = self.horse()
         draft.update({"slug": "history-draft", "title": "Черновик", "published": False, "tags": ["history"]})
+        draft.pop("english_quiz", None)
         for question in draft["questions"]:
             question["image"] = ""
         self.write_quiz(draft, "history-draft.json")

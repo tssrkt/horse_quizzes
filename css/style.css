@@ -48,6 +48,8 @@ main{min-height:calc(100vh - 157px)}.hero{padding-block:92px 72px;text-align:cen
   .social-links li{min-width:0}
   .social-links a{min-width:0;padding-inline:12px;white-space:nowrap}
 }
+.language-switch{grid-column:3;justify-self:end;display:flex;align-items:center;gap:8px;font-weight:700;white-space:nowrap}.language-switch a{text-decoration:none;color:var(--ink)}.language-switch a[aria-current=page]{color:var(--primary-dark);font-weight:900}.language-switch span{color:var(--line)}
+@media(max-width:768px){.header-inner{gap:10px}.language-switch{margin-left:auto}.brand-logo{width:132px;height:auto}.brand{min-width:0}.menu-toggle{flex:0 0 44px}}
 @media(max-width:520px){.catalog-tabs{width:calc(100% - 16px);margin-left:8px;gap:3px;white-space:nowrap}.catalog-tab{min-width:0;padding-inline:11px;font-size:.88rem}.catalog-tab:first-child{flex:0 1 auto}.catalog-tab:last-child{flex:1 1 auto}.catalog-tab-label-wide{display:none}.catalog-tab-label-short{display:inline}}
 
 /* Общий каркас с подвалом у нижней границы коротких страниц */

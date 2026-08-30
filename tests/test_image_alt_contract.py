@@ -35,7 +35,8 @@ class ImageAltContractTests(unittest.TestCase):
         self.assertIn("core.coverAlt(quiz)", quiz_js)
         self.assertIn("core.questionImageAlt(quiz)", quiz_js)
         self.assertNotIn("question.image_alt", quiz_js)
-        self.assertIn('alt="Обложка викторины «${escapeHtml(quiz.title)}»"', catalog_js)
+        self.assertIn("englishSite ? 'Quiz cover: ' : 'Обложка викторины «'", catalog_js)
+        self.assertIn("escapeHtml(quiz.title)", catalog_js)
 
 
 if __name__ == "__main__":
