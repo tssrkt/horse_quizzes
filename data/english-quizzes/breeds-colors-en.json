@@ -11,306 +11,306 @@
     "horses"
   ],
   "published": false,
-  "title": "Породы и масти",
-  "short_description": "Проверьте, насколько хорошо вы знаете характерные особенности некоторых пород лошадей, какие масти в них встречаются, каких не бывает вообще, а также причины всех этих закономерностей.",
-  "intro": "Проверьте, насколько хорошо вы знаете характерные особенности некоторых пород лошадей, какие масти в них встречаются, каких не бывает вообще, а также причины всех этих закономерностей.",
+  "title": "Breeds and Coat Colors",
+  "short_description": "Test how well you know the characteristic features of different horse breeds: which coat colors occur in them, which never do, and the reasons behind these patterns.",
+  "intro": "Test how well you know the characteristic features of different horse breeds: which coat colors occur in them, which never do, and the reasons behind these patterns.",
   "questions": [
     {
       "id": "question-01",
-      "question": "Если у ахалтекинца есть четкий ремень на спине, значит он:",
-      "explanation": "У ахалтекинцев нет саврасого гена, только псевдосаврасый.",
+      "question": "If an Akhal-Teke has a distinct dorsal stripe, it is:",
+      "explanation": "Akhal-Tekes do not carry the Dun allele, but they can show non-dun primitive markings, sometimes described as pseudo-dun.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Буланый"
+          "text": "Buckskin"
         },
         {
           "id": "answer-02",
-          "text": "Саврасый"
+          "text": "Dun"
         },
         {
           "id": "answer-03",
-          "text": "Псевдосаврасый"
+          "text": "Pseudo-dun"
         },
         {
           "id": "answer-04",
-          "text": "Гнедой"
+          "text": "Bay"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-02",
-      "question": "Все хафлингеры:",
-      "explanation": "Рыжая с осветленным защитным волосом (ОЗВ) — это не совсем игреневая, но поскольку игреневая масть считается устаревшей и на западе ее не признают, то вариант \"Рыжие с ОЗВ \\ игреневые\" вполне допустим. В некоторых источниках вы можете встречать утверждение, что все хафлингеры — игреневые, а некоторые мастеведы будут доказывать, что игреневой масти не существует вообще.",
+      "question": "All Haflingers are:",
+      "explanation": "Haflingers are chestnut with a light or flaxen mane and tail. In Russian coat-color terminology, this is often described using the traditional term for flaxen chestnut, although terminology differs between sources and coat-color systems.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыжие с ОЗВ \\ игреневые"
+          "text": "Chestnut with a light mane and tail / flaxen chestnut"
         },
         {
           "id": "answer-02",
-          "text": "Соловые"
+          "text": "Palomino"
         },
         {
           "id": "answer-03",
-          "text": "Буланые"
+          "text": "Buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Саврасые"
+          "text": "Dun"
         },
         {
           "id": "answer-05",
-          "text": "Каурые"
+          "text": "Red dun"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-03",
-      "question": "Все польские коники:",
-      "explanation": "Среди них было обнаружено всего несколько каурых особей, но в целом считается, что этой породе одичавших лошадей присуща только мышастая масть.",
+      "question": "All Polish Koniks are:",
+      "explanation": "A few red-dun individuals have been reported, but the breed is generally regarded as characteristically black dun (grullo).",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасые"
+          "text": "Dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастые"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Каурые"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Мухортые"
+          "text": "Pangaré"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-04",
-      "question": "Все фризские лошади:",
-      "explanation": "Иногда рождаются рыжие, но их не записывают в племенную книгу, то есть, фактически, исключают из породы, и фризскими лошадьми они официально не считаются. Такая вот дискриминация по мастевому признаку.",
+      "question": "All Friesian horses are:",
+      "explanation": "Chestnut foals can occasionally be born, but they are not accepted into the main Friesian studbook and therefore are not officially registered as Friesians. In practice, black is the required breed color.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороные"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Рыжие"
+          "text": "Chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Буланые"
+          "text": "Buckskin"
         },
         {
           "id": "answer-04",
-          "text": "Темно-гнедые"
+          "text": "Dark bay"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-05",
-      "question": "У каких лошадей чаще других встречается игреневая масть?",
-      "explanation": "В чисто верховых породах (вроде арабской или ЧКВ) встречается рыжая масть с ОЗВ разной степени интенсивности, но не истинная игреневая масть.",
+      "question": "In which type of horses is flaxen chestnut especially common?",
+      "explanation": "In specialized riding breeds such as the Arabian and Thoroughbred, chestnuts with lighter manes and tails can occur, but the classic flaxen phenotype is especially associated with many draft and harness breeds.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Упряжных"
+          "text": "Draft and harness horses"
         },
         {
           "id": "answer-02",
-          "text": "Верховых"
+          "text": "Riding horses"
         },
         {
           "id": "answer-03",
-          "text": "Теплокровных"
+          "text": "Warmbloods"
         },
         {
           "id": "answer-04",
-          "text": "Только у пони"
+          "text": "Only ponies"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-06",
-      "question": "Если у солового коня щучья мордочка и петушиный хвостик, то, скорее всего, это:",
-      "explanation": "У арабских чистокровных нет кремового гена, но есть щучьи мордочки и петушиные хвостики, так что обладателем всех этих признаков одновременно может быть разве что полукровка.",
+      "question": "If a palomino horse has a dished profile and a high-carried tail, it is most likely:",
+      "explanation": "Purebred Arabians do not carry the Cream allele, although a dished profile and a high-carried tail are characteristic Arabian traits. A horse showing all of these features at once is therefore most likely a partbred.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Арабчик"
+          "text": "A purebred Arabian"
         },
         {
           "id": "answer-02",
-          "text": "Полукровка"
+          "text": "A partbred"
         },
         {
           "id": "answer-03",
-          "text": "Ахалтекинец"
+          "text": "An Akhal-Teke"
         },
         {
           "id": "answer-04",
-          "text": "Марвари"
+          "text": "A Marwari"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-07",
-      "question": "Все кони породы камарильо:",
-      "explanation": "Порода камарильо была создана от одного жеребца доминантно-белой масти и с самого начала разводилась с целью сохранить именно эту отличительную особенность.",
+      "question": "All Camarillo White Horses are:",
+      "explanation": "The Camarillo White Horse was founded by a dominant-white stallion and was bred from the beginning to preserve this distinctive white phenotype.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороные"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Рыжие"
+          "text": "Chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Белые"
+          "text": "White"
         },
         {
           "id": "answer-04",
-          "text": "Серые"
+          "text": "Gray"
         },
         {
           "id": "answer-05",
-          "text": "Изабелловые"
+          "text": "Cremello"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-08",
-      "question": "У каких пород нет дикого гена?",
-      "explanation": "Основатели чистокровных пород не были носителями дикого гена (DUN), а племенные книги этих пород закрыты, то есть в них не допускается примесь других пород. Интересно, что отсутствие дикого гена характерно именно для пород, происхождение которых связано с Ближним Востоком. А у многих северных и аборигенных пород Европы и Азии (например, польский коник, фьорд, якутская лошадь, кони Пржевальского) DUN сохранился и встречается очень часто.",
+      "question": "Which group of breeds does not carry the Dun allele?",
+      "explanation": "The founders of the traditionally recognized pure breeds did not carry the Dun allele, and their studbooks are closed, preventing introgression from other breeds. Interestingly, this absence is characteristic of breeds whose origins are linked to the Middle East. By contrast, Dun is common in many northern and indigenous breeds of Europe and Asia, such as the Polish Konik, Norwegian Fjord, Yakutian Horse, and Przewalski's horse.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Легкоупряжных"
+          "text": "Light harness breeds"
         },
         {
           "id": "answer-02",
-          "text": "Тяжелоупряжных"
+          "text": "Heavy draft breeds"
         },
         {
           "id": "answer-03",
-          "text": "Чистокровных"
+          "text": "The traditionally recognized pure breeds"
         },
         {
           "id": "answer-04",
-          "text": "Верховых"
+          "text": "Riding breeds"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-09",
-      "question": "Могут ли арабские чистокровные быть саврасыми?",
-      "explanation": "Раз у них нет дикого гена то как они могут быть саврасыми?",
+      "question": "Can purebred Arabians be dun?",
+      "explanation": "No. Purebred Arabians do not carry the Dun allele, so they cannot be genetically dun.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Могут"
+          "text": "Yes"
         },
         {
           "id": "answer-02",
-          "text": "Не могут"
+          "text": "No"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-10",
-      "question": "В какой из этих пород часто встречается чубарая масть?",
-      "explanation": "Чубарость у аппалуз была закреплена индейцами племени нез-персе, которые высоко ценили таких лошадей за их необычный внешний вид. Андалузских же лошадей на протяжении веков селекционировали по совершенно другим признакам — экстерьеру, движениям и рабочим качествам, поэтому ген чубарости (LP) в этой породе отсутствует.",
+      "question": "In which of these breeds is the leopard complex common?",
+      "explanation": "The leopard complex was deliberately preserved in the Appaloosa by the Nez Perce, who highly valued spotted horses. Andalusians, by contrast, were selected for other traits such as conformation, movement, and working ability, and the Leopard Complex (LP) allele is not part of the breed's gene pool.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Першерон"
+          "text": "Percheron"
         },
         {
           "id": "answer-02",
-          "text": "Орловский рысак"
+          "text": "Orlov Trotter"
         },
         {
           "id": "answer-03",
-          "text": "Фризская лошадь"
+          "text": "Friesian"
         },
         {
           "id": "answer-04",
-          "text": "Аппалуза"
+          "text": "Appaloosa"
         },
         {
           "id": "answer-05",
-          "text": "Андалуза"
+          "text": "Andalusian"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-11",
-      "question": "Почему среди арабских чистокровных так мало вороных?",
-      "explanation": "Рождение вороного жеребенка считалось очень плохой приметой, поэтому его убивали еще до восхода солнца. Сейчас вороные арабчики стоят на порядок больше арабчиков других мастей.",
+      "question": "Why are black purebred Arabians relatively rare?",
+      "explanation": "Historically, the birth of a black foal was regarded in some traditions as a bad omen, and such foals were reportedly killed before sunrise. Today, black Arabians are comparatively uncommon and can be highly prized.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороной ген у них часто приводит к летальному исходу"
+          "text": "The black allele is often lethal in Arabians"
         },
         {
           "id": "answer-02",
-          "text": "Вороные лошади лучше заметны поэтому хуже приспособлены к жизни в среде, где много хищников"
+          "text": "Black horses are more visible to predators and therefore less adapted to their environment"
         },
         {
           "id": "answer-03",
-          "text": "Берберы, разводившие арабчиков, убивали вороных жеребят"
+          "text": "Breeders historically killed black Arabian foals because they were considered a bad omen"
         },
         {
           "id": "answer-04",
-          "text": "Вороная масть считалась некрасивой, поэтому вороных жеребцов всегда кастрировали, а кобыл продавали"
+          "text": "Black was considered unattractive, so black stallions were always gelded and black mares sold"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-12",
-      "question": "Щучья мордочка и петушиный хвост — характерные признаки:",
-      "explanation": "Щучья мордочка — это вогнутый профиль, в условиях пустыни и саванны благодаря ему в ноздри лошадей попадает меньше пыли. Петушиными хвосты арабских чистокровных называют потому что они их держат почти вертикально.",
+      "question": "A dished profile and a high-carried tail are characteristic of the:",
+      "explanation": "The Arabian's dished facial profile is one of the breed's best-known features. Arabians are also famous for carrying the tail high, sometimes almost vertically, especially when excited or moving freely.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Арабской чистокровной"
+          "text": "Arabian"
         },
         {
           "id": "answer-02",
-          "text": "Английской чистокровной"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Ахалтекинской чистокровной"
+          "text": "Akhal-Teke"
         },
         {
           "id": "answer-04",
-          "text": "Того, что пора завязывать с наркотиками"
+          "text": "A sign that it's time to lay off the drugs"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-13",
-      "question": "Сколько существует чистокровных пород?",
-      "explanation": "Английская, арабская и ахалтекинская чистокровные — всего три. Их называют чистокровными потому что в эти породы не допускается вливание кровей других пород, ведь этим чистокровных невозможно улучшить.",
+      "question": "How many horse breeds are traditionally classified as “purebred” in Russian hippology?",
+      "explanation": "Traditionally, three are recognized in this classification: the Thoroughbred, Arabian, and Akhal-Teke. They are described as purebred because their studbooks are closed to outside blood.",
       "answers": [
         {
           "id": "answer-01",
@@ -333,669 +333,1657 @@
     },
     {
       "id": "question-14",
-      "question": "Какая порода лошадей больше остальных похожа на арабскую чистокровную?",
-      "explanation": "Терскую породу создавали именно как отечественную верховую лошадь арабского типа. После Гражданской войны в СССР сохранилось очень мало чистокровных арабских лошадей, и именно они стали основой новой породы. Их скрещивали главным образом со стрельцовскими лошадьми (которые сами были сильно арабизированы), а затем лучших потомков снова приливали кровью чистокровных арабов.",
+      "question": "Which horse breed most closely resembles the Arabian?",
+      "explanation": "The Tersk Horse was developed specifically as a domestic riding horse of Arabian type. After the Russian Civil War, only a small number of purebred Arabians remained in the Soviet Union, and they became an important foundation for the new breed. They were crossed mainly with Strelets horses, which were themselves strongly influenced by Arabian blood, and the best descendants were later crossed back to purebred Arabians.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Терская лошадь"
+          "text": "Tersk Horse"
         },
         {
           "id": "answer-04",
-          "text": "Орловский рысак"
+          "text": "Orlov Trotter"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-15",
-      "question": "Каких типов пегости нет у английской чистокровной?",
-      "explanation": "Ген пегости тобиано никогда не входил в генофонд породы. С момента создания породы племенная книга оставалась практически полностью закрытой, поэтому этот ген не мог попасть в популяцию. Другие типы пегости возникли или сохранились внутри самой породы и потому иногда встречаются у чистокровных лошадей.",
+      "question": "Which pinto pattern does not occur in the Thoroughbred?",
+      "explanation": "Tobiano was never part of the Thoroughbred gene pool. Since the breed's studbook has remained essentially closed since its establishment, the allele could not enter the population. Other white-spotting patterns arose or persisted within the breed itself and can occasionally occur in Thoroughbreds.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-16",
-      "question": "Все кони породы нукра:",
-      "explanation": "Белые лошади не соответствовали стандарту породы марвари и не допускались к племенному разведению. Однако они были очень эффектными и часто использовались для свадеб, церемоний и парадов. Поэтому таких животных начали разводить отдельно, постепенно закрепляя белую масть и связанные с ней особенности. Со временем эта линия стала известна как нукра. При этом многие специалисты вообще не считают нукру самостоятельной породой, а рассматривают ее как белую разновидность марвари или близких индийских лошадей.",
+      "question": "All Nukra horses are:",
+      "explanation": "White horses did not meet the traditional Marwari breed standard and were excluded from breeding. However, they were visually striking and often used for weddings, ceremonies, and parades, so they began to be bred separately. Over time this white line became known as the Nukra. Some specialists do not regard the Nukra as a separate breed, instead treating it as a white variety of Marwari or related Indian horses.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловые"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Серые"
+          "text": "Gray"
         },
         {
           "id": "answer-03",
-          "text": "Белые"
+          "text": "White"
         },
         {
           "id": "answer-04",
-          "text": "Вороные"
+          "text": "Black"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-17",
-      "question": "Все кони породы мургезе:",
-      "explanation": "При восстановлении породы мургезе в XX веке для разведения отбирали только животных вороной масти, и со временем она стала обязательной породной особенностью, а лошади любой другой масти к мургезе не относятся.",
+      "question": "All Murgese horses are:",
+      "explanation": "When the Murgese breed was restored in the 20th century, only black horses were selected for breeding. Over time, black became a defining breed characteristic, and horses of other colors are not considered Murgese.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловые"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Серые"
+          "text": "Gray"
         },
         {
           "id": "answer-03",
-          "text": "Белые"
+          "text": "White"
         },
         {
           "id": "answer-04",
-          "text": "Вороные"
+          "text": "Black"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-18",
-      "question": "Все кони породы шварцвальская упряжная:",
-      "explanation": "При разведении этой породы на протяжении многих поколений закрепляли именно темную игреневую масть со светлыми гривой и хвостом. Лошади другой масти в племенную книгу не допускаются.",
+      "question": "All Black Forest Horses are:",
+      "explanation": "For generations, breeders selected the breed for its characteristic dark chestnut coat with a light flaxen mane and tail. Horses that do not meet the accepted color requirements are not admitted to the studbook.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороные"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Игреневые"
+          "text": "Flaxen chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Серые"
+          "text": "Gray"
         },
         {
           "id": "answer-04",
-          "text": "Белые"
+          "text": "White"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-19",
-      "question": "Все кони камаргской породы:",
-      "explanation": "Благодаря многовековому отбору серая масть стала обязательной породной особенностью, а лошади другой масти к разведению не допускаются.",
+      "question": "All Camargue horses are:",
+      "explanation": "Centuries of selection made gray a defining characteristic of the Camargue breed, and horses of other colors are not accepted for breeding.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловые"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Серые"
+          "text": "Gray"
         },
         {
           "id": "answer-03",
-          "text": "Белые"
+          "text": "White"
         },
         {
           "id": "answer-04",
-          "text": "Вороные"
+          "text": "Black"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-20",
-      "question": "Какой масти нет у лошадей породы марвари?",
-      "explanation": "У марвари не встречается белая масть, поскольку такие лошади традиционно исключались из племенного разведения. Именно из отбракованных белых животных впоследствии сформировалась отдельная линия, известная как нукра. При этом серые марвари встречаются часто.",
+      "question": "Which coat color does not occur in the Marwari?",
+      "explanation": "White is not a recognized Marwari coat color because such horses were traditionally excluded from breeding. A separate white line later became known as the Nukra. Gray Marwaris, by contrast, are common.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабелловой"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Серой"
+          "text": "Gray"
         },
         {
           "id": "answer-03",
-          "text": "Белой"
+          "text": "White"
         },
         {
           "id": "answer-04",
-          "text": "Рыжей"
+          "text": "Chestnut"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-21",
-      "question": "Какого гена нет у лошадей андалузской породы?",
-      "explanation": "Ген Dun когда-то, вероятно, присутствовал у диких предков домашних лошадей и был широко распространен в древности. Однако при формировании андалузской породы испанские заводчики на протяжении столетий отдавали предпочтение однотонным мастям — прежде всего серой, вороной, гнедой и рыжей. Лошади с дикими отметинами (ремнем на спине, зеброидностью и т. п.) не использовались в разведении или использовались крайне редко. В результате ген Dun постепенно исчез из генофонда породы.",
+      "question": "Which coat-color allele is absent from the Andalusian breed?",
+      "explanation": "The Dun allele was probably widespread among ancient wild ancestors of domestic horses. During the development of the Andalusian, however, Spanish breeders favored solid colors—especially gray, black, bay, and chestnut. Horses showing true dun dilution and primitive markings were rarely or never used for breeding, and Dun gradually disappeared from the breed's gene pool.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Кремовый (Cream)"
+          "text": "Cream"
         },
         {
           "id": "answer-02",
-          "text": "Серый (G)"
+          "text": "Gray (G)"
         },
         {
           "id": "answer-03",
-          "text": "Дикий (Dun)"
+          "text": "Dun"
         },
         {
           "id": "answer-04",
-          "text": "Жемчужный (prl)"
+          "text": "Pearl (prl)"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-22",
-      "question": "Для лошадей какой породы особенно характерен серебристый ген?",
-      "explanation": "Серебристый ген особенно распространен у лошадей скалистых гор, потому что он присутствовал у основателей породы и многие поколения целенаправленно закреплялся селекцией. Серебристость стала одной из главных отличительных особенностей этих лошадей.",
+      "question": "Which breed is especially associated with the Silver allele?",
+      "explanation": "The Silver allele is particularly common in the Rocky Mountain Horse because it was present in the breed's foundation stock and was deliberately retained through generations of selection. Silver became one of the breed's best-known color traits.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Тинкер"
+          "text": "Gypsy Cob (Tinker)"
         },
         {
           "id": "answer-02",
-          "text": "Тракененская лошадь"
+          "text": "Trakehner"
         },
         {
           "id": "answer-03",
-          "text": " Американская четвертьмильная лошадь"
+          "text": "American Quarter Horse"
         },
         {
           "id": "answer-04",
-          "text": "Лошади скалистых гор"
+          "text": "Rocky Mountain Horse"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-23",
-      "question": "Все кони меноркинской породы:",
-      "explanation": "Все меноркинские лошади вороные, потому что стандарт породы допускает только эту масть. На протяжении многих поколений заводчики целенаправленно отбирали для разведения исключительно вороных животных, поэтому лошади любой другой масти не соответствуют породному стандарту.",
+      "question": "All Menorquín horses are:",
+      "explanation": "All Menorquín horses are black because the breed standard permits only this color. Breeders selected exclusively for black horses over many generations, so horses of other colors do not meet the breed standard.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Изабеловые"
+          "text": "Cremello"
         },
         {
           "id": "answer-02",
-          "text": "Серые"
+          "text": "Gray"
         },
         {
           "id": "answer-03",
-          "text": "Белые"
+          "text": "White"
         },
         {
           "id": "answer-04",
-          "text": "Вороные"
+          "text": "Black"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-24",
-      "question": "Почему среди тинкеров так много пегих лошадей?",
-      "explanation": "Среди тинкеров так много пегих лошадей потому что во времена формирования породы эта масть считалась неполноценной. Пегих не брали даже в армию, где был постоянный дефицит лошадей. Кто ж захочет ездить на коне, подобном корове? А цыгане не считали пегих коней неполноценными и скупали их за сущие копейки.",
+      "question": "Why are pinto horses so common among Gypsy Cobs?",
+      "explanation": "Pinto horses became common in the breed because, during its formation, conspicuously spotted horses were often undervalued by wider society and even rejected for military use. Romani breeders did not share this prejudice and could acquire such horses cheaply, helping pinto patterns become strongly associated with the developing Gypsy Cob type.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Эта масть всегда ценилась как очень красивая"
+          "text": "Pinto coloring was always prized as exceptionally beautiful"
         },
         {
           "id": "answer-02",
-          "text": "На пегих лошадях разрешалось ездить только аристократам"
+          "text": "Only aristocrats were allowed to ride pinto horses"
         },
         {
           "id": "answer-03",
-          "text": "Пегих лошадей отбраковывали и продавали за сущие копейки"
+          "text": "Pinto horses were rejected and sold very cheaply"
         },
         {
           "id": "answer-04",
-          "text": "Когда-то люди верили что пегие лошади обладают особыми качествами"
+          "text": "People once believed pinto horses had special powers"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-25",
-      "question": "У какой породы отсутствуют кремовый и дикий гены?",
-      "explanation": "У арабской чистокровной отсутствуют как кремовый ген (Cream), так и дикий ген (Dun). Поэтому среди чистокровных арабов не встречаются соловая, буланая, изабелловая, саврасая, каурая, мышастая и другие масти, связанные с действием этих генов. Их отсутствие объясняется историей формирования породы и многовековым разведением в закрытой племенной книге.",
+      "question": "Which breed lacks both the Cream and Dun alleles?",
+      "explanation": "The purebred Arabian lacks both the Cream and Dun alleles. As a result, true palomino, buckskin, cremello, dun, red dun, grullo, and other colors produced by these alleles do not occur in purebred Arabians. Their absence reflects the breed's historical foundation and centuries of breeding within a closed studbook.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-02",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-03",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         },
         {
           "id": "answer-04",
-          "text": "Марвари"
+          "text": "Marwari"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-26",
-      "question": "Все кони породы суффолькский панч:",
-      "explanation": "Все суффолькские панчи рыжие, потому что порода формировалась из небольшого числа рыжих производителей, а затем на протяжении нескольких столетий для разведения отбирали только рыжих лошадей. Благодаря такой строгой селекции и тому, что за рыжую масть отвечают рецессивные гены, другие масти полностью исчезли из породы.",
+      "question": "All Suffolk Punch horses are:",
+      "explanation": "All Suffolk Punch horses are chestnut. The breed developed from a relatively small number of chestnut foundation animals, and for centuries only chestnut horses were selected for breeding. Because chestnut is recessive, this strict selection ultimately eliminated other base colors from the breed.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороные"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Рыжие"
+          "text": "Chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Гнедые"
+          "text": "Bay"
         },
         {
           "id": "answer-04",
-          "text": "Серые"
+          "text": "Gray"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-27",
-      "question": "Все кони кливлендской породы:",
-      "explanation": "Все кливлендские лошади гнедые, потому что при формировании породы заводчики стремились закрепить единый внешний вид. На протяжении многих поколений в разведении оставляли только гнедых животных, поэтому эта масть стала обязательной особенностью породы.",
+      "question": "All Cleveland Bay horses are:",
+      "explanation": "All Cleveland Bays are bay because breeders selected for a uniform appearance throughout the breed's development. For many generations only bay horses were retained for breeding, making the color a defining breed characteristic.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Вороные"
+          "text": "Black"
         },
         {
           "id": "answer-02",
-          "text": "Рыжие"
+          "text": "Chestnut"
         },
         {
           "id": "answer-03",
-          "text": "Гнедые"
+          "text": "Bay"
         },
         {
           "id": "answer-04",
-          "text": "Серые"
+          "text": "Gray"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-28",
-      "question": "Все кони кладрубской породы:",
-      "explanation": "Кладруберов выводили как упряжных лошадей для парадных карет императорского двора Габсбургов. Самыми эффектными и торжественными считались серые и вороные лошади, поэтому на протяжении нескольких столетий для разведения отбирали только их, а другие масти были полностью исключены из породы.",
+      "question": "All Kladruber horses are:",
+      "explanation": "Kladrubers were developed as carriage horses for the ceremonial coaches of the Habsburg imperial court. Gray and black horses were considered the most striking and formal, so breeders selected only these colors for centuries and excluded other colors from the breed.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Серые и изабелловые"
+          "text": "Gray and cremello"
         },
         {
           "id": "answer-02",
-          "text": "Серые и гнедые"
+          "text": "Gray and bay"
         },
         {
           "id": "answer-03",
-          "text": "Серые и рыжие"
+          "text": "Gray and chestnut"
         },
         {
           "id": "answer-04",
-          "text": "Серые и вороные"
+          "text": "Gray and black"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-29",
-      "question": "Для какой породы характерны серповидно изогнутые внутрь ушки?",
-      "explanation": "Серповидно изогнутые внутрь уши характерны для марвари и катхиавари, поскольку этот признак сложился и закрепился в результате многовековой селекции в засушливых районах Индии. Необычная форма ушей стала одной из главных отличительных особенностей этих пород, и заводчики целенаправленно сохраняли ее при разведении.",
+      "question": "Which breed is known for inward-curving, sickle-shaped ears?",
+      "explanation": "Inward-curving, sickle-shaped ears are characteristic of the Marwari and Kathiawari. This distinctive trait was preserved through centuries of selective breeding in the arid regions of India and became one of the most recognizable features of these breeds.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-02",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         },
         {
           "id": "answer-03",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-04",
-          "text": "Марвари"
+          "text": "Marwari"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-30",
-      "question": "Какие тяжеловозы бывают саврасыми?",
-      "explanation": "Французский тяжеловоз мулазье разводился не только как сельскохозяйственная и упряжная лошадь, но и для получения крупных мулов, поэтому при его селекции больше внимания уделяли силе, выносливости и рабочим качествам, чем масти. В отличие от большинства других тяжеловозных пород, где саврасый ген был утрачен или целенаправленно исключен из разведения, у мулазье он сохранился и встречается до сих пор.",
+      "question": "Which draft breed can be dun?",
+      "explanation": "The French Poitevin Mulassier was bred not only for agricultural and harness work but also for producing large mules, so selection emphasized strength, stamina, and working ability more than coat color. Unlike many other draft breeds in which Dun was lost or deliberately excluded, the allele remained in the Poitevin Mulassier and can still occur today.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Шайр"
+          "text": "Shire"
         },
         {
           "id": "answer-02",
-          "text": "Клейдесдаль"
+          "text": "Clydesdale"
         },
         {
           "id": "answer-03",
-          "text": "Першерон"
+          "text": "Percheron"
         },
         {
           "id": "answer-04",
-          "text": "Мулазье"
+          "text": "Poitevin Mulassier"
         },
         {
           "id": "answer-05",
-          "text": "Советский тяжеловоз"
+          "text": "Soviet Heavy Draft"
         },
         {
           "id": "answer-06",
-          "text": "Александрийский тяжеловоз"
+          "text": "Alexandrian Draft"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-31",
-      "question": "Какой тип пегости характерен для шайров и клейдесдалей?",
-      "explanation": "Для шайров и клейдесдалей наиболее характерен сабино. При селекции этих тяжеловозов заводчики десятилетиями отдавали предпочтение лошадям с высокими носочками, широкими проточинами и небольшими белыми пятнами на животе, поскольку такой нарядный рисунок стал одной из визитных карточек обеих пород. В результате именно сабино получил в них широкое распространение, тогда как другие типы пегости, такие как тобиано, фрейм-оверо или сплешед уайт, для этих пород нехарактерны.",
+      "question": "Which pinto pattern is characteristic of Shires and Clydesdales?",
+      "explanation": "Sabino-type white markings are especially characteristic of Shires and Clydesdales. Breeders long favored horses with high white stockings, broad blazes, and small white belly spots because this flashy pattern became strongly associated with both breeds. Other pinto patterns such as tobiano, frame overo, and splashed white are not characteristic of them.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-32",
-      "question": "Изящная шея и миндалевидный разрез глаз — характерные признаки:",
-      "explanation": "Изящная длинная шея и миндалевидный разрез глаз — характерные признаки ахалтекинской породы. Такой экстерьер сформировался в результате многовековой селекции в условиях пустынь Средней Азии, где туркмены разводили легких, выносливых верховых лошадей для дальних переходов. Благодаря этому ахалтекинцы приобрели стройное телосложение, длинную высоко поставленную шею и характерные «восточные» миндалевидные глаза.",
+      "question": "A long, elegant neck and almond-shaped eyes are characteristic of the:",
+      "explanation": "A long, refined neck and almond-shaped eyes are characteristic of the Akhal-Teke. Centuries of selection under the harsh conditions of Central Asia produced a lean, refined riding horse with a long, high-set neck and distinctive almond-shaped eyes.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Английской чистокровной"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-02",
-          "text": "Арабской чистокровной"
+          "text": "Arabian"
         },
         {
           "id": "answer-03",
-          "text": "Ахалтекинской чистокровной"
+          "text": "Akhal-Teke"
         },
         {
           "id": "answer-04",
-          "text": "Марвари"
+          "text": "Marwari"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-33",
-      "question": "Если у андалузской лошади четкий ремень на спине, значит, она:",
-      "explanation": "У андалузских лошадей нет настоящего дикого гена D, потому что при многовековой селекции заводчики Испании отдавали предпочтение однотонным, насыщенным мастям — прежде всего серой, вороной и гнедой. Лошади с саврасым осветлением не использовались в разведении, поэтому ген D постепенно исчез из породы. При этом у многих андалузов встречается аллель nd1 (non-dun1), который может давать ремень на спине и другие примитивные отметины без настоящей саврасой масти.",
+      "question": "If an Andalusian has a distinct dorsal stripe, it is:",
+      "explanation": "Andalusians do not carry the true Dun allele because centuries of selection favored solid, saturated colors such as gray, black, and bay. However, many Andalusians can carry the nd1 (non-dun1) allele, which may produce a dorsal stripe and other primitive markings without true dun dilution.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Саврасая"
+          "text": "Dun"
         },
         {
           "id": "answer-02",
-          "text": "Мышастая"
+          "text": "Black dun (grullo)"
         },
         {
           "id": "answer-03",
-          "text": "Каурая"
+          "text": "Red dun"
         },
         {
           "id": "answer-04",
-          "text": "Псевдосаврасая"
+          "text": "Pseudo-dun / non-dun primitive markings"
         },
         {
           "id": "answer-05",
-          "text": "Полукровка или вообще не андалузская"
+          "text": "A partbred or not actually an Andalusian"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-34",
-      "question": "У лошадей каких пород особенно выражен стойкий блеск покровного волоса?",
-      "explanation": "У ахалтекинцев выраженный металлический блеск покровного волоса обусловлен не мастью, а уникальным строением самого волоса. Непрозрачная сердцевина волоса у них сильно уменьшена или местами отсутствует, а прозрачная часть занимает больший объем и действует подобно световоду: свет проходит сквозь волос, преломляется и отражается, создавая характерный золотистый или серебристый отлив. Именно эта особенность строения волоса делает металлический блеск породным признаком ахалтекинцев независимо от их масти. ",
+      "question": "Which breed is especially known for a persistent metallic sheen to the coat?",
+      "explanation": "The pronounced metallic sheen of the Akhal-Teke is associated not with a particular coat color but with the structure of the hair itself. The opaque core of the hair is reduced or partly absent, while the translucent portion is proportionally larger and can refract and reflect light, producing the characteristic golden or silvery sheen. This makes metallic luster a breed-associated feature of the Akhal-Teke across several coat colors.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Английская чистокровная"
+          "text": "Thoroughbred"
         },
         {
           "id": "answer-02",
-          "text": "Арабская чистокровная"
+          "text": "Arabian"
         },
         {
           "id": "answer-03",
-          "text": "Ахалтекинская чистокровная"
+          "text": "Akhal-Teke"
         },
         {
           "id": "answer-04",
-          "text": "Марвари"
+          "text": "Marwari"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-35",
-      "question": "У лошадей какой масти встречается бронзинг?",
-      "explanation": "Бронзинг встречается только у чубарых лошадей, потому что он связан с действием гена Leopard Complex (LP). Этот ген не только формирует чубарый рисунок, но и изменяет распределение пигмента в шерсти, из-за чего темные участки могут приобретать характерный бронзово-коричневый оттенок. У лошадей без гена LP такой эффект не возникает.",
+      "question": "In which coat pattern does bronzing occur?",
+      "explanation": "Bronzing is associated with leopard-complex horses because it is linked to the Leopard Complex (LP) allele. LP affects pigment distribution in the coat, and dark areas can develop a characteristic bronze-brown cast. This effect does not occur in horses lacking LP.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Пегая"
+          "text": "Pinto"
         },
         {
           "id": "answer-02",
-          "text": "Чалая"
+          "text": "Roan"
         },
         {
           "id": "answer-03",
-          "text": "Чубарая"
+          "text": "Leopard complex"
         },
         {
           "id": "answer-04",
-          "text": "Бурая"
+          "text": "Brown"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-36",
-      "question": "Все лошади какой породы обладают диким геном?",
-      "explanation": "У всех современных фьордов есть дикий ген, потому что при формировании породы норвежские заводчики на протяжении многих поколений целенаправленно сохраняли только саврасых лошадей с примитивными отметинами, считая такую масть признаком чистопородности. ",
+      "question": "All horses of which breed carry the Dun allele?",
+      "explanation": "All modern Norwegian Fjord Horses carry Dun because breeders preserved dun horses with primitive markings over many generations and treated this coloration as a hallmark of breed type.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Норвежский фьорд"
+          "text": "Norwegian Fjord"
         },
         {
           "id": "answer-02",
-          "text": "Якутская лошадь"
+          "text": "Yakutian Horse"
         },
         {
           "id": "answer-03",
-          "text": "Монгольская лошадь"
+          "text": "Mongolian Horse"
         },
         {
           "id": "answer-04",
-          "text": "Эксмурский пони"
+          "text": "Exmoor Pony"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-37",
-      "question": "Какой тип пегости есть у орловских рысаков?",
-      "explanation": "Орловских рысаков выводили как элегантную легкоупряжную породу, где ценились резвость, гармоничное сложение и классические однотонные масти, поэтому производителей с тобиано, фрейм-оверо и другими выраженными пегими рисунками в племенное разведение не оставляли. Сабино же не препятствовало сохранению однотонного облика и поэтому сохранилось в породе.",
+      "question": "Which pinto pattern occurs in the Orlov Trotter?",
+      "explanation": "The Orlov Trotter was developed as an elegant light-harness breed emphasizing speed, harmonious conformation, and traditional solid colors. Horses with tobiano, frame overo, and other conspicuous pinto patterns were not retained for breeding. Sabino-type white markings, however, were compatible with the desired overall appearance and persisted in the breed.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-38",
-      "question": "Какого типа пегости нет у американской четвертьмильной лошади (квортерхорса)?",
-      "explanation": "Тобиано отсутствует у американских четвертьмильных, потому что этот ген не входил в исходный племенной фонд породы. Лошадей с таким рисунком впоследствии разводили уже как американских пейнтхорсов, поэтому тобиано закрепилось в пейнтах, но не у квотерхорсов.",
+      "question": "Which pinto pattern does not occur in the American Quarter Horse?",
+      "explanation": "Tobiano is absent from the American Quarter Horse because it was not part of the breed's original gene pool. Horses carrying tobiano were subsequently bred within the American Paint Horse population, so the pattern became established in Paint Horses rather than Quarter Horses.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-39",
-      "question": "Каких типов пегости нет у аппалуза?",
-      "explanation": "У аппалуз не закрепились тобиано и фрейм-оверо, потому что создатели породы стремились сохранить именно характерный чубарый рисунок, обусловленный геном LP, который и делает аппалуз легко узнаваемыми. Лошадей с крупными пегими пятнами тобиано или фрейм-оверо не использовали в племенной работе, поскольку такие рисунки скрывали или искажали характерную чубарость и размывали породный тип.",
+      "question": "Which pinto patterns do not occur in the Appaloosa?",
+      "explanation": "Tobiano and frame overo were not established in the Appaloosa because breeders aimed to preserve the characteristic Leopard Complex pattern produced by LP. Horses with large tobiano or frame-overo patches were not used in breeding because these patterns could obscure the characteristic leopard-complex phenotype and blur breed type.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Тобиано и фрейм оверо"
+          "text": "Tobiano and frame overo"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано и сабино"
+          "text": "Tobiano and sabino"
         },
         {
           "id": "answer-03",
-          "text": "Тобиано и сплешед уайт"
+          "text": "Tobiano and splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Тобиано, сабино и фрейм оверо"
+          "text": "Tobiano, sabino, and frame overo"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-40",
-      "question": "Какого типа пегости нет у шетлендских пони?",
-      "explanation": "У шетлендских пони нет фрейм-оверо, потому что порода формировалась в многовековой изоляции на Шетландских островах и практически не скрещивалась с породами, несущими этот ген. Селекция была направлена на сохранение крепких, выносливых и типичных для породы пони, а не на получение необычных пегих рисунков. В результате ген фрейм-оверо никогда не закрепился в племенном поголовье, тогда как допустимые для породы белые отметины имеют другое происхождение.",
+      "question": "Which pinto pattern does not occur in the Shetland Pony?",
+      "explanation": "Frame overo is absent from the Shetland Pony because the breed developed for centuries in relative isolation on the Shetland Islands and had little or no introgression from populations carrying the allele. Selection focused on preserving hardy, characteristic ponies rather than unusual spotting patterns. As a result, frame overo never became established in the breeding population.",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сабино"
+          "text": "Sabino"
         },
         {
           "id": "answer-02",
-          "text": "Тобиано"
+          "text": "Tobiano"
         },
         {
           "id": "answer-03",
-          "text": "Сплешед уайт"
+          "text": "Splashed white"
         },
         {
           "id": "answer-04",
-          "text": "Фрейм оверо"
+          "text": "Frame overo"
         }
       ],
       "correct_answer_id": "answer-04"
     }
   ],
-  "translation_status": "outdated",
-  "_pending_translation": {
-    "source_revision": "c47b9e4562fe2a408318fb27a34b8667cdf2e6454bdcf17bc8f1beff29c1df08",
-    "package": "breeds-colors-en.json"
+  "translation_status": "current",
+  "_translation_source": {
+    "title": "Породы и масти",
+    "short_description": "Проверьте, насколько хорошо вы знаете характерные особенности некоторых пород лошадей, какие масти в них встречаются, каких не бывает вообще, а также причины всех этих закономерностей.",
+    "intro": "Проверьте, насколько хорошо вы знаете характерные особенности некоторых пород лошадей, какие масти в них встречаются, каких не бывает вообще, а также причины всех этих закономерностей.",
+    "questionImagesAlt": "",
+    "difficulty": "high",
+    "cover": "img/covers/breeds-colors.webp",
+    "publication_date": "2026-08-02T14:24:00+00:00",
+    "tags": [
+      "breed",
+      "horses"
+    ],
+    "questions": [
+      {
+        "id": "question-01",
+        "question": "Если у ахалтекинца есть четкий ремень на спине, значит он:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Буланый"
+          },
+          {
+            "id": "answer-02",
+            "text": "Саврасый"
+          },
+          {
+            "id": "answer-03",
+            "text": "Псевдосаврасый"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедой"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У ахалтекинцев нет саврасого гена, только псевдосаврасый."
+      },
+      {
+        "id": "question-02",
+        "question": "Все хафлингеры:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Рыжие с ОЗВ \\ игреневые"
+          },
+          {
+            "id": "answer-02",
+            "text": "Соловые"
+          },
+          {
+            "id": "answer-03",
+            "text": "Буланые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Саврасые"
+          },
+          {
+            "id": "answer-05",
+            "text": "Каурые"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Рыжая с осветленным защитным волосом (ОЗВ) — это не совсем игреневая, но поскольку игреневая масть считается устаревшей и на западе ее не признают, то вариант \"Рыжие с ОЗВ \\ игреневые\" вполне допустим. В некоторых источниках вы можете встречать утверждение, что все хафлингеры — игреневые, а некоторые мастеведы будут доказывать, что игреневой масти не существует вообще."
+      },
+      {
+        "id": "question-03",
+        "question": "Все польские коники:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасые"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастые"
+          },
+          {
+            "id": "answer-03",
+            "text": "Каурые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мухортые"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Среди них было обнаружено всего несколько каурых особей, но в целом считается, что этой породе одичавших лошадей присуща только мышастая масть."
+      },
+      {
+        "id": "question-04",
+        "question": "Все фризские лошади:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Вороные"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рыжие"
+          },
+          {
+            "id": "answer-03",
+            "text": "Буланые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Темно-гнедые"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Иногда рождаются рыжие, но их не записывают в племенную книгу, то есть, фактически, исключают из породы, и фризскими лошадьми они официально не считаются. Такая вот дискриминация по мастевому признаку."
+      },
+      {
+        "id": "question-05",
+        "question": "У каких лошадей чаще других встречается игреневая масть?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Упряжных"
+          },
+          {
+            "id": "answer-02",
+            "text": "Верховых"
+          },
+          {
+            "id": "answer-03",
+            "text": "Теплокровных"
+          },
+          {
+            "id": "answer-04",
+            "text": "Только у пони"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "В чисто верховых породах (вроде арабской или ЧКВ) встречается рыжая масть с ОЗВ разной степени интенсивности, но не истинная игреневая масть."
+      },
+      {
+        "id": "question-06",
+        "question": "Если у солового коня щучья мордочка и петушиный хвостик, то, скорее всего, это:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Арабчик"
+          },
+          {
+            "id": "answer-02",
+            "text": "Полукровка"
+          },
+          {
+            "id": "answer-03",
+            "text": "Ахалтекинец"
+          },
+          {
+            "id": "answer-04",
+            "text": "Марвари"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "У арабских чистокровных нет кремового гена, но есть щучьи мордочки и петушиные хвостики, так что обладателем всех этих признаков одновременно может быть разве что полукровка."
+      },
+      {
+        "id": "question-07",
+        "question": "Все кони породы камарильо:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Вороные"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рыжие"
+          },
+          {
+            "id": "answer-03",
+            "text": "Белые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серые"
+          },
+          {
+            "id": "answer-05",
+            "text": "Изабелловые"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Порода камарильо была создана от одного жеребца доминантно-белой масти и с самого начала разводилась с целью сохранить именно эту отличительную особенность."
+      },
+      {
+        "id": "question-08",
+        "question": "У каких пород нет дикого гена?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Легкоупряжных"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тяжелоупряжных"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чистокровных"
+          },
+          {
+            "id": "answer-04",
+            "text": "Верховых"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Основатели чистокровных пород не были носителями дикого гена (DUN), а племенные книги этих пород закрыты, то есть в них не допускается примесь других пород. Интересно, что отсутствие дикого гена характерно именно для пород, происхождение которых связано с Ближним Востоком. А у многих северных и аборигенных пород Европы и Азии (например, польский коник, фьорд, якутская лошадь, кони Пржевальского) DUN сохранился и встречается очень часто."
+      },
+      {
+        "id": "question-09",
+        "question": "Могут ли арабские чистокровные быть саврасыми?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Могут"
+          },
+          {
+            "id": "answer-02",
+            "text": "Не могут"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Раз у них нет дикого гена то как они могут быть саврасыми?"
+      },
+      {
+        "id": "question-10",
+        "question": "В какой из этих пород часто встречается чубарая масть?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Першерон"
+          },
+          {
+            "id": "answer-02",
+            "text": "Орловский рысак"
+          },
+          {
+            "id": "answer-03",
+            "text": "Фризская лошадь"
+          },
+          {
+            "id": "answer-04",
+            "text": "Аппалуза"
+          },
+          {
+            "id": "answer-05",
+            "text": "Андалуза"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Чубарость у аппалуз была закреплена индейцами племени нез-персе, которые высоко ценили таких лошадей за их необычный внешний вид. Андалузских же лошадей на протяжении веков селекционировали по совершенно другим признакам — экстерьеру, движениям и рабочим качествам, поэтому ген чубарости (LP) в этой породе отсутствует."
+      },
+      {
+        "id": "question-11",
+        "question": "Почему среди арабских чистокровных так мало вороных?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Вороной ген у них часто приводит к летальному исходу"
+          },
+          {
+            "id": "answer-02",
+            "text": "Вороные лошади лучше заметны поэтому хуже приспособлены к жизни в среде, где много хищников"
+          },
+          {
+            "id": "answer-03",
+            "text": "Берберы, разводившие арабчиков, убивали вороных жеребят"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороная масть считалась некрасивой, поэтому вороных жеребцов всегда кастрировали, а кобыл продавали"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Рождение вороного жеребенка считалось очень плохой приметой, поэтому его убивали еще до восхода солнца. Сейчас вороные арабчики стоят на порядок больше арабчиков других мастей."
+      },
+      {
+        "id": "question-12",
+        "question": "Щучья мордочка и петушиный хвост — характерные признаки:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Арабской чистокровной"
+          },
+          {
+            "id": "answer-02",
+            "text": "Английской чистокровной"
+          },
+          {
+            "id": "answer-03",
+            "text": "Ахалтекинской чистокровной"
+          },
+          {
+            "id": "answer-04",
+            "text": "Того, что пора завязывать с наркотиками"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Щучья мордочка — это вогнутый профиль, в условиях пустыни и саванны благодаря ему в ноздри лошадей попадает меньше пыли. Петушиными хвосты арабских чистокровных называют потому что они их держат почти вертикально."
+      },
+      {
+        "id": "question-13",
+        "question": "Сколько существует чистокровных пород?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "2"
+          },
+          {
+            "id": "answer-02",
+            "text": "3"
+          },
+          {
+            "id": "answer-03",
+            "text": "4"
+          },
+          {
+            "id": "answer-04",
+            "text": "5"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Английская, арабская и ахалтекинская чистокровные — всего три. Их называют чистокровными потому что в эти породы не допускается вливание кровей других пород, ведь этим чистокровных невозможно улучшить."
+      },
+      {
+        "id": "question-14",
+        "question": "Какая порода лошадей больше остальных похожа на арабскую чистокровную?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Ахалтекинская чистокровная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Английская чистокровная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Терская лошадь"
+          },
+          {
+            "id": "answer-04",
+            "text": "Орловский рысак"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Терскую породу создавали именно как отечественную верховую лошадь арабского типа. После Гражданской войны в СССР сохранилось очень мало чистокровных арабских лошадей, и именно они стали основой новой породы. Их скрещивали главным образом со стрельцовскими лошадьми (которые сами были сильно арабизированы), а затем лучших потомков снова приливали кровью чистокровных арабов."
+      },
+      {
+        "id": "question-15",
+        "question": "Каких типов пегости нет у английской чистокровной?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Сабино"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тобиано"
+          },
+          {
+            "id": "answer-03",
+            "text": "Сплешед уайт"
+          },
+          {
+            "id": "answer-04",
+            "text": "Фрейм оверо"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Ген пегости тобиано никогда не входил в генофонд породы. С момента создания породы племенная книга оставалась практически полностью закрытой, поэтому этот ген не мог попасть в популяцию. Другие типы пегости возникли или сохранились внутри самой породы и потому иногда встречаются у чистокровных лошадей."
+      },
+      {
+        "id": "question-16",
+        "question": "Все кони породы нукра:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Изабелловые"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серые"
+          },
+          {
+            "id": "answer-03",
+            "text": "Белые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороные"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Белые лошади не соответствовали стандарту породы марвари и не допускались к племенному разведению. Однако они были очень эффектными и часто использовались для свадеб, церемоний и парадов. Поэтому таких животных начали разводить отдельно, постепенно закрепляя белую масть и связанные с ней особенности. Со временем эта линия стала известна как нукра. При этом многие специалисты вообще не считают нукру самостоятельной породой, а рассматривают ее как белую разновидность марвари или близких индийских лошадей."
+      },
+      {
+        "id": "question-17",
+        "question": "Все кони породы мургезе:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Изабелловые"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серые"
+          },
+          {
+            "id": "answer-03",
+            "text": "Белые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороные"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "При восстановлении породы мургезе в XX веке для разведения отбирали только животных вороной масти, и со временем она стала обязательной породной особенностью, а лошади любой другой масти к мургезе не относятся."
+      },
+      {
+        "id": "question-18",
+        "question": "Все кони породы шварцвальская упряжная:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Вороные"
+          },
+          {
+            "id": "answer-02",
+            "text": "Игреневые"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Белые"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "При разведении этой породы на протяжении многих поколений закрепляли именно темную игреневую масть со светлыми гривой и хвостом. Лошади другой масти в племенную книгу не допускаются."
+      },
+      {
+        "id": "question-19",
+        "question": "Все кони камаргской породы:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Изабелловые"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серые"
+          },
+          {
+            "id": "answer-03",
+            "text": "Белые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороные"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Благодаря многовековому отбору серая масть стала обязательной породной особенностью, а лошади другой масти к разведению не допускаются."
+      },
+      {
+        "id": "question-20",
+        "question": "Какой масти нет у лошадей породы марвари?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Изабелловой"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серой"
+          },
+          {
+            "id": "answer-03",
+            "text": "Белой"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рыжей"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У марвари не встречается белая масть, поскольку такие лошади традиционно исключались из племенного разведения. Именно из отбракованных белых животных впоследствии сформировалась отдельная линия, известная как нукра. При этом серые марвари встречаются часто."
+      },
+      {
+        "id": "question-21",
+        "question": "Какого гена нет у лошадей андалузской породы?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Кремовый (Cream)"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серый (G)"
+          },
+          {
+            "id": "answer-03",
+            "text": "Дикий (Dun)"
+          },
+          {
+            "id": "answer-04",
+            "text": "Жемчужный (prl)"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Ген Dun когда-то, вероятно, присутствовал у диких предков домашних лошадей и был широко распространен в древности. Однако при формировании андалузской породы испанские заводчики на протяжении столетий отдавали предпочтение однотонным мастям — прежде всего серой, вороной, гнедой и рыжей. Лошади с дикими отметинами (ремнем на спине, зеброидностью и т. п.) не использовались в разведении или использовались крайне редко. В результате ген Dun постепенно исчез из генофонда породы."
+      },
+      {
+        "id": "question-22",
+        "question": "Для лошадей какой породы особенно характерен серебристый ген?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Тинкер"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тракененская лошадь"
+          },
+          {
+            "id": "answer-03",
+            "text": " Американская четвертьмильная лошадь"
+          },
+          {
+            "id": "answer-04",
+            "text": "Лошади скалистых гор"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Серебристый ген особенно распространен у лошадей скалистых гор, потому что он присутствовал у основателей породы и многие поколения целенаправленно закреплялся селекцией. Серебристость стала одной из главных отличительных особенностей этих лошадей."
+      },
+      {
+        "id": "question-23",
+        "question": "Все кони меноркинской породы:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Изабеловые"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серые"
+          },
+          {
+            "id": "answer-03",
+            "text": "Белые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороные"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Все меноркинские лошади вороные, потому что стандарт породы допускает только эту масть. На протяжении многих поколений заводчики целенаправленно отбирали для разведения исключительно вороных животных, поэтому лошади любой другой масти не соответствуют породному стандарту."
+      },
+      {
+        "id": "question-24",
+        "question": "Почему среди тинкеров так много пегих лошадей?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Эта масть всегда ценилась как очень красивая"
+          },
+          {
+            "id": "answer-02",
+            "text": "На пегих лошадях разрешалось ездить только аристократам"
+          },
+          {
+            "id": "answer-03",
+            "text": "Пегих лошадей отбраковывали и продавали за сущие копейки"
+          },
+          {
+            "id": "answer-04",
+            "text": "Когда-то люди верили что пегие лошади обладают особыми качествами"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Среди тинкеров так много пегих лошадей потому что во времена формирования породы эта масть считалась неполноценной. Пегих не брали даже в армию, где был постоянный дефицит лошадей. Кто ж захочет ездить на коне, подобном корове? А цыгане не считали пегих коней неполноценными и скупали их за сущие копейки."
+      },
+      {
+        "id": "question-25",
+        "question": "У какой породы отсутствуют кремовый и дикий гены?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Арабская чистокровная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Английская чистокровная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Ахалтекинская чистокровная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Марвари"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "У арабской чистокровной отсутствуют как кремовый ген (Cream), так и дикий ген (Dun). Поэтому среди чистокровных арабов не встречаются соловая, буланая, изабелловая, саврасая, каурая, мышастая и другие масти, связанные с действием этих генов. Их отсутствие объясняется историей формирования породы и многовековым разведением в закрытой племенной книге."
+      },
+      {
+        "id": "question-26",
+        "question": "Все кони породы суффолькский панч:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Вороные"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рыжие"
+          },
+          {
+            "id": "answer-03",
+            "text": "Гнедые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серые"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Все суффолькские панчи рыжие, потому что порода формировалась из небольшого числа рыжих производителей, а затем на протяжении нескольких столетий для разведения отбирали только рыжих лошадей. Благодаря такой строгой селекции и тому, что за рыжую масть отвечают рецессивные гены, другие масти полностью исчезли из породы."
+      },
+      {
+        "id": "question-27",
+        "question": "Все кони кливлендской породы:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Вороные"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рыжие"
+          },
+          {
+            "id": "answer-03",
+            "text": "Гнедые"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серые"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Все кливлендские лошади гнедые, потому что при формировании породы заводчики стремились закрепить единый внешний вид. На протяжении многих поколений в разведении оставляли только гнедых животных, поэтому эта масть стала обязательной особенностью породы."
+      },
+      {
+        "id": "question-28",
+        "question": "Все кони кладрубской породы:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Серые и изабелловые"
+          },
+          {
+            "id": "answer-02",
+            "text": "Серые и гнедые"
+          },
+          {
+            "id": "answer-03",
+            "text": "Серые и рыжие"
+          },
+          {
+            "id": "answer-04",
+            "text": "Серые и вороные"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Кладруберов выводили как упряжных лошадей для парадных карет императорского двора Габсбургов. Самыми эффектными и торжественными считались серые и вороные лошади, поэтому на протяжении нескольких столетий для разведения отбирали только их, а другие масти были полностью исключены из породы."
+      },
+      {
+        "id": "question-29",
+        "question": "Для какой породы характерны серповидно изогнутые внутрь ушки?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Арабская чистокровная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Ахалтекинская чистокровная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Английская чистокровная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Марвари"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Серповидно изогнутые внутрь уши характерны для марвари и катхиавари, поскольку этот признак сложился и закрепился в результате многовековой селекции в засушливых районах Индии. Необычная форма ушей стала одной из главных отличительных особенностей этих пород, и заводчики целенаправленно сохраняли ее при разведении."
+      },
+      {
+        "id": "question-30",
+        "question": "Какие тяжеловозы бывают саврасыми?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Шайр"
+          },
+          {
+            "id": "answer-02",
+            "text": "Клейдесдаль"
+          },
+          {
+            "id": "answer-03",
+            "text": "Першерон"
+          },
+          {
+            "id": "answer-04",
+            "text": "Мулазье"
+          },
+          {
+            "id": "answer-05",
+            "text": "Советский тяжеловоз"
+          },
+          {
+            "id": "answer-06",
+            "text": "Александрийский тяжеловоз"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Французский тяжеловоз мулазье разводился не только как сельскохозяйственная и упряжная лошадь, но и для получения крупных мулов, поэтому при его селекции больше внимания уделяли силе, выносливости и рабочим качествам, чем масти. В отличие от большинства других тяжеловозных пород, где саврасый ген был утрачен или целенаправленно исключен из разведения, у мулазье он сохранился и встречается до сих пор."
+      },
+      {
+        "id": "question-31",
+        "question": "Какой тип пегости характерен для шайров и клейдесдалей?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Сабино"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тобиано"
+          },
+          {
+            "id": "answer-03",
+            "text": "Сплешед уайт"
+          },
+          {
+            "id": "answer-04",
+            "text": "Фрейм оверо"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Для шайров и клейдесдалей наиболее характерен сабино. При селекции этих тяжеловозов заводчики десятилетиями отдавали предпочтение лошадям с высокими носочками, широкими проточинами и небольшими белыми пятнами на животе, поскольку такой нарядный рисунок стал одной из визитных карточек обеих пород. В результате именно сабино получил в них широкое распространение, тогда как другие типы пегости, такие как тобиано, фрейм-оверо или сплешед уайт, для этих пород нехарактерны."
+      },
+      {
+        "id": "question-32",
+        "question": "Изящная шея и миндалевидный разрез глаз — характерные признаки:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Английской чистокровной"
+          },
+          {
+            "id": "answer-02",
+            "text": "Арабской чистокровной"
+          },
+          {
+            "id": "answer-03",
+            "text": "Ахалтекинской чистокровной"
+          },
+          {
+            "id": "answer-04",
+            "text": "Марвари"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Изящная длинная шея и миндалевидный разрез глаз — характерные признаки ахалтекинской породы. Такой экстерьер сформировался в результате многовековой селекции в условиях пустынь Средней Азии, где туркмены разводили легких, выносливых верховых лошадей для дальних переходов. Благодаря этому ахалтекинцы приобрели стройное телосложение, длинную высоко поставленную шею и характерные «восточные» миндалевидные глаза."
+      },
+      {
+        "id": "question-33",
+        "question": "Если у андалузской лошади четкий ремень на спине, значит, она:",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Саврасая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Мышастая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Псевдосаврасая"
+          },
+          {
+            "id": "answer-05",
+            "text": "Полукровка или вообще не андалузская"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "У андалузских лошадей нет настоящего дикого гена D, потому что при многовековой селекции заводчики Испании отдавали предпочтение однотонным, насыщенным мастям — прежде всего серой, вороной и гнедой. Лошади с саврасым осветлением не использовались в разведении, поэтому ген D постепенно исчез из породы. При этом у многих андалузов встречается аллель nd1 (non-dun1), который может давать ремень на спине и другие примитивные отметины без настоящей саврасой масти."
+      },
+      {
+        "id": "question-34",
+        "question": "У лошадей каких пород особенно выражен стойкий блеск покровного волоса?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Английская чистокровная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Арабская чистокровная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Ахалтекинская чистокровная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Марвари"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "У ахалтекинцев выраженный металлический блеск покровного волоса обусловлен не мастью, а уникальным строением самого волоса. Непрозрачная сердцевина волоса у них сильно уменьшена или местами отсутствует, а прозрачная часть занимает больший объем и действует подобно световоду: свет проходит сквозь волос, преломляется и отражается, создавая характерный золотистый или серебристый отлив. Именно эта особенность строения волоса делает металлический блеск породным признаком ахалтекинцев независимо от их масти. "
+      },
+      {
+        "id": "question-35",
+        "question": "У лошадей какой масти встречается бронзинг?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Пегая"
+          },
+          {
+            "id": "answer-02",
+            "text": "Чалая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Чубарая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Бурая"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Бронзинг встречается только у чубарых лошадей, потому что он связан с действием гена Leopard Complex (LP). Этот ген не только формирует чубарый рисунок, но и изменяет распределение пигмента в шерсти, из-за чего темные участки могут приобретать характерный бронзово-коричневый оттенок. У лошадей без гена LP такой эффект не возникает."
+      },
+      {
+        "id": "question-36",
+        "question": "Все лошади какой породы обладают диким геном?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Норвежский фьорд"
+          },
+          {
+            "id": "answer-02",
+            "text": "Якутская лошадь"
+          },
+          {
+            "id": "answer-03",
+            "text": "Монгольская лошадь"
+          },
+          {
+            "id": "answer-04",
+            "text": "Эксмурский пони"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "У всех современных фьордов есть дикий ген, потому что при формировании породы норвежские заводчики на протяжении многих поколений целенаправленно сохраняли только саврасых лошадей с примитивными отметинами, считая такую масть признаком чистопородности. "
+      },
+      {
+        "id": "question-37",
+        "question": "Какой тип пегости есть у орловских рысаков?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Сабино"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тобиано"
+          },
+          {
+            "id": "answer-03",
+            "text": "Сплешед уайт"
+          },
+          {
+            "id": "answer-04",
+            "text": "Фрейм оверо"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Орловских рысаков выводили как элегантную легкоупряжную породу, где ценились резвость, гармоничное сложение и классические однотонные масти, поэтому производителей с тобиано, фрейм-оверо и другими выраженными пегими рисунками в племенное разведение не оставляли. Сабино же не препятствовало сохранению однотонного облика и поэтому сохранилось в породе."
+      },
+      {
+        "id": "question-38",
+        "question": "Какого типа пегости нет у американской четвертьмильной лошади (квортерхорса)?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Сабино"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тобиано"
+          },
+          {
+            "id": "answer-03",
+            "text": "Сплешед уайт"
+          },
+          {
+            "id": "answer-04",
+            "text": "Фрейм оверо"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Тобиано отсутствует у американских четвертьмильных, потому что этот ген не входил в исходный племенной фонд породы. Лошадей с таким рисунком впоследствии разводили уже как американских пейнтхорсов, поэтому тобиано закрепилось в пейнтах, но не у квотерхорсов."
+      },
+      {
+        "id": "question-39",
+        "question": "Каких типов пегости нет у аппалуза?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Тобиано и фрейм оверо"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тобиано и сабино"
+          },
+          {
+            "id": "answer-03",
+            "text": "Тобиано и сплешед уайт"
+          },
+          {
+            "id": "answer-04",
+            "text": "Тобиано, сабино и фрейм оверо"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "У аппалуз не закрепились тобиано и фрейм-оверо, потому что создатели породы стремились сохранить именно характерный чубарый рисунок, обусловленный геном LP, который и делает аппалуз легко узнаваемыми. Лошадей с крупными пегими пятнами тобиано или фрейм-оверо не использовали в племенной работе, поскольку такие рисунки скрывали или искажали характерную чубарость и размывали породный тип."
+      },
+      {
+        "id": "question-40",
+        "question": "Какого типа пегости нет у шетлендских пони?",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Сабино"
+          },
+          {
+            "id": "answer-02",
+            "text": "Тобиано"
+          },
+          {
+            "id": "answer-03",
+            "text": "Сплешед уайт"
+          },
+          {
+            "id": "answer-04",
+            "text": "Фрейм оверо"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "У шетлендских пони нет фрейм-оверо, потому что порода формировалась в многовековой изоляции на Шетландских островах и практически не скрещивалась с породами, несущими этот ген. Селекция была направлена на сохранение крепких, выносливых и типичных для породы пони, а не на получение необычных пегих рисунков. В результате ген фрейм-оверо никогда не закрепился в племенном поголовье, тогда как допустимые для породы белые отметины имеют другое происхождение."
+      }
+    ]
   },
-  "_translation_source": {}
+  "questionImagesAlt": "",
+  "source_content_hash": "c47b9e4562fe2a408318fb27a34b8667cdf2e6454bdcf17bc8f1beff29c1df08"
 }
