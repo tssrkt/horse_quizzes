@@ -17,7 +17,11 @@ def run():
         time.sleep(1)
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch(headless=True)
-            page = browser.new_page(viewport={"width": 1280, "height": 800})
+            desktop_context = browser.new_context(
+                viewport={"width": 1280, "height": 800},
+                permissions=["clipboard-read", "clipboard-write"],
+            )
+            page = desktop_context.new_page()
             desktop_paths = ("/", "/quizzes.html", "/contacts.html", "/en/", "/en/quizzes.html", "/v/horse-breeds/", "/en/v/horse-breeds/")
             header_heights = []
             for path in desktop_paths:
@@ -31,6 +35,14 @@ def run():
             page.goto(f"{BASE}/en/")
             assert page.locator("html").get_attribute("lang") == "en"
             assert page.get_by_role("link", name="EN", exact=True).is_visible()
+            page.goto(f"{BASE}/en/contacts.html")
+            copy_control = page.locator('[data-copy="4100116004998786"]')
+            copy_control.focus()
+            copy_control.press("Enter")
+            page.get_by_text("YooMoney number copied.", exact=True).wait_for()
+            assert copy_control.get_attribute("title") == "Copied!"
+            assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+            page.goto(f"{BASE}/en/")
             page.get_by_role("link", name="Quizzes", exact=True).first.click()
             page.locator(".quiz-card").first.wait_for()
             assert page.locator(".catalog-tabs").count() == 0
@@ -49,6 +61,9 @@ def run():
                 assert mobile.get_by_role("navigation", name="Language").is_visible()
                 assert mobile.get_by_role("button", name="Open menu").is_visible()
                 assert mobile.locator(".brand-logo").bounding_box()["width"] == 180
+                assert mobile.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+                mobile.goto(f"{BASE}/en/contacts.html")
+                assert mobile.locator('[data-copy="4100116004998786"]').is_visible()
                 assert mobile.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
             mobile.get_by_role("button", name="Open menu").click()
             assert mobile.get_by_role("button", name="Close menu").get_attribute("aria-expanded") == "true"
