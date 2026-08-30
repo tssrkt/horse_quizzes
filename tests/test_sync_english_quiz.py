@@ -80,6 +80,38 @@ class EnglishPackageTests(unittest.TestCase):
         self.assertTrue(texts)
         self.assertIn("Do not change JSON keys", package["translation_instructions"])
 
+    def test_deleted_target_with_stale_source_link_is_recreated(self):
+        source = russian_quiz()
+        source["english_quiz"] = "breeds-en"
+        target, package_path, mode, texts, _ = self.prepare(source)
+        recreated = json.loads(target.read_text(encoding="utf-8"))
+        package = json.loads(package_path.read_text(encoding="utf-8"))
+        self.assertEqual(mode, "created")
+        self.assertEqual(recreated["source_quiz"], "breeds")
+        self.assertEqual(recreated["slug"], "breeds-en")
+        self.assertEqual(recreated["_pending_translation"]["package"], "breeds-en.json")
+        self.assertEqual(package["mode"], "created")
+        self.assertTrue(texts)
+
+    def test_empty_optional_question_images_alt_imports(self):
+        source = russian_quiz()
+        source["questionImagesAlt"] = ""
+        target, package, *_ = self.prepare(source)
+        translated = self.translate_package(package)
+        translated["fields"]["questionImagesAlt"] = ""
+        translated["fields"]["title"] = "Horse Breeds"
+        package.write_text(json.dumps(translated, ensure_ascii=False), encoding="utf-8")
+        imported_target, _, _ = import_package(package, self.root)
+        quiz = json.loads(imported_target.read_text(encoding="utf-8"))
+        self.assertEqual(quiz["questionImagesAlt"], "")
+        self.assertEqual(quiz["title"], "Horse Breeds")
+
+    def test_empty_required_quiz_and_answer_text_are_rejected(self):
+        self.assert_rejected_without_target_change(lambda p: p["fields"].update(title=""), "non-empty")
+        self.assert_rejected_without_target_change(
+            lambda p: p["questions"][0]["answers"][0].update(text=""), "non-empty"
+        )
+
     def test_valid_import_applies_text_and_marks_current(self):
         target, package, *_ = self.prepare()
         translated = self.translate_package(package)

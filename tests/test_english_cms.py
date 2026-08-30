@@ -23,10 +23,25 @@ class EnglishCmsTests(unittest.TestCase):
     def test_english_collection_is_separate_and_not_manually_created(self):
         english = self.config.split("  - name: english_quizzes\n", 1)[1].split("  - name: vocabulary_quizzes\n", 1)[0]
         self.assertIn("path: data/english-quizzes", english)
-        self.assertIn("create: false", english)
+        operations = english.split("    operations:\n", 1)[1].split("    filename:\n", 1)[0]
+        self.assertIn("create: false", operations)
+        self.assertNotIn("delete: false", operations)
         self.assertIn("default: english", english)
         self.assertIn("collection: quizzes", english)
         self.assertIn("translation_status", english)
+        self.assertIn("primary: title", english)
+        self.assertIn("sort: [title]", english)
+        self.assertIn('label: "{fields.title}"', english)
+        self.assertEqual(english.count("collection: english_quizzes"), 0)
+
+    def test_prepare_workflow_stages_untracked_files_before_diff_check(self):
+        workflow = self.prepare_workflow
+        add = workflow.index("git add -A data/quizzes data/english-quizzes data/translation-packages")
+        check = workflow.index("git diff --cached --quiet")
+        commit = workflow.index('git commit -m "Prepare English translation package"')
+        self.assertLess(add, check)
+        self.assertLess(check, commit)
+        self.assertNotIn("git diff --quiet -- data/quizzes data/english-quizzes data/translation-packages", workflow)
 
     def test_translation_packages_have_separate_import_action(self):
         packages = self.config.split("  - name: translation_packages\n", 1)[1]

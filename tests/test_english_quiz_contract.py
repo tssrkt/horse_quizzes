@@ -63,5 +63,13 @@ class EnglishQuizContractTests(unittest.TestCase):
             self.load()
 
 
+    def test_stale_backlink_is_allowed_after_english_quiz_deletion(self):
+        source_path, english_path = self.write_pair()
+        english_path.unlink()
+        quizzes = self.load()
+        source = next(item for item in quizzes if item["slug"] == "horse-colors")
+        self.assertEqual(source["english_quiz"], "horse-colors-en")
+
+
 if __name__ == "__main__":
     unittest.main()

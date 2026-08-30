@@ -277,16 +277,6 @@ content:
           search: "title,slug"
           value: "{fields.slug}"
           label: "{fields.title}"
-      - name: english_quiz
-        label: Английская версия
-        type: reference
-        required: false
-        options:
-          collection: english_quizzes
-          multiple: false
-          search: "title,slug"
-          value: "{fields.slug}"
-          label: "{fields.title}"
       - name: source_content_hash
         type: string
         hidden: true

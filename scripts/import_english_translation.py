@@ -23,6 +23,11 @@ def _assert_text(value, label):
         raise SyncError(f"{label}: translated text must be a non-empty string")
 
 
+def _assert_optional_text(value, label):
+    if not isinstance(value, str):
+        raise SyncError(f"{label}: translated text must be a string")
+
+
 def validate_structure(package: dict, expected: dict) -> list[str]:
     if set(package) != TOP_LEVEL_KEYS:
         raise SyncError("Translation package top-level keys or structure were changed")
@@ -38,7 +43,10 @@ def validate_structure(package: dict, expected: dict) -> list[str]:
         raise SyncError("Quiz translation fields were added, removed, or renamed")
     imported = []
     for field, value in package["fields"].items():
-        _assert_text(value, f"fields.{field}")
+        if field == "questionImagesAlt":
+            _assert_optional_text(value, f"fields.{field}")
+        else:
+            _assert_text(value, f"fields.{field}")
         imported.append(field)
     questions = package.get("questions")
     expected_questions = expected["questions"]

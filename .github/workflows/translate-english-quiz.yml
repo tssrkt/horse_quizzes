@@ -45,11 +45,12 @@ jobs:
 
       - name: Commit English version
         run: |
-          if git diff --quiet -- data/quizzes data/english-quizzes data/translation-packages; then
+          git add -A data/quizzes data/english-quizzes data/translation-packages
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/quizzes data/english-quizzes data/translation-packages
           git commit -m "Prepare English translation package"
           git push origin HEAD:${GITHUB_REF_NAME}

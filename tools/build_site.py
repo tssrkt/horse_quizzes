@@ -485,9 +485,9 @@ def load_quizzes(data_root: Path, known_tags: dict[str, dict]) -> list[dict]:
         label = quiz_sources.get(quiz.get("slug"), (quiz.get("slug"), "quiz"))[0]
         english_slug_value = quiz.get("english_quiz")
         target = quiz_by_slug.get(english_slug_value)
-        if not isinstance(english_slug_value, str) or target is None:
+        if not isinstance(english_slug_value, str):
             errors.append(f"{label}.english_quiz: английская викторина «{english_slug_value}» не найдена")
-        elif target.get("type") != ENGLISH_TYPE or target.get("source_quiz") != quiz.get("slug"):
+        elif target is not None and (target.get("type") != ENGLISH_TYPE or target.get("source_quiz") != quiz.get("slug")):
             errors.append(f"{label}.english_quiz: «{english_slug_value}» не является английской версией этой викторины")
     computed_next: dict[str, str] = {}
     for quiz in quizzes:
