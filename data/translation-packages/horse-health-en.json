@@ -5,7 +5,7 @@
   "source_quiz": "horse-health",
   "target_quiz": "horse-health-en",
   "source_revision": "cd0f7bd7111675df16a1ca72fedc5326ec6093b672e056fd0a837ec7f72722fa",
-  "mode": "created",
+  "mode": "updated",
   "fields": {
     "title": "Здоровье коня",
     "short_description": "Эта викторина поможет проверить знания о симптомах наиболее распространенных заболеваний и опасных состояний у лошадей, а также о первой помощи до приезда ветеринара.",
