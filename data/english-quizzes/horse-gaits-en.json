@@ -10,7 +10,7 @@
     "gaits",
     "images"
   ],
-  "published": false,
+  "published": true,
   "title": "Horse Gaits",
   "short_description": "Walk, trot, and canter are far from the only ways a horse can move. Test how well you know gaits, their mechanics, and other characteristic equine movements.",
   "intro": "Walk, trot, and canter are far from the only ways a horse can move. Test how well you know gaits, their mechanics, and other characteristic equine movements.",
@@ -19,9 +19,7 @@
     {
       "id": "question-01",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/01.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -48,14 +46,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-02",
       "question": "What gait is this?",
-      "explanation": "The walk is the horse's slowest natural gait. It is a four-beat gait with no moment of suspension, with each hoof landing separately in sequence. At least two, and often three, feet remain on the ground at any given moment. The walk uses relatively little energy and is important for relaxation, balance, and recovery between harder efforts.",
       "image": "img/quiz/horse-gaits/02.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -82,14 +80,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The walk is the horse's slowest natural gait. It is a four-beat gait with no moment of suspension, with each hoof landing separately in sequence. At least two, and often three, feet remain on the ground at any given moment. The walk uses relatively little energy and is important for relaxation, balance, and recovery between harder efforts.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-03",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/03.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -116,14 +114,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-04",
       "question": "What gait is this?",
-      "explanation": "The pace is a two-beat lateral gait in which the two legs on the same side move forward together, followed by the pair on the opposite side. It can be fast and may include a moment of suspension. Because the body rocks from side to side rather than bouncing diagonally as in the trot, pacing can feel very smooth to the rider.",
       "image": "img/quiz/horse-gaits/04.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -150,14 +148,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The pace is a two-beat lateral gait in which the two legs on the same side move forward together, followed by the pair on the opposite side. It can be fast and may include a moment of suspension. Because the body rocks from side to side rather than bouncing diagonally as in the trot, pacing can feel very smooth to the rider.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-05",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/05.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -184,14 +182,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-06",
       "question": "Which beat of the canter is this?",
-      "explanation": "The second beat of the canter is the diagonal-pair phase. After the first hind leg lands, the other hind leg and the diagonally opposite foreleg contact the ground together. This provides the main support in the middle of the stride before the horse transfers weight to the leading foreleg.",
       "image": "img/quiz/horse-gaits/06.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -210,14 +208,14 @@
           "text": "Fourth"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The second beat of the canter is the diagonal-pair phase. After the first hind leg lands, the other hind leg and the diagonally opposite foreleg contact the ground together. This provides the main support in the middle of the stride before the horse transfers weight to the leading foreleg.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-07",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/07.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -244,14 +242,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-08",
       "question": "Which beat of the canter is this?",
-      "explanation": "The first beat of the canter is the opening footfall of the stride. The horse lands on the outside hind leg—the hind leg diagonally opposite the leading foreleg. For example, in right-lead canter the left hind lands first. This leg takes the initial weight and begins the forward propulsion of the stride.",
       "image": "img/quiz/horse-gaits/08.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -270,14 +268,14 @@
           "text": "Fourth"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The first beat of the canter is the opening footfall of the stride. The horse lands on the outside hind leg—the hind leg diagonally opposite the leading foreleg. For example, in right-lead canter the left hind lands first. This leg takes the initial weight and begins the forward propulsion of the stride.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-09",
       "question": "What gait is this?",
-      "explanation": "The walk is the horse's slowest natural gait. It is a four-beat gait with no moment of suspension, with each hoof landing separately in sequence. At least two, and often three, feet remain on the ground at any given moment. The walk uses relatively little energy and is important for relaxation, balance, and recovery between harder efforts.",
       "image": "img/quiz/horse-gaits/09.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -304,14 +302,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The walk is the horse's slowest natural gait. It is a four-beat gait with no moment of suspension, with each hoof landing separately in sequence. At least two, and often three, feet remain on the ground at any given moment. The walk uses relatively little energy and is important for relaxation, balance, and recovery between harder efforts.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-10",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/10.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -338,14 +336,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-11",
       "question": "What is this horse doing?",
-      "explanation": "The horse is rearing: it rises onto its hind legs and lifts both forelegs off the ground, holding the body in an upright or semi-upright position. Under saddle, rearing can be a defensive, fearful, or resistant behavior and can be dangerous because the horse may lose balance backward. The levade of classical haute école is a separate, highly controlled collected movement and should not be confused with an uncontrolled rear.",
       "image": "img/quiz/horse-gaits/11.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -364,14 +362,14 @@
           "text": "Running out"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The horse is rearing: it rises onto its hind legs and lifts both forelegs off the ground, holding the body in an upright or semi-upright position. Under saddle, rearing can be a defensive, fearful, or resistant behavior and can be dangerous because the horse may lose balance backward. The levade of classical haute école is a separate, highly controlled collected movement and should not be confused with an uncontrolled rear.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-12",
       "question": "Which beat of the canter is this?",
-      "explanation": "The second beat of the canter is the diagonal-pair phase. After the first hind leg lands, the other hind leg and the diagonally opposite foreleg contact the ground together. This provides the main support in the middle of the stride before the horse transfers weight to the leading foreleg.",
       "image": "img/quiz/horse-gaits/12.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -390,14 +388,14 @@
           "text": "Fourth"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The second beat of the canter is the diagonal-pair phase. After the first hind leg lands, the other hind leg and the diagonally opposite foreleg contact the ground together. This provides the main support in the middle of the stride before the horse transfers weight to the leading foreleg.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-13",
       "question": "Which beat of the canter is this?",
-      "explanation": "The first beat of the canter is the opening footfall of the stride. The horse lands on the outside hind leg—the hind leg diagonally opposite the leading foreleg. For example, in right-lead canter the left hind lands first. This leg takes the initial weight and begins the forward propulsion of the stride.",
       "image": "img/quiz/horse-gaits/13.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -416,14 +414,14 @@
           "text": "Fourth"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The first beat of the canter is the opening footfall of the stride. The horse lands on the outside hind leg—the hind leg diagonally opposite the leading foreleg. For example, in right-lead canter the left hind lands first. This leg takes the initial weight and begins the forward propulsion of the stride.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-14",
       "question": "Which beat of the canter is this?",
-      "explanation": "The second beat of the canter is the diagonal-pair phase. After the first hind leg lands, the other hind leg and the diagonally opposite foreleg contact the ground together. This provides the main support in the middle of the stride before the horse transfers weight to the leading foreleg.",
       "image": "img/quiz/horse-gaits/14.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -442,14 +440,14 @@
           "text": "Fourth"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The second beat of the canter is the diagonal-pair phase. After the first hind leg lands, the other hind leg and the diagonally opposite foreleg contact the ground together. This provides the main support in the middle of the stride before the horse transfers weight to the leading foreleg.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-15",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/15.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -476,14 +474,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-16",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/16.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -510,14 +508,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-17",
       "question": "What is this horse doing?",
-      "explanation": "The horse is rearing: it rises onto its hind legs and lifts both forelegs off the ground, holding the body in an upright or semi-upright position. Under saddle, rearing can be a defensive, fearful, or resistant behavior and can be dangerous because the horse may lose balance backward. The levade of classical haute école is a separate, highly controlled collected movement and should not be confused with an uncontrolled rear.",
       "image": "img/quiz/horse-gaits/17.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -536,14 +534,14 @@
           "text": "Running out"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The horse is rearing: it rises onto its hind legs and lifts both forelegs off the ground, holding the body in an upright or semi-upright position. Under saddle, rearing can be a defensive, fearful, or resistant behavior and can be dangerous because the horse may lose balance backward. The levade of classical haute école is a separate, highly controlled collected movement and should not be confused with an uncontrolled rear.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-18",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/18.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -570,14 +568,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-19",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/19.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -604,14 +602,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-20",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/20.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -638,14 +636,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-21",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/21.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -672,14 +670,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-22",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/22.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -706,14 +704,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-23",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/23.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -740,14 +738,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-24",
       "question": "Which lead is this canter on?",
-      "explanation": "This is left-lead canter. The right hind lands first, followed by the left hind and right fore together, and then the left foreleg lands last as the leading leg before the suspension phase. The left lead is normally the correct lead when traveling on a left-hand circle.",
       "image": "img/quiz/horse-gaits/24.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -762,14 +760,14 @@
           "text": "Hind leg"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "This is left-lead canter. The right hind lands first, followed by the left hind and right fore together, and then the left foreleg lands last as the leading leg before the suspension phase. The left lead is normally the correct lead when traveling on a left-hand circle.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-25",
       "question": "Which beat of the canter is this?",
-      "explanation": "The second beat of the canter is the diagonal-pair phase. After the first hind leg lands, the other hind leg and the diagonally opposite foreleg contact the ground together. This provides the main support in the middle of the stride before the horse transfers weight to the leading foreleg.",
       "image": "img/quiz/horse-gaits/25.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -788,14 +786,14 @@
           "text": "Fourth"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The second beat of the canter is the diagonal-pair phase. After the first hind leg lands, the other hind leg and the diagonally opposite foreleg contact the ground together. This provides the main support in the middle of the stride before the horse transfers weight to the leading foreleg.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-26",
       "question": "Which lead is this canter on?",
-      "explanation": "This is left-lead canter. The right hind lands first, followed by the left hind and right fore together, and then the left foreleg lands last as the leading leg before the suspension phase. The left lead is normally the correct lead when traveling on a left-hand circle.",
       "image": "img/quiz/horse-gaits/26.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -810,14 +808,14 @@
           "text": "Hind leg"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "This is left-lead canter. The right hind lands first, followed by the left hind and right fore together, and then the left foreleg lands last as the leading leg before the suspension phase. The left lead is normally the correct lead when traveling on a left-hand circle.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-27",
       "question": "What is this horse doing?",
-      "explanation": "The horse is bucking: it lowers the head, rounds the back, and kicks the hind legs upward and backward, often lifting them clear of the ground. Bucking may be playful or caused by excess energy, fear, resistance, saddle discomfort, or pain. Under saddle it can seriously unseat the rider.",
       "image": "img/quiz/horse-gaits/27.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -836,14 +834,14 @@
           "text": "Running out"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The horse is bucking: it lowers the head, rounds the back, and kicks the hind legs upward and backward, often lifting them clear of the ground. Bucking may be playful or caused by excess energy, fear, resistance, saddle discomfort, or pain. Under saddle it can seriously unseat the rider.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-28",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/28.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -870,14 +868,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-29",
       "question": "Which lead is this canter on?",
-      "explanation": "This is right-lead canter. The left hind lands first, followed by the right hind and left fore together, and then the right foreleg lands last as the leading leg before the suspension phase. The right lead is normally the correct lead when traveling on a right-hand circle.",
       "image": "img/quiz/horse-gaits/29.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -892,14 +890,14 @@
           "text": "Hind leg"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "This is right-lead canter. The left hind lands first, followed by the right hind and left fore together, and then the right foreleg lands last as the leading leg before the suspension phase. The right lead is normally the correct lead when traveling on a right-hand circle.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-30",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/30.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -926,14 +924,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-31",
       "question": "What gait is this?",
-      "explanation": "The pace is a two-beat lateral gait in which the two legs on the same side move forward together, followed by the pair on the opposite side. It can be fast and may include a moment of suspension. Because the body rocks from side to side rather than bouncing diagonally as in the trot, pacing can feel very smooth to the rider.",
       "image": "img/quiz/horse-gaits/31.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -960,14 +958,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The pace is a two-beat lateral gait in which the two legs on the same side move forward together, followed by the pair on the opposite side. It can be fast and may include a moment of suspension. Because the body rocks from side to side rather than bouncing diagonally as in the trot, pacing can feel very smooth to the rider.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-32",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/32.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -994,14 +992,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-33",
       "question": "Which lead is this canter on?",
-      "explanation": "This is left-lead canter. The right hind lands first, followed by the left hind and right fore together, and then the left foreleg lands last as the leading leg before the suspension phase. The left lead is normally the correct lead when traveling on a left-hand circle.",
       "image": "img/quiz/horse-gaits/33.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1016,14 +1014,14 @@
           "text": "Hind leg"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "This is left-lead canter. The right hind lands first, followed by the left hind and right fore together, and then the left foreleg lands last as the leading leg before the suspension phase. The left lead is normally the correct lead when traveling on a left-hand circle.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-34",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/34.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1050,14 +1048,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-35",
       "question": "Which lead is this canter on?",
-      "explanation": "This is right-lead canter. The left hind lands first, followed by the right hind and left fore together, and then the right foreleg lands last as the leading leg before the suspension phase. The right lead is normally the correct lead when traveling on a right-hand circle.",
       "image": "img/quiz/horse-gaits/35.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1072,14 +1070,14 @@
           "text": "Hind leg"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "This is right-lead canter. The left hind lands first, followed by the right hind and left fore together, and then the right foreleg lands last as the leading leg before the suspension phase. The right lead is normally the correct lead when traveling on a right-hand circle.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-36",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/36.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1106,14 +1104,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-37",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/37.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1140,14 +1138,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-38",
       "question": "What gait is this?",
-      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
       "image": "img/quiz/horse-gaits/38.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1174,14 +1172,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "The trot is a moderately fast two-beat diagonal gait. Opposite diagonal pairs of legs move together—for example, the right hind and left fore—followed by a brief moment of suspension. The vertical motion is why riders either post to the trot or sit with a balanced, following seat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-39",
       "question": "What gait is this?",
-      "explanation": "The pace is a two-beat lateral gait in which the two legs on the same side move forward together, followed by the pair on the opposite side. It can be fast and may include a moment of suspension. Because the body rocks from side to side rather than bouncing diagonally as in the trot, pacing can feel very smooth to the rider.",
       "image": "img/quiz/horse-gaits/39.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1208,14 +1206,14 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "The pace is a two-beat lateral gait in which the two legs on the same side move forward together, followed by the pair on the opposite side. It can be fast and may include a moment of suspension. Because the body rocks from side to side rather than bouncing diagonally as in the trot, pacing can feel very smooth to the rider.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-40",
       "question": "What gait is this?",
-      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
       "image": "img/quiz/horse-gaits/40.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1242,7 +1240,9 @@
           "text": "Tropota"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "The canter is a three-beat gait with a moment of suspension. The sequence begins with one hind leg, followed by the opposite hind leg and diagonal foreleg together, and ends with the leading foreleg. The lead is named for the foreleg that reaches farther forward: a right-lead or left-lead canter.",
+      "image_author": "Неизвестен"
     }
   ],
   "translation_status": "current",
@@ -2489,5 +2489,6 @@
       }
     ]
   },
-  "source_content_hash": "270de2d2a770afafe6365fd418219424e42736cd084dd885bad6fc593af328f3"
+  "source_content_hash": "270de2d2a770afafe6365fd418219424e42736cd084dd885bad6fc593af328f3",
+  "english_quiz": "horse-gaits-en"
 }
