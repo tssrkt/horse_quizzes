@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest import mock
 
 from tools import build_site
+from scripts.generate_share_pages import render_page
 
 
 class BilingualSiteTests(unittest.TestCase):
@@ -89,12 +90,11 @@ class BilingualSiteTests(unittest.TestCase):
         self.assertIn(f'<link rel="canonical" href="{root}en/v/horse-breeds/">', page)
         self.assertIn(f'hreflang="ru" href="{root}v/horse-breeds/"', page)
         self.assertIn('../../../v/horse-breeds/', page)
+        self.assertIn('<a class="brand" href="../../" aria-label="Horse Quizzes — Home">', page)
+        self.assertIn('<span aria-hidden="true">|</span>', page)
         russian = (output / "v/horse-breeds/index.html").read_text(encoding="utf-8")
         self.assertIn('<html lang="ru">', russian)
         self.assertIn('../../en/v/horse-breeds/', russian)
-        untranslated = next(quiz for quiz in json.loads((output / "data/catalog.json").read_text(encoding="utf-8"))["quizzes"] if quiz.get("type") not in {"english", "vocabulary"} and not (output / "en/v" / quiz["slug"]).exists())
-        no_translation_page = (output / "v" / untranslated["slug"] / "index.html").read_text(encoding="utf-8")
-        self.assertIn('../../en/quizzes.html', no_translation_page)
         for filename, counterpart in (("quizzes.html", "quizzes.html"), ("contacts.html", "contacts.html")):
             metadata_page = (output / "en" / filename).read_text(encoding="utf-8")
             root = f"https://example.test{base_path}"
@@ -115,6 +115,23 @@ class BilingualSiteTests(unittest.TestCase):
         self.assertIn(f'<a href="{base_path}quizzes.html">Викторины</a>', not_found)
         self.assertIn(f'<a href="{base_path}contacts.html">Контакты</a>', not_found)
         return output
+
+    def test_russian_quiz_without_english_counterpart_uses_catalog_fallback(self):
+        fixture = {
+            "slug": "fixture-without-translation",
+            "title": "Тестовая викторина без перевода",
+            "short_description": "Контролируемая тестовая запись.",
+            "cover": "img/covers/fixture.webp",
+            "published": True,
+        }
+        template = (build_site.ROOT / "quiz.html").read_text(encoding="utf-8")
+        page = render_page(fixture, template, "https://example.test/horse_quizzes/")
+        self.assertIn(
+            '<a href="../../en/quizzes.html" lang="en" '
+            'title="Английская версия этой викторины пока недоступна">EN</a>',
+            page,
+        )
+        self.assertNotIn("/en/v/fixture-without-translation/", page)
 
     def test_not_found_localizer_updates_the_complete_english_header(self):
         javascript = (build_site.ROOT / "js/not-found.js").read_text(encoding="utf-8")

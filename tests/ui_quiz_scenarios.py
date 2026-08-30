@@ -1,14 +1,13 @@
 """Optional real-browser scenarios; requires Python Playwright and installed Chrome."""
 
 import json
-import os
-import shutil
-import subprocess
 import sys
-import time
+import threading
+from functools import partial
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import TimeoutError as PlaywrightTimeoutError, sync_playwright
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,13 +15,18 @@ sys.path.insert(0, str(ROOT))
 from scripts.site_config import load_site_config
 
 PUBLIC_URL = load_site_config(ROOT)["public_url"]
-PROFILE = ROOT / f".ui-test-profile-{os.getpid()}"
-BASE_URL = "http://127.0.0.1:8766"
-QUIZ_URL = f"{BASE_URL}/quiz.html?quiz=horse-colors"
-SHARE_QUIZ_URL = f"{PUBLIC_URL}v/horse-colors/"
+BASE_URL = ""
+QUIZ_URL = ""
+SHARE_QUIZ_URL = ""
 QUIZ = json.loads((ROOT / "_site/data/quizzes/horse-colors.json").read_text(encoding="utf-8"))
 DRAFT_PATH = ROOT / "_site/data/quizzes/ui-draft.json"
 BROKEN_PATH = ROOT / "_site/data/quizzes/ui-broken.json"
+SITE_CONFIG_PATH = ROOT / "_site/js/site-config.js"
+
+
+class QuietHTTPRequestHandler(SimpleHTTPRequestHandler):
+    def log_message(self, format, *args):
+        pass
 
 
 def chosen_id(question, correct):
@@ -239,34 +243,63 @@ def catalog_card_checks(page):
     assert "tag=horses" in page.url
 
 
-def main():
-    if PROFILE.exists():
-        shutil.rmtree(PROFILE, ignore_errors=True)
-    server = subprocess.Popen(
-        ["python", "-m", "http.server", "8766", "-d", "_site", "--bind", "127.0.0.1"],
-        cwd=ROOT,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-    )
+def attach_diagnostics(page, javascript_errors, console_errors):
+    page.on("pageerror", lambda error: javascript_errors.append(str(error)))
+    page.on("console", lambda message: console_errors.append(message.text) if message.type == "error" else None)
+
+
+def wait_for_quiz_state(page, text, javascript_errors, console_errors):
     try:
+        page.get_by_text(text, exact=True).wait_for(state="visible", timeout=15_000)
+    except PlaywrightTimeoutError as error:
+        container = page.locator("#quiz-app")
+        content = container.inner_text(timeout=1_000) if container.count() else "<missing #quiz-app>"
+        raise AssertionError(
+            f"Не дождались состояния {text!r}; URL={page.url}; "
+            f"#quiz-app={content!r}; page_errors={javascript_errors!r}; "
+            f"console_errors={console_errors!r}"
+        ) from error
+
+
+def main():
+    global BASE_URL, QUIZ_URL, SHARE_QUIZ_URL
+    handler = partial(QuietHTTPRequestHandler, directory=str(ROOT / "_site"))
+    server = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    BASE_URL = f"http://127.0.0.1:{server.server_port}"
+    QUIZ_URL = f"{BASE_URL}/quiz.html?quiz=horse-colors"
+    SHARE_QUIZ_URL = f"{BASE_URL}/v/horse-colors/"
+    server_thread = threading.Thread(
+        target=server.serve_forever,
+        daemon=True,
+    )
+    server_thread.start()
+    try:
+        SITE_CONFIG_PATH.write_text(
+            "(function (root) {\n"
+            "  'use strict';\n"
+            f"  root.SiteConfig = Object.freeze({{ publicUrl: '{BASE_URL}/' }});\n"
+            "})(typeof globalThis !== 'undefined' ? globalThis : this);\n",
+            encoding="utf-8",
+        )
         draft = {**QUIZ, "slug": "ui-draft", "title": "Тестовый черновик", "published": False, "questionImagesAlt": "Фотография лошади для проверки общего alt"}
         DRAFT_PATH.write_text(json.dumps(draft, ensure_ascii=False), encoding="utf-8")
         BROKEN_PATH.write_text('{"slug": "ui-broken",', encoding="utf-8")
-        time.sleep(1)
         with sync_playwright() as playwright:
-            context = playwright.chromium.launch_persistent_context(
-                str(PROFILE), headless=True,
-                executable_path=r"C:\Program Files\Google\Chrome\Application\chrome.exe",
-                args=["--disable-crash-reporter", "--disable-breakpad"],
-            )
+            browser = playwright.chromium.launch(headless=True)
+            context = browser.new_context()
             javascript_errors = []
-            page = context.pages[0]
-            page.on("pageerror", lambda error: javascript_errors.append(str(error)))
-            context.on("page", lambda opened_page: opened_page.on("pageerror", lambda error: javascript_errors.append(str(error))))
+            console_errors = []
+            context.on("page", lambda opened_page: attach_diagnostics(opened_page, javascript_errors, console_errors))
+            page = context.new_page()
             page.goto(f"{BASE_URL}/quiz.html")
             page.get_by_text("Не указана викторина для открытия.").wait_for()
+            page.close()
+            page = context.new_page()
+            page.goto(f"{BASE_URL}/quiz.html")
+            page.evaluate("localStorage.clear(); sessionStorage.clear()")
             page.goto(f"{BASE_URL}/quiz.html?quiz=unknown-quiz")
-            page.get_by_text("Викторина не найдена.").wait_for()
+            wait_for_quiz_state(page, "Викторина не найдена.", javascript_errors, console_errors)
+            page.get_by_role("link", name="К списку викторин").wait_for()
             page.goto(f"{BASE_URL}/quiz.html?quiz=ui-broken")
             page.get_by_text("Не удалось загрузить викторину. Попробуйте позже.").wait_for()
             page.goto(f"{BASE_URL}/quiz.html?quiz=ui-draft")
@@ -304,12 +337,12 @@ def main():
             adaptive_checks(page)
             assert not javascript_errors, f"Ошибки JavaScript: {javascript_errors}"
             context.close()
+            browser.close()
         print("ui_quiz_scenarios.py: 3 браузерных сценария пройдены")
     finally:
-        server.terminate()
-        server.wait(timeout=5)
-        if PROFILE.exists():
-            shutil.rmtree(PROFILE, ignore_errors=True)
+        server.shutdown()
+        server.server_close()
+        server_thread.join(timeout=5)
         DRAFT_PATH.unlink(missing_ok=True)
         BROKEN_PATH.unlink(missing_ok=True)
 
