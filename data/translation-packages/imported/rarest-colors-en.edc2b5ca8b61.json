@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "rarest-colors",
   "target_quiz": "rarest-colors-en",
   "source_revision": "edc2b5ca8b611072f4dd649a78cf236a2041dbc98a9edac8f826eb13919aed52",

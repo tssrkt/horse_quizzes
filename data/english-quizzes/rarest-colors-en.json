@@ -11,1056 +11,2107 @@
     "images"
   ],
   "published": false,
-  "title": "Редчайшие масти",
-  "short_description": "Это одна из наиболее сложных викторин, ведь она посвящена таким редким мастям как шампанские и жемчужные, включая псевдоизабелловые. Специально для самых опытных мастеведов.",
-  "intro": "Это одна из наиболее сложных викторин, ведь она посвящена таким редким мастям как шампанские и жемчужные, включая псевдоизабелловые. Специально для самых опытных мастеведов.",
-  "questionImagesAlt": "Фотография лошади для определения масти",
+  "title": "Rarest Coat Colors",
+  "short_description": "One of the hardest quizzes, devoted to rare Champagne and Pearl dilutions, including pseudo-double-cream phenotypes. Designed for the most experienced coat-color enthusiasts.",
+  "intro": "One of the hardest quizzes, devoted to rare Champagne and Pearl dilutions, including pseudo-double-cream phenotypes. Designed for the most experienced coat-color enthusiasts.",
+  "questionImagesAlt": "Photo of a horse for identifying its coat color",
   "questions": [
     {
       "id": "question-01",
-      "question": "Что это за масть?",
-      "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Gold champagne is the Champagne dilution on a chestnut base. The coat becomes an even golden-apricot or silky yellow shade, often with a distinctive metallic sheen, while the mane and tail are commonly diluted to straw or nearly white. It can therefore resemble palomino. Typical Champagne markers include pink skin that develops darker freckling, especially around the eyes and muzzle, and amber or hazel-green eyes; foals are usually born with blue eyes.",
       "image": "img/quiz/rarest-colors/01.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-02",
-      "question": "Что это за масть?",
-      "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+      "question": "What coat color is this?",
+      "explanation": "Classic champagne is the Champagne dilution on a black base. The coat is diluted to an unusual brownish-gray, taupe, lilac-brown, olive, or coffee-with-milk shade, often with a metallic sheen. The mane and tail are usually somewhat darker than the body, tending toward dark brown or chocolate. As with other Champagne horses, the skin is pinkish and develops darker mottling or freckles with age, while the eyes mature from blue in foals to amber or hazel.",
       "image": "img/quiz/rarest-colors/02.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-03",
-      "question": "Что это за масть?",
-      "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Amber champagne is the Champagne dilution on a bay base. The body becomes warm golden-brown or amber, while the mane, tail, lower legs, and ear tips are diluted from black to chocolate or dark brown. The characteristic Champagne markers are pink skin that develops dark freckling around the eyes and muzzle and amber or hazel-green eyes, which are blue at birth.",
       "image": "img/quiz/rarest-colors/03.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-04",
-      "question": "Что это за масть?",
-      "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Gold champagne is the Champagne dilution on a chestnut base. The coat becomes an even golden-apricot or silky yellow shade, often with a distinctive metallic sheen, while the mane and tail are commonly diluted to straw or nearly white. It can therefore resemble palomino. Typical Champagne markers include pink skin that develops darker freckling, especially around the eyes and muzzle, and amber or hazel-green eyes; foals are usually born with blue eyes.",
       "image": "img/quiz/rarest-colors/04.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-05",
-      "question": "Что это за масть?",
-      "explanation": "Рыже-жемчужная масть (абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Chestnut pearl, often called apricot, results from homozygous Pearl (prl/prl) on a chestnut base. The coat becomes a soft warm apricot or peach shade, often with a deep pearly sheen, and the mane and tail are usually similar in color or slightly lighter. Typical features include pale pink to lilac-toned skin, sometimes developing sparse darker mottling with age, and amber or hazel eyes; foals may be born with blue eyes.",
       "image": "img/quiz/rarest-colors/05.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-06",
-      "question": "Что это за масть?",
-      "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Sable champagne is Champagne dilution on a seal-brown or very dark bay-type base. The body is typically muted brownish-gold, olive-tan, or dark coffee-with-milk, while the legs, ears, mane, and tail remain a deeper chocolate shade. Because it can resemble classic champagne, genetic testing may be needed for confident identification. Like other Champagne horses, it has pinkish skin that develops dark freckling with age and amber or hazel eyes that are blue in newborn foals.",
       "image": "img/quiz/rarest-colors/06.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-04",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-07",
-      "question": "Что это за масть?",
-      "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Amber champagne is the Champagne dilution on a bay base. The body becomes warm golden-brown or amber, while the mane, tail, lower legs, and ear tips are diluted from black to chocolate or dark brown. The characteristic Champagne markers are pink skin that develops dark freckling around the eyes and muzzle and amber or hazel-green eyes, which are blue at birth.",
       "image": "img/quiz/rarest-colors/07.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-08",
-      "question": "Что это за масть?",
-      "explanation": "Булано-жемчужная масть — это результат совместного действия одного доминантного гена Cream и одного рецессивного гена Pearl (сложное гетерозиготное состояние Cr/prl) на гнедой основе. Поскольку оба гена находятся в одном локусе, они усиливают друг друга, создавая эффект так называемого «псевдоизабеллового» осветления. Шерсть на туловище такого коня приобретает изысканный светло-бежевый, молочно-карамельный или нежно-горчичный оттенок, а защитный волос, уши и нижняя часть ног окрашены в контрастный коричневый или кофейно-шоколадный цвет. Главными маркерами масти служат блестящий, отливающий перламутром волос, нежная розовая или светлая серо-лиловая кожа (иногда с возрастной темной крапинкой), а также выразительные янтарные, зеленоватые или темно-голубые глаза.",
+      "question": "What coat color is this?",
+      "explanation": "Buckskin pearl is the compound Cream/Pearl genotype Cr/prl on a bay base. Because Cream and Pearl are alleles at the same SLC45A2 locus, this compound heterozygote produces a strong pseudo-double-cream dilution. The body becomes pale beige, milky caramel, or soft cream-gold, while the mane, tail, lower legs, and ear points remain darker brown or coffee-chocolate. Pink to pale lilac-gray skin and amber, greenish, or blue-toned eyes are typical.",
       "image": "img/quiz/rarest-colors/08.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-02",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         },
         {
           "id": "answer-03",
-          "text": "Булано-жемчужная"
+          "text": "Buckskin pearl"
         },
         {
           "id": "answer-04",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-09",
-      "question": "Что это за масть?",
-      "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+      "question": "What coat color is this?",
+      "explanation": "Classic champagne is the Champagne dilution on a black base. The coat is diluted to an unusual brownish-gray, taupe, lilac-brown, olive, or coffee-with-milk shade, often with a metallic sheen. The mane and tail are usually somewhat darker than the body, tending toward dark brown or chocolate. As with other Champagne horses, the skin is pinkish and develops darker mottling or freckles with age, while the eyes mature from blue in foals to amber or hazel.",
       "image": "img/quiz/rarest-colors/09.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-10",
-      "question": "Что это за масть?",
-      "explanation": "Рыже-жемчужная масть (абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Chestnut pearl, often called apricot, results from homozygous Pearl (prl/prl) on a chestnut base. The coat becomes a soft warm apricot or peach shade, often with a deep pearly sheen, and the mane and tail are usually similar in color or slightly lighter. Typical features include pale pink to lilac-toned skin, sometimes developing sparse darker mottling with age, and amber or hazel eyes; foals may be born with blue eyes.",
       "image": "img/quiz/rarest-colors/10.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-11",
-      "question": "Что это за масть?",
-      "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+      "question": "What coat color is this?",
+      "explanation": "Classic champagne is the Champagne dilution on a black base. The coat is diluted to an unusual brownish-gray, taupe, lilac-brown, olive, or coffee-with-milk shade, often with a metallic sheen. The mane and tail are usually somewhat darker than the body, tending toward dark brown or chocolate. As with other Champagne horses, the skin is pinkish and develops darker mottling or freckles with age, while the eyes mature from blue in foals to amber or hazel.",
       "image": "img/quiz/rarest-colors/11.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-12",
-      "question": "Что это за масть?",
-      "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Gold champagne is the Champagne dilution on a chestnut base. The coat becomes an even golden-apricot or silky yellow shade, often with a distinctive metallic sheen, while the mane and tail are commonly diluted to straw or nearly white. It can therefore resemble palomino. Typical Champagne markers include pink skin that develops darker freckling, especially around the eyes and muzzle, and amber or hazel-green eyes; foals are usually born with blue eyes.",
       "image": "img/quiz/rarest-colors/12.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         },
         {
           "id": "answer-02",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-03",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-04",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-13",
-      "question": "Что это за масть?",
-      "explanation": "Мышастая шампанская масть (или классическая шампанская саврасая / Grullo Champagne) — это результат сочетания доминантного гена Champagne и дикого гена Dun на базовой вороной основе. Шерсть на туловище такого коня приобретает изысканный дымчато-кремовый, светло-серый или мягкий бежево-пепельный оттенок, полностью лишенный классического рыжего пигмента. Ноги, уши, грива и хвост окрашены в контрастный шоколадно-пепельный цвет, а вдоль хребта четко проступает обязательный «дикий» маркер — темный ремень, дополняемый иногда «зебристостью» на ногах. Масть безошибочно идентифицируется по стандартным признакам шампанского осветления: нежно-розовой коже с возрастной темной крапинкой, благородному перламутровому блеску волоса и янтарным либо оливково-ореховым глазам, которые при рождении имеют ярко-голубой цвет.",
+      "question": "What coat color is this?",
+      "explanation": "Classic champagne dun, also called grullo champagne, combines Champagne and Dun on a black base. The body is diluted to a smoky cream, soft beige-gray, or ash-taupe shade, while the mane, tail, legs, and ear points are darker chocolate-gray. Dun contributes primitive markings, especially a distinct darker dorsal stripe and sometimes leg barring. Champagne adds pink skin that develops freckling, a noticeable sheen, and amber or hazel eyes that are blue at birth.",
       "image": "img/quiz/rarest-colors/13.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Мышасто-жемчужная"
+          "text": "Black dun pearl"
         },
         {
           "id": "answer-02",
-          "text": "Саврасо-жемчужная"
+          "text": "Bay dun pearl"
         },
         {
           "id": "answer-03",
-          "text": "Мышастая шампанская"
+          "text": "Classic champagne dun"
         },
         {
           "id": "answer-04",
-          "text": "Саврасая шампанская"
+          "text": "Amber champagne dun"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-14",
-      "question": "Что это за масть?",
-      "explanation": "Рыже-жемчужная масть (или абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Chestnut pearl, often called apricot, results from homozygous Pearl (prl/prl) on a chestnut base. The coat becomes a soft warm apricot or peach shade, often with a deep pearly sheen, and the mane and tail are usually similar in color or slightly lighter. Typical features include pale pink to lilac-toned skin, sometimes developing sparse darker mottling with age, and amber or hazel eyes; foals may be born with blue eyes.",
       "image": "img/quiz/rarest-colors/14.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-04",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-15",
-      "question": "Что это за масть?",
-      "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Sable champagne is Champagne dilution on a seal-brown or very dark bay-type base. The body is typically muted brownish-gold, olive-tan, or dark coffee-with-milk, while the legs, ears, mane, and tail remain a deeper chocolate shade. Because it can resemble classic champagne, genetic testing may be needed for confident identification. Like other Champagne horses, it has pinkish skin that develops dark freckling with age and amber or hazel eyes that are blue in newborn foals.",
       "image": "img/quiz/rarest-colors/15.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-16",
-      "question": "Что это за масть?",
-      "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.\n",
+      "question": "What coat color is this?",
+      "explanation": "Amber champagne is the Champagne dilution on a bay base. The body becomes warm golden-brown or amber, while the mane, tail, lower legs, and ear tips are diluted from black to chocolate or dark brown. The characteristic Champagne markers are pink skin that develops dark freckling around the eyes and muzzle and amber or hazel-green eyes, which are blue at birth.",
       "image": "img/quiz/rarest-colors/16.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-17",
-      "question": "Что это за масть?",
-      "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Sable champagne is Champagne dilution on a seal-brown or very dark bay-type base. The body is typically muted brownish-gold, olive-tan, or dark coffee-with-milk, while the legs, ears, mane, and tail remain a deeper chocolate shade. Because it can resemble classic champagne, genetic testing may be needed for confident identification. Like other Champagne horses, it has pinkish skin that develops dark freckling with age and amber or hazel eyes that are blue in newborn foals.",
       "image": "img/quiz/rarest-colors/17.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-18",
-      "question": "Что это за масть?",
-      "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Gold champagne is the Champagne dilution on a chestnut base. The coat becomes an even golden-apricot or silky yellow shade, often with a distinctive metallic sheen, while the mane and tail are commonly diluted to straw or nearly white. It can therefore resemble palomino. Typical Champagne markers include pink skin that develops darker freckling, especially around the eyes and muzzle, and amber or hazel-green eyes; foals are usually born with blue eyes.",
       "image": "img/quiz/rarest-colors/18.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-04",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-19",
-      "question": "Что это за масть?",
-      "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Sable champagne is Champagne dilution on a seal-brown or very dark bay-type base. The body is typically muted brownish-gold, olive-tan, or dark coffee-with-milk, while the legs, ears, mane, and tail remain a deeper chocolate shade. Because it can resemble classic champagne, genetic testing may be needed for confident identification. Like other Champagne horses, it has pinkish skin that develops dark freckling with age and amber or hazel eyes that are blue in newborn foals.",
       "image": "img/quiz/rarest-colors/19.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-20",
-      "question": "Что это за масть?",
-      "explanation": "Золотая шампанско-саврасая масть — это сочетание доминантного гена Champagne и доминантного гена зонарности Dun на рыжей основе. Шерсть на туловище такого коня приобретает блеклый, но насыщенный золотисто-кремовый, палевый или светло-абрикосовый оттенок с благородным шелковистым блеском. Грива и хвост обычно сильно осветлены до соломенного или почти белого цвета, на фоне которых отчетливо выделяются «дикие» маркеры: четкий рыжевато-золотой или чайный ремень вдоль хребта, а также возможная зебристость на ногах. Масть легко идентифицировать по стандартным признакам шампанского комплекса: нежно-розовой коже, покрытой с возрастом темными «веснушками», и выразительным глазам янтарного или оливково-орехового цвета, которые у жеребят при рождении всегда голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Gold champagne dun combines Champagne and Dun on a chestnut base. The body becomes a pale but rich golden-cream, buff, or light apricot shade, often with a silky sheen, while the mane and tail may be strongly lightened to straw or nearly white. Dun adds primitive markings such as a darker reddish-gold dorsal stripe and sometimes leg barring. Champagne contributes pink skin that develops dark freckling with age and amber or olive-hazel eyes that are blue at birth.",
       "image": "img/quiz/rarest-colors/20.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Золотая шампанско-саврасая"
+          "text": "Gold champagne dun"
         },
         {
           "id": "answer-03",
-          "text": "Жемчужно-каурая"
+          "text": "Red dun pearl"
         },
         {
           "id": "answer-04",
-          "text": "Жемчужно-соловая"
+          "text": "Palomino pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-21",
-      "question": "Что это за масть?",
-      "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+      "question": "What coat color is this?",
+      "explanation": "Classic champagne is the Champagne dilution on a black base. The coat is diluted to an unusual brownish-gray, taupe, lilac-brown, olive, or coffee-with-milk shade, often with a metallic sheen. The mane and tail are usually somewhat darker than the body, tending toward dark brown or chocolate. As with other Champagne horses, the skin is pinkish and develops darker mottling or freckles with age, while the eyes mature from blue in foals to amber or hazel.",
       "image": "img/quiz/rarest-colors/21.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-22",
-      "question": "Что это за масть?",
-      "explanation": "Рыже-жемчужная масть (или абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Chestnut pearl, often called apricot, results from homozygous Pearl (prl/prl) on a chestnut base. The coat becomes a soft warm apricot or peach shade, often with a deep pearly sheen, and the mane and tail are usually similar in color or slightly lighter. Typical features include pale pink to lilac-toned skin, sometimes developing sparse darker mottling with age, and amber or hazel eyes; foals may be born with blue eyes.",
       "image": "img/quiz/rarest-colors/22.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-04",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-23",
-      "question": "Что это за масть?",
-      "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Sable champagne is Champagne dilution on a seal-brown or very dark bay-type base. The body is typically muted brownish-gold, olive-tan, or dark coffee-with-milk, while the legs, ears, mane, and tail remain a deeper chocolate shade. Because it can resemble classic champagne, genetic testing may be needed for confident identification. Like other Champagne horses, it has pinkish skin that develops dark freckling with age and amber or hazel eyes that are blue in newborn foals.",
       "image": "img/quiz/rarest-colors/23.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-04",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-24",
-      "question": "Что это за масть?",
-      "explanation": "Булано-жемчужная масть — это результат совместного действия одного доминантного гена Cream и одного рецессивного гена Pearl (сложное гетерозиготное состояние Cr/prl) на гнедой основе. Поскольку оба гена находятся в одном локусе, они усиливают друг друга, создавая эффект так называемого «псевдоизабеллового» осветления. Шерсть на туловище такого коня приобретает изысканный светло-бежевый, молочно-карамельный или нежно-горчичный оттенок, а защитный волос, уши и нижняя часть ног окрашены в контрастный коричневый или кофейно-шоколадный цвет. Главными маркерами масти служат блестящий, отливающий перламутром волос, нежная розовая или светлая серо-лиловая кожа (иногда с возрастной темной крапинкой), а также выразительные янтарные, зеленоватые или темно-голубые глаза.",
+      "question": "What coat color is this?",
+      "explanation": "Buckskin pearl is the compound Cream/Pearl genotype Cr/prl on a bay base. Because Cream and Pearl are alleles at the same SLC45A2 locus, this compound heterozygote produces a strong pseudo-double-cream dilution. The body becomes pale beige, milky caramel, or soft cream-gold, while the mane, tail, lower legs, and ear points remain darker brown or coffee-chocolate. Pink to pale lilac-gray skin and amber, greenish, or blue-toned eyes are typical.",
       "image": "img/quiz/rarest-colors/24.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-02",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         },
         {
           "id": "answer-03",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         },
         {
           "id": "answer-04",
-          "text": "Булано-жемчужная"
+          "text": "Buckskin pearl"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-25",
-      "question": "Что это за масть?",
-      "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Amber champagne is the Champagne dilution on a bay base. The body becomes warm golden-brown or amber, while the mane, tail, lower legs, and ear tips are diluted from black to chocolate or dark brown. The characteristic Champagne markers are pink skin that develops dark freckling around the eyes and muzzle and amber or hazel-green eyes, which are blue at birth.",
       "image": "img/quiz/rarest-colors/25.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-26",
-      "question": "Что это за масть?",
-      "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Black pearl is homozygous Pearl (prl/prl) on a black base. The coat may become a deep cocoa, bronze, muted coffee-brown, or other dark diluted shade with a pearly or metallic sheen. The mane, tail, and lower legs are usually somewhat darker, often chocolate or coffee-colored. The skin is diluted to a pinkish-lilac or grayish tone and may develop darker mottling with age, while the eyes are typically amber, golden-hazel, or similarly light.",
       "image": "img/quiz/rarest-colors/26.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-27",
-      "question": "Что это за масть?",
-      "explanation": "Гнедо-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на гнедой основе. Шерсть такого коня приобретает мягкий, светлый золотисто-коричневый, палевый или абрикосово-песочный оттенок с характерным глубоким перламутровым блеском. Нижняя часть ног, уши, грива и хвост при этом не черные, а окрашены в контрастный, насыщенный шоколадный или темно-кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (которая с возрастом может покрываться темной крапинкой) и выразительные янтарные или зеленовато-ореховые глаза.",
+      "question": "What coat color is this?",
+      "explanation": "Bay pearl is homozygous Pearl (prl/prl) on a bay base. The body is diluted to a light golden-brown, tan, or apricot-sand shade with a characteristic pearly sheen, while the mane, tail, lower legs, and ear points are diluted from black to rich chocolate or dark coffee. The skin is pale pinkish-lilac or grayish and may become mottled with age, and the eyes are typically amber or hazel-green.",
       "image": "img/quiz/rarest-colors/27.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-28",
-      "question": "Что это за масть?",
-      "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Amber champagne is the Champagne dilution on a bay base. The body becomes warm golden-brown or amber, while the mane, tail, lower legs, and ear tips are diluted from black to chocolate or dark brown. The characteristic Champagne markers are pink skin that develops dark freckling around the eyes and muzzle and amber or hazel-green eyes, which are blue at birth.",
       "image": "img/quiz/rarest-colors/28.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-04",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-29",
-      "question": "Что это за масть?",
-      "explanation": "Солово-жемчужная масть — это результат совместного действия одного доминантного гена Cream и одного рецессивного гена Pearl (сложное гетерозиготное состояние Cr/prl) на рыжей основе. Эти гены находятся в одном локусе и взаимно усиливают друг друга, создавая эффект «псевдоизабеллового» осветления. Шерсть на туловище такого коня приобретает изысканный нежно-кремовый, молочный или светло-персиковый оттенок с характерным глубоким перламутровым отливом. Грива и хвост обычно окрашены в тон туловища или выглядят практически белыми, без каких-либо темных включений. Масть безошибочно определяется по светлым маркерам: нежно-розовой или лиловой коже (иногда с возрастной темной крапинкой), а также выразительным янтарным, зеленоватым или бледно-голубым глазам.",
+      "question": "What coat color is this?",
+      "explanation": "Palomino pearl is the compound Cream/Pearl genotype Cr/prl on a chestnut base. This compound heterozygote produces a strong pseudo-double-cream dilution, giving the coat a pale cream, milky, or light peach tone with a pronounced pearly sheen. The mane and tail are usually similar in color or nearly white. The skin is pale pink to lilac and the eyes may be amber, greenish, or pale blue.",
       "image": "img/quiz/rarest-colors/29.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         },
         {
           "id": "answer-04",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-30",
-      "question": "Что это за масть?",
-      "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Gold champagne is the Champagne dilution on a chestnut base. The coat becomes an even golden-apricot or silky yellow shade, often with a distinctive metallic sheen, while the mane and tail are commonly diluted to straw or nearly white. It can therefore resemble palomino. Typical Champagne markers include pink skin that develops darker freckling, especially around the eyes and muzzle, and amber or hazel-green eyes; foals are usually born with blue eyes.",
       "image": "img/quiz/rarest-colors/30.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-04",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         }
       ],
       "correct_answer_id": "answer-01"
     },
     {
       "id": "question-31",
-      "question": "Что это за масть?",
-      "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Black pearl is homozygous Pearl (prl/prl) on a black base. The coat may become a deep cocoa, bronze, muted coffee-brown, or other dark diluted shade with a pearly or metallic sheen. The mane, tail, and lower legs are usually somewhat darker, often chocolate or coffee-colored. The skin is diluted to a pinkish-lilac or grayish tone and may develop darker mottling with age, while the eyes are typically amber, golden-hazel, or similarly light.",
       "image": "img/quiz/rarest-colors/31.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-03",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         },
         {
           "id": "answer-04",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-32",
-      "question": "Что это за масть?",
-      "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+      "question": "What coat color is this?",
+      "explanation": "Classic champagne is the Champagne dilution on a black base. The coat is diluted to an unusual brownish-gray, taupe, lilac-brown, olive, or coffee-with-milk shade, often with a metallic sheen. The mane and tail are usually somewhat darker than the body, tending toward dark brown or chocolate. As with other Champagne horses, the skin is pinkish and develops darker mottling or freckles with age, while the eyes mature from blue in foals to amber or hazel.",
       "image": "img/quiz/rarest-colors/32.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-04",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-33",
-      "question": "Что это за масть?",
-      "explanation": "Рыже-жемчужная масть (или абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Chestnut pearl, often called apricot, results from homozygous Pearl (prl/prl) on a chestnut base. The coat becomes a soft warm apricot or peach shade, often with a deep pearly sheen, and the mane and tail are usually similar in color or slightly lighter. Typical features include pale pink to lilac-toned skin, sometimes developing sparse darker mottling with age, and amber or hazel eyes; foals may be born with blue eyes.",
       "image": "img/quiz/rarest-colors/33.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-04",
-          "text": "Солово-жемчужная"
+          "text": "Palomino pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-34",
-      "question": "Что это за масть?",
-      "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Black pearl is homozygous Pearl (prl/prl) on a black base. The coat may become a deep cocoa, bronze, muted coffee-brown, or other dark diluted shade with a pearly or metallic sheen. The mane, tail, and lower legs are usually somewhat darker, often chocolate or coffee-colored. The skin is diluted to a pinkish-lilac or grayish tone and may develop darker mottling with age, while the eyes are typically amber, golden-hazel, or similarly light.",
       "image": "img/quiz/rarest-colors/34.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-02",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Булано-жемчужная"
+          "text": "Buckskin pearl"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-35",
-      "question": "Что это за масть?",
-      "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Amber champagne is the Champagne dilution on a bay base. The body becomes warm golden-brown or amber, while the mane, tail, lower legs, and ear tips are diluted from black to chocolate or dark brown. The characteristic Champagne markers are pink skin that develops dark freckling around the eyes and muzzle and amber or hazel-green eyes, which are blue at birth.",
       "image": "img/quiz/rarest-colors/35.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-04",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         }
       ],
       "correct_answer_id": "answer-03"
     },
     {
       "id": "question-36",
-      "question": "Что это за масть?",
-      "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Black pearl is homozygous Pearl (prl/prl) on a black base. The coat may become a deep cocoa, bronze, muted coffee-brown, or other dark diluted shade with a pearly or metallic sheen. The mane, tail, and lower legs are usually somewhat darker, often chocolate or coffee-colored. The skin is diluted to a pinkish-lilac or grayish tone and may develop darker mottling with age, while the eyes are typically amber, golden-hazel, or similarly light.",
       "image": "img/quiz/rarest-colors/36.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-02",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-03",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         },
         {
           "id": "answer-04",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-37",
-      "question": "Что это за масть?",
-      "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Sable champagne is Champagne dilution on a seal-brown or very dark bay-type base. The body is typically muted brownish-gold, olive-tan, or dark coffee-with-milk, while the legs, ears, mane, and tail remain a deeper chocolate shade. Because it can resemble classic champagne, genetic testing may be needed for confident identification. Like other Champagne horses, it has pinkish skin that develops dark freckling with age and amber or hazel eyes that are blue in newborn foals.",
       "image": "img/quiz/rarest-colors/37.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         },
         {
           "id": "answer-03",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-38",
-      "question": "Что это за масть?",
-      "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Black pearl is homozygous Pearl (prl/prl) on a black base. The coat may become a deep cocoa, bronze, muted coffee-brown, or other dark diluted shade with a pearly or metallic sheen. The mane, tail, and lower legs are usually somewhat darker, often chocolate or coffee-colored. The skin is diluted to a pinkish-lilac or grayish tone and may develop darker mottling with age, while the eyes are typically amber, golden-hazel, or similarly light.",
       "image": "img/quiz/rarest-colors/38.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Классическая шампанская"
+          "text": "Classic champagne"
         },
         {
           "id": "answer-02",
-          "text": "Соболиная шампанская"
+          "text": "Sable champagne"
         },
         {
           "id": "answer-03",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         },
         {
           "id": "answer-04",
-          "text": "Вороно-жемчужная"
+          "text": "Black pearl"
         }
       ],
       "correct_answer_id": "answer-04"
     },
     {
       "id": "question-39",
-      "question": "Что это за масть?",
-      "explanation": "Золотая шампанско-саврасая масть — это сочетание доминантного гена Champagne и доминантного гена зонарности Dun на рыжей основе. Шерсть на туловище такого коня приобретает блеклый, но насыщенный золотисто-кремовый, палевый или светло-абрикосовый оттенок с благородным шелковистым блеском. Грива и хвост обычно сильно осветлены до соломенного или почти белого цвета, на фоне которых отчетливо выделяются «дикие» маркеры: четкий рыжевато-золотой или чайный ремень вдоль хребта, а также возможная зебристость на ногах. Масть легко идентифицировать по стандартным признакам шампанского комплекса: нежно-розовой коже, покрытой с возрастом темными «веснушками», и выразительным глазам янтарного или оливково-орехового цвета, которые у жеребят при рождении всегда голубые.",
+      "question": "What coat color is this?",
+      "explanation": "Gold champagne dun combines Champagne and Dun on a chestnut base. The body becomes a pale but rich golden-cream, buff, or light apricot shade, often with a silky sheen, while the mane and tail may be strongly lightened to straw or nearly white. Dun adds primitive markings such as a darker reddish-gold dorsal stripe and sometimes leg barring. Champagne contributes pink skin that develops dark freckling with age and amber or olive-hazel eyes that are blue at birth.",
       "image": "img/quiz/rarest-colors/39.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Золотая шампанско-саврасая"
+          "text": "Gold champagne dun"
         },
         {
           "id": "answer-03",
-          "text": "Жемчужно-саврасая"
+          "text": "Bay dun pearl"
         },
         {
           "id": "answer-04",
-          "text": "Жемчужно-соловая"
+          "text": "Palomino pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     },
     {
       "id": "question-40",
-      "question": "Что это за масть?",
-      "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+      "question": "What coat color is this?",
+      "explanation": "Amber champagne is the Champagne dilution on a bay base. The body becomes warm golden-brown or amber, while the mane, tail, lower legs, and ear tips are diluted from black to chocolate or dark brown. The characteristic Champagne markers are pink skin that develops dark freckling around the eyes and muzzle and amber or hazel-green eyes, which are blue at birth.",
       "image": "img/quiz/rarest-colors/40.webp",
       "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
-          "text": "Золотая шампанская"
+          "text": "Gold champagne"
         },
         {
           "id": "answer-02",
-          "text": "Янтарная шампанская"
+          "text": "Amber champagne"
         },
         {
           "id": "answer-03",
-          "text": "Рыже-жемчужная"
+          "text": "Chestnut pearl"
         },
         {
           "id": "answer-04",
-          "text": "Гнедо-жемчужная"
+          "text": "Bay pearl"
         }
       ],
       "correct_answer_id": "answer-02"
     }
   ],
-  "translation_status": "outdated",
-  "_pending_translation": {
-    "source_revision": "edc2b5ca8b611072f4dd649a78cf236a2041dbc98a9edac8f826eb13919aed52",
-    "package": "rarest-colors-en.json"
+  "translation_status": "current",
+  "_translation_source": {
+    "title": "Редчайшие масти",
+    "short_description": "Это одна из наиболее сложных викторин, ведь она посвящена таким редким мастям как шампанские и жемчужные, включая псевдоизабелловые. Специально для самых опытных мастеведов.",
+    "intro": "Это одна из наиболее сложных викторин, ведь она посвящена таким редким мастям как шампанские и жемчужные, включая псевдоизабелловые. Специально для самых опытных мастеведов.",
+    "questionImagesAlt": "Фотография лошади для определения масти",
+    "difficulty": "high",
+    "cover": "img/covers/Portrait_06_Rare.webp",
+    "publication_date": "2026-08-27T09:05:00+00:00",
+    "tags": [
+      "horses",
+      "images"
+    ],
+    "questions": [
+      {
+        "id": "question-01",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/01.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Солово-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рыже-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-02",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/02.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-03",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/03.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-04",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/04.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Солово-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рыже-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-05",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/05.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Солово-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рыже-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Рыже-жемчужная масть (абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-06",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/06.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Соболиная шампанская"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-07",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/07.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-08",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/08.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Гнедо-жемчужная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Булано-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Солово-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Булано-жемчужная масть — это результат совместного действия одного доминантного гена Cream и одного рецессивного гена Pearl (сложное гетерозиготное состояние Cr/prl) на гнедой основе. Поскольку оба гена находятся в одном локусе, они усиливают друг друга, создавая эффект так называемого «псевдоизабеллового» осветления. Шерсть на туловище такого коня приобретает изысканный светло-бежевый, молочно-карамельный или нежно-горчичный оттенок, а защитный волос, уши и нижняя часть ног окрашены в контрастный коричневый или кофейно-шоколадный цвет. Главными маркерами масти служат блестящий, отливающий перламутром волос, нежная розовая или светлая серо-лиловая кожа (иногда с возрастной темной крапинкой), а также выразительные янтарные, зеленоватые или темно-голубые глаза.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-09",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/09.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-10",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/10.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рыже-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Рыже-жемчужная масть (абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-11",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/11.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-12",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/12.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Солово-жемчужная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Соболиная шампанская"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-13",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/13.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Мышасто-жемчужная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Саврасо-жемчужная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Мышастая шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Саврасая шампанская"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Мышастая шампанская масть (или классическая шампанская саврасая / Grullo Champagne) — это результат сочетания доминантного гена Champagne и дикого гена Dun на базовой вороной основе. Шерсть на туловище такого коня приобретает изысканный дымчато-кремовый, светло-серый или мягкий бежево-пепельный оттенок, полностью лишенный классического рыжего пигмента. Ноги, уши, грива и хвост окрашены в контрастный шоколадно-пепельный цвет, а вдоль хребта четко проступает обязательный «дикий» маркер — темный ремень, дополняемый иногда «зебристостью» на ногах. Масть безошибочно идентифицируется по стандартным признакам шампанского осветления: нежно-розовой коже с возрастной темной крапинкой, благородному перламутровому блеску волоса и янтарным либо оливково-ореховым глазам, которые при рождении имеют ярко-голубой цвет.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-14",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/14.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Солово-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Рыже-жемчужная масть (или абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-15",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/15.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Соболиная шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-16",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/16.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Соболиная шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.\n",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-17",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/17.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Соболиная шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-18",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/18.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Солово-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-19",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/19.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Соболиная шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-20",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/20.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Золотая шампанско-саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жемчужно-каурая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Жемчужно-соловая"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Золотая шампанско-саврасая масть — это сочетание доминантного гена Champagne и доминантного гена зонарности Dun на рыжей основе. Шерсть на туловище такого коня приобретает блеклый, но насыщенный золотисто-кремовый, палевый или светло-абрикосовый оттенок с благородным шелковистым блеском. Грива и хвост обычно сильно осветлены до соломенного или почти белого цвета, на фоне которых отчетливо выделяются «дикие» маркеры: четкий рыжевато-золотой или чайный ремень вдоль хребта, а также возможная зебристость на ногах. Масть легко идентифицировать по стандартным признакам шампанского комплекса: нежно-розовой коже, покрытой с возрастом темными «веснушками», и выразительным глазам янтарного или оливково-орехового цвета, которые у жеребят при рождении всегда голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-21",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/21.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Соболиная шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-22",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/22.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Солово-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Рыже-жемчужная масть (или абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-23",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/23.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Соболиная шампанская"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-24",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/24.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Соболиная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Гнедо-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Булано-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Булано-жемчужная масть — это результат совместного действия одного доминантного гена Cream и одного рецессивного гена Pearl (сложное гетерозиготное состояние Cr/prl) на гнедой основе. Поскольку оба гена находятся в одном локусе, они усиливают друг друга, создавая эффект так называемого «псевдоизабеллового» осветления. Шерсть на туловище такого коня приобретает изысканный светло-бежевый, молочно-карамельный или нежно-горчичный оттенок, а защитный волос, уши и нижняя часть ног окрашены в контрастный коричневый или кофейно-шоколадный цвет. Главными маркерами масти служат блестящий, отливающий перламутром волос, нежная розовая или светлая серо-лиловая кожа (иногда с возрастной темной крапинкой), а также выразительные янтарные, зеленоватые или темно-голубые глаза.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-25",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/25.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рыже-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-26",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/26.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-27",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/27.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Гнедо-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на гнедой основе. Шерсть такого коня приобретает мягкий, светлый золотисто-коричневый, палевый или абрикосово-песочный оттенок с характерным глубоким перламутровым блеском. Нижняя часть ног, уши, грива и хвост при этом не черные, а окрашены в контрастный, насыщенный шоколадный или темно-кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (которая с возрастом может покрываться темной крапинкой) и выразительные янтарные или зеленовато-ореховые глаза.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-28",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/28.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Соболиная шампанская"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-29",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/29.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Солово-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Рыже-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Солово-жемчужная масть — это результат совместного действия одного доминантного гена Cream и одного рецессивного гена Pearl (сложное гетерозиготное состояние Cr/prl) на рыжей основе. Эти гены находятся в одном локусе и взаимно усиливают друг друга, создавая эффект «псевдоизабеллового» осветления. Шерсть на туловище такого коня приобретает изысканный нежно-кремовый, молочный или светло-персиковый оттенок с характерным глубоким перламутровым отливом. Грива и хвост обычно окрашены в тон туловища или выглядят практически белыми, без каких-либо темных включений. Масть безошибочно определяется по светлым маркерам: нежно-розовой или лиловой коже (иногда с возрастной темной крапинкой), а также выразительным янтарным, зеленоватым или бледно-голубым глазам.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-30",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/30.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Солово-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-01",
+        "explanation": "Золотая шампанская масть — это доминантный ген Champagne на рыжей основе. Шерсть такого коня имеет равномерный золотисто-абрикосовый или шелковисто-желтый окрас, часто с благородным металлическим блеском. Грива и хвост обычно осветлены до соломенного или почти белого цвета, из-за чего эту масть легко перепутать с соловой. Однако у золотой шампанской есть уникальные маркеры: нежно-розовая кожа, покрытая темными «веснушками» (особенно заметными вокруг глаз и губ), а также глаза янтарного или зеленовато-орехового оттенка, которые у жеребят при рождении бывают ярко-голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-31",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/31.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Гнедо-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороно-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-32",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/32.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Соболиная шампанская"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Классическая шампанская масть — это доминантный ген Champagne на вороной основе. Шерсть такого коня имеет необычный благородный оттенок, который часто описывают как коричневато-серый, сиреневый, оливковый или цвет «кофе с молоком», часто с выраженным металлическим блеском. Грива и хвост обычно немного темнее туловища, ближе к темно-коричневому или шоколадному цвету. Как и у всех шампанских лошадей, главными маркерами масти остаются нежно-розовая кожа с возрастной темной пятнистостью («веснушками») и характерные янтарные или зеленовато-ореховые глаза, меняющие цвет по мере взросления.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-33",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/33.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Солово-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Рыже-жемчужная масть (или абрикосовая) — это рецессивный ген Pearl в гомозиготном состоянии (prl/prl) на рыжей основе. Шерсть такого коня приобретает мягкий, нежный тепло-абрикосовый или персиковый окрас, часто со специфическим глубоким «жемчужным» блеском волоса. Грива и хвост обычно окрашены в тон туловища или выглядят немного светлее, без каких-либо темных или шоколадных включений. Характерными маркерами масти служат осветленная темно-розовая или лиловая кожа, с возрастом она может покрываться редкой серо-лиловой крапинкой, а также выразительные янтарные или ореховые глаза, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-34",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/34.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-02",
+            "text": "Гнедо-жемчужная"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Булано-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-35",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/35.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-04",
+            "text": "Соболиная шампанская"
+          }
+        ],
+        "correct_answer_id": "answer-03",
+        "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-36",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/36.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Гнедо-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороно-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-37",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/37.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Соболиная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Вороно-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Соболиная шампанская масть — это доминантный ген Champagne на темно-гнедой или караковой основе. Шерсть на туловище такого коня приобретает приглушенный коричневато-желтый, оливково-песочный или темный цвет «кофе с молоком», а ноги, уши, грива и хвост окрашены в более темный, глубокий шоколадный оттенок. Из-за схожести оттенков эту масть внешне бывает трудно отличить от классической шампанской, поэтому для точной идентификации часто требуется генетический тест. В комплекте идут все обязательные маркеры гена: нежно-розовая кожа с возрастной темной пятнистостью-«веснушками», а также глаза янтарного или зеленовато-орехового цвета, которые у новорожденных жеребят всегда ярко-голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-38",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/38.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Классическая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Соболиная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Гнедо-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Вороно-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-04",
+        "explanation": "Вороно-жемчужная масть — это результат действия рецессивного гена Pearl в гомозиготном состоянии (prl/prl) на вороной основе. Шерсть такого коня приобретает необычный, глубокий оттенок темного какао, латуни или приглушенного цвета «кофе с молоком», часто с выразительным перламутровым или металлическим блеском. Грива, хвост и нижняя часть ног окрашены в чуть более темный, насыщенный шоколадный или кофейный цвет. Обязательными маркерами масти выступают осветленная кожа нежного лилово-розового или сероватого оттенка (с возрастом покрывающаяся сиреневыми или темными крапинками) и мягкие янтарные, дубовые или золотисто-ореховые глаза, которые у новорожденных жеребят всегда голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-39",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/39.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Золотая шампанско-саврасая"
+          },
+          {
+            "id": "answer-03",
+            "text": "Жемчужно-саврасая"
+          },
+          {
+            "id": "answer-04",
+            "text": "Жемчужно-соловая"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Золотая шампанско-саврасая масть — это сочетание доминантного гена Champagne и доминантного гена зонарности Dun на рыжей основе. Шерсть на туловище такого коня приобретает блеклый, но насыщенный золотисто-кремовый, палевый или светло-абрикосовый оттенок с благородным шелковистым блеском. Грива и хвост обычно сильно осветлены до соломенного или почти белого цвета, на фоне которых отчетливо выделяются «дикие» маркеры: четкий рыжевато-золотой или чайный ремень вдоль хребта, а также возможная зебристость на ногах. Масть легко идентифицировать по стандартным признакам шампанского комплекса: нежно-розовой коже, покрытой с возрастом темными «веснушками», и выразительным глазам янтарного или оливково-орехового цвета, которые у жеребят при рождении всегда голубые.",
+        "image_author": "Неизвестен"
+      },
+      {
+        "id": "question-40",
+        "question": "Что это за масть?",
+        "image": "img/quiz/rarest-colors/40.webp",
+        "answers": [
+          {
+            "id": "answer-01",
+            "text": "Золотая шампанская"
+          },
+          {
+            "id": "answer-02",
+            "text": "Янтарная шампанская"
+          },
+          {
+            "id": "answer-03",
+            "text": "Рыже-жемчужная"
+          },
+          {
+            "id": "answer-04",
+            "text": "Гнедо-жемчужная"
+          }
+        ],
+        "correct_answer_id": "answer-02",
+        "explanation": "Янтарная шампанская масть — это доминантный ген Champagne на гнедой основе. Шерсть такого коня приобретает теплый золотисто-рыжий или янтарный окрас, а защитный волос, ноги и уши окрашены в контрастный шоколадный или темно-коричневый цвет. В отличие от обычной гнедой масти, у янтарной шампанской полностью отсутствует черный пигмент. Масть легко узнать по стандартным для этого гена маркерам: нежно-розовой коже с темными «веснушками» вокруг глаз и губ, а также по выразительным янтарным или зеленовато-ореховым глазам, которые при рождении являются голубыми.",
+        "image_author": "Неизвестен"
+      }
+    ]
   },
-  "_translation_source": {}
+  "source_content_hash": "edc2b5ca8b611072f4dd649a78cf236a2041dbc98a9edac8f826eb13919aed52"
 }
