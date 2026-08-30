@@ -10,7 +10,7 @@
     "horses",
     "images"
   ],
-  "published": false,
+  "published": true,
   "title": "Coat Color Phenomena",
   "short_description": "How well do you know unusual coat-color phenomena? Brindle, giraffe markings, mosaicism, and other rare features of a horse's appearance—see if you can recognize them.",
   "intro": "How well do you know unusual coat-color phenomena? Brindle, giraffe markings, mosaicism, and other rare features of a horse's appearance—see if you can recognize them.",
@@ -19,9 +19,7 @@
     {
       "id": "question-01",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
       "image": "img/quiz/coat-phenomena/01.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -48,14 +46,14 @@
           "text": "Pangaré"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-02",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
       "image": "img/quiz/coat-phenomena/02.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -82,14 +80,14 @@
           "text": "Bloodmarks"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-03",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
       "image": "img/quiz/coat-phenomena/03.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -116,14 +114,14 @@
           "text": "Peacock spots"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-04",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
       "image": "img/quiz/coat-phenomena/04.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -150,14 +148,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-05",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Ink spots, also called paw prints, are small patches of the horse's base color that occur inside white markings or white pinto areas, particularly in some tobiano and overo-patterned horses. Their edges may be crisp or slightly blurred, and a spot extending to the coronet can produce a localized stripe in the hoof. Their defining feature is that the colored spots lie within white areas rather than forming part of a Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/05.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -184,14 +182,14 @@
           "text": "Peacock spots"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Ink spots, also called paw prints, are small patches of the horse's base color that occur inside white markings or white pinto areas, particularly in some tobiano and overo-patterned horses. Their edges may be crisp or slightly blurred, and a spot extending to the coronet can produce a localized stripe in the hoof. Their defining feature is that the colored spots lie within white areas rather than forming part of a Leopard Complex pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-06",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/06.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -218,14 +216,14 @@
           "text": "Peacock spots"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-07",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
       "image": "img/quiz/coat-phenomena/07.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -252,14 +250,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-08",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Peacock spots, sometimes called peacock eyes, are a descriptive term for colored spots in Leopard Complex horses that are surrounded by a lighter halo of white hair or an evenly mixed zone of white and colored hairs, giving an eye-like appearance reminiscent of a peacock feather. They are seen within Leopard Complex patterning rather than as isolated pinto ink spots, and they are not considered a separate coat color.",
       "image": "img/quiz/coat-phenomena/08.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -286,14 +284,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Peacock spots, sometimes called peacock eyes, are a descriptive term for colored spots in Leopard Complex horses that are surrounded by a lighter halo of white hair or an evenly mixed zone of white and colored hairs, giving an eye-like appearance reminiscent of a peacock feather. They are seen within Leopard Complex patterning rather than as isolated pinto ink spots, and they are not considered a separate coat color.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-09",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
       "image": "img/quiz/coat-phenomena/09.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -320,14 +318,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-10",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Brindle is a very rare striped pigmentation pattern rather than a separate base coat color. It produces irregular vertical stripes of varying width and intensity over the horse's underlying coat. Different biological mechanisms can create brindle-like phenotypes, including inherited Brindle1, chimerism, mosaicism, and localized alterations of other color patterns. It should not be confused with ordinary primitive leg barring associated with dun.",
       "image": "img/quiz/coat-phenomena/10.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -354,14 +352,14 @@
           "text": "Tetrarch spots"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Brindle is a very rare striped pigmentation pattern rather than a separate base coat color. It produces irregular vertical stripes of varying width and intensity over the horse's underlying coat. Different biological mechanisms can create brindle-like phenotypes, including inherited Brindle1, chimerism, mosaicism, and localized alterations of other color patterns. It should not be confused with ordinary primitive leg barring associated with dun.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-11",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Ink spots, also called paw prints, are small patches of the horse's base color that occur inside white markings or white pinto areas, particularly in some tobiano and overo-patterned horses. Their edges may be crisp or slightly blurred, and a spot extending to the coronet can produce a localized stripe in the hoof. Their defining feature is that the colored spots lie within white areas rather than forming part of a Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/11.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -388,14 +386,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Ink spots, also called paw prints, are small patches of the horse's base color that occur inside white markings or white pinto areas, particularly in some tobiano and overo-patterned horses. Their edges may be crisp or slightly blurred, and a spot extending to the coronet can produce a localized stripe in the hoof. Their defining feature is that the colored spots lie within white areas rather than forming part of a Leopard Complex pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-12",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
       "image": "img/quiz/coat-phenomena/12.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -422,14 +420,14 @@
           "text": "Peacock spots"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-13",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
       "image": "img/quiz/coat-phenomena/13.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -456,14 +454,14 @@
           "text": "Bloodmarks"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-14",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Brindle is a very rare striped pigmentation pattern rather than a separate base coat color. It produces irregular vertical stripes of varying width and intensity over the horse's underlying coat. Different biological mechanisms can create brindle-like phenotypes, including inherited Brindle1, chimerism, mosaicism, and localized alterations of other color patterns. It should not be confused with ordinary primitive leg barring associated with dun.",
       "image": "img/quiz/coat-phenomena/14.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -490,14 +488,14 @@
           "text": "Tetrarch spots"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Brindle is a very rare striped pigmentation pattern rather than a separate base coat color. It produces irregular vertical stripes of varying width and intensity over the horse's underlying coat. Different biological mechanisms can create brindle-like phenotypes, including inherited Brindle1, chimerism, mosaicism, and localized alterations of other color patterns. It should not be confused with ordinary primitive leg barring associated with dun.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-15",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
       "image": "img/quiz/coat-phenomena/15.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -524,14 +522,14 @@
           "text": "Tetrarch spots"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-16",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Pangaré, also called mealy, is a lightening pattern rather than a separate coat color. It produces pale or yellowish areas on the muzzle, around the eyes, under the belly, inside the legs, and in other soft parts of the body on horses with red pigment in the coat. The lighter areas blend gradually into the base color and are especially familiar on breeds such as Exmoor Ponies and Haflingers.",
       "image": "img/quiz/coat-phenomena/16.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -558,14 +556,14 @@
           "text": "Tetrarch spots"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Pangaré, also called mealy, is a lightening pattern rather than a separate coat color. It produces pale or yellowish areas on the muzzle, around the eyes, under the belly, inside the legs, and in other soft parts of the body on horses with red pigment in the coat. The lighter areas blend gradually into the base color and are especially familiar on breeds such as Exmoor Ponies and Haflingers.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-17",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
       "image": "img/quiz/coat-phenomena/17.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -592,14 +590,14 @@
           "text": "Pangaré"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-18",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Peacock spots, sometimes called peacock eyes, are a descriptive term for colored spots in Leopard Complex horses that are surrounded by a lighter halo of white hair or an evenly mixed zone of white and colored hairs, giving an eye-like appearance reminiscent of a peacock feather. They are seen within Leopard Complex patterning rather than as isolated pinto ink spots, and they are not considered a separate coat color.",
       "image": "img/quiz/coat-phenomena/18.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -626,14 +624,14 @@
           "text": "Tetrarch spots"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Peacock spots, sometimes called peacock eyes, are a descriptive term for colored spots in Leopard Complex horses that are surrounded by a lighter halo of white hair or an evenly mixed zone of white and colored hairs, giving an eye-like appearance reminiscent of a peacock feather. They are seen within Leopard Complex patterning rather than as isolated pinto ink spots, and they are not considered a separate coat color.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-19",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
       "image": "img/quiz/coat-phenomena/19.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -660,14 +658,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-20",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "A badger face is a reverse-type facial marking in which dark hair of the horse's base color remains within or across an otherwise broad white face marking. The result can resemble a dark mask or broad colored stripe laid over a white face. Such markings may occur with extensive white-spotting patterns such as sabino or splashed white and can be accompanied by blue eyes.",
       "image": "img/quiz/coat-phenomena/20.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -694,14 +692,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "A badger face is a reverse-type facial marking in which dark hair of the horse's base color remains within or across an otherwise broad white face marking. The result can resemble a dark mask or broad colored stripe laid over a white face. Such markings may occur with extensive white-spotting patterns such as sabino or splashed white and can be accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-21",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/21.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -728,14 +726,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-22",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/22.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -762,14 +760,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-23",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
       "image": "img/quiz/coat-phenomena/23.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -796,14 +794,14 @@
           "text": "Bloodmarks"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-24",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Mohammed spots are described as rare, congenital dark oval spots occurring on the hindquarters or thighs, especially against lighter chestnut or palomino-type coats. In traditional lore they are considered lucky markings. They are distinct from Leopard Complex spotting because the horse lacks associated features such as mottled skin, striped hooves, and prominent white sclera, and the dark pigmented areas remain stable throughout life.",
       "image": "img/quiz/coat-phenomena/24.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -830,14 +828,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "Mohammed spots are described as rare, congenital dark oval spots occurring on the hindquarters or thighs, especially against lighter chestnut or palomino-type coats. In traditional lore they are considered lucky markings. They are distinct from Leopard Complex spotting because the horse lacks associated features such as mottled skin, striped hooves, and prominent white sclera, and the dark pigmented areas remain stable throughout life.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-25",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
       "image": "img/quiz/coat-phenomena/25.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -864,14 +862,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "Giraffe markings are an extremely rare and poorly understood pattern that can become more visible with age. They form a network of pale or white lines over darker hair on the back, neck, shoulders, sides, and hindquarters, producing a giraffe-like or webbed appearance. Unlike Leopard Complex or progressive gray, the horse lacks the usual associated features such as mottled skin and striped hooves, and the pattern appears as a distinct reticulated pigmentation anomaly rather than ordinary dappling or graying.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-26",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
       "image": "img/quiz/coat-phenomena/26.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -898,14 +896,14 @@
           "text": "Bloodmarks"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-27",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
       "image": "img/quiz/coat-phenomena/27.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -932,14 +930,14 @@
           "text": "Bloodmarks"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Tetrarch spots, also called Chubari spots, are unusual oval or round white patches, often roughly egg-sized and with soft edges, seen most characteristically on gray horses. They are most obvious while the horse is still dark gray or dapple gray and become less visible as the rest of the coat progressively lightens. They are distinct from the much smaller Birdcatcher spots and are not part of the Leopard Complex pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-28",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
       "image": "img/quiz/coat-phenomena/28.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -966,14 +964,14 @@
           "text": "Just a pinto horse, with no coat-color phenomenon"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-29",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
       "image": "img/quiz/coat-phenomena/29.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1000,14 +998,14 @@
           "text": "Pangaré"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-30",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "A badger face is a reverse-type facial marking in which dark hair of the horse's base color remains within or across an otherwise broad white face marking. The result can resemble a dark mask or broad colored stripe laid over a white face. Such markings may occur with extensive white-spotting patterns such as sabino or splashed white and can be accompanied by blue eyes.",
       "image": "img/quiz/coat-phenomena/30.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1034,14 +1032,14 @@
           "text": "Mohammed spots"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "A badger face is a reverse-type facial marking in which dark hair of the horse's base color remains within or across an otherwise broad white face marking. The result can resemble a dark mask or broad colored stripe laid over a white face. Such markings may occur with extensive white-spotting patterns such as sabino or splashed white and can be accompanied by blue eyes.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-31",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
       "image": "img/quiz/coat-phenomena/31.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1068,14 +1066,14 @@
           "text": "Pangaré"
         }
       ],
-      "correct_answer_id": "answer-05"
+      "correct_answer_id": "answer-05",
+      "explanation": "Massoud spots, also referred to in some English-language sources as reverse bloodmarks, are extremely rare congenital white or whitish patches of irregular shape, usually found on the shoulders or hindquarters. They may result from a somatic mutation or represent a very limited expression of a white-spotting pattern such as sabino or tobiano. Unlike scars, injuries, or fungal depigmentation, these markings are present from birth and do not disappear with age or shedding; instead, they may become more conspicuous against the horse's darker or chestnut base coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-32",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
       "image": "img/quiz/coat-phenomena/32.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1102,14 +1100,14 @@
           "text": "Peacock spots"
         }
       ],
-      "correct_answer_id": "answer-02"
+      "correct_answer_id": "answer-02",
+      "explanation": "Birdcatcher spots are small, round, sharply defined white spots that may appear randomly on horses of many breeds, especially Thoroughbreds. Their exact genetic basis is not fully understood. They may appear or disappear during the horse's lifetime and usually occur without the other features of Leopard Complex spotting, such as mottled skin, striped hooves, or prominent white sclera. They are unrelated to scars and may occur singly or in small groups on an otherwise solid-colored coat.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-33",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
       "image": "img/quiz/coat-phenomena/33.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1136,14 +1134,14 @@
           "text": "Bloodmarks"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-34",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
       "image": "img/quiz/coat-phenomena/34.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1170,14 +1168,14 @@
           "text": "Rabicano"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-35",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Rabicano is a white-ticking pattern concentrated around the flanks, belly, ribs, and especially the base of the tail. White hairs may extend upward from the flank in narrow vertical streaks, while the tailhead can show the characteristic banded or 'skunk-tail' appearance. Unlike classic roan, which is distributed more evenly over the body, rabicano is strongly localized and typically leaves the head unaffected.",
       "image": "img/quiz/coat-phenomena/35.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1204,14 +1202,14 @@
           "text": "Rabicano"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "Rabicano is a white-ticking pattern concentrated around the flanks, belly, ribs, and especially the base of the tail. White hairs may extend upward from the flank in narrow vertical streaks, while the tailhead can show the characteristic banded or 'skunk-tail' appearance. Unlike classic roan, which is distributed more evenly over the body, rabicano is strongly localized and typically leaves the head unaffected.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-36",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
       "image": "img/quiz/coat-phenomena/36.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1238,14 +1236,14 @@
           "text": "Bloodmarks"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Mosaicism is a genetic phenomenon in which a horse develops from a single fertilized egg but, because of a somatic mutation during early embryonic development, ends up with two or more genetically distinct cell populations. Pigment mosaicism can produce sharply contrasting, irregular patches or stripes of color—for example, black areas on a chestnut body. Unlike chimerism, mosaicism begins with one embryo rather than the fusion of genetically different embryos, and the visible pattern may follow developmental cell lines such as the lines of Blaschko.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-37",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
       "image": "img/quiz/coat-phenomena/37.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1272,14 +1270,14 @@
           "text": "Rabicano"
         }
       ],
-      "correct_answer_id": "answer-03"
+      "correct_answer_id": "answer-03",
+      "explanation": "Corn spots are dark patches of the horse's original base color that appear in a roan coat, commonly at sites of previous minor scratches, bites, or abrasions. When hair grows back in these areas it may lack the interspersed white hairs typical of roan, leaving small, irregular solid-colored spots. They are therefore a characteristic acquired feature of roan horses rather than a separate spotting pattern.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-38",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
       "image": "img/quiz/coat-phenomena/38.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1306,14 +1304,14 @@
           "text": "Pangaré"
         }
       ],
-      "correct_answer_id": "answer-01"
+      "correct_answer_id": "answer-01",
+      "explanation": "The Catch A Bird anomaly is an extremely rare pattern named after the Thoroughbred stallion Catch A Bird. It appears as irregular vertical white striping over a darker base coat and has therefore been described as reverse brindling. Unlike ordinary brindle, the stripes are made of white hairs rather than darker pigmented hairs. Catch A Bird himself did not directly pass on the striped phenotype, but he produced true roan offspring, making the case notable in discussions of spontaneous KIT-related color mutation.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-39",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
       "image": "img/quiz/coat-phenomena/39.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1340,14 +1338,14 @@
           "text": "Bloodmarks"
         }
       ],
-      "correct_answer_id": "answer-06"
+      "correct_answer_id": "answer-06",
+      "explanation": "Bloodmarks, also called bloody shoulder markings, are rare areas of retained pigmentation seen on gray horses, especially Arabians. A large red, chestnut, brown, or black patch may remain on the shoulder, withers, or side of an otherwise gray horse. The phenomenon is associated with localized failure of the graying process, so the affected area retains the horse's original pre-gray color. A true bloodmark is permanent and is not the result of a wound or other injury.",
+      "image_author": "Неизвестен"
     },
     {
       "id": "question-40",
       "question": "What coat-color phenomenon is this?",
-      "explanation": "Mohammed spots are described as rare, congenital dark oval spots occurring on the hindquarters or thighs, especially against lighter chestnut or palomino-type coats. In traditional lore they are considered lucky markings. They are distinct from Leopard Complex spotting because the horse lacks associated features such as mottled skin, striped hooves, and prominent white sclera, and the dark pigmented areas remain stable throughout life.",
       "image": "img/quiz/coat-phenomena/40.webp",
-      "image_author": "Неизвестен",
       "answers": [
         {
           "id": "answer-01",
@@ -1374,7 +1372,9 @@
           "text": "Massoud spots"
         }
       ],
-      "correct_answer_id": "answer-04"
+      "correct_answer_id": "answer-04",
+      "explanation": "Mohammed spots are described as rare, congenital dark oval spots occurring on the hindquarters or thighs, especially against lighter chestnut or palomino-type coats. In traditional lore they are considered lucky markings. They are distinct from Leopard Complex spotting because the horse lacks associated features such as mottled skin, striped hooves, and prominent white sclera, and the dark pigmented areas remain stable throughout life.",
+      "image_author": "Неизвестен"
     }
   ],
   "translation_status": "current",
@@ -2753,5 +2753,6 @@
       }
     ]
   },
-  "source_content_hash": "ff8fa391d3beeb774a65e8cd28c3fcaa43df8cd9668cee1bcb1b226859c9cc81"
+  "source_content_hash": "ff8fa391d3beeb774a65e8cd28c3fcaa43df8cd9668cee1bcb1b226859c9cc81",
+  "english_quiz": "coat-phenomena-en"
 }
