@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "appaloosa",
   "target_quiz": "appaloosa-en",
   "source_revision": "7e0a658d05189fcd7b92d04b96f4db114a649f14f99fd72262a0c98796cbc440",
