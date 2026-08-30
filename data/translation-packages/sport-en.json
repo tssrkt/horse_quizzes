@@ -7,1009 +7,1009 @@
   "source_revision": "db312197060ff91e3bbace764afd24fe7a391aef5298c3b3fb6cde5d1cd78e2f",
   "mode": "created",
   "fields": {
-    "title": "Конный спорт",
-    "short_description": "Любите конный спорт или только начинаете с ним знакомиться? Эта викторина поможет проверить знания о спортивных дисциплинах, правилах, экипировке и многом другом.",
-    "intro": "Любите конный спорт или только начинаете с ним знакомиться? Эта викторина поможет проверить знания о спортивных дисциплинах, правилах, экипировке и многом другом.",
+    "title": "Equestrian Sport",
+    "short_description": "Do you love equestrian sport, or are you just getting into it? This quiz will test your knowledge of disciplines, rules, equipment, and much more.",
+    "intro": "Do you love equestrian sport, or are you just getting into it? This quiz will test your knowledge of disciplines, rules, equipment, and much more.",
     "questionImagesAlt": ""
   },
   "questions": [
     {
       "id": "question-01",
       "fields": {
-        "question": "Что такое конкур?",
-        "explanation": "Конкур (или конкур-иппик) — это самый популярный и массовый олимпийский вид конного спорта, суть которого заключается в скоростном преодолении установленных на боевом поле препятствий в определенном порядке. Всадник и лошадь должны пройти весь маршрут за отведенное время, не задев и не разрушив хрупкие жерди барьеров, высота которых на профессиональных турнирах может достигать 160 сантиметров. За каждый сбитый элемент, превышение лимита времени или отказ лошади прыгать (закидку) спортивная пара получает штрафные очки, а победителем становится тот, кто прошел дистанцию чище и быстрее всех."
+        "question": "What is show jumping?",
+        "explanation": "Show jumping is one of the most popular Olympic equestrian disciplines. Horse and rider must complete a set course of obstacles in the prescribed order and within the allowed time, while avoiding knocked rails and other faults. At top-level competitions, fences may reach about 160 centimeters in height. Penalties are given for faults such as knocking down an obstacle, exceeding the time allowed, or a refusal. The winner is the combination that completes the course with the fewest faults and, where time is decisive, the fastest time."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Командная игра с мячом верхом"
+          "text": "A team ball game played on horseback"
         },
         {
           "id": "answer-02",
-          "text": "Фигурное катание на лошадях в манеже"
+          "text": "Figure skating on horseback in an arena"
         },
         {
           "id": "answer-03",
-          "text": "Преодоление препятствий на специальном поле"
+          "text": "Jumping a course of obstacles in an arena"
         },
         {
           "id": "answer-04",
-          "text": "Скоростной бег коней на ипподроме"
+          "text": "High-speed horse racing on a racetrack"
         }
       ]
     },
     {
       "id": "question-02",
       "fields": {
-        "question": "Что такое выездка?",
-        "explanation": "Выездка (по международной терминологии — дрессура) — это олимпийский вид конного спорта, который часто называют балетом на лошадях. В ходе соревнований всадник и лошадь демонстрируют в манеже выполнение сложной программы, состоящей из различных элементов, аллюров и фигур (таких как пируэты, пассаж, пиаффе и менка ног на галопе). Судьи оценивают гармонию, гибкость, послушание животного, а также незаметность команд человека, создающие впечатление, будто конь выполняет все движения по собственной воле. Выездка является высшей формой искусства управления лошадью, требующей многолетних тренировок и глубокого взаимопонимания между спортсменом и его четвероногим партнером."
+        "question": "What is dressage?",
+        "explanation": "Dressage is an Olympic equestrian discipline often described as ballet on horseback. Horse and rider perform a prescribed test in an arena, including different movements, gaits, and figures such as pirouettes, passage, piaffe, and flying changes. Judges assess harmony, suppleness, obedience, and the subtlety of the rider’s aids, ideally creating the impression that the horse performs willingly and almost by itself. Dressage represents a highly refined form of horse training and riding that requires years of preparation and close cooperation between horse and rider."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Процесс приручения дикой дикой лошади"
+          "text": "The process of taming a wild horse"
         },
         {
           "id": "answer-02",
-          "text": "Обучение коня тягловой работе в поле"
+          "text": "Training a horse for draft work in the fields"
         },
         {
           "id": "answer-03",
-          "text": "Высшая школа верховой езды и дрессуры"
+          "text": "Advanced schooling and training under saddle"
         },
         {
           "id": "answer-04",
-          "text": "Скоростной бег с препятствиями на поле"
+          "text": "A high-speed obstacle race across a field"
         }
       ]
     },
     {
       "id": "question-03",
       "fields": {
-        "question": "Что такое троеборье?",
-        "explanation": "Конное троеборье — это сложнейший олимпийский вид спорта, который включает в себя три самостоятельные дисциплины, проверяющие универсальность подготовки лошади и всадника. В первый день спортивная пара демонстрирует грацию и послушание в манежной езде (выездке), во второй день проходит самое зрелищное и опасное испытание — кросс по пересеченной местности с тяжелыми массивными препятствиями, а в третий день сдает тест на прыжковую технику и сохранение сил в конкуре на боевом поле. На протяжении всего турнира спортсмен выступает на одной и той же лошади, а итоговый результат складывается из штрафных очков, полученных за все три дня соревнований."
+        "question": "What is eventing?",
+        "explanation": "Eventing is a demanding Olympic equestrian sport combining three separate phases that test the versatility of horse and rider. The pair performs dressage, then tackles a cross-country course over solid natural-style obstacles, and finally completes a show-jumping round that tests accuracy and remaining fitness. The same horse and rider compete throughout the event, and the final result is based on the penalties accumulated across all three phases."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Выездка одной лошади тремя разными спортсменами"
+          "text": "One horse ridden in dressage by three different athletes"
         },
         {
           "id": "answer-02",
-          "text": "Соревнования по преодолению трех видов препятствий"
+          "text": "A competition over three types of obstacles"
         },
         {
           "id": "answer-03",
-          "text": "Групповая гонка трех всадников на скорость"
+          "text": "A speed race between three riders"
         },
         {
           "id": "answer-04",
-          "text": "Олимпийское конное многоборье из трех дисциплин"
+          "text": "An Olympic equestrian competition consisting of three phases"
         }
       ]
     },
     {
       "id": "question-04",
       "fields": {
-        "question": "Что такое драйвинг?",
-        "explanation": "Драйвинг — это официальная дисциплина конного спорта под эгидой Международной федерации (FEI), в которой спортсмены соревнуются в управлении конными экипажами. В зависимости от класса соревнований, в повозку может быть запряжена одна лошадь, пара или четверка коней (цуг), а сам турнир обычно длится три дня и включает аналог троеборья: дрессаж (манежную езду), марафон по пересеченной местности с препятствиями и паркур (езду между конусами на точность). В драйвинге оценивается не только скорость и выносливость лошадей, но и филигранное мастерство драйвера (кучера), слаженность работы всей команды и безупречный внешний вид старинных или современных экипажей."
+        "question": "What is combined driving?",
+        "explanation": "Combined driving is an FEI equestrian discipline in which athletes compete with horse-drawn carriages. Depending on the class, the turnout may consist of a single horse, a pair, or a team of four. The competition is traditionally made up of three phases comparable to eventing: driven dressage, a cross-country marathon with obstacles, and cones driving for accuracy. The sport tests not only the horses’ speed and stamina, but also the driver’s precision, the teamwork of the entire turnout, and the presentation of the carriage and harness."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Фигурное управление конем с помощью одного повода"
+          "text": "Guiding a horse through patterns with a single rein"
         },
         {
           "id": "answer-02",
-          "text": "Соревнования на конных экипажах на управление"
+          "text": "A competition in controlling horse-drawn carriages"
         },
         {
           "id": "answer-03",
-          "text": "Экстремальные прыжки в воду верхом на коне"
+          "text": "Extreme jumping into water on horseback"
         },
         {
           "id": "answer-04",
-          "text": "Скоростной бег лошадей, запряженных в качалки"
+          "text": "High-speed racing of horses pulling sulkies"
         }
       ]
     },
     {
       "id": "question-05",
       "fields": {
-        "question": "Что такое дистанционные конные пробеги?",
-        "explanation": "Дистанционные конные пробеги (ДКП) — это международная дисциплина конного спорта, направленная на проверку выносливости лошади и тактического мастерства всадника на сверхдлинных дистанциях от 40 до 160 километров за один день. Соревнования проходят по пересеченной местности в естественных условиях, а трасса разделена на несколько этапов (веток). Главной особенностью пробегов является строжайший ветеринарный контроль: в конце каждого этапа пульс и дыхание лошади должны восстановиться до нормы за строго отведенное время, иначе спортивную пару дисквалифицируют. Победителем признается всадник, который первым пересек финишную черту, успешно пройдя все промежуточные и финальный ветчеки."
+        "question": "What is endurance riding?",
+        "explanation": "Endurance riding is an international equestrian discipline designed to test the horse’s stamina and the rider’s pace strategy over long distances, which may range from about 40 to 160 kilometers in a day. The route runs across natural terrain and is divided into several loops. A defining feature of endurance is strict veterinary control: after each loop, the horse must recover sufficiently and meet veterinary criteria before continuing. The winner is the first eligible combination to finish after successfully passing all required veterinary inspections."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Командная эстафета всадников с передачей флага"
+          "text": "A team relay race in which riders pass a flag"
         },
         {
           "id": "answer-02",
-          "text": "Прыжки через массивные естественные препятствия в лесу"
+          "text": "Jumping large natural obstacles in a forest"
         },
         {
           "id": "answer-03",
-          "text": "Соревнования на выносливость по пересеченной местности"
+          "text": "A long-distance endurance competition over natural terrain"
         },
         {
           "id": "answer-04",
-          "text": "Скоростные гладкие скачки по кругу ипподрома"
+          "text": "Flat racing around a racetrack"
         }
       ]
     },
     {
       "id": "question-06",
       "fields": {
-        "question": "Что такое левада?",
-        "explanation": "В выездке левада — это сложнейший элемент высшей школы верховой езды («над землей»), при котором лошадь плавно поднимает переднюю часть корпуса и замирает, удерживая равновесие на сильно согнутых задних ногах под углом около 45 градусов к земле. В отличие от обычного свечки (опасного вздыбливания), этот элемент требует колоссального сбора, силы мышц спины и крупа, а также полного контроля со стороны всадника, демонстрируя наивысшую степень баланса и подчинения лошади."
+        "question": "What is a levade?",
+        "explanation": "In classical dressage and the airs above the ground, the levade is an advanced movement in which the horse raises the forehand and balances on deeply flexed hind legs, holding the body at roughly a 45-degree angle to the ground. Unlike an uncontrolled rear, the levade requires exceptional collection, strength through the back and hindquarters, balance, and precise control by the rider."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент верховой езды когда конь отбивает задними ногами"
+          "text": "A riding movement in which the horse kicks out with the hind legs"
         },
         {
           "id": "answer-02",
-          "text": "Элемент верховой езды когда конь поднимается на задние ноги"
+          "text": "A riding movement in which the horse raises the forehand and balances on the hind legs"
         },
         {
           "id": "answer-03",
-          "text": "Скоростной забег на ипподроме по кругу"
+          "text": "A high-speed race around a racetrack"
         },
         {
           "id": "answer-04",
-          "text": "Выполнение сложных трюков на арене"
+          "text": "Performing difficult tricks in an arena"
         }
       ]
     },
     {
       "id": "question-07",
       "fields": {
-        "question": "Что такое вольтижировка?",
-        "explanation": "Вольтижировка — это зрелищная дисциплина конного спорта, в которой один или группа спортсменов выполняют гимнастические и акробатические упражнения на движущейся лошади. Лошадь при этом бежит рысью или галопом по кругу диаметром не менее 15 метров, а управляет ею с земли специальный человек — лонжер. Этот вид спорта требует от всадника исключительного баланса, гибкости, силы и координации, а от самой лошади — идеального послушания, устойчивой психики и плавного, ритмичного аллюра. Вольтижировка зародилась как элемент боевой подготовки кавалеристов, которым требовалось на ходу запрыгивать в седло или уворачиваться от врагов, но сегодня она признана Международной федерацией конного спорта (FEI) и развита как самостоятельное, безопасное и невероятно красивое искусство танца на спине бегущего животного."
+        "question": "What is equestrian vaulting?",
+        "explanation": "Equestrian vaulting is a spectacular discipline in which one or more athletes perform gymnastic and acrobatic exercises on a moving horse. The horse travels on a circle while being controlled from the ground by a lunger. Vaulting demands exceptional balance, flexibility, strength, and coordination from the athlete, while the horse must be steady, obedient, and rhythmic. The discipline has historical roots in cavalry training and today is recognized by the FEI as a sport in its own right."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Обучение жеребенка первым командам "
+          "text": "Teaching a foal its first commands"
         },
         {
           "id": "answer-02",
-          "text": "Скоростная езда на повозках с лошадьми"
+          "text": "High-speed carriage driving"
         },
         {
           "id": "answer-03",
-          "text": "Гимнастические упражнения на движущейся лошади"
+          "text": "Gymnastic exercises on a moving horse"
         },
         {
           "id": "answer-04",
-          "text": "Преодоление серии высоких деревянных барьеров"
+          "text": "Jumping a series of high wooden fences"
         }
       ]
     },
     {
       "id": "question-08",
       "fields": {
-        "question": "Что такое рейнинг?",
-        "explanation": "Рейнинг — это популярная дисциплина конного спорта, которую часто называют «выездкой в стиле вестерн», зародившаяся на основе рабочих навыков американских ковбоев. В этих соревнованиях всадники управляют лошадью исключительно одной рукой, выполняя на арене обязательную схему элементов на галопе. Главными визитными карточками рейнинга являются экстремальные элементы: sliding stop (эффектное торможение на задних ногах, когда лошадь буквально скользит по грунту) и spin (молниеносное вращение на месте на задних копытах). Судьи оценивают не только точность и скорость выполнения движений, но и готовность лошади полностью подчиняться всаднику при минимальном, почти незаметном воздействии поводьев, что создает иллюзию, будто животное само знает программу."
+        "question": "What is reining?",
+        "explanation": "Reining is a western riding discipline sometimes described as western dressage. It developed from the practical riding skills of American cowboys. Riders perform a prescribed pattern, traditionally using one hand on the reins, and the horse must execute maneuvers such as the sliding stop and spin with speed, precision, and willingness. Judges assess accuracy, control, smoothness, and the horse’s responsiveness to subtle aids."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Танцы с лошадью под классическую музыку"
+          "text": "Dancing with a horse to classical music"
         },
         {
           "id": "answer-02",
-          "text": "Вестерн-дисциплина с элементами скольжения и вращения"
+          "text": "A western discipline featuring sliding stops and spins"
         },
         {
           "id": "answer-03",
-          "text": "Прыжки через массивные деревянные барьеры"
+          "text": "Jumping large wooden fences"
         },
         {
           "id": "answer-04",
-          "text": "Демонстрация красивых аллюров в карете"
+          "text": "Showing elegant gaits while pulling a carriage"
         }
       ]
     },
     {
       "id": "question-09",
       "fields": {
-        "question": "Что такое рабочая выездка (Working Equitation)?",
-        "explanation": "Рабочая выездка (Working Equitation) — это международная дисциплина конного спорта, созданная для сохранения национальных традиций, костюмов и приемов работы всадников на фермах и пастбищах разных стран. Соревнования сочетают в себе классическую выездку на манеже и прохождение полосы препятствий, которая имитирует реальные полевые условия: открытие ворот, переход через деревянный мостик, прыжки через бревна и даже работу с деревянным копьем (гаррочей). Лошадь в рабочей выездке должна демонстрировать абсолютное доверие человеку, маневренность, смелость и способность мгновенно менять направление движения. На высших уровнях сложности всадники управляют лошадью строго одной рукой, что доказывает высочайший уровень взаимопонимания между животным и человеком."
+        "question": "What is Working Equitation?",
+        "explanation": "Working Equitation is an international discipline created to preserve traditional riding styles, clothing, and livestock-working skills from different countries. Competition combines dressage with obstacle work inspired by practical field tasks, such as opening a gate, crossing a bridge, negotiating logs, and handling a pole or garrocha. The horse must show trust, agility, courage, and quick responses. At advanced levels, riders may perform with one hand on the reins, demonstrating a high degree of communication between horse and rider."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Фигурное катание на санях зимой"
+          "text": "Decorative sleigh driving in winter"
         },
         {
           "id": "answer-02",
-          "text": "Лечение людей с помощью верховой езды"
+          "text": "Therapeutic riding for people"
         },
         {
           "id": "answer-03",
-          "text": "Скоростное преодоление высоких тройных барьеров"
+          "text": "High-speed jumping over large triple fences"
         },
         {
           "id": "answer-04",
-          "text": "Прохождение препятствий на основе пастушьих традиций"
+          "text": "Negotiating obstacles based on traditional livestock-working skills"
         }
       ]
     },
     {
       "id": "question-10",
       "fields": {
-        "question": "Что такое джигитовка?",
-        "explanation": "Джигитовка — это традиционный военно-прикладной вид конного спорта, зародившийся у казаков и народов Кавказа как искусство боевой верховой езды. Во время движения лошади стремительным галопом по прямой дорожке всадник выполняет серию сложных гимнастических и акробатических трюков, таких как соскоки на землю и запрыгивания обратно в седло, езда задом наперед, пролезание под брюхом коня и поднятие предметов с земли. Помимо демонстрации ловкости, джигитовка включает в себя военно-прикладной раздел: владение холодным оружием (рубка шашкой, уколы пикой) и стрельбу на скаку. Современные соревнования требуют от спортсмена феноменальной отваги и баланса, а от лошади — идеального прямолинейного галопа с постоянной скоростью и полного бесстрашия перед взмахами оружия."
+        "question": "What is jigitovka, or Cossack trick riding?",
+        "explanation": "Jigitovka is a traditional military-style form of trick riding associated with Cossack and Caucasian horsemanship. At a fast gallop, the rider performs demanding acrobatic maneuvers such as dismounting and remounting at speed, riding backward, passing beneath the horse’s belly, and picking objects up from the ground. Traditional forms also include mounted weapons skills, such as saber work, lance work, and shooting. The discipline demands exceptional courage, balance, and coordination from the rider and a steady, fearless gallop from the horse."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Преодоление водных препятствий на скорость"
+          "text": "Jumping water obstacles at speed"
         },
         {
           "id": "answer-02",
-          "text": "Соревнования тяжеловозов по перевозке грузов"
+          "text": "Draft-horse pulling competitions"
         },
         {
           "id": "answer-03",
-          "text": "Военно-прикладной спорт с акробатическими трюками"
+          "text": "A military-style riding sport featuring acrobatic tricks"
         },
         {
           "id": "answer-04",
-          "text": "Фигурная езда под классическую музыку"
+          "text": "Pattern riding to classical music"
         }
       ]
     },
     {
       "id": "question-11",
       "fields": {
-        "question": "Что такое конное поло?",
-        "explanation": "Конное поло — это старейший командный вид спорта, в котором игроки верхом на лошадях стремятся забить мяч в ворота соперника с помощью специальных бамбуковых клюшек. В матче участвуют две команды по четыре человека в каждой, а сама игра проходит на огромном травяном поле размером примерно с девять футбольных полей. Для этой дисциплины используются особые маневренные и резвые лошади, которых называют «поло-пони», хотя анатомически они являются полноценными верховыми лошадьми. Из-за колоссальных нагрузок и высочайших скоростей всадники меняют лошадей после каждого игрового периода (чаккера), поэтому для одного матча спортсмену требуется целая команда из 4–6 подготовленных животных."
+        "question": "What is polo?",
+        "explanation": "Polo is one of the oldest team sports played on horseback. Players use long-handled mallets to strike a ball and score through the opposing team’s goal. Outdoor polo is normally played by two teams of four on a very large grass field. The agile, fast horses used in the sport are traditionally called polo ponies even though most are full-sized horses. Because the game is extremely demanding, players change mounts between chukkas and may need several prepared horses for a single match."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Синхронный танец нескольких всадников на арене"
+          "text": "A synchronized dance by several riders in an arena"
         },
         {
           "id": "answer-02",
-          "text": "Командная игра деревянными клюшками и мячом"
+          "text": "A team game played with mallets and a ball"
         },
         {
           "id": "answer-03",
-          "text": "Преодоление природных препятствий в лесной зоне"
+          "text": "Jumping natural obstacles in woodland"
         },
         {
           "id": "answer-04",
-          "text": "Скоростной бег лошадей без участия всадника"
+          "text": "High-speed racing without riders"
         }
       ]
     },
     {
       "id": "question-12",
       "fields": {
-        "question": "Что такое тентпеггинг?",
-        "explanation": "Тентпеггинг — это древний кавалерийский вид конного спорта, признанный Международной федерацией конного спорта, в котором всадник на полной скорости должен поразить оружием наземную цель. На скаку галопом спортсмен использует длинное копье или саблю, чтобы поддеть, сорвать с земли и увезти с собой маленькую деревянную или картонную мишень (колышек), вбитую в грунт под углом. Название дисциплины буквально переводится как «вырывание колышков палатки»: исторически этот навык использовался конницей для внезапных ночных атак на лагеря противника, чтобы обрушить их палатки на спящих солдат. Сегодня тентпеггинг требует от всадника идеальной координации, меткости и стальных нервов, а от лошади — способности не пугаться резких движений оружия и сохранять ровный, стремительный галоп."
+        "question": "What is tent pegging?",
+        "explanation": "Tent pegging is an old cavalry sport in which a rider gallops at a ground target and strikes or lifts it with a weapon, usually a lance or sword. The competitor must spear, cut, or pick up a small wooden or cardboard peg set into the ground. The name refers to the traditional idea of pulling out tent pegs during cavalry raids. Modern tent pegging demands precise coordination, accuracy, nerve, and a horse that will maintain a fast, straight gallop without reacting to sudden weapon movements."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Прыжки в воду на специальных лошадях"
+          "text": "Jumping into water on specially trained horses"
         },
         {
           "id": "answer-02",
-          "text": "Срезание копьем деревянных колышков на скаку"
+          "text": "Spearing or lifting wooden pegs from the ground at the gallop"
         },
         {
           "id": "answer-03",
-          "text": "Командная ловля бычков с помощью лассо"
+          "text": "Team roping of cattle with lassos"
         },
         {
           "id": "answer-04",
-          "text": "Очистка копыт специальным металлическим крючком"
+          "text": "Cleaning hooves with a metal hoof pick"
         }
       ]
     },
     {
       "id": "question-13",
       "fields": {
-        "question": "Что такое роупинг?",
-        "explanation": "Роупинг — это ковбойская дисциплина вестерн-спорта, зародившаяся на основе повседневной работы американских скотоводов по поимке животных в прерии. Задача всадника заключается в том, чтобы на специально обученной четвертьмильной лошади (квотерхорс) догнать бегущего бычка или теленка и метко набросить на него лассо (роуп). В роупинге существуют разные форматы: одиночный, где нужно быстро связать ноги пойманного животного, и командный, где один всадник ловит быка за рога или шею, а второй — за задние ноги. Этот спорт требует от лошади невероятной стартовой скорости, маневренности и так называемого «чувства коровы» (способности предугадывать движения скота), а также умения мгновенно замереть после остановки, натянув веревку, пока всадник работает на земле."
+        "question": "What is roping?",
+        "explanation": "Roping is a western discipline derived from the practical cattle-handling work of American ranchers. Mounted on a specially trained stock horse, the rider must catch a running calf or steer with a rope. Different events include tie-down roping and team roping, in which one rider catches the animal around the horns or neck and another ropes the hind legs. The sport requires explosive acceleration, maneuverability, cow sense, and a horse trained to stop and hold the rope while the rider works."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Фигурная езда в экипажах по городским улицам"
+          "text": "Decorative carriage driving through city streets"
         },
         {
           "id": "answer-02",
-          "text": "Дрессировка диких лошадей без использования уздечки"
+          "text": "Training wild horses without a bridle"
         },
         {
           "id": "answer-03",
-          "text": "Преодоление глубоких водных каналов на скорость"
+          "text": "Racing through deep water obstacles"
         },
         {
           "id": "answer-04",
-          "text": "Скоростная поимка теленка с помощью лассо"
+          "text": "Catching a calf quickly with a rope"
         }
       ]
     },
     {
       "id": "question-14",
       "fields": {
-        "question": "Что такое каттинг?",
-        "explanation": "Каттинг — это одна из самых азартных дисциплин вестерн-спорта, в которой всадник и лошадь должны отделить (отрезать) одного бычка от стада и удерживать его в центре арены, не позволяя вернуться назад. Уникальность этого спорта заключается в том, что после того, как нужный бычок изолирован, всадник полностью опускает поводья на шею лошади и больше не управляет ею руками. Лошадь должна самостоятельно реагировать на каждое движение быка, зеркально блокируя его попытки прорваться обратно. Для этого используются лошади породы квотерхорс, обладающие врожденным «чувством коровы» (cow sense): они совершают невероятно резкие прыжки, припадают к самой земле и буквально танцуют перед бычком, демонстрируя потрясающий природный интеллект и гибкость."
+        "question": "What is cutting?",
+        "explanation": "Cutting is a western discipline in which horse and rider separate one cow from a herd and prevent it from returning. Once the cow has been selected, the rider loosens the reins and allows the horse to react independently to the animal’s movements. A good cutting horse uses strong cow sense to mirror the cow, make rapid lateral changes, drop low, and block every attempt to rejoin the herd. Quarter Horses are particularly famous for this work."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Скоростной бег лошадей на длинные дистанции"
+          "text": "Long-distance speed racing"
         },
         {
           "id": "answer-02",
-          "text": "Синхронный танец нескольких всадников под музыку"
+          "text": "Synchronized riding by several riders to music"
         },
         {
           "id": "answer-03",
-          "text": "Отделение и удержание бычка вдали от стада"
+          "text": "Separating one cow and keeping it away from the herd"
         },
         {
           "id": "answer-04",
-          "text": "Прыжки через массивные тройные деревянные барьеры"
+          "text": "Jumping massive triple wooden fences"
         }
       ]
     },
     {
       "id": "question-15",
       "fields": {
-        "question": "Что такое баррел рейсинг?",
-        "explanation": "Баррел рейсинг (скачки вокруг бочек) — это динамичная и скоростная дисциплина вестерн-спорта, в которой всадник и лошадь должны как можно быстрее пройти маршрут вокруг трех бочек, расставленных на арене в форме треугольника (клеверного листа). Это традиционно женский вид спорта, зародившийся в США, где победу решают сотые доли секунды, поэтому от пары требуется идеальная траектория и максимальная скорость. Лошадь должна обладать мощным стартовым ускорением, гибкостью и умением закладывать невероятно крутые виражи, буквально прижимаясь корпусом к бочке на повороте. За сбитую бочку участник получает штрафные секунды, что исключает шансы на победу, поэтому здесь важна не просто скорость, а ювелирная точность управления на пределе возможностей."
+        "question": "What is barrel racing?",
+        "explanation": "Barrel racing is a fast western event in which horse and rider race around three barrels arranged in a cloverleaf pattern. The result is decided by time, often down to hundredths of a second, so the pair needs both maximum speed and a very efficient line. The horse must accelerate hard, stay balanced, and make extremely tight turns around the barrels. Knocking over a barrel brings a time penalty, so precision is just as important as speed."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Ловля дикого быка с помощью длинного лассо"
+          "text": "Catching a wild bull with a long lasso"
         },
         {
           "id": "answer-02",
-          "text": "Фигурная езда шагом под классическую музыку"
+          "text": "Slow pattern riding to classical music"
         },
         {
           "id": "answer-03",
-          "text": "Скоростной забег вокруг трёх металлических бочек"
+          "text": "A timed race around three barrels"
         },
         {
           "id": "answer-04",
-          "text": "Преодоление препятствий из поваленных лесных деревьев"
+          "text": "Jumping obstacles made from fallen forest trees"
         }
       ]
     },
     {
       "id": "question-16",
       "fields": {
-        "question": "Что такое конкурное дерби?",
-        "explanation": "Конкурное дерби — это уникальная и наиболее сложная разновидность классического конкура, которая сочетает в себе прыжки через традиционные разрушаемые барьеры и массивные неразрушимые природные препятствия. Маршрут дерби значительно длиннее обычного (до 1200 метров и более), включает до 25-30 прыжков и пролегает по обширному травяному полю с естественным рельефом. Всадники и лошади сталкиваются со специфическими задачами: прыжками через каменные заборы, живые изгороди, широкие канавы с водой, а также спусками и подъемами по крутым земляным валам (кавалам). Эти соревнования требуют от лошади феноменальной выносливости, абсолютной универсальности, смелости перед необычными барьерами и ювелирной управляемости на высоких скоростях."
+        "question": "What is a show-jumping derby?",
+        "explanation": "A show-jumping derby is an especially demanding type of jumping competition that combines ordinary knockable show-jumping fences with natural or natural-style obstacles. Derby courses are usually much longer than standard jumping rounds and may contain many more fences over varied terrain. Riders can face walls, hedges, water, banks, slopes, and other unusual questions. The format requires stamina, courage, versatility, and accurate control at speed."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Демонстрация трюков на неоседланной дикой лошади"
+          "text": "Performing tricks on an unbroken horse"
         },
         {
           "id": "answer-02",
-          "text": "Длинный конкур с естественными природными препятствиями"
+          "text": "A long jumping course incorporating natural obstacles"
         },
         {
           "id": "answer-03",
-          "text": "Скоростные скачки гладких скаковых лошадей на ипподроме"
+          "text": "Flat racing on a racetrack"
         },
         {
           "id": "answer-04",
-          "text": "Соревнования по перевозке тяжелых грузов на время"
+          "text": "Timed heavy-load pulling"
         }
       ]
     },
     {
       "id": "question-17",
       "fields": {
-        "question": "Что такое оксер?",
-        "explanation": "Оксер — это один из самых распространенных типов препятствий в конном спорте (конкуре), который представляет собой широтный барьер, состоящий из двух линий вертикальных стоек с жердями. Жерди располагаются параллельно друг другу на определенной высоте и расстоянии, заставляя лошадь совершать прыжок не только в высоту, но и в длину. Передняя жердь оксера всегда устанавливается на уровне задней или чуть ниже (такой барьер называют ступенчатым), что помогает лошади правильно рассчитать траекторию прыжка. Существуют разные модификации этого препятствия, включая «квадратный» оксер с одинаковой высотой обеих жердей и «зеленый» оксер с живой изгородью внутри, но все они требуют от лошади мощного толчка задними ногами и хорошей координации в воздухе."
+        "question": "What is an oxer?",
+        "explanation": "An oxer is one of the most common spread fences in show jumping. It consists of two parallel sets of standards and rails, so the horse must jump both upward and across a certain width. The front rail is generally no higher than the back rail and may be slightly lower in an ascending oxer. Variations include square oxers and oxers filled with brush or other material. All require sufficient power from the hindquarters and good coordination in the air."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Широтный барьер из двух параллельных жердей"
+          "text": "A spread fence made of two parallel sets of rails"
         },
         {
           "id": "answer-02",
-          "text": "Высокое каменное препятствие в форме стены"
+          "text": "A high stone wall"
         },
         {
           "id": "answer-03",
-          "text": "Одиночная горизонтальная жердь на двух стойках"
+          "text": "A single horizontal rail on two standards"
         },
         {
           "id": "answer-04",
-          "text": "Крутой земляной вал для спуска лошади"
+          "text": "A steep earth bank used for a drop"
         }
       ]
     },
     {
       "id": "question-18",
       "fields": {
-        "question": "Что такое чухонец?",
-        "explanation": "Чухонец — это классическое вертикальное препятствие в конном спорте (конкуре), которое представляет собой одиночный барьер из нескольких горизонтальных жердей, закрепленных на двух стойках одна над другой. В отличие от широтных препятствий, чухонец требует от лошади прыжка исключительно в высоту, что делает его визуально простым, но технически коварным элементом маршрута. Поскольку барьер плоский и не имеет глубины, всаднику очень важно правильно рассчитать точку отталкивания: если лошадь подойдет слишком близко или далеко, она неизбежно собьет верхнюю жердь копытами. На соревнованиях чухонец часто маскируют, добавляя под жерди яркие щиты или заборчики, чтобы проверить внимательность и смелость лошади."
+        "question": "What is a vertical fence?",
+        "explanation": "A vertical is a classic show-jumping fence made from rails or planks set one above another between two standards, with little or no spread. Unlike an oxer, it tests height rather than width. Because the fence has no depth, the rider must judge the takeoff point carefully; a poor distance can easily result in the horse touching the top rail. Fillers, gates, or decorative panels may be placed beneath the rails to make the obstacle more visually challenging."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Широкое препятствие в виде канавы с водой"
+          "text": "A wide water-filled ditch"
         },
         {
           "id": "answer-02",
-          "text": "Вертикальный барьер из одиночных горизонтальных жердей"
+          "text": "An upright fence made from horizontal rails"
         },
         {
           "id": "answer-03",
-          "text": "Массивное сооружение из тяжелых деревянных бревен"
+          "text": "A massive obstacle made from heavy logs"
         },
         {
           "id": "answer-04",
-          "text": "Крутой земляной спуск с отвесного холма"
+          "text": "A steep downhill earth drop"
         }
       ]
     },
     {
       "id": "question-19",
       "fields": {
-        "question": "Что такое клавиши?",
-        "explanation": "Клавиши (гимнастические прыжки) — это специальное тренировочное упражнение в конном спорте, которое представляет собой ряд из нескольких невысоких барьеров, установленных на строго определенном расстоянии друг от друга. Особенность этого упражнения заключается в том, что расстояние между жердями рассчитывается так, чтобы лошадь, приземлившись после одного барьера, сразу же делала толчок на следующий без совершения промежуточных шагов галопа (в один темп или «в темп прыжка»). Клавиши являются важнейшим элементом подготовки конкурных и троеборных лошадей: они великолепно развивают у животного чувство баланса, гибкость спины, координацию движений и силу толчка задних ног. Кроме того, это упражнение помогает начинающим всадникам выработать правильную посадку в прыжке, так как ритмичные подсказки барьеров позволяют не думать о расчете дистанции."
+        "question": "What is a bounce grid?",
+        "explanation": "A bounce grid is a gymnastic jumping exercise consisting of several low fences placed at carefully measured distances. The spacing is set so that the horse lands after one fence and immediately takes off over the next without a canter stride in between. Bounce grids are widely used to develop balance, back suppleness, coordination, and hindquarter power. They also help riders improve their jumping position and rhythm without having to judge every distance individually."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Защитные пластиковые щитки на ногах лошади"
+          "text": "Protective plastic boots for a horse’s legs"
         },
         {
           "id": "answer-02",
-          "text": "Инструмент для чистки копыт от грязи"
+          "text": "A tool for cleaning mud from hooves"
         },
         {
           "id": "answer-03",
-          "text": "Ряд барьеров для прыжков без промежуточных шагов"
+          "text": "A row of fences jumped with no canter strides between them"
         },
         {
           "id": "answer-04",
-          "text": "Специальные педали для управления каретой ногами"
+          "text": "Special pedals used to control a carriage with the feet"
         }
       ]
     },
     {
       "id": "question-20",
       "fields": {
-        "question": "Что такое тройная система?",
-        "explanation": "Тройная система — это сложное комбинированное препятствие в конном спорте (конкуре), состоящее из трех отдельных барьеров, расположенных на близком расстоянии друг от друга (в один или два темпа галопа лошади). Элементы системы обозначаются латинскими буквами А, В и С, а вся комбинация считается судьями как единое препятствие: если лошадь совершает разрушение или отказ на элементе В или С, всадник обязан заново перепрыгивать всю систему с самого начала (с элемента А). Тройная система считается одним из самых трудных испытаний на маршруте, так как требует от лошади максимальной концентрации, гибкости и способности мгновенно менять траекторию прыжка. Всадник же должен ювелирно рассчитать скорость и точку входа в элемент А, чтобы у лошади хватило инерции и правильного баланса чисто преодолеть последующие барьеры."
+        "question": "What is a triple combination?",
+        "explanation": "A triple combination is a complex show-jumping obstacle made up of three separate elements set close together, usually one or two canter strides apart. The elements are labeled A, B, and C and together form one numbered obstacle. If a horse refuses at a later element, the rules may require the combination to be approached again from the beginning. Triple combinations demand concentration, adjustability, and careful control of pace and distance."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Специальное крепление для трех лошадей в телеге"
+          "text": "A special hitch for three horses pulling a cart"
         },
         {
           "id": "answer-02",
-          "text": "Комбинация из трех близко расположенных барьеров"
+          "text": "A combination of three closely spaced jumping elements"
         },
         {
           "id": "answer-03",
-          "text": "Метод оценки экстерьера трех разных пород"
+          "text": "A method for comparing the conformation of three breeds"
         },
         {
           "id": "answer-04",
-          "text": "Защитная попона из трех слоев ткани"
+          "text": "A protective rug made from three layers of fabric"
         }
       ]
     },
     {
       "id": "question-21",
       "fields": {
-        "question": "Что такое банкет?",
-        "explanation": "Банкет — это специфическое неразрушимое препятствие в конном спорте (преимущественно в троеборье и конкурных дерби), представляющее собой искусственную или естественную земляную ступень с отвесными краями. Банкеты бывают двух типов: «впрыгивание» (когда лошадь с ходу заскакивает на возвышение) и «соскок» (когда она аккуратно спрыгивает с него вниз), а на сложных маршрутах их часто объединяют в каскады. Это препятствие не имеет разрушаемых жердей, поэтому оно требует от лошади абсолютного доверия всаднику, координации и смелости, ведь при соскоке животное на мгновение теряет визуальный контакт с точкой приземления. Спортсмен в этот момент обязан сильно отклонить корпус назад, чтобы компенсировать инерцию падения и помочь лошади сохранить баланс."
+        "question": "What is a bank?",
+        "explanation": "A bank is a solid natural or artificial step used mainly in eventing and some jumping derbies. The horse may be asked to jump up onto the raised surface, drop down from it, or negotiate a sequence of steps. Because the obstacle is solid and there are no rails to fall, it requires confidence, coordination, and trust. On a drop, the rider must allow the horse freedom to balance while keeping their own body appropriately positioned."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Железное кольцо для привязывания лошади в деннике"
+          "text": "An iron ring used to tie a horse in a stall"
         },
         {
           "id": "answer-02",
-          "text": "Защитное пластиковое ограждение вокруг песчаной арены"
+          "text": "A plastic barrier around a sand arena"
         },
         {
           "id": "answer-03",
-          "text": "Торжественный обед конников после окончания соревнований"
+          "text": "A formal dinner held after a competition"
         },
         {
           "id": "answer-04",
-          "text": "Земляная ступень для впрыгивания или соскока"
+          "text": "An earth step used for jumping up or dropping down"
         }
       ]
     },
     {
       "id": "question-22",
       "fields": {
-        "question": "Что такое повал?",
-        "explanation": "Повал — это судейский термин в конном спорте (преимущественно в конкуре и троеборье), обозначающий разрушение препятствия лошадью или всадником во время прохождения маршрута. Повалом считается ситуация, когда из-за физического контакта с телом животного или экипировкой спортсмена любая из жердей или элементов барьера (например, верхний блок конкурной стены) падает на землю. Согласно международным правилам, за каждый совершенный повал паре начисляются штрафные очки (обычно 4 штрафных очка), что мгновенно отдаляет участников от призовых мест. При этом, если лошадь просто задела жердь копытом, и та покачнулась в пазах, но осталась лежать на стойках, повал не засчитывается, и штрафные баллы не выставляются."
+        "question": "What is a knockdown in show jumping?",
+        "explanation": "A knockdown occurs when the horse or rider dislodges a rail or another breakable part of an obstacle while completing the course. If contact causes a rail or the top element of a wall to fall, penalties are incurred under the competition rules. Simply touching a rail does not count if it remains supported in the cups. In standard show jumping, a knocked fence normally results in four faults."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Принудительное укладывание лошади на землю человеком"
+          "text": "Forcing a horse to lie down on the ground"
         },
         {
           "id": "answer-02",
-          "text": "Падение жерди при контакте с лошадью"
+          "text": "A rail falling after contact with the horse"
         },
         {
           "id": "answer-03",
-          "text": "Специальный кожаный недоуздок для строптивых коней"
+          "text": "A special leather halter for difficult horses"
         },
         {
           "id": "answer-04",
-          "text": "Болезнь копыт из-за слишком сырой подстилки"
+          "text": "A hoof disease caused by excessively wet bedding"
         }
       ]
     },
     {
       "id": "question-23",
       "fields": {
-        "question": "Что такое закидка?",
-        "explanation": "Закидка — это судейский термин в конном спорте (конкуре и троеборье), обозначающий один из видов неповиновения лошади перед препятствием, когда она резко останавливается прямо перед барьером вместо того, чтобы совершить прыжок. Закидка может произойти из-за испуга животного перед необычным видом препятствия, нерешительности всадника или ошибки в расчете дистанции. Согласно правилам соревнований, первая закидка на маршруте наказывается штрафными очками, а вторая (в некоторых регламентах — третья) приводит к немедленной дисквалификации пары. Если лошадь закинулась, всадник обязан развернуть ее, восстановить контроль и заново зайти на то же самое препятствие, при этом время, потраченное на повторный заход, продолжает учитываться на общем таймере."
+        "question": "What is a refusal?",
+        "explanation": "A refusal is a form of disobedience in jumping in which the horse stops in front of an obstacle instead of jumping it. It may result from fear, hesitation, a poor approach, or an incorrect distance. A refusal is penalized under the rules, and repeated refusals can lead to elimination. After a refusal, the rider must regain control and represent the horse to the obstacle while the clock continues to run."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Отказ лошади прыгать и остановка перед барьером"
+          "text": "The horse stops in front of the obstacle and refuses to jump"
         },
         {
           "id": "answer-02",
-          "text": "Падение всадника вместе с лошадью в воду"
+          "text": "Horse and rider fall into water together"
         },
         {
           "id": "answer-03",
-          "text": "Специальный узел для фиксации хвоста лошади"
+          "text": "A special knot used to secure the tail"
         },
         {
           "id": "answer-04",
-          "text": "Резкий поворот лошади в обратную сторону на галопе"
+          "text": "A sharp turn in the opposite direction at the gallop"
         }
       ]
     },
     {
       "id": "question-24",
       "fields": {
-        "question": "Что такое обнос?",
-        "explanation": "Обнос — это судейский термин в конном спорте (конкуре и троеборье), обозначающий вид неповиновения лошади, при котором она уклоняется от прыжка и пробегает мимо препятствия, вместо того чтобы преодолеть его. В отличие от закидки, когда животное резко тормозит перед барьером, при обносе лошадь проскакивает сбоку от стоек, выходя из-под контроля всадника. Это чаще всего происходит из-за недостаточного контроля со стороны спортсмена, когда он позволяет лошади «вывалиться» плечом наружу, либо из-за хитрости самого животного, не желающего прыгать. Обнос наказывается штрафными очками за неповиновение, а также потерей драгоценного времени, так как всаднику приходится разворачивать лошадь и заново направлять ее на барьер."
+        "question": "What is a run-out?",
+        "explanation": "A run-out is a jumping fault in which the horse avoids the obstacle by passing to one side of it rather than jumping. Unlike a refusal, where the horse stops in front of the fence, a run-out involves escaping around the obstacle line. It often happens when the rider loses control of the horse’s shoulder or line. It is penalized as disobedience and also costs time because the rider must circle and approach the obstacle again."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Сбивание копытом боковой стойки без падения жерди"
+          "text": "Knocking a side standard without dropping a rail"
         },
         {
           "id": "answer-02",
-          "text": "Нарушение правил экипировки перед началом турнира"
+          "text": "Breaking equipment rules before the competition"
         },
         {
           "id": "answer-03",
-          "text": "Уклонение лошади и пробегание мимо линии препятствия"
+          "text": "Avoiding the jump and passing outside the obstacle line"
         },
         {
           "id": "answer-04",
-          "text": "Падение всадника на землю после прыжка"
+          "text": "The rider falling after a jump"
         }
       ]
     },
     {
       "id": "question-25",
       "fields": {
-        "question": "За что в конкуре начисляют штрафные очки?",
-        "explanation": "В конкуре штрафные очки начисляются за любые технические ошибки, допущенные парой во время прохождения маршрута, а также за превышение установленного времени. Главная задача всадника — провести лошадь через все препятствия «чисто» (без разрушений) и уложиться в норму времени, определенную курсодизайнером. Каждое нарушение имеет фиксированную стоимость: например, за повал жерди или наступание в воду начисляется 4 штрафных очка, за первое неповиновение лошади (закидку или обнос) — также 4 очка, а за каждую секунду превышения нормы времени спортсмен получает штрафные баллы в зависимости от регламента турнира. Накапливание штрафных очков отдаляет пару от победы, так как при подведении итогов выигрывает тот, у кого их меньше всего."
+        "question": "What causes faults in show jumping?",
+        "explanation": "In show jumping, faults are given for technical errors during the round and for exceeding the time allowed. The rider’s aim is to complete every obstacle cleanly and within the prescribed time. Typical penalties include four faults for knocking down a rail or landing in a water jump, four faults for the first disobedience such as a refusal or run-out, and time penalties according to the rules of the class. The combination with the fewest faults ranks highest, with time used where appropriate."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "За слишком медленный шаг на разминке перед стартом"
+          "text": "Walking too slowly in the warm-up arena"
         },
         {
           "id": "answer-02",
-          "text": "За повалы, неповиновение лошади и превышение времени"
+          "text": "Knockdowns, disobedience, and exceeding the time allowed"
         },
         {
           "id": "answer-03",
-          "text": "За отсутствие ярких украшений на гриве коня"
+          "text": "Failing to decorate the horse’s mane brightly"
         },
         {
           "id": "answer-04",
-          "text": "За громкие подсказки тренера со зрительской трибуны"
+          "text": "A trainer shouting instructions from the spectator stands"
         }
       ]
     },
     {
       "id": "question-26",
       "fields": {
-        "question": "За что могут исключить из соревнований по конкуру?",
-        "explanation": "Исключение из соревнований по конкуру (дисквалификация на маршруте) происходит за грубые технические ошибки, повторное неповиновение лошади или нарушение правил безопасности и гуманного обращения с животным. В отличие от начисления штрафных очков, исключение означает немедленное прекращение выступления: всадник обязан покинуть арену по сигналу колокола судейской коллегии. Самыми частыми причинами для исключения являются падение всадника или лошади, повторная закидка или обнос барьера, а также прохождение препятствий в неверном порядке (нарушение схемы маршрута). Судьи также жестко наказывают исключением за чрезмерное или жестокое использование хлыста и шпор, обнаружение крови на теле лошади во время вет-контроля или за прыжок через препятствие до официального сигнала колокола, разрешающего старт."
+        "question": "What can lead to elimination in show jumping?",
+        "explanation": "Elimination in show jumping can result from serious technical errors, repeated disobedience, or breaches of safety and horse-welfare rules. Unlike ordinary faults, elimination ends the round immediately and the rider must leave the arena when instructed by the officials. Common causes include a fall of horse or rider, repeated refusal or run-out, and jumping obstacles in the wrong order. Excessive use of the whip or spurs, blood on the horse, or jumping before the official start signal can also result in elimination or disqualification under the applicable rules."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "За отказ всадника улыбаться судьям при въезде"
+          "text": "The rider failing to smile at the judges on entry"
         },
         {
           "id": "answer-02",
-          "text": "За использование уздечки коричневого цвета вместо черной"
+          "text": "Using a brown bridle instead of a black one"
         },
         {
           "id": "answer-03",
-          "text": "За слишком тихий галоп по прямой линии"
+          "text": "Cantering too quietly on a straight line"
         },
         {
           "id": "answer-04",
-          "text": "За падение, повторную закидку и нарушение схемы"
+          "text": "A fall, repeated refusal, or taking the course in the wrong order"
         }
       ]
     },
     {
       "id": "question-27",
       "fields": {
-        "question": "Что такое пассаж?",
-        "explanation": "Пассаж — это один из высших элементов классической выездки, представляющий собой очень собранный, грациозный и подчеркнуто ритмичный шаг на рыси. Во время выполнения пассажа лошадь двигается с максимальной концентрацией и сильным подведением задних ног под корпус, при этом каждый шаг сопровождается выразительным зависанием (фазой полета) в воздухе. Движения животного выглядят замедленными, пружинящими и танцевальными, а его передние ноги высоко и мягко поднимаются сгибаясь в суставах. Пассаж требует от лошади колоссальной физической силы, гибкости и идеального баланса, а от всадника — ювелирного, практически незаметного со стороны управления весом и шенкелями."
+        "question": "What is passage?",
+        "explanation": "Passage is an advanced dressage movement consisting of a very collected, elevated, and highly cadenced trot. The horse shows strong engagement of the hindquarters and a pronounced moment of suspension in each stride. The movement appears slow, springy, and expressive, with the forelegs lifting softly and rhythmically. Passage requires considerable strength, suppleness, balance, and extremely subtle aids from the rider."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Элемент вестерн-езды со скольжением на копытах"
+          "text": "A western maneuver involving a sliding stop"
         },
         {
           "id": "answer-02",
-          "text": "Стремительный бег лошади по кругу ипподрома"
+          "text": "A fast run around a racetrack"
         },
         {
           "id": "answer-03",
-          "text": "Грациозная рысь с выразительным зависанием в воздухе"
+          "text": "An elevated, cadenced trot with pronounced suspension"
         },
         {
           "id": "answer-04",
-          "text": "Прыжок через серию очень близких барьеров"
+          "text": "Jumping a series of very closely spaced fences"
         }
       ]
     },
     {
       "id": "question-28",
       "fields": {
-        "question": "Что такое перепрыжка?",
-        "explanation": "Перепрыжка — это решающий финальный этап соревнований по конкуру, который назначается для определения победителя, если несколько всадников прошли основной маршрут абсолютно чисто и набрали одинаковое количество штрафных очков. Для перепрыжки организаторы составляют укороченный маршрут, состоящий всего из 6–8 барьеров основного круга, но при этом высота препятствий может быть увеличена. В этом финальном раунде всадники едут на пределе возможностей, так как судейство ведется не только по чистоте прыжков, но и по времени: при равенстве штрафных очков побеждает тот, кто пересечет финишную черту быстрее всех. Спортсменам приходится идти на огромный риск, срезая углы на виражах и делая крутые повороты, чтобы сэкономить сотые доли секунды."
+        "question": "What is a jump-off?",
+        "explanation": "A jump-off is the deciding round in show jumping used when two or more combinations finish the main round on equal faults and a winner must be determined. The jump-off normally uses a shortened course made from selected fences from the original round, and some obstacles may be raised or widened. Riders compete for both accuracy and speed: if faults are equal, the fastest time wins. This encourages tighter turns and more economical lines."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Замена уставшей лошади на свежую всадником"
+          "text": "Changing from a tired horse to a fresh one"
         },
         {
           "id": "answer-02",
-          "text": "Разминочные прыжки на поле перед началом турнира"
+          "text": "Warm-up jumps before the competition"
         },
         {
           "id": "answer-03",
-          "text": "Сокращенный скоростной маршрут для определения победителя"
+          "text": "A shortened timed round used to determine the winner"
         },
         {
           "id": "answer-04",
-          "text": "Принудительный повторный прыжок из-за ошибки судей"
+          "text": "A compulsory repeat jump caused by a judging mistake"
         }
       ]
     },
     {
       "id": "question-29",
       "fields": {
-        "question": "За что начисляют штраф на кроссе?",
-        "explanation": "Штрафные очки на кроссе (полевых испытаниях в троеборье) начисляются за технические ошибки при преодолении препятствий, отказы лошади прыгать и за нарушение временных нормативов. Кросс — это самый экстремальный этап троеборья, где всадники на высокой скорости преодолевают массивные неразрушимые барьеры на пересеченной местности. Очки начисляются за первое неповиновение лошади (закидку или обнос барьера), за срабатывание разрушаемых систем безопасности (активируемые фриэнгл-клипсы), а также за каждую секунду превышения «оптимального времени» прохождения трассы. В отличие от конкура, за слишком медленную езду здесь наказывают очень строго, но штраф можно получить и за слишком опасную, чрезмерно быструю скачку, угрожающую здоровью животного."
+        "question": "What earns penalties on the cross-country phase?",
+        "explanation": "Cross-country penalties in eventing are given for errors at obstacles, disobedience, and time faults. The phase is ridden at speed over solid fences across varied terrain. Penalties may be incurred for a refusal or run-out, for activating a frangible safety device, and for exceeding the optimum time. Eventing rules also penalize riding that is excessively slow or dangerously fast when it compromises safety."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "За чрезмерно учащенное дыхание лошади во время галопа"
+          "text": "The horse breathing too rapidly while galloping"
         },
         {
           "id": "answer-02",
-          "text": "За использование седла без специальных элементов"
+          "text": "Using a saddle without special attachments"
         },
         {
           "id": "answer-03",
-          "text": "За неповиновение лошади, разрушение клипс и превышение времени"
+          "text": "Disobedience, activating a frangible device, and exceeding the time"
         },
         {
           "id": "answer-04",
-          "text": "За отсутствие у всадника защитной экипировки"
+          "text": "The rider not wearing protective equipment"
         }
       ]
     },
     {
       "id": "question-30",
       "fields": {
-        "question": "Что такое пируэт?",
-        "explanation": "Пируэт — это сложнейший элемент высшей школы верховой езды (выездки), при котором лошадь выполняет полный оборот на 360 градусов вокруг своей оси на галопе или шаге. Во время вращения задние ноги животного остаются практически на одном месте, совершая четкие ритмичные шаги и принимая на себя весь вес тела, в то время как передние ноги описывают плавный круг. Пируэт требует от лошади максимального сбора, феноменальной силы мышц спины и крупа, а также идеального баланса, чтобы не потерять ритм аллюра и не остановиться. Всадник должен ювелирно управлять своим весом и шенкелями, так как малейшая ошибка в координации может привести к потере равновесия или сбою в движении."
+        "question": "What is a pirouette?",
+        "explanation": "A pirouette is an advanced dressage movement in which the horse turns through 360 degrees, usually in canter or at walk, around a very small circle. The hindquarters remain strongly engaged and describe only a small circle while the forehand travels around them. The horse must maintain rhythm, balance, and collection throughout. The movement requires substantial strength and precise coordination of the rider’s weight, seat, and leg aids."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Высокий прыжок вперед с одновременным ударом копытами"
+          "text": "A high forward leap combined with striking out"
         },
         {
           "id": "answer-02",
-          "text": "Полный оборот лошади на 360 градусов на месте"
+          "text": "A complete 360-degree turn almost on the spot"
         },
         {
           "id": "answer-03",
-          "text": "Быстрое скольжение на задних ногах при остановке"
+          "text": "A fast sliding stop on the hind legs"
         },
         {
           "id": "answer-04",
-          "text": "Бег лошади по кругу на длинном шнуре"
+          "text": "Running in a circle on a long line"
         }
       ]
     },
     {
       "id": "question-31",
       "fields": {
-        "question": "За что исключают на кроссе?",
-        "explanation": "Исключение из соревнований на этапе кросса (в троеборье) происходит за опасную езду, падения, повторные отказы лошади или грубые нарушения правил гуманного обращения с животным. Поскольку кросс является самой опасной дисциплиной конного спорта, судейская коллегия и ветеринары следят за безопасностью максимально строго. Всадника немедленно дисквалифицируют за падение самого спортсмена или его лошади, за три закидки (обноса) на всей дистанции или за две закидки на одном конкретном препятствии. Также пару снимут за пропуск барьера, движение в неверном направлении, явную хромоту лошади от усталости или за чрезмерное использование хлыста, шпор и опасную скорость, которая подвергает жизнь животного неоправданному риску."
+        "question": "What can lead to elimination on cross-country?",
+        "explanation": "Elimination on the cross-country phase of eventing can result from dangerous riding, falls, repeated disobedience, or serious breaches of horse-welfare rules. Because cross-country carries significant risk, officials and veterinarians monitor safety closely. A fall, repeated refusals or run-outs, missing an obstacle, taking the wrong direction, obvious lameness, excessive use of the whip or spurs, or riding at a dangerously inappropriate speed may all end the combination’s participation under the applicable rules."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "За падение, три закидки и опасную езду"
+          "text": "A fall, three refusals, or dangerous riding"
         },
         {
           "id": "answer-02",
-          "text": "За потерю подковы на трассе, падение и одну закидку"
+          "text": "Losing a shoe on course, a fall, and one refusal"
         },
         {
           "id": "answer-03",
-          "text": "За падение и одну закидку"
+          "text": "A fall and one refusal"
         },
         {
           "id": "answer-04",
-          "text": "За неповиновение лошади, падение и одну закидку"
+          "text": "Any disobedience, a fall, and one refusal"
         }
       ]
     },
     {
       "id": "question-32",
       "fields": {
-        "question": "Что такое КЮР?",
-        "explanation": "КЮР (произвольная программа) — это самый зрелищный и артистичный вид соревнований в выездке, в котором всадник выполняет обязательный набор сложнейших элементов под самостоятельно выбранную музыкальную фонограмму. В отличие от стандартных схем, где порядок движений строго определен правилами, в КЮРе спортсмен сам составляет композицию (хореографию) выступления, стараясь максимально подчеркнуть достоинства своей лошади и скрыть ее возможные недостатки. Судьи выставляют две группы оценок: техническую (за точность и правильность выполнения элементов высшей школы) и артистическую, где оцениваются музыкальное сопровождение, гармония между человеком и животным, оригинальность маршрута и попадание движений лошади в ритм музыки."
+        "question": "What is a dressage freestyle?",
+        "explanation": "A dressage freestyle is an artistic test in which the rider performs a required set of movements to self-selected music. Unlike a standard test, where the order of movements is fixed, the rider designs the choreography to highlight the horse’s strengths. Judges award both technical marks for the execution of required movements and artistic marks for factors such as music, harmony, choreography, and how well the horse’s movement matches the soundtrack."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Специальный костюм всадника для соревнований"
+          "text": "A special competition outfit for the rider"
         },
         {
           "id": "answer-02",
-          "text": "Произвольная программа в выездке под музыку"
+          "text": "A dressage program ridden to music with individual choreography"
         },
         {
           "id": "answer-03",
-          "text": "Прибор для измерения пульса лошадей на соревнованиях"
+          "text": "A device for measuring a horse’s pulse at competitions"
         },
         {
           "id": "answer-04",
-          "text": "Финальный скоростной заезд на ипподроме"
+          "text": "The final speed race at a racetrack"
         }
       ]
     },
     {
       "id": "question-33",
       "fields": {
-        "question": "Что такое Большой приз?",
-        "explanation": "Большой приз (Grand Prix) — это высший международный уровень соревнований по выездке, который представляет собой вершину мастерства в обучении лошади и ее взаимодействия с всадником. Схема этой программы включает в себя обязательное выполнение самых сложных и энергоемких элементов высшей школы верховой езды, таких как пиаффе, пассаж, пируэты на галопе и менка ног в один темп на прямой линии. На этом уровне судьи оценивают не просто точность выполнения движений, а абсолютное послушание животного, его гибкость, атлетизм и гармонию с человеком, при которой управление со стороны всадника должно казаться зрителям совершенно незаметным."
+        "question": "What is the Grand Prix in dressage?",
+        "explanation": "Grand Prix is the highest international level of dressage competition and represents the culmination of advanced horse training and partnership. The test requires the most demanding movements of upper-level dressage, including piaffe, passage, canter pirouettes, and one-tempi flying changes. Judges assess not only technical accuracy but also suppleness, athleticism, obedience, and harmony, with the rider’s aids expected to appear almost invisible."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Название массивного золотого кубка в конкуре"
+          "text": "The name of a large gold trophy in show jumping"
         },
         {
           "id": "answer-02",
-          "text": "Специальный приз за самое красивое плетение гривы"
+          "text": "A special prize for the best braided mane"
         },
         {
           "id": "answer-03",
-          "text": "Высший международный уровень соревнований по выездке"
+          "text": "The highest international level of dressage competition"
         },
         {
           "id": "answer-04",
-          "text": "Главная награда для лучшего жокея ипподрома"
+          "text": "The main award for the best jockey at a racetrack"
         }
       ]
     },
     {
       "id": "question-34",
       "fields": {
-        "question": "Что такое Малый приз?",
-        "explanation": "Малый приз (Prix St. Georges) — это международный уровень соревнований по выездке, который открывает так называемые «малые езды» и служит важным переходным этапом для молодых лошадей и всадников перед выходом на уровень Большого приза. Программа Малого приза включает в себя сложные элементы средней школы верховой езды, такие как пируэты на шагу, полупируэты на галопе, принимания на рыси и галопе, а также серии менок ног в воздухе в три и четыре темпа. Эти соревнования позволяют судьям оценить правильность базовой подготовки лошади, её гибкость, повиновение, легкость движений и готовность к переходу к более тяжелым физическим нагрузкам высшей школы."
+        "question": "What is Prix St. Georges?",
+        "explanation": "Prix St. Georges is an international dressage level that marks the beginning of the small-tour classes and serves as an important transition toward Grand Prix work. The test includes advanced movements such as walk pirouettes, canter half-pirouettes, half-pass in trot and canter, and sequences of flying changes. It allows judges to assess the correctness of the horse’s training, suppleness, obedience, ease of movement, and readiness for more physically demanding work."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Начальный международный уровень соревнований по выездке"
+          "text": "An introductory international level of advanced dressage competition"
         },
         {
           "id": "answer-02",
-          "text": "Специальная награда для самых юных всадников"
+          "text": "A special award for the youngest riders"
         },
         {
           "id": "answer-03",
-          "text": "Название маленькой золотой медали в троеборье"
+          "text": "The name of a small gold medal in eventing"
         },
         {
           "id": "answer-04",
-          "text": "Утешительный кубок за последнее место на турнире"
+          "text": "A consolation trophy for last place"
         }
       ]
     },
     {
       "id": "question-35",
       "fields": {
-        "question": "Что такое стипль-чез?",
-        "explanation": "Стипль-чез — это один из самых экстремальных и опасных видов конных скачек, проходящий на специальных ипподромных дорожках или пересеченной местности с массивными препятствиями. В отличие от гладких скачек, где лошади просто бегут на скорость, участники стипль-чеза преодолевают тяжелые неразрушимые барьеры: живые изгороди высотой до полутора метров, каменные заборы, глубокие рвы с водой и земляные валы. Дистанция таких соревнований обычно составляет от 4 до 7 километров, что требует от скаковых лошадей феноменальной выносливости, прыгучести и смелости. Из-за огромной скорости движения и жесткости барьеров стипль-чез часто сопровождается зрелищными, но опасными падениями, поэтому к участию допускаются только самые опытные жокеи и специально подготовленные лошади."
+        "question": "What is steeplechasing?",
+        "explanation": "Steeplechasing is a form of horse racing over fixed obstacles on a racecourse or across country. Unlike flat racing, horses must jump solid fences such as hedges, rails, ditches, and water obstacles while maintaining racing speed over a considerable distance. The sport demands stamina, jumping ability, and courage from the horse, as well as experience and judgment from the jockey."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Фигурная езда под музыку в закрытом манеже"
+          "text": "Pattern riding to music in an indoor arena"
         },
         {
           "id": "answer-02",
-          "text": "Скоростные скачки с преодолением массивных неподвижных препятствий"
+          "text": "High-speed racing over solid fixed obstacles"
         },
         {
           "id": "answer-03",
-          "text": "Командная игра с мячом и бамбуковыми клюшками"
+          "text": "A team game with a ball and mallets"
         },
         {
           "id": "answer-04",
-          "text": "Обучение диких жеребцов базовым командам человека"
+          "text": "Training wild stallions to obey basic commands"
         }
       ]
     },
     {
       "id": "question-36",
       "fields": {
-        "question": "Что такое конное многоборье TREC?",
-        "explanation": "Конное многоборье TREC (соревнования по технике конного туризма) — это уникальная прикладная дисциплина, созданная для проверки навыков всадника и лошади в условиях длительного автономного похода по дикой местности. Данный вид спорта зародился во Франции с целью оценки квалификации конных гидов и путешественников, а сама аббревиатура расшифровывается как Techniques de Randonnée Équestre de Compétition. Состязания обычно длятся два дня и состоят из трех независимых фаз: длинной дистанции с ориентированием по карте и компасу (POR), контроля аллюров для демонстрации послушания лошади (MA) и прохождения полосы из 16 естественных или имитированных препятствий, таких как мосты, ветки, крутые спуски или броды (PTV). TREC считается одной из самых демократичных дисциплин, поскольку в ней не важна элитная порода или высокий прыжок лошади — ключевую роль играют полное взаимопонимание в паре, выносливость и умение всадника выживать в полевых условиях."
+        "question": "What is TREC?",
+        "explanation": "TREC, from the French Techniques de Randonnée Équestre de Compétition, is a practical equestrian sport designed to test the skills of horse and rider during long-distance trail travel. It developed in France from the training and assessment of equestrian guides. Competitions typically include three phases: POR, an orienteering route using map and compass; MA, control of paces; and PTV, a course of natural or simulated trail obstacles such as bridges, low branches, steep slopes, and water crossings. Success depends less on breed or jumping height than on partnership, stamina, practical riding skills, and navigation."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Игра деревянными клюшками в составе большой команды"
+          "text": "A large-team game played with wooden mallets"
         },
         {
           "id": "answer-02",
-          "text": "Выполнение акробатических и гимнастических трюков на галопе"
+          "text": "Performing acrobatic and gymnastic tricks at the gallop"
         },
         {
           "id": "answer-03",
-          "text": "Соревнования по технике конного туризма и ориентированию"
+          "text": "A competition in trail-riding skills and orienteering"
         },
         {
           "id": "answer-04",
-          "text": "Скоростные гладкие скачки чистокровных лошадей по кругу"
+          "text": "Flat racing of Thoroughbreds around a track"
         }
       ]
     },
     {
       "id": "question-37",
       "fields": {
-        "question": "Что такое скиджоринг?",
-        "explanation": "Скиджоринг — это экстремальный зимний вид спорта, в котором лыжник перемещается по снежной трассе за счет тягловой силы движущейся впереди лошади. Исторически этот метод использовался жителями северных стран как практичный способ перемещения в зимнее время, но сегодня он превратился в зрелищную спортивную дисциплину. Лошадью может управлять как сам лыжник с помощью длинных вожжей, так и отдельный всадник, находящийся в седле, пока спортсмен на лыжах держится за буксировочный трос. Соревнования по конному скиджорингу проходят на скорость по заснеженным трассам, которые часто усложняют трамплинами, слаломными воротами и специальными кольцами, которые лыжник должен поймать на ходу копьем."
+        "question": "What is equestrian skijoring?",
+        "explanation": "Equestrian skijoring is a winter sport in which a skier is pulled along a snowy course by a horse. Historically, similar systems were used for winter transport in northern regions, but today skijoring is a competitive sport. The horse may be ridden by a separate rider or, in some formats, controlled by the skier with long reins while the skier holds a towline. Courses can include jumps, slalom gates, and rings that the skier must collect while traveling at speed."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Прыжки в воду верхом на лошади"
+          "text": "Jumping into water on horseback"
         },
         {
           "id": "answer-02",
-          "text": "Буксировка лыжника за скачущей лошадью"
+          "text": "Towing a skier behind a galloping horse"
         },
         {
           "id": "answer-03",
-          "text": "Фигурная езда на санях по городу"
+          "text": "Decorative sleigh driving through a city"
         },
         {
           "id": "answer-04",
-          "text": "Очистка копыт от зимнего льда"
+          "text": "Removing winter ice from a horse’s hooves"
         }
       ]
     },
     {
       "id": "question-38",
       "fields": {
-        "question": "За что могут исключить из соревнований по выездке?",
-        "explanation": "Исключение из соревнований по выездке происходит за грубые технические ошибки, хромоту или проблемы со здоровьем лошади, а также за жестокое обращение с животным и неспортивное поведение всадника. Выездка — это самая строгая и консервативная дисциплина, где оценивается идеальная гармония пары, поэтому любые проявления сопротивления или травмы наказываются незамедлительно. Спортсмена снимут с турнира при обнаружении следов крови на теле лошади (правило Blood Rule), при явной аритмии или хромоте на шагу и рыси, а также если лошадь выйдет за пределы манежа всеми четырьмя копытами во время теста. Кроме того, причиной для дисквалификации станет падение всадника или лошади, отставание от графика старта после сигнала колокола более чем на 45 секунд, использование запрещенного снаряжения или грубое неповиновение животного, длящееся непрерывно более 20 секунд."
+        "question": "What can lead to elimination in dressage?",
+        "explanation": "Elimination from a dressage competition can result from serious technical errors, lameness or other health concerns, horse abuse, or unsportsmanlike conduct. Dressage rules place strong emphasis on welfare and correct performance. Reasons may include visible blood on the horse under the applicable blood rule, clear lameness, leaving the arena with all four feet during the test, a fall of horse or rider, failing to enter within the required time after the bell, prohibited equipment, or prolonged resistance by the horse."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "За неповиновение лошади"
+          "text": "Disobedience by the horse"
         },
         {
           "id": "answer-02",
-          "text": "За отказ всадника использовать хлыст и мундштук"
+          "text": "The rider choosing not to use a whip and double bridle"
         },
         {
           "id": "answer-03",
-          "text": "За кровь, хромоту, падение и выезд за манеж"
+          "text": "Blood, lameness, a fall, or leaving the arena"
         },
         {
           "id": "answer-04",
-          "text": "За выезд за манеж и гарцевание лошади"
+          "text": "Leaving the arena or the horse showing off"
         }
       ]
     },
     {
       "id": "question-39",
       "fields": {
-        "question": "Что такое полуодержка?",
-        "explanation": "Полуодержка — это один из самых важных и часто используемых сигналов управления в верховой езде, который представляет собой кратковременное, почти незаметное для окружающих воздействие всадника на лошадь. Она выполняется за счет одновременного кратковременного сжатия пальцев на поводьях, напряжения мышц поясницы и воздействия шенкелей (ног всадника). Суть полуодержки заключается не в том, чтобы остановить лошадь, а в том, чтобы привлечь ее внимание, перенести вес тела назад на сильные задние ноги (улучшить баланс) и подготовить животное к выполнению следующей команды, например, к переходу на другой аллюр, повороту или прыжку через барьер. Опытные всадники сравнивают полуодержку с запятой в предложении, которая разделяет фразы, но не останавливает текст."
+        "question": "What is a half-halt?",
+        "explanation": "A half-halt is one of the most important and frequently used riding aids. It is a brief, subtle coordination of the rider’s rein, seat, core, and leg aids. Its purpose is not to stop the horse, but to rebalance it, bring its attention back to the rider, encourage more weight to shift toward the hindquarters, and prepare for the next movement, transition, turn, or jump. Experienced riders often compare a half-halt to a comma in a sentence: it organizes what comes next without bringing everything to a stop."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Наказание лошади за неповиновение на тренировке"
+          "text": "Punishing a horse for disobedience during training"
         },
         {
           "id": "answer-02",
-          "text": "Специальное кожаное приспособление для фиксации головы"
+          "text": "A special leather device used to fix the horse’s head"
         },
         {
           "id": "answer-03",
-          "text": "Кратковременный сигнал для улучшения баланса лошади"
+          "text": "A brief aid used to rebalance and prepare the horse"
         },
         {
           "id": "answer-04",
-          "text": "Полная принудительная остановка коня с галопа"
+          "text": "A complete forced stop from the gallop"
         }
       ]
     },
     {
       "id": "question-40",
       "fields": {
-        "question": "Что такое контрперемена на зигзаге?",
-        "explanation": "Контрперемена на зигзаге — это сложный элемент высших программ выездки, который представляет собой серию последовательных приниманий (движений боком) попеременно в левую и в правую сторону. Этот элемент выполняется на галопе по средней линии манежа, при этом лошадь должна смещаться вбок на строго определенное правилами количество шагов (например, по 3 или 6 темпов), после чего всадник меняет направление движения. Главная сложность зигзага заключается в том, что в моменты смены траектории всадник выполняет менку, а сама лошадь должна сохранять идеальный ритм, постоянный угол сгибания корпуса и плавность переходов. Судьи оценивают симметричность левых и правых отрезков, а также абсолютную легкость и четкость движений животного при столь частой смене направлений."
+        "question": "What is a zigzag half-pass?",
+        "explanation": "A zigzag half-pass, also called a counter-change of hand in zigzag, is an advanced dressage exercise consisting of successive half-passes alternately to the left and right. In canter, the horse moves sideways for a prescribed number of strides before changing direction, with a flying change performed as required when the direction changes. The challenge is to preserve rhythm, bend, balance, and fluency throughout. Judges assess the symmetry of the left and right sections as well as the lightness and precision of the transitions."
       },
       "answers": [
         {
           "id": "answer-01",
-          "text": "Способ расчистки копыт по специальной схеме"
+          "text": "A hoof-trimming method based on a special pattern"
         },
         {
           "id": "answer-02",
-          "text": "Зигзагообразный прыжок через три параллельных барьера"
+          "text": "A zigzag jump over three parallel fences"
         },
         {
           "id": "answer-03",
-          "text": "Серия попеременных приниманий с менкой ног"
+          "text": "A series of alternating half-passes with flying changes"
         },
         {
           "id": "answer-04",
-          "text": "Резкий разворот на месте на галопе"
+          "text": "A sharp turn on the spot at the gallop"
         }
       ]
     }
