@@ -1,7 +1,7 @@
 {
   "format_version": 1,
   "translation_instructions": "Translate only textual values into natural English using established equestrian, veterinary, and genetic terminology. Do not change JSON keys, IDs, structure, order, slugs, technical values, or add/remove elements. Do not translate tags. Preserve the meaning and correctness of every question and return valid JSON.",
-  "status": "pending",
+  "status": "imported",
   "source_quiz": "complicated-colors",
   "target_quiz": "complicated-colors-en",
   "source_revision": "d1edc11f471117a071dd596b88194cfae6e4f32adcd14b2ea2d590ee2dfc899c",
